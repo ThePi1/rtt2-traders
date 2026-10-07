@@ -1,5 +1,5 @@
 {
-	"69f2cc7ed59fdbab1391cce5": {
+    "69f2cc7ed59fdbab1391cce5": {
         "QuestName": "My Muse",
         "_id": "69f2cc7ed59fdbab1391cce5",
         "acceptPlayerMessage": "69f2cc7ed59fdbab1391cce5 acceptPlayerMessage",
@@ -18,7 +18,7 @@
                     "globalQuestCounterId": "",
                     "id": "69f2cce2d59fdbab1391cce9",
                     "index": 0,
-                    "inEncoded": false,
+                    "isEncoded": false,
                     "onlyFoundInRaid": false,
                     "parentId": "",
                     "target": [
@@ -34,7 +34,7 @@
                     "globalQuestCounterId": "",
                     "id": "69f2cce8d59fdbab1391ccea",
                     "index": 0,
-                    "inEncoded": false,
+                    "isEncoded": false,
                     "onlyFoundInRaid": false,
                     "parentId": "",
                     "target": [
@@ -45,7 +45,7 @@
                 }
             ],
             "AvailableForStart": [
-				{
+                {
                     "availableAfter": 0,
                     "conditionType": "Quest",
                     "dispersion": 0,
@@ -60,7 +60,7 @@
                     "target": "69f2cb5f01fd39ae97fc0277",
                     "visibilityConditions": []
                 }
-			],
+            ],
             "Fail": []
         },
         "declinePlayerMessage": "69f2cc7ed59fdbab1391cce5 declinePlayerMessage",

@@ -1,5 +1,5 @@
 {
-	"69f2c9c8baa27486f24e1267": {
+    "69f2c9c8baa27486f24e1267": {
         "QuestName": "My Paradise",
         "_id": "69f2c9c8baa27486f24e1267",
         "acceptPlayerMessage": "69f2c9c8baa27486f24e1267 acceptPlayerMessage",
@@ -23,11 +23,11 @@
                                     "Buffs_Obdolbos"
                                 ]
                             },
-							{
-								"conditionType": "Kills",
-								"id": "69f2cb3aacc27486f24e126c",
-								"target": "AnyPmc"
-							}
+                            {
+                                "conditionType": "Kills",
+                                "id": "69f2cb3aacc27486f24e126c",
+                                "target": "AnyPmc"
+                            }
                         ],
                         "id": "69f2cb3cbaa27486f24e126d"
                     },
@@ -46,7 +46,7 @@
                 }
             ],
             "AvailableForStart": [
-				{
+                {
                     "availableAfter": 0,
                     "conditionType": "Quest",
                     "dispersion": 0,
@@ -61,7 +61,7 @@
                     "target": "69f2c5c43a52d68c927c3264",
                     "visibilityConditions": []
                 }
-			],
+            ],
             "Fail": []
         },
         "declinePlayerMessage": "69f2c9c8baa27486f24e1267 declinePlayerMessage",
@@ -116,7 +116,7 @@
         "traderId": "69744632183b55cf9702c987",
         "type": "Completion"
     },
-	"69f2cb5f01fd39ae97fc0277": {
+    "69f2cb5f01fd39ae97fc0277": {
         "QuestName": "My Cherry",
         "_id": "69f2cb5f01fd39ae97fc0277",
         "acceptPlayerMessage": "69f2cb5f01fd39ae97fc0277 acceptPlayerMessage",
@@ -135,7 +135,7 @@
                     "globalQuestCounterId": "",
                     "id": "69f2cbee01fd39ae97fc0280",
                     "index": 0,
-                    "inEncoded": false,
+                    "isEncoded": false,
                     "onlyFoundInRaid": false,
                     "parentId": "",
                     "target": [
@@ -151,7 +151,7 @@
                     "globalQuestCounterId": "",
                     "id": "69f2cc5401fd39ae97fc0281",
                     "index": 0,
-                    "inEncoded": false,
+                    "isEncoded": false,
                     "onlyFoundInRaid": false,
                     "parentId": "",
                     "target": [
@@ -162,7 +162,7 @@
                 }
             ],
             "AvailableForStart": [
-				{
+                {
                     "availableAfter": 0,
                     "conditionType": "Quest",
                     "dispersion": 0,
@@ -177,7 +177,7 @@
                     "target": "69f2c9c8baa27486f24e1267",
                     "visibilityConditions": []
                 }
-			],
+            ],
             "Fail": []
         },
         "declinePlayerMessage": "69f2cb5f01fd39ae97fc0277 declinePlayerMessage",
