@@ -1,85 +1,70 @@
-﻿using Comfort.Communication;
-using EFT;
-using EFT.Hideout;
-using EFT.UI;
-using EFT.UI.Chat;
-using Microsoft.AspNetCore.Routing.Matching;
-using Microsoft.VisualBasic;
-using SPTarkov.Common.Extensions;
+﻿using SPTarkov.Common.Models.Logging;
 using SPTarkov.DI.Annotations;
-using SPTarkov.Server.Core.Constants;
 using SPTarkov.Server.Core.DI;
 using SPTarkov.Server.Core.Extensions;
-using SPTarkov.Server.Core.Helpers;
-using SPTarkov.Server.Core.Models.Common;
-using SPTarkov.Server.Core.Models.Eft.Common;
+using SPTarkov.Server.Core.Helpers.Server;
 using SPTarkov.Server.Core.Models.Eft.Common.Tables;
-using SPTarkov.Server.Core.Models.Eft.Profile;
 using SPTarkov.Server.Core.Models.Enums;
-using SPTarkov.Server.Core.Models.Logging;
 using SPTarkov.Server.Core.Models.Spt.Config;
 using SPTarkov.Server.Core.Models.Spt.Mod;
-using SPTarkov.Server.Core.Models.Spt.Server;
-using SPTarkov.Server.Core.Models.Utils;
+using SPTarkov.Server.Core.Models.Spt.Tables;
 using SPTarkov.Server.Core.Routers;
-using SPTarkov.Server.Core.Servers;
-using SPTarkov.Server.Core.Services;
-using SPTarkov.Server.Core.Services.Mod;
 using SPTarkov.Server.Core.Utils;
 using SPTarkov.Server.Core.Utils.Json;
-using SPTarkov.Server.Core.Utils.Json.Converters;
 using System;
 using System.Collections.Generic;
-using System.ComponentModel.DataAnnotations.Schema;
-using System.Data.Common;
 using System.Diagnostics;
-using System.IO;
 using System.Linq;
-using System.Net;
 using System.Reflection;
-using System.Reflection.Metadata.Ecma335;
+using System.Threading;
 using System.Threading.Tasks;
-using UnityEngine.Assertions;
-using WTTServerCommonLib.Models;
-using static RenderQueue;
+using Color = Spectre.Console.Color;
 using Path = System.IO.Path;
 using Range = SemanticVersioning.Range;
 
 namespace rtt2traders;
-//[BepInDependency("com.wtt.commonlib")]
-public record ModMetadata : AbstractModMetadata
+public record ModMetadata : IModMetadata
 {
-    public override string ModGuid { get; init; } = "com.rtt2traderteam.rtt2traders";
-    public override string Name { get; init; } = "RTT2 Traders";
-    public override string Author { get; init; } = "RTT 2 Trader Team";
-    public override SemanticVersioning.Version Version { get; init; } = new("1.0.0");
-    public override Range SptVersion { get; init; } = new("~4.0.0");
-    public override string License { get; init; } = "MIT";
-    public override bool? IsBundleMod { get; init; } = true;
-    public override Dictionary<string, Range>? ModDependencies { get; init; } = new()
+    public string ModGuid { get; init; } = "com.rtt2traderteam.rtt2traders";
+    public string Name { get; init; } = "RTT2 Traders";
+    public string Author { get; init; } = "RTT 2 Trader Team";
+    public SemanticVersioning.Version Version { get; init; } = new("1.0.0");
+    public Range SptVersion { get; init; } = new("~4.1.6");
+    public string License { get; init; } = "MIT";
+    public bool HasPrepatcher { get; init; } = false;
+    public Dictionary<string, Range>? ModDependencies { get; init; } = new()
     {
-        { "com.wtt.commonlib", new Range("~2.0.20") }
+        { "com.wtt.commonlib", new Range("~3.0.6") }
     };
-    public override string? Url { get; init; }
-    public override List<string>? Contributors { get; init; }
-    public override List<string>? Incompatibilities { get; init; }
+    public string? Url { get; init; }
+    public List<string>? Contributors { get; init; }
+    public List<string>? Incompatibilities { get; init; }
 }
 
-[Injectable(TypePriority = OnLoadOrder.PostDBModLoader + 90020)] // DynamicMaps is 90000 and this conflicts with (at least) that
+// Runs after trader mods that register at TraderRegistration + 1 (e.g. DynamicMaps, which adds map items to Therapist's assort),
+// so their items are already in assorts when we remove traders. Still before profiles (SaveCallbacks) and the flea (RagfairCallbacks) load.
+[Injectable(TypePriority = OnLoadOrder.TraderRegistration + 90020)]
 public class rtt2trader(
     ModHelper modHelper,
     ImageRouter imageRouter,
-    ConfigServer configServer,
     ISptLogger<rtt2trader> logger,
     TimeUtil timeUtil,
-    DatabaseService databaseService,
+    TradersTable tradersTable,
+    TemplateTable templateTable,
+    LocaleTable localeTable,
+    HideoutTable hideoutTable,
+    BotTable botTable,
+    TraderConfig traderConfig,
+    RagfairConfig ragfairConfig,
+    QuestConfig questConfig,
+    GiftsConfig giftsConfig,
     AddCustomTraderHelper addCustomTraderHelper,
     WTTServerCommonLib.WTTServerCommonLib wttCommon
 ) : IOnLoad
 {
 
-    private readonly TraderConfig _traderConfig = configServer.GetConfig<TraderConfig>();
-    private readonly RagfairConfig _ragfairConfig = configServer.GetConfig<RagfairConfig>();
+    private readonly TraderConfig _traderConfig = traderConfig;
+    private readonly RagfairConfig _ragfairConfig = ragfairConfig;
     private static readonly string[] TradersToRemove =  [
                                                         "54cb50c76803fa8b248b4571","6617beeaa9cfa777ca915b7c",
                                                         "54cb57776803fa99248b456e","58330581ace78e27b8b10cee",
@@ -96,7 +81,7 @@ public class rtt2trader(
                                                         "5ac3b934156ae10c4430e83c"
                                                         ];
     private HashSet<string> VanillaItems;
-    public async Task OnLoad()
+    public async Task OnLoadAsync(CancellationToken cancellationToken)
     {
         var clock = Stopwatch.StartNew();
 
@@ -223,7 +208,7 @@ public class rtt2trader(
         editTraders(); // begins our trader modifications and deletions
         priestLoot(); //edit priest loot.
         //This just for fun.
-        logger.LogWithColor("RTT2 has completed all steps!",LogTextColor.Blue,LogBackgroundColor.Black);
+        logger.LogWithColor("RTT2 has completed all steps!",Color.Blue,Color.Black);
 
         // Send back a success to the server to say our trader is good to go
         addModdedWeaponToQuests(weapQuestList);
@@ -235,7 +220,7 @@ public class rtt2trader(
     private void debugListQuests()
     {
         Console.WriteLine("Current quests:");
-        var newquests = databaseService.GetTables().Templates.Quests;
+        var newquests = templateTable.Quests;
         foreach (var quest in newquests.ToList())
         {
             Console.WriteLine(quest.Value.QuestName);
@@ -243,7 +228,7 @@ public class rtt2trader(
     }
     private void removeQuests()
     {
-        var quests = databaseService.GetTables().Templates.Quests; // grabs the quest table
+        var quests = templateTable.Quests; // grabs the quest table
         int removeCounter = 0;
         foreach(var quest in quests.ToList())
         { //This removes all quests minus repeatables to ensure nothing tries to call a removed trader.
@@ -256,7 +241,7 @@ public class rtt2trader(
     }
     private void addPlate()
     {
-        var itemTable = databaseService.GetTables().Templates.Items;
+        var itemTable = templateTable.Items;
         var plateToAdd = "69d44b9ec379dcfd2bf8de40";
 
         foreach (var item in itemTable)
@@ -287,7 +272,7 @@ public class rtt2trader(
 
     private void editTraders()
     {
-        var traders = databaseService.GetTables().Traders;
+        var traders = tradersTable;
 
         foreach (var trader in traders)
         {
@@ -316,8 +301,8 @@ public class rtt2trader(
     private void moddedTraders(string trader) // modded trader support to add modded items to Laptop
     {                       //may have to rework again :'( as this would cull any QOL trader mods++
         
-        var laptopApparel = databaseService.GetTrader("5ac3b934156ae10c4430e83c").Suits;
-        var moddedApparel = databaseService.GetTrader(trader).Suits;
+        var laptopApparel = tradersTable.GetTrader("5ac3b934156ae10c4430e83c").Suits;
+        var moddedApparel = tradersTable.GetTrader(trader).Suits;
 
         if (moddedApparel != null)
         {
@@ -344,9 +329,9 @@ public class rtt2trader(
 
         moddedItemGrabber(trader);
 
-        var traders = databaseService.GetTables().Traders; // grabs trader table
+        var traders = tradersTable; // grabs trader table
         var ragFairTraders = _ragfairConfig.Traders; // grabs traders ids and their assorts on flea
-        var repeatQuestConfigs = configServer.GetConfig<QuestConfig>().RepeatableQuests; // grabs our SPT config that houses repeatable quests
+        var repeatQuestConfigs = questConfig.RepeatableQuests; // grabs our SPT config that houses repeatable quests
 
         traders.Remove(trader); // remove the passed trader from database
         ragFairTraders.Remove(trader); //removes the passed trader barters from FLEA
@@ -366,7 +351,7 @@ public class rtt2trader(
     }
     private void priestLoot()
     {
-        var bots = databaseService.GetBots();
+        var bots = botTable;
         bots.Types.TryGetValue("sectantpriest", out var priest); //grab priest and create var if it exists
         
         if (priest.BotChances.EquipmentChances.ContainsKey("TacticalVest"))
@@ -383,8 +368,8 @@ public class rtt2trader(
 
     private void editRagman(string modPath)
     {
-        var traders = databaseService.GetTrader("5ac3b934156ae10c4430e83c");
-        databaseService.GetTables().Locales.Global["en"].AddTransformer(locale =>
+        var traders = tradersTable.GetTrader("5ac3b934156ae10c4430e83c");
+        localeTable.Global["en"].AddTransformer(locale =>
             { //due to how Locales load we use a transformer to catch our locale and make the required changes
                 if (locale == null) return locale; //if our locale doesnt load do nothing
 
@@ -407,9 +392,9 @@ public class rtt2trader(
         
 
         traders.Base.Avatar = "/files/trader/avatar/laptop.jpg"; //set our new trader image in trader table
-        imageRouter.AddRoute("/files/trader/avatar/laptop", "./user/mods/rtt2/data/laptop.jpg"); 
-        //this is very similiar to how the modded trader images are routed but we skip the steps of merging the 
-        //mod path and the image names by simply sending our chosen key and value.
+        imageRouter.AddRoute("/files/trader/avatar/laptop", Path.Combine(modPath, "data/laptop.jpg")); 
+        //this is very similiar to how the modded trader images are routed but we send our chosen key directly
+        //instead of deriving it from the trader base. Uses the mod folder path so it works whatever the folder is named.
 
         var assort = modHelper.GetJsonDataFromFile<TraderAssort>(modPath, "data/laptop-assort.json");
         traders.Assort = assort; //overwrites ragmans assort to our modded assort.
@@ -428,7 +413,7 @@ public class rtt2trader(
 
     private void hideoutChanges() //sets all LL req. for hideout upgrades to Chimera
     {
-        var hideout = databaseService.GetTables().Hideout.Areas;
+        var hideout = hideoutTable.Areas;
 
         foreach (var station in hideout)
         {
@@ -444,7 +429,7 @@ public class rtt2trader(
 
     private void giftChanges()
     {
-        var gifts = configServer.GetConfig<GiftsConfig>().Gifts;
+        var gifts = giftsConfig.Gifts;
 
         foreach (var gift in gifts)
         {
@@ -454,14 +439,14 @@ public class rtt2trader(
 
     private void achievementChanges()
     {
-        var achievements = databaseService.GetTemplates().Achievements;
+        var achievements = templateTable.Achievements;
         foreach (var achievement in achievements)
         {
             foreach (var reward in achievement.Rewards)
             {
                 if(reward.TraderId != null)
                 {
-                    reward.TraderId = "69744632183b55cf9702c981";
+                    reward.TraderId = new StringOrInt("69744632183b55cf9702c981", null);
                 }
             }
         }
@@ -482,7 +467,7 @@ public class rtt2trader(
     {
         if (weapQuest == null) return;
         
-        var items = databaseService.GetTables().Templates.Items;
+        var items = templateTable.Items;
         foreach (var (catagory, qIDs) in weapQuest) //grab parent id and list of quests to change
         {
             var moddedWeap = items.Values.Where(item => !VanillaItems.Contains(item.Id) && item.Parent == catagory).ToList(); //check if weapon is modded and is in our catagory
@@ -491,7 +476,7 @@ public class rtt2trader(
                 
             foreach (var questId in qIDs) //run through each quest listed in in WeaponQuestCat.json
             {
-                var quests = databaseService.GetTables().Templates.Quests;
+                var quests = templateTable.Quests;
                 if(!quests.TryGetValue(questId, out var quest)) //if quest doesnt exist continue
                 {
                     //logger.Warning("Quest: " + quest.Name + " not found\n");
@@ -527,8 +512,8 @@ public class rtt2trader(
     }
     private void moddedItemGrabber(string trader)
     {
-        var assort = databaseService.GetTrader("5ac3b934156ae10c4430e83c").Assort;
-        var moddedAssort = databaseService.GetTrader(trader).Assort;
+        var assort = tradersTable.GetTrader("5ac3b934156ae10c4430e83c").Assort;
+        var moddedAssort = tradersTable.GetTrader(trader).Assort;
         if (moddedAssort == null)
         { //just checks if a trader assort has not been loaded
             logger.Warning(trader + "assort null, skipping.");
