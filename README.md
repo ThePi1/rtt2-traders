@@ -1,19 +1,5 @@
 rtt2traders
 
-Use this template to create your own client mods!
+Basic idea of this server mod for spt is to remove almost all vanilla traders that are not required for game to function and replace with our own assorts and quests. At the moment 100+ quests have been implemented with 300 being planned. Assorts are not designed yet and as such traders have empty inventories. It is being designed with a tool called Trader-Builder for .json generation that ensures json structure and key validity with the added bump of increasing trader work efficiency. We plan to officially publish both at the same time as they need testing / content.
 
-1. Click the green **Use this template** > **Create a new repository** button at the top right of this page
-2. Use something like GitBash to clone your new repo into a folder on your computer (https://git-scm.com/downloads) or download it manually with **Code > Download ZIP**
-   * Make sure you are cloning **YOUR** new repo, not the example repo itself
-3. Rename the following from _rtt2traders_ to your new mod name:
-    * Folder the project is in
-    * **.csproj** file
-    * **.sln** file
-4. Open the **.sln** file with a text editor, CTRL+F for _rtt2traders_ and replace it with your new mod name
-5. Open the **.csproj** file with a text editor, CTRL+F for _rtt2traders_ and replace it with your new mod name
-6. Open your solution by double clicking your **.sln** file, double click **Plugin.cs**
-7. Press CTRL + Shift + F, click Replace in Files
-    * make sure **Look in** is set to **Entire solution**
-    * in Find field, enter: _rtt2traders_
-    * in Replace field, enter your new mod name
-    * click Replace All in bottom right, click yes if prompted
+If you are reading this and the official mod and tool havent been published then I guess enjoy looking at something coming.

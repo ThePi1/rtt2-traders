@@ -65,29 +65,18 @@ public class rtt2trader(
 
     private readonly TraderConfig _traderConfig = traderConfig;
     private readonly RagfairConfig _ragfairConfig = ragfairConfig;
-    private static readonly string[] TradersToRemove =  [
-                                                        "54cb50c76803fa8b248b4571","6617beeaa9cfa777ca915b7c",
-                                                        "54cb57776803fa99248b456e","58330581ace78e27b8b10cee",
-                                                        "5935c25fb3acc3127c3d8cd9","5a7c2eca46aef81a7ca2145d",
-                                                        "5c0647fdd443bc2504c2d371"
-                                                        ];
-    private static readonly string[] TradersToSkip =    [
-                                                        "656f0f98d80a697f855d34b1","579dc571d53a0658a154fbec",
-                                                        "638f541a29ffd1183d187f57","69744632183b55cf9702c984",
-                                                        "69744632183b55cf9702c987","69744632183b55cf9702c988",
-                                                        "69744632183b55cf9702c981","69744632183b55cf9702c983",
-                                                        "69744632183b55cf9702c985","69744632183b55cf9702c982",
-                                                        "69744632183b55cf9702c986","6864e812f9fe664cb8b8e152",
-                                                        "5ac3b934156ae10c4430e83c"
-                                                        ];
     private HashSet<string> VanillaItems;
+    private List<string> TradersToRemove = [];
+    private List<string> TradersToSkip = [];
+
     public async Task OnLoadAsync(CancellationToken cancellationToken)
     {
         var clock = Stopwatch.StartNew();
 
         // A path to the mods files we use below
         var pathToMod = modHelper.GetAbsolutePathToModFolder(Assembly.GetExecutingAssembly());
-
+        TradersToRemove = modHelper.GetJsonDataFromFile<List<string>>(pathToMod,"data/traders-to-remove.json");
+        TradersToSkip = modHelper.GetJsonDataFromFile<List<string>>(pathToMod,"data/traders-to-skip.json");
         var VanillaItemsList = modHelper.GetJsonDataFromFile<List<string>>(pathToMod, "data/itemTPL.json");
         var weapQuestList = modHelper.GetJsonDataFromFile<Dictionary<string, List<string>>>(pathToMod,"data/WeaponQuestCatagories.json");
 
