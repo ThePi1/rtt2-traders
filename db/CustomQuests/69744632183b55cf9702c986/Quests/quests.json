@@ -3561,7 +3561,7 @@
                     "target": [
                         "5696686a4bdc2da3298b456a"
                     ],
-                    "value": 30,
+                    "value": 1,
                     "visibilityConditions": [],
                     "zoneId": "A20_1"
                 },
@@ -3602,7 +3602,7 @@
                     "target": [
                         "5696686a4bdc2da3298b456a"
                     ],
-                    "value": 30,
+                    "value": 1,
                     "visibilityConditions": [],
                     "zoneId": "A20_2"
                 },
