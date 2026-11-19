@@ -118,5 +118,14 @@
     "6afeb411053e15951357e636": "Find Ox bleach in raid",
     "6afeb411053e15951357e637": "Hand over Ox bleach",
     "6afeb411053e15951357e638": "Find Analgin painkillers in raid",
-    "6afeb411053e15951357e639": "Hand over Analgin painkillers"
+    "6afeb411053e15951357e639": "Hand over Analgin painkillers",
+    "6a1352dc8c34ba4a387cd005 name": "Discombobulated - Part 1",
+    "6a1352dc8c34ba4a387cd005 description": "[PH] My gyroscopes! I left one by the robotic arm in the Lab. Without it, everything spins. Bring it back, ja?",
+    "6a1352dc8c34ba4a387cd005 acceptPlayerMessage": "",
+    "6a1352dc8c34ba4a387cd005 declinePlayerMessage": "",
+    "6a1352dc8c34ba4a387cd005 completePlayerMessage": "",
+    "6a1352dc8c34ba4a387cd005 successMessageText": "[PH] It stopped spinning. Only half. I need the other one.",
+    "6a1352dc8c34ba4a387cd005 failMessageText": "",
+    "6afeb4120d3c5e14332adb32": "Find Gyroscope #1 in raid",
+    "6afeb4120d3c5e14332adb33": "Hand over Gyroscope #1 from the robotic arm in the Lab"
 }
