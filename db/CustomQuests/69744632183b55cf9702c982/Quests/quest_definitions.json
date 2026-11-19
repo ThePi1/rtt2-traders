@@ -4786,16 +4786,15 @@
                 {
                     "availableInGameEditions": [],
                     "id": "6a0d254cd47f367b5bed54a4",
-                    "index": 0,
                     "type": "Experience",
                     "unknown": false,
-                    "value": 1000
+                    "value": 1000,
+                    "index": 0
                 },
                 {
                     "availableInGameEditions": [],
                     "findInRaid": true,
                     "id": "6a0d2553d47f367b5bed54a5",
-                    "index": 0,
                     "items": [
                         {
                             "_id": "6a0d2566d47f367b5bed54a6",
@@ -4808,7 +4807,8 @@
                     "target": "6a0d2566d47f367b5bed54a6",
                     "type": "Item",
                     "unknown": false,
-                    "value": 1
+                    "value": 1,
+                    "index": 0
                 }
             ]
         },
@@ -4816,7 +4816,7 @@
         "side": "pmc",
         "startedMessageText": "6a0d2538d47f367b5bed54a3 startedMessageText",
         "successMessageText": "6a0d2538d47f367b5bed54a3 successMessageText",
-        "traderId": "54cb50c76803fa8b248b4571",
+        "traderId": "69744632183b55cf9702c982",
         "type": "PickUp"
     },
     "6a0d25a5d47f367b5bed54a9": {
@@ -5386,8 +5386,8 @@
                     "id": "6a0d28f1d47f367b5bed54cd",
                     "index": 0,
                     "isEncoded": false,
-                    "minDurability": 0,
                     "maxDurability": 100,
+                    "minDurability": 0,
                     "onlyFoundInRaid": true,
                     "parentId": "",
                     "target": [
@@ -5435,16 +5435,15 @@
                 {
                     "availableInGameEditions": [],
                     "id": "6a0d28a5d47f367b5bed54c8",
-                    "index": 0,
                     "type": "Experience",
                     "unknown": false,
-                    "value": 2000
+                    "value": 2000,
+                    "index": 0
                 },
                 {
                     "availableInGameEditions": [],
                     "findInRaid": true,
                     "id": "6a0d28b1d47f367b5bed54c9",
-                    "index": 0,
                     "items": [
                         {
                             "_id": "6a0d28bbd47f367b5bed54ca",
@@ -5458,7 +5457,8 @@
                     "target": "6a0d28bbd47f367b5bed54ca",
                     "type": "Item",
                     "unknown": false,
-                    "value": 1
+                    "value": 110000,
+                    "index": 0
                 }
             ]
         },
@@ -5466,7 +5466,7 @@
         "side": "pmc",
         "startedMessageText": "6a0d2895d47f367b5bed54c7 startedMessageText",
         "successMessageText": "6a0d2895d47f367b5bed54c7 successMessageText",
-        "traderId": "54cb50c76803fa8b248b4571",
+        "traderId": "69744632183b55cf9702c982",
         "type": "PickUp"
     },
     "6a0d28fcd47f367b5bed54ce": {
