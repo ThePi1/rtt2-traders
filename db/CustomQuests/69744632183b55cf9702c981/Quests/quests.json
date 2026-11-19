@@ -375,7 +375,23 @@
                     "visibilityConditions": []
                 }
             ],
-            "AvailableForStart": [],
+            "AvailableForStart": [
+                {
+                    "availableAfter": 0,
+                    "conditionType": "Quest",
+                    "dispersion": 0,
+                    "dynamicLocale": false,
+                    "globalQuestCounterId": "",
+                    "id": "6afe7e4ac20bb247b279e7b0",
+                    "index": 0,
+                    "parentId": "",
+                    "status": [
+                        4
+                    ],
+                    "target": "6a08bc51ba598c93d9c09fcc",
+                    "visibilityConditions": []
+                }
+            ],
             "Fail": []
         },
         "declinePlayerMessage": "6a08be635562066cb549e1bc declinePlayerMessage",
@@ -397,10 +413,10 @@
                 {
                     "availableInGameEditions": [],
                     "id": "6a08be645562066cb549e1bd",
-                    "index": 0,
                     "type": "Experience",
                     "unknown": false,
-                    "value": 1000
+                    "value": 1000,
+                    "index": 0
                 }
             ]
         },
@@ -498,7 +514,7 @@
                     "index": 0,
                     "parentId": "",
                     "status": [
-                        3
+                        4
                     ],
                     "target": "6a08bf145562066cb549e1c7",
                     "visibilityConditions": []
@@ -524,10 +540,10 @@
                 {
                     "availableInGameEditions": [],
                     "id": "6a08beda5562066cb549e1c2",
-                    "index": 0,
                     "type": "Experience",
                     "unknown": false,
-                    "value": 3500
+                    "value": 3500,
+                    "index": 0
                 }
             ]
         },
@@ -557,8 +573,8 @@
                     "id": "6a08bf5a5562066cb549e1ca",
                     "index": 0,
                     "isEncoded": false,
-                    "minDurability": 0,
                     "maxDurability": 100,
+                    "minDurability": 0,
                     "onlyFoundInRaid": false,
                     "parentId": "",
                     "target": [
@@ -4522,7 +4538,7 @@
                     "index": 0,
                     "parentId": "",
                     "status": [
-                        3
+                        4
                     ],
                     "target": "6a08bea35562066cb549e1c1",
                     "visibilityConditions": []
@@ -4548,10 +4564,10 @@
                 {
                     "availableInGameEditions": [],
                     "id": "6a08bf515562066cb549e1c9",
-                    "index": 0,
                     "type": "Experience",
                     "unknown": false,
-                    "value": 5000
+                    "value": 5000,
+                    "index": 0
                 }
             ]
         },
@@ -4581,8 +4597,8 @@
                     "id": "6a08c0bf5562066cb549e1d0",
                     "index": 0,
                     "isEncoded": false,
-                    "minDurability": 0,
                     "maxDurability": 100,
+                    "minDurability": 0,
                     "onlyFoundInRaid": false,
                     "parentId": "",
                     "target": [
@@ -4646,9 +4662,20 @@
             "Success": [
                 {
                     "availableInGameEditions": [],
+                    "gameMode": [
+                        "regular",
+                        "pve"
+                    ],
+                    "id": "6afe7ee64a2d196793a1088b",
+                    "isHidden": false,
+                    "type": "Experience",
+                    "unknown": false,
+                    "value": 1000
+                },
+                {
+                    "availableInGameEditions": [],
                     "findInRaid": true,
                     "id": "6a08bfe95562066cb549e1cc",
-                    "index": 0,
                     "items": [
                         {
                             "_id": "6a08bff55562066cb549e1cd",
@@ -4662,7 +4689,8 @@
                     "target": "6a08bff55562066cb549e1cd",
                     "type": "Item",
                     "unknown": false,
-                    "value": 1
+                    "value": 1,
+                    "index": 0
                 }
             ]
         },

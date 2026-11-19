@@ -622,5 +622,21 @@
     "6aca86cfa26d5245cb76742d description": "You broke the auto ice...",
     "6aca86c4a26d5245cb76742a successMessageText": "You pay the auto price...",
     "6aca86cfa26d5245cb76742d successMessageText": "You're a master of Bolt Action Rifles.",
-    "6aca8948a26d5245cb767438 name": "Twenty-Five Types of Ammo - Part 1"
+    "6aca8948a26d5245cb767438 name": "Twenty-Five Types of Ammo - Part 1",
+    "6a08be635562066cb549e1bc acceptPlayerMessage": "",
+    "6a08be635562066cb549e1bc declinePlayerMessage": "",
+    "6a08be635562066cb549e1bc completePlayerMessage": "",
+    "6a08be635562066cb549e1bc failMessageText": "",
+    "6a08bea35562066cb549e1c1 acceptPlayerMessage": "",
+    "6a08bea35562066cb549e1c1 declinePlayerMessage": "",
+    "6a08bea35562066cb549e1c1 completePlayerMessage": "",
+    "6a08bea35562066cb549e1c1 failMessageText": "",
+    "6a08bf145562066cb549e1c7 acceptPlayerMessage": "",
+    "6a08bf145562066cb549e1c7 declinePlayerMessage": "",
+    "6a08bf145562066cb549e1c7 completePlayerMessage": "",
+    "6a08bf145562066cb549e1c7 failMessageText": "",
+    "6a08bfb85562066cb549e1cb acceptPlayerMessage": "",
+    "6a08bfb85562066cb549e1cb declinePlayerMessage": "",
+    "6a08bfb85562066cb549e1cb completePlayerMessage": "",
+    "6a08bfb85562066cb549e1cb failMessageText": ""
 }

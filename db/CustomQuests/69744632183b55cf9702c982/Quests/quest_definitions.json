@@ -5556,8 +5556,8 @@
                     "id": "6a08bcacba598c93d9c09fd4",
                     "index": 0,
                     "isEncoded": false,
-                    "minDurability": 0,
                     "maxDurability": 100,
+                    "minDurability": 0,
                     "onlyFoundInRaid": false,
                     "parentId": "",
                     "target": [
@@ -5605,16 +5605,15 @@
                 {
                     "availableInGameEditions": [],
                     "id": "6a08bc5dba598c93d9c09fcd",
-                    "index": 0,
                     "type": "Experience",
                     "unknown": false,
-                    "value": 10000
+                    "value": 10000,
+                    "index": 0
                 },
                 {
                     "availableInGameEditions": [],
                     "findInRaid": true,
                     "id": "6a08bc62ba598c93d9c09fce",
-                    "index": 0,
                     "items": [
                         {
                             "_id": "6a08bc68ba598c93d9c09fcf",
@@ -5628,16 +5627,16 @@
                     "target": "6a08bc68ba598c93d9c09fcf",
                     "type": "Item",
                     "unknown": true,
-                    "value": 1
+                    "value": 1,
+                    "index": 0
                 },
                 {
                     "availableInGameEditions": [],
                     "findInRaid": true,
                     "id": "6a08bc6fba598c93d9c09fd0",
-                    "index": 0,
                     "items": [
                         {
-                            "_id": "6a08bc68ba598c93d9c09fcf",
+                            "_id": "6afe7ee4e71be432a56002ba",
                             "_tpl": "59faff1d86f7746c51718c9c",
                             "upd": {
                                 "StackObjectsCount": "1",
@@ -5645,10 +5644,11 @@
                             }
                         }
                     ],
-                    "target": "6a08bc68ba598c93d9c09fcf",
+                    "target": "6afe7ee4e71be432a56002ba",
                     "type": "Item",
                     "unknown": true,
-                    "value": 1
+                    "value": 1,
+                    "index": 0
                 }
             ]
         },
