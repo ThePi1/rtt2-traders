@@ -211,5 +211,13 @@
     "6afeada403382817c436d262 completePlayerMessage": "",
     "6afeada403382817c436d262 successMessageText": "[PH] Ten disconnects. Their ping is now infinite.",
     "6afeada403382817c436d262 failMessageText": "",
-    "6afeada403382817c436d264": "Eliminate any target with headshots using a marksman rifle from over 100 meters"
+    "6afeada403382817c436d264": "Eliminate any target with headshots using a marksman rifle from over 100 meters",
+    "6afeada548b82fcfce03670d name": "Hitscan - Part 1",
+    "6afeada548b82fcfce03670d description": "[PH] Bullet drop is a skill issue. Grab a bolt gun and get me five kills past a hundred meters. Point, click, delete.",
+    "6afeada548b82fcfce03670d acceptPlayerMessage": "",
+    "6afeada548b82fcfce03670d declinePlayerMessage": "",
+    "6afeada548b82fcfce03670d completePlayerMessage": "",
+    "6afeada548b82fcfce03670d successMessageText": "[PH] Five deletes. Pure hitscan, brother.",
+    "6afeada548b82fcfce03670d failMessageText": "",
+    "6afeada548b82fcfce03670f": "Eliminate any target with a bolt-action rifle from over 100 meters"
 }
