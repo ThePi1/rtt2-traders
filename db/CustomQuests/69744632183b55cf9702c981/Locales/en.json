@@ -813,5 +813,15 @@
     "6afeb4d7d1605edd10f081e0 successMessageText": "[PH] You lived through it. Whatever doesn't kill you makes your immune system ridiculous.",
     "6afeb4d7d1605edd10f081e0 failMessageText": "",
     "6afeb4d7d1605edd10f081e1": "Go 10 minutes in raid with no food and no water left",
-    "6afeb4d7d1605edd10f081e7": "Survive and extract"
+    "6afeb4d7d1605edd10f081e7": "Survive and extract",
+    "6afeb4d8c6a5128fce27c30d name": "Twenty-Five Types of Ammo - Part 2",
+    "6afeb4d8c6a5128fce27c30d description": "[PH] Three men who never split up. A pistol for each of them. You've done harder things with less. Probably.",
+    "6afeb4d8c6a5128fce27c30d acceptPlayerMessage": "",
+    "6afeb4d8c6a5128fce27c30d declinePlayerMessage": "",
+    "6afeb4d8c6a5128fce27c30d completePlayerMessage": "",
+    "6afeb4d8c6a5128fce27c30d successMessageText": "[PH] The Goons, sidearm only. Your trigger finger is getting smarter.",
+    "6afeb4d8c6a5128fce27c30d failMessageText": "",
+    "6afeb4d8c6a5128fce27c30f": "Eliminate Knight with a pistol",
+    "6afeb4d8c6a5128fce27c312": "Eliminate Big Pipe with a pistol",
+    "6afeb4d8c6a5128fce27c315": "Eliminate Birdeye with a pistol"
 }

@@ -199,7 +199,7 @@ New zones are in `db/CustomQuestZones/C1_C4_C6_C7_C8_C9.json`. The first four ar
 | L97 | Storyteller | The Auto Price - Part 2 | Reach lv3 rep with Price | L96 | Bolt action rifle levels | `6aca86c4a26d5245cb76742a` | Flagged | Fixed: asked for standing 3.0; now loyalty level 3 (`73da404`). Step text says "Reach lv. with Price". |
 | L98 | Storyteller | The Auto Price - Part 3 | Get 4 headshot kills on raiders on Reserve with the AMX | L97 | Bolt action rifle levels | `6aca86cfa26d5245cb76742d` | Audited |  |
 | L99 | Storyteller | Twenty Five Types of Ammo - Part 1 | Kill 10 PMCs on Interchange with pistols | L32 | Pistol levels | `6aca8948a26d5245cb767438` | Audited | Built: was an empty shell. 10 PMC pistol kills on Interchange, Pistol skill, [PH] text (`8de90da`). |
-| L100 | Storyteller | Twenty Five Types of Ammo - Part 2 | Kill all 3 Goons with Pistols | L99 | Pistol levels |  | To build |  |
+| L100 | Storyteller | Twenty Five Types of Ammo - Part 2 | Kill all 3 Goons with Pistols | L99 | Pistol levels | `6afeb4d8c6a5128fce27c30d` | Built | Built: kill Knight, Big Pipe and Birdeye with pistols. Named with a hyphen to match Part 1 |
 | L101 | Storyteller | Twenty Five Types of Ammo - Part 3 | Kill Killa with Deagle | L100 | Pistol levels |  | To build |  |
 | L102 | Storyteller | Revolving Door - Part 1 | Kill 10 PMCs on Woods with Revolvers | L32 | Revolver levels |  | To build |  |
 | L103 | Storyteller | Revolving Door - Part 2 | Kill 5 raiders with Revolvers | L102 | Revolver levels |  | To build |  |
