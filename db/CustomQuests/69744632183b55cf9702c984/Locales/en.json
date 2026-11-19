@@ -50,5 +50,13 @@
     "6afeb134f4a03ce7764de4bc completePlayerMessage": "",
     "6afeb134f4a03ce7764de4bc successMessageText": "[PH] Ten. Interesting. Several were carrying business cards for a certain gun shop.",
     "6afeb134f4a03ce7764de4bc failMessageText": "",
-    "6afeb135f4a03ce7764de4be": "Eliminate USEC PMCs"
+    "6afeb135f4a03ce7764de4be": "Eliminate USEC PMCs",
+    "6afeb13573c586a224470329 name": "Better Without - Part 2",
+    "6afeb13573c586a224470329 description": "[PH] The patches lead back to Lighthouse. The Rogues are former USEC, and someone is supplying them. Ten Rogues. The supplier will understand the message.",
+    "6afeb13573c586a224470329 acceptPlayerMessage": "",
+    "6afeb13573c586a224470329 declinePlayerMessage": "",
+    "6afeb13573c586a224470329 completePlayerMessage": "",
+    "6afeb13573c586a224470329 successMessageText": "[PH] Message delivered. I suspect a certain 'operator' is very upset right now.",
+    "6afeb13573c586a224470329 failMessageText": "",
+    "6afeb13673c586a22447032b": "Eliminate Rogues on Lighthouse"
 }

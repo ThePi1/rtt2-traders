@@ -343,7 +343,7 @@ New zones are in `db/CustomQuestZones/C1_C4_C6_C7_C8_C9.json`. The first four ar
 | X2 | Xiaoming | Silk Road | Mark some stuff on the shoreline road, and train |  |  | `6afeb12d8a2bf95dc3c703aa` | Needs check | Built: mark new zones `X2_1` (main road by the gas station) and `X2_2` (train cars by the railway bridge) on Shoreline. Spots my choice |
 | X3 | Xiaoming | Silk Road - Part 2 | Plant drug packages (stims) (Injector Cases?) at 5 locations around Shoreline |  |  | `6afeb133df04bdf8630f0ccf` | Needs check | Built: plant any stimulant at 5 new zones on Shoreline: `X3_1` south pier, `X3_2` weather station, `X3_3` village house, `X3_4` gas station office, `X3_5` bus station office (stims instead of Injector Cases, which are rare and pricey) |
 | X4 | Xiaoming | Better Without | Kill quest; ends up being Atlas's guys |  |  | `6afeb134f4a03ce7764de4bc` | Built | Built: kill 10 USEC PMCs anywhere (the "Atlas's guys" twist is in the text) |
-| X5 | Xiaoming | Better Without - Part 2 | Kill quest (similar but distinct) - certain map/faction |  |  |  | To build |  |
+| X5 | Xiaoming | Better Without - Part 2 | Kill quest (similar but distinct) - certain map/faction |  |  | `6afeb13573c586a224470329` | Built | Built: kill 10 Rogues on Lighthouse (faction and map my choice) |
 | X6 | Xiaoming | Delay, Deny, Defend | Break into some healthcare building and somehow get back at Atlas |  |  |  | To build |  |
 | X7 | Xiaoming | Eastern Medicine | Find some med things |  |  |  | To build |  |
 | X8 | Xiaoming | Jade Idol | Whatever the living high not a crime part 2 items are, turn in FIR |  |  |  | To build |  |
