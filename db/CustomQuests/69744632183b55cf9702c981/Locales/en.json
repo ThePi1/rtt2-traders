@@ -903,5 +903,13 @@
     "6afeb4e599cc3b4498e62f1d completePlayerMessage": "",
     "6afeb4e599cc3b4498e62f1d successMessageText": "[PH] The sermon is over.",
     "6afeb4e599cc3b4498e62f1d failMessageText": "",
-    "6afeb4e599cc3b4498e62f1f": "Eliminate the cultist Priest with an assault rifle"
+    "6afeb4e599cc3b4498e62f1f": "Eliminate the cultist Priest with an assault rifle",
+    "6afeb4e62ef19923c668ff38 name": "Such Shoot, Many Pellet - Part 1",
+    "6afeb4e62ef19923c668ff38 description": "[PH] Wow. Much shoot. The KS-23 is basically a cannon. Five Rogues. Very bold.",
+    "6afeb4e62ef19923c668ff38 acceptPlayerMessage": "",
+    "6afeb4e62ef19923c668ff38 declinePlayerMessage": "",
+    "6afeb4e62ef19923c668ff38 completePlayerMessage": "",
+    "6afeb4e62ef19923c668ff38 successMessageText": "[PH] Such Rogue. Very down.",
+    "6afeb4e62ef19923c668ff38 failMessageText": "",
+    "6afeb4e62ef19923c668ff3a": "Eliminate Rogues with a KS-23M"
 }
