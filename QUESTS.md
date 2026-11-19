@@ -339,7 +339,7 @@ New zones are in `db/CustomQuestZones/C1_C4_C6_C7_C8_C9.json`. The first four ar
 
 | ID | Trader | Quest | Tasks | Unlocked by | Reward | Quest id | Status | Notes |
 |---|---|---|---|---|---|---|---|---|
-| X1 | Xiaoming | Háo Jiǔ Bu Jiàn | Mark D2 power room on reserve, kill 3 raiders, extract via D2 (not all same raid) | Q12 |  |  | To build | Sheet: Trader level .16 each quest |
+| X1 | Xiaoming | Háo Jiǔ Bu Jiàn | Mark D2 power room on reserve, kill 3 raiders, extract via D2 (not all same raid) | Q12 |  | `6afeb12a489c2c15bdef16e4` | Built | Built: mark the D2 power room (existing zone `X1`, also used by A7), kill 3 Raiders on Reserve, extract via D2 (`EXFIL_Bunker_D2`). Starts when Q12 is done; Sheet: Trader level .16 each quest |
 | X2 | Xiaoming | Silk Road | Mark some stuff on the shoreline road, and train |  |  |  | To build |  |
 | X3 | Xiaoming | Silk Road - Part 2 | Plant drug packages (stims) (Injector Cases?) at 5 locations around Shoreline |  |  |  | To build |  |
 | X4 | Xiaoming | Better Without | Kill quest; ends up being Atlas's guys |  |  |  | To build |  |
