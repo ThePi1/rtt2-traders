@@ -181,5 +181,14 @@
     "6afeaf948ff3d3b964b1c9d8 successMessageText": "[PH] Ah. That's the stuff. Don't tell the wife.",
     "6afeaf948ff3d3b964b1c9d8 failMessageText": "",
     "6afeaf948ff3d3b964b1c9da": "Find Bottle of Fierce Hatchling moonshine in raid",
-    "6afeaf948ff3d3b964b1c9db": "Hand over Bottle of Fierce Hatchling moonshine"
+    "6afeaf948ff3d3b964b1c9db": "Hand over Bottle of Fierce Hatchling moonshine",
+    "6afeaf951086f357132cb2f2 name": "Superman",
+    "6afeaf951086f357132cb2f2 description": "[PH] Superwater. Clean enough to make a man feel like Superman. Five canisters, found in raid. The tea's been tasting off lately.",
+    "6afeaf951086f357132cb2f2 acceptPlayerMessage": "",
+    "6afeaf951086f357132cb2f2 declinePlayerMessage": "",
+    "6afeaf951086f357132cb2f2 completePlayerMessage": "",
+    "6afeaf951086f357132cb2f2 successMessageText": "[PH] Now that's a proper cuppa. Cheers, lad.",
+    "6afeaf951086f357132cb2f2 failMessageText": "",
+    "6afeaf951086f357132cb2f4": "Find Canister with purified water in raid",
+    "6afeaf951086f357132cb2f5": "Hand over Canister with purified water"
 }

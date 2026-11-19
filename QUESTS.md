@@ -388,7 +388,7 @@ New zones are in `db/CustomQuestZones/C1_C4_C6_C7_C8_C9.json`. The first four ar
 | P17 | Price | Last Call | Plant 1 vodka, 1 Beer, 1 Whiskey in bar on streets |  |  | `6afeaf9133bb6de0ee92554e` | Needs check | Built: plant a vodka, a Pevko and a Dan Jackiel at new zone `P17` (bar of the Brodion restopub, Zmeiskiy 3). Starts after P15 because P16 isn't built |
 | P18 | Price | The Pie? It's Far Too Hot | First: find and hand in FIR: 1x piece of plexiglass, 1x IEA Mil-Optics KH/F 34mm one-piece magmount, and mark inside Dorms Marked/314 |  |  | `6afeaf921cf748b4f280276b` | Built | Built: hand in 1 FIR plexiglass and 1 FIR KH/F 34mm magmount, then mark inside dorm 314 (existing zone `P18`) |
 | P19 | Price | The Good Stuff | Find and Turn in 3 Moonshine |  |  | `6afeaf948ff3d3b964b1c9d8` | Built | Built: hand in 3 FIR Fierce Hatchling moonshine |
-| P20 | Price | Superman | Find and Turn in 5 Super Water |  |  |  | To build |  |
+| P20 | Price | Superman | Find and Turn in 5 Super Water |  |  | `6afeaf951086f357132cb2f2` | Built | Built: hand in 5 FIR canisters of purified water |
 
 ## Needle (N)
 
