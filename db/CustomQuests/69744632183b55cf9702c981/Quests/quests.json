@@ -9315,7 +9315,7 @@
                                 "savageRole": [
                                     "bossSanitar"
                                 ],
-                                "target": "",
+                                "target": "Savage",
                                 "value": 1,
                                 "weapon": [],
                                 "weaponCaliber": [],
@@ -9377,11 +9377,11 @@
                 {
                     "availableInGameEditions": [],
                     "id": "69ff9dc405b2e8932302412d",
-                    "index": 0,
                     "target": "CovertMovement",
                     "type": "Skill",
                     "unknown": false,
-                    "value": 1000
+                    "value": 1000,
+                    "index": 0
                 }
             ]
         },
@@ -9429,7 +9429,7 @@
                                 "savageRole": [
                                     "exUsec"
                                 ],
-                                "target": "",
+                                "target": "Savage",
                                 "value": 1,
                                 "weapon": [],
                                 "weaponCaliber": [],
@@ -9499,11 +9499,11 @@
                 {
                     "availableInGameEditions": [],
                     "id": "69ffa23305b2e89323024133",
-                    "index": 0,
                     "target": "CovertMovement",
                     "type": "Skill",
                     "unknown": false,
-                    "value": 1500
+                    "value": 1500,
+                    "index": 0
                 }
             ]
         },
@@ -9551,7 +9551,7 @@
                                 "savageRole": [
                                     "bossKilla"
                                 ],
-                                "target": "",
+                                "target": "Savage",
                                 "value": 1,
                                 "weapon": [],
                                 "weaponCaliber": [],
@@ -9613,11 +9613,11 @@
                 {
                     "availableInGameEditions": [],
                     "id": "69ffcc8905b2e8932302413a",
-                    "index": 0,
                     "target": "CovertMovement",
                     "type": "Skill",
                     "unknown": false,
-                    "value": 2700
+                    "value": 2700,
+                    "index": 0
                 }
             ]
         },
@@ -10139,7 +10139,7 @@
                                 "savageRole": [
                                     "bossKilla"
                                 ],
-                                "target": "",
+                                "target": "Savage",
                                 "value": 1,
                                 "weapon": [],
                                 "weaponCaliber": [],
@@ -10155,7 +10155,8 @@
                                             "Stomach",
                                             "LeftArm",
                                             "RightArm",
-                                            "LeftLeg"
+                                            "LeftLeg",
+                                            "RightLeg"
                                         ],
                                         "effects": [
                                             "HeavyBleeding"
@@ -10233,11 +10234,11 @@
                 {
                     "availableInGameEditions": [],
                     "id": "69ff952030c5fd97a1313dbe",
-                    "index": 0,
                     "target": "Vitality",
                     "type": "Skill",
                     "unknown": false,
-                    "value": 1500
+                    "value": 1500,
+                    "index": 0
                 }
             ]
         },

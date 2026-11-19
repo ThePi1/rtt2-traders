@@ -689,5 +689,21 @@
     "6a0b913c16ab7c2dcc558721 acceptPlayerMessage": "",
     "6a0b913c16ab7c2dcc558721 declinePlayerMessage": "",
     "6a0b913c16ab7c2dcc558721 completePlayerMessage": "",
-    "6a0b913c16ab7c2dcc558721 failMessageText": ""
+    "6a0b913c16ab7c2dcc558721 failMessageText": "",
+    "69ff951930c5fd97a1313dbd acceptPlayerMessage": "",
+    "69ff951930c5fd97a1313dbd declinePlayerMessage": "",
+    "69ff951930c5fd97a1313dbd completePlayerMessage": "",
+    "69ff951930c5fd97a1313dbd failMessageText": "",
+    "69ff9c2905b2e8932302412c acceptPlayerMessage": "",
+    "69ff9c2905b2e8932302412c declinePlayerMessage": "",
+    "69ff9c2905b2e8932302412c completePlayerMessage": "",
+    "69ff9c2905b2e8932302412c failMessageText": "",
+    "69ffa22805b2e89323024132 acceptPlayerMessage": "",
+    "69ffa22805b2e89323024132 declinePlayerMessage": "",
+    "69ffa22805b2e89323024132 completePlayerMessage": "",
+    "69ffa22805b2e89323024132 failMessageText": "",
+    "69ffcc7f05b2e89323024139 acceptPlayerMessage": "",
+    "69ffcc7f05b2e89323024139 declinePlayerMessage": "",
+    "69ffcc7f05b2e89323024139 completePlayerMessage": "",
+    "69ffcc7f05b2e89323024139 failMessageText": ""
 }
