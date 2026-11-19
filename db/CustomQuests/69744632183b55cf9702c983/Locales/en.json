@@ -9,5 +9,20 @@
     "6afeaf7915530ff37817d47c": "Find Bottle of Tarkovskaya vodka or Bottle of Tarkovskaya vodka in raid",
     "6afeaf7915530ff37817d47d": "Hand over a bottle of Tarkovskaya vodka, found in raid",
     "6afeaf7915530ff37817d47e": "Find Bottle of Dan Jackiel whiskey in raid",
-    "6afeaf7915530ff37817d47f": "Hand over Bottle of Dan Jackiel whiskey"
+    "6afeaf7915530ff37817d47f": "Hand over Bottle of Dan Jackiel whiskey",
+    "6afeaf7a33a7614fcee60d8a name": "Bad For You, Good For Me",
+    "6afeaf7a33a7614fcee60d8a description": "[PH] I sell cigarettes and cigarette accessories, lad. Problem is, I've run dry. Four packs of each brand: Apollo, Malboro, Wilston and Strike. Found in raid.",
+    "6afeaf7a33a7614fcee60d8a acceptPlayerMessage": "",
+    "6afeaf7a33a7614fcee60d8a declinePlayerMessage": "",
+    "6afeaf7a33a7614fcee60d8a completePlayerMessage": "",
+    "6afeaf7a33a7614fcee60d8a successMessageText": "[PH] Terrible for you, those. Brilliant for business, though. Cheers.",
+    "6afeaf7a33a7614fcee60d8a failMessageText": "",
+    "6afeaf7a33a7614fcee60d8c": "Find Apollo Soyuz cigarettes in raid",
+    "6afeaf7a33a7614fcee60d8d": "Hand over Apollo Soyuz cigarettes",
+    "6afeaf7a33a7614fcee60d8e": "Find Malboro Cigarettes in raid",
+    "6afeaf7a33a7614fcee60d8f": "Hand over Malboro Cigarettes",
+    "6afeaf7a33a7614fcee60d90": "Find Wilston cigarettes in raid",
+    "6afeaf7a33a7614fcee60d91": "Hand over Wilston cigarettes",
+    "6afeaf7a33a7614fcee60d92": "Find Strike Cigarettes in raid",
+    "6afeaf7a33a7614fcee60d93": "Hand over Strike Cigarettes"
 }

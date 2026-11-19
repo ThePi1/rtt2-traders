@@ -370,7 +370,7 @@ New zones are in `db/CustomQuestZones/C1_C4_C6_C7_C8_C9.json`. The first four ar
 | ID | Trader | Quest | Tasks | Unlocked by | Reward | Quest id | Status | Notes |
 |---|---|---|---|---|---|---|---|---|
 | P1 | Price | Stocking Up | Find 1 FIR Vodka, 1 FIR Whisky |  |  | `6afeaf7915530ff37817d47a` | Built | Built: hand in 1 FIR vodka (either Tarkovskaya) and 1 FIR Dan Jackiel whiskey. Starts when Q8 (which unlocks Price) is done; Sheet: Tradr Level .2 each quest |
-| P2 | Price | Bad For You, Good For Me | Find 4 each type cigarette FIR |  |  |  | To build |  |
+| P2 | Price | Bad For You, Good For Me | Find 4 each type cigarette FIR |  |  | `6afeaf7a33a7614fcee60d8a` | Built | Built: hand in 4 FIR packs of each of the 4 cigarette brands |
 | P3 | Price | Fish and Croutons | Turn in 3 Spratz and 3 Croutons |  |  |  | To build |  |
 | P4 | Price | Priced In | Plant USD in the financial buildings (both) and the housing building, survive and extract same raid |  |  |  | To build |  |
 | P5 | Price | Priced Out | Mark 1,5,9,13 IDEA cash registers on Interchange then kill 5 scavs in same session |  |  |  | To build |  |
