@@ -44,5 +44,17 @@
     "6afeaf7e14cddbc37e5b808f": "Leave a stack of dollars in the Tarbank on Primorsky Ave",
     "6afeaf7e14cddbc37e5b8090": "Leave a stack of dollars in the financial office on Nikitskaya St",
     "6afeaf7e14cddbc37e5b8091": "Leave a stack of dollars in the Cardinal apartment complex",
-    "6afeaf7e14cddbc37e5b8099": "Survive and extract from Streets of Tarkov"
+    "6afeaf7e14cddbc37e5b8099": "Survive and extract from Streets of Tarkov",
+    "6afeaf7f2f64c84788159743 name": "Priced Out",
+    "6afeaf7f2f64c84788159743 description": "[PH] IDEA's been undercutting me for years. Flat-pack furniture and cheap meatballs. Mark registers one, five, nine and thirteen so my lads know where the takings are, then clear out some of those Scavs loitering about.",
+    "6afeaf7f2f64c84788159743 acceptPlayerMessage": "",
+    "6afeaf7f2f64c84788159743 declinePlayerMessage": "",
+    "6afeaf7f2f64c84788159743 completePlayerMessage": "",
+    "6afeaf7f2f64c84788159743 successMessageText": "[PH] Marked and cleared. Let's see them undercut that.",
+    "6afeaf7f2f64c84788159743 failMessageText": "",
+    "6afeaf802f64c84788159744": "Mark cash register 1 in IDEA on Interchange",
+    "6afeaf802f64c84788159745": "Mark cash register 5 in IDEA",
+    "6afeaf802f64c84788159746": "Mark cash register 9 in IDEA",
+    "6afeaf802f64c84788159747": "Mark cash register 13 in IDEA",
+    "6afeaf802f64c84788159751": "Eliminate Scavs on Interchange"
 }
