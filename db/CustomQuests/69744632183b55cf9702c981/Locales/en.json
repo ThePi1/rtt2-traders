@@ -951,5 +951,13 @@
     "6afeb4ecbe174ca47841d147 completePlayerMessage": "",
     "6afeb4ecbe174ca47841d147 successMessageText": "[PH] Ten, and not a plate on you. That's either genius or a cry for help.",
     "6afeb4ecbe174ca47841d147 failMessageText": "",
-    "6afeb4ecbe174ca47841d149": "Eliminate PMCs with a machine gun while wearing no body armor"
+    "6afeb4ecbe174ca47841d149": "Eliminate PMCs with a machine gun while wearing no body armor",
+    "6afeb4ed45e216171112aef6 name": "Balance Needed - Part 1",
+    "6afeb4ed45e216171112aef6 description": "[PH] The M14, or near enough. Balanced, heavy, honest. Ten PMCs with the M1A.",
+    "6afeb4ed45e216171112aef6 acceptPlayerMessage": "",
+    "6afeb4ed45e216171112aef6 declinePlayerMessage": "",
+    "6afeb4ed45e216171112aef6 completePlayerMessage": "",
+    "6afeb4ed45e216171112aef6 successMessageText": "[PH] Ten. Balance achieved, for now.",
+    "6afeb4ed45e216171112aef6 failMessageText": "",
+    "6afeb4ed45e216171112aef8": "Eliminate PMCs with an M1A"
 }

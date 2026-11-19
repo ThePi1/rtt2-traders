@@ -25432,5 +25432,125 @@
         "successMessageText": "6afeb4ecbe174ca47841d147 successMessageText",
         "traderId": "69744632183b55cf9702c981",
         "type": "Elimination"
+    },
+    "6afeb4ed45e216171112aef6": {
+        "QuestName": "Balance Needed - Part 1",
+        "_id": "6afeb4ed45e216171112aef6",
+        "acceptPlayerMessage": "6afeb4ed45e216171112aef6 acceptPlayerMessage",
+        "acceptanceAndFinishingSource": "eft",
+        "arenaLocations": [],
+        "canShowNotificationsInGame": true,
+        "changeQuestMessageText": "6afeb4ed45e216171112aef6 changeQuestMessageText",
+        "completePlayerMessage": "6afeb4ed45e216171112aef6 completePlayerMessage",
+        "conditions": {
+            "AvailableForFinish": [
+                {
+                    "completeInSeconds": 0,
+                    "conditionType": "CounterCreator",
+                    "counter": {
+                        "conditions": [
+                            {
+                                "bodyPart": [],
+                                "compareMethod": ">=",
+                                "conditionType": "Kills",
+                                "daytime": {
+                                    "from": 0,
+                                    "to": 0
+                                },
+                                "distance": {
+                                    "compareMethod": ">=",
+                                    "value": 0
+                                },
+                                "dynamicLocale": false,
+                                "enemyEquipmentExclusive": [],
+                                "enemyEquipmentInclusive": [],
+                                "enemyHealthEffects": [],
+                                "id": "6afeb4ed45e216171112aefa",
+                                "resetOnSessionEnd": false,
+                                "savageRole": [],
+                                "target": "AnyPmc",
+                                "value": 0,
+                                "weapon": [
+                                    "5aafa857e5b5b00018480968"
+                                ],
+                                "weaponCaliber": [],
+                                "weaponModsExclusive": [],
+                                "weaponModsInclusive": []
+                            }
+                        ],
+                        "id": "6afeb4ed45e216171112aef9"
+                    },
+                    "doNotResetIfCounterCompleted": false,
+                    "dynamicLocale": false,
+                    "globalQuestCounterId": "",
+                    "id": "6afeb4ed45e216171112aef8",
+                    "index": 0,
+                    "isNecessary": false,
+                    "isResetOnConditionFailed": false,
+                    "oneSessionOnly": false,
+                    "parentId": "",
+                    "type": "Elimination",
+                    "value": 10,
+                    "visibilityConditions": []
+                }
+            ],
+            "AvailableForStart": [
+                {
+                    "availableAfter": 0,
+                    "conditionType": "Quest",
+                    "dispersion": 0,
+                    "dynamicLocale": false,
+                    "globalQuestCounterId": "",
+                    "id": "6afeb4ed45e216171112aef7",
+                    "index": 0,
+                    "parentId": "",
+                    "status": [
+                        4
+                    ],
+                    "target": "69f94677a49a5754e709dbae",
+                    "visibilityConditions": []
+                }
+            ],
+            "Fail": []
+        },
+        "declinePlayerMessage": "6afeb4ed45e216171112aef6 declinePlayerMessage",
+        "description": "6afeb4ed45e216171112aef6 description",
+        "failMessageText": "6afeb4ed45e216171112aef6 failMessageText",
+        "gameModes": [],
+        "image": "/files/quest/icon/63aae96a435ab5742b4e407a.jpg",
+        "instantComplete": false,
+        "isKey": false,
+        "location": "any",
+        "name": "6afeb4ed45e216171112aef6 name",
+        "note": "6afeb4ed45e216171112aef6 note",
+        "progressSource": "eft",
+        "rankingModes": [],
+        "restartable": false,
+        "rewards": {
+            "Fail": [],
+            "Started": [],
+            "Success": [
+                {
+                    "availableInGameEditions": [],
+                    "gameMode": [
+                        "regular",
+                        "pve"
+                    ],
+                    "id": "6afeb4ed45e216171112aefb",
+                    "isHidden": false,
+                    "target": "DMR",
+                    "type": "Skill",
+                    "unknown": false,
+                    "value": 1000
+                }
+            ]
+        },
+        "secretQuest": false,
+        "side": "pmc",
+        "startedMessageText": "6afeb4ed45e216171112aef6 startedMessageText",
+        "status": 0,
+        "successMessageText": "6afeb4ed45e216171112aef6 successMessageText",
+        "traderId": "69744632183b55cf9702c981",
+        "type": "Elimination"
     }
 }

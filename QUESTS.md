@@ -216,7 +216,7 @@ New zones are in `db/CustomQuestZones/C1_C4_C6_C7_C8_C9.json`. The first four ar
 | L114 | Storyteller | Tech Tips - Part 1 | Kill 10 Scavs with LMGs | L32 | LMG | `6afeb4eac3c31838f731b249` | Built | Built: 10 Scav kills with LMGs |
 | L115 | Storyteller | Tech Tips - Part 2 | Kill 20 Scavs with LMGs | L114 | LMG | `6afeb4eb2a3eeab74ef5e56f` | Built | Built: 20 Scav kills with LMGs |
 | L116 | Storyteller | Tech Tips - Part 3 | Kill 10 PMCs with LMGS NO armor | L115 | LMG | `6afeb4ecbe174ca47841d147` | Built | Built: 10 PMC kills with LMGs while wearing no body armor or armored rig (each is excluded) |
-| L117 | Storyteller | Balance Needed - Part 1 | Kill 10 PMCs with M14 | L32 | DMR |  | To build |  |
+| L117 | Storyteller | Balance Needed - Part 1 | Kill 10 PMCs with M14 | L32 | DMR | `6afeb4ed45e216171112aef6` | Built | Built: 10 PMC kills with the Springfield M1A (the design's "M14"; the M1A is the only one in the game) |
 | L118 | Storyteller | Balance Needed - Part 2 | Kill Glukhar with M14 | L117 | DMR |  | To build |  |
 | L119 | Storyteller | Balance Needed - Part 3 | Kill Schturmann with AK50 | L118 | DMR |  | To build |  |
 | L120 | Storyteller | Ace's Legacy | Kill all bosses, transiting in between |  | Has to be really good |  | To build |  |
