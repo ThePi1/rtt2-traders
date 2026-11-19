@@ -1,0 +1,13 @@
+{
+    "6afeaf7915530ff37817d47a name": "Stocking Up",
+    "6afeaf7915530ff37817d47a description": "[PH] Right then, new face. Shelves don't stock themselves. Bring me a bottle of vodka and a bottle of whiskey, found in raid. None of that flea market rubbish, mind.",
+    "6afeaf7915530ff37817d47a acceptPlayerMessage": "",
+    "6afeaf7915530ff37817d47a declinePlayerMessage": "",
+    "6afeaf7915530ff37817d47a completePlayerMessage": "",
+    "6afeaf7915530ff37817d47a successMessageText": "[PH] Lovely. That'll keep the regulars happy for an afternoon, at least.",
+    "6afeaf7915530ff37817d47a failMessageText": "",
+    "6afeaf7915530ff37817d47c": "Find Bottle of Tarkovskaya vodka or Bottle of Tarkovskaya vodka in raid",
+    "6afeaf7915530ff37817d47d": "Hand over a bottle of Tarkovskaya vodka, found in raid",
+    "6afeaf7915530ff37817d47e": "Find Bottle of Dan Jackiel whiskey in raid",
+    "6afeaf7915530ff37817d47f": "Hand over Bottle of Dan Jackiel whiskey"
+}
