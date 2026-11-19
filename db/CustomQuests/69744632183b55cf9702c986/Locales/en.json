@@ -34,5 +34,15 @@
     "6afeaaf3c51077a145c068c1 completePlayerMessage": "",
     "6afeaaf3c51077a145c068c1 successMessageText": "[PH] Danger close and still breathing. Textbook.",
     "6afeaaf3c51077a145c068c1 failMessageText": "",
-    "6afeaaf3c51077a145c068c3": "Eliminate PMCs from less than 20 meters away on Customs"
+    "6afeaaf3c51077a145c068c3": "Eliminate PMCs from less than 20 meters away on Customs",
+    "6afeab5a9e8e49793d89e912 name": "Operation Benchmark",
+    "6afeab5a9e8e49793d89e912 description": "[PH] I'm expanding the workshop, and I need to know which benches out there are still serviceable. Tag three of them for me: two on Customs, one on Streets. Then I can send a team to liberate them.",
+    "6afeab5a9e8e49793d89e912 acceptPlayerMessage": "",
+    "6afeab5a9e8e49793d89e912 declinePlayerMessage": "",
+    "6afeab5a9e8e49793d89e912 completePlayerMessage": "",
+    "6afeab5a9e8e49793d89e912 successMessageText": "[PH] Copy that, three benches tagged. Recovery team's spinning up.",
+    "6afeab5a9e8e49793d89e912 failMessageText": "",
+    "6afeab5a9e8e49793d89e915": "Mark the workbench in the chemical factory storage on Customs",
+    "6afeab5a9e8e49793d89e916": "Mark the workbench by the fuel tanks on Customs",
+    "6afeab5a9e8e49793d89e917": "Mark the workbench in the Nikitskaya courtyard on Streets"
 }

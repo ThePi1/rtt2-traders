@@ -23,5 +23,80 @@
             "Z": "3",
             "W": "0"
         }
+    },
+    {
+        "ZoneId": "A5_1",
+        "ZoneName": "A5_1",
+        "ZoneLocation": "bigmap",
+        "ZoneType": "placeitem",
+        "FlareType": "",
+        "Position": {
+            "X": "353.3",
+            "Y": "4.35",
+            "Z": "-41.1",
+            "W": "0"
+        },
+        "Rotation": {
+            "X": "0",
+            "Y": "0",
+            "Z": "0",
+            "W": "1"
+        },
+        "Scale": {
+            "X": "3",
+            "Y": "3",
+            "Z": "3",
+            "W": "0"
+        }
+    },
+    {
+        "ZoneId": "A5_2",
+        "ZoneName": "A5_2",
+        "ZoneLocation": "bigmap",
+        "ZoneType": "placeitem",
+        "FlareType": "",
+        "Position": {
+            "X": "570.1",
+            "Y": "2.66",
+            "Z": "-50.6",
+            "W": "0"
+        },
+        "Rotation": {
+            "X": "0",
+            "Y": "0",
+            "Z": "0",
+            "W": "1"
+        },
+        "Scale": {
+            "X": "3",
+            "Y": "3",
+            "Z": "3",
+            "W": "0"
+        }
+    },
+    {
+        "ZoneId": "A5_3",
+        "ZoneName": "A5_3",
+        "ZoneLocation": "TarkovStreets",
+        "ZoneType": "placeitem",
+        "FlareType": "",
+        "Position": {
+            "X": "-133.5",
+            "Y": "7.023",
+            "Z": "286.6",
+            "W": "0"
+        },
+        "Rotation": {
+            "X": "0",
+            "Y": "0",
+            "Z": "0",
+            "W": "1"
+        },
+        "Scale": {
+            "X": "3",
+            "Y": "3",
+            "Z": "3",
+            "W": "0"
+        }
     }
 ]
