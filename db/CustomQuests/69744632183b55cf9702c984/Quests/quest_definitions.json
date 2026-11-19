@@ -2793,5 +2793,173 @@
         "successMessageText": "6afeb14136d4b397d4079646 successMessageText",
         "traderId": "69744632183b55cf9702c984",
         "type": "Completion"
+    },
+    "6afeb142d837bdb1a9565910": {
+        "QuestName": "Triple Gem - Part 1",
+        "_id": "6afeb142d837bdb1a9565910",
+        "acceptPlayerMessage": "6afeb142d837bdb1a9565910 acceptPlayerMessage",
+        "acceptanceAndFinishingSource": "eft",
+        "arenaLocations": [],
+        "canShowNotificationsInGame": true,
+        "changeQuestMessageText": "6afeb142d837bdb1a9565910 changeQuestMessageText",
+        "completePlayerMessage": "6afeb142d837bdb1a9565910 completePlayerMessage",
+        "conditions": {
+            "AvailableForFinish": [
+                {
+                    "completeInSeconds": 0,
+                    "conditionType": "CounterCreator",
+                    "counter": {
+                        "conditions": [
+                            {
+                                "bodyPart": [],
+                                "compareMethod": ">=",
+                                "conditionType": "Kills",
+                                "daytime": {
+                                    "from": 0,
+                                    "to": 0
+                                },
+                                "distance": {
+                                    "compareMethod": ">=",
+                                    "value": 0
+                                },
+                                "dynamicLocale": false,
+                                "enemyEquipmentExclusive": [],
+                                "enemyEquipmentInclusive": [],
+                                "enemyHealthEffects": [],
+                                "id": "6afeb142d837bdb1a9565914",
+                                "resetOnSessionEnd": false,
+                                "savageRole": [
+                                    "bossSanitar",
+                                    "bossKilla",
+                                    "bossKnight",
+                                    "followerBigPipe",
+                                    "followerBirdEye"
+                                ],
+                                "target": "Savage",
+                                "value": 1,
+                                "weapon": [],
+                                "weaponCaliber": [],
+                                "weaponModsExclusive": [],
+                                "weaponModsInclusive": []
+                            },
+                            {
+                                "conditionType": "ExitStatus",
+                                "dynamicLocale": false,
+                                "id": "6afeb142d837bdb1a9565915",
+                                "status": [
+                                    "Survived"
+                                ]
+                            }
+                        ],
+                        "id": "6afeb142d837bdb1a9565913"
+                    },
+                    "doNotResetIfCounterCompleted": false,
+                    "dynamicLocale": false,
+                    "globalQuestCounterId": "",
+                    "id": "6afeb142d837bdb1a9565912",
+                    "index": 0,
+                    "isNecessary": false,
+                    "isResetOnConditionFailed": false,
+                    "oneSessionOnly": false,
+                    "parentId": "",
+                    "type": "Elimination",
+                    "value": 1,
+                    "visibilityConditions": []
+                }
+            ],
+            "AvailableForStart": [
+                {
+                    "availableAfter": 0,
+                    "conditionType": "Quest",
+                    "dispersion": 0,
+                    "dynamicLocale": false,
+                    "globalQuestCounterId": "",
+                    "id": "6afeb142d837bdb1a9565911",
+                    "index": 0,
+                    "parentId": "",
+                    "status": [
+                        4
+                    ],
+                    "target": "6afeb14136d4b397d4079646",
+                    "visibilityConditions": []
+                }
+            ],
+            "Fail": []
+        },
+        "declinePlayerMessage": "6afeb142d837bdb1a9565910 declinePlayerMessage",
+        "description": "6afeb142d837bdb1a9565910 description",
+        "failMessageText": "6afeb142d837bdb1a9565910 failMessageText",
+        "gameModes": [],
+        "image": "/files/quest/icon/61ab38781b7da753125cfaa5.png",
+        "instantComplete": false,
+        "isKey": false,
+        "location": "any",
+        "name": "6afeb142d837bdb1a9565910 name",
+        "note": "6afeb142d837bdb1a9565910 note",
+        "progressSource": "eft",
+        "rankingModes": [],
+        "restartable": false,
+        "rewards": {
+            "Fail": [],
+            "Started": [],
+            "Success": [
+                {
+                    "availableInGameEditions": [],
+                    "gameMode": [
+                        "regular",
+                        "pve"
+                    ],
+                    "id": "6afeb142d837bdb1a9565916",
+                    "isHidden": false,
+                    "type": "Experience",
+                    "unknown": false,
+                    "value": 13000
+                },
+                {
+                    "availableInGameEditions": [],
+                    "gameMode": [
+                        "regular",
+                        "pve"
+                    ],
+                    "id": "6afeb142d837bdb1a9565917",
+                    "isHidden": false,
+                    "target": "69744632183b55cf9702c984",
+                    "type": "TraderStanding",
+                    "unknown": false,
+                    "value": 0.16
+                },
+                {
+                    "availableInGameEditions": [],
+                    "findInRaid": false,
+                    "gameMode": [
+                        "regular",
+                        "pve"
+                    ],
+                    "id": "6afeb142d837bdb1a9565918",
+                    "isEncoded": false,
+                    "isHidden": false,
+                    "items": [
+                        {
+                            "_id": "6afeb142d837bdb1a9565919",
+                            "_tpl": "5449016a4bdc2d6f028b456f",
+                            "upd": {
+                                "StackObjectsCount": 105000
+                            }
+                        }
+                    ],
+                    "target": "6afeb142d837bdb1a9565919",
+                    "type": "Item",
+                    "unknown": false,
+                    "value": 105000
+                }
+            ]
+        },
+        "secretQuest": false,
+        "side": "pmc",
+        "startedMessageText": "6afeb142d837bdb1a9565910 startedMessageText",
+        "status": 0,
+        "successMessageText": "6afeb142d837bdb1a9565910 successMessageText",
+        "traderId": "69744632183b55cf9702c984",
+        "type": "Elimination"
     }
 }

@@ -151,5 +151,13 @@
     "6afeb14136d4b397d4079646 completePlayerMessage": "",
     "6afeb14136d4b397d4079646 successMessageText": "[PH] The investment is made. The soup is still not recommended.",
     "6afeb14136d4b397d4079646 failMessageText": "",
-    "6afeb14136d4b397d4079648": "Leave a Physical Bitcoin at the Chinese food stand in the Klimov mall food court on Streets"
+    "6afeb14136d4b397d4079648": "Leave a Physical Bitcoin at the Chinese food stand in the Klimov mall food court on Streets",
+    "6afeb142d837bdb1a9565910 name": "Triple Gem - Part 1",
+    "6afeb142d837bdb1a9565910 description": "[PH] The three gems: the doctor, the brute and the trio. Choose one. Remove Sanitar, Killa, or one of the Goons, and come back alive. Leadership is about choices.",
+    "6afeb142d837bdb1a9565910 acceptPlayerMessage": "",
+    "6afeb142d837bdb1a9565910 declinePlayerMessage": "",
+    "6afeb142d837bdb1a9565910 completePlayerMessage": "",
+    "6afeb142d837bdb1a9565910 successMessageText": "[PH] An excellent choice. I would have chosen the same.",
+    "6afeb142d837bdb1a9565910 failMessageText": "",
+    "6afeb142d837bdb1a9565912": "Eliminate Sanitar, Killa or any of the Goons, and survive the raid"
 }
