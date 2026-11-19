@@ -895,5 +895,13 @@
     "6afeb4e3794f298c02f1b0c6 completePlayerMessage": "",
     "6afeb4e3794f298c02f1b0c6 successMessageText": "[PH] Irons only. Your grandfather would be proud. Probably.",
     "6afeb4e3794f298c02f1b0c6 failMessageText": "",
-    "6afeb4e3794f298c02f1b0c8": "Eliminate Glukhar with an assault rifle on iron sights"
+    "6afeb4e3794f298c02f1b0c8": "Eliminate Glukhar with an assault rifle on iron sights",
+    "6afeb4e599cc3b4498e62f1d name": "Gun - Part 3",
+    "6afeb4e599cc3b4498e62f1d description": "[PH] The Priest only walks at night. Find him and answer his sermon with a rifle.",
+    "6afeb4e599cc3b4498e62f1d acceptPlayerMessage": "",
+    "6afeb4e599cc3b4498e62f1d declinePlayerMessage": "",
+    "6afeb4e599cc3b4498e62f1d completePlayerMessage": "",
+    "6afeb4e599cc3b4498e62f1d successMessageText": "[PH] The sermon is over.",
+    "6afeb4e599cc3b4498e62f1d failMessageText": "",
+    "6afeb4e599cc3b4498e62f1f": "Eliminate the cultist Priest with an assault rifle"
 }
