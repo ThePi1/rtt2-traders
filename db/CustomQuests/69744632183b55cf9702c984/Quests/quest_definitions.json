@@ -782,5 +782,159 @@
         "successMessageText": "6afeb133df04bdf8630f0ccf successMessageText",
         "traderId": "69744632183b55cf9702c984",
         "type": "Completion"
+    },
+    "6afeb134f4a03ce7764de4bc": {
+        "QuestName": "Better Without",
+        "_id": "6afeb134f4a03ce7764de4bc",
+        "acceptPlayerMessage": "6afeb134f4a03ce7764de4bc acceptPlayerMessage",
+        "acceptanceAndFinishingSource": "eft",
+        "arenaLocations": [],
+        "canShowNotificationsInGame": true,
+        "changeQuestMessageText": "6afeb134f4a03ce7764de4bc changeQuestMessageText",
+        "completePlayerMessage": "6afeb134f4a03ce7764de4bc completePlayerMessage",
+        "conditions": {
+            "AvailableForFinish": [
+                {
+                    "completeInSeconds": 0,
+                    "conditionType": "CounterCreator",
+                    "counter": {
+                        "conditions": [
+                            {
+                                "bodyPart": [],
+                                "compareMethod": ">=",
+                                "conditionType": "Kills",
+                                "daytime": {
+                                    "from": 0,
+                                    "to": 0
+                                },
+                                "distance": {
+                                    "compareMethod": ">=",
+                                    "value": 0
+                                },
+                                "dynamicLocale": false,
+                                "enemyEquipmentExclusive": [],
+                                "enemyEquipmentInclusive": [],
+                                "enemyHealthEffects": [],
+                                "id": "6afeb135f4a03ce7764de4c0",
+                                "resetOnSessionEnd": false,
+                                "savageRole": [],
+                                "target": "Usec",
+                                "value": 0,
+                                "weapon": [],
+                                "weaponCaliber": [],
+                                "weaponModsExclusive": [],
+                                "weaponModsInclusive": []
+                            }
+                        ],
+                        "id": "6afeb135f4a03ce7764de4bf"
+                    },
+                    "doNotResetIfCounterCompleted": false,
+                    "dynamicLocale": false,
+                    "globalQuestCounterId": "",
+                    "id": "6afeb135f4a03ce7764de4be",
+                    "index": 0,
+                    "isNecessary": false,
+                    "isResetOnConditionFailed": false,
+                    "oneSessionOnly": false,
+                    "parentId": "",
+                    "type": "Elimination",
+                    "value": 10,
+                    "visibilityConditions": []
+                }
+            ],
+            "AvailableForStart": [
+                {
+                    "availableAfter": 0,
+                    "conditionType": "Quest",
+                    "dispersion": 0,
+                    "dynamicLocale": false,
+                    "globalQuestCounterId": "",
+                    "id": "6afeb135f4a03ce7764de4bd",
+                    "index": 0,
+                    "parentId": "",
+                    "status": [
+                        4
+                    ],
+                    "target": "6afeb133df04bdf8630f0ccf",
+                    "visibilityConditions": []
+                }
+            ],
+            "Fail": []
+        },
+        "declinePlayerMessage": "6afeb134f4a03ce7764de4bc declinePlayerMessage",
+        "description": "6afeb134f4a03ce7764de4bc description",
+        "failMessageText": "6afeb134f4a03ce7764de4bc failMessageText",
+        "gameModes": [],
+        "image": "/files/quest/icon/5ae4a7dd86f77448464ed2b2.png",
+        "instantComplete": false,
+        "isKey": false,
+        "location": "any",
+        "name": "6afeb134f4a03ce7764de4bc name",
+        "note": "6afeb134f4a03ce7764de4bc note",
+        "progressSource": "eft",
+        "rankingModes": [],
+        "restartable": false,
+        "rewards": {
+            "Fail": [],
+            "Started": [],
+            "Success": [
+                {
+                    "availableInGameEditions": [],
+                    "gameMode": [
+                        "regular",
+                        "pve"
+                    ],
+                    "id": "6afeb135f4a03ce7764de4c1",
+                    "isHidden": false,
+                    "type": "Experience",
+                    "unknown": false,
+                    "value": 5800
+                },
+                {
+                    "availableInGameEditions": [],
+                    "gameMode": [
+                        "regular",
+                        "pve"
+                    ],
+                    "id": "6afeb135f4a03ce7764de4c2",
+                    "isHidden": false,
+                    "target": "69744632183b55cf9702c984",
+                    "type": "TraderStanding",
+                    "unknown": false,
+                    "value": 0.16
+                },
+                {
+                    "availableInGameEditions": [],
+                    "findInRaid": false,
+                    "gameMode": [
+                        "regular",
+                        "pve"
+                    ],
+                    "id": "6afeb135f4a03ce7764de4c3",
+                    "isEncoded": false,
+                    "isHidden": false,
+                    "items": [
+                        {
+                            "_id": "6afeb135f4a03ce7764de4c4",
+                            "_tpl": "5449016a4bdc2d6f028b456f",
+                            "upd": {
+                                "StackObjectsCount": 45000
+                            }
+                        }
+                    ],
+                    "target": "6afeb135f4a03ce7764de4c4",
+                    "type": "Item",
+                    "unknown": false,
+                    "value": 45000
+                }
+            ]
+        },
+        "secretQuest": false,
+        "side": "pmc",
+        "startedMessageText": "6afeb134f4a03ce7764de4bc startedMessageText",
+        "status": 0,
+        "successMessageText": "6afeb134f4a03ce7764de4bc successMessageText",
+        "traderId": "69744632183b55cf9702c984",
+        "type": "Elimination"
     }
 }

@@ -42,5 +42,13 @@
     "6afeb133df04bdf8630f0cd2": "Leave a stimulant at the weather station",
     "6afeb133df04bdf8630f0cd3": "Leave a stimulant in the village house by the water",
     "6afeb133df04bdf8630f0cd4": "Leave a stimulant in the gas station office",
-    "6afeb133df04bdf8630f0cd5": "Leave a stimulant in the bus station office"
+    "6afeb133df04bdf8630f0cd5": "Leave a stimulant in the bus station office",
+    "6afeb134f4a03ce7764de4bc name": "Better Without",
+    "6afeb134f4a03ce7764de4bc description": "[PH] Someone has been ambushing our caravans. They wear patches with cartoon girls on them and say 'hooah'. USEC. Ten of them, please. A reminder of who keeps the order.",
+    "6afeb134f4a03ce7764de4bc acceptPlayerMessage": "",
+    "6afeb134f4a03ce7764de4bc declinePlayerMessage": "",
+    "6afeb134f4a03ce7764de4bc completePlayerMessage": "",
+    "6afeb134f4a03ce7764de4bc successMessageText": "[PH] Ten. Interesting. Several were carrying business cards for a certain gun shop.",
+    "6afeb134f4a03ce7764de4bc failMessageText": "",
+    "6afeb135f4a03ce7764de4be": "Eliminate USEC PMCs"
 }
