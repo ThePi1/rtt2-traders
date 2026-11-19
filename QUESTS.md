@@ -207,7 +207,7 @@ New zones are in `db/CustomQuestZones/C1_C4_C6_C7_C8_C9.json`. The first four ar
 | L105 | Storyteller | P-Chan - Part 1 | Kill 10 PMC in legs with SMG | L32 | SMG | `6afeb4de41c9d4034ae92cf7` | Built | Built: 10 PMC kills with SMGs, killing shot to a leg |
 | L106 | Storyteller | P-Chan - Part 2 | Kill 10 Raiders in legs with SMG | L105 | SMG | `6afeb4e04de1af94186b7bb2` | Built | Built: 10 Raider kills with SMGs, killing shot to a leg |
 | L107 | Storyteller | P-Chan - Part 3 | Kill 2 Rogues with SMGs | L106 | SMG | `6afeb4e1b5c5f0dc44687b65` | Built | Built: 2 Rogue kills with SMGs |
-| L108 | Storyteller | Gun - Part 1 | Kill 10 PMCs with M4C9 | L32 | Assault |  | To build |  |
+| L108 | Storyteller | Gun - Part 1 | Kill 10 PMCs with M4C9 | L32 | Assault | `6afeb4e249c73f6e437e9220` | Needs check | Built: 10 PMC kills with the Colt M4A1. The design's "M4C9" matches no item; I read it as the M4A1 |
 | L109 | Storyteller | Gun - Part 2 | Kill Glukhar with iron sighted ARs | L108 | Assault |  | To build |  |
 | L110 | Storyteller | Gun - Part 3 | Kill Priest with ARs | L109 | Assault |  | To build |  |
 | L111 | Storyteller | Such Shoot, Many Pellet - Part 1 | Kill 5 Rouges with KS-23 | L32 | Shotgun |  | To build |  |

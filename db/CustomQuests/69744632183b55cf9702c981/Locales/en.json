@@ -879,5 +879,13 @@
     "6afeb4e1b5c5f0dc44687b65 completePlayerMessage": "",
     "6afeb4e1b5c5f0dc44687b65 successMessageText": "[PH] Two Rogues, sprayed down. You're getting reckless. You're getting good.",
     "6afeb4e1b5c5f0dc44687b65 failMessageText": "",
-    "6afeb4e1b5c5f0dc44687b67": "Eliminate Rogues with an SMG"
+    "6afeb4e1b5c5f0dc44687b67": "Eliminate Rogues with an SMG",
+    "6afeb4e249c73f6e437e9220 name": "Gun - Part 1",
+    "6afeb4e249c73f6e437e9220 description": "[PH] The M4. Everyone's first love. Ten PMCs with it, and remember why.",
+    "6afeb4e249c73f6e437e9220 acceptPlayerMessage": "",
+    "6afeb4e249c73f6e437e9220 declinePlayerMessage": "",
+    "6afeb4e249c73f6e437e9220 completePlayerMessage": "",
+    "6afeb4e249c73f6e437e9220 successMessageText": "[PH] Ten. It's a classic for a reason.",
+    "6afeb4e249c73f6e437e9220 failMessageText": "",
+    "6afeb4e249c73f6e437e9222": "Eliminate PMCs with a Colt M4A1"
 }
