@@ -121,5 +121,22 @@
     "6afeac863a8863df58c72b07": "Find Killa figurine in raid",
     "6afeac863a8863df58c72b08": "Hand over Killa figurine",
     "6afeac863a8863df58c72b09": "Find Reshala figurine in raid",
-    "6afeac863a8863df58c72b0a": "Hand over Reshala figurine"
+    "6afeac863a8863df58c72b0a": "Hand over Reshala figurine",
+    "6afeac8722c2567678149911 name": "Atlas of Worlds",
+    "6afeac8722c2567678149911 description": "[PH] They call me Atlas for a reason. I've seen every corner of this map, and now it's your turn. Get in and out of every location: Customs, Factory, Woods, Shoreline, Interchange, Reserve, the Lab, Lighthouse, Streets and Ground Zero.",
+    "6afeac8722c2567678149911 acceptPlayerMessage": "",
+    "6afeac8722c2567678149911 declinePlayerMessage": "",
+    "6afeac8722c2567678149911 completePlayerMessage": "",
+    "6afeac8722c2567678149911 successMessageText": "[PH] Full map clear. Here's a keycard for the Lab, you've earned the expensive raids.",
+    "6afeac8722c2567678149911 failMessageText": "",
+    "6afeac8722c2567678149913": "Survive and extract from Customs",
+    "6afeac8722c2567678149917": "Survive and extract from Factory",
+    "6afeac8722c256767814991b": "Survive and extract from Woods",
+    "6afeac8722c256767814991f": "Survive and extract from Shoreline",
+    "6afeac8722c2567678149923": "Survive and extract from Interchange",
+    "6afeac8722c2567678149927": "Survive and extract from Reserve",
+    "6afeac8722c256767814992b": "Survive and extract from The Lab",
+    "6afeac8722c256767814992f": "Survive and extract from Lighthouse",
+    "6afeac8722c2567678149933": "Survive and extract from Streets of Tarkov",
+    "6afeac8722c2567678149937": "Survive and extract from Ground Zero"
 }

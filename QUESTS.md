@@ -317,7 +317,7 @@ New zones are in `db/CustomQuestZones/C1_C4_C6_C7_C8_C9.json`. The first four ar
 | A11 | Atlas | Paramilitary Pasta | Find the "spaghetti corner" - in the reserve food room. Plant a superwater. Then also kill "Spaghetti Joe" aka Gluhkar |  |  | `6afeac84d3cd2d70e7794577` | Needs check | Built: visit the existing zone `A11`, then leave a superwater (Canister with purified water) at new zone `A11_2` inside it, and kill Glukhar |
 | A12 | Atlas | Training Arc | Level strength to 10 |  |  | `6afeac85ca77a07b0c58ff66` | Built | Built: reach Strength level 10 |
 | A13 | Atlas | Filler Episode | Finding different figurines: 1x Tagilla, Killa, Reshala |  |  | `6afeac863a8863df58c72b03` | Built | Built: hand in 1 FIR Tagilla, Killa and Reshala figurine each |
-| A14 | Atlas | Atlas of Worlds | Survive and extract once from every map, including Labs (not labyrinth) |  | Unlock all maps? Maybe Labs card? or labs barter? |  | To build |  |
+| A14 | Atlas | Atlas of Worlds | Survive and extract once from every map, including Labs (not labyrinth) |  | Unlock all maps? Maybe Labs card? or labs barter? | `6afeac8722c2567678149911` | Built | Built: survive and extract from every map (Labyrinth excluded); rewards a Labs keycard. The design's "unlock all maps?" reward is left out |
 | A15 | Atlas | 5ive Se7en | Get 25 kills with the fiveseven |  |  |  | To build |  |
 | A16 | Atlas | Griner! | Kill 4 Scav with grenades, kill 4 PMCs with grenades |  |  |  | To build |  |
 | A17 | Atlas | Form Over Function | Kill enemies with anime girl sight (or placeholder, specific reflex) |  | Some assort unlock |  | To build |  |
