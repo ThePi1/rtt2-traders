@@ -52,5 +52,15 @@
     "6afeb23a85305c13a0bd3eec": "Find Salewa first aid kit in raid",
     "6afeb23a85305c13a0bd3eed": "Hand over Salewa first aid kit",
     "6afeb23a85305c13a0bd3eee": "Find Propital regenerative stimulant injector in raid",
-    "6afeb23a85305c13a0bd3eef": "Hand over Propital regenerative stimulant injector"
+    "6afeb23a85305c13a0bd3eef": "Hand over Propital regenerative stimulant injector",
+    "6afeb23b4b547e3d2395b166 name": "Marathon Dose - Part 1",
+    "6afeb23b4b547e3d2395b166 description": "[PH] I'm testing a new endurance blend. Long-lasting, if you know what I mean. Run it from Ground Zero all the way to Interchange: Ground Zero to Streets, Streets to Interchange, then get out. Tell me when it wears off.",
+    "6afeb23b4b547e3d2395b166 acceptPlayerMessage": "",
+    "6afeb23b4b547e3d2395b166 declinePlayerMessage": "",
+    "6afeb23b4b547e3d2395b166 completePlayerMessage": "",
+    "6afeb23b4b547e3d2395b166 successMessageText": "[PH] Still going? Damn. This stuff is good.",
+    "6afeb23b4b547e3d2395b166 failMessageText": "",
+    "6afeb23b4b547e3d2395b167": "Transit from Ground Zero to Streets of Tarkov",
+    "6afeb23b4b547e3d2395b168": "Transit from Streets of Tarkov to Interchange",
+    "6afeb23b4b547e3d2395b174": "Survive and extract from Interchange"
 }
