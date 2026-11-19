@@ -911,5 +911,13 @@
     "6afeb4e62ef19923c668ff38 completePlayerMessage": "",
     "6afeb4e62ef19923c668ff38 successMessageText": "[PH] Such Rogue. Very down.",
     "6afeb4e62ef19923c668ff38 failMessageText": "",
-    "6afeb4e62ef19923c668ff3a": "Eliminate Rogues with a KS-23M"
+    "6afeb4e62ef19923c668ff3a": "Eliminate Rogues with a KS-23M",
+    "6afeb4e7381b33967fbfc0ab name": "Such Shoot, Many Pellet - Part 2",
+    "6afeb4e7381b33967fbfc0ab description": "[PH] Two barrels, no stock, no patience. Ten PMCs with the sawed-off. Get close. Closer.",
+    "6afeb4e7381b33967fbfc0ab acceptPlayerMessage": "",
+    "6afeb4e7381b33967fbfc0ab declinePlayerMessage": "",
+    "6afeb4e7381b33967fbfc0ab completePlayerMessage": "",
+    "6afeb4e7381b33967fbfc0ab successMessageText": "[PH] Ten. Many pellet, indeed.",
+    "6afeb4e7381b33967fbfc0ab failMessageText": "",
+    "6afeb4e7381b33967fbfc0ad": "Eliminate PMCs with an MP-43 sawed-off"
 }

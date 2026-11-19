@@ -24573,5 +24573,125 @@
         "successMessageText": "6afeb4e62ef19923c668ff38 successMessageText",
         "traderId": "69744632183b55cf9702c981",
         "type": "Elimination"
+    },
+    "6afeb4e7381b33967fbfc0ab": {
+        "QuestName": "Such Shoot, Many Pellet - Part 2",
+        "_id": "6afeb4e7381b33967fbfc0ab",
+        "acceptPlayerMessage": "6afeb4e7381b33967fbfc0ab acceptPlayerMessage",
+        "acceptanceAndFinishingSource": "eft",
+        "arenaLocations": [],
+        "canShowNotificationsInGame": true,
+        "changeQuestMessageText": "6afeb4e7381b33967fbfc0ab changeQuestMessageText",
+        "completePlayerMessage": "6afeb4e7381b33967fbfc0ab completePlayerMessage",
+        "conditions": {
+            "AvailableForFinish": [
+                {
+                    "completeInSeconds": 0,
+                    "conditionType": "CounterCreator",
+                    "counter": {
+                        "conditions": [
+                            {
+                                "bodyPart": [],
+                                "compareMethod": ">=",
+                                "conditionType": "Kills",
+                                "daytime": {
+                                    "from": 0,
+                                    "to": 0
+                                },
+                                "distance": {
+                                    "compareMethod": ">=",
+                                    "value": 0
+                                },
+                                "dynamicLocale": false,
+                                "enemyEquipmentExclusive": [],
+                                "enemyEquipmentInclusive": [],
+                                "enemyHealthEffects": [],
+                                "id": "6afeb4e7381b33967fbfc0af",
+                                "resetOnSessionEnd": false,
+                                "savageRole": [],
+                                "target": "AnyPmc",
+                                "value": 0,
+                                "weapon": [
+                                    "64748cb8de82c85eaf0a273a"
+                                ],
+                                "weaponCaliber": [],
+                                "weaponModsExclusive": [],
+                                "weaponModsInclusive": []
+                            }
+                        ],
+                        "id": "6afeb4e7381b33967fbfc0ae"
+                    },
+                    "doNotResetIfCounterCompleted": false,
+                    "dynamicLocale": false,
+                    "globalQuestCounterId": "",
+                    "id": "6afeb4e7381b33967fbfc0ad",
+                    "index": 0,
+                    "isNecessary": false,
+                    "isResetOnConditionFailed": false,
+                    "oneSessionOnly": false,
+                    "parentId": "",
+                    "type": "Elimination",
+                    "value": 10,
+                    "visibilityConditions": []
+                }
+            ],
+            "AvailableForStart": [
+                {
+                    "availableAfter": 0,
+                    "conditionType": "Quest",
+                    "dispersion": 0,
+                    "dynamicLocale": false,
+                    "globalQuestCounterId": "",
+                    "id": "6afeb4e7381b33967fbfc0ac",
+                    "index": 0,
+                    "parentId": "",
+                    "status": [
+                        4
+                    ],
+                    "target": "6afeb4e62ef19923c668ff38",
+                    "visibilityConditions": []
+                }
+            ],
+            "Fail": []
+        },
+        "declinePlayerMessage": "6afeb4e7381b33967fbfc0ab declinePlayerMessage",
+        "description": "6afeb4e7381b33967fbfc0ab description",
+        "failMessageText": "6afeb4e7381b33967fbfc0ab failMessageText",
+        "gameModes": [],
+        "image": "/files/quest/icon/5ae4a7dd86f77448464ed2b2.png",
+        "instantComplete": false,
+        "isKey": false,
+        "location": "any",
+        "name": "6afeb4e7381b33967fbfc0ab name",
+        "note": "6afeb4e7381b33967fbfc0ab note",
+        "progressSource": "eft",
+        "rankingModes": [],
+        "restartable": false,
+        "rewards": {
+            "Fail": [],
+            "Started": [],
+            "Success": [
+                {
+                    "availableInGameEditions": [],
+                    "gameMode": [
+                        "regular",
+                        "pve"
+                    ],
+                    "id": "6afeb4e7381b33967fbfc0b0",
+                    "isHidden": false,
+                    "target": "Shotgun",
+                    "type": "Skill",
+                    "unknown": false,
+                    "value": 1500
+                }
+            ]
+        },
+        "secretQuest": false,
+        "side": "pmc",
+        "startedMessageText": "6afeb4e7381b33967fbfc0ab startedMessageText",
+        "status": 0,
+        "successMessageText": "6afeb4e7381b33967fbfc0ab successMessageText",
+        "traderId": "69744632183b55cf9702c981",
+        "type": "Elimination"
     }
 }

@@ -211,7 +211,7 @@ New zones are in `db/CustomQuestZones/C1_C4_C6_C7_C8_C9.json`. The first four ar
 | L109 | Storyteller | Gun - Part 2 | Kill Glukhar with iron sighted ARs | L108 | Assault | `6afeb4e3794f298c02f1b0c6` | Built | Built: kill Glukhar with an assault rifle or carbine that has no optic or red dot (every scope and sight is excluded) |
 | L110 | Storyteller | Gun - Part 3 | Kill Priest with ARs | L109 | Assault | `6afeb4e599cc3b4498e62f1d` | Built | Built: kill a cultist Priest with an assault rifle or carbine |
 | L111 | Storyteller | Such Shoot, Many Pellet - Part 1 | Kill 5 Rouges with KS-23 | L32 | Shotgun | `6afeb4e62ef19923c668ff38` | Built | Built: 5 Rogue kills with the KS-23M |
-| L112 | Storyteller | Such Shoot, Many Pellet - Part 2 | Kill 10 PMCs with Sawed off Double Barrel | L111 | Shotgun |  | To build |  |
+| L112 | Storyteller | Such Shoot, Many Pellet - Part 2 | Kill 10 PMCs with Sawed off Double Barrel | L111 | Shotgun | `6afeb4e7381b33967fbfc0ab` | Built | Built: 10 PMC kills with the MP-43 sawed-off |
 | L113 | Storyteller | Such Shoot, Many Pellet - Part 3 | Kill Shturmann with a Shotgun | L112 | Shotgun |  | To build |  |
 | L114 | Storyteller | Tech Tips - Part 1 | Kill 10 Scavs with LMGs | L32 | LMG |  | To build |  |
 | L115 | Storyteller | Tech Tips - Part 2 | Kill 20 Scavs with LMGs | L114 | LMG |  | To build |  |
