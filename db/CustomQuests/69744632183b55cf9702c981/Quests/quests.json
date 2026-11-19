@@ -6547,8 +6547,8 @@
                     "id": "69f94b81a49a5754e709dbc1",
                     "index": 0,
                     "isEncoded": false,
-                    "minDurability": 0,
                     "maxDurability": 100,
+                    "minDurability": 0,
                     "onlyFoundInRaid": true,
                     "parentId": "",
                     "target": [
@@ -6584,8 +6584,8 @@
                     "id": "69f94baba49a5754e709dbc2",
                     "index": 0,
                     "isEncoded": false,
-                    "minDurability": 0,
                     "maxDurability": 100,
+                    "minDurability": 0,
                     "onlyFoundInRaid": true,
                     "parentId": "",
                     "target": [
@@ -6621,8 +6621,8 @@
                     "id": "69f94bc2a49a5754e709dbc3",
                     "index": 0,
                     "isEncoded": false,
-                    "minDurability": 0,
                     "maxDurability": 100,
+                    "minDurability": 0,
                     "onlyFoundInRaid": true,
                     "parentId": "",
                     "target": [
@@ -6647,7 +6647,7 @@
                     "target": [
                         "590c5d4b86f774784e1b9c45"
                     ],
-                    "value": 1,
+                    "value": 2,
                     "visibilityConditions": []
                 },
                 {
@@ -6658,14 +6658,14 @@
                     "id": "69f94be5a49a5754e709dbc4",
                     "index": 0,
                     "isEncoded": false,
-                    "minDurability": 0,
                     "maxDurability": 100,
-                    "onlyFoundInRaid": false,
+                    "minDurability": 0,
+                    "onlyFoundInRaid": true,
                     "parentId": "",
                     "target": [
                         "590c5d4b86f774784e1b9c45"
                     ],
-                    "value": 1,
+                    "value": 2,
                     "visibilityConditions": []
                 }
             ],
@@ -6707,11 +6707,11 @@
                 {
                     "availableInGameEditions": [],
                     "id": "69f94b37a49a5754e709dbbf",
-                    "index": 0,
                     "target": "HideoutManagement",
                     "type": "Skill",
                     "unknown": false,
-                    "value": 1500
+                    "value": 1500,
+                    "index": 0
                 }
             ]
         },
@@ -7111,8 +7111,8 @@
                     "id": "69f94f7f28f89593eb3bee80",
                     "index": 0,
                     "isEncoded": false,
-                    "minDurability": 0,
                     "maxDurability": 100,
+                    "minDurability": 0,
                     "onlyFoundInRaid": true,
                     "parentId": "",
                     "target": [
@@ -7148,8 +7148,8 @@
                     "id": "69f94f9c28f89593eb3bee82",
                     "index": 0,
                     "isEncoded": false,
-                    "minDurability": 0,
                     "maxDurability": 100,
+                    "minDurability": 0,
                     "onlyFoundInRaid": true,
                     "parentId": "",
                     "target": [
@@ -7185,8 +7185,8 @@
                     "id": "69f94fb128f89593eb3bee83",
                     "index": 0,
                     "isEncoded": false,
-                    "minDurability": 0,
                     "maxDurability": 100,
+                    "minDurability": 0,
                     "onlyFoundInRaid": true,
                     "parentId": "",
                     "target": [
@@ -7206,7 +7206,7 @@
                     "isEncoded": false,
                     "maxDurability": 100,
                     "minDurability": 0,
-                    "onlyFoundInRaid": false,
+                    "onlyFoundInRaid": true,
                     "parentId": "",
                     "target": [
                         "5d1c819a86f774771b0acd6c"
@@ -7222,8 +7222,8 @@
                     "id": "69f94fd928f89593eb3bee84",
                     "index": 0,
                     "isEncoded": false,
-                    "minDurability": 0,
                     "maxDurability": 100,
+                    "minDurability": 0,
                     "onlyFoundInRaid": true,
                     "parentId": "",
                     "target": [
@@ -7259,8 +7259,8 @@
                     "id": "69f94fed28f89593eb3bee85",
                     "index": 0,
                     "isEncoded": false,
-                    "minDurability": 0,
                     "maxDurability": 100,
+                    "minDurability": 0,
                     "onlyFoundInRaid": true,
                     "parentId": "",
                     "target": [
@@ -7296,8 +7296,8 @@
                     "id": "69f94ffb28f89593eb3bee86",
                     "index": 0,
                     "isEncoded": false,
-                    "minDurability": 0,
                     "maxDurability": 100,
+                    "minDurability": 0,
                     "onlyFoundInRaid": true,
                     "parentId": "",
                     "target": [
@@ -7333,8 +7333,8 @@
                     "id": "69f9501728f89593eb3bee87",
                     "index": 0,
                     "isEncoded": false,
-                    "minDurability": 0,
                     "maxDurability": 100,
+                    "minDurability": 0,
                     "onlyFoundInRaid": true,
                     "parentId": "",
                     "target": [
@@ -7382,11 +7382,11 @@
                 {
                     "availableInGameEditions": [],
                     "id": "69f94f7228f89593eb3bee7f",
-                    "index": 0,
                     "target": "Crafting",
                     "type": "Skill",
                     "unknown": false,
-                    "value": 1500
+                    "value": 1500,
+                    "index": 0
                 }
             ]
         },
@@ -15637,7 +15637,7 @@
                     "isEncoded": false,
                     "maxDurability": 100,
                     "minDurability": 0,
-                    "onlyFoundInRaid": false,
+                    "onlyFoundInRaid": true,
                     "parentId": "",
                     "target": [
                         "57347d7224597744596b4e72"
@@ -15684,10 +15684,10 @@
                 {
                     "availableInGameEditions": [],
                     "id": "6a0bb5fe255fe4bc50f25827",
-                    "index": 0,
                     "type": "Experience",
                     "unknown": false,
-                    "value": 1000
+                    "value": 1000,
+                    "index": 0
                 }
             ]
         },
@@ -17255,8 +17255,8 @@
                     "id": "6a14f0ccb636566917f0c10b",
                     "index": 0,
                     "isEncoded": false,
-                    "minDurability": 0,
                     "maxDurability": 100,
+                    "minDurability": 0,
                     "onlyFoundInRaid": true,
                     "parentId": "",
                     "target": [
@@ -17292,8 +17292,8 @@
                     "id": "6a14f0f1b636566917f0c10d",
                     "index": 0,
                     "isEncoded": false,
-                    "minDurability": 0,
                     "maxDurability": 100,
+                    "minDurability": 0,
                     "onlyFoundInRaid": true,
                     "parentId": "",
                     "target": [
@@ -17329,8 +17329,8 @@
                     "id": "6a14f10fb636566917f0c10f",
                     "index": 0,
                     "isEncoded": false,
-                    "minDurability": 0,
                     "maxDurability": 100,
+                    "minDurability": 0,
                     "onlyFoundInRaid": true,
                     "parentId": "",
                     "target": [
@@ -17366,8 +17366,8 @@
                     "id": "6a14f128b636566917f0c111",
                     "index": 0,
                     "isEncoded": false,
-                    "minDurability": 0,
                     "maxDurability": 100,
+                    "minDurability": 0,
                     "onlyFoundInRaid": true,
                     "parentId": "",
                     "target": [
@@ -17403,8 +17403,8 @@
                     "id": "6a14f146b636566917f0c113",
                     "index": 0,
                     "isEncoded": false,
-                    "minDurability": 0,
                     "maxDurability": 100,
+                    "minDurability": 0,
                     "onlyFoundInRaid": true,
                     "parentId": "",
                     "target": [
@@ -17440,8 +17440,8 @@
                     "id": "6a14f15db636566917f0c115",
                     "index": 0,
                     "isEncoded": false,
-                    "minDurability": 0,
                     "maxDurability": 100,
+                    "minDurability": 0,
                     "onlyFoundInRaid": true,
                     "parentId": "",
                     "target": [
@@ -17477,8 +17477,8 @@
                     "id": "6a14f17ab636566917f0c117",
                     "index": 0,
                     "isEncoded": false,
-                    "minDurability": 0,
                     "maxDurability": 100,
+                    "minDurability": 0,
                     "onlyFoundInRaid": true,
                     "parentId": "",
                     "target": [
@@ -17514,8 +17514,8 @@
                     "id": "6a14f191b636566917f0c119",
                     "index": 0,
                     "isEncoded": false,
-                    "minDurability": 0,
                     "maxDurability": 100,
+                    "minDurability": 0,
                     "onlyFoundInRaid": true,
                     "parentId": "",
                     "target": [
@@ -17551,8 +17551,8 @@
                     "id": "6a14f1a8b636566917f0c11b",
                     "index": 0,
                     "isEncoded": false,
-                    "minDurability": 0,
                     "maxDurability": 100,
+                    "minDurability": 0,
                     "onlyFoundInRaid": true,
                     "parentId": "",
                     "target": [
@@ -17588,8 +17588,8 @@
                     "id": "6a14f1bfb636566917f0c11d",
                     "index": 0,
                     "isEncoded": false,
-                    "minDurability": 0,
                     "maxDurability": 100,
+                    "minDurability": 0,
                     "onlyFoundInRaid": true,
                     "parentId": "",
                     "target": [
@@ -17625,9 +17625,9 @@
                     "id": "6a14f1d6b636566917f0c11f",
                     "index": 0,
                     "isEncoded": false,
-                    "minDurability": 0,
                     "maxDurability": 100,
-                    "onlyFoundInRaid": false,
+                    "minDurability": 0,
+                    "onlyFoundInRaid": true,
                     "parentId": "",
                     "target": [
                         "5ed5160a87bb8443d10680b5"
@@ -17662,8 +17662,8 @@
                     "id": "6a14f1e9b636566917f0c121",
                     "index": 0,
                     "isEncoded": false,
-                    "minDurability": 0,
                     "maxDurability": 100,
+                    "minDurability": 0,
                     "onlyFoundInRaid": true,
                     "parentId": "",
                     "target": [
@@ -17699,8 +17699,8 @@
                     "id": "6a14f201b636566917f0c123",
                     "index": 0,
                     "isEncoded": false,
-                    "minDurability": 0,
                     "maxDurability": 100,
+                    "minDurability": 0,
                     "onlyFoundInRaid": true,
                     "parentId": "",
                     "target": [
@@ -17736,8 +17736,8 @@
                     "id": "6a14f20fb636566917f0c124",
                     "index": 0,
                     "isEncoded": false,
-                    "minDurability": 0,
                     "maxDurability": 100,
+                    "minDurability": 0,
                     "onlyFoundInRaid": true,
                     "parentId": "",
                     "target": [
@@ -17773,8 +17773,8 @@
                     "id": "6a14f23bb636566917f0c127",
                     "index": 0,
                     "isEncoded": false,
-                    "minDurability": 0,
                     "maxDurability": 100,
+                    "minDurability": 0,
                     "onlyFoundInRaid": true,
                     "parentId": "",
                     "target": [
@@ -17810,8 +17810,8 @@
                     "id": "6a14f253b636566917f0c129",
                     "index": 0,
                     "isEncoded": false,
-                    "minDurability": 0,
                     "maxDurability": 100,
+                    "minDurability": 0,
                     "onlyFoundInRaid": true,
                     "parentId": "",
                     "target": [
@@ -17847,8 +17847,8 @@
                     "id": "6a14f271b636566917f0c12b",
                     "index": 0,
                     "isEncoded": false,
-                    "minDurability": 0,
                     "maxDurability": 100,
+                    "minDurability": 0,
                     "onlyFoundInRaid": true,
                     "parentId": "",
                     "target": [
@@ -17884,8 +17884,8 @@
                     "id": "6a14f287b636566917f0c12d",
                     "index": 0,
                     "isEncoded": false,
-                    "minDurability": 0,
                     "maxDurability": 100,
+                    "minDurability": 0,
                     "onlyFoundInRaid": true,
                     "parentId": "",
                     "target": [
@@ -17921,8 +17921,8 @@
                     "id": "6a14f29ab636566917f0c12f",
                     "index": 0,
                     "isEncoded": false,
-                    "minDurability": 0,
                     "maxDurability": 100,
+                    "minDurability": 0,
                     "onlyFoundInRaid": true,
                     "parentId": "",
                     "target": [
@@ -17958,8 +17958,8 @@
                     "id": "6a14f2b2b636566917f0c131",
                     "index": 0,
                     "isEncoded": false,
-                    "minDurability": 0,
                     "maxDurability": 100,
+                    "minDurability": 0,
                     "onlyFoundInRaid": true,
                     "parentId": "",
                     "target": [
@@ -17995,8 +17995,8 @@
                     "id": "6a14f2c8b636566917f0c133",
                     "index": 0,
                     "isEncoded": false,
-                    "minDurability": 0,
                     "maxDurability": 100,
+                    "minDurability": 0,
                     "onlyFoundInRaid": true,
                     "parentId": "",
                     "target": [
@@ -18044,11 +18044,11 @@
                 {
                     "availableInGameEditions": [],
                     "id": "6a14f0a4b636566917f0c108",
-                    "index": 0,
                     "target": "Surgery",
                     "type": "Skill",
                     "unknown": false,
-                    "value": 1500
+                    "value": 1500,
+                    "index": 0
                 }
             ]
         },
