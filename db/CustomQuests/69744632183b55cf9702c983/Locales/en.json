@@ -124,5 +124,15 @@
     "6afeaf8a8816157535cee653 successMessageText": "[PH] Two of them? No wonder nobody comes for my sausage rolls.",
     "6afeaf8a8816157535cee653 failMessageText": "",
     "6afeaf8a8816157535cee655": "Visit the Burger Spot on the mall's second floor",
-    "6afeaf8a8816157535cee658": "Visit the burger houses on the west wing's second floor"
+    "6afeaf8a8816157535cee658": "Visit the burger houses on the west wing's second floor",
+    "6afeaf8d32d5bcdb98c8c596 name": "Courtesy Call - Part 1",
+    "6afeaf8d32d5bcdb98c8c596 description": "[PH] My cousin rang. Wants to go bowling. Bloody bowling! Every week, the same call. Have a look round Streets for a bowling alley so I can shut him up. Try the cinema, the Sportmarket and the Klimov mall.",
+    "6afeaf8d32d5bcdb98c8c596 acceptPlayerMessage": "",
+    "6afeaf8d32d5bcdb98c8c596 declinePlayerMessage": "",
+    "6afeaf8d32d5bcdb98c8c596 completePlayerMessage": "",
+    "6afeaf8d32d5bcdb98c8c596 successMessageText": "[PH] Nothing? Typical. He'll ring again tomorrow, you watch.",
+    "6afeaf8d32d5bcdb98c8c596 failMessageText": "",
+    "6afeaf8e32d5bcdb98c8c598": "Look for a bowling alley in the Cinema on Streets",
+    "6afeaf8e32d5bcdb98c8c59b": "Look for a bowling alley in the Sportmarket",
+    "6afeaf8e32d5bcdb98c8c59e": "Look for a bowling alley in the Klimov shopping mall"
 }
