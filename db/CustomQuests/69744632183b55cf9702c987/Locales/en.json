@@ -198,5 +198,13 @@
     "6a135a8c8c34ba4a387cd048 completePlayerMessage": "",
     "6a135a8c8c34ba4a387cd048 successMessageText": "[PH] It works! I knew it. Take these goggles. And now you can buy them from me too.",
     "6a135a8c8c34ba4a387cd048 failMessageText": "",
-    "6afeb41b45a92a0ad3ca0f9b": "Eliminate any target with a REAP-IR thermal scope on your weapon"
+    "6afeb41b45a92a0ad3ca0f9b": "Eliminate any target with a REAP-IR thermal scope on your weapon",
+    "6a135b598c34ba4a387cd050 name": "Ultimate Body",
+    "6a135b598c34ba4a387cd050 description": "[PH] The ultimate body needs the ultimate armor. Bring me two damaged Cult Termite plates. Damaged! I need to see how they break.",
+    "6a135b598c34ba4a387cd050 acceptPlayerMessage": "",
+    "6a135b598c34ba4a387cd050 declinePlayerMessage": "",
+    "6a135b598c34ba4a387cd050 completePlayerMessage": "",
+    "6a135b598c34ba4a387cd050 successMessageText": "[PH] Now I understand. Take two of my L.I.M.P. plates, and you may buy more.",
+    "6a135b598c34ba4a387cd050 failMessageText": "",
+    "6afeb41ded8527ecb98f22ac": "Hand over 2 damaged Cult Termite armor plates (60% condition or less)"
 }
