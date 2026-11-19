@@ -1840,5 +1840,149 @@
         "successMessageText": "6afeb32db4cf3d8c29043e19 successMessageText",
         "traderId": "69744632183b55cf9702c988",
         "type": "Exploration"
+    },
+    "6afeb32ea08f5705cab4abc8": {
+        "QuestName": "The Eye Requires Bliss",
+        "_id": "6afeb32ea08f5705cab4abc8",
+        "acceptPlayerMessage": "6afeb32ea08f5705cab4abc8 acceptPlayerMessage",
+        "acceptanceAndFinishingSource": "eft",
+        "arenaLocations": [],
+        "canShowNotificationsInGame": true,
+        "changeQuestMessageText": "6afeb32ea08f5705cab4abc8 changeQuestMessageText",
+        "completePlayerMessage": "6afeb32ea08f5705cab4abc8 completePlayerMessage",
+        "conditions": {
+            "AvailableForFinish": [
+                {
+                    "conditionType": "FindItem",
+                    "countInRaid": false,
+                    "dogtagLevel": 0,
+                    "dynamicLocale": false,
+                    "globalQuestCounterId": "",
+                    "id": "6afeb32ea08f5705cab4abca",
+                    "index": 0,
+                    "isEncoded": false,
+                    "maxDurability": 100,
+                    "minDurability": 0,
+                    "onlyFoundInRaid": true,
+                    "parentId": "",
+                    "target": [
+                        "544fb37f4bdc2dee738b4567"
+                    ],
+                    "value": 10,
+                    "visibilityConditions": []
+                },
+                {
+                    "conditionType": "HandoverItem",
+                    "dogtagLevel": 0,
+                    "dynamicLocale": false,
+                    "globalQuestCounterId": "",
+                    "id": "6afeb32ea08f5705cab4abcb",
+                    "index": 0,
+                    "isEncoded": false,
+                    "maxDurability": 100,
+                    "minDurability": 0,
+                    "onlyFoundInRaid": true,
+                    "parentId": "",
+                    "target": [
+                        "544fb37f4bdc2dee738b4567"
+                    ],
+                    "value": 10,
+                    "visibilityConditions": []
+                }
+            ],
+            "AvailableForStart": [
+                {
+                    "availableAfter": 0,
+                    "conditionType": "Quest",
+                    "dispersion": 0,
+                    "dynamicLocale": false,
+                    "globalQuestCounterId": "",
+                    "id": "6afeb32ea08f5705cab4abc9",
+                    "index": 0,
+                    "parentId": "",
+                    "status": [
+                        4
+                    ],
+                    "target": "6afeb32db4cf3d8c29043e19",
+                    "visibilityConditions": []
+                }
+            ],
+            "Fail": []
+        },
+        "declinePlayerMessage": "6afeb32ea08f5705cab4abc8 declinePlayerMessage",
+        "description": "6afeb32ea08f5705cab4abc8 description",
+        "failMessageText": "6afeb32ea08f5705cab4abc8 failMessageText",
+        "gameModes": [],
+        "image": "/files/quest/icon/5969f96786f7741dde183a4f.png",
+        "instantComplete": false,
+        "isKey": false,
+        "location": "any",
+        "name": "6afeb32ea08f5705cab4abc8 name",
+        "note": "6afeb32ea08f5705cab4abc8 note",
+        "progressSource": "eft",
+        "rankingModes": [],
+        "restartable": false,
+        "rewards": {
+            "Fail": [],
+            "Started": [],
+            "Success": [
+                {
+                    "availableInGameEditions": [],
+                    "gameMode": [
+                        "regular",
+                        "pve"
+                    ],
+                    "id": "6afeb32ea08f5705cab4abcc",
+                    "isHidden": false,
+                    "type": "Experience",
+                    "unknown": false,
+                    "value": 8200
+                },
+                {
+                    "availableInGameEditions": [],
+                    "gameMode": [
+                        "regular",
+                        "pve"
+                    ],
+                    "id": "6afeb32ea08f5705cab4abcd",
+                    "isHidden": false,
+                    "target": "69744632183b55cf9702c988",
+                    "type": "TraderStanding",
+                    "unknown": false,
+                    "value": 0.2
+                },
+                {
+                    "availableInGameEditions": [],
+                    "findInRaid": false,
+                    "gameMode": [
+                        "regular",
+                        "pve"
+                    ],
+                    "id": "6afeb32ea08f5705cab4abce",
+                    "isEncoded": false,
+                    "isHidden": false,
+                    "items": [
+                        {
+                            "_id": "6afeb32ea08f5705cab4abcf",
+                            "_tpl": "5449016a4bdc2d6f028b456f",
+                            "upd": {
+                                "StackObjectsCount": 65000
+                            }
+                        }
+                    ],
+                    "target": "6afeb32ea08f5705cab4abcf",
+                    "type": "Item",
+                    "unknown": false,
+                    "value": 65000
+                }
+            ]
+        },
+        "secretQuest": false,
+        "side": "pmc",
+        "startedMessageText": "6afeb32ea08f5705cab4abc8 startedMessageText",
+        "status": 0,
+        "successMessageText": "6afeb32ea08f5705cab4abc8 successMessageText",
+        "traderId": "69744632183b55cf9702c988",
+        "type": "PickUp"
     }
 }

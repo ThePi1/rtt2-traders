@@ -119,5 +119,14 @@
     "6afeb32db4cf3d8c29043e19 failMessageText": "",
     "6afeb32db4cf3d8c29043e1b": "Visit the meat locker in the Reserve kitchens",
     "6afeb32db4cf3d8c29043e1e": "Visit the hanging carcasses on Woods",
-    "6afeb32db4cf3d8c29043e21": "Visit the cold storage under the Health Resort on Shoreline"
+    "6afeb32db4cf3d8c29043e21": "Visit the cold storage under the Health Resort on Shoreline",
+    "6afeb32ea08f5705cab4abc8 name": "The Eye Requires Bliss",
+    "6afeb32ea08f5705cab4abc8 description": "[PH] The family suffers so that the Eye does not. But there is no shame in a little bliss. Ten painkillers, found in raid.",
+    "6afeb32ea08f5705cab4abc8 acceptPlayerMessage": "",
+    "6afeb32ea08f5705cab4abc8 declinePlayerMessage": "",
+    "6afeb32ea08f5705cab4abc8 completePlayerMessage": "",
+    "6afeb32ea08f5705cab4abc8 successMessageText": "[PH] Bliss, shared. The family sleeps well tonight.",
+    "6afeb32ea08f5705cab4abc8 failMessageText": "",
+    "6afeb32ea08f5705cab4abca": "Find Analgin painkillers in raid",
+    "6afeb32ea08f5705cab4abcb": "Hand over 10 Analgin painkillers, found in raid"
 }
