@@ -943,5 +943,13 @@
     "6afeb4eb2a3eeab74ef5e56f completePlayerMessage": "",
     "6afeb4eb2a3eeab74ef5e56f successMessageText": "[PH] Twenty. Your shoulder has opinions about this.",
     "6afeb4eb2a3eeab74ef5e56f failMessageText": "",
-    "6afeb4eb2a3eeab74ef5e571": "Eliminate Scavs with a machine gun"
+    "6afeb4eb2a3eeab74ef5e571": "Eliminate Scavs with a machine gun",
+    "6afeb4ecbe174ca47841d147 name": "Tech Tips - Part 3",
+    "6afeb4ecbe174ca47841d147 description": "[PH] Tip number three: the best armor is a wall of lead. Ten PMCs, machine gun, no armor on your chest.",
+    "6afeb4ecbe174ca47841d147 acceptPlayerMessage": "",
+    "6afeb4ecbe174ca47841d147 declinePlayerMessage": "",
+    "6afeb4ecbe174ca47841d147 completePlayerMessage": "",
+    "6afeb4ecbe174ca47841d147 successMessageText": "[PH] Ten, and not a plate on you. That's either genius or a cry for help.",
+    "6afeb4ecbe174ca47841d147 failMessageText": "",
+    "6afeb4ecbe174ca47841d149": "Eliminate PMCs with a machine gun while wearing no body armor"
 }

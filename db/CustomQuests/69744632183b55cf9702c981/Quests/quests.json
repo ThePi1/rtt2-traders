@@ -25089,5 +25089,348 @@
         "successMessageText": "6afeb4eb2a3eeab74ef5e56f successMessageText",
         "traderId": "69744632183b55cf9702c981",
         "type": "Elimination"
+    },
+    "6afeb4ecbe174ca47841d147": {
+        "QuestName": "Tech Tips - Part 3",
+        "_id": "6afeb4ecbe174ca47841d147",
+        "acceptPlayerMessage": "6afeb4ecbe174ca47841d147 acceptPlayerMessage",
+        "acceptanceAndFinishingSource": "eft",
+        "arenaLocations": [],
+        "canShowNotificationsInGame": true,
+        "changeQuestMessageText": "6afeb4ecbe174ca47841d147 changeQuestMessageText",
+        "completePlayerMessage": "6afeb4ecbe174ca47841d147 completePlayerMessage",
+        "conditions": {
+            "AvailableForFinish": [
+                {
+                    "completeInSeconds": 0,
+                    "conditionType": "CounterCreator",
+                    "counter": {
+                        "conditions": [
+                            {
+                                "bodyPart": [],
+                                "compareMethod": ">=",
+                                "conditionType": "Kills",
+                                "daytime": {
+                                    "from": 0,
+                                    "to": 0
+                                },
+                                "distance": {
+                                    "compareMethod": ">=",
+                                    "value": 0
+                                },
+                                "dynamicLocale": false,
+                                "enemyEquipmentExclusive": [],
+                                "enemyEquipmentInclusive": [],
+                                "enemyHealthEffects": [],
+                                "id": "6afeb4ecbe174ca47841d14b",
+                                "resetOnSessionEnd": false,
+                                "savageRole": [],
+                                "target": "AnyPmc",
+                                "value": 1,
+                                "weapon": [
+                                    "5beed0f50db834001c062b12",
+                                    "5cdeb229d7f00c000e7ce174",
+                                    "5d52cc5ba4b9367408500062",
+                                    "64637076203536ad5600c990",
+                                    "64ca3d3954fc657e230529cc",
+                                    "6513ef33e06849f06c0957ca",
+                                    "65268d8ecb944ff1e90ea385",
+                                    "657857faeff4c850222dff1b",
+                                    "65fb023261d5829b2d090755",
+                                    "661ceb1b9311543c7104149b",
+                                    "661cec09b2c6356b4d0c7a36"
+                                ],
+                                "weaponCaliber": [],
+                                "weaponModsExclusive": [],
+                                "weaponModsInclusive": []
+                            },
+                            {
+                                "IncludeNotEquippedItems": false,
+                                "conditionType": "Equipment",
+                                "dynamicLocale": false,
+                                "equipmentExclusive": [
+                                    [
+                                        "545cdb794bdc2d3a198b456a"
+                                    ],
+                                    [
+                                        "5648a7494bdc2d9d488b4583"
+                                    ],
+                                    [
+                                        "59e7635f86f7742cbf2c1095"
+                                    ],
+                                    [
+                                        "5ab8e4ed86f7742d8e50c7fa"
+                                    ],
+                                    [
+                                        "5ab8e79e86f7742d8b372e78"
+                                    ],
+                                    [
+                                        "5b44cd8b86f774503d30cba2"
+                                    ],
+                                    [
+                                        "5b44cf1486f77431723e3d05"
+                                    ],
+                                    [
+                                        "5b44d0de86f774503d30cba8"
+                                    ],
+                                    [
+                                        "5b44d22286f774172b0c9de8"
+                                    ],
+                                    [
+                                        "5c0e51be86f774598e797894"
+                                    ],
+                                    [
+                                        "5c0e53c886f7747fa54205c7"
+                                    ],
+                                    [
+                                        "5c0e541586f7747fa54205c9"
+                                    ],
+                                    [
+                                        "5c0e57ba86f7747fa141986d"
+                                    ],
+                                    [
+                                        "5c0e5bab86f77461f55ed1f3"
+                                    ],
+                                    [
+                                        "5c0e5edb86f77461f55ed1f7"
+                                    ],
+                                    [
+                                        "5c0e625a86f7742d77340f62"
+                                    ],
+                                    [
+                                        "5c0e655586f774045612eeb2"
+                                    ],
+                                    [
+                                        "5ca2151486f774244a3b8d30"
+                                    ],
+                                    [
+                                        "5ca21c6986f77479963115a7"
+                                    ],
+                                    [
+                                        "5df8a2ca86f7740bfe6df777"
+                                    ],
+                                    [
+                                        "5e4abb5086f77406975c9342"
+                                    ],
+                                    [
+                                        "5e9dacf986f774054d6b89f4"
+                                    ],
+                                    [
+                                        "5f5f41476bdad616ad46d631"
+                                    ],
+                                    [
+                                        "5fd4c474dd870108a754b241"
+                                    ],
+                                    [
+                                        "6038b4b292ec1c3103795a0b"
+                                    ],
+                                    [
+                                        "6038b4ca92ec1c3103795a0d"
+                                    ],
+                                    [
+                                        "607f20859ee58b18e41ecd90"
+                                    ],
+                                    [
+                                        "609e8540d5c319764c2bc2e9"
+                                    ],
+                                    [
+                                        "60a283193cb70855c43a381d"
+                                    ],
+                                    [
+                                        "62a09d79de7ac81993580530"
+                                    ],
+                                    [
+                                        "63737f448b28897f2802b874"
+                                    ],
+                                    [
+                                        "64abd93857958b4249003418"
+                                    ],
+                                    [
+                                        "64be79c487d1510151095552"
+                                    ],
+                                    [
+                                        "64be79e2bf8412471d0d9bcc"
+                                    ],
+                                    [
+                                        "674d91ce6e862d5a95059ed6"
+                                    ],
+                                    [
+                                        "67ab2eecfe82855dcc0f2af6"
+                                    ],
+                                    [
+                                        "67ab2f28dafe3b22670c9116"
+                                    ],
+                                    [
+                                        "67ab2f5adafe3b22670c911f"
+                                    ],
+                                    [
+                                        "67ab2f94dafe3b22670c912c"
+                                    ],
+                                    [
+                                        "68a89146212dbbeead0d5636"
+                                    ],
+                                    [
+                                        "68a89942431252e29a02dbf6"
+                                    ],
+                                    [
+                                        "68a97093431252e29a02dc06"
+                                    ],
+                                    [
+                                        "544a5caa4bdc2d1a388b4568"
+                                    ],
+                                    [
+                                        "5ab8dced86f774646209ec87"
+                                    ],
+                                    [
+                                        "5b44cad286f77402a54ae7e5"
+                                    ],
+                                    [
+                                        "5c0e3eb886f7742015526062"
+                                    ],
+                                    [
+                                        "5c0e446786f7742013381639"
+                                    ],
+                                    [
+                                        "5c0e722886f7740458316a57"
+                                    ],
+                                    [
+                                        "5c0e746986f7741453628fe5"
+                                    ],
+                                    [
+                                        "5d5d646386f7742797261fd9"
+                                    ],
+                                    [
+                                        "5d5d87f786f77427997cfaef"
+                                    ],
+                                    [
+                                        "5e4ac41886f77406a511c9a8"
+                                    ],
+                                    [
+                                        "609e860ebd219504d8507525"
+                                    ],
+                                    [
+                                        "60a3c68c37ea821725773ef5"
+                                    ],
+                                    [
+                                        "60a3c70cde5f453f634816a3"
+                                    ],
+                                    [
+                                        "61bc85697113f767765c7fe7"
+                                    ],
+                                    [
+                                        "61bcc89aef0f505f0c6cd0fc"
+                                    ],
+                                    [
+                                        "628b9c7d45122232a872358f"
+                                    ],
+                                    [
+                                        "628d0618d1ba6e4fa07ce5a4"
+                                    ],
+                                    [
+                                        "628dc750b910320f4c27a732"
+                                    ],
+                                    [
+                                        "639343fce101f4caa40a4ef3"
+                                    ],
+                                    [
+                                        "64a536392d2c4e6e970f4121"
+                                    ],
+                                    [
+                                        "66b6295178bbc0200425f995"
+                                    ],
+                                    [
+                                        "66b6296d7994640992013b17"
+                                    ],
+                                    [
+                                        "67ab49aab9c7a1e18c095686"
+                                    ],
+                                    [
+                                        "67ab4b2d6f7ae4aa550bbcf6"
+                                    ],
+                                    [
+                                        "68a85ab8ef22d08bf401fa68"
+                                    ],
+                                    [
+                                        "68a99207aa809946e507c2f6"
+                                    ]
+                                ],
+                                "equipmentInclusive": [],
+                                "id": "6afeb4ecbe174ca47841d14c"
+                            }
+                        ],
+                        "id": "6afeb4ecbe174ca47841d14a"
+                    },
+                    "doNotResetIfCounterCompleted": false,
+                    "dynamicLocale": false,
+                    "globalQuestCounterId": "",
+                    "id": "6afeb4ecbe174ca47841d149",
+                    "index": 0,
+                    "isNecessary": false,
+                    "isResetOnConditionFailed": false,
+                    "oneSessionOnly": false,
+                    "parentId": "",
+                    "type": "Elimination",
+                    "value": 10,
+                    "visibilityConditions": []
+                }
+            ],
+            "AvailableForStart": [
+                {
+                    "availableAfter": 0,
+                    "conditionType": "Quest",
+                    "dispersion": 0,
+                    "dynamicLocale": false,
+                    "globalQuestCounterId": "",
+                    "id": "6afeb4ecbe174ca47841d148",
+                    "index": 0,
+                    "parentId": "",
+                    "status": [
+                        4
+                    ],
+                    "target": "6afeb4eb2a3eeab74ef5e56f",
+                    "visibilityConditions": []
+                }
+            ],
+            "Fail": []
+        },
+        "declinePlayerMessage": "6afeb4ecbe174ca47841d147 declinePlayerMessage",
+        "description": "6afeb4ecbe174ca47841d147 description",
+        "failMessageText": "6afeb4ecbe174ca47841d147 failMessageText",
+        "gameModes": [],
+        "image": "/files/quest/icon/64f8b692c8626c7d460401b6.jpg",
+        "instantComplete": false,
+        "isKey": false,
+        "location": "any",
+        "name": "6afeb4ecbe174ca47841d147 name",
+        "note": "6afeb4ecbe174ca47841d147 note",
+        "progressSource": "eft",
+        "rankingModes": [],
+        "restartable": false,
+        "rewards": {
+            "Fail": [],
+            "Started": [],
+            "Success": [
+                {
+                    "availableInGameEditions": [],
+                    "gameMode": [
+                        "regular",
+                        "pve"
+                    ],
+                    "id": "6afeb4ecbe174ca47841d14d",
+                    "isHidden": false,
+                    "target": "LMG",
+                    "type": "Skill",
+                    "unknown": false,
+                    "value": 2000
+                }
+            ]
+        },
+        "secretQuest": false,
+        "side": "pmc",
+        "startedMessageText": "6afeb4ecbe174ca47841d147 startedMessageText",
+        "status": 0,
+        "successMessageText": "6afeb4ecbe174ca47841d147 successMessageText",
+        "traderId": "69744632183b55cf9702c981",
+        "type": "Elimination"
     }
 }
