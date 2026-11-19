@@ -23,5 +23,14 @@
     "6afeb23798a1535593639753 successMessageText": "[PH] Beautiful. Here's a little something extra for the trouble.",
     "6afeb23798a1535593639753 failMessageText": "",
     "6afeb23798a1535593639755": "Find LEDX Skin Transilluminator or LEDX Skin Transilluminator (US Version) in raid",
-    "6afeb23798a1535593639756": "Hand over a LEDX Skin Transilluminator, found in raid"
+    "6afeb23798a1535593639756": "Hand over a LEDX Skin Transilluminator, found in raid",
+    "6afeb238aefd9379c8e404c7 name": "Poor Mans Propitol",
+    "6afeb238aefd9379c8e404c7 description": "[PH] Propital's expensive. Adrenaline is the budget version. Same vibes, half the price. Bring me four, found in raid.",
+    "6afeb238aefd9379c8e404c7 acceptPlayerMessage": "",
+    "6afeb238aefd9379c8e404c7 declinePlayerMessage": "",
+    "6afeb238aefd9379c8e404c7 completePlayerMessage": "",
+    "6afeb238aefd9379c8e404c7 successMessageText": "[PH] Four shots of courage. My customers thank you.",
+    "6afeb238aefd9379c8e404c7 failMessageText": "",
+    "6afeb238aefd9379c8e404c9": "Find Adrenaline injector in raid",
+    "6afeb238aefd9379c8e404ca": "Hand over Adrenaline injector"
 }
