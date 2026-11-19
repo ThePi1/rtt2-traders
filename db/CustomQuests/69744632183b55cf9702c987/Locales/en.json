@@ -23,5 +23,13 @@
     "69f2cb5f01fd39ae97fc0277 successMessageText": "My beloved...",
     "69f2cbee01fd39ae97fc0280": "Find Modified LEDX in the locked X-Ray room on Streets",
     "69f2cc5401fd39ae97fc0281": "Turn in Modified LEDX",
-    "69f7f683caef6e87bafd8769": ""
+    "69f7f683caef6e87bafd8769": "",
+    "6a1346a78c34ba4a387ccf8f name": "Real Life Wacka Mole",
+    "6a1346a78c34ba4a387ccf8f description": "[PH] Ja, hello! My former colleagues in the Lab have, how do you say, lost their minds. Braindead, all of them, running around with rifles. Whack five of them for me. Like the arcade game, ja? Bonk!",
+    "6a1346a78c34ba4a387ccf8f acceptPlayerMessage": "",
+    "6a1346a78c34ba4a387ccf8f declinePlayerMessage": "",
+    "6a1346a78c34ba4a387ccf8f completePlayerMessage": "",
+    "6a1346a78c34ba4a387ccf8f successMessageText": "[PH] Bonk bonk bonk! Wunderbar. Here, a little research grant.",
+    "6a1346a78c34ba4a387ccf8f failMessageText": "",
+    "6afeb405ddda3b7dd8df62d0": "Eliminate the braindead scientists (Raiders) in the Lab"
 }
