@@ -460,7 +460,7 @@ New zones are in `db/CustomQuestZones/C1_C4_C6_C7_C8_C9.json`. The first four ar
 | S17 | Weiss | Illuminate the Illuminati | Kill Goons | S10 | Xp, LIMP | `6a1356e48c34ba4a387cd02d` | Built | Built: kill Knight, Big Pipe and Birdeye; rewards 1 L.I.M.P. plate; Sheet: NO LOCALES |
 | S18 | Weiss | Brains Over Brawn | Go to labs and find documents Labs Manager Room | S13 | XP, 2 Labs Cards | `6a1357468c34ba4a387cd035` | Built | Built: find and hand in the TerraGroup shipment report (its manager's office spawn was already in place); rewards 2 Labs keycards; Sheet: NO LOCALES |
 | S19 | Weiss | Brawn Over Brains | Kill 1 enemy will baton melee weapon | S18 | XP, Taiga melee(Hidden Reward) | `6a1359dd8c34ba4a387cd03e` | Built | Built: kill 1 enemy with the PR-Taran baton; hidden reward: a UVSR Taiga-1 machete; Sheet: NO LOCALES |
-| S20 | Weiss | My Masterpiece | Get 10 kills with REAPIR scope | S19 | Xp, Thermal Goggles with assort unlock (Flea Ban?) | `6a135a8c8c34ba4a387cd048` | To build | Sheet: NO LOCALES |
+| S20 | Weiss | My Masterpiece | Get 10 kills with REAPIR scope | S19 | Xp, Thermal Goggles with assort unlock (Flea Ban?) | `6a135a8c8c34ba4a387cd048` | Built | Built: 10 kills with a REAP-IR fitted; rewards T-7 thermal goggles and unlocks a T-7 offer at Weiss LL4 (650k RUB, my price). The design's "flea ban" isn't done: it's an item property, your call; Sheet: NO LOCALES |
 | S21 | Weiss | Ultimate Body | Turn in damaged Cult Plates | S20 | Xp, 2 Custom Armor Plates(Assort Unlock with Flea Ban) | `6a135b598c34ba4a387cd050` | To build | Sheet: NO LOCALES |
 
 ## In the repo but not in the sheet

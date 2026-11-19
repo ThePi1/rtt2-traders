@@ -190,5 +190,13 @@
     "6a1359dd8c34ba4a387cd03e completePlayerMessage": "",
     "6a1359dd8c34ba4a387cd03e successMessageText": "[PH] Balanced! Brains and brawn. Here, a little gift.",
     "6a1359dd8c34ba4a387cd03e failMessageText": "",
-    "6afeb41a0d6bd1c5d45ff302": "Eliminate any target with a PR-Taran police baton"
+    "6afeb41a0d6bd1c5d45ff302": "Eliminate any target with a PR-Taran police baton",
+    "6a135a8c8c34ba4a387cd048 name": "My Masterpiece",
+    "6a135a8c8c34ba4a387cd048 description": "[PH] The REAP-IR. My masterpiece. Well, someone else's masterpiece, but I improved the firmware. Ten kills with it. Show me it works.",
+    "6a135a8c8c34ba4a387cd048 acceptPlayerMessage": "",
+    "6a135a8c8c34ba4a387cd048 declinePlayerMessage": "",
+    "6a135a8c8c34ba4a387cd048 completePlayerMessage": "",
+    "6a135a8c8c34ba4a387cd048 successMessageText": "[PH] It works! I knew it. Take these goggles. And now you can buy them from me too.",
+    "6a135a8c8c34ba4a387cd048 failMessageText": "",
+    "6afeb41b45a92a0ad3ca0f9b": "Eliminate any target with a REAP-IR thermal scope on your weapon"
 }
