@@ -443,7 +443,7 @@ New zones are in `db/CustomQuestZones/C1_C4_C6_C7_C8_C9.json`. The first four ar
 |---|---|---|---|---|---|---|---|---|
 | S1 | Weiss | Real Life Wacka Mole | Eliminate 5 rouges (Braindead Scientists) | Q16 | XP 300k Roubles | `6a1346a78c34ba4a387ccf8f` | Built | Built: kill 5 Raiders in the Lab (my reading of "braindead scientists": Rogues don't spawn there); rewards XP and 300k RUB as designed. Starts when Q16 is done; Sheet: trd lvl .2 |
 | S2 | Weiss | Please Place the Sharpie - Part 1 | Mark Radioactive Barrels in Labs | S1 | Xp, 2 Labs Cards | `6a13478c8c34ba4a387ccf97` | Built | Built: mark the radioactive barrels (existing zone `S2`); rewards 2 Labs keycards; Sheet: NO LOCALES |
-| S3 | Weiss | Please Place the Sharpie - Part 2 | Mark Terragroup office Security Station by Security Armory | S2 | Xp, 100k roubles | `6a1348ae8c34ba4a387ccf9f` | To build | Sheet: NO LOCALES |
+| S3 | Weiss | Please Place the Sharpie - Part 2 | Mark Terragroup office Security Station by Security Armory | S2 | Xp, 100k roubles | `6a1348ae8c34ba4a387ccf9f` | Built | Built: mark the security station (existing zone `S3`); rewards 100k RUB as designed; Sheet: NO LOCALES |
 | S4 | Weiss | Please Place the Sharpie - Part 3 | Mark Listening Post on Lighthouse in Upper Chalet | S3 | XP, M754, 3x-20x rifle scope | `6a13491a8c34ba4a387ccfa7` | To build | Sheet: NO LOCALES |
 | S5 | Weiss | The Boogie Bomb - Part 1 | Find and Turn in 1 MCC | S1 | Xp, Labs Card, Res Unit Card | `6a1349bd8c34ba4a387ccfb0` | To build | Sheet: NO LOCALES |
 | S6 | Weiss | The Boogie Bomb - Part 2 | Find and Turn in 1 Moonshine | S5 | Xp, 1 GPU | `6a134bde8c34ba4a387ccfb7` | To build | Sheet: NO LOCALES |

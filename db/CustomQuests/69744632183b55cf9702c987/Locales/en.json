@@ -39,5 +39,13 @@
     "6a13478c8c34ba4a387ccf97 completePlayerMessage": "",
     "6a13478c8c34ba4a387ccf97 successMessageText": "[PH] Found them! Here, two keycards. I made copies. Do not tell anyone.",
     "6a13478c8c34ba4a387ccf97 failMessageText": "",
-    "6afeb406c6c8e124e87aa659": "Mark the radioactive barrels in the Lab"
+    "6afeb406c6c8e124e87aa659": "Mark the radioactive barrels in the Lab",
+    "6a1348ae8c34ba4a387ccf9f name": "Please Place the Sharpie - Part 2",
+    "6a1348ae8c34ba4a387ccf9f description": "[PH] The security station by the armory. That is where they kept my badge after they fired me. Mark it. I have plans. Big plans.",
+    "6a1348ae8c34ba4a387ccf9f acceptPlayerMessage": "",
+    "6a1348ae8c34ba4a387ccf9f declinePlayerMessage": "",
+    "6a1348ae8c34ba4a387ccf9f completePlayerMessage": "",
+    "6a1348ae8c34ba4a387ccf9f successMessageText": "[PH] Marked! The plans proceed. Take some money, buy yourself something nice. Like a gas mask.",
+    "6a1348ae8c34ba4a387ccf9f failMessageText": "",
+    "6afeb4074dfd09be8c755df8": "Mark the security station by the security armory in the Lab"
 }
