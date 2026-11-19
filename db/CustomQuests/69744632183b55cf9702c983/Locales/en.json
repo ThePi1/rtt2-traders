@@ -65,5 +65,13 @@
     "6afeaf811df12fad34fa7faa successMessageText": "[PH] Done and dusted. I still don't understand it, mind.",
     "6afeaf811df12fad34fa7faa failMessageText": "",
     "6afeaf811df12fad34fa7fab": "Leave a Physical Bitcoin at the ATM by the Pinewood Hotel",
-    "6afeaf811df12fad34fa7faf": "Survive and extract from Streets of Tarkov"
+    "6afeaf811df12fad34fa7faf": "Survive and extract from Streets of Tarkov",
+    "6afeaf82f98010fd7f8a2add name": "In Another Life",
+    "6afeaf82f98010fd7f8a2add description": "[PH] In another life, I did this for Queen and country. Now it's for petrol money. Twenty PMCs, lad. Show me what they taught you.",
+    "6afeaf82f98010fd7f8a2add acceptPlayerMessage": "",
+    "6afeaf82f98010fd7f8a2add declinePlayerMessage": "",
+    "6afeaf82f98010fd7f8a2add completePlayerMessage": "",
+    "6afeaf82f98010fd7f8a2add successMessageText": "[PH] Twenty. You'd have made a fine trooper, you know.",
+    "6afeaf82f98010fd7f8a2add failMessageText": "",
+    "6afeaf82f98010fd7f8a2adf": "Eliminate PMCs"
 }
