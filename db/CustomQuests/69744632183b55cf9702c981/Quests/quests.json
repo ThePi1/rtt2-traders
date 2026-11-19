@@ -20726,7 +20726,7 @@
                     ],
                     "value": 1,
                     "visibilityConditions": [],
-                    "zoneId": ""
+                    "zoneId": "L94_1"
                 },
                 {
                     "conditionType": "LeaveItemAtLocation",
@@ -20747,7 +20747,7 @@
                     ],
                     "value": 1,
                     "visibilityConditions": [],
-                    "zoneId": ""
+                    "zoneId": "L94_2"
                 },
                 {
                     "conditionType": "LeaveItemAtLocation",
@@ -20768,7 +20768,7 @@
                     ],
                     "value": 1,
                     "visibilityConditions": [],
-                    "zoneId": ""
+                    "zoneId": "L94_3"
                 }
             ],
             "AvailableForStart": [
@@ -20828,7 +20828,7 @@
         "status": 0,
         "successMessageText": "6aca8300a26d5245cb767416 successMessageText",
         "traderId": "69744632183b55cf9702c981",
-        "type": "Elimination"
+        "type": "Completion"
     },
     "6aca830da26d5245cb767419": {
         "QuestName": "Faster Dayo - Part 3",
@@ -20936,7 +20936,7 @@
         "status": 0,
         "successMessageText": "6aca830da26d5245cb767419 successMessageText",
         "traderId": "69744632183b55cf9702c981",
-        "type": "Elimination"
+        "type": "Completion"
     },
     "6aca868aa26d5245cb767427": {
         "QuestName": "The Auto Price - Part 1",

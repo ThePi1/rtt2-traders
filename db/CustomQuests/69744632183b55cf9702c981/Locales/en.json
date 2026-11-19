@@ -709,5 +709,13 @@
     "6aca8288a26d5245cb767413 acceptPlayerMessage": "",
     "6aca8288a26d5245cb767413 declinePlayerMessage": "",
     "6aca8288a26d5245cb767413 completePlayerMessage": "",
-    "6aca8288a26d5245cb767413 failMessageText": ""
+    "6aca8288a26d5245cb767413 failMessageText": "",
+    "6aca8300a26d5245cb767416 acceptPlayerMessage": "",
+    "6aca8300a26d5245cb767416 declinePlayerMessage": "",
+    "6aca8300a26d5245cb767416 completePlayerMessage": "",
+    "6aca8300a26d5245cb767416 failMessageText": "",
+    "6aca830da26d5245cb767419 acceptPlayerMessage": "",
+    "6aca830da26d5245cb767419 declinePlayerMessage": "",
+    "6aca830da26d5245cb767419 completePlayerMessage": "",
+    "6aca830da26d5245cb767419 failMessageText": ""
 }
