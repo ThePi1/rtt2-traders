@@ -182,5 +182,13 @@
     "6a1357468c34ba4a387cd035 successMessageText": "[PH] I win! Take the keycards, I do not need them anymore. I have the reports.",
     "6a1357468c34ba4a387cd035 failMessageText": "",
     "6afeb4191e951a5d7d98ff61": "Find TerraGroup shipment report in raid",
-    "6afeb4191e951a5d7d98ff62": "Hand over the TerraGroup shipment report from the Lab manager's office"
+    "6afeb4191e951a5d7d98ff62": "Hand over the TerraGroup shipment report from the Lab manager's office",
+    "6a1359dd8c34ba4a387cd03e name": "Brawn Over Brains",
+    "6a1359dd8c34ba4a387cd03e description": "[PH] Okay. Sometimes brawn is also good. Take a police baton and hit someone with it until they stop. Just one. For balance.",
+    "6a1359dd8c34ba4a387cd03e acceptPlayerMessage": "",
+    "6a1359dd8c34ba4a387cd03e declinePlayerMessage": "",
+    "6a1359dd8c34ba4a387cd03e completePlayerMessage": "",
+    "6a1359dd8c34ba4a387cd03e successMessageText": "[PH] Balanced! Brains and brawn. Here, a little gift.",
+    "6a1359dd8c34ba4a387cd03e failMessageText": "",
+    "6afeb41a0d6bd1c5d45ff302": "Eliminate any target with a PR-Taran police baton"
 }
