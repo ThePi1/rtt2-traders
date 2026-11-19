@@ -101,5 +101,15 @@
     "6afeb13a3774896637aeac6a successMessageText": "[PH] Top marks. Your parents would be proud. I have informed them.",
     "6afeb13a3774896637aeac6a failMessageText": "",
     "6afeb13a3774896637aeac6c": "Reach level 5 of the Attention skill",
-    "6afeb13a3774896637aeac6d": "Reach level 7 of the Intellect skill"
+    "6afeb13a3774896637aeac6d": "Reach level 7 of the Intellect skill",
+    "6afeb13c3f6f4344292a740d name": "Chain of Custody - Part 1",
+    "6afeb13c3f6f4344292a740d description": "[PH] A package of ours was seized and is sitting in the Reserve command bunker. The Raiders guarding it lack the correct forms. Remove four of them and bring me the package from the control room.",
+    "6afeb13c3f6f4344292a740d acceptPlayerMessage": "",
+    "6afeb13c3f6f4344292a740d declinePlayerMessage": "",
+    "6afeb13c3f6f4344292a740d completePlayerMessage": "",
+    "6afeb13c3f6f4344292a740d successMessageText": "[PH] The chain of custody is restored. Nobody signed for it, which is how we like it.",
+    "6afeb13c3f6f4344292a740d failMessageText": "",
+    "6afeb13c3f6f4344292a740f": "Eliminate Raiders in the command bunker on Reserve",
+    "6afeb13c3f6f4344292a7414": "Find Wrapped Package in raid",
+    "6afeb13c3f6f4344292a7415": "Hand over the package from the command bunker control room"
 }

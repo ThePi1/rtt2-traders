@@ -173,5 +173,30 @@
             "Z": "4",
             "W": "0"
         }
+    },
+    {
+        "ZoneId": "X11_K",
+        "ZoneName": "X11_K",
+        "ZoneLocation": "RezervBase",
+        "ZoneType": "visit",
+        "FlareType": "",
+        "Position": {
+            "X": "-115",
+            "Y": "-11.75",
+            "Z": "27",
+            "W": "0"
+        },
+        "Rotation": {
+            "X": "0",
+            "Y": "0",
+            "Z": "0",
+            "W": "1"
+        },
+        "Scale": {
+            "X": "30",
+            "Y": "6",
+            "Z": "24",
+            "W": "0"
+        }
     }
 ]
