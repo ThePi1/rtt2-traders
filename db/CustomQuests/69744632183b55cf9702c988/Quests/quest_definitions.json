@@ -2208,5 +2208,253 @@
         "successMessageText": "6afeb32f8824b9ad3f4ee3f7 successMessageText",
         "traderId": "69744632183b55cf9702c988",
         "type": "PickUp"
+    },
+    "6afeb330ee909155fdd53269": {
+        "QuestName": "The Eye Requires Munitions - Part 2",
+        "_id": "6afeb330ee909155fdd53269",
+        "acceptPlayerMessage": "6afeb330ee909155fdd53269 acceptPlayerMessage",
+        "acceptanceAndFinishingSource": "eft",
+        "arenaLocations": [],
+        "canShowNotificationsInGame": true,
+        "changeQuestMessageText": "6afeb330ee909155fdd53269 changeQuestMessageText",
+        "completePlayerMessage": "6afeb330ee909155fdd53269 completePlayerMessage",
+        "conditions": {
+            "AvailableForFinish": [
+                {
+                    "conditionType": "FindItem",
+                    "countInRaid": false,
+                    "dogtagLevel": 0,
+                    "dynamicLocale": false,
+                    "globalQuestCounterId": "",
+                    "id": "6afeb330ee909155fdd5326b",
+                    "index": 0,
+                    "isEncoded": false,
+                    "maxDurability": 100,
+                    "minDurability": 0,
+                    "onlyFoundInRaid": true,
+                    "parentId": "",
+                    "target": [
+                        "560d75f54bdc2da74d8b4573",
+                        "5649ed104bdc2d3d1c8b458b",
+                        "648984b8d5b4df6140000a1a",
+                        "648984e3f09d032aa9399d53",
+                        "6489851fc827d4637f01791b",
+                        "64ace9d9b5bf5e95f50a4c1d",
+                        "64ace9f9c4eda9354b0226aa",
+                        "64ace9ff03378853630da538",
+                        "64acea09c4eda9354b0226ad",
+                        "64acea0d03378853630da53b",
+                        "64acea16c4eda9354b0226b0",
+                        "64acea2c03378853630da53e",
+                        "64aceab0426a303417060654",
+                        "64aceac0c4eda9354b0226b3",
+                        "64acee6903378853630da544",
+                        "65702532cfc010a0f5006a19",
+                        "65702536c5d7d4cb4d078570",
+                        "6570253acfc010a0f5006a1c",
+                        "6570253ec5d7d4cb4d078573",
+                        "657025421419851aef03e71e",
+                        "65702546cfc010a0f5006a1f",
+                        "6570254abfc87b3a34093244",
+                        "6570254fcfc010a0f5006a22",
+                        "65702554bfc87b3a34093247",
+                        "65702558cfc010a0f5006a25",
+                        "6570255dbfc87b3a3409324a",
+                        "65702561cfc010a0f5006a28",
+                        "65702566bfc87b3a3409324d",
+                        "65702572c5d7d4cb4d078576",
+                        "65702577cfc010a0f5006a2c",
+                        "6570257cc5d7d4cb4d078579",
+                        "65702584cfc010a0f5006a2f",
+                        "6769b8e3c1a1466c850658a8"
+                    ],
+                    "value": 3,
+                    "visibilityConditions": []
+                },
+                {
+                    "conditionType": "HandoverItem",
+                    "dogtagLevel": 0,
+                    "dynamicLocale": false,
+                    "globalQuestCounterId": "",
+                    "id": "6afeb330ee909155fdd5326c",
+                    "index": 0,
+                    "isEncoded": false,
+                    "maxDurability": 100,
+                    "minDurability": 0,
+                    "onlyFoundInRaid": true,
+                    "parentId": "",
+                    "target": [
+                        "560d75f54bdc2da74d8b4573",
+                        "5649ed104bdc2d3d1c8b458b",
+                        "648984b8d5b4df6140000a1a",
+                        "648984e3f09d032aa9399d53",
+                        "6489851fc827d4637f01791b",
+                        "64ace9d9b5bf5e95f50a4c1d",
+                        "64ace9f9c4eda9354b0226aa",
+                        "64ace9ff03378853630da538",
+                        "64acea09c4eda9354b0226ad",
+                        "64acea0d03378853630da53b",
+                        "64acea16c4eda9354b0226b0",
+                        "64acea2c03378853630da53e",
+                        "64aceab0426a303417060654",
+                        "64aceac0c4eda9354b0226b3",
+                        "64acee6903378853630da544",
+                        "65702532cfc010a0f5006a19",
+                        "65702536c5d7d4cb4d078570",
+                        "6570253acfc010a0f5006a1c",
+                        "6570253ec5d7d4cb4d078573",
+                        "657025421419851aef03e71e",
+                        "65702546cfc010a0f5006a1f",
+                        "6570254abfc87b3a34093244",
+                        "6570254fcfc010a0f5006a22",
+                        "65702554bfc87b3a34093247",
+                        "65702558cfc010a0f5006a25",
+                        "6570255dbfc87b3a3409324a",
+                        "65702561cfc010a0f5006a28",
+                        "65702566bfc87b3a3409324d",
+                        "65702572c5d7d4cb4d078576",
+                        "65702577cfc010a0f5006a2c",
+                        "6570257cc5d7d4cb4d078579",
+                        "65702584cfc010a0f5006a2f",
+                        "6769b8e3c1a1466c850658a8"
+                    ],
+                    "value": 3,
+                    "visibilityConditions": []
+                }
+            ],
+            "AvailableForStart": [
+                {
+                    "availableAfter": 0,
+                    "conditionType": "Quest",
+                    "dispersion": 0,
+                    "dynamicLocale": false,
+                    "globalQuestCounterId": "",
+                    "id": "6afeb330ee909155fdd5326a",
+                    "index": 0,
+                    "parentId": "",
+                    "status": [
+                        4
+                    ],
+                    "target": "6afeb32f8824b9ad3f4ee3f7",
+                    "visibilityConditions": []
+                }
+            ],
+            "Fail": []
+        },
+        "declinePlayerMessage": "6afeb330ee909155fdd53269 declinePlayerMessage",
+        "description": "6afeb330ee909155fdd53269 description",
+        "failMessageText": "6afeb330ee909155fdd53269 failMessageText",
+        "gameModes": [],
+        "image": "/files/quest/icon/5b4785f586f77470315db7ed.png",
+        "instantComplete": false,
+        "isKey": false,
+        "location": "any",
+        "name": "6afeb330ee909155fdd53269 name",
+        "note": "6afeb330ee909155fdd53269 note",
+        "progressSource": "eft",
+        "rankingModes": [],
+        "restartable": false,
+        "rewards": {
+            "Fail": [],
+            "Started": [],
+            "Success": [
+                {
+                    "availableInGameEditions": [],
+                    "gameMode": [
+                        "regular",
+                        "pve"
+                    ],
+                    "id": "6afeb330ee909155fdd5326d",
+                    "isHidden": false,
+                    "type": "Experience",
+                    "unknown": false,
+                    "value": 9400
+                },
+                {
+                    "availableInGameEditions": [],
+                    "gameMode": [
+                        "regular",
+                        "pve"
+                    ],
+                    "id": "6afeb330ee909155fdd5326e",
+                    "isHidden": false,
+                    "target": "69744632183b55cf9702c988",
+                    "type": "TraderStanding",
+                    "unknown": false,
+                    "value": 0.2
+                },
+                {
+                    "availableInGameEditions": [],
+                    "findInRaid": false,
+                    "gameMode": [
+                        "regular",
+                        "pve"
+                    ],
+                    "id": "6afeb330ee909155fdd5326f",
+                    "isEncoded": false,
+                    "isHidden": false,
+                    "items": [
+                        {
+                            "_id": "6afeb330ee909155fdd53270",
+                            "_tpl": "5449016a4bdc2d6f028b456f",
+                            "upd": {
+                                "StackObjectsCount": 75000
+                            }
+                        }
+                    ],
+                    "target": "6afeb330ee909155fdd53270",
+                    "type": "Item",
+                    "unknown": false,
+                    "value": 75000
+                },
+                {
+                    "availableInGameEditions": [],
+                    "gameMode": [
+                        "regular",
+                        "pve"
+                    ],
+                    "id": "6afeb330ee909155fdd53274",
+                    "isHidden": false,
+                    "items": [
+                        {
+                            "_id": "6afeb330ee909155fdd53273",
+                            "_tpl": "56dfef82d2720bbd668b4567"
+                        }
+                    ],
+                    "loyaltyLevel": 3,
+                    "target": "6afeb330ee909155fdd53273",
+                    "traderId": "69744632183b55cf9702c988",
+                    "type": "AssortmentUnlock",
+                    "unknown": false
+                },
+                {
+                    "availableInGameEditions": [],
+                    "gameMode": [
+                        "regular",
+                        "pve"
+                    ],
+                    "id": "6afeb330ee909155fdd53278",
+                    "isHidden": false,
+                    "items": [
+                        {
+                            "_id": "6afeb330ee909155fdd53277",
+                            "_tpl": "59e0d99486f7744a32234762"
+                        }
+                    ],
+                    "loyaltyLevel": 3,
+                    "target": "6afeb330ee909155fdd53277",
+                    "traderId": "69744632183b55cf9702c988",
+                    "type": "AssortmentUnlock",
+                    "unknown": false
+                }
+            ]
+        },
+        "secretQuest": false,
+        "side": "pmc",
+        "startedMessageText": "6afeb330ee909155fdd53269 startedMessageText",
+        "status": 0,
+        "successMessageText": "6afeb330ee909155fdd53269 successMessageText",
+        "traderId": "69744632183b55cf9702c988",
+        "type": "PickUp"
     }
 }
