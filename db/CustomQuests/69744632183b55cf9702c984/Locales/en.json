@@ -134,5 +134,14 @@
     "6afeb13eecfd8429da8bf49a successMessageText": "[PH] Thank you. The old empire and the new one, sharing tea.",
     "6afeb13eecfd8429da8bf49a failMessageText": "",
     "6afeb13eecfd8429da8bf49c": "Reach loyalty level 3 with Price",
-    "6afeb13eecfd8429da8bf49d": "Hand over 1500 dollars"
+    "6afeb13eecfd8429da8bf49d": "Hand over 1500 dollars",
+    "6afeb13fc02ceecb190f670f name": "The Sun Never Sets - Part 2",
+    "6afeb13fc02ceecb190f670f description": "[PH] The sun never sets on an empire, but it does set on Lighthouse. Three BEAR operatives meet there in the evening. Remove them between seven and midnight, and bring their dogtags. For filing.",
+    "6afeb13fc02ceecb190f670f acceptPlayerMessage": "",
+    "6afeb13fc02ceecb190f670f declinePlayerMessage": "",
+    "6afeb13fc02ceecb190f670f completePlayerMessage": "",
+    "6afeb13fc02ceecb190f670f successMessageText": "[PH] Filed. The evening meetings have been canceled.",
+    "6afeb13fc02ceecb190f670f failMessageText": "",
+    "6afeb13fc02ceecb190f6711": "Eliminate BEAR PMCs on Lighthouse between 19:00 and 24:00",
+    "6afeb13fc02ceecb190f6715": "Hand over 3 BEAR dogtags"
 }
