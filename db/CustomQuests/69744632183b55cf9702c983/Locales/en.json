@@ -24,5 +24,14 @@
     "6afeaf7a33a7614fcee60d90": "Find Wilston cigarettes in raid",
     "6afeaf7a33a7614fcee60d91": "Hand over Wilston cigarettes",
     "6afeaf7a33a7614fcee60d92": "Find Strike Cigarettes in raid",
-    "6afeaf7a33a7614fcee60d93": "Hand over Strike Cigarettes"
+    "6afeaf7a33a7614fcee60d93": "Hand over Strike Cigarettes",
+    "6afeaf7b5d9bf914aedf59e7 name": "Fish and Croutons",
+    "6afeaf7b5d9bf914aedf59e7 description": "[PH] Can't get a proper fish and chips in this town, so I've made do. Sprats and croutons. Don't knock it till you've tried it. Three tins and three packs, if you please.",
+    "6afeaf7b5d9bf914aedf59e7 acceptPlayerMessage": "",
+    "6afeaf7b5d9bf914aedf59e7 declinePlayerMessage": "",
+    "6afeaf7b5d9bf914aedf59e7 completePlayerMessage": "",
+    "6afeaf7b5d9bf914aedf59e7 successMessageText": "[PH] Not quite a chippy on the seafront, but it'll do. Ta.",
+    "6afeaf7b5d9bf914aedf59e7 failMessageText": "",
+    "6afeaf7b5d9bf914aedf59e9": "Hand over Can of sprats",
+    "6afeaf7b5d9bf914aedf59ea": "Hand over 3 packs of rye croutons"
 }
