@@ -188,5 +188,16 @@
     "6afeb1478cdb28cc9fa9b95d": "Locate the office of Xiaoming's friend in the Transtechexport building on Streets",
     "6afeb1478cdb28cc9fa9b95e": "Find the package in the office",
     "6afeb1478cdb28cc9fa9b966": "Survive and extract from the location",
-    "6afeb1478cdb28cc9fa9b96a": "Hand over the package"
+    "6afeb1478cdb28cc9fa9b96a": "Hand over the package",
+    "6afeb14a0c36dcb8fefae761 name": "Chinatown",
+    "6afeb14a0c36dcb8fefae761 description": "[PH] Streets has no Chinatown. This is a historical error. We will correct it, one restaurant at a time. Mark the front doors of the Beluga, the Brodion, and both Burger Spots. Our franchise consultants will visit.",
+    "6afeb14a0c36dcb8fefae761 acceptPlayerMessage": "",
+    "6afeb14a0c36dcb8fefae761 declinePlayerMessage": "",
+    "6afeb14a0c36dcb8fefae761 completePlayerMessage": "",
+    "6afeb14a0c36dcb8fefae761 successMessageText": "[PH] Four restaurants, marked. Chinatown is now under construction.",
+    "6afeb14a0c36dcb8fefae761 failMessageText": "",
+    "6afeb14a0c36dcb8fefae763": "Mark the front door of the Beluga restaurant on Streets",
+    "6afeb14a0c36dcb8fefae764": "Mark the front door of the Brodion restopub",
+    "6afeb14a0c36dcb8fefae765": "Mark the front door of the Burger Spot at the Pinewood Hotel",
+    "6afeb14a0c36dcb8fefae766": "Mark the front door of the Burger Spot on Nizhnyaya Sadovaya St"
 }
