@@ -3662,5 +3662,157 @@
         "successMessageText": "6afeb338d7f21a807d83dc9c successMessageText",
         "traderId": "69744632183b55cf9702c988",
         "type": "Elimination"
+    },
+    "6afeb33a2352ca9802efd929": {
+        "QuestName": "One Final Delivery",
+        "_id": "6afeb33a2352ca9802efd929",
+        "acceptPlayerMessage": "6afeb33a2352ca9802efd929 acceptPlayerMessage",
+        "acceptanceAndFinishingSource": "eft",
+        "arenaLocations": [],
+        "canShowNotificationsInGame": true,
+        "changeQuestMessageText": "6afeb33a2352ca9802efd929 changeQuestMessageText",
+        "completePlayerMessage": "6afeb33a2352ca9802efd929 completePlayerMessage",
+        "conditions": {
+            "AvailableForFinish": [
+                {
+                    "conditionType": "FindItem",
+                    "countInRaid": false,
+                    "dogtagLevel": 0,
+                    "dynamicLocale": false,
+                    "globalQuestCounterId": "",
+                    "id": "6afeb33a2352ca9802efd92a",
+                    "index": 0,
+                    "isEncoded": false,
+                    "maxDurability": 100,
+                    "minDurability": 0,
+                    "onlyFoundInRaid": true,
+                    "parentId": "",
+                    "target": [
+                        "69d2cd74c9543f516911c29d"
+                    ],
+                    "value": 1,
+                    "visibilityConditions": []
+                },
+                {
+                    "conditionType": "LeaveItemAtLocation",
+                    "dogtagLevel": 0,
+                    "dynamicLocale": false,
+                    "globalQuestCounterId": "",
+                    "id": "6afeb33a2352ca9802efd92e",
+                    "index": 0,
+                    "isEncoded": false,
+                    "maxDurability": 100,
+                    "minDurability": 0,
+                    "onlyFoundInRaid": false,
+                    "parentId": "",
+                    "plantTime": 10,
+                    "target": [
+                        "69d2cd74c9543f516911c29d"
+                    ],
+                    "value": 1,
+                    "visibilityConditions": [
+                        {
+                            "conditionType": "CompleteCondition",
+                            "id": "6afeb33a2352ca9802efd92b",
+                            "target": "6afeb33a2352ca9802efd92a"
+                        }
+                    ],
+                    "zoneId": "V20"
+                }
+            ],
+            "AvailableForStart": [
+                {
+                    "availableAfter": 0,
+                    "conditionType": "Quest",
+                    "dispersion": 0,
+                    "dynamicLocale": false,
+                    "globalQuestCounterId": "",
+                    "id": "6afeb33a2352ca9802efd92c",
+                    "index": 0,
+                    "parentId": "",
+                    "status": [
+                        4
+                    ],
+                    "target": "6afeb338d7f21a807d83dc9c",
+                    "visibilityConditions": []
+                }
+            ],
+            "Fail": []
+        },
+        "declinePlayerMessage": "6afeb33a2352ca9802efd929 declinePlayerMessage",
+        "description": "6afeb33a2352ca9802efd929 description",
+        "failMessageText": "6afeb33a2352ca9802efd929 failMessageText",
+        "gameModes": [],
+        "image": "/files/quest/icon/5d67b66186f774266f0867b5.png",
+        "instantComplete": false,
+        "isKey": false,
+        "location": "any",
+        "name": "6afeb33a2352ca9802efd929 name",
+        "note": "6afeb33a2352ca9802efd929 note",
+        "progressSource": "eft",
+        "rankingModes": [],
+        "restartable": false,
+        "rewards": {
+            "Fail": [],
+            "Started": [],
+            "Success": [
+                {
+                    "availableInGameEditions": [],
+                    "gameMode": [
+                        "regular",
+                        "pve"
+                    ],
+                    "id": "6afeb33a2352ca9802efd92f",
+                    "isHidden": false,
+                    "type": "Experience",
+                    "unknown": false,
+                    "value": 15400
+                },
+                {
+                    "availableInGameEditions": [],
+                    "gameMode": [
+                        "regular",
+                        "pve"
+                    ],
+                    "id": "6afeb33a2352ca9802efd930",
+                    "isHidden": false,
+                    "target": "69744632183b55cf9702c988",
+                    "type": "TraderStanding",
+                    "unknown": false,
+                    "value": 0.2
+                },
+                {
+                    "availableInGameEditions": [],
+                    "findInRaid": false,
+                    "gameMode": [
+                        "regular",
+                        "pve"
+                    ],
+                    "id": "6afeb33a2352ca9802efd931",
+                    "isEncoded": false,
+                    "isHidden": false,
+                    "items": [
+                        {
+                            "_id": "6afeb33a2352ca9802efd932",
+                            "_tpl": "5449016a4bdc2d6f028b456f",
+                            "upd": {
+                                "StackObjectsCount": 125000
+                            }
+                        }
+                    ],
+                    "target": "6afeb33a2352ca9802efd932",
+                    "type": "Item",
+                    "unknown": false,
+                    "value": 125000
+                }
+            ]
+        },
+        "secretQuest": false,
+        "side": "pmc",
+        "startedMessageText": "6afeb33a2352ca9802efd929 startedMessageText",
+        "status": 0,
+        "successMessageText": "6afeb33a2352ca9802efd929 successMessageText",
+        "traderId": "69744632183b55cf9702c988",
+        "type": "Completion"
     }
 }

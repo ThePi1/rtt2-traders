@@ -207,5 +207,14 @@
     "6afeb338d7f21a807d83dc9c successMessageText": "[PH] The curse is lifted. The brothers sleep.",
     "6afeb338d7f21a807d83dc9c failMessageText": "",
     "6afeb338d7f21a807d83dc9e": "Eliminate Tagilla with a headshot",
-    "6afeb338d7f21a807d83dca1": "Eliminate Killa with a headshot"
+    "6afeb338d7f21a807d83dca1": "Eliminate Killa with a headshot",
+    "6afeb33a2352ca9802efd929 name": "One Final Delivery",
+    "6afeb33a2352ca9802efd929 description": "[PH] The last delivery, Struggler. A scientist died on Ground Zero carrying something meant for the Eye. Take it from him and lay it at the old wreck on the shore of Shoreline. Then it is finished.",
+    "6afeb33a2352ca9802efd929 acceptPlayerMessage": "",
+    "6afeb33a2352ca9802efd929 declinePlayerMessage": "",
+    "6afeb33a2352ca9802efd929 completePlayerMessage": "",
+    "6afeb33a2352ca9802efd929 successMessageText": "[PH] It is done. The Eye closes, for now. Rest.",
+    "6afeb33a2352ca9802efd929 failMessageText": "",
+    "6afeb33a2352ca9802efd92a": "Find the Final Sacrifice on the dead scientist on Ground Zero",
+    "6afeb33a2352ca9802efd92e": "Leave the Final Sacrifice at the old wreck on the south shore of Shoreline"
 }
