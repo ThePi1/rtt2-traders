@@ -163,5 +163,13 @@
     "6afeac8ac71e4a2ce2ffcb03 completePlayerMessage": "",
     "6afeac8ac71e4a2ce2ffcb03 successMessageText": "[PH] Peak form AND function. I knew it.",
     "6afeac8ac71e4a2ce2ffcb03 failMessageText": "",
-    "6afeac8ac71e4a2ce2ffcb05": "Eliminate PMCs with a Holosun HS401G5 reflex sight on your weapon"
+    "6afeac8ac71e4a2ce2ffcb05": "Eliminate PMCs with a Holosun HS401G5 reflex sight on your weapon",
+    "6afeac8b3b75d5799d2a8891 name": "Eyes On The Prize",
+    "6afeac8b3b75d5799d2a8891 description": "[PH] Okay, round two. The Trijicon SRS-02 has the best-looking dot in the business, and I got the limited-edition stickers for it. Fifteen PMCs this time. Eyes up.",
+    "6afeac8b3b75d5799d2a8891 acceptPlayerMessage": "",
+    "6afeac8b3b75d5799d2a8891 declinePlayerMessage": "",
+    "6afeac8b3b75d5799d2a8891 completePlayerMessage": "",
+    "6afeac8b3b75d5799d2a8891 successMessageText": "[PH] Fifteen. You and that dot are soulmates now.",
+    "6afeac8b3b75d5799d2a8891 failMessageText": "",
+    "6afeac8c3b75d5799d2a8893": "Eliminate PMCs with a Trijicon SRS-02 reflex sight on your weapon"
 }
