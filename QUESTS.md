@@ -410,7 +410,7 @@ New zones are in `db/CustomQuestZones/C1_C4_C6_C7_C8_C9.json`. The first four ar
 | N14 | Needle | Drug Buddies | Kill Reshala and 10 scavs in one raid |  |  | `6afeb2439f394137d8e78acf` | Built | Built: kill Reshala on Customs, and 10 Scavs on Customs in one raid. The game can't tie the two counters to the same raid, so only the Scav count is per raid |
 | N15 | Needle | Soundcloud Soliloquy | Look for 50 Cent bibliography on Interchange room Toy/book store |  |  | `6afeb2449c22ac69eeab59c8` | Needs check | Built: visit the existing zone `N15` (toy/book store), find and hand in the Rap Journal, which now has a forced spawn in that store (`interchange_forced.json`) |
 | N16 | Needle | This Cranker is Crazy | Kill 5 Scavs on the island near the washed up tanker on Shoreline |  |  | `6afeb2464da4ce9f9566d21a` | Needs check | Built: kill 5 Scavs inside new zone `N16` (the island and the stranded ship on Shoreline) |
-| N17 | Needle | The Gig is Up | Plant Vodka on the stage in the theatre on streets |  |  |  | To build |  |
+| N17 | Needle | The Gig is Up | Plant Vodka on the stage in the theatre on streets |  |  | `6afeb248416e39c98e4dbefe` | Needs check | Built: plant a vodka at new zone `N17` (front of the cinema main hall, Streets) |
 
 ## Voron (V)
 

@@ -146,5 +146,13 @@
     "6afeb2464da4ce9f9566d21a completePlayerMessage": "",
     "6afeb2464da4ce9f9566d21a successMessageText": "[PH] He paid up. Funny how that works.",
     "6afeb2464da4ce9f9566d21a failMessageText": "",
-    "6afeb2464da4ce9f9566d21c": "Eliminate Scavs on the island by the stranded ship on Shoreline"
+    "6afeb2464da4ce9f9566d21c": "Eliminate Scavs on the island by the stranded ship on Shoreline",
+    "6afeb248416e39c98e4dbefe name": "The Gig is Up",
+    "6afeb248416e39c98e4dbefe description": "[PH] Big night. My first show, in the cinema on Streets. Put a bottle of vodka on the stage for me. Performers need their pre-show ritual.",
+    "6afeb248416e39c98e4dbefe acceptPlayerMessage": "",
+    "6afeb248416e39c98e4dbefe declinePlayerMessage": "",
+    "6afeb248416e39c98e4dbefe completePlayerMessage": "",
+    "6afeb248416e39c98e4dbefe successMessageText": "[PH] The stage is set. Tonight, I become a legend.",
+    "6afeb248416e39c98e4dbefe failMessageText": "",
+    "6afeb248416e39c98e4dbf00": "Leave a bottle of vodka on the stage of the cinema's main hall on Streets"
 }

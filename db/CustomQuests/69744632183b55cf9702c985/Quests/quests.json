@@ -2792,5 +2792,133 @@
         "successMessageText": "6afeb2464da4ce9f9566d21a successMessageText",
         "traderId": "69744632183b55cf9702c985",
         "type": "Elimination"
+    },
+    "6afeb248416e39c98e4dbefe": {
+        "QuestName": "The Gig is Up",
+        "_id": "6afeb248416e39c98e4dbefe",
+        "acceptPlayerMessage": "6afeb248416e39c98e4dbefe acceptPlayerMessage",
+        "acceptanceAndFinishingSource": "eft",
+        "arenaLocations": [],
+        "canShowNotificationsInGame": true,
+        "changeQuestMessageText": "6afeb248416e39c98e4dbefe changeQuestMessageText",
+        "completePlayerMessage": "6afeb248416e39c98e4dbefe completePlayerMessage",
+        "conditions": {
+            "AvailableForFinish": [
+                {
+                    "conditionType": "LeaveItemAtLocation",
+                    "dogtagLevel": 0,
+                    "dynamicLocale": false,
+                    "globalQuestCounterId": "",
+                    "id": "6afeb248416e39c98e4dbf00",
+                    "index": 0,
+                    "isEncoded": false,
+                    "maxDurability": 100,
+                    "minDurability": 0,
+                    "onlyFoundInRaid": false,
+                    "parentId": "",
+                    "plantTime": 10,
+                    "target": [
+                        "5d40407c86f774318526545a",
+                        "614451b71e5874611e2c7ae5"
+                    ],
+                    "value": 1,
+                    "visibilityConditions": [],
+                    "zoneId": "N17"
+                }
+            ],
+            "AvailableForStart": [
+                {
+                    "availableAfter": 0,
+                    "conditionType": "Quest",
+                    "dispersion": 0,
+                    "dynamicLocale": false,
+                    "globalQuestCounterId": "",
+                    "id": "6afeb248416e39c98e4dbeff",
+                    "index": 0,
+                    "parentId": "",
+                    "status": [
+                        4
+                    ],
+                    "target": "6afeb2464da4ce9f9566d21a",
+                    "visibilityConditions": []
+                }
+            ],
+            "Fail": []
+        },
+        "declinePlayerMessage": "6afeb248416e39c98e4dbefe declinePlayerMessage",
+        "description": "6afeb248416e39c98e4dbefe description",
+        "failMessageText": "6afeb248416e39c98e4dbefe failMessageText",
+        "gameModes": [],
+        "image": "/files/quest/icon/63ab02b8972364554162a22e.jpg",
+        "instantComplete": false,
+        "isKey": false,
+        "location": "5714dc692459777137212e12",
+        "name": "6afeb248416e39c98e4dbefe name",
+        "note": "6afeb248416e39c98e4dbefe note",
+        "progressSource": "eft",
+        "rankingModes": [],
+        "restartable": false,
+        "rewards": {
+            "Fail": [],
+            "Started": [],
+            "Success": [
+                {
+                    "availableInGameEditions": [],
+                    "gameMode": [
+                        "regular",
+                        "pve"
+                    ],
+                    "id": "6afeb248416e39c98e4dbf01",
+                    "isHidden": false,
+                    "type": "Experience",
+                    "unknown": false,
+                    "value": 13600
+                },
+                {
+                    "availableInGameEditions": [],
+                    "gameMode": [
+                        "regular",
+                        "pve"
+                    ],
+                    "id": "6afeb248416e39c98e4dbf02",
+                    "isHidden": false,
+                    "target": "69744632183b55cf9702c985",
+                    "type": "TraderStanding",
+                    "unknown": false,
+                    "value": 0.24
+                },
+                {
+                    "availableInGameEditions": [],
+                    "findInRaid": false,
+                    "gameMode": [
+                        "regular",
+                        "pve"
+                    ],
+                    "id": "6afeb248416e39c98e4dbf03",
+                    "isEncoded": false,
+                    "isHidden": false,
+                    "items": [
+                        {
+                            "_id": "6afeb248416e39c98e4dbf04",
+                            "_tpl": "5449016a4bdc2d6f028b456f",
+                            "upd": {
+                                "StackObjectsCount": 110000
+                            }
+                        }
+                    ],
+                    "target": "6afeb248416e39c98e4dbf04",
+                    "type": "Item",
+                    "unknown": false,
+                    "value": 110000
+                }
+            ]
+        },
+        "secretQuest": false,
+        "side": "pmc",
+        "startedMessageText": "6afeb248416e39c98e4dbefe startedMessageText",
+        "status": 0,
+        "successMessageText": "6afeb248416e39c98e4dbefe successMessageText",
+        "traderId": "69744632183b55cf9702c985",
+        "type": "Completion"
     }
 }
