@@ -107,5 +107,16 @@
     "6a1351028c34ba4a387ccfec successMessageText": "[PH] I see everything now. Everything! Have some croutons, you must keep your strength.",
     "6a1351028c34ba4a387ccfec failMessageText": "",
     "6afeb410f38066fa642d44d3": "Plant a WI-FI Camera on the bridge overlooking the main street on Streets",
-    "6afeb410f38066fa642d44d4": "Plant a WI-FI Camera at the TerraGroup security office overlooking the courtyard"
+    "6afeb410f38066fa642d44d4": "Plant a WI-FI Camera at the TerraGroup security office overlooking the courtyard",
+    "6a1351948c34ba4a387ccff3 name": "Super Trooper",
+    "6a1351948c34ba4a387ccff3 description": "[PH] I am inventing a super soldier. Step one: very clean. Step two: no pain. Bring me laundry bleach and three Analgin, found in raid.",
+    "6a1351948c34ba4a387ccff3 acceptPlayerMessage": "",
+    "6a1351948c34ba4a387ccff3 declinePlayerMessage": "",
+    "6a1351948c34ba4a387ccff3 completePlayerMessage": "",
+    "6a1351948c34ba4a387ccff3 successMessageText": "[PH] The super trooper is almost ready. Take some samples from the earlier trials.",
+    "6a1351948c34ba4a387ccff3 failMessageText": "",
+    "6afeb411053e15951357e636": "Find Ox bleach in raid",
+    "6afeb411053e15951357e637": "Hand over Ox bleach",
+    "6afeb411053e15951357e638": "Find Analgin painkillers in raid",
+    "6afeb411053e15951357e639": "Hand over Analgin painkillers"
 }
