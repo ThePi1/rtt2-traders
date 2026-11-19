@@ -164,5 +164,14 @@
     "6afeb332bfd2980faf94bee2 successMessageText": "[PH] The heretic is silent. The Eye is quiet again.",
     "6afeb332bfd2980faf94bee2 failMessageText": "",
     "6afeb333bfd2980faf94bee4": "Eliminate the rogue Priest",
-    "6afeb333bfd2980faf94bee7": "Eliminate cultists who follow him"
+    "6afeb333bfd2980faf94bee7": "Eliminate cultists who follow him",
+    "6afeb3347d7ffcad44de2494 name": "The Eye Requires Pickup - Part 3",
+    "6afeb3347d7ffcad44de2494 description": "[PH] An offering was left for the Eye in the marked room on Lighthouse. Bring the case to me. Unopened. Always unopened.",
+    "6afeb3347d7ffcad44de2494 acceptPlayerMessage": "",
+    "6afeb3347d7ffcad44de2494 declinePlayerMessage": "",
+    "6afeb3347d7ffcad44de2494 completePlayerMessage": "",
+    "6afeb3347d7ffcad44de2494 successMessageText": "[PH] Unopened. Good. You are learning.",
+    "6afeb3347d7ffcad44de2494 failMessageText": "",
+    "6afeb3347d7ffcad44de2496": "Find Locked Case (Sacrifice) in raid",
+    "6afeb3347d7ffcad44de2497": "Hand over the Sacrifice case from the Lighthouse marked room"
 }
