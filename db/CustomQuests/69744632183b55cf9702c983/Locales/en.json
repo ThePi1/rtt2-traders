@@ -98,5 +98,14 @@
     "6afeaf86b4ce126563a95994 failMessageText": "",
     "6afeaf86b4ce126563a95996": "Leave a bottle of Le Jean wine on a table in the Beluga VIP room on Streets",
     "6afeaf86b4ce126563a95997": "Leave an Iskra ration pack on a table in the IDEA cafe on Interchange",
-    "6afeaf86b4ce126563a95998": "Leave a bottle of vodka on the kitchen table by the Customs garages"
+    "6afeaf86b4ce126563a95998": "Leave a bottle of vodka on the kitchen table by the Customs garages",
+    "6afeaf8746258ee20b284c22 name": "Vlone Vever",
+    "6afeaf8746258ee20b284c22 description": "[PH] Fashion, apparently. My lad says rigs are streetwear now. Stash one in Avokado and one in Dino Clothes, and he'll do the rest. Kids these days.",
+    "6afeaf8746258ee20b284c22 acceptPlayerMessage": "",
+    "6afeaf8746258ee20b284c22 declinePlayerMessage": "",
+    "6afeaf8746258ee20b284c22 completePlayerMessage": "",
+    "6afeaf8746258ee20b284c22 successMessageText": "[PH] Right, the drip is in place. I believe that's what they call it.",
+    "6afeaf8746258ee20b284c22 failMessageText": "",
+    "6afeaf8846258ee20b284c24": "Leave a chest rig in the Avokado store on Interchange",
+    "6afeaf8846258ee20b284c25": "Leave a chest rig in the Dino Clothes store on Interchange"
 }
