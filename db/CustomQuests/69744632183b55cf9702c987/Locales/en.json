@@ -81,5 +81,13 @@
     "6a134dda8c34ba4a387ccfce completePlayerMessage": "",
     "6a134dda8c34ba4a387ccfce successMessageText": "[PH] Smooth and warm, as predicted. Have some vodka, it helps with the smell.",
     "6a134dda8c34ba4a387ccfce failMessageText": "",
-    "6afeb40bd773e0ae2aa61094": "Eliminate Scavs on Ground Zero with a T12W thermal reflex sight on your weapon"
+    "6afeb40bd773e0ae2aa61094": "Eliminate Scavs on Ground Zero with a T12W thermal reflex sight on your weapon",
+    "6a134cf28c34ba4a387ccfc4 name": "Smooth Brains - Part 2",
+    "6a134cf28c34ba4a387ccfc4 description": "[PH] The study needs a bigger sample. Fifteen more Scavs on Ground Zero, same thermal sight. Science demands repetition!",
+    "6a134cf28c34ba4a387ccfc4 acceptPlayerMessage": "",
+    "6a134cf28c34ba4a387ccfc4 declinePlayerMessage": "",
+    "6a134cf28c34ba4a387ccfc4 completePlayerMessage": "",
+    "6a134cf28c34ba4a387ccfc4 successMessageText": "[PH] The data is beautiful. I will sell you my finest thermal optic now.",
+    "6a134cf28c34ba4a387ccfc4 failMessageText": "",
+    "6afeb40dd169672825b03062": "Eliminate Scavs on Ground Zero with a T12W thermal reflex sight on your weapon"
 }
