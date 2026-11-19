@@ -427,7 +427,7 @@ New zones are in `db/CustomQuestZones/C1_C4_C6_C7_C8_C9.json`. The first four ar
 | V9 | Voron | The Eye Requires Munitions - Part 1 | Find and turn in 3 boxes of 5.45 |  | XP, 7n40 barter | `6afeb32f8824b9ad3f4ee3f7` | Built | Built: hand in 3 FIR 5.45x39 ammo packs (any kind); unlocks a 5.45x39 7N40 offer at Voron LL2 (650 RUB each, 150 per restock) |
 | V10 | Voron | The Eye Requires Munitions - Part 2 | find and turn in 3 boxes 7.62 |  | XP, 5.45 and 7.62 BP barter | `6afeb330ee909155fdd53269` | Built | Built: hand in 3 FIR 7.62 ammo packs (x39, x51 or x54R); unlocks 5.45x39 BP (750 RUB) and 7.62x39 BP (850 RUB) offers at Voron LL3, 150 per restock |
 | V11 | Voron | The Eye Requires Munitions - Part 3 | Find and turn in 3 boxes of .338 |  | XP, .338 barters | `6afeb331ea2105fd5ee9ba17` | Built | Built: hand in 3 FIR .338 ammo packs; unlocks .338 FMJ (1600 RUB) and .338 AP (4500 RUB) offers at Voron LL4, 40 per restock |
-| V12 | Voron | The Eye Never Forgets | Hunt down a rouge Priest and 2 Cultists |  | XP, Pyramid Head Funko |  | To build |  |
+| V12 | Voron | The Eye Never Forgets | Hunt down a rouge Priest and 2 Cultists |  | XP, Pyramid Head Funko | `6afeb332bfd2980faf94bee2` | Built | Built: kill a cultist Priest and 2 cultist warriors anywhere. The Pyramid Head Funko reward is left out: no such item exists |
 | V13 | Voron | The Eye Requires Pickup - Part 1 | Pickup Sacrifice at Check 13 Marked room |  |  |  | To build |  |
 | V14 | Voron | The Eye Requires Pickup - Part 2 | Pickup Sacrifice at woods sunken circle |  |  |  | To build |  |
 | V15 | Voron | The Eye Requires Pickup - Part 3 | Pickup Sacrifice at Lighthouse Marked room |  |  |  | To build |  |

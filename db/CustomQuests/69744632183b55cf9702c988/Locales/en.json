@@ -155,5 +155,14 @@
     "6afeb331ea2105fd5ee9ba17 successMessageText": "[PH] Now the family can speak across valleys. Take some for yourself.",
     "6afeb331ea2105fd5ee9ba17 failMessageText": "",
     "6afeb331ea2105fd5ee9ba19": "Find .338 Lapua Magnum AP ammo pack (20 pcs), .338 Lapua Magnum FMJ ammo pack (20 pcs), .338 Lapua Magnum TAC-X ammo pack (20 pcs) or .338 Lapua Magnum UCW ammo pack (20 pcs) in raid",
-    "6afeb331ea2105fd5ee9ba1a": "Hand over 3 packs of .338 Lapua Magnum ammo, found in raid"
+    "6afeb331ea2105fd5ee9ba1a": "Hand over 3 packs of .338 Lapua Magnum ammo, found in raid",
+    "6afeb332bfd2980faf94bee2 name": "The Eye Never Forgets",
+    "6afeb332bfd2980faf94bee2 description": "[PH] A priest has turned from the Eye and taken followers with him. The Eye never forgets. Find him and two of his flock. End their sermon.",
+    "6afeb332bfd2980faf94bee2 acceptPlayerMessage": "",
+    "6afeb332bfd2980faf94bee2 declinePlayerMessage": "",
+    "6afeb332bfd2980faf94bee2 completePlayerMessage": "",
+    "6afeb332bfd2980faf94bee2 successMessageText": "[PH] The heretic is silent. The Eye is quiet again.",
+    "6afeb332bfd2980faf94bee2 failMessageText": "",
+    "6afeb333bfd2980faf94bee4": "Eliminate the rogue Priest",
+    "6afeb333bfd2980faf94bee7": "Eliminate cultists who follow him"
 }
