@@ -330,7 +330,7 @@ New zones are in `db/CustomQuestZones/C1_C4_C6_C7_C8_C9.json`. The first four ar
 | A24 | Atlas | Light Reading | Hand in 3 FIR books. Then, mark 3 good reading spots on Streets (zone TBD). |  |  | `6afead9c40832f9c22c4b3e9` | Needs check | Built: hand in any 3 FIR books, then visit 3 reading spots on Streets: new zones `A24_1` (Pinewood Hotel lobby sofas), `A24_2` (School No. 30), `A24_3` (Razvedchikov 7 apartment). Starts after A20 because A21-A23 are not built |
 | A25 | Atlas | Packet Loss | 10 headshots with DMR from >100m |  |  | `6afeada403382817c436d262` | Built | Built: 10 headshot kills with a marksman rifle from 100 m or more. Registered under the Marksman category so modded DMRs count |
 | A26 | Atlas | Hitscan - Part 1 | 5 kills with snipers >100m |  |  | `6afeada548b82fcfce03670d` | Built | Built: 5 kills with a bolt-action rifle from 100 m or more. Registered under the Sniper category so modded bolt guns count |
-| A27 | Atlas | Hitscan - Part 2 | 5 kills with snipers >250m |  |  |  | To build |  |
+| A27 | Atlas | Hitscan - Part 2 | 5 kills with snipers >250m |  |  | `6afeada6119f6aae527fe2f7` | Built | Built: 5 kills with a bolt-action rifle from 250 m or more. Registered under the Sniper category so modded bolt guns count |
 | A28 | Atlas | Meet Your Maker | Visit the 3 water treatment roofs on (First,Second,Third) Lighthouse, then transit to Shoreline, find a package in the Heli at resort, and extract via Vehicle extract |  |  |  | To build |  |
 | A29 | Atlas | God's Child, Herself | Retrieve Misato Bodypillow in the Relax Lounge |  |  |  | To build |  |
 | A30 | Atlas | All Comes Tumbling Down | Retrieve Lance of Longinus from the Red labs room |  |  |  | To build |  |

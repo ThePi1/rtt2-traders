@@ -219,5 +219,13 @@
     "6afeada548b82fcfce03670d completePlayerMessage": "",
     "6afeada548b82fcfce03670d successMessageText": "[PH] Five deletes. Pure hitscan, brother.",
     "6afeada548b82fcfce03670d failMessageText": "",
-    "6afeada548b82fcfce03670f": "Eliminate any target with a bolt-action rifle from over 100 meters"
+    "6afeada548b82fcfce03670f": "Eliminate any target with a bolt-action rifle from over 100 meters",
+    "6afeada6119f6aae527fe2f7 name": "Hitscan - Part 2",
+    "6afeada6119f6aae527fe2f7 description": "[PH] Okay, a hundred meters was the tutorial. Now do it at two-fifty. Five kills. Hold your breath and trust the dope.",
+    "6afeada6119f6aae527fe2f7 acceptPlayerMessage": "",
+    "6afeada6119f6aae527fe2f7 declinePlayerMessage": "",
+    "6afeada6119f6aae527fe2f7 completePlayerMessage": "",
+    "6afeada6119f6aae527fe2f7 successMessageText": "[PH] Two-fifty and still hitscan. You're a legend on the forums now.",
+    "6afeada6119f6aae527fe2f7 failMessageText": "",
+    "6afeada6119f6aae527fe2f9": "Eliminate any target with a bolt-action rifle from over 250 meters"
 }
