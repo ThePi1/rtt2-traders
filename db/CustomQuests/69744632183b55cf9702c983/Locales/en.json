@@ -88,5 +88,15 @@
     "6afeaf8392e87e3a862e3c60": "Find Can of Ice Green tea in raid",
     "6afeaf8392e87e3a862e3c61": "Hand over Can of Ice Green tea",
     "6afeaf8392e87e3a862e3c62": "Find Bottle of Pevko Light beer in raid",
-    "6afeaf8392e87e3a862e3c63": "Hand over Bottle of Pevko Light beer"
+    "6afeaf8392e87e3a862e3c63": "Hand over Bottle of Pevko Light beer",
+    "6afeaf86b4ce126563a95994 name": "Table for Two",
+    "6afeaf86b4ce126563a95994 description": "[PH] I've a soft spot for a candlelit dinner. Got three friends in town who need a table set. Wine at the Beluga, an Iskra at the IDEA cafe, and vodka in that kitchen by the garages on Customs. Don't ask.",
+    "6afeaf86b4ce126563a95994 acceptPlayerMessage": "",
+    "6afeaf86b4ce126563a95994 declinePlayerMessage": "",
+    "6afeaf86b4ce126563a95994 completePlayerMessage": "",
+    "6afeaf86b4ce126563a95994 successMessageText": "[PH] Tables set. Romance isn't dead in Tarkov after all.",
+    "6afeaf86b4ce126563a95994 failMessageText": "",
+    "6afeaf86b4ce126563a95996": "Leave a bottle of Le Jean wine on a table in the Beluga VIP room on Streets",
+    "6afeaf86b4ce126563a95997": "Leave an Iskra ration pack on a table in the IDEA cafe on Interchange",
+    "6afeaf86b4ce126563a95998": "Leave a bottle of vodka on the kitchen table by the Customs garages"
 }

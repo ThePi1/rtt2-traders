@@ -1624,5 +1624,173 @@
         "successMessageText": "6afeaf8392e87e3a862e3c5a successMessageText",
         "traderId": "69744632183b55cf9702c983",
         "type": "PickUp"
+    },
+    "6afeaf86b4ce126563a95994": {
+        "QuestName": "Table for Two",
+        "_id": "6afeaf86b4ce126563a95994",
+        "acceptPlayerMessage": "6afeaf86b4ce126563a95994 acceptPlayerMessage",
+        "acceptanceAndFinishingSource": "eft",
+        "arenaLocations": [],
+        "canShowNotificationsInGame": true,
+        "changeQuestMessageText": "6afeaf86b4ce126563a95994 changeQuestMessageText",
+        "completePlayerMessage": "6afeaf86b4ce126563a95994 completePlayerMessage",
+        "conditions": {
+            "AvailableForFinish": [
+                {
+                    "conditionType": "LeaveItemAtLocation",
+                    "dogtagLevel": 0,
+                    "dynamicLocale": false,
+                    "globalQuestCounterId": "",
+                    "id": "6afeaf86b4ce126563a95996",
+                    "index": 0,
+                    "isEncoded": false,
+                    "maxDurability": 100,
+                    "minDurability": 0,
+                    "onlyFoundInRaid": false,
+                    "parentId": "",
+                    "plantTime": 10,
+                    "target": [
+                        "6582bd252b50c61c565828e2"
+                    ],
+                    "value": 1,
+                    "visibilityConditions": [],
+                    "zoneId": "P9_1"
+                },
+                {
+                    "conditionType": "LeaveItemAtLocation",
+                    "dogtagLevel": 0,
+                    "dynamicLocale": false,
+                    "globalQuestCounterId": "",
+                    "id": "6afeaf86b4ce126563a95997",
+                    "index": 0,
+                    "isEncoded": false,
+                    "maxDurability": 100,
+                    "minDurability": 0,
+                    "onlyFoundInRaid": false,
+                    "parentId": "",
+                    "plantTime": 10,
+                    "target": [
+                        "590c5d4b86f774784e1b9c45"
+                    ],
+                    "value": 1,
+                    "visibilityConditions": [],
+                    "zoneId": "P9_2"
+                },
+                {
+                    "conditionType": "LeaveItemAtLocation",
+                    "dogtagLevel": 0,
+                    "dynamicLocale": false,
+                    "globalQuestCounterId": "",
+                    "id": "6afeaf86b4ce126563a95998",
+                    "index": 0,
+                    "isEncoded": false,
+                    "maxDurability": 100,
+                    "minDurability": 0,
+                    "onlyFoundInRaid": false,
+                    "parentId": "",
+                    "plantTime": 10,
+                    "target": [
+                        "5d40407c86f774318526545a",
+                        "614451b71e5874611e2c7ae5"
+                    ],
+                    "value": 1,
+                    "visibilityConditions": [],
+                    "zoneId": "P9_3"
+                }
+            ],
+            "AvailableForStart": [
+                {
+                    "availableAfter": 0,
+                    "conditionType": "Quest",
+                    "dispersion": 0,
+                    "dynamicLocale": false,
+                    "globalQuestCounterId": "",
+                    "id": "6afeaf86b4ce126563a95995",
+                    "index": 0,
+                    "parentId": "",
+                    "status": [
+                        4
+                    ],
+                    "target": "6afeaf8392e87e3a862e3c5a",
+                    "visibilityConditions": []
+                }
+            ],
+            "Fail": []
+        },
+        "declinePlayerMessage": "6afeaf86b4ce126563a95994 declinePlayerMessage",
+        "description": "6afeaf86b4ce126563a95994 description",
+        "failMessageText": "6afeaf86b4ce126563a95994 failMessageText",
+        "gameModes": [],
+        "image": "/files/quest/icon/5ac4db0986f77442000164dd.jpg",
+        "instantComplete": false,
+        "isKey": false,
+        "location": "any",
+        "name": "6afeaf86b4ce126563a95994 name",
+        "note": "6afeaf86b4ce126563a95994 note",
+        "progressSource": "eft",
+        "rankingModes": [],
+        "restartable": false,
+        "rewards": {
+            "Fail": [],
+            "Started": [],
+            "Success": [
+                {
+                    "availableInGameEditions": [],
+                    "gameMode": [
+                        "regular",
+                        "pve"
+                    ],
+                    "id": "6afeaf86b4ce126563a95999",
+                    "isHidden": false,
+                    "type": "Experience",
+                    "unknown": false,
+                    "value": 8800
+                },
+                {
+                    "availableInGameEditions": [],
+                    "gameMode": [
+                        "regular",
+                        "pve"
+                    ],
+                    "id": "6afeaf86b4ce126563a9599a",
+                    "isHidden": false,
+                    "target": "69744632183b55cf9702c983",
+                    "type": "TraderStanding",
+                    "unknown": false,
+                    "value": 0.2
+                },
+                {
+                    "availableInGameEditions": [],
+                    "findInRaid": false,
+                    "gameMode": [
+                        "regular",
+                        "pve"
+                    ],
+                    "id": "6afeaf86b4ce126563a9599b",
+                    "isEncoded": false,
+                    "isHidden": false,
+                    "items": [
+                        {
+                            "_id": "6afeaf86b4ce126563a9599c",
+                            "_tpl": "5449016a4bdc2d6f028b456f",
+                            "upd": {
+                                "StackObjectsCount": 70000
+                            }
+                        }
+                    ],
+                    "target": "6afeaf86b4ce126563a9599c",
+                    "type": "Item",
+                    "unknown": false,
+                    "value": 70000
+                }
+            ]
+        },
+        "secretQuest": false,
+        "side": "pmc",
+        "startedMessageText": "6afeaf86b4ce126563a95994 startedMessageText",
+        "status": 0,
+        "successMessageText": "6afeaf86b4ce126563a95994 successMessageText",
+        "traderId": "69744632183b55cf9702c983",
+        "type": "Completion"
     }
 }
