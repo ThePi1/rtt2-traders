@@ -374,7 +374,7 @@ New zones are in `db/CustomQuestZones/C1_C4_C6_C7_C8_C9.json`. The first four ar
 | P3 | Price | Fish and Croutons | Turn in 3 Spratz and 3 Croutons |  |  | `6afeaf7b5d9bf914aedf59e7` | Built | Built: hand in 3 cans of sprats and 3 packs of rye croutons (either kind), not FIR (the design says "turn in") |
 | P4 | Price | Priced In | Plant USD in the financial buildings (both) and the housing building, survive and extract same raid |  |  | `6afeaf7e14cddbc37e5b808e` | Needs check | Built: plant a stack of dollars at new zones `P4_1` (Tarbank, Primorskiy 52), `P4_2` (financial office, Nikitskaya 10), `P4_3` (Cardinal), then survive and extract on Streets. "Same raid" isn't enforced: the game keeps plants across raids |
 | P5 | Price | Priced Out | Mark 1,5,9,13 IDEA cash registers on Interchange then kill 5 scavs in same session |  |  | `6afeaf7f2f64c84788159743` | Built | Built: mark the 4 IDEA registers (existing zones `P5_1`-`P5_4`), then kill 5 Scavs on Interchange |
-| P6 | Price | New Money | Plant bitcoin on A streets ATM, survive and extract same raid |  |  |  | To build |  |
+| P6 | Price | New Money | Plant bitcoin on A streets ATM, survive and extract same raid |  |  | `6afeaf811df12fad34fa7faa` | Needs check | Built: plant a Physical Bitcoin at new zone `P6` (street ATM outside the Pinewood Hotel), then survive and extract on Streets |
 | P7 | Price | In Another Life | Kill 20 PMCs |  |  |  | To build |  |
 | P8 | Price | Check Please | Pick up 2 packages on Interchange tables Kiba Outer and Kiba Inner. Found 3 FIR Iskra, 3 some beverage, 1 other beverage. |  |  |  | To build |  |
 | P9 | Price | Table for Two | Plant iskra/wine/vodka on tables in certain maps |  |  |  | To build |  |

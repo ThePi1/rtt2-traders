@@ -56,5 +56,14 @@
     "6afeaf802f64c84788159745": "Mark cash register 5 in IDEA",
     "6afeaf802f64c84788159746": "Mark cash register 9 in IDEA",
     "6afeaf802f64c84788159747": "Mark cash register 13 in IDEA",
-    "6afeaf802f64c84788159751": "Eliminate Scavs on Interchange"
+    "6afeaf802f64c84788159751": "Eliminate Scavs on Interchange",
+    "6afeaf811df12fad34fa7faa name": "New Money",
+    "6afeaf811df12fad34fa7faa description": "[PH] My nephew says Bitcoin is the future. I say it's a gold coin with ideas above its station. Still, a contact wants one left at the cash machine outside the Pinewood Hotel. Drop it and get out.",
+    "6afeaf811df12fad34fa7faa acceptPlayerMessage": "",
+    "6afeaf811df12fad34fa7faa declinePlayerMessage": "",
+    "6afeaf811df12fad34fa7faa completePlayerMessage": "",
+    "6afeaf811df12fad34fa7faa successMessageText": "[PH] Done and dusted. I still don't understand it, mind.",
+    "6afeaf811df12fad34fa7faa failMessageText": "",
+    "6afeaf811df12fad34fa7fab": "Leave a Physical Bitcoin at the ATM by the Pinewood Hotel",
+    "6afeaf811df12fad34fa7faf": "Survive and extract from Streets of Tarkov"
 }
