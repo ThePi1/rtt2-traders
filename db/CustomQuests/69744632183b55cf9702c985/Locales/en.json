@@ -119,5 +119,14 @@
     "6afeb242101f2b1cfb4f0f6f successMessageText": "[PH] That's the one. Business is back on.",
     "6afeb242101f2b1cfb4f0f6f failMessageText": "",
     "6afeb242101f2b1cfb4f0f71": "Find Injector case in raid",
-    "6afeb242101f2b1cfb4f0f72": "Hand over an Injector case, found in raid"
+    "6afeb242101f2b1cfb4f0f72": "Hand over an Injector case, found in raid",
+    "6afeb2439f394137d8e78acf name": "Drug Buddies",
+    "6afeb2439f394137d8e78acf description": "[PH] Reshala's been selling knockoff product on my turf. Cutting it with who knows what. Take him out, and his little Scav buddies too. Ten of them, in one raid.",
+    "6afeb2439f394137d8e78acf acceptPlayerMessage": "",
+    "6afeb2439f394137d8e78acf declinePlayerMessage": "",
+    "6afeb2439f394137d8e78acf completePlayerMessage": "",
+    "6afeb2439f394137d8e78acf successMessageText": "[PH] Competition eliminated. The market is mine again.",
+    "6afeb2439f394137d8e78acf failMessageText": "",
+    "6afeb2439f394137d8e78ad1": "Eliminate Reshala on Customs",
+    "6afeb2439f394137d8e78ad5": "Eliminate 10 Scavs on Customs in one raid"
 }
