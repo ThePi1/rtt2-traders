@@ -399,7 +399,7 @@ New zones are in `db/CustomQuestZones/C1_C4_C6_C7_C8_C9.json`. The first four ar
 | N3 | Needle | I Can't Aim | Find and Turn In 1 Ledx | Q13 | Xp, Graphics Card | `6afeb23798a1535593639753` | Built | Built: hand in 1 FIR LEDX (either version); rewards a Graphics card as the design asks. Starts when Q13 is done |
 | N4 | Needle | Poor Mans Propitol | Find and Turn in 4 Adrenaline |  |  | `6afeb238aefd9379c8e404c7` | Built | Built: hand in 4 FIR Adrenaline injectors |
 | N5 | Needle | Blue Bloods | Find and turn in 2 Perftorin |  |  | `6afeb2395d14cdd6e4e24f65` | Built | Built: hand in 2 FIR Perfotoran |
-| N6 | Needle | Alchemical Magic | Find and turn in 4 meds and 1 Propitol |  |  |  | To build |  |
+| N6 | Needle | Alchemical Magic | Find and turn in 4 meds and 1 Propitol |  |  | `6afeb23a85305c13a0bd3eea` | Built | Built: hand in 4 FIR Salewa and 1 FIR Propital (the "4 meds" are my pick: Salewa) |
 | N7 | Needle | Marathon Dose - Part 1 | Transit from Ground Zero to Interchange, survive and extract | Q13 |  |  | To build |  |
 | N8 | Needle | Marathon Dose - Part 2 | Transit from Interchange to Woods, survive and extract |  |  |  | To build |  |
 | N9 | Needle | Marathon Dose - Part 3 | Transit from Woods to Shoreline, survive and extract |  |  |  | To build |  |

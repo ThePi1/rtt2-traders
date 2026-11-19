@@ -41,5 +41,16 @@
     "6afeb2395d14cdd6e4e24f65 successMessageText": "[PH] Two vials of the blue. You're practically nobility now.",
     "6afeb2395d14cdd6e4e24f65 failMessageText": "",
     "6afeb2395d14cdd6e4e24f67": "Find Perfotoran (Blue Blood) stimulant injector in raid",
-    "6afeb2395d14cdd6e4e24f68": "Hand over Perfotoran (Blue Blood) stimulant injector"
+    "6afeb2395d14cdd6e4e24f68": "Hand over Perfotoran (Blue Blood) stimulant injector",
+    "6afeb23a85305c13a0bd3eea name": "Alchemical Magic",
+    "6afeb23a85305c13a0bd3eea description": "[PH] I'm cooking up a new blend. Don't ask what's in it. Okay, it's four Salewas and a Propital. All found in raid. It's alchemy, my guy.",
+    "6afeb23a85305c13a0bd3eea acceptPlayerMessage": "",
+    "6afeb23a85305c13a0bd3eea declinePlayerMessage": "",
+    "6afeb23a85305c13a0bd3eea completePlayerMessage": "",
+    "6afeb23a85305c13a0bd3eea successMessageText": "[PH] The potion is complete. Side effects may include feeling amazing.",
+    "6afeb23a85305c13a0bd3eea failMessageText": "",
+    "6afeb23a85305c13a0bd3eec": "Find Salewa first aid kit in raid",
+    "6afeb23a85305c13a0bd3eed": "Hand over Salewa first aid kit",
+    "6afeb23a85305c13a0bd3eee": "Find Propital regenerative stimulant injector in raid",
+    "6afeb23a85305c13a0bd3eef": "Hand over Propital regenerative stimulant injector"
 }
