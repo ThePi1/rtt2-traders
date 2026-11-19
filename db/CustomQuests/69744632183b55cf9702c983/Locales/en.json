@@ -33,5 +33,16 @@
     "6afeaf7b5d9bf914aedf59e7 successMessageText": "[PH] Not quite a chippy on the seafront, but it'll do. Ta.",
     "6afeaf7b5d9bf914aedf59e7 failMessageText": "",
     "6afeaf7b5d9bf914aedf59e9": "Hand over Can of sprats",
-    "6afeaf7b5d9bf914aedf59ea": "Hand over 3 packs of rye croutons"
+    "6afeaf7b5d9bf914aedf59ea": "Hand over 3 packs of rye croutons",
+    "6afeaf7e14cddbc37e5b808e name": "Priced In",
+    "6afeaf7e14cddbc37e5b808e description": "[PH] Every bank in this city's been run by crooks. Good news is, crooks take bribes. Leave a bit of cash at the Tarbank and the finance office, and some at the Cardinal flats for the doormen. Then get out in one piece.",
+    "6afeaf7e14cddbc37e5b808e acceptPlayerMessage": "",
+    "6afeaf7e14cddbc37e5b808e declinePlayerMessage": "",
+    "6afeaf7e14cddbc37e5b808e completePlayerMessage": "",
+    "6afeaf7e14cddbc37e5b808e successMessageText": "[PH] Everyone's been paid. Prices will be very... reasonable from now on.",
+    "6afeaf7e14cddbc37e5b808e failMessageText": "",
+    "6afeaf7e14cddbc37e5b808f": "Leave a stack of dollars in the Tarbank on Primorsky Ave",
+    "6afeaf7e14cddbc37e5b8090": "Leave a stack of dollars in the financial office on Nikitskaya St",
+    "6afeaf7e14cddbc37e5b8091": "Leave a stack of dollars in the Cardinal apartment complex",
+    "6afeaf7e14cddbc37e5b8099": "Survive and extract from Streets of Tarkov"
 }
