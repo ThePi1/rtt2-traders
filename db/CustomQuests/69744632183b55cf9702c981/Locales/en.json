@@ -717,5 +717,9 @@
     "6aca830da26d5245cb767419 acceptPlayerMessage": "",
     "6aca830da26d5245cb767419 declinePlayerMessage": "",
     "6aca830da26d5245cb767419 completePlayerMessage": "",
-    "6aca830da26d5245cb767419 failMessageText": ""
+    "6aca830da26d5245cb767419 failMessageText": "",
+    "6aca8031a26d5245cb767407 acceptPlayerMessage": "",
+    "6aca8031a26d5245cb767407 declinePlayerMessage": "",
+    "6aca8031a26d5245cb767407 completePlayerMessage": "",
+    "6aca8031a26d5245cb767407 failMessageText": ""
 }

@@ -9866,7 +9866,7 @@
                     ],
                     "value": 1,
                     "visibilityConditions": [],
-                    "zoneId": ""
+                    "zoneId": "L92"
                 },
                 {
                     "completeInSeconds": 0,
@@ -9893,7 +9893,7 @@
                     "isResetOnConditionFailed": false,
                     "oneSessionOnly": false,
                     "parentId": "",
-                    "type": "Elimination",
+                    "type": "Completion",
                     "value": 1,
                     "visibilityConditions": []
                 }
