@@ -2622,5 +2622,175 @@
         "successMessageText": "6afeb2449c22ac69eeab59c8 successMessageText",
         "traderId": "69744632183b55cf9702c985",
         "type": "Completion"
+    },
+    "6afeb2464da4ce9f9566d21a": {
+        "QuestName": "This Cranker is Crazy",
+        "_id": "6afeb2464da4ce9f9566d21a",
+        "acceptPlayerMessage": "6afeb2464da4ce9f9566d21a acceptPlayerMessage",
+        "acceptanceAndFinishingSource": "eft",
+        "arenaLocations": [],
+        "canShowNotificationsInGame": true,
+        "changeQuestMessageText": "6afeb2464da4ce9f9566d21a changeQuestMessageText",
+        "completePlayerMessage": "6afeb2464da4ce9f9566d21a completePlayerMessage",
+        "conditions": {
+            "AvailableForFinish": [
+                {
+                    "completeInSeconds": 0,
+                    "conditionType": "CounterCreator",
+                    "counter": {
+                        "conditions": [
+                            {
+                                "bodyPart": [],
+                                "compareMethod": ">=",
+                                "conditionType": "Kills",
+                                "daytime": {
+                                    "from": 0,
+                                    "to": 0
+                                },
+                                "distance": {
+                                    "compareMethod": ">=",
+                                    "value": 0
+                                },
+                                "dynamicLocale": false,
+                                "enemyEquipmentExclusive": [],
+                                "enemyEquipmentInclusive": [],
+                                "enemyHealthEffects": [],
+                                "id": "6afeb2464da4ce9f9566d21e",
+                                "resetOnSessionEnd": false,
+                                "savageRole": [],
+                                "target": "Savage",
+                                "value": 0,
+                                "weapon": [],
+                                "weaponCaliber": [],
+                                "weaponModsExclusive": [],
+                                "weaponModsInclusive": []
+                            },
+                            {
+                                "conditionType": "InZone",
+                                "dynamicLocale": false,
+                                "id": "6afeb2464da4ce9f9566d21f",
+                                "zoneIds": [
+                                    "N16"
+                                ]
+                            },
+                            {
+                                "conditionType": "Location",
+                                "dynamicLocale": false,
+                                "id": "6afeb2464da4ce9f9566d220",
+                                "target": [
+                                    "Shoreline"
+                                ]
+                            }
+                        ],
+                        "id": "6afeb2464da4ce9f9566d21d"
+                    },
+                    "doNotResetIfCounterCompleted": false,
+                    "dynamicLocale": false,
+                    "globalQuestCounterId": "",
+                    "id": "6afeb2464da4ce9f9566d21c",
+                    "index": 0,
+                    "isNecessary": false,
+                    "isResetOnConditionFailed": false,
+                    "oneSessionOnly": false,
+                    "parentId": "",
+                    "type": "Elimination",
+                    "value": 5,
+                    "visibilityConditions": []
+                }
+            ],
+            "AvailableForStart": [
+                {
+                    "availableAfter": 0,
+                    "conditionType": "Quest",
+                    "dispersion": 0,
+                    "dynamicLocale": false,
+                    "globalQuestCounterId": "",
+                    "id": "6afeb2464da4ce9f9566d21b",
+                    "index": 0,
+                    "parentId": "",
+                    "status": [
+                        4
+                    ],
+                    "target": "6afeb2449c22ac69eeab59c8",
+                    "visibilityConditions": []
+                }
+            ],
+            "Fail": []
+        },
+        "declinePlayerMessage": "6afeb2464da4ce9f9566d21a declinePlayerMessage",
+        "description": "6afeb2464da4ce9f9566d21a description",
+        "failMessageText": "6afeb2464da4ce9f9566d21a failMessageText",
+        "gameModes": [],
+        "image": "/files/quest/icon/64a2c8e0e4c3b3082302e5bd.jpg",
+        "instantComplete": false,
+        "isKey": false,
+        "location": "5704e554d2720bac5b8b456e",
+        "name": "6afeb2464da4ce9f9566d21a name",
+        "note": "6afeb2464da4ce9f9566d21a note",
+        "progressSource": "eft",
+        "rankingModes": [],
+        "restartable": false,
+        "rewards": {
+            "Fail": [],
+            "Started": [],
+            "Success": [
+                {
+                    "availableInGameEditions": [],
+                    "gameMode": [
+                        "regular",
+                        "pve"
+                    ],
+                    "id": "6afeb2464da4ce9f9566d221",
+                    "isHidden": false,
+                    "type": "Experience",
+                    "unknown": false,
+                    "value": 13000
+                },
+                {
+                    "availableInGameEditions": [],
+                    "gameMode": [
+                        "regular",
+                        "pve"
+                    ],
+                    "id": "6afeb2464da4ce9f9566d222",
+                    "isHidden": false,
+                    "target": "69744632183b55cf9702c985",
+                    "type": "TraderStanding",
+                    "unknown": false,
+                    "value": 0.24
+                },
+                {
+                    "availableInGameEditions": [],
+                    "findInRaid": false,
+                    "gameMode": [
+                        "regular",
+                        "pve"
+                    ],
+                    "id": "6afeb2464da4ce9f9566d223",
+                    "isEncoded": false,
+                    "isHidden": false,
+                    "items": [
+                        {
+                            "_id": "6afeb2464da4ce9f9566d224",
+                            "_tpl": "5449016a4bdc2d6f028b456f",
+                            "upd": {
+                                "StackObjectsCount": 105000
+                            }
+                        }
+                    ],
+                    "target": "6afeb2464da4ce9f9566d224",
+                    "type": "Item",
+                    "unknown": false,
+                    "value": 105000
+                }
+            ]
+        },
+        "secretQuest": false,
+        "side": "pmc",
+        "startedMessageText": "6afeb2464da4ce9f9566d21a startedMessageText",
+        "status": 0,
+        "successMessageText": "6afeb2464da4ce9f9566d21a successMessageText",
+        "traderId": "69744632183b55cf9702c985",
+        "type": "Elimination"
     }
 }

@@ -138,5 +138,13 @@
     "6afeb2449c22ac69eeab59c8 failMessageText": "",
     "6afeb2449c22ac69eeab59c9": "Search the toy and book store in the Interchange mall",
     "6afeb2449c22ac69eeab59cf": "Find the Rap Journal",
-    "6afeb2449c22ac69eeab59d0": "Hand over the Rap Journal"
+    "6afeb2449c22ac69eeab59d0": "Hand over the Rap Journal",
+    "6afeb2464da4ce9f9566d21a name": "This Cranker is Crazy",
+    "6afeb2464da4ce9f9566d21a description": "[PH] Some cranker on the island by the stranded ship on Shoreline owes me money. He's got Scavs guarding his stash out there. Clear five of them so he knows I'm serious.",
+    "6afeb2464da4ce9f9566d21a acceptPlayerMessage": "",
+    "6afeb2464da4ce9f9566d21a declinePlayerMessage": "",
+    "6afeb2464da4ce9f9566d21a completePlayerMessage": "",
+    "6afeb2464da4ce9f9566d21a successMessageText": "[PH] He paid up. Funny how that works.",
+    "6afeb2464da4ce9f9566d21a failMessageText": "",
+    "6afeb2464da4ce9f9566d21c": "Eliminate Scavs on the island by the stranded ship on Shoreline"
 }
