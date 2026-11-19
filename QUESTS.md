@@ -345,7 +345,7 @@ New zones are in `db/CustomQuestZones/C1_C4_C6_C7_C8_C9.json`. The first four ar
 | X4 | Xiaoming | Better Without | Kill quest; ends up being Atlas's guys |  |  | `6afeb134f4a03ce7764de4bc` | Built | Built: kill 10 USEC PMCs anywhere (the "Atlas's guys" twist is in the text) |
 | X5 | Xiaoming | Better Without - Part 2 | Kill quest (similar but distinct) - certain map/faction |  |  | `6afeb13573c586a224470329` | Built | Built: kill 10 Rogues on Lighthouse (faction and map my choice) |
 | X6 | Xiaoming | Delay, Deny, Defend | Break into some healthcare building and somehow get back at Atlas |  |  |  | To build |  |
-| X7 | Xiaoming | Eastern Medicine | Find some med things |  |  |  | To build |  |
+| X7 | Xiaoming | Eastern Medicine | Find some med things |  |  | `6afeb137d0c21ba797f7842d` | Built | Built: hand in 3 FIR Golden Star balm and 2 FIR Analgin. Starts after X5 because X6 isn't built |
 | X8 | Xiaoming | Jade Idol | Whatever the living high not a crime part 2 items are, turn in FIR |  |  |  | To build |  |
 | X9 | Xiaoming | Concussion Tested | Get headshot while wearing a Killa helm, survive and extract same raid |  |  |  | To build |  |
 | X10 | Xiaoming | Transfer Student | Reach lv5 attention, lv7 intellect |  |  |  | To build |  |

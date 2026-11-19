@@ -58,5 +58,16 @@
     "6afeb13573c586a224470329 completePlayerMessage": "",
     "6afeb13573c586a224470329 successMessageText": "[PH] Message delivered. I suspect a certain 'operator' is very upset right now.",
     "6afeb13573c586a224470329 failMessageText": "",
-    "6afeb13673c586a22447032b": "Eliminate Rogues on Lighthouse"
+    "6afeb13673c586a22447032b": "Eliminate Rogues on Lighthouse",
+    "6afeb137d0c21ba797f7842d name": "Eastern Medicine",
+    "6afeb137d0c21ba797f7842d description": "[PH] Western pharmaceuticals are expensive and arrogant. Traditional medicine is efficient. Bring me three Golden Star balms and two packs of Analgin, found in raid. For the clinic.",
+    "6afeb137d0c21ba797f7842d acceptPlayerMessage": "",
+    "6afeb137d0c21ba797f7842d declinePlayerMessage": "",
+    "6afeb137d0c21ba797f7842d completePlayerMessage": "",
+    "6afeb137d0c21ba797f7842d successMessageText": "[PH] The clinic thanks you. The Golden Star is especially good for bureaucratic headaches.",
+    "6afeb137d0c21ba797f7842d failMessageText": "",
+    "6afeb137d0c21ba797f7842f": "Find Golden Star balm in raid",
+    "6afeb137d0c21ba797f78430": "Hand over Golden Star balm",
+    "6afeb137d0c21ba797f78431": "Find Analgin painkillers in raid",
+    "6afeb137d0c21ba797f78432": "Hand over Analgin painkillers"
 }

@@ -1100,5 +1100,186 @@
         "successMessageText": "6afeb13573c586a224470329 successMessageText",
         "traderId": "69744632183b55cf9702c984",
         "type": "Elimination"
+    },
+    "6afeb137d0c21ba797f7842d": {
+        "QuestName": "Eastern Medicine",
+        "_id": "6afeb137d0c21ba797f7842d",
+        "acceptPlayerMessage": "6afeb137d0c21ba797f7842d acceptPlayerMessage",
+        "acceptanceAndFinishingSource": "eft",
+        "arenaLocations": [],
+        "canShowNotificationsInGame": true,
+        "changeQuestMessageText": "6afeb137d0c21ba797f7842d changeQuestMessageText",
+        "completePlayerMessage": "6afeb137d0c21ba797f7842d completePlayerMessage",
+        "conditions": {
+            "AvailableForFinish": [
+                {
+                    "conditionType": "FindItem",
+                    "countInRaid": false,
+                    "dogtagLevel": 0,
+                    "dynamicLocale": false,
+                    "globalQuestCounterId": "",
+                    "id": "6afeb137d0c21ba797f7842f",
+                    "index": 0,
+                    "isEncoded": false,
+                    "maxDurability": 100,
+                    "minDurability": 0,
+                    "onlyFoundInRaid": true,
+                    "parentId": "",
+                    "target": [
+                        "5751a89d24597722aa0e8db0"
+                    ],
+                    "value": 3,
+                    "visibilityConditions": []
+                },
+                {
+                    "conditionType": "HandoverItem",
+                    "dogtagLevel": 0,
+                    "dynamicLocale": false,
+                    "globalQuestCounterId": "",
+                    "id": "6afeb137d0c21ba797f78430",
+                    "index": 0,
+                    "isEncoded": false,
+                    "maxDurability": 100,
+                    "minDurability": 0,
+                    "onlyFoundInRaid": true,
+                    "parentId": "",
+                    "target": [
+                        "5751a89d24597722aa0e8db0"
+                    ],
+                    "value": 3,
+                    "visibilityConditions": []
+                },
+                {
+                    "conditionType": "FindItem",
+                    "countInRaid": false,
+                    "dogtagLevel": 0,
+                    "dynamicLocale": false,
+                    "globalQuestCounterId": "",
+                    "id": "6afeb137d0c21ba797f78431",
+                    "index": 0,
+                    "isEncoded": false,
+                    "maxDurability": 100,
+                    "minDurability": 0,
+                    "onlyFoundInRaid": true,
+                    "parentId": "",
+                    "target": [
+                        "544fb37f4bdc2dee738b4567"
+                    ],
+                    "value": 2,
+                    "visibilityConditions": []
+                },
+                {
+                    "conditionType": "HandoverItem",
+                    "dogtagLevel": 0,
+                    "dynamicLocale": false,
+                    "globalQuestCounterId": "",
+                    "id": "6afeb137d0c21ba797f78432",
+                    "index": 0,
+                    "isEncoded": false,
+                    "maxDurability": 100,
+                    "minDurability": 0,
+                    "onlyFoundInRaid": true,
+                    "parentId": "",
+                    "target": [
+                        "544fb37f4bdc2dee738b4567"
+                    ],
+                    "value": 2,
+                    "visibilityConditions": []
+                }
+            ],
+            "AvailableForStart": [
+                {
+                    "availableAfter": 0,
+                    "conditionType": "Quest",
+                    "dispersion": 0,
+                    "dynamicLocale": false,
+                    "globalQuestCounterId": "",
+                    "id": "6afeb137d0c21ba797f7842e",
+                    "index": 0,
+                    "parentId": "",
+                    "status": [
+                        4
+                    ],
+                    "target": "6afeb13573c586a224470329",
+                    "visibilityConditions": []
+                }
+            ],
+            "Fail": []
+        },
+        "declinePlayerMessage": "6afeb137d0c21ba797f7842d declinePlayerMessage",
+        "description": "6afeb137d0c21ba797f7842d description",
+        "failMessageText": "6afeb137d0c21ba797f7842d failMessageText",
+        "gameModes": [],
+        "image": "/files/quest/icon/5969f96786f7741dde183a4f.png",
+        "instantComplete": false,
+        "isKey": false,
+        "location": "any",
+        "name": "6afeb137d0c21ba797f7842d name",
+        "note": "6afeb137d0c21ba797f7842d note",
+        "progressSource": "eft",
+        "rankingModes": [],
+        "restartable": false,
+        "rewards": {
+            "Fail": [],
+            "Started": [],
+            "Success": [
+                {
+                    "availableInGameEditions": [],
+                    "gameMode": [
+                        "regular",
+                        "pve"
+                    ],
+                    "id": "6afeb137d0c21ba797f78433",
+                    "isHidden": false,
+                    "type": "Experience",
+                    "unknown": false,
+                    "value": 7600
+                },
+                {
+                    "availableInGameEditions": [],
+                    "gameMode": [
+                        "regular",
+                        "pve"
+                    ],
+                    "id": "6afeb137d0c21ba797f78434",
+                    "isHidden": false,
+                    "target": "69744632183b55cf9702c984",
+                    "type": "TraderStanding",
+                    "unknown": false,
+                    "value": 0.16
+                },
+                {
+                    "availableInGameEditions": [],
+                    "findInRaid": false,
+                    "gameMode": [
+                        "regular",
+                        "pve"
+                    ],
+                    "id": "6afeb137d0c21ba797f78435",
+                    "isEncoded": false,
+                    "isHidden": false,
+                    "items": [
+                        {
+                            "_id": "6afeb137d0c21ba797f78436",
+                            "_tpl": "5449016a4bdc2d6f028b456f",
+                            "upd": {
+                                "StackObjectsCount": 60000
+                            }
+                        }
+                    ],
+                    "target": "6afeb137d0c21ba797f78436",
+                    "type": "Item",
+                    "unknown": false,
+                    "value": 60000
+                }
+            ]
+        },
+        "secretQuest": false,
+        "side": "pmc",
+        "startedMessageText": "6afeb137d0c21ba797f7842d startedMessageText",
+        "status": 0,
+        "successMessageText": "6afeb137d0c21ba797f7842d successMessageText",
+        "traderId": "69744632183b55cf9702c984",
+        "type": "Completion"
     }
 }
