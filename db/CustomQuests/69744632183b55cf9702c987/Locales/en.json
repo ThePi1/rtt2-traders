@@ -173,5 +173,14 @@
     "6a1356e48c34ba4a387cd02d failMessageText": "",
     "6afeb418772badf79a1f3ee6": "Eliminate Knight",
     "6afeb418772badf79a1f3ee9": "Eliminate Big Pipe",
-    "6afeb418772badf79a1f3eec": "Eliminate Birdeye"
+    "6afeb418772badf79a1f3eec": "Eliminate Birdeye",
+    "6a1357468c34ba4a387cd035 name": "Brains Over Brawn",
+    "6a1357468c34ba4a387cd035 description": "[PH] The manager's office in the Lab. He kept the shipment reports. If I have them, I win. Brains over brawn, ja!",
+    "6a1357468c34ba4a387cd035 acceptPlayerMessage": "",
+    "6a1357468c34ba4a387cd035 declinePlayerMessage": "",
+    "6a1357468c34ba4a387cd035 completePlayerMessage": "",
+    "6a1357468c34ba4a387cd035 successMessageText": "[PH] I win! Take the keycards, I do not need them anymore. I have the reports.",
+    "6a1357468c34ba4a387cd035 failMessageText": "",
+    "6afeb4191e951a5d7d98ff61": "Find TerraGroup shipment report in raid",
+    "6afeb4191e951a5d7d98ff62": "Hand over the TerraGroup shipment report from the Lab manager's office"
 }
