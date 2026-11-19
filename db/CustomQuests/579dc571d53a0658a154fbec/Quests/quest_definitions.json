@@ -2190,7 +2190,7 @@
                     ],
                     "value": 1,
                     "visibilityConditions": [],
-                    "zoneId": "F5_2"
+                    "zoneId": "F11_2"
                 }
             ],
             "AvailableForStart": [
@@ -2231,19 +2231,19 @@
                 {
                     "availableInGameEditions": [],
                     "id": "69d2b93c9e4d407d16211b16",
-                    "index": 0,
                     "type": "Experience",
                     "unknown": false,
-                    "value": 6000
+                    "value": 6000,
+                    "index": 0
                 },
                 {
                     "availableInGameEditions": [],
                     "id": "69d2b9409e4d407d16211b17",
-                    "index": 0,
                     "target": "579dc571d53a0658a154fbec",
                     "type": "TraderStanding",
                     "unknown": false,
-                    "value": 0.4
+                    "value": 0.4,
+                    "index": 0
                 }
             ]
         },
