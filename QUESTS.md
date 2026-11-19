@@ -422,7 +422,7 @@ New zones are in `db/CustomQuestZones/C1_C4_C6_C7_C8_C9.json`. The first four ar
 | V4 | Voron | Welcome to the Family - Part 4 | plant 1 bitcoin on woods bunker circle |  | XP, Digital secure DSP radio transmitter TEST THIS | `6afeb327486ca79d3ba87bd3` | Needs check | Built: plant a Physical Bitcoin at the existing zone `V4` (Woods bunker circle); rewards a Digital secure DSP radio transmitter (the design says to test this one) |
 | V5 | Voron | Welcome to the Family - Part 5 | Plant 1 Yellow Card, 1 injectors case on lighthouse marked room |  | XP | `6afeb3283c1a437f7c92d6ef` | Built | Built: plant a Labs yellow keycard and an Injector case at the existing zone `V5` (Lighthouse marked room) |
 | V6 | Voron | Welcome to the Family - Part 6 | Kill 1 PMC with cultist Knife |  | XP, M80A1 barter | `6afeb329a6457b3b32f01cc1` | Built | Built: kill 1 PMC with the Cultist knife; unlocks a 7.62x51 M80A1 offer at Voron LL2 (900 RUB each, 120 per restock, my numbers) |
-| V7 | Voron | The Eye Requires Meat | Visit 3 meat-related places on different mapos |  |  |  | To build |  |
+| V7 | Voron | The Eye Requires Meat | Visit 3 meat-related places on different mapos |  |  | `6afeb32db4cf3d8c29043e19` | Needs check | Built: visit new zones `V7_1` (Reserve kitchen meat locker), `V7_2` (pork carcasses on Woods), `V7_3` (resort cold storage, Shoreline) |
 | V8 | Voron | The Eye Requires Bliss | find and turn in 10 painkillers |  |  |  | To build |  |
 | V9 | Voron | The Eye Requires Munitions - Part 1 | Find and turn in 3 boxes of 5.45 |  | XP, 7n40 barter |  | To build |  |
 | V10 | Voron | The Eye Requires Munitions - Part 2 | find and turn in 3 boxes 7.62 |  | XP, 5.45 and 7.62 BP barter |  | To build |  |
