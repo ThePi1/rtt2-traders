@@ -199,29 +199,30 @@
                 {
                     "availableInGameEditions": [],
                     "id": "69f2cb9401fd39ae97fc0278",
-                    "index": 0,
                     "type": "Experience",
                     "unknown": false,
-                    "value": 6500
+                    "value": 6500,
+                    "index": 0
                 },
                 {
                     "availableInGameEditions": [],
                     "findInRaid": true,
                     "id": "69f2cb9801fd39ae97fc0279",
-                    "index": 0,
                     "items": [
                         {
-                            "_id": "6389c70ca33d8c4cdf4932c6",
+                            "_id": "6afe8cded33151e4c0a761cd",
                             "_tpl": "6389c70ca33d8c4cdf4932c6",
                             "upd": {
-                                "SpawnedInSession": true
+                                "SpawnedInSession": true,
+                                "StackObjectsCount": 4
                             }
                         }
                     ],
-                    "target": "6389c70ca33d8c4cdf4932c6",
+                    "target": "6afe8cded33151e4c0a761cd",
                     "type": "Item",
                     "unknown": false,
-                    "value": 4
+                    "value": 4,
+                    "index": 0
                 }
             ]
         },

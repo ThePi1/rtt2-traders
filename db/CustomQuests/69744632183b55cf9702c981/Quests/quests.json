@@ -15618,7 +15618,7 @@
                                 "dynamicLocale": false,
                                 "id": "6ac54c4905ced5bc29498492",
                                 "target": [
-                                    "56f40101d2720b2a4d8b45d6"
+                                    "bigmap"
                                 ]
                             }
                         ],
@@ -15676,16 +15676,15 @@
                 {
                     "availableInGameEditions": [],
                     "id": "6a0bb677255fe4bc50f2582c",
-                    "index": 0,
                     "type": "Experience",
                     "unknown": false,
-                    "value": 1500
+                    "value": 1500,
+                    "index": 0
                 },
                 {
                     "availableInGameEditions": [],
                     "findInRaid": true,
                     "id": "6a0bb681255fe4bc50f2582d",
-                    "index": 0,
                     "items": [
                         {
                             "_id": "6a0bb691255fe4bc50f2582e",
@@ -15698,7 +15697,8 @@
                     "target": "6a0bb691255fe4bc50f2582e",
                     "type": "Item",
                     "unknown": false,
-                    "value": 1
+                    "value": 1,
+                    "index": 0
                 }
             ]
         },
@@ -18793,34 +18793,6 @@
                     "type": "Discover",
                     "value": 1,
                     "visibilityConditions": []
-                },
-                {
-                    "completeInSeconds": 0,
-                    "conditionType": "CounterCreator",
-                    "counter": {
-                        "conditions": [
-                            {
-                                "conditionType": "VisitPlace",
-                                "dynamicLocale": false,
-                                "id": "6ac6e76ea4ca66184b6db898",
-                                "target": "L54_10",
-                                "value": 1
-                            }
-                        ],
-                        "id": "6ac6e76ea4ca66184b6db899"
-                    },
-                    "doNotResetIfCounterCompleted": false,
-                    "dynamicLocale": false,
-                    "globalQuestCounterId": "",
-                    "id": "6ac6e76ea4ca66184b6db89a",
-                    "index": 0,
-                    "isNecessary": false,
-                    "isResetOnConditionFailed": false,
-                    "oneSessionOnly": false,
-                    "parentId": "",
-                    "type": "Discover",
-                    "value": 1,
-                    "visibilityConditions": []
                 }
             ],
             "AvailableForStart": [
@@ -19063,7 +19035,8 @@
                                 "dynamicLocale": false,
                                 "id": "6ac6ea58a4ca66184b6db8c7",
                                 "target": [
-                                    "653e6760052c01c1c805532f"
+                                    "Sandbox",
+                                    "Sandbox_high"
                                 ]
                             }
                         ],
@@ -20308,6 +20281,14 @@
                                         "59e5d83b86f7745aed03d262"
                                     ]
                                 ]
+                            },
+                            {
+                                "conditionType": "Location",
+                                "dynamicLocale": false,
+                                "id": "6afe8cc59bf0a9d5a9bd0126",
+                                "target": [
+                                    "TarkovStreets"
+                                ]
                             }
                         ],
                         "id": "6aca7dbaa26d5245cb767405"
@@ -20819,6 +20800,14 @@
                                 "weaponCaliber": [],
                                 "weaponModsExclusive": [],
                                 "weaponModsInclusive": []
+                            },
+                            {
+                                "conditionType": "Location",
+                                "dynamicLocale": false,
+                                "id": "6afe8cc4ab753adea6951e8d",
+                                "target": [
+                                    "Woods"
+                                ]
                             }
                         ],
                         "id": "6aca870da26d5245cb767431"
@@ -21032,7 +21021,7 @@
                                 "dynamicLocale": false,
                                 "id": "6aca8870a26d5245cb767437",
                                 "target": [
-                                    "5704e5fad2720bc05b8b4567"
+                                    "RezervBase"
                                 ]
                             }
                         ],
