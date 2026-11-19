@@ -146,5 +146,14 @@
     "6afeac88cb4d67ecd471d942 completePlayerMessage": "",
     "6afeac88cb4d67ecd471d942 successMessageText": "[PH] Twenty-five confirmed. Meme gun my tactical rear end.",
     "6afeac88cb4d67ecd471d942 failMessageText": "",
-    "6afeac88cb4d67ecd471d944": "Eliminate any target with an FN Five-seveN"
+    "6afeac88cb4d67ecd471d944": "Eliminate any target with an FN Five-seveN",
+    "6afeac896f9bce1302340a86 name": "Griner!",
+    "6afeac896f9bce1302340a86 description": "[PH] Frag out! I want to hear that word on comms a lot. Four Scavs and four PMCs, all with grenades. Cook 'em if you're brave.",
+    "6afeac896f9bce1302340a86 acceptPlayerMessage": "",
+    "6afeac896f9bce1302340a86 declinePlayerMessage": "",
+    "6afeac896f9bce1302340a86 completePlayerMessage": "",
+    "6afeac896f9bce1302340a86 successMessageText": "[PH] GRINER! That's the spirit.",
+    "6afeac896f9bce1302340a86 failMessageText": "",
+    "6afeac896f9bce1302340a88": "Eliminate Scavs with grenades",
+    "6afeac896f9bce1302340a8b": "Eliminate PMCs with grenades"
 }

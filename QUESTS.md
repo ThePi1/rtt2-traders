@@ -319,7 +319,7 @@ New zones are in `db/CustomQuestZones/C1_C4_C6_C7_C8_C9.json`. The first four ar
 | A13 | Atlas | Filler Episode | Finding different figurines: 1x Tagilla, Killa, Reshala |  |  | `6afeac863a8863df58c72b03` | Built | Built: hand in 1 FIR Tagilla, Killa and Reshala figurine each |
 | A14 | Atlas | Atlas of Worlds | Survive and extract once from every map, including Labs (not labyrinth) |  | Unlock all maps? Maybe Labs card? or labs barter? | `6afeac8722c2567678149911` | Built | Built: survive and extract from every map (Labyrinth excluded); rewards a Labs keycard. The design's "unlock all maps?" reward is left out |
 | A15 | Atlas | 5ive Se7en | Get 25 kills with the fiveseven |  |  | `6afeac88cb4d67ecd471d942` | Built | Built: 25 kills of any kind with either Five-seveN |
-| A16 | Atlas | Griner! | Kill 4 Scav with grenades, kill 4 PMCs with grenades |  |  |  | To build |  |
+| A16 | Atlas | Griner! | Kill 4 Scav with grenades, kill 4 PMCs with grenades |  |  | `6afeac896f9bce1302340a86` | Built | Built: 4 Scav and 4 PMC kills with hand grenades (the base game's Grenadier list) |
 | A17 | Atlas | Form Over Function | Kill enemies with anime girl sight (or placeholder, specific reflex) |  | Some assort unlock |  | To build |  |
 | A18 | Atlas | Eyes On The Prize | Kill enemies with other anime girl sight - slightly harder (or placeholder, specific reflex) |  | Some assort unlock |  | To build |  |
 | A19 | Atlas | Oh, The Games People Play | Hand over 3 FIR Tetris |  |  |  | To build |  |
