@@ -204,7 +204,7 @@ New zones are in `db/CustomQuestZones/C1_C4_C6_C7_C8_C9.json`. The first four ar
 | L102 | Storyteller | Revolving Door - Part 1 | Kill 10 PMCs on Woods with Revolvers | L32 | Revolver levels | `6afeb4db6f9edbb7b51df476` | Built | Built: 10 PMC kills on Woods with revolvers |
 | L103 | Storyteller | Revolving Door - Part 2 | Kill 5 raiders with Revolvers | L102 | Revolver levels | `6afeb4dc6346e675182cf535` | Built | Built: 5 Raider kills with revolvers |
 | L104 | Storyteller | Revolving Door - Part 3 | Kill Tagilla with Revolvers | L103 | Revolver levels | `6afeb4ddf2a4eee380ba3fd5` | Built | Built: kill Tagilla with a revolver |
-| L105 | Storyteller | P-Chan - Part 1 | Kill 10 PMC in legs with SMG | L32 | SMG |  | To build |  |
+| L105 | Storyteller | P-Chan - Part 1 | Kill 10 PMC in legs with SMG | L32 | SMG | `6afeb4de41c9d4034ae92cf7` | Built | Built: 10 PMC kills with SMGs, killing shot to a leg |
 | L106 | Storyteller | P-Chan - Part 2 | Kill 10 Raiders in legs with SMG | L105 | SMG |  | To build |  |
 | L107 | Storyteller | P-Chan - Part 3 | Kill 2 Rogues with SMGs | L106 | SMG |  | To build |  |
 | L108 | Storyteller | Gun - Part 1 | Kill 10 PMCs with M4C9 | L32 | Assault |  | To build |  |

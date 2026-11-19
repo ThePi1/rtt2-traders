@@ -855,5 +855,13 @@
     "6afeb4ddf2a4eee380ba3fd5 completePlayerMessage": "",
     "6afeb4ddf2a4eee380ba3fd5 successMessageText": "[PH] The hammer fell before the cylinder ran dry.",
     "6afeb4ddf2a4eee380ba3fd5 failMessageText": "",
-    "6afeb4ddf2a4eee380ba3fd7": "Eliminate Tagilla with a revolver"
+    "6afeb4ddf2a4eee380ba3fd7": "Eliminate Tagilla with a revolver",
+    "6afeb4de41c9d4034ae92cf7 name": "P-Chan - Part 1",
+    "6afeb4de41c9d4034ae92cf7 description": "[PH] Everyone aims for the head. You know better. Legs out, and the rest follows. Ten PMCs, SMG, legs.",
+    "6afeb4de41c9d4034ae92cf7 acceptPlayerMessage": "",
+    "6afeb4de41c9d4034ae92cf7 declinePlayerMessage": "",
+    "6afeb4de41c9d4034ae92cf7 completePlayerMessage": "",
+    "6afeb4de41c9d4034ae92cf7 successMessageText": "[PH] Ten. Nobody's walking that off.",
+    "6afeb4de41c9d4034ae92cf7 failMessageText": "",
+    "6afeb4df41c9d4034ae92cf9": "Eliminate PMCs with SMG shots to the legs"
 }
