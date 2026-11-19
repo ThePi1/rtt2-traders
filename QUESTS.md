@@ -376,7 +376,7 @@ New zones are in `db/CustomQuestZones/C1_C4_C6_C7_C8_C9.json`. The first four ar
 | P5 | Price | Priced Out | Mark 1,5,9,13 IDEA cash registers on Interchange then kill 5 scavs in same session |  |  | `6afeaf7f2f64c84788159743` | Built | Built: mark the 4 IDEA registers (existing zones `P5_1`-`P5_4`), then kill 5 Scavs on Interchange |
 | P6 | Price | New Money | Plant bitcoin on A streets ATM, survive and extract same raid |  |  | `6afeaf811df12fad34fa7faa` | Needs check | Built: plant a Physical Bitcoin at new zone `P6` (street ATM outside the Pinewood Hotel), then survive and extract on Streets |
 | P7 | Price | In Another Life | Kill 20 PMCs |  |  | `6afeaf82f98010fd7f8a2add` | Built | Built: kill 20 PMCs anywhere |
-| P8 | Price | Check Please | Pick up 2 packages on Interchange tables Kiba Outer and Kiba Inner. Found 3 FIR Iskra, 3 some beverage, 1 other beverage. |  |  |  | To build |  |
+| P8 | Price | Check Please | Pick up 2 packages on Interchange tables Kiba Outer and Kiba Inner. Found 3 FIR Iskra, 3 some beverage, 1 other beverage. |  |  | `6afeaf8392e87e3a862e3c5a` | Built | Built: hand in the 2 Packages on Interchange (forced spawns at the Kiba tables were already in place), 3 FIR Iskra, 3 FIR Ice Green tea and 1 FIR Pevko beer (the two beverages are my pick) |
 | P9 | Price | Table for Two | Plant iskra/wine/vodka on tables in certain maps |  |  |  | To build |  |
 | P10 | Price | Vlone Vever | Plant rigs in certain interchange store Avokado, Dino Clothes |  | unlock rig/gear sell |  | To build |  |
 | P11 | Price | Louis and Clarks | Get kills near Adiik Shoe Store |  | unlock backpack sell |  | To build |  |

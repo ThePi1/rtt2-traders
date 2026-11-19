@@ -73,5 +73,20 @@
     "6afeaf82f98010fd7f8a2add completePlayerMessage": "",
     "6afeaf82f98010fd7f8a2add successMessageText": "[PH] Twenty. You'd have made a fine trooper, you know.",
     "6afeaf82f98010fd7f8a2add failMessageText": "",
-    "6afeaf82f98010fd7f8a2adf": "Eliminate PMCs"
+    "6afeaf82f98010fd7f8a2adf": "Eliminate PMCs",
+    "6afeaf8392e87e3a862e3c5a name": "Check Please",
+    "6afeaf8392e87e3a862e3c5a description": "[PH] Two packages for me were left on tables at Kiba on Interchange, one in the outer shop and one inside. And while you're out, I'm doing a lunch special: three Iskra, three cans of Ice Green tea and a Pevko. All found in raid.",
+    "6afeaf8392e87e3a862e3c5a acceptPlayerMessage": "",
+    "6afeaf8392e87e3a862e3c5a declinePlayerMessage": "",
+    "6afeaf8392e87e3a862e3c5a completePlayerMessage": "",
+    "6afeaf8392e87e3a862e3c5a successMessageText": "[PH] Lunch is served. Packages are... none of your concern. Cheers.",
+    "6afeaf8392e87e3a862e3c5a failMessageText": "",
+    "6afeaf8392e87e3a862e3c5c": "Find Wrapped Package in raid",
+    "6afeaf8392e87e3a862e3c5d": "Hand over the 2 packages from the Kiba tables",
+    "6afeaf8392e87e3a862e3c5e": "Find Iskra ration pack in raid",
+    "6afeaf8392e87e3a862e3c5f": "Hand over Iskra ration pack",
+    "6afeaf8392e87e3a862e3c60": "Find Can of Ice Green tea in raid",
+    "6afeaf8392e87e3a862e3c61": "Hand over Can of Ice Green tea",
+    "6afeaf8392e87e3a862e3c62": "Find Bottle of Pevko Light beer in raid",
+    "6afeaf8392e87e3a862e3c63": "Hand over Bottle of Pevko Light beer"
 }
