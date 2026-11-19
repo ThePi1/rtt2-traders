@@ -771,5 +771,12 @@
     "6ac6fa6ebaae3403037837eb completePlayerMessage": "",
     "6ac6fa6ebaae3403037837eb failMessageText": "",
     "6afea84890a618b73782baaf": "Find a bandage in raid",
-    "6afea84890a618b73782bab2": "Hand over a found in raid bandage"
+    "6afea84890a618b73782bab2": "Hand over a found in raid bandage",
+    "6aca8948a26d5245cb767438 description": "[PH] Twenty-five kinds of pistol ammo on the market and I have barely tried half of them. Interchange is crawling with PMCs who think a sidearm is just for show. Ten of them should change their minds.",
+    "6aca8948a26d5245cb767438 acceptPlayerMessage": "",
+    "6aca8948a26d5245cb767438 declinePlayerMessage": "",
+    "6aca8948a26d5245cb767438 completePlayerMessage": "",
+    "6aca8948a26d5245cb767438 successMessageText": "[PH] Ten down on Interchange. Only twenty-four more calibers to work through.",
+    "6aca8948a26d5245cb767438 failMessageText": "",
+    "6afea8678bd8231af09ccf50": "Eliminate PMCs on Interchange with pistols"
 }
