@@ -125,5 +125,14 @@
     "6afeb13d0b3253232fabbc6f": "Mark anti-aircraft gun 4 on Reserve",
     "6afeb13d0b3253232fabbc70": "Mark anti-aircraft gun 5 on Reserve",
     "6afeb13d0b3253232fabbc71": "Mark anti-aircraft gun 6 on Reserve",
-    "6afeb13d0b3253232fabbc7f": "Eliminate Scavs in the command bunker"
+    "6afeb13d0b3253232fabbc7f": "Eliminate Scavs in the command bunker",
+    "6afeb13eecfd8429da8bf49a name": "The Sun Never Sets - Part 1",
+    "6afeb13eecfd8429da8bf49a description": "[PH] The British gentleman at the petrol station. I want to understand him. Become his good friend, level three, and bring me fifteen hundred dollars. The dollars are unrelated. Probably.",
+    "6afeb13eecfd8429da8bf49a acceptPlayerMessage": "",
+    "6afeb13eecfd8429da8bf49a declinePlayerMessage": "",
+    "6afeb13eecfd8429da8bf49a completePlayerMessage": "",
+    "6afeb13eecfd8429da8bf49a successMessageText": "[PH] Thank you. The old empire and the new one, sharing tea.",
+    "6afeb13eecfd8429da8bf49a failMessageText": "",
+    "6afeb13eecfd8429da8bf49c": "Reach loyalty level 3 with Price",
+    "6afeb13eecfd8429da8bf49d": "Hand over 1500 dollars"
 }
