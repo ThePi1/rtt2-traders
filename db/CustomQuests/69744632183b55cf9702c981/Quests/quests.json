@@ -4681,7 +4681,7 @@
                             "_id": "6a08bff55562066cb549e1cd",
                             "_tpl": "59faff1d86f7746c51718c9c",
                             "upd": {
-                                "StackObjectsCount": "1",
+                                "StackObjectsCount": 1,
                                 "SpawnedInSession": true
                             }
                         }
