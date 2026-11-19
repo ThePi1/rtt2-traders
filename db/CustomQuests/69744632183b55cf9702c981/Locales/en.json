@@ -765,5 +765,11 @@
     "6aca86c4a26d5245cb76742a acceptPlayerMessage": "",
     "6aca86c4a26d5245cb76742a declinePlayerMessage": "",
     "6aca86c4a26d5245cb76742a completePlayerMessage": "",
-    "6aca86c4a26d5245cb76742a failMessageText": ""
+    "6aca86c4a26d5245cb76742a failMessageText": "",
+    "6ac6fa6ebaae3403037837eb acceptPlayerMessage": "",
+    "6ac6fa6ebaae3403037837eb declinePlayerMessage": "",
+    "6ac6fa6ebaae3403037837eb completePlayerMessage": "",
+    "6ac6fa6ebaae3403037837eb failMessageText": "",
+    "6afea84890a618b73782baaf": "Find a bandage in raid",
+    "6afea84890a618b73782bab2": "Hand over a found in raid bandage"
 }
