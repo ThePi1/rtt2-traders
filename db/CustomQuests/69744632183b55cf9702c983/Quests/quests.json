@@ -3031,5 +3031,212 @@
         "successMessageText": "6afeaf9133bb6de0ee92554e successMessageText",
         "traderId": "69744632183b55cf9702c983",
         "type": "Completion"
+    },
+    "6afeaf921cf748b4f280276b": {
+        "QuestName": "The Pie? It's Far Too Hot",
+        "_id": "6afeaf921cf748b4f280276b",
+        "acceptPlayerMessage": "6afeaf921cf748b4f280276b acceptPlayerMessage",
+        "acceptanceAndFinishingSource": "eft",
+        "arenaLocations": [],
+        "canShowNotificationsInGame": true,
+        "changeQuestMessageText": "6afeaf921cf748b4f280276b changeQuestMessageText",
+        "completePlayerMessage": "6afeaf921cf748b4f280276b completePlayerMessage",
+        "conditions": {
+            "AvailableForFinish": [
+                {
+                    "conditionType": "FindItem",
+                    "countInRaid": false,
+                    "dogtagLevel": 0,
+                    "dynamicLocale": false,
+                    "globalQuestCounterId": "",
+                    "id": "6afeaf931cf748b4f2802771",
+                    "index": 0,
+                    "isEncoded": false,
+                    "maxDurability": 100,
+                    "minDurability": 0,
+                    "onlyFoundInRaid": true,
+                    "parentId": "",
+                    "target": [
+                        "59e366c186f7741778269d85"
+                    ],
+                    "value": 1,
+                    "visibilityConditions": []
+                },
+                {
+                    "conditionType": "HandoverItem",
+                    "dogtagLevel": 0,
+                    "dynamicLocale": false,
+                    "globalQuestCounterId": "",
+                    "id": "6afeaf931cf748b4f280276c",
+                    "index": 0,
+                    "isEncoded": false,
+                    "maxDurability": 100,
+                    "minDurability": 0,
+                    "onlyFoundInRaid": true,
+                    "parentId": "",
+                    "target": [
+                        "59e366c186f7741778269d85"
+                    ],
+                    "value": 1,
+                    "visibilityConditions": []
+                },
+                {
+                    "conditionType": "FindItem",
+                    "countInRaid": false,
+                    "dogtagLevel": 0,
+                    "dynamicLocale": false,
+                    "globalQuestCounterId": "",
+                    "id": "6afeaf931cf748b4f2802773",
+                    "index": 0,
+                    "isEncoded": false,
+                    "maxDurability": 100,
+                    "minDurability": 0,
+                    "onlyFoundInRaid": true,
+                    "parentId": "",
+                    "target": [
+                        "5c86592b2e2216000e69e77c"
+                    ],
+                    "value": 1,
+                    "visibilityConditions": []
+                },
+                {
+                    "conditionType": "HandoverItem",
+                    "dogtagLevel": 0,
+                    "dynamicLocale": false,
+                    "globalQuestCounterId": "",
+                    "id": "6afeaf931cf748b4f280276d",
+                    "index": 0,
+                    "isEncoded": false,
+                    "maxDurability": 100,
+                    "minDurability": 0,
+                    "onlyFoundInRaid": true,
+                    "parentId": "",
+                    "target": [
+                        "5c86592b2e2216000e69e77c"
+                    ],
+                    "value": 1,
+                    "visibilityConditions": []
+                },
+                {
+                    "conditionType": "PlaceBeacon",
+                    "dynamicLocale": false,
+                    "globalQuestCounterId": "",
+                    "id": "6afeaf931cf748b4f2802775",
+                    "index": 0,
+                    "parentId": "",
+                    "plantTime": 20,
+                    "target": [
+                        "5991b51486f77447b112d44f"
+                    ],
+                    "value": 1,
+                    "visibilityConditions": [
+                        {
+                            "conditionType": "CompleteCondition",
+                            "id": "6afeaf931cf748b4f280276e",
+                            "target": "6afeaf931cf748b4f280276c"
+                        },
+                        {
+                            "conditionType": "CompleteCondition",
+                            "id": "6afeaf931cf748b4f280276f",
+                            "target": "6afeaf931cf748b4f280276d"
+                        }
+                    ],
+                    "zoneId": "P18"
+                }
+            ],
+            "AvailableForStart": [
+                {
+                    "availableAfter": 0,
+                    "conditionType": "Quest",
+                    "dispersion": 0,
+                    "dynamicLocale": false,
+                    "globalQuestCounterId": "",
+                    "id": "6afeaf931cf748b4f2802770",
+                    "index": 0,
+                    "parentId": "",
+                    "status": [
+                        4
+                    ],
+                    "target": "6afeaf9133bb6de0ee92554e",
+                    "visibilityConditions": []
+                }
+            ],
+            "Fail": []
+        },
+        "declinePlayerMessage": "6afeaf921cf748b4f280276b declinePlayerMessage",
+        "description": "6afeaf921cf748b4f280276b description",
+        "failMessageText": "6afeaf921cf748b4f280276b failMessageText",
+        "gameModes": [],
+        "image": "/files/quest/icon/5ac4d8f186f774422237860d.png",
+        "instantComplete": false,
+        "isKey": false,
+        "location": "56f40101d2720b2a4d8b45d6",
+        "name": "6afeaf921cf748b4f280276b name",
+        "note": "6afeaf921cf748b4f280276b note",
+        "progressSource": "eft",
+        "rankingModes": [],
+        "restartable": false,
+        "rewards": {
+            "Fail": [],
+            "Started": [],
+            "Success": [
+                {
+                    "availableInGameEditions": [],
+                    "gameMode": [
+                        "regular",
+                        "pve"
+                    ],
+                    "id": "6afeaf931cf748b4f2802776",
+                    "isHidden": false,
+                    "type": "Experience",
+                    "unknown": false,
+                    "value": 14200
+                },
+                {
+                    "availableInGameEditions": [],
+                    "gameMode": [
+                        "regular",
+                        "pve"
+                    ],
+                    "id": "6afeaf931cf748b4f2802777",
+                    "isHidden": false,
+                    "target": "69744632183b55cf9702c983",
+                    "type": "TraderStanding",
+                    "unknown": false,
+                    "value": 0.2
+                },
+                {
+                    "availableInGameEditions": [],
+                    "findInRaid": false,
+                    "gameMode": [
+                        "regular",
+                        "pve"
+                    ],
+                    "id": "6afeaf931cf748b4f2802778",
+                    "isEncoded": false,
+                    "isHidden": false,
+                    "items": [
+                        {
+                            "_id": "6afeaf931cf748b4f2802779",
+                            "_tpl": "5449016a4bdc2d6f028b456f",
+                            "upd": {
+                                "StackObjectsCount": 115000
+                            }
+                        }
+                    ],
+                    "target": "6afeaf931cf748b4f2802779",
+                    "type": "Item",
+                    "unknown": false,
+                    "value": 115000
+                }
+            ]
+        },
+        "secretQuest": false,
+        "side": "pmc",
+        "startedMessageText": "6afeaf921cf748b4f280276b startedMessageText",
+        "status": 0,
+        "successMessageText": "6afeaf921cf748b4f280276b successMessageText",
+        "traderId": "69744632183b55cf9702c983",
+        "type": "Completion"
     }
 }

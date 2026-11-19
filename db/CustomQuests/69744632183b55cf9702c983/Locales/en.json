@@ -160,5 +160,17 @@
     "6afeaf9133bb6de0ee92554e failMessageText": "",
     "6afeaf9233bb6de0ee925550": "Leave a bottle of vodka at the bar of the Brodion restopub on Streets",
     "6afeaf9233bb6de0ee925551": "Leave a bottle of Pevko beer at the bar",
-    "6afeaf9233bb6de0ee925552": "Leave a bottle of Dan Jackiel whiskey at the bar"
+    "6afeaf9233bb6de0ee925552": "Leave a bottle of Dan Jackiel whiskey at the bar",
+    "6afeaf921cf748b4f280276b name": "The Pie? It's Far Too Hot",
+    "6afeaf921cf748b4f280276b description": "[PH] I'm building a little window for the pie cabinet. Bring me a piece of plexiglass and a KH/F 34mm magmount, found in raid. Don't ask about the mount. Then mark room 314 in the dorms. That's where the last cabinet came from.",
+    "6afeaf921cf748b4f280276b acceptPlayerMessage": "",
+    "6afeaf921cf748b4f280276b declinePlayerMessage": "",
+    "6afeaf921cf748b4f280276b completePlayerMessage": "",
+    "6afeaf921cf748b4f280276b successMessageText": "[PH] Cabinet's done. The pie, however, is still far too hot.",
+    "6afeaf921cf748b4f280276b failMessageText": "",
+    "6afeaf931cf748b4f2802771": "Find Piece of plexiglass in raid",
+    "6afeaf931cf748b4f280276c": "Hand over Piece of plexiglass",
+    "6afeaf931cf748b4f2802773": "Find IEA Mil-Optics KH/F 34mm one-piece magmount in raid",
+    "6afeaf931cf748b4f280276d": "Hand over IEA Mil-Optics KH/F 34mm one-piece magmount",
+    "6afeaf931cf748b4f2802775": "Mark the inside of dorm room 314 on Customs"
 }
