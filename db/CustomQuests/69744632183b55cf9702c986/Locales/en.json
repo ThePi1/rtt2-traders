@@ -69,5 +69,16 @@
     "6afeaba6250382525a4cbe0c successMessageText": "[PH] Package secured. First move of the game, operator.",
     "6afeaba6250382525a4cbe0c failMessageText": "",
     "6afeaba6250382525a4cbe0e": "Find Atlas' Hidden Shipment in raid",
-    "6afeaba6250382525a4cbe0f": "Hand over Atlas' Hidden Shipment"
+    "6afeaba6250382525a4cbe0f": "Hand over Atlas' Hidden Shipment",
+    "6afeaba7eefdf24932868cba name": "English Opening - Part 2",
+    "6afeaba7eefdf24932868cba description": "[PH] The package had coordinates in it. Two cases, both on Lighthouse: one at the crashed heli, one at the heli by the USEC camp. Rogues everywhere, so bring your A-game and your best plate carrier.",
+    "6afeaba7eefdf24932868cba acceptPlayerMessage": "",
+    "6afeaba7eefdf24932868cba declinePlayerMessage": "",
+    "6afeaba7eefdf24932868cba completePlayerMessage": "",
+    "6afeaba7eefdf24932868cba successMessageText": "[PH] Both cases. You're a natural, brother. The board is set.",
+    "6afeaba7eefdf24932868cba failMessageText": "",
+    "6afeaba7eefdf24932868cbc": "Find Secure Folder Case in raid",
+    "6afeaba7eefdf24932868cbd": "Hand over Secure Folder Case",
+    "6afeaba7eefdf24932868cbe": "Find Secure Folder Case 2 in raid",
+    "6afeaba7eefdf24932868cbf": "Hand over Secure Folder Case 2"
 }
