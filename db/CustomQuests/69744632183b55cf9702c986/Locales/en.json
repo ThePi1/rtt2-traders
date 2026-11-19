@@ -155,5 +155,13 @@
     "6afeac896f9bce1302340a86 successMessageText": "[PH] GRINER! That's the spirit.",
     "6afeac896f9bce1302340a86 failMessageText": "",
     "6afeac896f9bce1302340a88": "Eliminate Scavs with grenades",
-    "6afeac896f9bce1302340a8b": "Eliminate PMCs with grenades"
+    "6afeac896f9bce1302340a8b": "Eliminate PMCs with grenades",
+    "6afeac8ac71e4a2ce2ffcb03 name": "Form Over Function",
+    "6afeac8ac71e4a2ce2ffcb03 description": "[PH] Some people say a sight is just a tool. Those people have no soul. I want you rolling with a Holosun HS401G5, the one with the waifu decal I sent you. Ten PMCs. Style points count.",
+    "6afeac8ac71e4a2ce2ffcb03 acceptPlayerMessage": "",
+    "6afeac8ac71e4a2ce2ffcb03 declinePlayerMessage": "",
+    "6afeac8ac71e4a2ce2ffcb03 completePlayerMessage": "",
+    "6afeac8ac71e4a2ce2ffcb03 successMessageText": "[PH] Peak form AND function. I knew it.",
+    "6afeac8ac71e4a2ce2ffcb03 failMessageText": "",
+    "6afeac8ac71e4a2ce2ffcb05": "Eliminate PMCs with a Holosun HS401G5 reflex sight on your weapon"
 }
