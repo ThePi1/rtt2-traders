@@ -171,5 +171,14 @@
     "6afeac8b3b75d5799d2a8891 completePlayerMessage": "",
     "6afeac8b3b75d5799d2a8891 successMessageText": "[PH] Fifteen. You and that dot are soulmates now.",
     "6afeac8b3b75d5799d2a8891 failMessageText": "",
-    "6afeac8c3b75d5799d2a8893": "Eliminate PMCs with a Trijicon SRS-02 reflex sight on your weapon"
+    "6afeac8c3b75d5799d2a8893": "Eliminate PMCs with a Trijicon SRS-02 reflex sight on your weapon",
+    "6afeac8dfd988952514ff7dc name": "Oh, The Games People Play",
+    "6afeac8dfd988952514ff7dc description": "[PH] Downtime is important for operators. Morale, you know? Bring me three Tetriz, found in raid. The guys keep fighting over the one we've got.",
+    "6afeac8dfd988952514ff7dc acceptPlayerMessage": "",
+    "6afeac8dfd988952514ff7dc declinePlayerMessage": "",
+    "6afeac8dfd988952514ff7dc completePlayerMessage": "",
+    "6afeac8dfd988952514ff7dc successMessageText": "[PH] Three Tetriz. No more fistfights in the break room.",
+    "6afeac8dfd988952514ff7dc failMessageText": "",
+    "6afeac8dfd988952514ff7de": "Find Tetriz portable game console in raid",
+    "6afeac8dfd988952514ff7df": "Hand over Tetriz portable game console"
 }

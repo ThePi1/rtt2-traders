@@ -322,7 +322,7 @@ New zones are in `db/CustomQuestZones/C1_C4_C6_C7_C8_C9.json`. The first four ar
 | A16 | Atlas | Griner! | Kill 4 Scav with grenades, kill 4 PMCs with grenades |  |  | `6afeac896f9bce1302340a86` | Built | Built: 4 Scav and 4 PMC kills with hand grenades (the base game's Grenadier list) |
 | A17 | Atlas | Form Over Function | Kill enemies with anime girl sight (or placeholder, specific reflex) |  | Some assort unlock | `6afeac8ac71e4a2ce2ffcb03` | Built | Built: 10 PMC kills with a Holosun HS401G5 fitted, a stand-in for the anime sight. Assort unlock reward left out (no offer chosen) |
 | A18 | Atlas | Eyes On The Prize | Kill enemies with other anime girl sight - slightly harder (or placeholder, specific reflex) |  | Some assort unlock | `6afeac8b3b75d5799d2a8891` | Built | Built: 15 PMC kills with a Trijicon SRS-02 fitted, a stand-in for the second anime sight. Assort unlock reward left out (no offer chosen) |
-| A19 | Atlas | Oh, The Games People Play | Hand over 3 FIR Tetris |  |  |  | To build |  |
+| A19 | Atlas | Oh, The Games People Play | Hand over 3 FIR Tetris |  |  | `6afeac8dfd988952514ff7dc` | Built | Built: hand in 3 FIR Tetriz |
 | A20 | Atlas | Frequent Flier | Plant 30 USD then plant marker, on each UAV on Shoreline |  |  |  | To build |  |
 | A21 | Atlas | Awkward Assembly - Part 1 | Gun builder quest, but with absurd (not hard just funny) requirements |  | Some assort unlock |  | To build |  |
 | A22 | Atlas | Awkward Assembly - Part 2 | Gun builder quest, but with absurd (not hard just funny) requirements |  | Some assort unlock |  | To build |  |
