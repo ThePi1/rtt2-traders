@@ -150,5 +150,15 @@
     "6afeaf907133ee697372bbf9 completePlayerMessage": "",
     "6afeaf907133ee697372bbf9 successMessageText": "[PH] Not a single bowling ball in a whole shopping centre? Bloody hell.",
     "6afeaf907133ee697372bbf9 failMessageText": "",
-    "6afeaf907133ee697372bbfb": "Look for a bowling ball in the Interchange mall"
+    "6afeaf907133ee697372bbfb": "Look for a bowling ball in the Interchange mall",
+    "6afeaf9133bb6de0ee92554e name": "Last Call",
+    "6afeaf9133bb6de0ee92554e description": "[PH] Last orders, lad. There's a little restopub on Streets, the Brodion. Used to be my local. Put a vodka, a beer and a whiskey on the bar for the old boys who don't come in anymore.",
+    "6afeaf9133bb6de0ee92554e acceptPlayerMessage": "",
+    "6afeaf9133bb6de0ee92554e declinePlayerMessage": "",
+    "6afeaf9133bb6de0ee92554e completePlayerMessage": "",
+    "6afeaf9133bb6de0ee92554e successMessageText": "[PH] Cheers to them. That's one round I'm glad I bought.",
+    "6afeaf9133bb6de0ee92554e failMessageText": "",
+    "6afeaf9233bb6de0ee925550": "Leave a bottle of vodka at the bar of the Brodion restopub on Streets",
+    "6afeaf9233bb6de0ee925551": "Leave a bottle of Pevko beer at the bar",
+    "6afeaf9233bb6de0ee925552": "Leave a bottle of Dan Jackiel whiskey at the bar"
 }
