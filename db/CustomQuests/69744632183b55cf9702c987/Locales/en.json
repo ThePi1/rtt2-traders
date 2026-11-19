@@ -155,5 +155,13 @@
     "6a1355ac8c34ba4a387cd01f completePlayerMessage": "",
     "6a1355ac8c34ba4a387cd01f successMessageText": "[PH] Wesa all done! Mesa feel... ja, much better now. What was I saying?",
     "6a1355ac8c34ba4a387cd01f failMessageText": "",
-    "6afeb416df9389e6b8129366": "Eliminate PMCs"
+    "6afeb416df9389e6b8129366": "Eliminate PMCs",
+    "6a1355ee8c34ba4a387cd025 name": "Take the fight to the Humane Society",
+    "6a1355ee8c34ba4a387cd025 description": "[PH] The Humane Society has sent agents to the Lab! They wear masks and carry rifles. Very humane. Remove two of them.",
+    "6a1355ee8c34ba4a387cd025 acceptPlayerMessage": "",
+    "6a1355ee8c34ba4a387cd025 declinePlayerMessage": "",
+    "6a1355ee8c34ba4a387cd025 completePlayerMessage": "",
+    "6a1355ee8c34ba4a387cd025 successMessageText": "[PH] Two less agents. Take my plate, it is light as a feather. A heavy feather.",
+    "6a1355ee8c34ba4a387cd025 failMessageText": "",
+    "6afeb417c6bf965b5c1b1e3a": "Eliminate the Humane Society's agents (Raiders) in the Lab"
 }

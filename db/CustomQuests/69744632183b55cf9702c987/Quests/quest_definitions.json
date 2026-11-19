@@ -2909,5 +2909,194 @@
         "successMessageText": "6a1355ac8c34ba4a387cd01f successMessageText",
         "traderId": "69744632183b55cf9702c987",
         "type": "Elimination"
+    },
+    "6a1355ee8c34ba4a387cd025": {
+        "QuestName": "Take the fight to the Humane Society",
+        "_id": "6a1355ee8c34ba4a387cd025",
+        "acceptPlayerMessage": "6a1355ee8c34ba4a387cd025 acceptPlayerMessage",
+        "acceptanceAndFinishingSource": "eft",
+        "arenaLocations": [],
+        "canShowNotificationsInGame": true,
+        "changeQuestMessageText": "6a1355ee8c34ba4a387cd025 changeQuestMessageText",
+        "completePlayerMessage": "6a1355ee8c34ba4a387cd025 completePlayerMessage",
+        "conditions": {
+            "AvailableForFinish": [
+                {
+                    "completeInSeconds": 0,
+                    "conditionType": "CounterCreator",
+                    "counter": {
+                        "conditions": [
+                            {
+                                "bodyPart": [],
+                                "compareMethod": ">=",
+                                "conditionType": "Kills",
+                                "daytime": {
+                                    "from": 0,
+                                    "to": 0
+                                },
+                                "distance": {
+                                    "compareMethod": ">=",
+                                    "value": 0
+                                },
+                                "dynamicLocale": false,
+                                "enemyEquipmentExclusive": [],
+                                "enemyEquipmentInclusive": [],
+                                "enemyHealthEffects": [],
+                                "id": "6afeb417c6bf965b5c1b1e3c",
+                                "resetOnSessionEnd": false,
+                                "savageRole": [
+                                    "pmcBot"
+                                ],
+                                "target": "Savage",
+                                "value": 0,
+                                "weapon": [],
+                                "weaponCaliber": [],
+                                "weaponModsExclusive": [],
+                                "weaponModsInclusive": []
+                            },
+                            {
+                                "conditionType": "Location",
+                                "dynamicLocale": false,
+                                "id": "6afeb417c6bf965b5c1b1e3d",
+                                "target": [
+                                    "laboratory"
+                                ]
+                            }
+                        ],
+                        "id": "6afeb417c6bf965b5c1b1e3b"
+                    },
+                    "doNotResetIfCounterCompleted": false,
+                    "dynamicLocale": false,
+                    "globalQuestCounterId": "",
+                    "id": "6afeb417c6bf965b5c1b1e3a",
+                    "index": 0,
+                    "isNecessary": false,
+                    "isResetOnConditionFailed": false,
+                    "oneSessionOnly": false,
+                    "parentId": "",
+                    "type": "Elimination",
+                    "value": 2,
+                    "visibilityConditions": []
+                }
+            ],
+            "AvailableForStart": [
+                {
+                    "availableAfter": 0,
+                    "conditionType": "Quest",
+                    "dispersion": 0,
+                    "dynamicLocale": false,
+                    "globalQuestCounterId": "",
+                    "id": "6afeb417c6bf965b5c1b1e39",
+                    "index": 0,
+                    "parentId": "",
+                    "status": [
+                        4
+                    ],
+                    "target": "6a1351028c34ba4a387ccfec",
+                    "visibilityConditions": []
+                }
+            ],
+            "Fail": []
+        },
+        "declinePlayerMessage": "6a1355ee8c34ba4a387cd025 declinePlayerMessage",
+        "description": "6a1355ee8c34ba4a387cd025 description",
+        "failMessageText": "6a1355ee8c34ba4a387cd025 failMessageText",
+        "gameModes": [],
+        "image": "/files/quest/icon/66754201e843d85e9f10d81b.png",
+        "instantComplete": false,
+        "isKey": false,
+        "location": "5b0fc42d86f7744a585f9105",
+        "name": "6a1355ee8c34ba4a387cd025 name",
+        "note": "6a1355ee8c34ba4a387cd025 note",
+        "progressSource": "eft",
+        "rankingModes": [],
+        "restartable": false,
+        "rewards": {
+            "Fail": [],
+            "Started": [],
+            "Success": [
+                {
+                    "availableInGameEditions": [],
+                    "gameMode": [
+                        "regular",
+                        "pve"
+                    ],
+                    "id": "6afeb417c6bf965b5c1b1e3e",
+                    "isHidden": false,
+                    "type": "Experience",
+                    "unknown": false,
+                    "value": 13000
+                },
+                {
+                    "availableInGameEditions": [],
+                    "gameMode": [
+                        "regular",
+                        "pve"
+                    ],
+                    "id": "6afeb417c6bf965b5c1b1e3f",
+                    "isHidden": false,
+                    "target": "69744632183b55cf9702c987",
+                    "type": "TraderStanding",
+                    "unknown": false,
+                    "value": 0.2
+                },
+                {
+                    "availableInGameEditions": [],
+                    "findInRaid": false,
+                    "gameMode": [
+                        "regular",
+                        "pve"
+                    ],
+                    "id": "6afeb417c6bf965b5c1b1e40",
+                    "isEncoded": false,
+                    "isHidden": false,
+                    "items": [
+                        {
+                            "_id": "6afeb417c6bf965b5c1b1e41",
+                            "_tpl": "5449016a4bdc2d6f028b456f",
+                            "upd": {
+                                "StackObjectsCount": 105000
+                            }
+                        }
+                    ],
+                    "target": "6afeb417c6bf965b5c1b1e41",
+                    "type": "Item",
+                    "unknown": false,
+                    "value": 105000
+                },
+                {
+                    "availableInGameEditions": [],
+                    "findInRaid": true,
+                    "gameMode": [
+                        "regular",
+                        "pve"
+                    ],
+                    "id": "6afeb417c6bf965b5c1b1e42",
+                    "isEncoded": false,
+                    "isHidden": false,
+                    "items": [
+                        {
+                            "_id": "6afeb417c6bf965b5c1b1e43",
+                            "_tpl": "69d44b9ec379dcfd2bf8de40",
+                            "upd": {
+                                "SpawnedInSession": true,
+                                "StackObjectsCount": 1
+                            }
+                        }
+                    ],
+                    "target": "6afeb417c6bf965b5c1b1e43",
+                    "type": "Item",
+                    "unknown": false,
+                    "value": 1
+                }
+            ]
+        },
+        "secretQuest": false,
+        "side": "pmc",
+        "startedMessageText": "6a1355ee8c34ba4a387cd025 startedMessageText",
+        "status": 0,
+        "successMessageText": "6a1355ee8c34ba4a387cd025 successMessageText",
+        "traderId": "69744632183b55cf9702c987",
+        "type": "Elimination"
     }
 }
