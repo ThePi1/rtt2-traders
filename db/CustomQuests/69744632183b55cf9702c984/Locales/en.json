@@ -230,5 +230,15 @@
     "6afeb151cb463707e9aac118": "Visit room 222 in the west wing of the Health Resort on Shoreline",
     "6afeb151cb463707e9aac11b": "Visit room 306 in the east wing of the Health Resort",
     "6afeb151cb463707e9aac11e": "Visit the HEP station on Shoreline",
-    "6afeb151cb463707e9aac121": "Visit the Health Resort admin office"
+    "6afeb151cb463707e9aac121": "Visit the Health Resort admin office",
+    "6afeb15236c9c8c80ffb347e name": "Tourist - Part 3",
+    "6afeb15236c9c8c80ffb347e description": "[PH] For the final tour, the delegation requests the VIP rooms of Reserve, the ones with marks on the keys. Mark the inside of each so the tour guide can find them.",
+    "6afeb15236c9c8c80ffb347e acceptPlayerMessage": "",
+    "6afeb15236c9c8c80ffb347e declinePlayerMessage": "",
+    "6afeb15236c9c8c80ffb347e completePlayerMessage": "",
+    "6afeb15236c9c8c80ffb347e successMessageText": "[PH] The tour is complete. You may keep the souvenir shirt.",
+    "6afeb15236c9c8c80ffb347e failMessageText": "",
+    "6afeb15236c9c8c80ffb3480": "Mark inside the RB-PKPM marked room on Reserve",
+    "6afeb15236c9c8c80ffb3481": "Mark inside the RB-BK marked room",
+    "6afeb15236c9c8c80ffb3482": "Mark inside the RB-VO marked room"
 }

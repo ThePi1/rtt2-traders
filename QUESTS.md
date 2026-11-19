@@ -363,7 +363,7 @@ New zones are in `db/CustomQuestZones/C1_C4_C6_C7_C8_C9.json`. The first four ar
 | X22 | Xiaoming | Shishi | Turn in 2 FIR Lion statues |  | Leads to Chimera unlock somehow | `6afeb14b26031308ba2bac1d` | Built | Built: hand in 2 FIR Bronze lion figurines. Starts after X20 because X21 isn't built. The "leads to Chimera unlock" reward is left out: that's a story decision |
 | X23 | Xiaoming | Tourist - Part 1 | Visit multiple locked rooms on Customs (touring good loot spots): trailer park cabin, new gas locked room, dorms 314, customs office key |  |  | `6afeb14cfef9fd9b3cc6e709` | Built | Built: visit the existing zones `X23_1`-`X23_4` on Customs |
 | X24 | Xiaoming | Tourist - Part 2 | Visit multiple locked rooms on Shoreline: tape key, W222, E306, HEP Station  Key |  |  | `6afeb151cb463707e9aac116` | Needs check | Built: visit new zones on Shoreline: `X24_1` W222, `X24_2` E306, `X24_3` HEP station (the Hydro_electro room), `X24_4` resort admin office (the blue-tape key's office, my best match for "tape key") |
-| X25 | Xiaoming | Tourist - Part 3 | Mark inside all Reserve marked rooms RBPKPM, rbbkmr,RBVOMR |  |  |  | To build |  |
+| X25 | Xiaoming | Tourist - Part 3 | Mark inside all Reserve marked rooms RBPKPM, rbbkmr,RBVOMR |  |  | `6afeb15236c9c8c80ffb347e` | Built | Built: mark inside the 3 Reserve marked rooms (existing zones `X25_1`-`X25_3`) |
 
 ## Price (P)
 
