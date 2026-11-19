@@ -831,5 +831,13 @@
     "6afeb4d9dac3c158fcfc2598 completePlayerMessage": "",
     "6afeb4d9dac3c158fcfc2598 successMessageText": "[PH] Fifty caliber diplomacy. Killa won't argue again.",
     "6afeb4d9dac3c158fcfc2598 failMessageText": "",
-    "6afeb4dadac3c158fcfc259a": "Eliminate Killa with a Desert Eagle"
+    "6afeb4dadac3c158fcfc259a": "Eliminate Killa with a Desert Eagle",
+    "6afeb4db6f9edbb7b51df476 name": "Revolving Door - Part 1",
+    "6afeb4db6f9edbb7b51df476 description": "[PH] Six shots, then the reload. Patience is part of the weapon. Ten PMCs in the Woods, revolver only.",
+    "6afeb4db6f9edbb7b51df476 acceptPlayerMessage": "",
+    "6afeb4db6f9edbb7b51df476 declinePlayerMessage": "",
+    "6afeb4db6f9edbb7b51df476 completePlayerMessage": "",
+    "6afeb4db6f9edbb7b51df476 successMessageText": "[PH] Ten. The cylinder kept spinning, and so did you.",
+    "6afeb4db6f9edbb7b51df476 failMessageText": "",
+    "6afeb4db6f9edbb7b51df478": "Eliminate PMCs on Woods with a revolver"
 }

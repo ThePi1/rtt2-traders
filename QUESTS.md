@@ -201,7 +201,7 @@ New zones are in `db/CustomQuestZones/C1_C4_C6_C7_C8_C9.json`. The first four ar
 | L99 | Storyteller | Twenty Five Types of Ammo - Part 1 | Kill 10 PMCs on Interchange with pistols | L32 | Pistol levels | `6aca8948a26d5245cb767438` | Audited | Built: was an empty shell. 10 PMC pistol kills on Interchange, Pistol skill, [PH] text (`8de90da`). |
 | L100 | Storyteller | Twenty Five Types of Ammo - Part 2 | Kill all 3 Goons with Pistols | L99 | Pistol levels | `6afeb4d8c6a5128fce27c30d` | Built | Built: kill Knight, Big Pipe and Birdeye with pistols. Named with a hyphen to match Part 1 |
 | L101 | Storyteller | Twenty Five Types of Ammo - Part 3 | Kill Killa with Deagle | L100 | Pistol levels | `6afeb4d9dac3c158fcfc2598` | Built | Built: kill Killa with any Desert Eagle |
-| L102 | Storyteller | Revolving Door - Part 1 | Kill 10 PMCs on Woods with Revolvers | L32 | Revolver levels |  | To build |  |
+| L102 | Storyteller | Revolving Door - Part 1 | Kill 10 PMCs on Woods with Revolvers | L32 | Revolver levels | `6afeb4db6f9edbb7b51df476` | Built | Built: 10 PMC kills on Woods with revolvers |
 | L103 | Storyteller | Revolving Door - Part 2 | Kill 5 raiders with Revolvers | L102 | Revolver levels |  | To build |  |
 | L104 | Storyteller | Revolving Door - Part 3 | Kill Tagilla with Revolvers | L103 | Revolver levels |  | To build |  |
 | L105 | Storyteller | P-Chan - Part 1 | Kill 10 PMC in legs with SMG | L32 | SMG |  | To build |  |

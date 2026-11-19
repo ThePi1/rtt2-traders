@@ -22884,5 +22884,137 @@
         "successMessageText": "6afeb4d9dac3c158fcfc2598 successMessageText",
         "traderId": "69744632183b55cf9702c981",
         "type": "Elimination"
+    },
+    "6afeb4db6f9edbb7b51df476": {
+        "QuestName": "Revolving Door - Part 1",
+        "_id": "6afeb4db6f9edbb7b51df476",
+        "acceptPlayerMessage": "6afeb4db6f9edbb7b51df476 acceptPlayerMessage",
+        "acceptanceAndFinishingSource": "eft",
+        "arenaLocations": [],
+        "canShowNotificationsInGame": true,
+        "changeQuestMessageText": "6afeb4db6f9edbb7b51df476 changeQuestMessageText",
+        "completePlayerMessage": "6afeb4db6f9edbb7b51df476 completePlayerMessage",
+        "conditions": {
+            "AvailableForFinish": [
+                {
+                    "completeInSeconds": 0,
+                    "conditionType": "CounterCreator",
+                    "counter": {
+                        "conditions": [
+                            {
+                                "bodyPart": [],
+                                "compareMethod": ">=",
+                                "conditionType": "Kills",
+                                "daytime": {
+                                    "from": 0,
+                                    "to": 0
+                                },
+                                "distance": {
+                                    "compareMethod": ">=",
+                                    "value": 0
+                                },
+                                "dynamicLocale": false,
+                                "enemyEquipmentExclusive": [],
+                                "enemyEquipmentInclusive": [],
+                                "enemyHealthEffects": [],
+                                "id": "6afeb4db6f9edbb7b51df47a",
+                                "resetOnSessionEnd": false,
+                                "savageRole": [],
+                                "target": "AnyPmc",
+                                "value": 0,
+                                "weapon": [
+                                    "60db29ce99594040e04c4a27",
+                                    "61a4c8884f95bc3b2c5dc96f",
+                                    "624c2e8614da335f1e034d8c",
+                                    "6275303a9f372d6ea97f9ec7",
+                                    "633ec7c2a6918cb895019c6c"
+                                ],
+                                "weaponCaliber": [],
+                                "weaponModsExclusive": [],
+                                "weaponModsInclusive": []
+                            },
+                            {
+                                "conditionType": "Location",
+                                "dynamicLocale": false,
+                                "id": "6afeb4db6f9edbb7b51df47b",
+                                "target": [
+                                    "Woods"
+                                ]
+                            }
+                        ],
+                        "id": "6afeb4db6f9edbb7b51df479"
+                    },
+                    "doNotResetIfCounterCompleted": false,
+                    "dynamicLocale": false,
+                    "globalQuestCounterId": "",
+                    "id": "6afeb4db6f9edbb7b51df478",
+                    "index": 0,
+                    "isNecessary": false,
+                    "isResetOnConditionFailed": false,
+                    "oneSessionOnly": false,
+                    "parentId": "",
+                    "type": "Elimination",
+                    "value": 10,
+                    "visibilityConditions": []
+                }
+            ],
+            "AvailableForStart": [
+                {
+                    "availableAfter": 0,
+                    "conditionType": "Quest",
+                    "dispersion": 0,
+                    "dynamicLocale": false,
+                    "globalQuestCounterId": "",
+                    "id": "6afeb4db6f9edbb7b51df477",
+                    "index": 0,
+                    "parentId": "",
+                    "status": [
+                        4
+                    ],
+                    "target": "69f94677a49a5754e709dbae",
+                    "visibilityConditions": []
+                }
+            ],
+            "Fail": []
+        },
+        "declinePlayerMessage": "6afeb4db6f9edbb7b51df476 declinePlayerMessage",
+        "description": "6afeb4db6f9edbb7b51df476 description",
+        "failMessageText": "6afeb4db6f9edbb7b51df476 failMessageText",
+        "gameModes": [],
+        "image": "/files/quest/icon/6682a74575d2dfc8330a07de.png",
+        "instantComplete": false,
+        "isKey": false,
+        "location": "any",
+        "name": "6afeb4db6f9edbb7b51df476 name",
+        "note": "6afeb4db6f9edbb7b51df476 note",
+        "progressSource": "eft",
+        "rankingModes": [],
+        "restartable": false,
+        "rewards": {
+            "Fail": [],
+            "Started": [],
+            "Success": [
+                {
+                    "availableInGameEditions": [],
+                    "gameMode": [
+                        "regular",
+                        "pve"
+                    ],
+                    "id": "6afeb4db6f9edbb7b51df47c",
+                    "isHidden": false,
+                    "target": "Revolver",
+                    "type": "Skill",
+                    "unknown": false,
+                    "value": 1000
+                }
+            ]
+        },
+        "secretQuest": false,
+        "side": "pmc",
+        "startedMessageText": "6afeb4db6f9edbb7b51df476 startedMessageText",
+        "status": 0,
+        "successMessageText": "6afeb4db6f9edbb7b51df476 successMessageText",
+        "traderId": "69744632183b55cf9702c981",
+        "type": "Elimination"
     }
 }
