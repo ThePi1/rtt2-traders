@@ -347,7 +347,7 @@ New zones are in `db/CustomQuestZones/C1_C4_C6_C7_C8_C9.json`. The first four ar
 | X6 | Xiaoming | Delay, Deny, Defend | Break into some healthcare building and somehow get back at Atlas |  |  |  | To build |  |
 | X7 | Xiaoming | Eastern Medicine | Find some med things |  |  | `6afeb137d0c21ba797f7842d` | Built | Built: hand in 3 FIR Golden Star balm and 2 FIR Analgin. Starts after X5 because X6 isn't built |
 | X8 | Xiaoming | Jade Idol | Whatever the living high not a crime part 2 items are, turn in FIR |  |  | `6afeb138974a4842a8a976d1` | Built | Built: hand in the items of Ragman's Living High is Not a Crime - Part 2: 3 antique teapots, 2 antique vases, 1 Axel parrot, 2 Raven figurines, all FIR |
-| X9 | Xiaoming | Concussion Tested | Get headshot while wearing a Killa helm, survive and extract same raid |  |  |  | To build |  |
+| X9 | Xiaoming | Concussion Tested | Get headshot while wearing a Killa helm, survive and extract same raid |  |  | `6afeb13982735cde65f1a9dc` | Needs check | Built: 5 headshot kills while wearing the Killa Edition Maska-1SCh, counted only on raids you survive. Reworded from "get headshot": there's no condition for being shot |
 | X10 | Xiaoming | Transfer Student | Reach lv5 attention, lv7 intellect |  |  |  | To build |  |
 | X11 | Xiaoming | Chain of Custody - Part 1 | Kill 4 raiders in the Reserve command bunker. Find and turn in questpackage in control room. |  |  |  | To build |  |
 | X12 | Xiaoming | Chain of Custody - Part 2 | Mark 6 AA tanks on Reserve(First,Second.Third, Fourth,Fitfth,Sixth), then kill 4 Scavs in the command bunker |  |  |  | To build |  |

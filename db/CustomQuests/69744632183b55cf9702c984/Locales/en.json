@@ -84,5 +84,13 @@
     "6afeb138974a4842a8a976d7": "Find Axel parrot figurine in raid",
     "6afeb138974a4842a8a976d8": "Hand over Axel parrot figurine",
     "6afeb138974a4842a8a976d9": "Find Raven figurine in raid",
-    "6afeb138974a4842a8a976da": "Hand over Raven figurine"
+    "6afeb138974a4842a8a976da": "Hand over Raven figurine",
+    "6afeb13982735cde65f1a9dc name": "Concussion Tested",
+    "6afeb13982735cde65f1a9dc description": "[PH] Our engineers have copied Killa's helmet. Before mass production, we need field data. Wear the original Maska and score five headshots, then survive. Results first, safety second.",
+    "6afeb13982735cde65f1a9dc acceptPlayerMessage": "",
+    "6afeb13982735cde65f1a9dc declinePlayerMessage": "",
+    "6afeb13982735cde65f1a9dc completePlayerMessage": "",
+    "6afeb13982735cde65f1a9dc successMessageText": "[PH] Test passed. The copy will be... almost as good.",
+    "6afeb13982735cde65f1a9dc failMessageText": "",
+    "6afeb13982735cde65f1a9de": "Eliminate any target with headshots while wearing Killa's Maska-1SCh helmet, and survive the raid"
 }
