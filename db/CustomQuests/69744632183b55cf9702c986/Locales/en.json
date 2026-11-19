@@ -108,5 +108,18 @@
     "6afeac85ca77a07b0c58ff66 completePlayerMessage": "",
     "6afeac85ca77a07b0c58ff66 successMessageText": "[PH] Look at those traps. Training arc complete.",
     "6afeac85ca77a07b0c58ff66 failMessageText": "",
-    "6afeac85ca77a07b0c58ff68": "Reach level 10 of the Strength skill"
+    "6afeac85ca77a07b0c58ff68": "Reach level 10 of the Strength skill",
+    "6afeac863a8863df58c72b03 name": "Filler Episode",
+    "6afeac863a8863df58c72b03 description": "[PH] Look, every show has a filler episode. This is it. I'm finishing my shelf of boss figurines and I'm missing Tagilla, Killa and Reshala. Found in raid only, collector's grade.",
+    "6afeac863a8863df58c72b03 acceptPlayerMessage": "",
+    "6afeac863a8863df58c72b03 declinePlayerMessage": "",
+    "6afeac863a8863df58c72b03 completePlayerMessage": "",
+    "6afeac863a8863df58c72b03 successMessageText": "[PH] Mint condition. The shelf is complete. ...For now.",
+    "6afeac863a8863df58c72b03 failMessageText": "",
+    "6afeac863a8863df58c72b05": "Find Tagilla figurine in raid",
+    "6afeac863a8863df58c72b06": "Hand over Tagilla figurine",
+    "6afeac863a8863df58c72b07": "Find Killa figurine in raid",
+    "6afeac863a8863df58c72b08": "Hand over Killa figurine",
+    "6afeac863a8863df58c72b09": "Find Reshala figurine in raid",
+    "6afeac863a8863df58c72b0a": "Hand over Reshala figurine"
 }
