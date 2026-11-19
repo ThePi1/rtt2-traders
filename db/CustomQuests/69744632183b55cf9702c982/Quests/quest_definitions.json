@@ -1695,7 +1695,23 @@
                     "visibilityConditions": []
                 }
             ],
-            "AvailableForStart": [],
+            "AvailableForStart": [
+                {
+                    "availableAfter": 0,
+                    "conditionType": "Quest",
+                    "dispersion": 0,
+                    "dynamicLocale": false,
+                    "globalQuestCounterId": "",
+                    "id": "6afea8bb44c9dc55f77a40ef",
+                    "index": 0,
+                    "parentId": "",
+                    "status": [
+                        4
+                    ],
+                    "target": "69cd7b7345b0c8b5f47878ae",
+                    "visibilityConditions": []
+                }
+            ],
             "Fail": []
         },
         "declinePlayerMessage": "69cedc2dd2a219c316eb1c1e declinePlayerMessage",
@@ -1717,10 +1733,10 @@
                 {
                     "availableInGameEditions": [],
                     "id": "69cedcb6d2a219c316eb1c1f",
-                    "index": 0,
                     "type": "Experience",
                     "unknown": false,
-                    "value": 5000
+                    "value": 5000,
+                    "index": 0
                 }
             ]
         },
@@ -1921,7 +1937,23 @@
                     "visibilityConditions": []
                 }
             ],
-            "AvailableForStart": [],
+            "AvailableForStart": [
+                {
+                    "availableAfter": 0,
+                    "conditionType": "Quest",
+                    "dispersion": 0,
+                    "dynamicLocale": false,
+                    "globalQuestCounterId": "",
+                    "id": "6afea8bcc709840ebcba203a",
+                    "index": 0,
+                    "parentId": "",
+                    "status": [
+                        4
+                    ],
+                    "target": "69cd7b7345b0c8b5f47878ae",
+                    "visibilityConditions": []
+                }
+            ],
             "Fail": []
         },
         "declinePlayerMessage": "69cee1057c3c785e39999475 declinePlayerMessage",
@@ -1943,10 +1975,10 @@
                 {
                     "availableInGameEditions": [],
                     "id": "69cee1ec7c3c785e39999476",
-                    "index": 0,
                     "type": "Experience",
                     "unknown": false,
-                    "value": 10000
+                    "value": 10000,
+                    "index": 0
                 },
                 {
                     "availableInGameEditions": [],
