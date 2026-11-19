@@ -382,7 +382,7 @@ New zones are in `db/CustomQuestZones/C1_C4_C6_C7_C8_C9.json`. The first four ar
 | P11 | Price | Louis and Clarks | Get kills near Adiik Shoe Store |  | unlock backpack sell | `6afeaf89baacdcc253b108de` | Built | Built: 8 kills of any kind inside the existing kill zone `P11` (Adik). The "unlock backpack sell" reward is left out, as in P10 |
 | P12 | Price | King of Burgers | Visit All burger spot locations in the game (Interchange) |  |  | `6afeaf8a8816157535cee653` | Needs check | Built: visit the existing zone `P12_1` (Burger Spot) and new zone `P12_2` (the west wing burger houses), the only two I found on Interchange |
 | P13 | Price | Courtesy Call - Part 1 | Going around streets looking for a bowling alley (gta4 callback) |  | XP, P14 | `6afeaf8d32d5bcdb98c8c596` | Needs check | Built: visit new zones `P13_1` (Cinema), `P13_2` (Sportmarket), `P13_3` (Klimov mall) on Streets |
-| P14 | Price | Courtesy Call - Part 2 | Going to customs looking for a bowling alley (Fortress) |  | XP, P15 |  | To build |  |
+| P14 | Price | Courtesy Call - Part 2 | Going to customs looking for a bowling alley (Fortress) |  | XP, P15 | `6afeaf8f7757bef5904f3c49` | Built | Built: visit the existing zone `P14` (Fortress, Customs) |
 | P15 | Price | Courtesy Call - Part 3 | Looking on interchange for a bowling ball in the mall |  | XP, P16 |  | To build |  |
 | P16 | Price | Courtesy Call - Part 4 | One final other map (looking for bowling alley with some sort of twist) Find Bowling Ball? |  | Good XP and good item |  | To build |  |
 | P17 | Price | Last Call | Plant 1 vodka, 1 Beer, 1 Whiskey in bar on streets |  |  |  | To build |  |

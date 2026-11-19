@@ -134,5 +134,13 @@
     "6afeaf8d32d5bcdb98c8c596 failMessageText": "",
     "6afeaf8e32d5bcdb98c8c598": "Look for a bowling alley in the Cinema on Streets",
     "6afeaf8e32d5bcdb98c8c59b": "Look for a bowling alley in the Sportmarket",
-    "6afeaf8e32d5bcdb98c8c59e": "Look for a bowling alley in the Klimov shopping mall"
+    "6afeaf8e32d5bcdb98c8c59e": "Look for a bowling alley in the Klimov shopping mall",
+    "6afeaf8f7757bef5904f3c49 name": "Courtesy Call - Part 2",
+    "6afeaf8f7757bef5904f3c49 description": "[PH] He's rung again. Says he heard there's a bowling alley on Customs, in that concrete fortress. I doubt it, but go and look so I can tell him.",
+    "6afeaf8f7757bef5904f3c49 acceptPlayerMessage": "",
+    "6afeaf8f7757bef5904f3c49 declinePlayerMessage": "",
+    "6afeaf8f7757bef5904f3c49 completePlayerMessage": "",
+    "6afeaf8f7757bef5904f3c49 successMessageText": "[PH] A fortress with no bowling alley. What a waste of concrete.",
+    "6afeaf8f7757bef5904f3c49 failMessageText": "",
+    "6afeaf8f7757bef5904f3c4b": "Look for a bowling alley in the Fortress on Customs"
 }
