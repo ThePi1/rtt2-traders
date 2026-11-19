@@ -64,5 +64,14 @@
     "6a1349bd8c34ba4a387ccfb0 successMessageText": "[PH] Perfect. Take these cards, you will want to visit the Lab more now.",
     "6a1349bd8c34ba4a387ccfb0 failMessageText": "",
     "6afeb4095228fe3596aa5069": "Find Advanced current converter in raid",
-    "6afeb4095228fe3596aa506a": "Hand over Advanced current converter"
+    "6afeb4095228fe3596aa506a": "Hand over Advanced current converter",
+    "6a134bde8c34ba4a387ccfb7 name": "The Boogie Bomb - Part 2",
+    "6a134bde8c34ba4a387ccfb7 description": "[PH] The bomb needs fuel. Strong fuel. One bottle of Fierce Hatchling moonshine, found in raid. For the bomb. Only for the bomb.",
+    "6a134bde8c34ba4a387ccfb7 acceptPlayerMessage": "",
+    "6a134bde8c34ba4a387ccfb7 declinePlayerMessage": "",
+    "6a134bde8c34ba4a387ccfb7 completePlayerMessage": "",
+    "6a134bde8c34ba4a387ccfb7 successMessageText": "[PH] The Boogie Bomb is ready! Take this graphics card, it was in the way.",
+    "6a134bde8c34ba4a387ccfb7 failMessageText": "",
+    "6afeb40a02872f1e028d6537": "Find Bottle of Fierce Hatchling moonshine in raid",
+    "6afeb40a02872f1e028d6538": "Hand over Bottle of Fierce Hatchling moonshine"
 }
