@@ -356,7 +356,7 @@ New zones are in `db/CustomQuestZones/C1_C4_C6_C7_C8_C9.json`. The first four ar
 | X15 | Xiaoming | Better Red Than Dead | Plant Bitcoin in Asian themed resturant on streets |  |  | `6afeb14136d4b397d4079646` | Needs check | Built: plant a Physical Bitcoin at new zone `X15` (the Chinese/sushi/ramen stands in the Klimov food court on Streets) |
 | X16 | Xiaoming | Triple Gem - Part 1 | (Kill Sanitar OR Kill Killa OR Kill any of the goons) and survive and extract, same raid |  |  | `6afeb142d837bdb1a9565910` | Built | Built: kill Sanitar, Killa or any Goon, counted only on a raid you survive |
 | X17 | Xiaoming | Triple Gem - Part 2 | Kill 10PMC with deagle. Turn in 10 dogtags. |  |  | `6afeb1433ba3052a0c3570eb` | Built | Built: 10 PMC kills with any Desert Eagle, then hand in 10 PMC dogtags (BEAR or USEC) |
-| X18 | Xiaoming | Glory to CCP - Part 1 | Locate the location of Xiaoming's friend on Streets, survive and extract |  |  |  | To build |  |
+| X18 | Xiaoming | Glory to CCP - Part 1 | Locate the location of Xiaoming's friend on Streets, survive and extract |  |  | `6afeb145ae8bee9710397df9` | Needs check | Built: visit new zone `X18` (an apartment in Chekannaya 15), then survive and extract on Streets |
 | X19 | Xiaoming | Glory to CCP - Part 2 | Locate the place of work of Xiaoming's friend on Streets, find the package, survive and extract, turn in |  |  |  | To build |  |
 | X20 | Xiaoming | Chinatown | Visit all the restaurants on Streets of Tarkov, and mark their front doors |  |  |  | To build |  |
 | X21 | Xiaoming | Gotcha, Gatcha | Plant 3 gas cans and 3 matches in the Game Dev room on streets, including one in the locked room. Survive and extract. |  |  |  | To build |  |

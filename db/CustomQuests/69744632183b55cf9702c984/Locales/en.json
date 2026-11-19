@@ -168,5 +168,14 @@
     "6afeb1433ba3052a0c3570eb successMessageText": "[PH] Ten tags. The records department is overjoyed. They have never been overjoyed before.",
     "6afeb1433ba3052a0c3570eb failMessageText": "",
     "6afeb1433ba3052a0c3570ed": "Eliminate PMCs with a Desert Eagle",
-    "6afeb1433ba3052a0c3570f0": "Hand over 10 PMC dogtags"
+    "6afeb1433ba3052a0c3570f0": "Hand over 10 PMC dogtags",
+    "6afeb145ae8bee9710397df9 name": "Glory to CCP - Part 1",
+    "6afeb145ae8bee9710397df9 description": "[PH] A friend of mine, a loyal citizen, stopped answering his messages. His apartment is in the building on Chekannaya Street. Find it, look around, and come back. Discreetly.",
+    "6afeb145ae8bee9710397df9 acceptPlayerMessage": "",
+    "6afeb145ae8bee9710397df9 declinePlayerMessage": "",
+    "6afeb145ae8bee9710397df9 completePlayerMessage": "",
+    "6afeb145ae8bee9710397df9 successMessageText": "[PH] Empty? He has been... reassigned, perhaps. Thank you.",
+    "6afeb145ae8bee9710397df9 failMessageText": "",
+    "6afeb145ae8bee9710397dfa": "Locate the apartment of Xiaoming's friend on Chekannaya St on Streets",
+    "6afeb145ae8bee9710397e00": "Survive and extract from the location"
 }
