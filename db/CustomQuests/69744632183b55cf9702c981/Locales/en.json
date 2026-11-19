@@ -871,5 +871,13 @@
     "6afeb4e04de1af94186b7bb2 completePlayerMessage": "",
     "6afeb4e04de1af94186b7bb2 successMessageText": "[PH] Their plate carriers didn't help them at all.",
     "6afeb4e04de1af94186b7bb2 failMessageText": "",
-    "6afeb4e04de1af94186b7bb4": "Eliminate Raiders with SMG shots to the legs"
+    "6afeb4e04de1af94186b7bb4": "Eliminate Raiders with SMG shots to the legs",
+    "6afeb4e1b5c5f0dc44687b65 name": "P-Chan - Part 3",
+    "6afeb4e1b5c5f0dc44687b65 description": "[PH] Two Rogues. They have machine guns on emplacements. You have a bullet hose and nerve.",
+    "6afeb4e1b5c5f0dc44687b65 acceptPlayerMessage": "",
+    "6afeb4e1b5c5f0dc44687b65 declinePlayerMessage": "",
+    "6afeb4e1b5c5f0dc44687b65 completePlayerMessage": "",
+    "6afeb4e1b5c5f0dc44687b65 successMessageText": "[PH] Two Rogues, sprayed down. You're getting reckless. You're getting good.",
+    "6afeb4e1b5c5f0dc44687b65 failMessageText": "",
+    "6afeb4e1b5c5f0dc44687b67": "Eliminate Rogues with an SMG"
 }
