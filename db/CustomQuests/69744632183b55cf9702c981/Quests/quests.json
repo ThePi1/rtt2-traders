@@ -481,7 +481,7 @@
                     "isResetOnConditionFailed": false,
                     "oneSessionOnly": false,
                     "parentId": "",
-                    "type": "Completion",
+                    "type": "Elimination",
                     "value": 20,
                     "visibilityConditions": []
                 }
@@ -10472,7 +10472,7 @@
                     "isResetOnConditionFailed": false,
                     "oneSessionOnly": false,
                     "parentId": "",
-                    "type": "PickUp",
+                    "type": "Elimination",
                     "value": 5,
                     "visibilityConditions": []
                 }
@@ -10515,11 +10515,11 @@
                 {
                     "availableInGameEditions": [],
                     "id": "69ff97b0de23b7f4f68f23bf",
-                    "index": 0,
                     "target": "Throwing",
                     "type": "Skill",
                     "unknown": false,
-                    "value": 1000
+                    "value": 1000,
+                    "index": 0
                 }
             ]
         },
@@ -13906,7 +13906,7 @@
                     "isResetOnConditionFailed": false,
                     "oneSessionOnly": false,
                     "parentId": "",
-                    "type": "PickUp",
+                    "type": "Elimination",
                     "value": 10,
                     "visibilityConditions": []
                 }
@@ -13949,15 +13949,14 @@
                 {
                     "availableInGameEditions": [],
                     "id": "6a0b959416ab7c2dcc558769",
-                    "index": 0,
                     "type": "Experience",
                     "unknown": false,
-                    "value": 2500
+                    "value": 2500,
+                    "index": 0
                 },
                 {
                     "availableInGameEditions": [],
                     "id": "6a0b959716ab7c2dcc55876a",
-                    "index": 0,
                     "items": [
                         {
                             "_id": "6ac5441d05ced5bc29498488",
@@ -13968,12 +13967,12 @@
                     "target": "6ac5441d05ced5bc29498488",
                     "traderId": "69744632183b55cf9702c981",
                     "type": "AssortmentUnlock",
-                    "unknown": false
+                    "unknown": false,
+                    "index": 0
                 },
                 {
                     "availableInGameEditions": [],
                     "id": "6a0b95a616ab7c2dcc55876c",
-                    "index": 0,
                     "items": [
                         {
                             "_id": "6ac5441f05ced5bc2949848a",
@@ -13984,12 +13983,12 @@
                     "target": "6ac5441f05ced5bc2949848a",
                     "traderId": "69744632183b55cf9702c981",
                     "type": "AssortmentUnlock",
-                    "unknown": false
+                    "unknown": false,
+                    "index": 0
                 },
                 {
                     "availableInGameEditions": [],
                     "id": "6a0b95b816ab7c2dcc55876e",
-                    "index": 0,
                     "items": [
                         {
                             "_id": "6ac5442005ced5bc2949848c",
@@ -14000,7 +13999,8 @@
                     "target": "6ac5442005ced5bc2949848c",
                     "traderId": "69744632183b55cf9702c981",
                     "type": "AssortmentUnlock",
-                    "unknown": false
+                    "unknown": false,
+                    "index": 0
                 }
             ]
         },
@@ -14558,7 +14558,7 @@
                     "isResetOnConditionFailed": false,
                     "oneSessionOnly": false,
                     "parentId": "",
-                    "type": "PickUp",
+                    "type": "Elimination",
                     "value": 8,
                     "visibilityConditions": []
                 }
@@ -14601,15 +14601,14 @@
                 {
                     "availableInGameEditions": [],
                     "id": "6a0b97ee16ab7c2dcc558796",
-                    "index": 0,
                     "type": "Experience",
                     "unknown": false,
-                    "value": 3500
+                    "value": 3500,
+                    "index": 0
                 },
                 {
                     "availableInGameEditions": [],
                     "id": "6a0b97f316ab7c2dcc558797",
-                    "index": 0,
                     "items": [
                         {
                             "_id": "6a0b980116ab7c2dcc558798",
@@ -14623,12 +14622,12 @@
                     "target": "6a0b980116ab7c2dcc558798",
                     "traderId": "69744632183b55cf9702c981",
                     "type": "AssortmentUnlock",
-                    "unknown": false
+                    "unknown": false,
+                    "index": 0
                 },
                 {
                     "availableInGameEditions": [],
                     "id": "6a0b980216ab7c2dcc558799",
-                    "index": 0,
                     "items": [
                         {
                             "_id": "6a0b980d16ab7c2dcc55879a",
@@ -14642,7 +14641,8 @@
                     "target": "6a0b980d16ab7c2dcc55879a",
                     "traderId": "69744632183b55cf9702c981",
                     "type": "AssortmentUnlock",
-                    "unknown": false
+                    "unknown": false,
+                    "index": 0
                 }
             ]
         },
@@ -15352,7 +15352,7 @@
                     "isResetOnConditionFailed": false,
                     "oneSessionOnly": false,
                     "parentId": "",
-                    "type": "PickUp",
+                    "type": "Elimination",
                     "value": 1,
                     "visibilityConditions": []
                 }
@@ -15395,16 +15395,15 @@
                 {
                     "availableInGameEditions": [],
                     "id": "6a0b9a9e16ab7c2dcc5587c2",
-                    "index": 0,
                     "type": "Experience",
                     "unknown": false,
-                    "value": 15000
+                    "value": 15000,
+                    "index": 0
                 },
                 {
                     "availableInGameEditions": [],
                     "findInRaid": true,
                     "id": "6a0b9ace16ab7c2dcc5587c3",
-                    "index": 0,
                     "items": [
                         {
                             "_id": "6a0b9ae216ab7c2dcc5587c4",
@@ -15417,7 +15416,8 @@
                     "target": "6a0b9ae216ab7c2dcc5587c4",
                     "type": "Item",
                     "unknown": false,
-                    "value": 1
+                    "value": 1,
+                    "index": 0
                 }
             ]
         },

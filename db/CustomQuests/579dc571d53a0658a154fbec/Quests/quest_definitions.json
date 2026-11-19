@@ -2593,7 +2593,7 @@
                     "isResetOnConditionFailed": false,
                     "oneSessionOnly": false,
                     "parentId": "",
-                    "type": "Multi",
+                    "type": "Elimination",
                     "value": 1,
                     "visibilityConditions": []
                 },
@@ -2789,7 +2789,7 @@
                     "isResetOnConditionFailed": false,
                     "oneSessionOnly": false,
                     "parentId": "",
-                    "type": "Multi",
+                    "type": "Elimination",
                     "value": 1,
                     "visibilityConditions": [
                         {
@@ -2838,19 +2838,19 @@
                 {
                     "availableInGameEditions": [],
                     "id": "69d2bf8dae6b63b659469686",
-                    "index": 0,
                     "type": "Experience",
                     "unknown": false,
-                    "value": 15000
+                    "value": 15000,
+                    "index": 0
                 },
                 {
                     "availableInGameEditions": [],
                     "id": "69d2bf92ae6b63b659469687",
-                    "index": 0,
                     "target": "579dc571d53a0658a154fbec",
                     "type": "TraderStanding",
                     "unknown": false,
-                    "value": 2.0
+                    "value": 2.0,
+                    "index": 0
                 }
             ]
         },

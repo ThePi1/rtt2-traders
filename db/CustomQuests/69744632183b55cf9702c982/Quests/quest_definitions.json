@@ -5093,7 +5093,7 @@
                     "isResetOnConditionFailed": false,
                     "oneSessionOnly": false,
                     "parentId": "",
-                    "type": "Discover",
+                    "type": "Elimination",
                     "value": 1,
                     "visibilityConditions": []
                 }
@@ -5132,16 +5132,15 @@
                 {
                     "availableInGameEditions": [],
                     "id": "6a0d2790d47f367b5bed54b8",
-                    "index": 0,
                     "type": "Experience",
                     "unknown": false,
-                    "value": 3000
+                    "value": 3000,
+                    "index": 0
                 },
                 {
                     "availableInGameEditions": [],
                     "findInRaid": true,
                     "id": "6a0d2799d47f367b5bed54b9",
-                    "index": 0,
                     "items": [
                         {
                             "_id": "6a0d27aed47f367b5bed54ba",
@@ -5155,7 +5154,8 @@
                     "target": "6a0d27aed47f367b5bed54ba",
                     "type": "Item",
                     "unknown": false,
-                    "value": 1
+                    "value": 110000,
+                    "index": 0
                 }
             ]
         },
@@ -5224,7 +5224,7 @@
                     "isResetOnConditionFailed": false,
                     "oneSessionOnly": false,
                     "parentId": "",
-                    "type": "Discover",
+                    "type": "Elimination",
                     "value": 1,
                     "visibilityConditions": []
                 }
@@ -5267,16 +5267,15 @@
                 {
                     "availableInGameEditions": [],
                     "id": "6a0d2833d47f367b5bed54c0",
-                    "index": 0,
                     "type": "Experience",
                     "unknown": false,
-                    "value": 5000
+                    "value": 5000,
+                    "index": 0
                 },
                 {
                     "availableInGameEditions": [],
                     "findInRaid": true,
                     "id": "6a0d2839d47f367b5bed54c1",
-                    "index": 0,
                     "items": [
                         {
                             "_id": "6a0d2845d47f367b5bed54c2",
@@ -5290,7 +5289,8 @@
                     "target": "6a0d2845d47f367b5bed54c2",
                     "type": "Item",
                     "unknown": false,
-                    "value": 1
+                    "value": 110000,
+                    "index": 0
                 }
             ]
         },

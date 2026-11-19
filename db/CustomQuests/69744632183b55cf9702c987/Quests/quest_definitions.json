@@ -40,7 +40,7 @@
                     "isResetOnConditionFailed": false,
                     "oneSessionOnly": false,
                     "parentId": "",
-                    "type": "Completion",
+                    "type": "Elimination",
                     "value": 6,
                     "visibilityConditions": []
                 }
@@ -83,16 +83,15 @@
                 {
                     "availableInGameEditions": [],
                     "id": "69f2c9e2baa27486f24e1268",
-                    "index": 0,
                     "type": "Experience",
                     "unknown": false,
-                    "value": 4000
+                    "value": 4000,
+                    "index": 0
                 },
                 {
                     "availableInGameEditions": [],
                     "findInRaid": true,
                     "id": "69f2ca0dbaa27486f24e1269",
-                    "index": 0,
                     "items": [
                         {
                             "_id": "637b620db7afa97bfc3d7009",
@@ -105,7 +104,8 @@
                     "target": "637b620db7afa97bfc3d7009",
                     "type": "Item",
                     "unknown": false,
-                    "value": 1
+                    "value": 1,
+                    "index": 0
                 }
             ]
         },

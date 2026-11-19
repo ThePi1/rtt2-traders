@@ -778,5 +778,21 @@
     "6aca8948a26d5245cb767438 completePlayerMessage": "",
     "6aca8948a26d5245cb767438 successMessageText": "[PH] Ten down on Interchange. Only twenty-four more calibers to work through.",
     "6aca8948a26d5245cb767438 failMessageText": "",
-    "6afea8678bd8231af09ccf50": "Eliminate PMCs on Interchange with pistols"
+    "6afea8678bd8231af09ccf50": "Eliminate PMCs on Interchange with pistols",
+    "6a0b957816ab7c2dcc558768 acceptPlayerMessage": "",
+    "6a0b957816ab7c2dcc558768 declinePlayerMessage": "",
+    "6a0b957816ab7c2dcc558768 completePlayerMessage": "",
+    "6a0b957816ab7c2dcc558768 failMessageText": "",
+    "6a0b9a8d16ab7c2dcc5587c0 acceptPlayerMessage": "",
+    "6a0b9a8d16ab7c2dcc5587c0 declinePlayerMessage": "",
+    "6a0b9a8d16ab7c2dcc5587c0 completePlayerMessage": "",
+    "6a0b9a8d16ab7c2dcc5587c0 failMessageText": "",
+    "6a0b97bb16ab7c2dcc558794 acceptPlayerMessage": "",
+    "6a0b97bb16ab7c2dcc558794 declinePlayerMessage": "",
+    "6a0b97bb16ab7c2dcc558794 completePlayerMessage": "",
+    "6a0b97bb16ab7c2dcc558794 failMessageText": "",
+    "69ff979dde23b7f4f68f23be acceptPlayerMessage": "",
+    "69ff979dde23b7f4f68f23be declinePlayerMessage": "",
+    "69ff979dde23b7f4f68f23be completePlayerMessage": "",
+    "69ff979dde23b7f4f68f23be failMessageText": ""
 }
