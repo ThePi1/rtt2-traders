@@ -76,5 +76,13 @@
     "6afeb3258349e093f30637a2 completePlayerMessage": "",
     "6afeb3258349e093f30637a2 successMessageText": "[PH] The offering hums. Take these, the Eye has no need of power supplies.",
     "6afeb3258349e093f30637a2 failMessageText": "",
-    "6afeb3258349e093f30637a4": "Leave 2 graphics cards in the marked room of the Customs dorms"
+    "6afeb3258349e093f30637a4": "Leave 2 graphics cards in the marked room of the Customs dorms",
+    "6afeb326a715d788320efccd name": "Welcome to the Family - Part 3",
+    "6afeb326a715d788320efccd description": "[PH] There is one on the island at Lighthouse who keeps a light of his own. He and the Eye are... acquainted. Go and see him. Do not stay long.",
+    "6afeb326a715d788320efccd acceptPlayerMessage": "",
+    "6afeb326a715d788320efccd declinePlayerMessage": "",
+    "6afeb326a715d788320efccd completePlayerMessage": "",
+    "6afeb326a715d788320efccd successMessageText": "[PH] He saw you. Good. Take this card. The Eye returns what it borrows.",
+    "6afeb326a715d788320efccd failMessageText": "",
+    "6afeb326a715d788320efccf": "Visit the Lightkeeper's island on Lighthouse"
 }
