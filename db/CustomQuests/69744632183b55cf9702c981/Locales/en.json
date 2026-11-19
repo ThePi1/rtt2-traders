@@ -863,5 +863,13 @@
     "6afeb4de41c9d4034ae92cf7 completePlayerMessage": "",
     "6afeb4de41c9d4034ae92cf7 successMessageText": "[PH] Ten. Nobody's walking that off.",
     "6afeb4de41c9d4034ae92cf7 failMessageText": "",
-    "6afeb4df41c9d4034ae92cf9": "Eliminate PMCs with SMG shots to the legs"
+    "6afeb4df41c9d4034ae92cf9": "Eliminate PMCs with SMG shots to the legs",
+    "6afeb4e04de1af94186b7bb2 name": "P-Chan - Part 2",
+    "6afeb4e04de1af94186b7bb2 description": "[PH] Raiders wear better armor. Not on their legs. Ten of them, same method.",
+    "6afeb4e04de1af94186b7bb2 acceptPlayerMessage": "",
+    "6afeb4e04de1af94186b7bb2 declinePlayerMessage": "",
+    "6afeb4e04de1af94186b7bb2 completePlayerMessage": "",
+    "6afeb4e04de1af94186b7bb2 successMessageText": "[PH] Their plate carriers didn't help them at all.",
+    "6afeb4e04de1af94186b7bb2 failMessageText": "",
+    "6afeb4e04de1af94186b7bb4": "Eliminate Raiders with SMG shots to the legs"
 }
