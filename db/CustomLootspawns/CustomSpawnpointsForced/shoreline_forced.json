@@ -1,0 +1,45 @@
+{
+    "Shoreline": [
+        {
+            "locationId": "(-1029.3 -60.0 307.6)",
+            "probability": 1.0,
+            "template": {
+                "Id": "A8 Atlas Hidden Shipment (Quest) [ddef1c88-3350-4ee2-91e8-835917837158]",
+                "IsContainer": false,
+                "useGravity": true,
+                "randomRotation": false,
+                "Position": {
+                    "X": -1029.3,
+                    "Y": -60.0,
+                    "Z": 307.6
+                },
+                "Rotation": {
+                    "x": 0,
+                    "y": 0,
+                    "z": 0
+                },
+                "IsGroupPosition": false,
+                "GroupPositions": [],
+                "IsAlwaysSpawn": true,
+                "Root": "783704b773a9dba30fb86c50",
+                "Items": [
+                    {
+                        "_id": "783704b773a9dba30fb86c50",
+                        "_tpl": "69d2caf8c956d3a46db2e20e",
+                        "upd": {
+                            "StackObjectsCount": 1
+                        }
+                    }
+                ]
+            },
+            "itemDistribution": [
+                {
+                    "composedKey": {
+                        "key": "69d2caf8c956d3a46db2e20e"
+                    },
+                    "relativeProbability": 1
+                }
+            ]
+        }
+    ]
+}

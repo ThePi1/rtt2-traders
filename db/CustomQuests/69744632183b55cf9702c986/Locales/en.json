@@ -60,5 +60,14 @@
     "6afeab5c279977913a65a40b completePlayerMessage": "",
     "6afeab5c279977913a65a40b successMessageText": "[PH] Hook, line and sinker. Psyops, baby.",
     "6afeab5c279977913a65a40b failMessageText": "",
-    "6afeab5d279977913a65a40d": "Plant the false intel in the D2 power room on Reserve"
+    "6afeab5d279977913a65a40d": "Plant the false intel in the D2 power room on Reserve",
+    "6afeaba6250382525a4cbe0c name": "English Opening - Part 1",
+    "6afeaba6250382525a4cbe0c description": "[PH] A buddy of mine from the forums stashed a package for me before he bugged out. Said it's at the railway bridge extract on Shoreline. Go grab it before some Scav does. And don't open it, it's need-to-know.",
+    "6afeaba6250382525a4cbe0c acceptPlayerMessage": "",
+    "6afeaba6250382525a4cbe0c declinePlayerMessage": "",
+    "6afeaba6250382525a4cbe0c completePlayerMessage": "",
+    "6afeaba6250382525a4cbe0c successMessageText": "[PH] Package secured. First move of the game, operator.",
+    "6afeaba6250382525a4cbe0c failMessageText": "",
+    "6afeaba6250382525a4cbe0e": "Find Atlas' Hidden Shipment in raid",
+    "6afeaba6250382525a4cbe0f": "Hand over Atlas' Hidden Shipment"
 }
