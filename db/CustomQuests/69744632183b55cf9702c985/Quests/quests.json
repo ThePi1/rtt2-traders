@@ -1649,5 +1649,149 @@
         "successMessageText": "6afeb23d2a7c8e0c00d6d0d8 successMessageText",
         "traderId": "69744632183b55cf9702c985",
         "type": "Completion"
+    },
+    "6afeb23e0e3afc1378c882cd": {
+        "QuestName": "Inject Me Scotty",
+        "_id": "6afeb23e0e3afc1378c882cd",
+        "acceptPlayerMessage": "6afeb23e0e3afc1378c882cd acceptPlayerMessage",
+        "acceptanceAndFinishingSource": "eft",
+        "arenaLocations": [],
+        "canShowNotificationsInGame": true,
+        "changeQuestMessageText": "6afeb23e0e3afc1378c882cd changeQuestMessageText",
+        "completePlayerMessage": "6afeb23e0e3afc1378c882cd completePlayerMessage",
+        "conditions": {
+            "AvailableForFinish": [
+                {
+                    "conditionType": "FindItem",
+                    "countInRaid": false,
+                    "dogtagLevel": 0,
+                    "dynamicLocale": false,
+                    "globalQuestCounterId": "",
+                    "id": "6afeb23e0e3afc1378c882cf",
+                    "index": 0,
+                    "isEncoded": false,
+                    "maxDurability": 100,
+                    "minDurability": 0,
+                    "onlyFoundInRaid": true,
+                    "parentId": "",
+                    "target": [
+                        "5e8488fa988a8701445df1e4"
+                    ],
+                    "value": 3,
+                    "visibilityConditions": []
+                },
+                {
+                    "conditionType": "HandoverItem",
+                    "dogtagLevel": 0,
+                    "dynamicLocale": false,
+                    "globalQuestCounterId": "",
+                    "id": "6afeb23f0e3afc1378c882d0",
+                    "index": 0,
+                    "isEncoded": false,
+                    "maxDurability": 100,
+                    "minDurability": 0,
+                    "onlyFoundInRaid": true,
+                    "parentId": "",
+                    "target": [
+                        "5e8488fa988a8701445df1e4"
+                    ],
+                    "value": 3,
+                    "visibilityConditions": []
+                }
+            ],
+            "AvailableForStart": [
+                {
+                    "availableAfter": 0,
+                    "conditionType": "Quest",
+                    "dispersion": 0,
+                    "dynamicLocale": false,
+                    "globalQuestCounterId": "",
+                    "id": "6afeb23e0e3afc1378c882ce",
+                    "index": 0,
+                    "parentId": "",
+                    "status": [
+                        4
+                    ],
+                    "target": "6afeb23a85305c13a0bd3eea",
+                    "visibilityConditions": []
+                }
+            ],
+            "Fail": []
+        },
+        "declinePlayerMessage": "6afeb23e0e3afc1378c882cd declinePlayerMessage",
+        "description": "6afeb23e0e3afc1378c882cd description",
+        "failMessageText": "6afeb23e0e3afc1378c882cd failMessageText",
+        "gameModes": [],
+        "image": "/files/quest/icon/5969f96786f7741dde183a4f.png",
+        "instantComplete": false,
+        "isKey": false,
+        "location": "any",
+        "name": "6afeb23e0e3afc1378c882cd name",
+        "note": "6afeb23e0e3afc1378c882cd note",
+        "progressSource": "eft",
+        "rankingModes": [],
+        "restartable": false,
+        "rewards": {
+            "Fail": [],
+            "Started": [],
+            "Success": [
+                {
+                    "availableInGameEditions": [],
+                    "gameMode": [
+                        "regular",
+                        "pve"
+                    ],
+                    "id": "6afeb23f0e3afc1378c882d1",
+                    "isHidden": false,
+                    "type": "Experience",
+                    "unknown": false,
+                    "value": 9400
+                },
+                {
+                    "availableInGameEditions": [],
+                    "gameMode": [
+                        "regular",
+                        "pve"
+                    ],
+                    "id": "6afeb23f0e3afc1378c882d2",
+                    "isHidden": false,
+                    "target": "69744632183b55cf9702c985",
+                    "type": "TraderStanding",
+                    "unknown": false,
+                    "value": 0.24
+                },
+                {
+                    "availableInGameEditions": [],
+                    "findInRaid": false,
+                    "gameMode": [
+                        "regular",
+                        "pve"
+                    ],
+                    "id": "6afeb23f0e3afc1378c882d3",
+                    "isEncoded": false,
+                    "isHidden": false,
+                    "items": [
+                        {
+                            "_id": "6afeb23f0e3afc1378c882d4",
+                            "_tpl": "5449016a4bdc2d6f028b456f",
+                            "upd": {
+                                "StackObjectsCount": 75000
+                            }
+                        }
+                    ],
+                    "target": "6afeb23f0e3afc1378c882d4",
+                    "type": "Item",
+                    "unknown": false,
+                    "value": 75000
+                }
+            ]
+        },
+        "secretQuest": false,
+        "side": "pmc",
+        "startedMessageText": "6afeb23e0e3afc1378c882cd startedMessageText",
+        "status": 0,
+        "successMessageText": "6afeb23e0e3afc1378c882cd successMessageText",
+        "traderId": "69744632183b55cf9702c985",
+        "type": "PickUp"
     }
 }

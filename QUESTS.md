@@ -403,7 +403,7 @@ New zones are in `db/CustomQuestZones/C1_C4_C6_C7_C8_C9.json`. The first four ar
 | N7 | Needle | Marathon Dose - Part 1 | Transit from Ground Zero to Interchange, survive and extract | Q13 |  | `6afeb23b4b547e3d2395b166` | Needs check | Built: transit Ground Zero to Streets, then Streets to Interchange, then survive and extract on Interchange. Changed from a direct GZ to Interchange transit, which doesn't exist. The game can't require a transit's destination, only its start map |
 | N8 | Needle | Marathon Dose - Part 2 | Transit from Interchange to Woods, survive and extract |  |  | `6afeb23c2ddd831463275c12` | Needs check | Built: transit Interchange to Customs to Factory to Woods, then extract on Woods. Changed from a direct Interchange to Woods transit, which doesn't exist |
 | N9 | Needle | Marathon Dose - Part 3 | Transit from Woods to Shoreline, survive and extract |  |  | `6afeb23d2a7c8e0c00d6d0d8` | Needs check | Built: transit Woods to Lighthouse to Shoreline, then extract on Shoreline. Changed from a direct Woods to Shoreline transit, which doesn't exist |
-| N10 | Needle | Inject Me Scotty | Find and Turn in 3 CALOK |  |  |  | To build |  |
+| N10 | Needle | Inject Me Scotty | Find and Turn in 3 CALOK |  |  | `6afeb23e0e3afc1378c882cd` | Built | Built: hand in 3 FIR CALOK-B |
 | N11 | Needle | It's Wrapping Time | Find and Turn in 2 Military Bandages |  |  |  | To build |  |
 | N12 | Needle | Poppin a Proppie | Find and Turn in 3 Propitol |  |  |  | To build |  |
 | N13 | Needle | Much Needed Shipment | Find the box containing injectors cases |  |  |  | To build |  |
