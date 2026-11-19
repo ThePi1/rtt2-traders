@@ -173,5 +173,14 @@
     "6afeb3347d7ffcad44de2494 successMessageText": "[PH] Unopened. Good. You are learning.",
     "6afeb3347d7ffcad44de2494 failMessageText": "",
     "6afeb3347d7ffcad44de2496": "Find Locked Case (Sacrifice) in raid",
-    "6afeb3347d7ffcad44de2497": "Hand over the Sacrifice case from the Lighthouse marked room"
+    "6afeb3347d7ffcad44de2497": "Hand over the Sacrifice case from the Lighthouse marked room",
+    "6afeb335ba41467030270a07 name": "The Eye Requires Pickup - Part 4",
+    "6afeb335ba41467030270a07 description": "[PH] Another offering waits in the control room on Reserve, behind the marked door. Bring it to the family.",
+    "6afeb335ba41467030270a07 acceptPlayerMessage": "",
+    "6afeb335ba41467030270a07 declinePlayerMessage": "",
+    "6afeb335ba41467030270a07 completePlayerMessage": "",
+    "6afeb335ba41467030270a07 successMessageText": "[PH] The family is fed. The Eye blinks, slowly, in approval.",
+    "6afeb335ba41467030270a07 failMessageText": "",
+    "6afeb335ba41467030270a09": "Find Locked Case (Sacrifice) in raid",
+    "6afeb335ba41467030270a0a": "Hand over the Sacrifice case from the Reserve marked control room"
 }
