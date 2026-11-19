@@ -424,7 +424,7 @@ New zones are in `db/CustomQuestZones/C1_C4_C6_C7_C8_C9.json`. The first four ar
 | V6 | Voron | Welcome to the Family - Part 6 | Kill 1 PMC with cultist Knife |  | XP, M80A1 barter | `6afeb329a6457b3b32f01cc1` | Built | Built: kill 1 PMC with the Cultist knife; unlocks a 7.62x51 M80A1 offer at Voron LL2 (900 RUB each, 120 per restock, my numbers) |
 | V7 | Voron | The Eye Requires Meat | Visit 3 meat-related places on different mapos |  |  | `6afeb32db4cf3d8c29043e19` | Needs check | Built: visit new zones `V7_1` (Reserve kitchen meat locker), `V7_2` (pork carcasses on Woods), `V7_3` (resort cold storage, Shoreline) |
 | V8 | Voron | The Eye Requires Bliss | find and turn in 10 painkillers |  |  | `6afeb32ea08f5705cab4abc8` | Built | Built: hand in 10 FIR Analgin painkillers |
-| V9 | Voron | The Eye Requires Munitions - Part 1 | Find and turn in 3 boxes of 5.45 |  | XP, 7n40 barter |  | To build |  |
+| V9 | Voron | The Eye Requires Munitions - Part 1 | Find and turn in 3 boxes of 5.45 |  | XP, 7n40 barter | `6afeb32f8824b9ad3f4ee3f7` | Built | Built: hand in 3 FIR 5.45x39 ammo packs (any kind); unlocks a 5.45x39 7N40 offer at Voron LL2 (650 RUB each, 150 per restock) |
 | V10 | Voron | The Eye Requires Munitions - Part 2 | find and turn in 3 boxes 7.62 |  | XP, 5.45 and 7.62 BP barter |  | To build |  |
 | V11 | Voron | The Eye Requires Munitions - Part 3 | Find and turn in 3 boxes of .338 |  | XP, .338 barters |  | To build |  |
 | V12 | Voron | The Eye Never Forgets | Hunt down a rouge Priest and 2 Cultists |  | XP, Pyramid Head Funko |  | To build |  |

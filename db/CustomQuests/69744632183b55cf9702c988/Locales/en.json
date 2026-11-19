@@ -128,5 +128,14 @@
     "6afeb32ea08f5705cab4abc8 successMessageText": "[PH] Bliss, shared. The family sleeps well tonight.",
     "6afeb32ea08f5705cab4abc8 failMessageText": "",
     "6afeb32ea08f5705cab4abca": "Find Analgin painkillers in raid",
-    "6afeb32ea08f5705cab4abcb": "Hand over 10 Analgin painkillers, found in raid"
+    "6afeb32ea08f5705cab4abcb": "Hand over 10 Analgin painkillers, found in raid",
+    "6afeb32f8824b9ad3f4ee3f7 name": "The Eye Requires Munitions - Part 1",
+    "6afeb32f8824b9ad3f4ee3f7 description": "[PH] Faith is a shield. Ammunition is a sword. Three boxes of 5.45, found in raid.",
+    "6afeb32f8824b9ad3f4ee3f7 acceptPlayerMessage": "",
+    "6afeb32f8824b9ad3f4ee3f7 declinePlayerMessage": "",
+    "6afeb32f8824b9ad3f4ee3f7 completePlayerMessage": "",
+    "6afeb32f8824b9ad3f4ee3f7 successMessageText": "[PH] The armory grows. In return, the family shares its finest 5.45.",
+    "6afeb32f8824b9ad3f4ee3f7 failMessageText": "",
+    "6afeb32f8824b9ad3f4ee3f9": "Find 5.45x39mm BP gs ammo pack (120 pcs), 5.45x39mm BP gs ammo pack (120 pcs), 5.45x39mm BP gs ammo pack (30 pcs), 5.45x39mm BS gs ammo pack (120 pcs), 5.45x39mm BS gs ammo pack (120 pcs), 5.45x39mm BS gs ammo pack (30 pcs), 5.45x39mm BT gs ammo pack (120 pcs), 5.45x39mm BT gs ammo pack (120 pcs), 5.45x39mm BT gs ammo pack (30 pcs), 5.45x39mm PP gs ammo pack (120 pcs), 5.45x39mm PP gs ammo pack (120 pcs), 5.45x39mm PP gs ammo pack (30 pcs), 5.45x39mm PRS gs ammo pack (120 pcs), 5.45x39mm PRS gs ammo pack (120 pcs), 5.45x39mm PRS gs ammo pack (30 pcs), 5.45x39mm PS gs ammo pack (120 pcs), 5.45x39mm PS gs ammo pack (120 pcs), 5.45x39mm PS gs ammo pack (30 pcs), 5.45x39mm T gs ammo pack (120 pcs), 5.45x39mm T gs ammo pack (120 pcs), 5.45x39mm T gs ammo pack (30 pcs), 5.45x39mm US gs ammo pack (120 pcs), 5.45x39mm US gs ammo pack (120 pcs), 5.45x39mm US gs ammo pack (30 pcs), 5.45x39mm FMJ ammo pack (30 pcs), 5.45x39mm HP ammo pack (30 pcs), 5.45x39mm SP ammo pack (30 pcs), 5.45x39mm PPBS gs Igolnik ammo pack (30 pcs), 5.45x39mm 7N40 ammo pack (30 pcs), 5.45x39mm PPBS gs Igolnik ammo pack (120 pcs) or 5.45x39mm 7N40 ammo pack (120 pcs) in raid",
+    "6afeb32f8824b9ad3f4ee3fa": "Hand over 3 packs of 5.45x39 ammo, found in raid"
 }
