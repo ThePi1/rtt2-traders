@@ -927,5 +927,13 @@
     "6afeb4e8a4a7cd859530f896 completePlayerMessage": "",
     "6afeb4e8a4a7cd859530f896 successMessageText": "[PH] Shturman, outranged by a shotgun. You'll never let him live it down. Well.",
     "6afeb4e8a4a7cd859530f896 failMessageText": "",
-    "6afeb4e8a4a7cd859530f898": "Eliminate Shturman with a shotgun"
+    "6afeb4e8a4a7cd859530f898": "Eliminate Shturman with a shotgun",
+    "6afeb4eac3c31838f731b249 name": "Tech Tips - Part 1",
+    "6afeb4eac3c31838f731b249 description": "[PH] Tip number one: suppression is a strategy. Ten Scavs with a machine gun.",
+    "6afeb4eac3c31838f731b249 acceptPlayerMessage": "",
+    "6afeb4eac3c31838f731b249 declinePlayerMessage": "",
+    "6afeb4eac3c31838f731b249 completePlayerMessage": "",
+    "6afeb4eac3c31838f731b249 successMessageText": "[PH] Ten. The belt keeps feeding.",
+    "6afeb4eac3c31838f731b249 failMessageText": "",
+    "6afeb4eac3c31838f731b24b": "Eliminate Scavs with a machine gun"
 }

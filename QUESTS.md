@@ -213,7 +213,7 @@ New zones are in `db/CustomQuestZones/C1_C4_C6_C7_C8_C9.json`. The first four ar
 | L111 | Storyteller | Such Shoot, Many Pellet - Part 1 | Kill 5 Rouges with KS-23 | L32 | Shotgun | `6afeb4e62ef19923c668ff38` | Built | Built: 5 Rogue kills with the KS-23M |
 | L112 | Storyteller | Such Shoot, Many Pellet - Part 2 | Kill 10 PMCs with Sawed off Double Barrel | L111 | Shotgun | `6afeb4e7381b33967fbfc0ab` | Built | Built: 10 PMC kills with the MP-43 sawed-off |
 | L113 | Storyteller | Such Shoot, Many Pellet - Part 3 | Kill Shturmann with a Shotgun | L112 | Shotgun | `6afeb4e8a4a7cd859530f896` | Built | Built: kill Shturman with a shotgun |
-| L114 | Storyteller | Tech Tips - Part 1 | Kill 10 Scavs with LMGs | L32 | LMG |  | To build |  |
+| L114 | Storyteller | Tech Tips - Part 1 | Kill 10 Scavs with LMGs | L32 | LMG | `6afeb4eac3c31838f731b249` | Built | Built: 10 Scav kills with LMGs |
 | L115 | Storyteller | Tech Tips - Part 2 | Kill 20 Scavs with LMGs | L114 | LMG |  | To build |  |
 | L116 | Storyteller | Tech Tips - Part 3 | Kill 10 PMCs with LMGS NO armor | L115 | LMG |  | To build |  |
 | L117 | Storyteller | Balance Needed - Part 1 | Kill 10 PMCs with M14 | L32 | DMR |  | To build |  |
