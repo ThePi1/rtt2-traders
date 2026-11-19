@@ -935,5 +935,13 @@
     "6afeb4eac3c31838f731b249 completePlayerMessage": "",
     "6afeb4eac3c31838f731b249 successMessageText": "[PH] Ten. The belt keeps feeding.",
     "6afeb4eac3c31838f731b249 failMessageText": "",
-    "6afeb4eac3c31838f731b24b": "Eliminate Scavs with a machine gun"
+    "6afeb4eac3c31838f731b24b": "Eliminate Scavs with a machine gun",
+    "6afeb4eb2a3eeab74ef5e56f name": "Tech Tips - Part 2",
+    "6afeb4eb2a3eeab74ef5e56f description": "[PH] Tip number two: more is more. Twenty Scavs.",
+    "6afeb4eb2a3eeab74ef5e56f acceptPlayerMessage": "",
+    "6afeb4eb2a3eeab74ef5e56f declinePlayerMessage": "",
+    "6afeb4eb2a3eeab74ef5e56f completePlayerMessage": "",
+    "6afeb4eb2a3eeab74ef5e56f successMessageText": "[PH] Twenty. Your shoulder has opinions about this.",
+    "6afeb4eb2a3eeab74ef5e56f failMessageText": "",
+    "6afeb4eb2a3eeab74ef5e571": "Eliminate Scavs with a machine gun"
 }

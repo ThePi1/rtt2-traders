@@ -24959,5 +24959,135 @@
         "successMessageText": "6afeb4eac3c31838f731b249 successMessageText",
         "traderId": "69744632183b55cf9702c981",
         "type": "Elimination"
+    },
+    "6afeb4eb2a3eeab74ef5e56f": {
+        "QuestName": "Tech Tips - Part 2",
+        "_id": "6afeb4eb2a3eeab74ef5e56f",
+        "acceptPlayerMessage": "6afeb4eb2a3eeab74ef5e56f acceptPlayerMessage",
+        "acceptanceAndFinishingSource": "eft",
+        "arenaLocations": [],
+        "canShowNotificationsInGame": true,
+        "changeQuestMessageText": "6afeb4eb2a3eeab74ef5e56f changeQuestMessageText",
+        "completePlayerMessage": "6afeb4eb2a3eeab74ef5e56f completePlayerMessage",
+        "conditions": {
+            "AvailableForFinish": [
+                {
+                    "completeInSeconds": 0,
+                    "conditionType": "CounterCreator",
+                    "counter": {
+                        "conditions": [
+                            {
+                                "bodyPart": [],
+                                "compareMethod": ">=",
+                                "conditionType": "Kills",
+                                "daytime": {
+                                    "from": 0,
+                                    "to": 0
+                                },
+                                "distance": {
+                                    "compareMethod": ">=",
+                                    "value": 0
+                                },
+                                "dynamicLocale": false,
+                                "enemyEquipmentExclusive": [],
+                                "enemyEquipmentInclusive": [],
+                                "enemyHealthEffects": [],
+                                "id": "6afeb4eb2a3eeab74ef5e573",
+                                "resetOnSessionEnd": false,
+                                "savageRole": [],
+                                "target": "Savage",
+                                "value": 0,
+                                "weapon": [
+                                    "5beed0f50db834001c062b12",
+                                    "5cdeb229d7f00c000e7ce174",
+                                    "5d52cc5ba4b9367408500062",
+                                    "64637076203536ad5600c990",
+                                    "64ca3d3954fc657e230529cc",
+                                    "6513ef33e06849f06c0957ca",
+                                    "65268d8ecb944ff1e90ea385",
+                                    "657857faeff4c850222dff1b",
+                                    "65fb023261d5829b2d090755",
+                                    "661ceb1b9311543c7104149b",
+                                    "661cec09b2c6356b4d0c7a36"
+                                ],
+                                "weaponCaliber": [],
+                                "weaponModsExclusive": [],
+                                "weaponModsInclusive": []
+                            }
+                        ],
+                        "id": "6afeb4eb2a3eeab74ef5e572"
+                    },
+                    "doNotResetIfCounterCompleted": false,
+                    "dynamicLocale": false,
+                    "globalQuestCounterId": "",
+                    "id": "6afeb4eb2a3eeab74ef5e571",
+                    "index": 0,
+                    "isNecessary": false,
+                    "isResetOnConditionFailed": false,
+                    "oneSessionOnly": false,
+                    "parentId": "",
+                    "type": "Elimination",
+                    "value": 20,
+                    "visibilityConditions": []
+                }
+            ],
+            "AvailableForStart": [
+                {
+                    "availableAfter": 0,
+                    "conditionType": "Quest",
+                    "dispersion": 0,
+                    "dynamicLocale": false,
+                    "globalQuestCounterId": "",
+                    "id": "6afeb4eb2a3eeab74ef5e570",
+                    "index": 0,
+                    "parentId": "",
+                    "status": [
+                        4
+                    ],
+                    "target": "6afeb4eac3c31838f731b249",
+                    "visibilityConditions": []
+                }
+            ],
+            "Fail": []
+        },
+        "declinePlayerMessage": "6afeb4eb2a3eeab74ef5e56f declinePlayerMessage",
+        "description": "6afeb4eb2a3eeab74ef5e56f description",
+        "failMessageText": "6afeb4eb2a3eeab74ef5e56f failMessageText",
+        "gameModes": [],
+        "image": "/files/quest/icon/64f8b692c8626c7d460401b6.jpg",
+        "instantComplete": false,
+        "isKey": false,
+        "location": "any",
+        "name": "6afeb4eb2a3eeab74ef5e56f name",
+        "note": "6afeb4eb2a3eeab74ef5e56f note",
+        "progressSource": "eft",
+        "rankingModes": [],
+        "restartable": false,
+        "rewards": {
+            "Fail": [],
+            "Started": [],
+            "Success": [
+                {
+                    "availableInGameEditions": [],
+                    "gameMode": [
+                        "regular",
+                        "pve"
+                    ],
+                    "id": "6afeb4eb2a3eeab74ef5e574",
+                    "isHidden": false,
+                    "target": "LMG",
+                    "type": "Skill",
+                    "unknown": false,
+                    "value": 1500
+                }
+            ]
+        },
+        "secretQuest": false,
+        "side": "pmc",
+        "startedMessageText": "6afeb4eb2a3eeab74ef5e56f startedMessageText",
+        "status": 0,
+        "successMessageText": "6afeb4eb2a3eeab74ef5e56f successMessageText",
+        "traderId": "69744632183b55cf9702c981",
+        "type": "Elimination"
     }
 }
