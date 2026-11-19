@@ -136,5 +136,16 @@
     "6a13536a8c34ba4a387cd00c successMessageText": "[PH] Both gyroscopes! The world is level again. For now.",
     "6a13536a8c34ba4a387cd00c failMessageText": "",
     "6afeb413fd3958936051e904": "Find Gyroscope #2 in raid",
-    "6afeb413fd3958936051e905": "Hand over Gyroscope #2 from Weiss' old room in the residential unit"
+    "6afeb413fd3958936051e905": "Hand over Gyroscope #2 from Weiss' old room in the residential unit",
+    "6a1353b18c34ba4a387cd013 name": "A Tasty Treat",
+    "6a1353b18c34ba4a387cd013 description": "[PH] A tasty treat! For a friend on Shoreline. The chemical is in the operating room on Lighthouse. Take it, go to Shoreline, and remove someone who wants it more than you. Then come home.",
+    "6a1353b18c34ba4a387cd013 acceptPlayerMessage": "",
+    "6a1353b18c34ba4a387cd013 declinePlayerMessage": "",
+    "6a1353b18c34ba4a387cd013 completePlayerMessage": "",
+    "6a1353b18c34ba4a387cd013 successMessageText": "[PH] Delicious. My friend will love it. Here, I will sell you something warm to look through.",
+    "6a1353b18c34ba4a387cd013 failMessageText": "",
+    "6afeb415c2377a139fe30274": "Find the Special Chemical in the operating room on Lighthouse",
+    "6afeb415c2377a139fe30275": "Transit from Lighthouse to Shoreline",
+    "6afeb415c2377a139fe3027e": "Eliminate a PMC on Shoreline and survive the raid",
+    "6afeb415c2377a139fe30283": "Hand over the Special Chemical"
 }
