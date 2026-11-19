@@ -69,5 +69,20 @@
     "6afeb137d0c21ba797f7842f": "Find Golden Star balm in raid",
     "6afeb137d0c21ba797f78430": "Hand over Golden Star balm",
     "6afeb137d0c21ba797f78431": "Find Analgin painkillers in raid",
-    "6afeb137d0c21ba797f78432": "Hand over Analgin painkillers"
+    "6afeb137d0c21ba797f78432": "Hand over Analgin painkillers",
+    "6afeb138974a4842a8a976d1 name": "Jade Idol",
+    "6afeb138974a4842a8a976d1 description": "[PH] Cultural heritage must be preserved, especially when it is valuable. Three antique teapots, two antique vases, an Axel parrot and two Raven figurines, found in raid. For the museum.",
+    "6afeb138974a4842a8a976d1 acceptPlayerMessage": "",
+    "6afeb138974a4842a8a976d1 declinePlayerMessage": "",
+    "6afeb138974a4842a8a976d1 completePlayerMessage": "",
+    "6afeb138974a4842a8a976d1 successMessageText": "[PH] The museum is very grateful. It is a very private museum.",
+    "6afeb138974a4842a8a976d1 failMessageText": "",
+    "6afeb138974a4842a8a976d3": "Find Antique teapot in raid",
+    "6afeb138974a4842a8a976d4": "Hand over Antique teapot",
+    "6afeb138974a4842a8a976d5": "Find Antique vase in raid",
+    "6afeb138974a4842a8a976d6": "Hand over Antique vase",
+    "6afeb138974a4842a8a976d7": "Find Axel parrot figurine in raid",
+    "6afeb138974a4842a8a976d8": "Hand over Axel parrot figurine",
+    "6afeb138974a4842a8a976d9": "Find Raven figurine in raid",
+    "6afeb138974a4842a8a976da": "Hand over Raven figurine"
 }
