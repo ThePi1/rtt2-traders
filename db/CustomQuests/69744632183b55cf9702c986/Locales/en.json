@@ -80,5 +80,15 @@
     "6afeaba7eefdf24932868cbc": "Find Secure Folder Case in raid",
     "6afeaba7eefdf24932868cbd": "Hand over Secure Folder Case",
     "6afeaba7eefdf24932868cbe": "Find Secure Folder Case 2 in raid",
-    "6afeaba7eefdf24932868cbf": "Hand over Secure Folder Case 2"
+    "6afeaba7eefdf24932868cbf": "Hand over Secure Folder Case 2",
+    "6afeaba8a529a1a8f7e54840 name": "English Opening - Part 3",
+    "6afeaba8a529a1a8f7e54840 description": "[PH] Final move. Those cases pointed at Tagilla. The big guy's been running guns out of the factory, and I want him gone. Bring me his welding mask as proof. Checkmate, Killa's little brother.",
+    "6afeaba8a529a1a8f7e54840 acceptPlayerMessage": "",
+    "6afeaba8a529a1a8f7e54840 declinePlayerMessage": "",
+    "6afeaba8a529a1a8f7e54840 completePlayerMessage": "",
+    "6afeaba8a529a1a8f7e54840 successMessageText": "[PH] That mask is going straight on the wall. Hooah.",
+    "6afeaba8a529a1a8f7e54840 failMessageText": "",
+    "6afeaba8a529a1a8f7e54842": "Eliminate Tagilla",
+    "6afeaba8a529a1a8f7e54845": "Find Tagilla's welding mask \"UBEY\", Tagilla's welding mask \"Gorilla\" or Tagilla's welding mask \"ZABEY\" in raid",
+    "6afeaba8a529a1a8f7e54846": "Hand over one of Tagilla's welding masks, found in raid"
 }
