@@ -401,7 +401,7 @@ New zones are in `db/CustomQuestZones/C1_C4_C6_C7_C8_C9.json`. The first four ar
 | N5 | Needle | Blue Bloods | Find and turn in 2 Perftorin |  |  | `6afeb2395d14cdd6e4e24f65` | Built | Built: hand in 2 FIR Perfotoran |
 | N6 | Needle | Alchemical Magic | Find and turn in 4 meds and 1 Propitol |  |  | `6afeb23a85305c13a0bd3eea` | Built | Built: hand in 4 FIR Salewa and 1 FIR Propital (the "4 meds" are my pick: Salewa) |
 | N7 | Needle | Marathon Dose - Part 1 | Transit from Ground Zero to Interchange, survive and extract | Q13 |  | `6afeb23b4b547e3d2395b166` | Needs check | Built: transit Ground Zero to Streets, then Streets to Interchange, then survive and extract on Interchange. Changed from a direct GZ to Interchange transit, which doesn't exist. The game can't require a transit's destination, only its start map |
-| N8 | Needle | Marathon Dose - Part 2 | Transit from Interchange to Woods, survive and extract |  |  |  | To build |  |
+| N8 | Needle | Marathon Dose - Part 2 | Transit from Interchange to Woods, survive and extract |  |  | `6afeb23c2ddd831463275c12` | Needs check | Built: transit Interchange to Customs to Factory to Woods, then extract on Woods. Changed from a direct Interchange to Woods transit, which doesn't exist |
 | N9 | Needle | Marathon Dose - Part 3 | Transit from Woods to Shoreline, survive and extract |  |  |  | To build |  |
 | N10 | Needle | Inject Me Scotty | Find and Turn in 3 CALOK |  |  |  | To build |  |
 | N11 | Needle | It's Wrapping Time | Find and Turn in 2 Military Bandages |  |  |  | To build |  |

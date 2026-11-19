@@ -62,5 +62,16 @@
     "6afeb23b4b547e3d2395b166 failMessageText": "",
     "6afeb23b4b547e3d2395b167": "Transit from Ground Zero to Streets of Tarkov",
     "6afeb23b4b547e3d2395b168": "Transit from Streets of Tarkov to Interchange",
-    "6afeb23b4b547e3d2395b174": "Survive and extract from Interchange"
+    "6afeb23b4b547e3d2395b174": "Survive and extract from Interchange",
+    "6afeb23c2ddd831463275c12 name": "Marathon Dose - Part 2",
+    "6afeb23c2ddd831463275c12 description": "[PH] Round two. Interchange to Woods. There's no straight road, so go through Customs and Factory. Keep moving and stay hydrated. Actually, don't stay hydrated, it dilutes the product.",
+    "6afeb23c2ddd831463275c12 acceptPlayerMessage": "",
+    "6afeb23c2ddd831463275c12 declinePlayerMessage": "",
+    "6afeb23c2ddd831463275c12 completePlayerMessage": "",
+    "6afeb23c2ddd831463275c12 successMessageText": "[PH] Three maps deep and still standing. You're my best test subject.",
+    "6afeb23c2ddd831463275c12 failMessageText": "",
+    "6afeb23c2ddd831463275c13": "Transit from Interchange to Customs",
+    "6afeb23c2ddd831463275c14": "Transit from Customs to Factory",
+    "6afeb23c2ddd831463275c15": "Transit from Factory to Woods",
+    "6afeb23c2ddd831463275c26": "Survive and extract from Woods"
 }
