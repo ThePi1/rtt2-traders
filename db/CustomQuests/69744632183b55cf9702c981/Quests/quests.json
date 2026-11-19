@@ -9054,11 +9054,11 @@
                 {
                     "availableInGameEditions": [],
                     "id": "6a0ce95dde041c7f96100a80",
-                    "index": 0,
-                    "target": "MagDrills",
+                    "target": "Endurance",
                     "type": "Skill",
                     "unknown": false,
-                    "value": 1500
+                    "value": 1500,
+                    "index": 0
                 }
             ]
         },
@@ -11216,11 +11216,11 @@
                 {
                     "availableInGameEditions": [],
                     "id": "6a09463cff1eccc62be30e8d",
-                    "index": 0,
-                    "target": "AimDrills",
+                    "target": "MagDrills",
                     "type": "Skill",
                     "unknown": false,
-                    "value": 1000
+                    "value": 1000,
+                    "index": 0
                 }
             ]
         },
@@ -11229,7 +11229,7 @@
         "startedMessageText": "6a094632ff1eccc62be30e8b startedMessageText",
         "successMessageText": "6a094632ff1eccc62be30e8b successMessageText",
         "traderId": "69744632183b55cf9702c981",
-        "type": "PickUp"
+        "type": "Elimination"
     },
     "6a09466eff1eccc62be30e92": {
         "QuestName": "Pulling Doubt - Part 2",
@@ -11403,11 +11403,11 @@
                 {
                     "availableInGameEditions": [],
                     "id": "6a094679ff1eccc62be30e93",
-                    "index": 0,
-                    "target": "AimDrills",
+                    "target": "MagDrills",
                     "type": "Skill",
                     "unknown": false,
-                    "value": 1500
+                    "value": 1500,
+                    "index": 0
                 }
             ]
         },
@@ -11532,11 +11532,11 @@
                 {
                     "availableInGameEditions": [],
                     "id": "6a0946d8ff1eccc62be30e9c",
-                    "index": 0,
-                    "target": "AimDrills",
+                    "target": "MagDrills",
                     "type": "Skill",
                     "unknown": false,
-                    "value": 2700
+                    "value": 2700,
+                    "index": 0
                 }
             ]
         },
