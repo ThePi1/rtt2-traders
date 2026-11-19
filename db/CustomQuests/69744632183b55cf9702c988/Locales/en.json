@@ -198,5 +198,14 @@
     "6afeb3370d0cd9dc6356567d completePlayerMessage": "",
     "6afeb3370d0cd9dc6356567d successMessageText": "[PH] Fifty mercies. The Eye thanks you on their behalf.",
     "6afeb3370d0cd9dc6356567d failMessageText": "",
-    "6afeb3370d0cd9dc6356567f": "Eliminate Scavs with headshots"
+    "6afeb3370d0cd9dc6356567f": "Eliminate Scavs with headshots",
+    "6afeb338d7f21a807d83dc9c name": "Reap the Cursed",
+    "6afeb338d7f21a807d83dc9c description": "[PH] Two brothers, cursed with masks and hammers. They are not of the Eye. Put them down with a single strike to the head each.",
+    "6afeb338d7f21a807d83dc9c acceptPlayerMessage": "",
+    "6afeb338d7f21a807d83dc9c declinePlayerMessage": "",
+    "6afeb338d7f21a807d83dc9c completePlayerMessage": "",
+    "6afeb338d7f21a807d83dc9c successMessageText": "[PH] The curse is lifted. The brothers sleep.",
+    "6afeb338d7f21a807d83dc9c failMessageText": "",
+    "6afeb338d7f21a807d83dc9e": "Eliminate Tagilla with a headshot",
+    "6afeb338d7f21a807d83dca1": "Eliminate Killa with a headshot"
 }

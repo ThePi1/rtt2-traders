@@ -434,7 +434,7 @@ New zones are in `db/CustomQuestZones/C1_C4_C6_C7_C8_C9.json`. The first four ar
 | V16 | Voron | The Eye Requires Pickup - Part 4 | Pickup Sacrifice at Reserve Control room marked key |  |  | `6afeb335ba41467030270a07` | Built | Built: find and hand in the Locked Case (Sacrifice); its Reserve spawn was already in place |
 | V17 | Voron | Reap The Wicked | Kill 20 PMCs with headshots |  |  | `6afeb336c2c73fe5c7aa0b0e` | Built | Built: 20 PMC kills with headshots |
 | V18 | Voron | Reap The Unfortunate | Kill 50 Scavs with Headshots |  |  | `6afeb3370d0cd9dc6356567d` | Built | Built: 50 Scav kills with headshots |
-| V19 | Voron | Reap the Cursed | Kill tagilla and killa with headshots |  |  |  | To build |  |
+| V19 | Voron | Reap the Cursed | Kill tagilla and killa with headshots |  |  | `6afeb338d7f21a807d83dc9c` | Built | Built: kill Tagilla and Killa, each with a headshot |
 | V20 | Voron | One Final Delivery | Pickup the Box from ground zero dead scientist and plant on shoreline in same raid |  |  |  | To build |  |
 
 ## Weiss (S)
