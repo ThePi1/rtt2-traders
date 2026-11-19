@@ -101,5 +101,14 @@
     "6afeb23f6170d8e41c7b7376 successMessageText": "[PH] Perfect. The party is going to be wild.",
     "6afeb23f6170d8e41c7b7376 failMessageText": "",
     "6afeb2406170d8e41c7b7378": "Find Army bandage in raid",
-    "6afeb2406170d8e41c7b7379": "Hand over Army bandage"
+    "6afeb2406170d8e41c7b7379": "Hand over Army bandage",
+    "6afeb240ed141d1c7383a66e name": "Poppin a Proppie",
+    "6afeb240ed141d1c7383a66e description": "[PH] Real Propital this time, none of that budget stuff. Three, found in raid. Demand is through the roof.",
+    "6afeb240ed141d1c7383a66e acceptPlayerMessage": "",
+    "6afeb240ed141d1c7383a66e declinePlayerMessage": "",
+    "6afeb240ed141d1c7383a66e completePlayerMessage": "",
+    "6afeb240ed141d1c7383a66e successMessageText": "[PH] Three proppies. My customers are going to pop off.",
+    "6afeb240ed141d1c7383a66e failMessageText": "",
+    "6afeb241ed141d1c7383a670": "Find Propital regenerative stimulant injector in raid",
+    "6afeb241ed141d1c7383a671": "Hand over Propital regenerative stimulant injector"
 }

@@ -405,7 +405,7 @@ New zones are in `db/CustomQuestZones/C1_C4_C6_C7_C8_C9.json`. The first four ar
 | N9 | Needle | Marathon Dose - Part 3 | Transit from Woods to Shoreline, survive and extract |  |  | `6afeb23d2a7c8e0c00d6d0d8` | Needs check | Built: transit Woods to Lighthouse to Shoreline, then extract on Shoreline. Changed from a direct Woods to Shoreline transit, which doesn't exist |
 | N10 | Needle | Inject Me Scotty | Find and Turn in 3 CALOK |  |  | `6afeb23e0e3afc1378c882cd` | Built | Built: hand in 3 FIR CALOK-B |
 | N11 | Needle | It's Wrapping Time | Find and Turn in 2 Military Bandages |  |  | `6afeb23f6170d8e41c7b7376` | Built | Built: hand in 2 FIR Army bandages |
-| N12 | Needle | Poppin a Proppie | Find and Turn in 3 Propitol |  |  |  | To build |  |
+| N12 | Needle | Poppin a Proppie | Find and Turn in 3 Propitol |  |  | `6afeb240ed141d1c7383a66e` | Built | Built: hand in 3 FIR Propital |
 | N13 | Needle | Much Needed Shipment | Find the box containing injectors cases |  |  |  | To build |  |
 | N14 | Needle | Drug Buddies | Kill Reshala and 10 scavs in one raid |  |  |  | To build |  |
 | N15 | Needle | Soundcloud Soliloquy | Look for 50 Cent bibliography on Interchange room Toy/book store |  |  |  | To build |  |
