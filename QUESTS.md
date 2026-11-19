@@ -38,6 +38,42 @@ Quest ids are the quest's `_id` in `db/CustomQuests/<trader>/Quests`. Unlocked-b
 - [ ] **Q30 Thank You For Playing:** the 1,000 XP is a placeholder.
 - [ ] **Before opening a PR:** merge `origin/main` into this branch. Main has `Plugin.cs` and README changes this branch doesn't have.
 
+From the new quests (built 2026-11-19). Every new quest's description and success text is my [PH] text.
+
+- [ ] **Not built, waiting on you** (reasons in each row's Notes):
+  - A21–A23 (the "absurd" gun builds)
+  - P16 (no bowling ball item)
+  - X6 (too open)
+  - X21 and L42 (no game dev room found on Streets)
+  - V13 and V14 (locations unclear)
+  - L31 (same task as L32)
+  - A29–A30 are Skipped: their items don't exist.
+- [ ] **Chains that skip an unbuilt quest:** these start after an earlier quest until the missing one exists. A24 starts after A20, P17 after P15, X7 after X5, X22 after X20, V15 after V12, L43 after L32. Re-point them when the missing quests are built.
+- [ ] **Design rewards left out:**
+  - A10: unlock Price (Q8 already unlocks Price)
+  - A14: unlock all maps
+  - A17, A18: assort unlocks (no offer chosen)
+  - P10, P11: rig and backpack sell unlocks (what a trader buys isn't quest-locked)
+  - X22: Chimera unlock
+  - V2: encoder and DSP craft
+  - V12: Pyramid Head Funko (no such item)
+  - S4: "M754" (no such item)
+  - S20 and S21: flea bans. L.I.M.P. has `CanSellOnRagfair: true` in `CultPlate.json`.
+- [ ] **Placeholders and readings to confirm:**
+  - L120 reward: 100k XP and skill points; the design says "has to be really good".
+  - L108: "M4C9" read as the Colt M4A1.
+  - L117 and L118: "M14" read as the Springfield M1A.
+  - S1 and S16: "rogues" on Labs built as Raiders.
+  - S11: laundry detergent built as Ox bleach.
+  - X24: the "tape key" room built as the resort admin office.
+  - N13: built with the base Injector case, because the custom `69bb4628…` item doesn't exist.
+  - A17 and A18: Holosun and Trijicon SRS-02 stand in for the anime sights.
+  - A7: check the design, since it may need a Xiaoming tie-in.
+- [ ] **Prices and numbers I picked:** XP and roubles on every new quest. Offers: Voron's cultist knife barter, M80A1, 7N40, 5.45 and 7.62 BP, .338 FMJ and AP; Weiss's REAP-IR (250k), ECHO1 (180k), T-7 (650k) and L.I.M.P. (180k).
+- [ ] **"Same raid" isn't enforced** where two steps are separate counters: P4, P6, N14, V20, A28. The game also can't require a transit's destination, only the map it starts from: A28, N7–N9, S9, S14.
+- [ ] **N7–N9 Marathon Dose:** the direct transits in the design don't exist. They now go GZ → Streets → Interchange, Interchange → Customs → Factory → Woods, and Woods → Lighthouse → Shoreline.
+- [ ] **Wrapped Package `69afb77d…`:** the Ground Zero spawn (labelled V20) used this item. It now spawns the Final Sacrifice (V20's item per the sheet), and the Wrapped Package spawns on Streets for X19.
+
 
 ## Check in game
 
@@ -94,6 +130,46 @@ New zones are in `db/CustomQuestZones/C1_C4_C6_C7_C8_C9.json`. The first four ar
 - [ ] **Q28 Refusal and Q29 Acceptance:** turning one in fails the other.
 - [ ] **Q30 Thank You For Playing:** gives 1,000 XP and 1 Bitcoin.
 
+### New quests to check in game (built 2026-11-19)
+
+New zones are in one file per trader: `atlas.json`, `price.json`, `xiaoming.json`, `needle.json`, `voron.json` and `weiss.json` in `db/CustomQuestZones`. Every row marked **Needs check** names its zones. These are the least certain:
+
+- [ ] **Heights I set by hand**, because the game's floor map only had another storey there:
+  - `A24_3` (Razvedchikov 7 apartment)
+  - `P4_1` (Tarbank)
+  - `P9_2` (IDEA cafe)
+  - `X15` (Klimov food court)
+  - `X24_1` (W222), `X24_2` (E306), `X24_4` (resort admin office)
+  - `X3_4` (gas station office)
+  - `N16` (island)
+  - `N17` (cinema stage)
+  - `S10_1` (sky-bridge)
+- [ ] **No floor mapped at all; check that they're reachable:**
+  - `A20_1` and `A20_2` (crashed drones)
+  - `X2_2` (train)
+  - `X19` (Transtechexport)
+  - `X20_4` (Sadovaya Burger Spot)
+  - `P13_2` (Sportmarket)
+  - `P6` (street ATM)
+  - `P17` (Brodion bar)
+  - `V20` (old wreck)
+- [ ] **New forced spawns:**
+  - A8 Hidden Shipment at the Shoreline railway bridge
+  - A28 Case For Atlas in the resort helicopter
+  - X19 Wrapped Package in Transtechexport
+  - N15 Rap Journal in the Interchange book store
+  - V20 Final Sacrifice on Ground Zero (existing spot, new item)
+- [ ] **Overlapping place zones:** the game remembers only the last one you walked into.
+  - `P18` and `V2` sit together in dorm 314, inside Jaeger's `huntsman_020`.
+  - `P10_2` (now a positive scale; it was -29 × -9 × -14) overlaps Ragman's `place_merch_020_1`.
+  - `P9_3` was moved to the kitchen by the Customs garages to stay clear of `huntsman_020`.
+- [ ] **Conditions no base quest uses:**
+  - N1 and N2 (UseItem counters)
+  - L44 (10 minutes dehydrated and exhausted)
+  - X9 (headshot kills while wearing Killa's helmet, on raids you survive)
+  - L116 and L109 (excluded armor and optics lists)
+- [ ] **Plants:** each plant takes one whole item or stack and counts 1. A20 now asks for one stack of dollars per drone, P4 for one stack per building, V2 for 2 separate GPUs.
+
 
 ## Storyteller side lines (L)
 
@@ -130,7 +206,7 @@ New zones are in `db/CustomQuestZones/C1_C4_C6_C7_C8_C9.json`. The first four ar
 | L28 | Storyteller | I'm Hungry | Handover 3 FIR noodes and 3 FIR Iskra | L29 | XP, Holodilnick bag | `6a0bb873255fe4bc50f2584a` | Audited | Apex Predator - Part 2 |
 | L29 | Storyteller | Ammo Lover | Handover 8 boxes FIR ammo | L30 | XP | `6a0bb9e8255fe4bc50f25853` | Audited | Dialed In - Part 3 |
 | L30 | Storyteller | Back To Basics | Kill 4 PMCs, 4 Scav with a pistol on Shoreline | L22 |  | `6a0bbb85255fe4bc50f2585a` | Audited | Rest In Pieces |
-| L31 | Storyteller | Broad Consensus | Reach rep 2 with all new traders (minus Storyteller) | Q19 |  |  | To build | Bullet Hose |
+| L31 | Storyteller | Broad Consensus | Reach rep 2 with all new traders (minus Storyteller) | Q19 |  |  | Flagged | Not built: as written it's the same task as L32 Domain Expansion (level 2 with all modded traders). Did you mean standing, or a different level?; Bullet Hose |
 | L32 | Storyteller | Domain Expansion | Reach lv2 rep with all modded traders | Q14 | Unlock all below pt.1 quests, 10k XP | `69f94677a49a5754e709dbae` | Audited | Sheet said "not working": it needs LL2 with Atlas, Needle and Price, who had no quests to raise standing. Reachable once their quests are built.; Sheet: not working |
 | L33 | Storyteller | Live, Laugh, Love - Part 1 | Turn in FIR: 2x Air Filter, 3x GPU, 5x Hose, 5x ES Lamp | L32 | Hideout Management levels | `69f94739a49a5754e709dbb8` | Audited |  |
 | L34 | Storyteller | Live, Laugh, Love - Part 2 | Turn in FIR: 2x AESA, 7x Screws, 7x Bolt, 1x Intelligence Folder, 2x Iskra | L33 | Hideout Management levels | `69f94af1a49a5754e709dbbe` | Audited | Fixed: asks for 2 Iskra (was 1), found in raid (`a2cf888`). |
@@ -141,7 +217,7 @@ New zones are in `db/CustomQuestZones/C1_C4_C6_C7_C8_C9.json`. The first four ar
 | L39 | Storyteller | Running on Empty - Part 1 | Kill 10 PMCs under the effects of stimulants | L32 | Metabolism levels | `69f9feebe53cfbf3b12f0784` | Audited |  |
 | L40 | Storyteller | Running on Empty - Part 2 | Turn in FIR: 10x Iskra, 10x Water | L39 | Metabolism levels | `69fa0399e53cfbf3b12f078a` | Audited |  |
 | L41 | Storyteller | Running on Empty - Part 3 | Kill 4 PMCs with while wearing PACA and a pompon hat, while light bleeding | L40 | Metabolism levels | `69fa050ce53cfbf3b12f078e` | Audited |  |
-| L42 | Storyteller | Safe on Block - Part 1 | Mark all the red computers in the game dev room on Streets | L32 | Immunity levels |  | To build |  |
+| L42 | Storyteller | Safe on Block - Part 1 | Mark all the red computers in the game dev room on Streets | L32 | Immunity levels |  | Flagged | Not built: no game dev room on Streets that I could find (same as X21). L43 starts after Domain Expansion until this exists |
 | L43 | Storyteller | Safe on Block - Part 2 | Shoot: 1 PMC in the left leg with a shotgun >50m, 1PMC in the right leg with a shotgun >50m, 1PMC in the torso with a shotgun >65m | L42 | Immunity levels | `6afeb4d643d1cd87c702de21` | Built | Built: shotgun hits on PMCs: left leg at 50 m+, right leg at 50 m+, torso (chest or stomach) at 65 m+ (hits, not kills, as the design says "shoot"). Starts after Domain Expansion because L42 isn't built |
 | L44 | Storyteller | Safe on Block - Part 3 | Survive with no food and no water for 10 minutes, then survive and extract | L43 | Immunity levels | `6afeb4d7d1605edd10f081e0` | Needs check | Built: a 10-minute HealthEffect counter with both Dehydration and Exhaustion on the stomach, then survive and extract. The HealthEffect timing is my best reading of the client; check it in game |
 | L45 | Storyteller | Dodge Caravan - Part 1 | Get 3 Scav kills with dehydration | L32 | Endurance levels | `69ff8a544a655e862e8149ce` | Audited |  |
