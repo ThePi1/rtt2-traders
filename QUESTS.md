@@ -219,7 +219,7 @@ New zones are in `db/CustomQuestZones/C1_C4_C6_C7_C8_C9.json`. The first four ar
 | L117 | Storyteller | Balance Needed - Part 1 | Kill 10 PMCs with M14 | L32 | DMR | `6afeb4ed45e216171112aef6` | Built | Built: 10 PMC kills with the Springfield M1A (the design's "M14"; the M1A is the only one in the game) |
 | L118 | Storyteller | Balance Needed - Part 2 | Kill Glukhar with M14 | L117 | DMR | `6afeb4ef6c18a18d9022efba` | Built | Built: kill Glukhar with the M1A |
 | L119 | Storyteller | Balance Needed - Part 3 | Kill Schturmann with AK50 | L118 | DMR | `6afeb4f0ffaa31f11d47dba9` | Built | Built: kill Shturman with the AK-50 |
-| L120 | Storyteller | Ace's Legacy | Kill all bosses, transiting in between |  | Has to be really good |  | To build |  |
+| L120 | Storyteller | Ace's Legacy | Kill all bosses, transiting in between |  | Has to be really good | `6afeb4f10d58e0df0c7b0487` | Flagged | Built: kill all 11 bosses (Reshala, Killa, Shturman, Glukhar, Sanitar, Tagilla, Kaban, Kollontay, Knight, Zryachiy, Partisan). "Transiting in between" can't be required. Reward is 100k XP and 5 skill boosts as a placeholder: the design says "has to be really good", so pick it |
 
 ## Main story (Q)
 
