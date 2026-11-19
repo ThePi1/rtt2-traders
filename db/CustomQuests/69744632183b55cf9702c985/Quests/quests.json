@@ -1793,5 +1793,149 @@
         "successMessageText": "6afeb23e0e3afc1378c882cd successMessageText",
         "traderId": "69744632183b55cf9702c985",
         "type": "PickUp"
+    },
+    "6afeb23f6170d8e41c7b7376": {
+        "QuestName": "It's Wrapping Time",
+        "_id": "6afeb23f6170d8e41c7b7376",
+        "acceptPlayerMessage": "6afeb23f6170d8e41c7b7376 acceptPlayerMessage",
+        "acceptanceAndFinishingSource": "eft",
+        "arenaLocations": [],
+        "canShowNotificationsInGame": true,
+        "changeQuestMessageText": "6afeb23f6170d8e41c7b7376 changeQuestMessageText",
+        "completePlayerMessage": "6afeb23f6170d8e41c7b7376 completePlayerMessage",
+        "conditions": {
+            "AvailableForFinish": [
+                {
+                    "conditionType": "FindItem",
+                    "countInRaid": false,
+                    "dogtagLevel": 0,
+                    "dynamicLocale": false,
+                    "globalQuestCounterId": "",
+                    "id": "6afeb2406170d8e41c7b7378",
+                    "index": 0,
+                    "isEncoded": false,
+                    "maxDurability": 100,
+                    "minDurability": 0,
+                    "onlyFoundInRaid": true,
+                    "parentId": "",
+                    "target": [
+                        "5751a25924597722c463c472"
+                    ],
+                    "value": 2,
+                    "visibilityConditions": []
+                },
+                {
+                    "conditionType": "HandoverItem",
+                    "dogtagLevel": 0,
+                    "dynamicLocale": false,
+                    "globalQuestCounterId": "",
+                    "id": "6afeb2406170d8e41c7b7379",
+                    "index": 0,
+                    "isEncoded": false,
+                    "maxDurability": 100,
+                    "minDurability": 0,
+                    "onlyFoundInRaid": true,
+                    "parentId": "",
+                    "target": [
+                        "5751a25924597722c463c472"
+                    ],
+                    "value": 2,
+                    "visibilityConditions": []
+                }
+            ],
+            "AvailableForStart": [
+                {
+                    "availableAfter": 0,
+                    "conditionType": "Quest",
+                    "dispersion": 0,
+                    "dynamicLocale": false,
+                    "globalQuestCounterId": "",
+                    "id": "6afeb2406170d8e41c7b7377",
+                    "index": 0,
+                    "parentId": "",
+                    "status": [
+                        4
+                    ],
+                    "target": "6afeb23e0e3afc1378c882cd",
+                    "visibilityConditions": []
+                }
+            ],
+            "Fail": []
+        },
+        "declinePlayerMessage": "6afeb23f6170d8e41c7b7376 declinePlayerMessage",
+        "description": "6afeb23f6170d8e41c7b7376 description",
+        "failMessageText": "6afeb23f6170d8e41c7b7376 failMessageText",
+        "gameModes": [],
+        "image": "/files/quest/icon/5969f96786f7741dde183a4f.png",
+        "instantComplete": false,
+        "isKey": false,
+        "location": "any",
+        "name": "6afeb23f6170d8e41c7b7376 name",
+        "note": "6afeb23f6170d8e41c7b7376 note",
+        "progressSource": "eft",
+        "rankingModes": [],
+        "restartable": false,
+        "rewards": {
+            "Fail": [],
+            "Started": [],
+            "Success": [
+                {
+                    "availableInGameEditions": [],
+                    "gameMode": [
+                        "regular",
+                        "pve"
+                    ],
+                    "id": "6afeb2406170d8e41c7b737a",
+                    "isHidden": false,
+                    "type": "Experience",
+                    "unknown": false,
+                    "value": 10000
+                },
+                {
+                    "availableInGameEditions": [],
+                    "gameMode": [
+                        "regular",
+                        "pve"
+                    ],
+                    "id": "6afeb2406170d8e41c7b737b",
+                    "isHidden": false,
+                    "target": "69744632183b55cf9702c985",
+                    "type": "TraderStanding",
+                    "unknown": false,
+                    "value": 0.24
+                },
+                {
+                    "availableInGameEditions": [],
+                    "findInRaid": false,
+                    "gameMode": [
+                        "regular",
+                        "pve"
+                    ],
+                    "id": "6afeb2406170d8e41c7b737c",
+                    "isEncoded": false,
+                    "isHidden": false,
+                    "items": [
+                        {
+                            "_id": "6afeb2406170d8e41c7b737d",
+                            "_tpl": "5449016a4bdc2d6f028b456f",
+                            "upd": {
+                                "StackObjectsCount": 80000
+                            }
+                        }
+                    ],
+                    "target": "6afeb2406170d8e41c7b737d",
+                    "type": "Item",
+                    "unknown": false,
+                    "value": 80000
+                }
+            ]
+        },
+        "secretQuest": false,
+        "side": "pmc",
+        "startedMessageText": "6afeb23f6170d8e41c7b7376 startedMessageText",
+        "status": 0,
+        "successMessageText": "6afeb23f6170d8e41c7b7376 successMessageText",
+        "traderId": "69744632183b55cf9702c985",
+        "type": "PickUp"
     }
 }
