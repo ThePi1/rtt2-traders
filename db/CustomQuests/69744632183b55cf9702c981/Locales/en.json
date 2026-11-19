@@ -967,5 +967,13 @@
     "6afeb4ef6c18a18d9022efba completePlayerMessage": "",
     "6afeb4ef6c18a18d9022efba successMessageText": "[PH] Reserve is a little more balanced now.",
     "6afeb4ef6c18a18d9022efba failMessageText": "",
-    "6afeb4ef6c18a18d9022efbc": "Eliminate Glukhar with an M1A"
+    "6afeb4ef6c18a18d9022efbc": "Eliminate Glukhar with an M1A",
+    "6afeb4f0ffaa31f11d47dba9 name": "Balance Needed - Part 3",
+    "6afeb4f0ffaa31f11d47dba9 description": "[PH] The AK-50. Absurd, oversized, perfectly unbalanced. Use it to balance the scales with Shturman.",
+    "6afeb4f0ffaa31f11d47dba9 acceptPlayerMessage": "",
+    "6afeb4f0ffaa31f11d47dba9 declinePlayerMessage": "",
+    "6afeb4f0ffaa31f11d47dba9 completePlayerMessage": "",
+    "6afeb4f0ffaa31f11d47dba9 successMessageText": "[PH] Fifty caliber in the Woods. The scales are level.",
+    "6afeb4f0ffaa31f11d47dba9 failMessageText": "",
+    "6afeb4f0ffaa31f11d47dbab": "Eliminate Shturman with an AK-50"
 }

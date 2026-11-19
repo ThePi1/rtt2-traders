@@ -25674,5 +25674,127 @@
         "successMessageText": "6afeb4ef6c18a18d9022efba successMessageText",
         "traderId": "69744632183b55cf9702c981",
         "type": "Elimination"
+    },
+    "6afeb4f0ffaa31f11d47dba9": {
+        "QuestName": "Balance Needed - Part 3",
+        "_id": "6afeb4f0ffaa31f11d47dba9",
+        "acceptPlayerMessage": "6afeb4f0ffaa31f11d47dba9 acceptPlayerMessage",
+        "acceptanceAndFinishingSource": "eft",
+        "arenaLocations": [],
+        "canShowNotificationsInGame": true,
+        "changeQuestMessageText": "6afeb4f0ffaa31f11d47dba9 changeQuestMessageText",
+        "completePlayerMessage": "6afeb4f0ffaa31f11d47dba9 completePlayerMessage",
+        "conditions": {
+            "AvailableForFinish": [
+                {
+                    "completeInSeconds": 0,
+                    "conditionType": "CounterCreator",
+                    "counter": {
+                        "conditions": [
+                            {
+                                "bodyPart": [],
+                                "compareMethod": ">=",
+                                "conditionType": "Kills",
+                                "daytime": {
+                                    "from": 0,
+                                    "to": 0
+                                },
+                                "distance": {
+                                    "compareMethod": ">=",
+                                    "value": 0
+                                },
+                                "dynamicLocale": false,
+                                "enemyEquipmentExclusive": [],
+                                "enemyEquipmentInclusive": [],
+                                "enemyHealthEffects": [],
+                                "id": "6afeb4f0ffaa31f11d47dbad",
+                                "resetOnSessionEnd": false,
+                                "savageRole": [
+                                    "bossKojaniy"
+                                ],
+                                "target": "Savage",
+                                "value": 0,
+                                "weapon": [
+                                    "67d0576f29f580ebc10efd08"
+                                ],
+                                "weaponCaliber": [],
+                                "weaponModsExclusive": [],
+                                "weaponModsInclusive": []
+                            }
+                        ],
+                        "id": "6afeb4f0ffaa31f11d47dbac"
+                    },
+                    "doNotResetIfCounterCompleted": false,
+                    "dynamicLocale": false,
+                    "globalQuestCounterId": "",
+                    "id": "6afeb4f0ffaa31f11d47dbab",
+                    "index": 0,
+                    "isNecessary": false,
+                    "isResetOnConditionFailed": false,
+                    "oneSessionOnly": false,
+                    "parentId": "",
+                    "type": "Elimination",
+                    "value": 1,
+                    "visibilityConditions": []
+                }
+            ],
+            "AvailableForStart": [
+                {
+                    "availableAfter": 0,
+                    "conditionType": "Quest",
+                    "dispersion": 0,
+                    "dynamicLocale": false,
+                    "globalQuestCounterId": "",
+                    "id": "6afeb4f0ffaa31f11d47dbaa",
+                    "index": 0,
+                    "parentId": "",
+                    "status": [
+                        4
+                    ],
+                    "target": "6afeb4ef6c18a18d9022efba",
+                    "visibilityConditions": []
+                }
+            ],
+            "Fail": []
+        },
+        "declinePlayerMessage": "6afeb4f0ffaa31f11d47dba9 declinePlayerMessage",
+        "description": "6afeb4f0ffaa31f11d47dba9 description",
+        "failMessageText": "6afeb4f0ffaa31f11d47dba9 failMessageText",
+        "gameModes": [],
+        "image": "/files/quest/icon/64a2c8e0e4c3b3082302e5bd.jpg",
+        "instantComplete": false,
+        "isKey": false,
+        "location": "any",
+        "name": "6afeb4f0ffaa31f11d47dba9 name",
+        "note": "6afeb4f0ffaa31f11d47dba9 note",
+        "progressSource": "eft",
+        "rankingModes": [],
+        "restartable": false,
+        "rewards": {
+            "Fail": [],
+            "Started": [],
+            "Success": [
+                {
+                    "availableInGameEditions": [],
+                    "gameMode": [
+                        "regular",
+                        "pve"
+                    ],
+                    "id": "6afeb4f0ffaa31f11d47dbae",
+                    "isHidden": false,
+                    "target": "DMR",
+                    "type": "Skill",
+                    "unknown": false,
+                    "value": 2000
+                }
+            ]
+        },
+        "secretQuest": false,
+        "side": "pmc",
+        "startedMessageText": "6afeb4f0ffaa31f11d47dba9 startedMessageText",
+        "status": 0,
+        "successMessageText": "6afeb4f0ffaa31f11d47dba9 successMessageText",
+        "traderId": "69744632183b55cf9702c981",
+        "type": "Elimination"
     }
 }
