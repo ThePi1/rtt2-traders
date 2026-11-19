@@ -227,5 +227,19 @@
     "6afeada6119f6aae527fe2f7 completePlayerMessage": "",
     "6afeada6119f6aae527fe2f7 successMessageText": "[PH] Two-fifty and still hitscan. You're a legend on the forums now.",
     "6afeada6119f6aae527fe2f7 failMessageText": "",
-    "6afeada6119f6aae527fe2f9": "Eliminate any target with a bolt-action rifle from over 250 meters"
+    "6afeada6119f6aae527fe2f9": "Eliminate any target with a bolt-action rifle from over 250 meters",
+    "6afeadae24543451782f7b1a name": "Meet Your Maker",
+    "6afeadae24543451782f7b1a description": "[PH] This is the big one, brother. My contact left signals on the roofs of the water treatment plant on Lighthouse. Check all three, then take the transit to Shoreline. There's a case in the helicopter at the resort. Grab it and take the vehicle out. Nobody walks out with this.",
+    "6afeadae24543451782f7b1a acceptPlayerMessage": "",
+    "6afeadae24543451782f7b1a declinePlayerMessage": "",
+    "6afeadae24543451782f7b1a completePlayerMessage": "",
+    "6afeadae24543451782f7b1a successMessageText": "[PH] You actually did it. Don't open it. I mean it. ...Okay, maybe later.",
+    "6afeadae24543451782f7b1a failMessageText": "",
+    "6afeadae24543451782f7b1b": "Check the roof of the first water treatment building on Lighthouse",
+    "6afeadae24543451782f7b1c": "Check the roof of the second water treatment building on Lighthouse",
+    "6afeadae24543451782f7b1d": "Check the roof of the third water treatment building on Lighthouse",
+    "6afeadae24543451782f7b1e": "Take the transit from Lighthouse to Shoreline",
+    "6afeadae24543451782f7b1f": "Find the Case For Atlas in the helicopter at the Shoreline resort",
+    "6afeadae24543451782f7b20": "Extract from Shoreline with the vehicle extract",
+    "6afeadae24543451782f7b3e": "Hand over the case"
 }

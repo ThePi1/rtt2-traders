@@ -40,6 +40,47 @@
                     "relativeProbability": 1
                 }
             ]
+        },
+        {
+            "locationId": "(-251.8 -4.0 -51.9)",
+            "probability": 1.0,
+            "template": {
+                "Id": "A28 Case For Atlas (Quest) [18338607-de7c-43f6-8186-8eaf026a20d7]",
+                "IsContainer": false,
+                "useGravity": true,
+                "randomRotation": false,
+                "Position": {
+                    "X": -251.8,
+                    "Y": -4.0,
+                    "Z": -51.9
+                },
+                "Rotation": {
+                    "x": 0,
+                    "y": 0,
+                    "z": 0
+                },
+                "IsGroupPosition": false,
+                "GroupPositions": [],
+                "IsAlwaysSpawn": true,
+                "Root": "5f20576af80e61d62d150e74",
+                "Items": [
+                    {
+                        "_id": "5f20576af80e61d62d150e74",
+                        "_tpl": "69b4d5c725998b5696dcaf77",
+                        "upd": {
+                            "StackObjectsCount": 1
+                        }
+                    }
+                ]
+            },
+            "itemDistribution": [
+                {
+                    "composedKey": {
+                        "key": "69b4d5c725998b5696dcaf77"
+                    },
+                    "relativeProbability": 1
+                }
+            ]
         }
     ]
 }

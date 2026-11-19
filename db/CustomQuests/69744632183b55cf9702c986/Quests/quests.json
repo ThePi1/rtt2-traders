@@ -4454,5 +4454,371 @@
         "successMessageText": "6afeada6119f6aae527fe2f7 successMessageText",
         "traderId": "69744632183b55cf9702c986",
         "type": "Elimination"
+    },
+    "6afeadae24543451782f7b1a": {
+        "QuestName": "Meet Your Maker",
+        "_id": "6afeadae24543451782f7b1a",
+        "acceptPlayerMessage": "6afeadae24543451782f7b1a acceptPlayerMessage",
+        "acceptanceAndFinishingSource": "eft",
+        "arenaLocations": [],
+        "canShowNotificationsInGame": true,
+        "changeQuestMessageText": "6afeadae24543451782f7b1a changeQuestMessageText",
+        "completePlayerMessage": "6afeadae24543451782f7b1a completePlayerMessage",
+        "conditions": {
+            "AvailableForFinish": [
+                {
+                    "completeInSeconds": 0,
+                    "conditionType": "CounterCreator",
+                    "counter": {
+                        "conditions": [
+                            {
+                                "conditionType": "VisitPlace",
+                                "dynamicLocale": false,
+                                "id": "6afeadae24543451782f7b2a",
+                                "target": "A28_1",
+                                "value": 1
+                            },
+                            {
+                                "conditionType": "Location",
+                                "dynamicLocale": false,
+                                "id": "6afeadae24543451782f7b2b",
+                                "target": [
+                                    "Lighthouse"
+                                ]
+                            }
+                        ],
+                        "id": "6afeadae24543451782f7b29"
+                    },
+                    "doNotResetIfCounterCompleted": false,
+                    "dynamicLocale": false,
+                    "globalQuestCounterId": "",
+                    "id": "6afeadae24543451782f7b1b",
+                    "index": 0,
+                    "isNecessary": false,
+                    "isResetOnConditionFailed": false,
+                    "oneSessionOnly": false,
+                    "parentId": "",
+                    "type": "Exploration",
+                    "value": 1,
+                    "visibilityConditions": []
+                },
+                {
+                    "completeInSeconds": 0,
+                    "conditionType": "CounterCreator",
+                    "counter": {
+                        "conditions": [
+                            {
+                                "conditionType": "VisitPlace",
+                                "dynamicLocale": false,
+                                "id": "6afeadae24543451782f7b2e",
+                                "target": "A28_2",
+                                "value": 1
+                            },
+                            {
+                                "conditionType": "Location",
+                                "dynamicLocale": false,
+                                "id": "6afeadae24543451782f7b2f",
+                                "target": [
+                                    "Lighthouse"
+                                ]
+                            }
+                        ],
+                        "id": "6afeadae24543451782f7b2d"
+                    },
+                    "doNotResetIfCounterCompleted": false,
+                    "dynamicLocale": false,
+                    "globalQuestCounterId": "",
+                    "id": "6afeadae24543451782f7b1c",
+                    "index": 0,
+                    "isNecessary": false,
+                    "isResetOnConditionFailed": false,
+                    "oneSessionOnly": false,
+                    "parentId": "",
+                    "type": "Exploration",
+                    "value": 1,
+                    "visibilityConditions": []
+                },
+                {
+                    "completeInSeconds": 0,
+                    "conditionType": "CounterCreator",
+                    "counter": {
+                        "conditions": [
+                            {
+                                "conditionType": "VisitPlace",
+                                "dynamicLocale": false,
+                                "id": "6afeadae24543451782f7b32",
+                                "target": "A28_3",
+                                "value": 1
+                            },
+                            {
+                                "conditionType": "Location",
+                                "dynamicLocale": false,
+                                "id": "6afeadae24543451782f7b33",
+                                "target": [
+                                    "Lighthouse"
+                                ]
+                            }
+                        ],
+                        "id": "6afeadae24543451782f7b31"
+                    },
+                    "doNotResetIfCounterCompleted": false,
+                    "dynamicLocale": false,
+                    "globalQuestCounterId": "",
+                    "id": "6afeadae24543451782f7b1d",
+                    "index": 0,
+                    "isNecessary": false,
+                    "isResetOnConditionFailed": false,
+                    "oneSessionOnly": false,
+                    "parentId": "",
+                    "type": "Exploration",
+                    "value": 1,
+                    "visibilityConditions": []
+                },
+                {
+                    "completeInSeconds": 0,
+                    "conditionType": "CounterCreator",
+                    "counter": {
+                        "conditions": [
+                            {
+                                "conditionType": "ExitStatus",
+                                "dynamicLocale": false,
+                                "id": "6afeadae24543451782f7b36",
+                                "status": [
+                                    "Transit"
+                                ]
+                            },
+                            {
+                                "conditionType": "Location",
+                                "dynamicLocale": false,
+                                "id": "6afeadae24543451782f7b37",
+                                "target": [
+                                    "Lighthouse"
+                                ]
+                            }
+                        ],
+                        "id": "6afeadae24543451782f7b35"
+                    },
+                    "doNotResetIfCounterCompleted": false,
+                    "dynamicLocale": false,
+                    "globalQuestCounterId": "",
+                    "id": "6afeadae24543451782f7b1e",
+                    "index": 0,
+                    "isNecessary": false,
+                    "isResetOnConditionFailed": false,
+                    "oneSessionOnly": false,
+                    "parentId": "",
+                    "type": "Completion",
+                    "value": 1,
+                    "visibilityConditions": [
+                        {
+                            "conditionType": "CompleteCondition",
+                            "id": "6afeadae24543451782f7b21",
+                            "target": "6afeadae24543451782f7b1b"
+                        },
+                        {
+                            "conditionType": "CompleteCondition",
+                            "id": "6afeadae24543451782f7b22",
+                            "target": "6afeadae24543451782f7b1c"
+                        },
+                        {
+                            "conditionType": "CompleteCondition",
+                            "id": "6afeadae24543451782f7b23",
+                            "target": "6afeadae24543451782f7b1d"
+                        }
+                    ]
+                },
+                {
+                    "conditionType": "FindItem",
+                    "countInRaid": false,
+                    "dogtagLevel": 0,
+                    "dynamicLocale": false,
+                    "globalQuestCounterId": "",
+                    "id": "6afeadae24543451782f7b1f",
+                    "index": 0,
+                    "isEncoded": false,
+                    "maxDurability": 100,
+                    "minDurability": 0,
+                    "onlyFoundInRaid": true,
+                    "parentId": "",
+                    "target": [
+                        "69b4d5c725998b5696dcaf77"
+                    ],
+                    "value": 1,
+                    "visibilityConditions": [
+                        {
+                            "conditionType": "CompleteCondition",
+                            "id": "6afeadae24543451782f7b24",
+                            "target": "6afeadae24543451782f7b1e"
+                        }
+                    ]
+                },
+                {
+                    "completeInSeconds": 0,
+                    "conditionType": "CounterCreator",
+                    "counter": {
+                        "conditions": [
+                            {
+                                "conditionType": "ExitStatus",
+                                "dynamicLocale": false,
+                                "id": "6afeadae24543451782f7b3b",
+                                "status": [
+                                    "Survived"
+                                ]
+                            },
+                            {
+                                "conditionType": "ExitName",
+                                "dynamicLocale": false,
+                                "exitName": "Shorl_V-Ex",
+                                "id": "6afeadae24543451782f7b3c"
+                            },
+                            {
+                                "conditionType": "Location",
+                                "dynamicLocale": false,
+                                "id": "6afeadae24543451782f7b3d",
+                                "target": [
+                                    "Shoreline"
+                                ]
+                            }
+                        ],
+                        "id": "6afeadae24543451782f7b3a"
+                    },
+                    "doNotResetIfCounterCompleted": false,
+                    "dynamicLocale": false,
+                    "globalQuestCounterId": "",
+                    "id": "6afeadae24543451782f7b20",
+                    "index": 0,
+                    "isNecessary": false,
+                    "isResetOnConditionFailed": false,
+                    "oneSessionOnly": false,
+                    "parentId": "",
+                    "type": "Completion",
+                    "value": 1,
+                    "visibilityConditions": [
+                        {
+                            "conditionType": "CompleteCondition",
+                            "id": "6afeadae24543451782f7b25",
+                            "target": "6afeadae24543451782f7b1f"
+                        }
+                    ]
+                },
+                {
+                    "conditionType": "HandoverItem",
+                    "dogtagLevel": 0,
+                    "dynamicLocale": false,
+                    "globalQuestCounterId": "",
+                    "id": "6afeadae24543451782f7b3e",
+                    "index": 0,
+                    "isEncoded": false,
+                    "maxDurability": 100,
+                    "minDurability": 0,
+                    "onlyFoundInRaid": true,
+                    "parentId": "",
+                    "target": [
+                        "69b4d5c725998b5696dcaf77"
+                    ],
+                    "value": 1,
+                    "visibilityConditions": [
+                        {
+                            "conditionType": "CompleteCondition",
+                            "id": "6afeadae24543451782f7b26",
+                            "target": "6afeadae24543451782f7b20"
+                        }
+                    ]
+                }
+            ],
+            "AvailableForStart": [
+                {
+                    "availableAfter": 0,
+                    "conditionType": "Quest",
+                    "dispersion": 0,
+                    "dynamicLocale": false,
+                    "globalQuestCounterId": "",
+                    "id": "6afeadae24543451782f7b27",
+                    "index": 0,
+                    "parentId": "",
+                    "status": [
+                        4
+                    ],
+                    "target": "6afeada6119f6aae527fe2f7",
+                    "visibilityConditions": []
+                }
+            ],
+            "Fail": []
+        },
+        "declinePlayerMessage": "6afeadae24543451782f7b1a declinePlayerMessage",
+        "description": "6afeadae24543451782f7b1a description",
+        "failMessageText": "6afeadae24543451782f7b1a failMessageText",
+        "gameModes": [],
+        "image": "/files/quest/icon/5d6faf8f86f7743598553dd4.jpg",
+        "instantComplete": false,
+        "isKey": false,
+        "location": "any",
+        "name": "6afeadae24543451782f7b1a name",
+        "note": "6afeadae24543451782f7b1a note",
+        "progressSource": "eft",
+        "rankingModes": [],
+        "restartable": false,
+        "rewards": {
+            "Fail": [],
+            "Started": [],
+            "Success": [
+                {
+                    "availableInGameEditions": [],
+                    "gameMode": [
+                        "regular",
+                        "pve"
+                    ],
+                    "id": "6afeadae24543451782f7b3f",
+                    "isHidden": false,
+                    "type": "Experience",
+                    "unknown": false,
+                    "value": 25200
+                },
+                {
+                    "availableInGameEditions": [],
+                    "gameMode": [
+                        "regular",
+                        "pve"
+                    ],
+                    "id": "6afeadae24543451782f7b40",
+                    "isHidden": false,
+                    "target": "69744632183b55cf9702c986",
+                    "type": "TraderStanding",
+                    "unknown": false,
+                    "value": 0.14
+                },
+                {
+                    "availableInGameEditions": [],
+                    "findInRaid": false,
+                    "gameMode": [
+                        "regular",
+                        "pve"
+                    ],
+                    "id": "6afeadae24543451782f7b41",
+                    "isEncoded": false,
+                    "isHidden": false,
+                    "items": [
+                        {
+                            "_id": "6afeadae24543451782f7b42",
+                            "_tpl": "5449016a4bdc2d6f028b456f",
+                            "upd": {
+                                "StackObjectsCount": 165000
+                            }
+                        }
+                    ],
+                    "target": "6afeadae24543451782f7b42",
+                    "type": "Item",
+                    "unknown": false,
+                    "value": 165000
+                }
+            ]
+        },
+        "secretQuest": false,
+        "side": "pmc",
+        "startedMessageText": "6afeadae24543451782f7b1a startedMessageText",
+        "status": 0,
+        "successMessageText": "6afeadae24543451782f7b1a successMessageText",
+        "traderId": "69744632183b55cf9702c986",
+        "type": "Completion"
     }
 }
