@@ -1419,5 +1419,235 @@
         "successMessageText": "6afeb23c2ddd831463275c12 successMessageText",
         "traderId": "69744632183b55cf9702c985",
         "type": "Completion"
+    },
+    "6afeb23d2a7c8e0c00d6d0d8": {
+        "QuestName": "Marathon Dose - Part 3",
+        "_id": "6afeb23d2a7c8e0c00d6d0d8",
+        "acceptPlayerMessage": "6afeb23d2a7c8e0c00d6d0d8 acceptPlayerMessage",
+        "acceptanceAndFinishingSource": "eft",
+        "arenaLocations": [],
+        "canShowNotificationsInGame": true,
+        "changeQuestMessageText": "6afeb23d2a7c8e0c00d6d0d8 changeQuestMessageText",
+        "completePlayerMessage": "6afeb23d2a7c8e0c00d6d0d8 completePlayerMessage",
+        "conditions": {
+            "AvailableForFinish": [
+                {
+                    "completeInSeconds": 0,
+                    "conditionType": "CounterCreator",
+                    "counter": {
+                        "conditions": [
+                            {
+                                "conditionType": "ExitStatus",
+                                "dynamicLocale": false,
+                                "id": "6afeb23d2a7c8e0c00d6d0e0",
+                                "status": [
+                                    "Transit"
+                                ]
+                            },
+                            {
+                                "conditionType": "Location",
+                                "dynamicLocale": false,
+                                "id": "6afeb23d2a7c8e0c00d6d0e1",
+                                "target": [
+                                    "Woods"
+                                ]
+                            }
+                        ],
+                        "id": "6afeb23d2a7c8e0c00d6d0df"
+                    },
+                    "doNotResetIfCounterCompleted": false,
+                    "dynamicLocale": false,
+                    "globalQuestCounterId": "",
+                    "id": "6afeb23d2a7c8e0c00d6d0d9",
+                    "index": 0,
+                    "isNecessary": false,
+                    "isResetOnConditionFailed": false,
+                    "oneSessionOnly": false,
+                    "parentId": "",
+                    "type": "Completion",
+                    "value": 1,
+                    "visibilityConditions": []
+                },
+                {
+                    "completeInSeconds": 0,
+                    "conditionType": "CounterCreator",
+                    "counter": {
+                        "conditions": [
+                            {
+                                "conditionType": "ExitStatus",
+                                "dynamicLocale": false,
+                                "id": "6afeb23d2a7c8e0c00d6d0e4",
+                                "status": [
+                                    "Transit"
+                                ]
+                            },
+                            {
+                                "conditionType": "Location",
+                                "dynamicLocale": false,
+                                "id": "6afeb23d2a7c8e0c00d6d0e5",
+                                "target": [
+                                    "Lighthouse"
+                                ]
+                            }
+                        ],
+                        "id": "6afeb23d2a7c8e0c00d6d0e3"
+                    },
+                    "doNotResetIfCounterCompleted": false,
+                    "dynamicLocale": false,
+                    "globalQuestCounterId": "",
+                    "id": "6afeb23d2a7c8e0c00d6d0da",
+                    "index": 0,
+                    "isNecessary": false,
+                    "isResetOnConditionFailed": false,
+                    "oneSessionOnly": false,
+                    "parentId": "",
+                    "type": "Completion",
+                    "value": 1,
+                    "visibilityConditions": [
+                        {
+                            "conditionType": "CompleteCondition",
+                            "id": "6afeb23d2a7c8e0c00d6d0db",
+                            "target": "6afeb23d2a7c8e0c00d6d0d9"
+                        }
+                    ]
+                },
+                {
+                    "completeInSeconds": 0,
+                    "conditionType": "CounterCreator",
+                    "counter": {
+                        "conditions": [
+                            {
+                                "conditionType": "ExitStatus",
+                                "dynamicLocale": false,
+                                "id": "6afeb23d2a7c8e0c00d6d0e8",
+                                "status": [
+                                    "Survived"
+                                ]
+                            },
+                            {
+                                "conditionType": "Location",
+                                "dynamicLocale": false,
+                                "id": "6afeb23d2a7c8e0c00d6d0e9",
+                                "target": [
+                                    "Shoreline"
+                                ]
+                            }
+                        ],
+                        "id": "6afeb23d2a7c8e0c00d6d0e7"
+                    },
+                    "doNotResetIfCounterCompleted": false,
+                    "dynamicLocale": false,
+                    "globalQuestCounterId": "",
+                    "id": "6afeb23d2a7c8e0c00d6d0e6",
+                    "index": 0,
+                    "isNecessary": false,
+                    "isResetOnConditionFailed": false,
+                    "oneSessionOnly": false,
+                    "parentId": "",
+                    "type": "Completion",
+                    "value": 1,
+                    "visibilityConditions": [
+                        {
+                            "conditionType": "CompleteCondition",
+                            "id": "6afeb23d2a7c8e0c00d6d0dc",
+                            "target": "6afeb23d2a7c8e0c00d6d0da"
+                        }
+                    ]
+                }
+            ],
+            "AvailableForStart": [
+                {
+                    "availableAfter": 0,
+                    "conditionType": "Quest",
+                    "dispersion": 0,
+                    "dynamicLocale": false,
+                    "globalQuestCounterId": "",
+                    "id": "6afeb23d2a7c8e0c00d6d0dd",
+                    "index": 0,
+                    "parentId": "",
+                    "status": [
+                        4
+                    ],
+                    "target": "6afeb23c2ddd831463275c12",
+                    "visibilityConditions": []
+                }
+            ],
+            "Fail": []
+        },
+        "declinePlayerMessage": "6afeb23d2a7c8e0c00d6d0d8 declinePlayerMessage",
+        "description": "6afeb23d2a7c8e0c00d6d0d8 description",
+        "failMessageText": "6afeb23d2a7c8e0c00d6d0d8 failMessageText",
+        "gameModes": [],
+        "image": "/files/quest/icon/5d6faf8f86f7743598553dd4.jpg",
+        "instantComplete": false,
+        "isKey": false,
+        "location": "any",
+        "name": "6afeb23d2a7c8e0c00d6d0d8 name",
+        "note": "6afeb23d2a7c8e0c00d6d0d8 note",
+        "progressSource": "eft",
+        "rankingModes": [],
+        "restartable": false,
+        "rewards": {
+            "Fail": [],
+            "Started": [],
+            "Success": [
+                {
+                    "availableInGameEditions": [],
+                    "gameMode": [
+                        "regular",
+                        "pve"
+                    ],
+                    "id": "6afeb23d2a7c8e0c00d6d0ea",
+                    "isHidden": false,
+                    "type": "Experience",
+                    "unknown": false,
+                    "value": 8800
+                },
+                {
+                    "availableInGameEditions": [],
+                    "gameMode": [
+                        "regular",
+                        "pve"
+                    ],
+                    "id": "6afeb23d2a7c8e0c00d6d0eb",
+                    "isHidden": false,
+                    "target": "69744632183b55cf9702c985",
+                    "type": "TraderStanding",
+                    "unknown": false,
+                    "value": 0.24
+                },
+                {
+                    "availableInGameEditions": [],
+                    "findInRaid": false,
+                    "gameMode": [
+                        "regular",
+                        "pve"
+                    ],
+                    "id": "6afeb23d2a7c8e0c00d6d0ec",
+                    "isEncoded": false,
+                    "isHidden": false,
+                    "items": [
+                        {
+                            "_id": "6afeb23d2a7c8e0c00d6d0ed",
+                            "_tpl": "5449016a4bdc2d6f028b456f",
+                            "upd": {
+                                "StackObjectsCount": 70000
+                            }
+                        }
+                    ],
+                    "target": "6afeb23d2a7c8e0c00d6d0ed",
+                    "type": "Item",
+                    "unknown": false,
+                    "value": 70000
+                }
+            ]
+        },
+        "secretQuest": false,
+        "side": "pmc",
+        "startedMessageText": "6afeb23d2a7c8e0c00d6d0d8 startedMessageText",
+        "status": 0,
+        "successMessageText": "6afeb23d2a7c8e0c00d6d0d8 successMessageText",
+        "traderId": "69744632183b55cf9702c985",
+        "type": "Completion"
     }
 }
