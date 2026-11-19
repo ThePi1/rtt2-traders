@@ -14,5 +14,14 @@
     "6afeb235e23e31936618763b completePlayerMessage": "",
     "6afeb235e23e31936618763b successMessageText": "[PH] Told you. Orange is the new green.",
     "6afeb235e23e31936618763b failMessageText": "",
-    "6afeb236e23e31936618763d": "Use an L1 (Norepinephrine) stimulant in raid"
+    "6afeb236e23e31936618763d": "Use an L1 (Norepinephrine) stimulant in raid",
+    "6afeb23798a1535593639753 name": "I Can't Aim",
+    "6afeb23798a1535593639753 description": "[PH] A client of mine can't hit the broad side of a barn. Says it's his eyes. Whatever, I don't ask. He wants a LEDX, found in raid. Big money, my guy.",
+    "6afeb23798a1535593639753 acceptPlayerMessage": "",
+    "6afeb23798a1535593639753 declinePlayerMessage": "",
+    "6afeb23798a1535593639753 completePlayerMessage": "",
+    "6afeb23798a1535593639753 successMessageText": "[PH] Beautiful. Here's a little something extra for the trouble.",
+    "6afeb23798a1535593639753 failMessageText": "",
+    "6afeb23798a1535593639755": "Find LEDX Skin Transilluminator or LEDX Skin Transilluminator (US Version) in raid",
+    "6afeb23798a1535593639756": "Hand over a LEDX Skin Transilluminator, found in raid"
 }
