@@ -573,6 +573,18 @@
             "Success": [
                 {
                     "availableInGameEditions": [],
+                    "gameMode": [
+                        "regular",
+                        "pve"
+                    ],
+                    "id": "6afea8bdd7cf2b7654d9eb40",
+                    "isHidden": false,
+                    "type": "Experience",
+                    "unknown": false,
+                    "value": 4000
+                },
+                {
+                    "availableInGameEditions": [],
                     "id": "69cd7cb445b0c8b5f47878bc",
                     "target": "69744632183b55cf9702c983",
                     "type": "TraderUnlock",
