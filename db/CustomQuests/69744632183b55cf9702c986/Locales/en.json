@@ -7,5 +7,16 @@
     "6afeaa3204a15e3fbedf2f2f successMessageText": "[PH] Hooah! The bench lives to fight another day.",
     "6afeaa3204a15e3fbedf2f2f failMessageText": "",
     "6afeaa3204a15e3fbedf2f30": "Find Pack of screws in raid",
-    "6afeaa3204a15e3fbedf2f33": "Hand over Pack of screws"
+    "6afeaa3204a15e3fbedf2f33": "Hand over Pack of screws",
+    "6afeaaf15d1fdb09ec4b2e0d name": "Deregulated Material",
+    "6afeaaf15d1fdb09ec4b2e0d description": "[PH] Some of my projects need, let's say, regulated components. Get me two military batteries and three OFZ shells, found in raid. Don't ask what they're for. Second Amendment, brother.",
+    "6afeaaf15d1fdb09ec4b2e0d acceptPlayerMessage": "",
+    "6afeaaf15d1fdb09ec4b2e0d declinePlayerMessage": "",
+    "6afeaaf15d1fdb09ec4b2e0d completePlayerMessage": "",
+    "6afeaaf15d1fdb09ec4b2e0d successMessageText": "[PH] Outstanding. The ATF can't touch us out here.",
+    "6afeaaf15d1fdb09ec4b2e0d failMessageText": "",
+    "6afeaaf15d1fdb09ec4b2e0f": "Find 6-STEN-140-M military battery in raid",
+    "6afeaaf15d1fdb09ec4b2e10": "Hand over 6-STEN-140-M military battery",
+    "6afeaaf15d1fdb09ec4b2e11": "Find OFZ 30x165mm shell in raid",
+    "6afeaaf15d1fdb09ec4b2e12": "Hand over OFZ 30x165mm shell"
 }

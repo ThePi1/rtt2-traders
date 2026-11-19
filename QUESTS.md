@@ -305,7 +305,7 @@ New zones are in `db/CustomQuestZones/C1_C4_C6_C7_C8_C9.json`. The first four ar
 | ID | Trader | Quest | Tasks | Unlocked by | Reward | Quest id | Status | Notes |
 |---|---|---|---|---|---|---|---|---|
 | A1 | Atlas | Screwed Up | Find 4 packs of screws | L31 | XP, unlock A3 | `6afeaa3204a15e3fbedf2f2f` | Built | Built: hand in 4 FIR packs of screws. Unlocks when Atlas does (Q11), not L31: L31 needs LL2 with Atlas, which needs Atlas quests first; Sheet: Trader Level .14 each quest; Unlock status: complete (initial Atlas) |
-| A2 | Atlas | Deregulated Material | Handover 2x FIR military battery, 3x FIR OFZ shell | L31 | XP, unlock A4 |  | To build | Unlock status: complete (initial Atlas) |
+| A2 | Atlas | Deregulated Material | Handover 2x FIR military battery, 3x FIR OFZ shell | L31 | XP, unlock A4 | `6afeaaf15d1fdb09ec4b2e0d` | Built | Built: hand in 2 FIR tank batteries and 3 FIR OFZ shells. Unlocks with Atlas (Q11), not L31 (see A1); Unlock status: complete (initial Atlas) |
 | A3 | Atlas | 500 Cigarettes | Drop 25 pack winstons at near-relax safe on Streets; Plant time 4s each |  |  |  | To build |  |
 | A4 | Atlas | Close Contact | 2 PMC kills <20meters on Customs |  |  |  | To build |  |
 | A5 | Atlas | Operation Benchmark | Mark 3 workbenches |  |  |  | To build |  |
