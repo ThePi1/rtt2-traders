@@ -919,5 +919,13 @@
     "6afeb4e7381b33967fbfc0ab completePlayerMessage": "",
     "6afeb4e7381b33967fbfc0ab successMessageText": "[PH] Ten. Many pellet, indeed.",
     "6afeb4e7381b33967fbfc0ab failMessageText": "",
-    "6afeb4e7381b33967fbfc0ad": "Eliminate PMCs with an MP-43 sawed-off"
+    "6afeb4e7381b33967fbfc0ad": "Eliminate PMCs with an MP-43 sawed-off",
+    "6afeb4e8a4a7cd859530f896 name": "Such Shoot, Many Pellet - Part 3",
+    "6afeb4e8a4a7cd859530f896 description": "[PH] Shturman likes to fight from range in the Woods. Take that away from him. Shotgun only.",
+    "6afeb4e8a4a7cd859530f896 acceptPlayerMessage": "",
+    "6afeb4e8a4a7cd859530f896 declinePlayerMessage": "",
+    "6afeb4e8a4a7cd859530f896 completePlayerMessage": "",
+    "6afeb4e8a4a7cd859530f896 successMessageText": "[PH] Shturman, outranged by a shotgun. You'll never let him live it down. Well.",
+    "6afeb4e8a4a7cd859530f896 failMessageText": "",
+    "6afeb4e8a4a7cd859530f898": "Eliminate Shturman with a shotgun"
 }

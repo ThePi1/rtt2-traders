@@ -24693,5 +24693,141 @@
         "successMessageText": "6afeb4e7381b33967fbfc0ab successMessageText",
         "traderId": "69744632183b55cf9702c981",
         "type": "Elimination"
+    },
+    "6afeb4e8a4a7cd859530f896": {
+        "QuestName": "Such Shoot, Many Pellet - Part 3",
+        "_id": "6afeb4e8a4a7cd859530f896",
+        "acceptPlayerMessage": "6afeb4e8a4a7cd859530f896 acceptPlayerMessage",
+        "acceptanceAndFinishingSource": "eft",
+        "arenaLocations": [],
+        "canShowNotificationsInGame": true,
+        "changeQuestMessageText": "6afeb4e8a4a7cd859530f896 changeQuestMessageText",
+        "completePlayerMessage": "6afeb4e8a4a7cd859530f896 completePlayerMessage",
+        "conditions": {
+            "AvailableForFinish": [
+                {
+                    "completeInSeconds": 0,
+                    "conditionType": "CounterCreator",
+                    "counter": {
+                        "conditions": [
+                            {
+                                "bodyPart": [],
+                                "compareMethod": ">=",
+                                "conditionType": "Kills",
+                                "daytime": {
+                                    "from": 0,
+                                    "to": 0
+                                },
+                                "distance": {
+                                    "compareMethod": ">=",
+                                    "value": 0
+                                },
+                                "dynamicLocale": false,
+                                "enemyEquipmentExclusive": [],
+                                "enemyEquipmentInclusive": [],
+                                "enemyHealthEffects": [],
+                                "id": "6afeb4e8a4a7cd859530f89a",
+                                "resetOnSessionEnd": false,
+                                "savageRole": [
+                                    "bossKojaniy"
+                                ],
+                                "target": "Savage",
+                                "value": 0,
+                                "weapon": [
+                                    "54491c4f4bdc2db1078b4568",
+                                    "5580223e4bdc2d1c128b457f",
+                                    "56dee2bdd2720bc8328b4567",
+                                    "576165642459773c7a400233",
+                                    "5a38e6bac4a2826c6e06d79b",
+                                    "5a7828548dc32e5a9c28b516",
+                                    "5e848cc2988a8701445df1e8",
+                                    "5e870397991fd70db46995c8",
+                                    "606dae0ab0e443224b421bb7",
+                                    "61f7c9e189e6fb1a5e3ea78d",
+                                    "6259b864ebedf17603599e88",
+                                    "64748cb8de82c85eaf0a273a",
+                                    "66ffa9b66e19cc902401c5e8",
+                                    "67124dcfa3541f2a1f0e788b",
+                                    "674fe9a75e51f1c47c04ec23"
+                                ],
+                                "weaponCaliber": [],
+                                "weaponModsExclusive": [],
+                                "weaponModsInclusive": []
+                            }
+                        ],
+                        "id": "6afeb4e8a4a7cd859530f899"
+                    },
+                    "doNotResetIfCounterCompleted": false,
+                    "dynamicLocale": false,
+                    "globalQuestCounterId": "",
+                    "id": "6afeb4e8a4a7cd859530f898",
+                    "index": 0,
+                    "isNecessary": false,
+                    "isResetOnConditionFailed": false,
+                    "oneSessionOnly": false,
+                    "parentId": "",
+                    "type": "Elimination",
+                    "value": 1,
+                    "visibilityConditions": []
+                }
+            ],
+            "AvailableForStart": [
+                {
+                    "availableAfter": 0,
+                    "conditionType": "Quest",
+                    "dispersion": 0,
+                    "dynamicLocale": false,
+                    "globalQuestCounterId": "",
+                    "id": "6afeb4e8a4a7cd859530f897",
+                    "index": 0,
+                    "parentId": "",
+                    "status": [
+                        4
+                    ],
+                    "target": "6afeb4e7381b33967fbfc0ab",
+                    "visibilityConditions": []
+                }
+            ],
+            "Fail": []
+        },
+        "declinePlayerMessage": "6afeb4e8a4a7cd859530f896 declinePlayerMessage",
+        "description": "6afeb4e8a4a7cd859530f896 description",
+        "failMessageText": "6afeb4e8a4a7cd859530f896 failMessageText",
+        "gameModes": [],
+        "image": "/files/quest/icon/64a2c8e0e4c3b3082302e5bd.jpg",
+        "instantComplete": false,
+        "isKey": false,
+        "location": "any",
+        "name": "6afeb4e8a4a7cd859530f896 name",
+        "note": "6afeb4e8a4a7cd859530f896 note",
+        "progressSource": "eft",
+        "rankingModes": [],
+        "restartable": false,
+        "rewards": {
+            "Fail": [],
+            "Started": [],
+            "Success": [
+                {
+                    "availableInGameEditions": [],
+                    "gameMode": [
+                        "regular",
+                        "pve"
+                    ],
+                    "id": "6afeb4e8a4a7cd859530f89b",
+                    "isHidden": false,
+                    "target": "Shotgun",
+                    "type": "Skill",
+                    "unknown": false,
+                    "value": 2000
+                }
+            ]
+        },
+        "secretQuest": false,
+        "side": "pmc",
+        "startedMessageText": "6afeb4e8a4a7cd859530f896 startedMessageText",
+        "status": 0,
+        "successMessageText": "6afeb4e8a4a7cd859530f896 successMessageText",
+        "traderId": "69744632183b55cf9702c981",
+        "type": "Elimination"
     }
 }
