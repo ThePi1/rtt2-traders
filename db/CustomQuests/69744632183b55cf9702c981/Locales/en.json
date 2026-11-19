@@ -839,5 +839,13 @@
     "6afeb4db6f9edbb7b51df476 completePlayerMessage": "",
     "6afeb4db6f9edbb7b51df476 successMessageText": "[PH] Ten. The cylinder kept spinning, and so did you.",
     "6afeb4db6f9edbb7b51df476 failMessageText": "",
-    "6afeb4db6f9edbb7b51df478": "Eliminate PMCs on Woods with a revolver"
+    "6afeb4db6f9edbb7b51df478": "Eliminate PMCs on Woods with a revolver",
+    "6afeb4dc6346e675182cf535 name": "Revolving Door - Part 2",
+    "6afeb4dc6346e675182cf535 description": "[PH] Raiders hit hard and move in packs. Five of them, with six shots at a time.",
+    "6afeb4dc6346e675182cf535 acceptPlayerMessage": "",
+    "6afeb4dc6346e675182cf535 declinePlayerMessage": "",
+    "6afeb4dc6346e675182cf535 completePlayerMessage": "",
+    "6afeb4dc6346e675182cf535 successMessageText": "[PH] Five raiders. Spin, click, done.",
+    "6afeb4dc6346e675182cf535 failMessageText": "",
+    "6afeb4dc6346e675182cf537": "Eliminate Raiders with a revolver"
 }
