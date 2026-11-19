@@ -307,7 +307,7 @@ New zones are in `db/CustomQuestZones/C1_C4_C6_C7_C8_C9.json`. The first four ar
 | A1 | Atlas | Screwed Up | Find 4 packs of screws | L31 | XP, unlock A3 | `6afeaa3204a15e3fbedf2f2f` | Built | Built: hand in 4 FIR packs of screws. Unlocks when Atlas does (Q11), not L31: L31 needs LL2 with Atlas, which needs Atlas quests first; Sheet: Trader Level .14 each quest; Unlock status: complete (initial Atlas) |
 | A2 | Atlas | Deregulated Material | Handover 2x FIR military battery, 3x FIR OFZ shell | L31 | XP, unlock A4 | `6afeaaf15d1fdb09ec4b2e0d` | Built | Built: hand in 2 FIR tank batteries and 3 FIR OFZ shells. Unlocks with Atlas (Q11), not L31 (see A1); Unlock status: complete (initial Atlas) |
 | A3 | Atlas | 500 Cigarettes | Drop 25 pack winstons at near-relax safe on Streets; Plant time 4s each |  |  | `6afeaaf28d3229c33858b35c` | Needs check | Built: leave 25 Wilston packs (4 s each) at new zone `A3`, the Cardinal apartments sauna on Streets: no safe found near the relaxation area, so the sauna is my reading of "near-relax" |
-| A4 | Atlas | Close Contact | 2 PMC kills <20meters on Customs |  |  |  | To build |  |
+| A4 | Atlas | Close Contact | 2 PMC kills <20meters on Customs |  |  | `6afeaaf3c51077a145c068c1` | Built | Built: 2 PMC kills within 20 m on Customs |
 | A5 | Atlas | Operation Benchmark | Mark 3 workbenches |  |  |  | To build |  |
 | A6 | Atlas | Civil War on Drugs | Some amount of kills with a status effect |  |  |  | To build |  |
 | A7 | Atlas | Fraternizing with the Enemy | Some combo quest with Xiaoming (X4-X6) - mark certain things "false intel" |  |  |  | To build |  |
