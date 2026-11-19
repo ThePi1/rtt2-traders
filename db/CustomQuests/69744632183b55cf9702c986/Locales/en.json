@@ -1,0 +1,11 @@
+{
+    "6afeaa3204a15e3fbedf2f2f name": "Screwed Up",
+    "6afeaa3204a15e3fbedf2f2f description": "[PH] Listen up, operator. My workbench is held together with zip ties and prayer, and I'm fresh out of screws. Bring me four packs, found in raid. None of that flea market garbage, I can tell.",
+    "6afeaa3204a15e3fbedf2f2f acceptPlayerMessage": "",
+    "6afeaa3204a15e3fbedf2f2f declinePlayerMessage": "",
+    "6afeaa3204a15e3fbedf2f2f completePlayerMessage": "",
+    "6afeaa3204a15e3fbedf2f2f successMessageText": "[PH] Hooah! The bench lives to fight another day.",
+    "6afeaa3204a15e3fbedf2f2f failMessageText": "",
+    "6afeaa3204a15e3fbedf2f30": "Find Pack of screws in raid",
+    "6afeaa3204a15e3fbedf2f33": "Hand over Pack of screws"
+}
