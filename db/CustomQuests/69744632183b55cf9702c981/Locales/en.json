@@ -721,5 +721,13 @@
     "6aca8031a26d5245cb767407 acceptPlayerMessage": "",
     "6aca8031a26d5245cb767407 declinePlayerMessage": "",
     "6aca8031a26d5245cb767407 completePlayerMessage": "",
-    "6aca8031a26d5245cb767407 failMessageText": ""
+    "6aca8031a26d5245cb767407 failMessageText": "",
+    "6ac6feffbaae3403037837fe acceptPlayerMessage": "",
+    "6ac6feffbaae3403037837fe declinePlayerMessage": "",
+    "6ac6feffbaae3403037837fe completePlayerMessage": "",
+    "6ac6feffbaae3403037837fe failMessageText": "",
+    "6ac6ff35baae340303783800 acceptPlayerMessage": "",
+    "6ac6ff35baae340303783800 declinePlayerMessage": "",
+    "6ac6ff35baae340303783800 completePlayerMessage": "",
+    "6ac6ff35baae340303783800 failMessageText": ""
 }
