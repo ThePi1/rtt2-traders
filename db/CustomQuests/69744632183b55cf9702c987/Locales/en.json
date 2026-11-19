@@ -55,5 +55,14 @@
     "6a13491a8c34ba4a387ccfa7 completePlayerMessage": "",
     "6a13491a8c34ba4a387ccfa7 successMessageText": "[PH] Now they listen to static. Ha! Take this scope, you will need to see far.",
     "6a13491a8c34ba4a387ccfa7 failMessageText": "",
-    "6afeb408b583c9a04dfc025a": "Mark the listening post in the upper chalet on Lighthouse"
+    "6afeb408b583c9a04dfc025a": "Mark the listening post in the upper chalet on Lighthouse",
+    "6a1349bd8c34ba4a387ccfb0 name": "The Boogie Bomb - Part 1",
+    "6a1349bd8c34ba4a387ccfb0 description": "[PH] I am building something. For dancing! Mostly for dancing. I need an advanced current converter, found in raid. The MCC, ja.",
+    "6a1349bd8c34ba4a387ccfb0 acceptPlayerMessage": "",
+    "6a1349bd8c34ba4a387ccfb0 declinePlayerMessage": "",
+    "6a1349bd8c34ba4a387ccfb0 completePlayerMessage": "",
+    "6a1349bd8c34ba4a387ccfb0 successMessageText": "[PH] Perfect. Take these cards, you will want to visit the Lab more now.",
+    "6a1349bd8c34ba4a387ccfb0 failMessageText": "",
+    "6afeb4095228fe3596aa5069": "Find Advanced current converter in raid",
+    "6afeb4095228fe3596aa506a": "Hand over Advanced current converter"
 }
