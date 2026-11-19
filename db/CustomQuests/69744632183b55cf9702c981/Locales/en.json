@@ -804,5 +804,14 @@
     "6afeb4d643d1cd87c702de21 failMessageText": "",
     "6afeb4d643d1cd87c702de23": "Hit a PMC in the left leg with a shotgun from over 50 meters",
     "6afeb4d643d1cd87c702de26": "Hit a PMC in the right leg with a shotgun from over 50 meters",
-    "6afeb4d643d1cd87c702de29": "Hit a PMC in the torso with a shotgun from over 65 meters"
+    "6afeb4d643d1cd87c702de29": "Hit a PMC in the torso with a shotgun from over 65 meters",
+    "6afeb4d7d1605edd10f081e0 name": "Safe on Block - Part 3",
+    "6afeb4d7d1605edd10f081e0 description": "[PH] Empty stomach. Dry throat. Ten minutes of it, and you keep moving. Then get out alive. The body adapts, if you let it.",
+    "6afeb4d7d1605edd10f081e0 acceptPlayerMessage": "",
+    "6afeb4d7d1605edd10f081e0 declinePlayerMessage": "",
+    "6afeb4d7d1605edd10f081e0 completePlayerMessage": "",
+    "6afeb4d7d1605edd10f081e0 successMessageText": "[PH] You lived through it. Whatever doesn't kill you makes your immune system ridiculous.",
+    "6afeb4d7d1605edd10f081e0 failMessageText": "",
+    "6afeb4d7d1605edd10f081e1": "Go 10 minutes in raid with no food and no water left",
+    "6afeb4d7d1605edd10f081e7": "Survive and extract"
 }

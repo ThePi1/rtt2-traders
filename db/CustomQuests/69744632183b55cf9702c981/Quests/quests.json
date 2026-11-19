@@ -22302,5 +22302,161 @@
         "successMessageText": "6afeb4d643d1cd87c702de21 successMessageText",
         "traderId": "69744632183b55cf9702c981",
         "type": "Elimination"
+    },
+    "6afeb4d7d1605edd10f081e0": {
+        "QuestName": "Safe on Block - Part 3",
+        "_id": "6afeb4d7d1605edd10f081e0",
+        "acceptPlayerMessage": "6afeb4d7d1605edd10f081e0 acceptPlayerMessage",
+        "acceptanceAndFinishingSource": "eft",
+        "arenaLocations": [],
+        "canShowNotificationsInGame": true,
+        "changeQuestMessageText": "6afeb4d7d1605edd10f081e0 changeQuestMessageText",
+        "completePlayerMessage": "6afeb4d7d1605edd10f081e0 completePlayerMessage",
+        "conditions": {
+            "AvailableForFinish": [
+                {
+                    "completeInSeconds": 0,
+                    "conditionType": "CounterCreator",
+                    "counter": {
+                        "conditions": [
+                            {
+                                "bodyPartsWithEffects": [
+                                    {
+                                        "bodyParts": [
+                                            "Stomach"
+                                        ],
+                                        "effects": [
+                                            "Dehydration",
+                                            "Exhaustion"
+                                        ]
+                                    }
+                                ],
+                                "conditionType": "HealthEffect",
+                                "dynamicLocale": false,
+                                "energy": {
+                                    "compareMethod": ">=",
+                                    "value": 0
+                                },
+                                "hydration": {
+                                    "compareMethod": ">=",
+                                    "value": 0
+                                },
+                                "id": "6afeb4d7d1605edd10f081e6",
+                                "time": {
+                                    "compareMethod": ">=",
+                                    "value": 600
+                                }
+                            }
+                        ],
+                        "id": "6afeb4d7d1605edd10f081e5"
+                    },
+                    "doNotResetIfCounterCompleted": false,
+                    "dynamicLocale": false,
+                    "globalQuestCounterId": "",
+                    "id": "6afeb4d7d1605edd10f081e1",
+                    "index": 0,
+                    "isNecessary": false,
+                    "isResetOnConditionFailed": false,
+                    "oneSessionOnly": false,
+                    "parentId": "",
+                    "type": "Completion",
+                    "value": 1,
+                    "visibilityConditions": []
+                },
+                {
+                    "completeInSeconds": 0,
+                    "conditionType": "CounterCreator",
+                    "counter": {
+                        "conditions": [
+                            {
+                                "conditionType": "ExitStatus",
+                                "dynamicLocale": false,
+                                "id": "6afeb4d7d1605edd10f081e9",
+                                "status": [
+                                    "Survived",
+                                    "Transit"
+                                ]
+                            }
+                        ],
+                        "id": "6afeb4d7d1605edd10f081e8"
+                    },
+                    "doNotResetIfCounterCompleted": false,
+                    "dynamicLocale": false,
+                    "globalQuestCounterId": "",
+                    "id": "6afeb4d7d1605edd10f081e7",
+                    "index": 0,
+                    "isNecessary": false,
+                    "isResetOnConditionFailed": false,
+                    "oneSessionOnly": false,
+                    "parentId": "",
+                    "type": "Completion",
+                    "value": 1,
+                    "visibilityConditions": [
+                        {
+                            "conditionType": "CompleteCondition",
+                            "id": "6afeb4d7d1605edd10f081e2",
+                            "target": "6afeb4d7d1605edd10f081e1"
+                        }
+                    ]
+                }
+            ],
+            "AvailableForStart": [
+                {
+                    "availableAfter": 0,
+                    "conditionType": "Quest",
+                    "dispersion": 0,
+                    "dynamicLocale": false,
+                    "globalQuestCounterId": "",
+                    "id": "6afeb4d7d1605edd10f081e3",
+                    "index": 0,
+                    "parentId": "",
+                    "status": [
+                        4
+                    ],
+                    "target": "6afeb4d643d1cd87c702de21",
+                    "visibilityConditions": []
+                }
+            ],
+            "Fail": []
+        },
+        "declinePlayerMessage": "6afeb4d7d1605edd10f081e0 declinePlayerMessage",
+        "description": "6afeb4d7d1605edd10f081e0 description",
+        "failMessageText": "6afeb4d7d1605edd10f081e0 failMessageText",
+        "gameModes": [],
+        "image": "/files/quest/icon/5d6faf8f86f7743598553dd4.jpg",
+        "instantComplete": false,
+        "isKey": false,
+        "location": "any",
+        "name": "6afeb4d7d1605edd10f081e0 name",
+        "note": "6afeb4d7d1605edd10f081e0 note",
+        "progressSource": "eft",
+        "rankingModes": [],
+        "restartable": false,
+        "rewards": {
+            "Fail": [],
+            "Started": [],
+            "Success": [
+                {
+                    "availableInGameEditions": [],
+                    "gameMode": [
+                        "regular",
+                        "pve"
+                    ],
+                    "id": "6afeb4d7d1605edd10f081ea",
+                    "isHidden": false,
+                    "target": "Immunity",
+                    "type": "Skill",
+                    "unknown": false,
+                    "value": 2000
+                }
+            ]
+        },
+        "secretQuest": false,
+        "side": "pmc",
+        "startedMessageText": "6afeb4d7d1605edd10f081e0 startedMessageText",
+        "status": 0,
+        "successMessageText": "6afeb4d7d1605edd10f081e0 successMessageText",
+        "traderId": "69744632183b55cf9702c981",
+        "type": "Completion"
     }
 }
