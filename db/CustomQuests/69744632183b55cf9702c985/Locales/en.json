@@ -6,5 +6,13 @@
     "6afeb234cb77e2b4b8877a8b completePlayerMessage": "",
     "6afeb234cb77e2b4b8877a8b successMessageText": "[PH] See? You feel great. That's the product talking.",
     "6afeb234cb77e2b4b8877a8b failMessageText": "",
-    "6afeb234cb77e2b4b8877a8d": "Use an eTG-change stimulant in raid"
+    "6afeb234cb77e2b4b8877a8d": "Use an eTG-change stimulant in raid",
+    "6afeb235e23e31936618763b name": "Soylent Orange",
+    "6afeb235e23e31936618763b description": "[PH] Okay, okay. Now the orange one. L1. Hits different. Use one in raid and report back. For science.",
+    "6afeb235e23e31936618763b acceptPlayerMessage": "",
+    "6afeb235e23e31936618763b declinePlayerMessage": "",
+    "6afeb235e23e31936618763b completePlayerMessage": "",
+    "6afeb235e23e31936618763b successMessageText": "[PH] Told you. Orange is the new green.",
+    "6afeb235e23e31936618763b failMessageText": "",
+    "6afeb236e23e31936618763d": "Use an L1 (Norepinephrine) stimulant in raid"
 }

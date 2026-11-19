@@ -395,7 +395,7 @@ New zones are in `db/CustomQuestZones/C1_C4_C6_C7_C8_C9.json`. The first four ar
 | ID | Trader | Quest | Tasks | Unlocked by | Reward | Quest id | Status | Notes |
 |---|---|---|---|---|---|---|---|---|
 | N1 | Needle | Soylent Green | Use any ETG | Q13 |  | `6afeb234cb77e2b4b8877a8b` | Needs check | Built: use an eTG-c in raid (a UseItem counter: the client supports it, but no base quest uses one, so check it in game). Starts when Q13 is done; Sheet: Trd LV .24 |
-| N2 | Needle | Soylent Orange | Use any L1 |  |  |  | To build |  |
+| N2 | Needle | Soylent Orange | Use any L1 |  |  | `6afeb235e23e31936618763b` | Needs check | Built: use an L1 in raid (UseItem counter, as N1) |
 | N3 | Needle | I Can't Aim | Find and Turn In 1 Ledx | Q13 | Xp, Graphics Card |  | To build |  |
 | N4 | Needle | Poor Mans Propitol | Find and Turn in 4 Adrenaline |  |  |  | To build |  |
 | N5 | Needle | Blue Bloods | Find and turn in 2 Perftorin |  |  |  | To build |  |
