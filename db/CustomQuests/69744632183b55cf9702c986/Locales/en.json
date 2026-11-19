@@ -90,5 +90,15 @@
     "6afeaba8a529a1a8f7e54840 failMessageText": "",
     "6afeaba8a529a1a8f7e54842": "Eliminate Tagilla",
     "6afeaba8a529a1a8f7e54845": "Find Tagilla's welding mask \"UBEY\", Tagilla's welding mask \"Gorilla\" or Tagilla's welding mask \"ZABEY\" in raid",
-    "6afeaba8a529a1a8f7e54846": "Hand over one of Tagilla's welding masks, found in raid"
+    "6afeaba8a529a1a8f7e54846": "Hand over one of Tagilla's welding masks, found in raid",
+    "6afeac84d3cd2d70e7794577 name": "Paramilitary Pasta",
+    "6afeac84d3cd2d70e7794577 description": "[PH] Every base has a spaghetti corner, and Reserve's is in the food room. Tradition says you leave the cook a superwater. Then go take out Glukhar. The boys call him Spaghetti Joe, and he's been hogging the pasta.",
+    "6afeac84d3cd2d70e7794577 acceptPlayerMessage": "",
+    "6afeac84d3cd2d70e7794577 declinePlayerMessage": "",
+    "6afeac84d3cd2d70e7794577 completePlayerMessage": "",
+    "6afeac84d3cd2d70e7794577 successMessageText": "[PH] Water's down and Joe's down. Carb-loading can resume.",
+    "6afeac84d3cd2d70e7794577 failMessageText": "",
+    "6afeac84d3cd2d70e7794578": "Find the \"spaghetti corner\" in the Reserve food room",
+    "6afeac84d3cd2d70e779457e": "Leave a canister of purified water in the spaghetti corner",
+    "6afeac84d3cd2d70e779457f": "Eliminate \"Spaghetti Joe\" (Glukhar)"
 }
