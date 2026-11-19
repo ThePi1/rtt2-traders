@@ -1988,7 +1988,7 @@
                         "conditions": [
                             {
                                 "bodyPart": [
-                                    "LeftLeg"
+                                    "Stomach"
                                 ],
                                 "compareMethod": ">=",
                                 "conditionType": "Kills",
@@ -2037,7 +2037,7 @@
                         "conditions": [
                             {
                                 "bodyPart": [
-                                    "RightLeg"
+                                    "LeftLeg"
                                 ],
                                 "compareMethod": ">=",
                                 "conditionType": "Kills",
@@ -2070,6 +2070,55 @@
                     "dynamicLocale": false,
                     "globalQuestCounterId": "",
                     "id": "69d2b8d1e60486f553169cb0",
+                    "index": 0,
+                    "isNecessary": false,
+                    "isResetOnConditionFailed": false,
+                    "oneSessionOnly": false,
+                    "parentId": "",
+                    "type": "Elimination",
+                    "value": 1,
+                    "visibilityConditions": []
+                },
+                {
+                    "completeInSeconds": 0,
+                    "conditionType": "CounterCreator",
+                    "counter": {
+                        "conditions": [
+                            {
+                                "bodyPart": [
+                                    "RightLeg"
+                                ],
+                                "compareMethod": ">=",
+                                "conditionType": "Kills",
+                                "daytime": {
+                                    "from": 0,
+                                    "to": 0
+                                },
+                                "distance": {
+                                    "compareMethod": ">=",
+                                    "value": 0
+                                },
+                                "dynamicLocale": false,
+                                "enemyEquipmentExclusive": [],
+                                "enemyEquipmentInclusive": [],
+                                "enemyHealthEffects": [],
+                                "id": "6afea951489641a1e1fa170f",
+                                "resetOnSessionEnd": false,
+                                "savageRole": [],
+                                "target": "AnyPmc",
+                                "value": 0,
+                                "weapon": [],
+                                "weaponCaliber": [],
+                                "weaponModsExclusive": [],
+                                "weaponModsInclusive": []
+                            }
+                        ],
+                        "id": "6afea951489641a1e1fa170e"
+                    },
+                    "doNotResetIfCounterCompleted": false,
+                    "dynamicLocale": false,
+                    "globalQuestCounterId": "",
+                    "id": "6afea951489641a1e1fa170d",
                     "index": 0,
                     "isNecessary": false,
                     "isResetOnConditionFailed": false,
@@ -2118,19 +2167,19 @@
                 {
                     "availableInGameEditions": [],
                     "id": "69d2b80de60486f553169c9e",
-                    "index": 0,
                     "type": "Experience",
                     "unknown": false,
-                    "value": 5000
+                    "value": 5000,
+                    "index": 0
                 },
                 {
                     "availableInGameEditions": [],
                     "id": "69d2b81ce60486f553169c9f",
-                    "index": 0,
                     "target": "579dc571d53a0658a154fbec",
                     "type": "TraderStanding",
                     "unknown": false,
-                    "value": 0.6
+                    "value": 0.6,
+                    "index": 0
                 }
             ]
         },
