@@ -203,5 +203,13 @@
     "6afead9c40832f9c22c4b3ec": "Hand over any 3 books, found in raid",
     "6afead9c40832f9c22c4b3ed": "Find a good reading spot in the Pinewood Hotel lobby",
     "6afead9c40832f9c22c4b3f0": "Find a good reading spot in School No. 30",
-    "6afead9c40832f9c22c4b3f3": "Find a good reading spot in the apartment on Razvedchikov St. 7"
+    "6afead9c40832f9c22c4b3f3": "Find a good reading spot in the apartment on Razvedchikov St. 7",
+    "6afeada403382817c436d262 name": "Packet Loss",
+    "6afeada403382817c436d262 description": "[PH] You know what a headshot at a hundred meters with a DMR looks like from the other end? Packet loss. Total disconnect. Ten of those. Any target.",
+    "6afeada403382817c436d262 acceptPlayerMessage": "",
+    "6afeada403382817c436d262 declinePlayerMessage": "",
+    "6afeada403382817c436d262 completePlayerMessage": "",
+    "6afeada403382817c436d262 successMessageText": "[PH] Ten disconnects. Their ping is now infinite.",
+    "6afeada403382817c436d262 failMessageText": "",
+    "6afeada403382817c436d264": "Eliminate any target with headshots using a marksman rifle from over 100 meters"
 }
