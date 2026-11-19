@@ -191,5 +191,17 @@
     "6afead0e1fb1863eb6a1b86f": "Leave 30 dollars at the crashed drone north of the swamp on Shoreline",
     "6afead0e1fb1863eb6a1b875": "Mark the crashed drone north of the swamp with an MS2000 Marker",
     "6afead0e1fb1863eb6a1b870": "Leave 30 dollars at the crashed drone in the east fields on Shoreline",
-    "6afead0e1fb1863eb6a1b877": "Mark the crashed drone in the east fields with an MS2000 Marker"
+    "6afead0e1fb1863eb6a1b877": "Mark the crashed drone in the east fields with an MS2000 Marker",
+    "6afead9c40832f9c22c4b3e9 name": "Light Reading",
+    "6afead9c40832f9c22c4b3e9 description": "[PH] An operator's mind is his sharpest weapon. Bring me three books, found in raid, any kind. Then scout me some quiet reading spots on Streets: the Pinewood lobby, the old school and that apartment on Razvedchikov with the comfy chairs.",
+    "6afead9c40832f9c22c4b3e9 acceptPlayerMessage": "",
+    "6afead9c40832f9c22c4b3e9 declinePlayerMessage": "",
+    "6afead9c40832f9c22c4b3e9 completePlayerMessage": "",
+    "6afead9c40832f9c22c4b3e9 successMessageText": "[PH] Books and a reading list of locations. Big-brain operator stuff.",
+    "6afead9c40832f9c22c4b3e9 failMessageText": "",
+    "6afead9c40832f9c22c4b3eb": "Find Battered antique book, BakeEzy cook book, Silicon Optoelectronic Integrated Circuits textbook, Advanced Electronic Materials textbook, Clothes design handbook - Part 1 or Clothes design handbook - Part 2 in raid",
+    "6afead9c40832f9c22c4b3ec": "Hand over any 3 books, found in raid",
+    "6afead9c40832f9c22c4b3ed": "Find a good reading spot in the Pinewood Hotel lobby",
+    "6afead9c40832f9c22c4b3f0": "Find a good reading spot in School No. 30",
+    "6afead9c40832f9c22c4b3f3": "Find a good reading spot in the apartment on Razvedchikov St. 7"
 }

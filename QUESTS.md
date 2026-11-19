@@ -327,7 +327,7 @@ New zones are in `db/CustomQuestZones/C1_C4_C6_C7_C8_C9.json`. The first four ar
 | A21 | Atlas | Awkward Assembly - Part 1 | Gun builder quest, but with absurd (not hard just funny) requirements |  | Some assort unlock |  | To build |  |
 | A22 | Atlas | Awkward Assembly - Part 2 | Gun builder quest, but with absurd (not hard just funny) requirements |  | Some assort unlock |  | To build |  |
 | A23 | Atlas | Awkward Assembly - Part 3 | Gun builder quest, but with absurd (not hard just funny) requirements |  | Some assort unlock |  | To build |  |
-| A24 | Atlas | Light Reading | Hand in 3 FIR books. Then, mark 3 good reading spots on Streets (zone TBD). |  |  |  | To build |  |
+| A24 | Atlas | Light Reading | Hand in 3 FIR books. Then, mark 3 good reading spots on Streets (zone TBD). |  |  | `6afead9c40832f9c22c4b3e9` | Needs check | Built: hand in any 3 FIR books, then visit 3 reading spots on Streets: new zones `A24_1` (Pinewood Hotel lobby sofas), `A24_2` (School No. 30), `A24_3` (Razvedchikov 7 apartment). Starts after A20 because A21-A23 are not built |
 | A25 | Atlas | Packet Loss | 10 headshots with DMR from >100m |  |  |  | To build |  |
 | A26 | Atlas | Hitscan - Part 1 | 5 kills with snipers >100m |  |  |  | To build |  |
 | A27 | Atlas | Hitscan - Part 2 | 5 kills with snipers >250m |  |  |  | To build |  |
