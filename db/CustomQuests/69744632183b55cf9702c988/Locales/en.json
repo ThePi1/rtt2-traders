@@ -101,5 +101,13 @@
     "6afeb3283c1a437f7c92d6ef successMessageText": "[PH] The room is furnished. You are nearly one of us.",
     "6afeb3283c1a437f7c92d6ef failMessageText": "",
     "6afeb3283c1a437f7c92d6f1": "Leave a yellow Labs keycard in the marked room on Lighthouse",
-    "6afeb3283c1a437f7c92d6f2": "Leave an Injector case in the marked room on Lighthouse"
+    "6afeb3283c1a437f7c92d6f2": "Leave an Injector case in the marked room on Lighthouse",
+    "6afeb329a6457b3b32f01cc1 name": "Welcome to the Family - Part 6",
+    "6afeb329a6457b3b32f01cc1 description": "[PH] The last rite. Use the blade of the family on one of the lost. Up close. The Eye wants to see it in their eyes.",
+    "6afeb329a6457b3b32f01cc1 acceptPlayerMessage": "",
+    "6afeb329a6457b3b32f01cc1 declinePlayerMessage": "",
+    "6afeb329a6457b3b32f01cc1 completePlayerMessage": "",
+    "6afeb329a6457b3b32f01cc1 successMessageText": "[PH] Welcome home, Struggler. The family provides. Take what you need.",
+    "6afeb329a6457b3b32f01cc1 failMessageText": "",
+    "6afeb329a6457b3b32f01cc3": "Eliminate a PMC with a Cultist knife"
 }
