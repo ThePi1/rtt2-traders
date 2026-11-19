@@ -355,7 +355,7 @@ New zones are in `db/CustomQuestZones/C1_C4_C6_C7_C8_C9.json`. The first four ar
 | X14 | Xiaoming | The Sun Never Sets - Part 2 | Kill 3 BEAR on Lighthouse from 1900-2400, and turn in 3 BEAR dogtags |  |  | `6afeb13fc02ceecb190f670f` | Built | Built: kill 3 BEAR on Lighthouse between 19:00 and 24:00, hand in 3 BEAR dogtags (any level) |
 | X15 | Xiaoming | Better Red Than Dead | Plant Bitcoin in Asian themed resturant on streets |  |  | `6afeb14136d4b397d4079646` | Needs check | Built: plant a Physical Bitcoin at new zone `X15` (the Chinese/sushi/ramen stands in the Klimov food court on Streets) |
 | X16 | Xiaoming | Triple Gem - Part 1 | (Kill Sanitar OR Kill Killa OR Kill any of the goons) and survive and extract, same raid |  |  | `6afeb142d837bdb1a9565910` | Built | Built: kill Sanitar, Killa or any Goon, counted only on a raid you survive |
-| X17 | Xiaoming | Triple Gem - Part 2 | Kill 10PMC with deagle. Turn in 10 dogtags. |  |  |  | To build |  |
+| X17 | Xiaoming | Triple Gem - Part 2 | Kill 10PMC with deagle. Turn in 10 dogtags. |  |  | `6afeb1433ba3052a0c3570eb` | Built | Built: 10 PMC kills with any Desert Eagle, then hand in 10 PMC dogtags (BEAR or USEC) |
 | X18 | Xiaoming | Glory to CCP - Part 1 | Locate the location of Xiaoming's friend on Streets, survive and extract |  |  |  | To build |  |
 | X19 | Xiaoming | Glory to CCP - Part 2 | Locate the place of work of Xiaoming's friend on Streets, find the package, survive and extract, turn in |  |  |  | To build |  |
 | X20 | Xiaoming | Chinatown | Visit all the restaurants on Streets of Tarkov, and mark their front doors |  |  |  | To build |  |

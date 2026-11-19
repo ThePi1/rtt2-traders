@@ -159,5 +159,14 @@
     "6afeb142d837bdb1a9565910 completePlayerMessage": "",
     "6afeb142d837bdb1a9565910 successMessageText": "[PH] An excellent choice. I would have chosen the same.",
     "6afeb142d837bdb1a9565910 failMessageText": "",
-    "6afeb142d837bdb1a9565912": "Eliminate Sanitar, Killa or any of the Goons, and survive the raid"
+    "6afeb142d837bdb1a9565912": "Eliminate Sanitar, Killa or any of the Goons, and survive the raid",
+    "6afeb1433ba3052a0c3570eb name": "Triple Gem - Part 2",
+    "6afeb1433ba3052a0c3570eb description": "[PH] A gem must be cut with a heavy tool. The Desert Eagle is very heavy. Ten PMCs with it, and their dogtags for the records.",
+    "6afeb1433ba3052a0c3570eb acceptPlayerMessage": "",
+    "6afeb1433ba3052a0c3570eb declinePlayerMessage": "",
+    "6afeb1433ba3052a0c3570eb completePlayerMessage": "",
+    "6afeb1433ba3052a0c3570eb successMessageText": "[PH] Ten tags. The records department is overjoyed. They have never been overjoyed before.",
+    "6afeb1433ba3052a0c3570eb failMessageText": "",
+    "6afeb1433ba3052a0c3570ed": "Eliminate PMCs with a Desert Eagle",
+    "6afeb1433ba3052a0c3570f0": "Hand over 10 PMC dogtags"
 }

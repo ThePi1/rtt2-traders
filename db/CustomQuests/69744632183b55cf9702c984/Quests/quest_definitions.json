@@ -2961,5 +2961,196 @@
         "successMessageText": "6afeb142d837bdb1a9565910 successMessageText",
         "traderId": "69744632183b55cf9702c984",
         "type": "Elimination"
+    },
+    "6afeb1433ba3052a0c3570eb": {
+        "QuestName": "Triple Gem - Part 2",
+        "_id": "6afeb1433ba3052a0c3570eb",
+        "acceptPlayerMessage": "6afeb1433ba3052a0c3570eb acceptPlayerMessage",
+        "acceptanceAndFinishingSource": "eft",
+        "arenaLocations": [],
+        "canShowNotificationsInGame": true,
+        "changeQuestMessageText": "6afeb1433ba3052a0c3570eb changeQuestMessageText",
+        "completePlayerMessage": "6afeb1433ba3052a0c3570eb completePlayerMessage",
+        "conditions": {
+            "AvailableForFinish": [
+                {
+                    "completeInSeconds": 0,
+                    "conditionType": "CounterCreator",
+                    "counter": {
+                        "conditions": [
+                            {
+                                "bodyPart": [],
+                                "compareMethod": ">=",
+                                "conditionType": "Kills",
+                                "daytime": {
+                                    "from": 0,
+                                    "to": 0
+                                },
+                                "distance": {
+                                    "compareMethod": ">=",
+                                    "value": 0
+                                },
+                                "dynamicLocale": false,
+                                "enemyEquipmentExclusive": [],
+                                "enemyEquipmentInclusive": [],
+                                "enemyHealthEffects": [],
+                                "id": "6afeb1433ba3052a0c3570ef",
+                                "resetOnSessionEnd": false,
+                                "savageRole": [],
+                                "target": "AnyPmc",
+                                "value": 0,
+                                "weapon": [
+                                    "668fe5a998b5ad715703ddd6",
+                                    "669fa39b48fc9f8db6035a0c",
+                                    "669fa3d876116c89840b1217",
+                                    "669fa3f88abd2662d80eee77",
+                                    "669fa409933e898cce0c2166"
+                                ],
+                                "weaponCaliber": [],
+                                "weaponModsExclusive": [],
+                                "weaponModsInclusive": []
+                            }
+                        ],
+                        "id": "6afeb1433ba3052a0c3570ee"
+                    },
+                    "doNotResetIfCounterCompleted": false,
+                    "dynamicLocale": false,
+                    "globalQuestCounterId": "",
+                    "id": "6afeb1433ba3052a0c3570ed",
+                    "index": 0,
+                    "isNecessary": false,
+                    "isResetOnConditionFailed": false,
+                    "oneSessionOnly": false,
+                    "parentId": "",
+                    "type": "Elimination",
+                    "value": 10,
+                    "visibilityConditions": []
+                },
+                {
+                    "conditionType": "HandoverItem",
+                    "dogtagLevel": 0,
+                    "dynamicLocale": false,
+                    "globalQuestCounterId": "",
+                    "id": "6afeb1433ba3052a0c3570f0",
+                    "index": 0,
+                    "isEncoded": false,
+                    "maxDurability": 100,
+                    "minDurability": 0,
+                    "onlyFoundInRaid": true,
+                    "parentId": "",
+                    "target": [
+                        "59f32bb586f774757e1e8442",
+                        "6662e9aca7e0b43baa3d5f74",
+                        "6662e9cda7e0b43baa3d5f76",
+                        "675dc9d37ae1a8792107ca96",
+                        "675dcb0545b1a2d108011b2b",
+                        "684181208d035f60230f63f9",
+                        "684180bc51bf8645f7067bc8",
+                        "59f32c3b86f77472a31742f0",
+                        "6662ea05f6259762c56f3189",
+                        "6662e9f37fa79a6d83730fa0",
+                        "6764207f2fa5e32733055c4a",
+                        "6764202ae307804338014c1a",
+                        "68418091b5b0c9e4c60f0e7a",
+                        "684180ee9b6d80d840042e8a"
+                    ],
+                    "value": 10,
+                    "visibilityConditions": []
+                }
+            ],
+            "AvailableForStart": [
+                {
+                    "availableAfter": 0,
+                    "conditionType": "Quest",
+                    "dispersion": 0,
+                    "dynamicLocale": false,
+                    "globalQuestCounterId": "",
+                    "id": "6afeb1433ba3052a0c3570ec",
+                    "index": 0,
+                    "parentId": "",
+                    "status": [
+                        4
+                    ],
+                    "target": "6afeb142d837bdb1a9565910",
+                    "visibilityConditions": []
+                }
+            ],
+            "Fail": []
+        },
+        "declinePlayerMessage": "6afeb1433ba3052a0c3570eb declinePlayerMessage",
+        "description": "6afeb1433ba3052a0c3570eb description",
+        "failMessageText": "6afeb1433ba3052a0c3570eb failMessageText",
+        "gameModes": [],
+        "image": "/files/quest/icon/6682a74575d2dfc8330a07de.png",
+        "instantComplete": false,
+        "isKey": false,
+        "location": "any",
+        "name": "6afeb1433ba3052a0c3570eb name",
+        "note": "6afeb1433ba3052a0c3570eb note",
+        "progressSource": "eft",
+        "rankingModes": [],
+        "restartable": false,
+        "rewards": {
+            "Fail": [],
+            "Started": [],
+            "Success": [
+                {
+                    "availableInGameEditions": [],
+                    "gameMode": [
+                        "regular",
+                        "pve"
+                    ],
+                    "id": "6afeb1433ba3052a0c3570f1",
+                    "isHidden": false,
+                    "type": "Experience",
+                    "unknown": false,
+                    "value": 13600
+                },
+                {
+                    "availableInGameEditions": [],
+                    "gameMode": [
+                        "regular",
+                        "pve"
+                    ],
+                    "id": "6afeb1433ba3052a0c3570f2",
+                    "isHidden": false,
+                    "target": "69744632183b55cf9702c984",
+                    "type": "TraderStanding",
+                    "unknown": false,
+                    "value": 0.16
+                },
+                {
+                    "availableInGameEditions": [],
+                    "findInRaid": false,
+                    "gameMode": [
+                        "regular",
+                        "pve"
+                    ],
+                    "id": "6afeb1433ba3052a0c3570f3",
+                    "isEncoded": false,
+                    "isHidden": false,
+                    "items": [
+                        {
+                            "_id": "6afeb1433ba3052a0c3570f4",
+                            "_tpl": "5449016a4bdc2d6f028b456f",
+                            "upd": {
+                                "StackObjectsCount": 110000
+                            }
+                        }
+                    ],
+                    "target": "6afeb1433ba3052a0c3570f4",
+                    "type": "Item",
+                    "unknown": false,
+                    "value": 110000
+                }
+            ]
+        },
+        "secretQuest": false,
+        "side": "pmc",
+        "startedMessageText": "6afeb1433ba3052a0c3570eb startedMessageText",
+        "status": 0,
+        "successMessageText": "6afeb1433ba3052a0c3570eb successMessageText",
+        "traderId": "69744632183b55cf9702c984",
+        "type": "Elimination"
     }
 }
