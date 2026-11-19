@@ -84,5 +84,13 @@
     "6afeb326a715d788320efccd completePlayerMessage": "",
     "6afeb326a715d788320efccd successMessageText": "[PH] He saw you. Good. Take this card. The Eye returns what it borrows.",
     "6afeb326a715d788320efccd failMessageText": "",
-    "6afeb326a715d788320efccf": "Visit the Lightkeeper's island on Lighthouse"
+    "6afeb326a715d788320efccf": "Visit the Lightkeeper's island on Lighthouse",
+    "6afeb327486ca79d3ba87bd3 name": "Welcome to the Family - Part 4",
+    "6afeb327486ca79d3ba87bd3 description": "[PH] Gold that is not gold. Coins that are not coins. Leave one Bitcoin in the circle near the bunker in Woods. The Eye collects curiosities.",
+    "6afeb327486ca79d3ba87bd3 acceptPlayerMessage": "",
+    "6afeb327486ca79d3ba87bd3 declinePlayerMessage": "",
+    "6afeb327486ca79d3ba87bd3 completePlayerMessage": "",
+    "6afeb327486ca79d3ba87bd3 successMessageText": "[PH] Accepted. Here is the transmitter you will need for what comes. Guard it.",
+    "6afeb327486ca79d3ba87bd3 failMessageText": "",
+    "6afeb327486ca79d3ba87bd5": "Leave a Physical Bitcoin in the circle by the Woods bunker"
 }
