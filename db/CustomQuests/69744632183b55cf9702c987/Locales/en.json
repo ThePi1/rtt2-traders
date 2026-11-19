@@ -127,5 +127,14 @@
     "6a1352dc8c34ba4a387cd005 successMessageText": "[PH] It stopped spinning. Only half. I need the other one.",
     "6a1352dc8c34ba4a387cd005 failMessageText": "",
     "6afeb4120d3c5e14332adb32": "Find Gyroscope #1 in raid",
-    "6afeb4120d3c5e14332adb33": "Hand over Gyroscope #1 from the robotic arm in the Lab"
+    "6afeb4120d3c5e14332adb33": "Hand over Gyroscope #1 from the robotic arm in the Lab",
+    "6a13536a8c34ba4a387cd00c name": "Discombobulated - Part 2",
+    "6a13536a8c34ba4a387cd00c description": "[PH] Gyroscope number two is in my old room in the residential unit. Room with the posters. Do not look at the posters.",
+    "6a13536a8c34ba4a387cd00c acceptPlayerMessage": "",
+    "6a13536a8c34ba4a387cd00c declinePlayerMessage": "",
+    "6a13536a8c34ba4a387cd00c completePlayerMessage": "",
+    "6a13536a8c34ba4a387cd00c successMessageText": "[PH] Both gyroscopes! The world is level again. For now.",
+    "6a13536a8c34ba4a387cd00c failMessageText": "",
+    "6afeb413fd3958936051e904": "Find Gyroscope #2 in raid",
+    "6afeb413fd3958936051e905": "Hand over Gyroscope #2 from Weiss' old room in the residential unit"
 }
