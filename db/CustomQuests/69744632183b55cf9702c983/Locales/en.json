@@ -107,5 +107,13 @@
     "6afeaf8746258ee20b284c22 successMessageText": "[PH] Right, the drip is in place. I believe that's what they call it.",
     "6afeaf8746258ee20b284c22 failMessageText": "",
     "6afeaf8846258ee20b284c24": "Leave a chest rig in the Avokado store on Interchange",
-    "6afeaf8846258ee20b284c25": "Leave a chest rig in the Dino Clothes store on Interchange"
+    "6afeaf8846258ee20b284c25": "Leave a chest rig in the Dino Clothes store on Interchange",
+    "6afeaf89baacdcc253b108de name": "Louis and Clarks",
+    "6afeaf89baacdcc253b108de description": "[PH] Somebody's been nicking my shoe deliveries near the Adik store. Leather brogues, lad, proper ones. Go and sort out whoever's hanging about there. Eight should send the message.",
+    "6afeaf89baacdcc253b108de acceptPlayerMessage": "",
+    "6afeaf89baacdcc253b108de declinePlayerMessage": "",
+    "6afeaf89baacdcc253b108de completePlayerMessage": "",
+    "6afeaf89baacdcc253b108de successMessageText": "[PH] Eight. That's the shoe thieves dealt with. Fancy a pair?",
+    "6afeaf89baacdcc253b108de failMessageText": "",
+    "6afeaf89baacdcc253b108e0": "Eliminate any target near the Adik shoe store on Interchange"
 }
