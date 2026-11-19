@@ -92,5 +92,14 @@
     "6afeb327486ca79d3ba87bd3 completePlayerMessage": "",
     "6afeb327486ca79d3ba87bd3 successMessageText": "[PH] Accepted. Here is the transmitter you will need for what comes. Guard it.",
     "6afeb327486ca79d3ba87bd3 failMessageText": "",
-    "6afeb327486ca79d3ba87bd5": "Leave a Physical Bitcoin in the circle by the Woods bunker"
+    "6afeb327486ca79d3ba87bd5": "Leave a Physical Bitcoin in the circle by the Woods bunker",
+    "6afeb3283c1a437f7c92d6ef name": "Welcome to the Family - Part 5",
+    "6afeb3283c1a437f7c92d6ef description": "[PH] The marked room on Lighthouse. Leave a yellow key to the laboratory and a case of injectors there. The family needs both doors and medicine.",
+    "6afeb3283c1a437f7c92d6ef acceptPlayerMessage": "",
+    "6afeb3283c1a437f7c92d6ef declinePlayerMessage": "",
+    "6afeb3283c1a437f7c92d6ef completePlayerMessage": "",
+    "6afeb3283c1a437f7c92d6ef successMessageText": "[PH] The room is furnished. You are nearly one of us.",
+    "6afeb3283c1a437f7c92d6ef failMessageText": "",
+    "6afeb3283c1a437f7c92d6f1": "Leave a yellow Labs keycard in the marked room on Lighthouse",
+    "6afeb3283c1a437f7c92d6f2": "Leave an Injector case in the marked room on Lighthouse"
 }
