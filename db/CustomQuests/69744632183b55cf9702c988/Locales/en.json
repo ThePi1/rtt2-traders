@@ -68,5 +68,13 @@
     "6afeb323c44ae2aae78f9530 completePlayerMessage": "",
     "6afeb323c44ae2aae78f9530 successMessageText": "[PH] Twenty souls in the night. The family welcomes you. Take this blade, when you are ready for it.",
     "6afeb323c44ae2aae78f9530 failMessageText": "",
-    "6afeb324c44ae2aae78f9532": "Eliminate PMCs between 22:00 and 06:00"
+    "6afeb324c44ae2aae78f9532": "Eliminate PMCs between 22:00 and 06:00",
+    "6afeb3258349e093f30637a2 name": "Welcome to the Family - Part 2",
+    "6afeb3258349e093f30637a2 description": "[PH] The Eye hungers for light, and light is computation. Leave two graphics cards in the marked room of the dormitory on Customs. Do not ask what they will run.",
+    "6afeb3258349e093f30637a2 acceptPlayerMessage": "",
+    "6afeb3258349e093f30637a2 declinePlayerMessage": "",
+    "6afeb3258349e093f30637a2 completePlayerMessage": "",
+    "6afeb3258349e093f30637a2 successMessageText": "[PH] The offering hums. Take these, the Eye has no need of power supplies.",
+    "6afeb3258349e093f30637a2 failMessageText": "",
+    "6afeb3258349e093f30637a4": "Leave 2 graphics cards in the marked room of the Customs dorms"
 }

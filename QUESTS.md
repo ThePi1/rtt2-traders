@@ -417,7 +417,7 @@ New zones are in `db/CustomQuestZones/C1_C4_C6_C7_C8_C9.json`. The first four ar
 | ID | Trader | Quest | Tasks | Unlocked by | Reward | Quest id | Status | Notes |
 |---|---|---|---|---|---|---|---|---|
 | V1 | Voron | Welcome to the Family - Part 1 | Kill 20 PMCs between 2200-600 |  | XP, Cultist Knife Barter | `6afeb323c44ae2aae78f9530` | Built | Built: 20 PMC kills between 22:00 and 06:00; unlocks a Cultist knife barter at Voron LL1 (1 moonshine + 1 Raven figurine, my pick). Starts when Q20 is done; Sheet: trd lvl .2 |
-| V2 | Voron | Welcome to the Family - Part 2 | Plant 2 GPUS Dorms Marked |  | XP, 10 Power Supplies,Lighthouse Encoder, Hideout Craft to encode DSP |  | To build | Unlock status: XP, DSP, Radio Frequency thing, and hideout craft |
+| V2 | Voron | Welcome to the Family - Part 2 | Plant 2 GPUS Dorms Marked |  | XP, 10 Power Supplies,Lighthouse Encoder, Hideout Craft to encode DSP | `6afeb3258349e093f30637a2` | Built | Built: plant 2 graphics cards (2 plants) at the existing zone `V2` (dorm 314); rewards 10 Power supply units. The design's encoder and "hideout craft to encode the DSP" rewards are left out: they need a craft that doesn't exist; Unlock status: XP, DSP, Radio Frequency thing, and hideout craft |
 | V3 | Voron | Welcome to the Family - Part 3 | Visit the Lighthouse and talk to lightkeeper |  | XP, 1 GPU, |  | To build | Unlock status: XP, |
 | V4 | Voron | Welcome to the Family - Part 4 | plant 1 bitcoin on woods bunker circle |  | XP, Digital secure DSP radio transmitter TEST THIS |  | To build |  |
 | V5 | Voron | Welcome to the Family - Part 5 | Plant 1 Yellow Card, 1 injectors case on lighthouse marked room |  | XP |  | To build |  |
