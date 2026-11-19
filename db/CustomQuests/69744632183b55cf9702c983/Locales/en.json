@@ -172,5 +172,14 @@
     "6afeaf931cf748b4f280276c": "Hand over Piece of plexiglass",
     "6afeaf931cf748b4f2802773": "Find IEA Mil-Optics KH/F 34mm one-piece magmount in raid",
     "6afeaf931cf748b4f280276d": "Hand over IEA Mil-Optics KH/F 34mm one-piece magmount",
-    "6afeaf931cf748b4f2802775": "Mark the inside of dorm room 314 on Customs"
+    "6afeaf931cf748b4f2802775": "Mark the inside of dorm room 314 on Customs",
+    "6afeaf948ff3d3b964b1c9d8 name": "The Good Stuff",
+    "6afeaf948ff3d3b964b1c9d8 description": "[PH] The good stuff. Fierce Hatchling. Three bottles, found in raid. It's not for sale. It's for me.",
+    "6afeaf948ff3d3b964b1c9d8 acceptPlayerMessage": "",
+    "6afeaf948ff3d3b964b1c9d8 declinePlayerMessage": "",
+    "6afeaf948ff3d3b964b1c9d8 completePlayerMessage": "",
+    "6afeaf948ff3d3b964b1c9d8 successMessageText": "[PH] Ah. That's the stuff. Don't tell the wife.",
+    "6afeaf948ff3d3b964b1c9d8 failMessageText": "",
+    "6afeaf948ff3d3b964b1c9da": "Find Bottle of Fierce Hatchling moonshine in raid",
+    "6afeaf948ff3d3b964b1c9db": "Hand over Bottle of Fierce Hatchling moonshine"
 }
