@@ -248,5 +248,30 @@
             "Z": "8",
             "W": "0"
         }
+    },
+    {
+        "ZoneId": "X19",
+        "ZoneName": "X19",
+        "ZoneLocation": "TarkovStreets",
+        "ZoneType": "visit",
+        "FlareType": "",
+        "Position": {
+            "X": "-34.5",
+            "Y": "7.85",
+            "Z": "-115.5",
+            "W": "0"
+        },
+        "Rotation": {
+            "X": "0",
+            "Y": "0",
+            "Z": "0",
+            "W": "1"
+        },
+        "Scale": {
+            "X": "12",
+            "Y": "3",
+            "Z": "12",
+            "W": "0"
+        }
     }
 ]

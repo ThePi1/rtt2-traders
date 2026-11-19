@@ -177,5 +177,16 @@
     "6afeb145ae8bee9710397df9 successMessageText": "[PH] Empty? He has been... reassigned, perhaps. Thank you.",
     "6afeb145ae8bee9710397df9 failMessageText": "",
     "6afeb145ae8bee9710397dfa": "Locate the apartment of Xiaoming's friend on Chekannaya St on Streets",
-    "6afeb145ae8bee9710397e00": "Survive and extract from the location"
+    "6afeb145ae8bee9710397e00": "Survive and extract from the location",
+    "6afeb1468cdb28cc9fa9b95c name": "Glory to CCP - Part 2",
+    "6afeb1468cdb28cc9fa9b95c description": "[PH] My friend worked at Transtechexport, an import-export firm. Very boring. Very useful. Find his office and the package he left for me. Then return it. Without opening it.",
+    "6afeb1468cdb28cc9fa9b95c acceptPlayerMessage": "",
+    "6afeb1468cdb28cc9fa9b95c declinePlayerMessage": "",
+    "6afeb1468cdb28cc9fa9b95c completePlayerMessage": "",
+    "6afeb1468cdb28cc9fa9b95c successMessageText": "[PH] He left it for me after all. A true patriot.",
+    "6afeb1468cdb28cc9fa9b95c failMessageText": "",
+    "6afeb1478cdb28cc9fa9b95d": "Locate the office of Xiaoming's friend in the Transtechexport building on Streets",
+    "6afeb1478cdb28cc9fa9b95e": "Find the package in the office",
+    "6afeb1478cdb28cc9fa9b966": "Survive and extract from the location",
+    "6afeb1478cdb28cc9fa9b96a": "Hand over the package"
 }
