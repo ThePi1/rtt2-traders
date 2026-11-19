@@ -373,5 +373,105 @@
             "Z": "4",
             "W": "0"
         }
+    },
+    {
+        "ZoneId": "X24_1",
+        "ZoneName": "X24_1",
+        "ZoneLocation": "Shoreline",
+        "ZoneType": "visit",
+        "FlareType": "",
+        "Position": {
+            "X": "-158.1",
+            "Y": "0.6",
+            "Z": "-91",
+            "W": "0"
+        },
+        "Rotation": {
+            "X": "0",
+            "Y": "0",
+            "Z": "0",
+            "W": "1"
+        },
+        "Scale": {
+            "X": "6",
+            "Y": "3",
+            "Z": "6",
+            "W": "0"
+        }
+    },
+    {
+        "ZoneId": "X24_2",
+        "ZoneName": "X24_2",
+        "ZoneLocation": "Shoreline",
+        "ZoneType": "visit",
+        "FlareType": "",
+        "Position": {
+            "X": "-288.1",
+            "Y": "3.3",
+            "Z": "-88.6",
+            "W": "0"
+        },
+        "Rotation": {
+            "X": "0",
+            "Y": "0",
+            "Z": "0",
+            "W": "1"
+        },
+        "Scale": {
+            "X": "6",
+            "Y": "3",
+            "Z": "6",
+            "W": "0"
+        }
+    },
+    {
+        "ZoneId": "X24_3",
+        "ZoneName": "X24_3",
+        "ZoneLocation": "Shoreline",
+        "ZoneType": "visit",
+        "FlareType": "",
+        "Position": {
+            "X": "-236.8",
+            "Y": "-39.75",
+            "Z": "164.6",
+            "W": "0"
+        },
+        "Rotation": {
+            "X": "0",
+            "Y": "0",
+            "Z": "0",
+            "W": "1"
+        },
+        "Scale": {
+            "X": "6",
+            "Y": "3",
+            "Z": "6",
+            "W": "0"
+        }
+    },
+    {
+        "ZoneId": "X24_4",
+        "ZoneName": "X24_4",
+        "ZoneLocation": "Shoreline",
+        "ZoneType": "visit",
+        "FlareType": "",
+        "Position": {
+            "X": "-267.8",
+            "Y": "0.3",
+            "Z": "-136.2",
+            "W": "0"
+        },
+        "Rotation": {
+            "X": "0",
+            "Y": "0",
+            "Z": "0",
+            "W": "1"
+        },
+        "Scale": {
+            "X": "8",
+            "Y": "3",
+            "Z": "8",
+            "W": "0"
+        }
     }
 ]
