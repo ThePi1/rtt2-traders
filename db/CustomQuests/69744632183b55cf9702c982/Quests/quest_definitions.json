@@ -4178,7 +4178,9 @@
                     "id": "6a0d2244d47f367b5bed547e",
                     "index": 0,
                     "parentId": "",
-                    "status": [],
+                    "status": [
+                        4
+                    ],
                     "target": "6a0b9a8d16ab7c2dcc5587c0",
                     "visibilityConditions": []
                 }
@@ -4204,15 +4206,14 @@
                 {
                     "availableInGameEditions": [],
                     "id": "6a0d2206d47f367b5bed547b",
-                    "index": 0,
                     "type": "Experience",
                     "unknown": false,
-                    "value": 10000
+                    "value": 10000,
+                    "index": 0
                 },
                 {
                     "availableInGameEditions": [],
                     "id": "6a0d220bd47f367b5bed547c",
-                    "index": 0,
                     "items": [
                         {
                             "_id": "6a0d2241d47f367b5bed547d",
@@ -4223,12 +4224,12 @@
                     "target": "6a0d2241d47f367b5bed547d",
                     "traderId": "69744632183b55cf9702c981",
                     "type": "AssortmentUnlock",
-                    "unknown": false
+                    "unknown": false,
+                    "index": 0
                 },
                 {
                     "availableInGameEditions": [],
                     "id": "6a0d22a5d47f367b5bed5483",
-                    "index": 0,
                     "items": [
                         {
                             "_id": "6a0d22b2d47f367b5bed5484",
@@ -4239,12 +4240,12 @@
                     "target": "6a0d22b2d47f367b5bed5484",
                     "traderId": "69744632183b55cf9702c981",
                     "type": "AssortmentUnlock",
-                    "unknown": false
+                    "unknown": false,
+                    "index": 0
                 },
                 {
                     "availableInGameEditions": [],
                     "id": "6a0d22bed47f367b5bed5485",
-                    "index": 0,
                     "items": [
                         {
                             "_id": "6a0d22c2d47f367b5bed5486",
@@ -4255,12 +4256,12 @@
                     "target": "6a0d22c2d47f367b5bed5486",
                     "traderId": "69744632183b55cf9702c981",
                     "type": "AssortmentUnlock",
-                    "unknown": false
+                    "unknown": false,
+                    "index": 0
                 },
                 {
                     "availableInGameEditions": [],
                     "id": "6a0d22c9d47f367b5bed5487",
-                    "index": 0,
                     "items": [
                         {
                             "_id": "6a0d22d1d47f367b5bed5488",
@@ -4270,15 +4271,16 @@
                             }
                         }
                     ],
+                    "loyaltyLevel": 1,
                     "target": "6a0d22d1d47f367b5bed5488",
                     "traderId": "69744632183b55cf9702c981",
                     "type": "AssortmentUnlock",
-                    "unknown": false
+                    "unknown": false,
+                    "index": 0
                 },
                 {
                     "availableInGameEditions": [],
                     "id": "6a0d22dbd47f367b5bed5489",
-                    "index": 0,
                     "items": [
                         {
                             "_id": "6a0d22e7d47f367b5bed548a",
@@ -4289,7 +4291,8 @@
                     "target": "6a0d22e7d47f367b5bed548a",
                     "traderId": "69744632183b55cf9702c981",
                     "type": "AssortmentUnlock",
-                    "unknown": false
+                    "unknown": false,
+                    "index": 0
                 }
             ]
         },
