@@ -98,5 +98,14 @@
     "6a134ffc8c34ba4a387ccfdd successMessageText": "[PH] An escape route! They will never catch me now. Have a drink, you look thirsty.",
     "6a134ffc8c34ba4a387ccfdd failMessageText": "",
     "6afeb40e318e51ecb6608590": "Transit from Ground Zero to Streets of Tarkov",
-    "6afeb40e318e51ecb6608597": "Survive and extract from Streets of Tarkov"
+    "6afeb40e318e51ecb6608597": "Survive and extract from Streets of Tarkov",
+    "6a1351028c34ba4a387ccfec name": "It Must Be The Illuminati!",
+    "6a1351028c34ba4a387ccfec description": "[PH] It is not the Humane Society. It is bigger. The Illuminati! I need eyes. Plant a camera on the bridge over the main street on Streets, and one at the TerraGroup security office in the Cardinal, looking at the courtyard.",
+    "6a1351028c34ba4a387ccfec acceptPlayerMessage": "",
+    "6a1351028c34ba4a387ccfec declinePlayerMessage": "",
+    "6a1351028c34ba4a387ccfec completePlayerMessage": "",
+    "6a1351028c34ba4a387ccfec successMessageText": "[PH] I see everything now. Everything! Have some croutons, you must keep your strength.",
+    "6a1351028c34ba4a387ccfec failMessageText": "",
+    "6afeb410f38066fa642d44d3": "Plant a WI-FI Camera on the bridge overlooking the main street on Streets",
+    "6afeb410f38066fa642d44d4": "Plant a WI-FI Camera at the TerraGroup security office overlooking the courtyard"
 }

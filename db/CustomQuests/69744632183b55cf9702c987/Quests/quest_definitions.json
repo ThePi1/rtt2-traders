@@ -1763,5 +1763,177 @@
         "successMessageText": "6a134ffc8c34ba4a387ccfdd successMessageText",
         "traderId": "69744632183b55cf9702c987",
         "type": "Completion"
+    },
+    "6a1351028c34ba4a387ccfec": {
+        "QuestName": "It Must Be The Illuminati!",
+        "_id": "6a1351028c34ba4a387ccfec",
+        "acceptPlayerMessage": "6a1351028c34ba4a387ccfec acceptPlayerMessage",
+        "acceptanceAndFinishingSource": "eft",
+        "arenaLocations": [],
+        "canShowNotificationsInGame": true,
+        "changeQuestMessageText": "6a1351028c34ba4a387ccfec changeQuestMessageText",
+        "completePlayerMessage": "6a1351028c34ba4a387ccfec completePlayerMessage",
+        "conditions": {
+            "AvailableForFinish": [
+                {
+                    "conditionType": "LeaveItemAtLocation",
+                    "dogtagLevel": 0,
+                    "dynamicLocale": false,
+                    "globalQuestCounterId": "",
+                    "id": "6afeb410f38066fa642d44d3",
+                    "index": 0,
+                    "isEncoded": false,
+                    "maxDurability": 100,
+                    "minDurability": 0,
+                    "onlyFoundInRaid": false,
+                    "parentId": "",
+                    "plantTime": 15,
+                    "target": [
+                        "5b4391a586f7745321235ab2"
+                    ],
+                    "value": 1,
+                    "visibilityConditions": [],
+                    "zoneId": "S10_1"
+                },
+                {
+                    "conditionType": "LeaveItemAtLocation",
+                    "dogtagLevel": 0,
+                    "dynamicLocale": false,
+                    "globalQuestCounterId": "",
+                    "id": "6afeb410f38066fa642d44d4",
+                    "index": 0,
+                    "isEncoded": false,
+                    "maxDurability": 100,
+                    "minDurability": 0,
+                    "onlyFoundInRaid": false,
+                    "parentId": "",
+                    "plantTime": 15,
+                    "target": [
+                        "5b4391a586f7745321235ab2"
+                    ],
+                    "value": 1,
+                    "visibilityConditions": [],
+                    "zoneId": "S10_2"
+                }
+            ],
+            "AvailableForStart": [
+                {
+                    "availableAfter": 0,
+                    "conditionType": "Quest",
+                    "dispersion": 0,
+                    "dynamicLocale": false,
+                    "globalQuestCounterId": "",
+                    "id": "6afeb410f38066fa642d44d2",
+                    "index": 0,
+                    "parentId": "",
+                    "status": [
+                        4
+                    ],
+                    "target": "6a134ffc8c34ba4a387ccfdd",
+                    "visibilityConditions": []
+                }
+            ],
+            "Fail": []
+        },
+        "declinePlayerMessage": "6a1351028c34ba4a387ccfec declinePlayerMessage",
+        "description": "6a1351028c34ba4a387ccfec description",
+        "failMessageText": "6a1351028c34ba4a387ccfec failMessageText",
+        "gameModes": [],
+        "image": "/files/quest/icon/5ac4db0986f77442000164dd.jpg",
+        "instantComplete": false,
+        "isKey": false,
+        "location": "5714dc692459777137212e12",
+        "name": "6a1351028c34ba4a387ccfec name",
+        "note": "6a1351028c34ba4a387ccfec note",
+        "progressSource": "eft",
+        "rankingModes": [],
+        "restartable": false,
+        "rewards": {
+            "Fail": [],
+            "Started": [],
+            "Success": [
+                {
+                    "availableInGameEditions": [],
+                    "gameMode": [
+                        "regular",
+                        "pve"
+                    ],
+                    "id": "6afeb410f38066fa642d44d5",
+                    "isHidden": false,
+                    "type": "Experience",
+                    "unknown": false,
+                    "value": 9400
+                },
+                {
+                    "availableInGameEditions": [],
+                    "gameMode": [
+                        "regular",
+                        "pve"
+                    ],
+                    "id": "6afeb410f38066fa642d44d6",
+                    "isHidden": false,
+                    "target": "69744632183b55cf9702c987",
+                    "type": "TraderStanding",
+                    "unknown": false,
+                    "value": 0.2
+                },
+                {
+                    "availableInGameEditions": [],
+                    "findInRaid": false,
+                    "gameMode": [
+                        "regular",
+                        "pve"
+                    ],
+                    "id": "6afeb410f38066fa642d44d7",
+                    "isEncoded": false,
+                    "isHidden": false,
+                    "items": [
+                        {
+                            "_id": "6afeb410f38066fa642d44d8",
+                            "_tpl": "5449016a4bdc2d6f028b456f",
+                            "upd": {
+                                "StackObjectsCount": 75000
+                            }
+                        }
+                    ],
+                    "target": "6afeb410f38066fa642d44d8",
+                    "type": "Item",
+                    "unknown": false,
+                    "value": 75000
+                },
+                {
+                    "availableInGameEditions": [],
+                    "findInRaid": true,
+                    "gameMode": [
+                        "regular",
+                        "pve"
+                    ],
+                    "id": "6afeb410f38066fa642d44d9",
+                    "isEncoded": false,
+                    "isHidden": false,
+                    "items": [
+                        {
+                            "_id": "6afeb410f38066fa642d44da",
+                            "_tpl": "57347d3d245977448f7b7f61",
+                            "upd": {
+                                "SpawnedInSession": true,
+                                "StackObjectsCount": 1
+                            }
+                        }
+                    ],
+                    "target": "6afeb410f38066fa642d44da",
+                    "type": "Item",
+                    "unknown": false,
+                    "value": 1
+                }
+            ]
+        },
+        "secretQuest": false,
+        "side": "pmc",
+        "startedMessageText": "6a1351028c34ba4a387ccfec startedMessageText",
+        "status": 0,
+        "successMessageText": "6a1351028c34ba4a387ccfec successMessageText",
+        "traderId": "69744632183b55cf9702c987",
+        "type": "Completion"
     }
 }
