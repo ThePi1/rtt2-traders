@@ -847,5 +847,13 @@
     "6afeb4dc6346e675182cf535 completePlayerMessage": "",
     "6afeb4dc6346e675182cf535 successMessageText": "[PH] Five raiders. Spin, click, done.",
     "6afeb4dc6346e675182cf535 failMessageText": "",
-    "6afeb4dc6346e675182cf537": "Eliminate Raiders with a revolver"
+    "6afeb4dc6346e675182cf537": "Eliminate Raiders with a revolver",
+    "6afeb4ddf2a4eee380ba3fd5 name": "Revolving Door - Part 3",
+    "6afeb4ddf2a4eee380ba3fd5 description": "[PH] Tagilla brings a hammer. You bring a revolver. Make every chamber count.",
+    "6afeb4ddf2a4eee380ba3fd5 acceptPlayerMessage": "",
+    "6afeb4ddf2a4eee380ba3fd5 declinePlayerMessage": "",
+    "6afeb4ddf2a4eee380ba3fd5 completePlayerMessage": "",
+    "6afeb4ddf2a4eee380ba3fd5 successMessageText": "[PH] The hammer fell before the cylinder ran dry.",
+    "6afeb4ddf2a4eee380ba3fd5 failMessageText": "",
+    "6afeb4ddf2a4eee380ba3fd7": "Eliminate Tagilla with a revolver"
 }
