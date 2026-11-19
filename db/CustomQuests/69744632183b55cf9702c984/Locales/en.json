@@ -111,5 +111,19 @@
     "6afeb13c3f6f4344292a740d failMessageText": "",
     "6afeb13c3f6f4344292a740f": "Eliminate Raiders in the command bunker on Reserve",
     "6afeb13c3f6f4344292a7414": "Find Wrapped Package in raid",
-    "6afeb13c3f6f4344292a7415": "Hand over the package from the command bunker control room"
+    "6afeb13c3f6f4344292a7415": "Hand over the package from the command bunker control room",
+    "6afeb13d0b3253232fabbc6b name": "Chain of Custody - Part 2",
+    "6afeb13d0b3253232fabbc6b description": "[PH] Inside the package was a map of the air defenses on Reserve. Mark all six anti-aircraft guns for our analysts. Then clear the Scavs who moved into the command bunker after you left.",
+    "6afeb13d0b3253232fabbc6b acceptPlayerMessage": "",
+    "6afeb13d0b3253232fabbc6b declinePlayerMessage": "",
+    "6afeb13d0b3253232fabbc6b completePlayerMessage": "",
+    "6afeb13d0b3253232fabbc6b successMessageText": "[PH] Six guns, catalogued. The bunker is ours again. Very efficient.",
+    "6afeb13d0b3253232fabbc6b failMessageText": "",
+    "6afeb13d0b3253232fabbc6c": "Mark anti-aircraft gun 1 on Reserve",
+    "6afeb13d0b3253232fabbc6d": "Mark anti-aircraft gun 2 on Reserve",
+    "6afeb13d0b3253232fabbc6e": "Mark anti-aircraft gun 3 on Reserve",
+    "6afeb13d0b3253232fabbc6f": "Mark anti-aircraft gun 4 on Reserve",
+    "6afeb13d0b3253232fabbc70": "Mark anti-aircraft gun 5 on Reserve",
+    "6afeb13d0b3253232fabbc71": "Mark anti-aircraft gun 6 on Reserve",
+    "6afeb13d0b3253232fabbc7f": "Eliminate Scavs in the command bunker"
 }
