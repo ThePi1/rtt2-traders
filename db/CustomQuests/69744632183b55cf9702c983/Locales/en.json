@@ -142,5 +142,13 @@
     "6afeaf8f7757bef5904f3c49 completePlayerMessage": "",
     "6afeaf8f7757bef5904f3c49 successMessageText": "[PH] A fortress with no bowling alley. What a waste of concrete.",
     "6afeaf8f7757bef5904f3c49 failMessageText": "",
-    "6afeaf8f7757bef5904f3c4b": "Look for a bowling alley in the Fortress on Customs"
+    "6afeaf8f7757bef5904f3c4b": "Look for a bowling alley in the Fortress on Customs",
+    "6afeaf907133ee697372bbf9 name": "Courtesy Call - Part 3",
+    "6afeaf907133ee697372bbf9 description": "[PH] Forget the alley. If I find him a bowling ball, maybe he'll leave me alone. The mall on Interchange sold everything once. Have a look.",
+    "6afeaf907133ee697372bbf9 acceptPlayerMessage": "",
+    "6afeaf907133ee697372bbf9 declinePlayerMessage": "",
+    "6afeaf907133ee697372bbf9 completePlayerMessage": "",
+    "6afeaf907133ee697372bbf9 successMessageText": "[PH] Not a single bowling ball in a whole shopping centre? Bloody hell.",
+    "6afeaf907133ee697372bbf9 failMessageText": "",
+    "6afeaf907133ee697372bbfb": "Look for a bowling ball in the Interchange mall"
 }

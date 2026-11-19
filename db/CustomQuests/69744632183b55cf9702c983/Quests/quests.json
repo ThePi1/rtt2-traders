@@ -2728,5 +2728,140 @@
         "successMessageText": "6afeaf8f7757bef5904f3c49 successMessageText",
         "traderId": "69744632183b55cf9702c983",
         "type": "Exploration"
+    },
+    "6afeaf907133ee697372bbf9": {
+        "QuestName": "Courtesy Call - Part 3",
+        "_id": "6afeaf907133ee697372bbf9",
+        "acceptPlayerMessage": "6afeaf907133ee697372bbf9 acceptPlayerMessage",
+        "acceptanceAndFinishingSource": "eft",
+        "arenaLocations": [],
+        "canShowNotificationsInGame": true,
+        "changeQuestMessageText": "6afeaf907133ee697372bbf9 changeQuestMessageText",
+        "completePlayerMessage": "6afeaf907133ee697372bbf9 completePlayerMessage",
+        "conditions": {
+            "AvailableForFinish": [
+                {
+                    "completeInSeconds": 0,
+                    "conditionType": "CounterCreator",
+                    "counter": {
+                        "conditions": [
+                            {
+                                "conditionType": "VisitPlace",
+                                "dynamicLocale": false,
+                                "id": "6afeaf907133ee697372bbfd",
+                                "target": "P15",
+                                "value": 1
+                            }
+                        ],
+                        "id": "6afeaf907133ee697372bbfc"
+                    },
+                    "doNotResetIfCounterCompleted": false,
+                    "dynamicLocale": false,
+                    "globalQuestCounterId": "",
+                    "id": "6afeaf907133ee697372bbfb",
+                    "index": 0,
+                    "isNecessary": false,
+                    "isResetOnConditionFailed": false,
+                    "oneSessionOnly": false,
+                    "parentId": "",
+                    "type": "Exploration",
+                    "value": 1,
+                    "visibilityConditions": []
+                }
+            ],
+            "AvailableForStart": [
+                {
+                    "availableAfter": 0,
+                    "conditionType": "Quest",
+                    "dispersion": 0,
+                    "dynamicLocale": false,
+                    "globalQuestCounterId": "",
+                    "id": "6afeaf907133ee697372bbfa",
+                    "index": 0,
+                    "parentId": "",
+                    "status": [
+                        4
+                    ],
+                    "target": "6afeaf8f7757bef5904f3c49",
+                    "visibilityConditions": []
+                }
+            ],
+            "Fail": []
+        },
+        "declinePlayerMessage": "6afeaf907133ee697372bbf9 declinePlayerMessage",
+        "description": "6afeaf907133ee697372bbf9 description",
+        "failMessageText": "6afeaf907133ee697372bbf9 failMessageText",
+        "gameModes": [],
+        "image": "/files/quest/icon/5ac4da0486f7744cc7701bdc.png",
+        "instantComplete": false,
+        "isKey": false,
+        "location": "5714dbc024597771384a510d",
+        "name": "6afeaf907133ee697372bbf9 name",
+        "note": "6afeaf907133ee697372bbf9 note",
+        "progressSource": "eft",
+        "rankingModes": [],
+        "restartable": false,
+        "rewards": {
+            "Fail": [],
+            "Started": [],
+            "Success": [
+                {
+                    "availableInGameEditions": [],
+                    "gameMode": [
+                        "regular",
+                        "pve"
+                    ],
+                    "id": "6afeaf907133ee697372bbfe",
+                    "isHidden": false,
+                    "type": "Experience",
+                    "unknown": false,
+                    "value": 12400
+                },
+                {
+                    "availableInGameEditions": [],
+                    "gameMode": [
+                        "regular",
+                        "pve"
+                    ],
+                    "id": "6afeaf907133ee697372bbff",
+                    "isHidden": false,
+                    "target": "69744632183b55cf9702c983",
+                    "type": "TraderStanding",
+                    "unknown": false,
+                    "value": 0.2
+                },
+                {
+                    "availableInGameEditions": [],
+                    "findInRaid": false,
+                    "gameMode": [
+                        "regular",
+                        "pve"
+                    ],
+                    "id": "6afeaf907133ee697372bc00",
+                    "isEncoded": false,
+                    "isHidden": false,
+                    "items": [
+                        {
+                            "_id": "6afeaf907133ee697372bc01",
+                            "_tpl": "5449016a4bdc2d6f028b456f",
+                            "upd": {
+                                "StackObjectsCount": 100000
+                            }
+                        }
+                    ],
+                    "target": "6afeaf907133ee697372bc01",
+                    "type": "Item",
+                    "unknown": false,
+                    "value": 100000
+                }
+            ]
+        },
+        "secretQuest": false,
+        "side": "pmc",
+        "startedMessageText": "6afeaf907133ee697372bbf9 startedMessageText",
+        "status": 0,
+        "successMessageText": "6afeaf907133ee697372bbf9 successMessageText",
+        "traderId": "69744632183b55cf9702c983",
+        "type": "Exploration"
     }
 }
