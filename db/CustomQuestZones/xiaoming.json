@@ -1,0 +1,52 @@
+[
+    {
+        "ZoneId": "X2_1",
+        "ZoneName": "X2_1",
+        "ZoneLocation": "Shoreline",
+        "ZoneType": "placeitem",
+        "FlareType": "",
+        "Position": {
+            "X": "-245.8",
+            "Y": "-57.65",
+            "Z": "428.4",
+            "W": "0"
+        },
+        "Rotation": {
+            "X": "0",
+            "Y": "0",
+            "Z": "0",
+            "W": "1"
+        },
+        "Scale": {
+            "X": "5",
+            "Y": "3",
+            "Z": "5",
+            "W": "0"
+        }
+    },
+    {
+        "ZoneId": "X2_2",
+        "ZoneName": "X2_2",
+        "ZoneLocation": "Shoreline",
+        "ZoneType": "placeitem",
+        "FlareType": "",
+        "Position": {
+            "X": "-1012.9",
+            "Y": "-57.95",
+            "Z": "355",
+            "W": "0"
+        },
+        "Rotation": {
+            "X": "0",
+            "Y": "0",
+            "Z": "0",
+            "W": "1"
+        },
+        "Scale": {
+            "X": "5",
+            "Y": "4",
+            "Z": "5",
+            "W": "0"
+        }
+    }
+]

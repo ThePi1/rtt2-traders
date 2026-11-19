@@ -338,5 +338,142 @@
         "successMessageText": "6afeb12a489c2c15bdef16e4 successMessageText",
         "traderId": "69744632183b55cf9702c984",
         "type": "Completion"
+    },
+    "6afeb12d8a2bf95dc3c703aa": {
+        "QuestName": "Silk Road",
+        "_id": "6afeb12d8a2bf95dc3c703aa",
+        "acceptPlayerMessage": "6afeb12d8a2bf95dc3c703aa acceptPlayerMessage",
+        "acceptanceAndFinishingSource": "eft",
+        "arenaLocations": [],
+        "canShowNotificationsInGame": true,
+        "changeQuestMessageText": "6afeb12d8a2bf95dc3c703aa changeQuestMessageText",
+        "completePlayerMessage": "6afeb12d8a2bf95dc3c703aa completePlayerMessage",
+        "conditions": {
+            "AvailableForFinish": [
+                {
+                    "conditionType": "PlaceBeacon",
+                    "dynamicLocale": false,
+                    "globalQuestCounterId": "",
+                    "id": "6afeb12e8a2bf95dc3c703ac",
+                    "index": 0,
+                    "parentId": "",
+                    "plantTime": 20,
+                    "target": [
+                        "5991b51486f77447b112d44f"
+                    ],
+                    "value": 1,
+                    "visibilityConditions": [],
+                    "zoneId": "X2_1"
+                },
+                {
+                    "conditionType": "PlaceBeacon",
+                    "dynamicLocale": false,
+                    "globalQuestCounterId": "",
+                    "id": "6afeb12e8a2bf95dc3c703ad",
+                    "index": 0,
+                    "parentId": "",
+                    "plantTime": 20,
+                    "target": [
+                        "5991b51486f77447b112d44f"
+                    ],
+                    "value": 1,
+                    "visibilityConditions": [],
+                    "zoneId": "X2_2"
+                }
+            ],
+            "AvailableForStart": [
+                {
+                    "availableAfter": 0,
+                    "conditionType": "Quest",
+                    "dispersion": 0,
+                    "dynamicLocale": false,
+                    "globalQuestCounterId": "",
+                    "id": "6afeb12e8a2bf95dc3c703ab",
+                    "index": 0,
+                    "parentId": "",
+                    "status": [
+                        4
+                    ],
+                    "target": "6afeb12a489c2c15bdef16e4",
+                    "visibilityConditions": []
+                }
+            ],
+            "Fail": []
+        },
+        "declinePlayerMessage": "6afeb12d8a2bf95dc3c703aa declinePlayerMessage",
+        "description": "6afeb12d8a2bf95dc3c703aa description",
+        "failMessageText": "6afeb12d8a2bf95dc3c703aa failMessageText",
+        "gameModes": [],
+        "image": "/files/quest/icon/5ac4d8f186f774422237860d.png",
+        "instantComplete": false,
+        "isKey": false,
+        "location": "5704e554d2720bac5b8b456e",
+        "name": "6afeb12d8a2bf95dc3c703aa name",
+        "note": "6afeb12d8a2bf95dc3c703aa note",
+        "progressSource": "eft",
+        "rankingModes": [],
+        "restartable": false,
+        "rewards": {
+            "Fail": [],
+            "Started": [],
+            "Success": [
+                {
+                    "availableInGameEditions": [],
+                    "gameMode": [
+                        "regular",
+                        "pve"
+                    ],
+                    "id": "6afeb12e8a2bf95dc3c703ae",
+                    "isHidden": false,
+                    "type": "Experience",
+                    "unknown": false,
+                    "value": 4600
+                },
+                {
+                    "availableInGameEditions": [],
+                    "gameMode": [
+                        "regular",
+                        "pve"
+                    ],
+                    "id": "6afeb12e8a2bf95dc3c703af",
+                    "isHidden": false,
+                    "target": "69744632183b55cf9702c984",
+                    "type": "TraderStanding",
+                    "unknown": false,
+                    "value": 0.16
+                },
+                {
+                    "availableInGameEditions": [],
+                    "findInRaid": false,
+                    "gameMode": [
+                        "regular",
+                        "pve"
+                    ],
+                    "id": "6afeb12e8a2bf95dc3c703b0",
+                    "isEncoded": false,
+                    "isHidden": false,
+                    "items": [
+                        {
+                            "_id": "6afeb12e8a2bf95dc3c703b1",
+                            "_tpl": "5449016a4bdc2d6f028b456f",
+                            "upd": {
+                                "StackObjectsCount": 35000
+                            }
+                        }
+                    ],
+                    "target": "6afeb12e8a2bf95dc3c703b1",
+                    "type": "Item",
+                    "unknown": false,
+                    "value": 35000
+                }
+            ]
+        },
+        "secretQuest": false,
+        "side": "pmc",
+        "startedMessageText": "6afeb12d8a2bf95dc3c703aa startedMessageText",
+        "status": 0,
+        "successMessageText": "6afeb12d8a2bf95dc3c703aa successMessageText",
+        "traderId": "69744632183b55cf9702c984",
+        "type": "Completion"
     }
 }

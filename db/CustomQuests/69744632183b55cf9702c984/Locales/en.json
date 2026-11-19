@@ -21,5 +21,14 @@
     "6afeb12a489c2c15bdef16e4 failMessageText": "",
     "6afeb12b489c2c15bdef16e6": "Mark the power room in the D2 bunker on Reserve",
     "6afeb12b489c2c15bdef16e7": "Eliminate Raiders on Reserve",
-    "6afeb12b489c2c15bdef16eb": "Extract from Reserve through the D2 exit"
+    "6afeb12b489c2c15bdef16eb": "Extract from Reserve through the D2 exit",
+    "6afeb12d8a2bf95dc3c703aa name": "Silk Road",
+    "6afeb12d8a2bf95dc3c703aa description": "[PH] Trade is the lifeblood of a harmonious society. We are opening a new route through Shoreline. Mark the main road by the gas station and the train cars by the railway bridge. The caravans will follow.",
+    "6afeb12d8a2bf95dc3c703aa acceptPlayerMessage": "",
+    "6afeb12d8a2bf95dc3c703aa declinePlayerMessage": "",
+    "6afeb12d8a2bf95dc3c703aa completePlayerMessage": "",
+    "6afeb12d8a2bf95dc3c703aa successMessageText": "[PH] The route is surveyed. Commerce will flow. Ten-thousand-year plan, step one.",
+    "6afeb12d8a2bf95dc3c703aa failMessageText": "",
+    "6afeb12e8a2bf95dc3c703ac": "Mark the main road by the gas station on Shoreline",
+    "6afeb12e8a2bf95dc3c703ad": "Mark the train cars by the railway bridge on Shoreline"
 }
