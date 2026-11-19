@@ -309,7 +309,7 @@ New zones are in `db/CustomQuestZones/C1_C4_C6_C7_C8_C9.json`. The first four ar
 | A3 | Atlas | 500 Cigarettes | Drop 25 pack winstons at near-relax safe on Streets; Plant time 4s each |  |  | `6afeaaf28d3229c33858b35c` | Needs check | Built: leave 25 Wilston packs (4 s each) at new zone `A3`, the Cardinal apartments sauna on Streets: no safe found near the relaxation area, so the sauna is my reading of "near-relax" |
 | A4 | Atlas | Close Contact | 2 PMC kills <20meters on Customs |  |  | `6afeaaf3c51077a145c068c1` | Built | Built: 2 PMC kills within 20 m on Customs |
 | A5 | Atlas | Operation Benchmark | Mark 3 workbenches |  |  | `6afeab5a9e8e49793d89e912` | Needs check | Built: mark 3 workbenches with new zones `A5_1`, `A5_2` (Customs) and `A5_3` (Streets); unlocks after A3 and A4. Map and benches my choice |
-| A6 | Atlas | Civil War on Drugs | Some amount of kills with a status effect |  |  |  | To build |  |
+| A6 | Atlas | Civil War on Drugs | Some amount of kills with a status effect |  |  | `6afeab5b8e5e78e85f08ab64` | Built | Built: 8 Scav kills while in pain (no painkillers). The design only said "kills with a status effect"; pain fits the anti-drug joke |
 | A7 | Atlas | Fraternizing with the Enemy | Some combo quest with Xiaoming (X4-X6) - mark certain things "false intel" |  |  |  | To build |  |
 | A8 | Atlas | English Opening - Part 1 | Find and turn in quest item hidden at railway bridge extract on Shoreline | A7 | XP, unlock A9 |  | To build |  |
 | A9 | Atlas | English Opening - Part 2 | Find and turn in quest items:  one at crash heli, one at USEC camp heli,on Lighthouse | A8 | XP, unlock A10 |  | To build |  |

@@ -44,5 +44,13 @@
     "6afeab5a9e8e49793d89e912 failMessageText": "",
     "6afeab5a9e8e49793d89e915": "Mark the workbench in the chemical factory storage on Customs",
     "6afeab5a9e8e49793d89e916": "Mark the workbench by the fuel tanks on Customs",
-    "6afeab5a9e8e49793d89e917": "Mark the workbench in the Nikitskaya courtyard on Streets"
+    "6afeab5a9e8e49793d89e917": "Mark the workbench in the Nikitskaya courtyard on Streets",
+    "6afeab5b8e5e78e85f08ab64 name": "Civil War on Drugs",
+    "6afeab5b8e5e78e85f08ab64 description": "[PH] Every Scav out there is high on something. Not us. We run on discipline and black coffee. Take out eight of them while you're hurting and NOT on painkillers. Pain is weakness leaving the body.",
+    "6afeab5b8e5e78e85f08ab64 acceptPlayerMessage": "",
+    "6afeab5b8e5e78e85f08ab64 declinePlayerMessage": "",
+    "6afeab5b8e5e78e85f08ab64 completePlayerMessage": "",
+    "6afeab5b8e5e78e85f08ab64 successMessageText": "[PH] Clean and mean. Just say no, brother.",
+    "6afeab5b8e5e78e85f08ab64 failMessageText": "",
+    "6afeab5b8e5e78e85f08ab66": "Eliminate Scavs while in pain and not on painkillers"
 }

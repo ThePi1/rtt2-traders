@@ -779,5 +779,192 @@
         "successMessageText": "6afeab5a9e8e49793d89e912 successMessageText",
         "traderId": "69744632183b55cf9702c986",
         "type": "Discover"
+    },
+    "6afeab5b8e5e78e85f08ab64": {
+        "QuestName": "Civil War on Drugs",
+        "_id": "6afeab5b8e5e78e85f08ab64",
+        "acceptPlayerMessage": "6afeab5b8e5e78e85f08ab64 acceptPlayerMessage",
+        "acceptanceAndFinishingSource": "eft",
+        "arenaLocations": [],
+        "canShowNotificationsInGame": true,
+        "changeQuestMessageText": "6afeab5b8e5e78e85f08ab64 changeQuestMessageText",
+        "completePlayerMessage": "6afeab5b8e5e78e85f08ab64 completePlayerMessage",
+        "conditions": {
+            "AvailableForFinish": [
+                {
+                    "completeInSeconds": 0,
+                    "conditionType": "CounterCreator",
+                    "counter": {
+                        "conditions": [
+                            {
+                                "bodyPart": [],
+                                "compareMethod": ">=",
+                                "conditionType": "Kills",
+                                "daytime": {
+                                    "from": 0,
+                                    "to": 0
+                                },
+                                "distance": {
+                                    "compareMethod": ">=",
+                                    "value": 0
+                                },
+                                "dynamicLocale": false,
+                                "enemyEquipmentExclusive": [],
+                                "enemyEquipmentInclusive": [],
+                                "enemyHealthEffects": [],
+                                "id": "6afeab5b8e5e78e85f08ab68",
+                                "resetOnSessionEnd": false,
+                                "savageRole": [],
+                                "target": "Savage",
+                                "value": 1,
+                                "weapon": [],
+                                "weaponCaliber": [],
+                                "weaponModsExclusive": [],
+                                "weaponModsInclusive": []
+                            },
+                            {
+                                "bodyPartsWithEffects": [
+                                    {
+                                        "bodyParts": [
+                                            "Head",
+                                            "Chest",
+                                            "Stomach",
+                                            "LeftArm",
+                                            "RightArm",
+                                            "LeftLeg",
+                                            "RightLeg"
+                                        ],
+                                        "effects": [
+                                            "Pain"
+                                        ]
+                                    }
+                                ],
+                                "conditionType": "HealthEffect",
+                                "dynamicLocale": false,
+                                "energy": {
+                                    "compareMethod": ">=",
+                                    "value": 0
+                                },
+                                "hydration": {
+                                    "compareMethod": ">=",
+                                    "value": 0
+                                },
+                                "id": "6afeab5b8e5e78e85f08ab69",
+                                "time": {
+                                    "compareMethod": ">=",
+                                    "value": 0
+                                }
+                            }
+                        ],
+                        "id": "6afeab5b8e5e78e85f08ab67"
+                    },
+                    "doNotResetIfCounterCompleted": false,
+                    "dynamicLocale": false,
+                    "globalQuestCounterId": "",
+                    "id": "6afeab5b8e5e78e85f08ab66",
+                    "index": 0,
+                    "isNecessary": false,
+                    "isResetOnConditionFailed": false,
+                    "oneSessionOnly": false,
+                    "parentId": "",
+                    "type": "Elimination",
+                    "value": 8,
+                    "visibilityConditions": []
+                }
+            ],
+            "AvailableForStart": [
+                {
+                    "availableAfter": 0,
+                    "conditionType": "Quest",
+                    "dispersion": 0,
+                    "dynamicLocale": false,
+                    "globalQuestCounterId": "",
+                    "id": "6afeab5b8e5e78e85f08ab65",
+                    "index": 0,
+                    "parentId": "",
+                    "status": [
+                        4
+                    ],
+                    "target": "6afeab5a9e8e49793d89e912",
+                    "visibilityConditions": []
+                }
+            ],
+            "Fail": []
+        },
+        "declinePlayerMessage": "6afeab5b8e5e78e85f08ab64 declinePlayerMessage",
+        "description": "6afeab5b8e5e78e85f08ab64 description",
+        "failMessageText": "6afeab5b8e5e78e85f08ab64 failMessageText",
+        "gameModes": [],
+        "image": "/files/quest/icon/64a2c8e0e4c3b3082302e5bd.jpg",
+        "instantComplete": false,
+        "isKey": false,
+        "location": "any",
+        "name": "6afeab5b8e5e78e85f08ab64 name",
+        "note": "6afeab5b8e5e78e85f08ab64 note",
+        "progressSource": "eft",
+        "rankingModes": [],
+        "restartable": false,
+        "rewards": {
+            "Fail": [],
+            "Started": [],
+            "Success": [
+                {
+                    "availableInGameEditions": [],
+                    "gameMode": [
+                        "regular",
+                        "pve"
+                    ],
+                    "id": "6afeab5b8e5e78e85f08ab6a",
+                    "isHidden": false,
+                    "type": "Experience",
+                    "unknown": false,
+                    "value": 7000
+                },
+                {
+                    "availableInGameEditions": [],
+                    "gameMode": [
+                        "regular",
+                        "pve"
+                    ],
+                    "id": "6afeab5b8e5e78e85f08ab6b",
+                    "isHidden": false,
+                    "target": "69744632183b55cf9702c986",
+                    "type": "TraderStanding",
+                    "unknown": false,
+                    "value": 0.14
+                },
+                {
+                    "availableInGameEditions": [],
+                    "findInRaid": false,
+                    "gameMode": [
+                        "regular",
+                        "pve"
+                    ],
+                    "id": "6afeab5b8e5e78e85f08ab6c",
+                    "isEncoded": false,
+                    "isHidden": false,
+                    "items": [
+                        {
+                            "_id": "6afeab5b8e5e78e85f08ab6d",
+                            "_tpl": "5449016a4bdc2d6f028b456f",
+                            "upd": {
+                                "StackObjectsCount": 55000
+                            }
+                        }
+                    ],
+                    "target": "6afeab5b8e5e78e85f08ab6d",
+                    "type": "Item",
+                    "unknown": false,
+                    "value": 55000
+                }
+            ]
+        },
+        "secretQuest": false,
+        "side": "pmc",
+        "startedMessageText": "6afeab5b8e5e78e85f08ab64 startedMessageText",
+        "status": 0,
+        "successMessageText": "6afeab5b8e5e78e85f08ab64 successMessageText",
+        "traderId": "69744632183b55cf9702c986",
+        "type": "Elimination"
     }
 }
