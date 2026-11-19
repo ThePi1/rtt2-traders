@@ -180,5 +180,16 @@
     "6afeac8dfd988952514ff7dc successMessageText": "[PH] Three Tetriz. No more fistfights in the break room.",
     "6afeac8dfd988952514ff7dc failMessageText": "",
     "6afeac8dfd988952514ff7de": "Find Tetriz portable game console in raid",
-    "6afeac8dfd988952514ff7df": "Hand over Tetriz portable game console"
+    "6afeac8dfd988952514ff7df": "Hand over Tetriz portable game console",
+    "6afead0e1fb1863eb6a1b86e name": "Frequent Flier",
+    "6afead0e1fb1863eb6a1b86e description": "[PH] Two Reapers went down on Shoreline, and those birds deserve respect. Leave thirty bucks at each wreck. Call it a tip for the pilots. Then mark them so my guys can come pull the avionics.",
+    "6afead0e1fb1863eb6a1b86e acceptPlayerMessage": "",
+    "6afead0e1fb1863eb6a1b86e declinePlayerMessage": "",
+    "6afead0e1fb1863eb6a1b86e completePlayerMessage": "",
+    "6afead0e1fb1863eb6a1b86e successMessageText": "[PH] Tips paid and wrecks marked. Those pilots would be proud, brother.",
+    "6afead0e1fb1863eb6a1b86e failMessageText": "",
+    "6afead0e1fb1863eb6a1b86f": "Leave 30 dollars at the crashed drone north of the swamp on Shoreline",
+    "6afead0e1fb1863eb6a1b875": "Mark the crashed drone north of the swamp with an MS2000 Marker",
+    "6afead0e1fb1863eb6a1b870": "Leave 30 dollars at the crashed drone in the east fields on Shoreline",
+    "6afead0e1fb1863eb6a1b877": "Mark the crashed drone in the east fields with an MS2000 Marker"
 }
