@@ -823,5 +823,13 @@
     "6afeb4d8c6a5128fce27c30d failMessageText": "",
     "6afeb4d8c6a5128fce27c30f": "Eliminate Knight with a pistol",
     "6afeb4d8c6a5128fce27c312": "Eliminate Big Pipe with a pistol",
-    "6afeb4d8c6a5128fce27c315": "Eliminate Birdeye with a pistol"
+    "6afeb4d8c6a5128fce27c315": "Eliminate Birdeye with a pistol",
+    "6afeb4d9dac3c158fcfc2598 name": "Twenty-Five Types of Ammo - Part 3",
+    "6afeb4d9dac3c158fcfc2598 description": "[PH] Killa wears enough armor for three men. You have a hand cannon. One of these things is about to lose.",
+    "6afeb4d9dac3c158fcfc2598 acceptPlayerMessage": "",
+    "6afeb4d9dac3c158fcfc2598 declinePlayerMessage": "",
+    "6afeb4d9dac3c158fcfc2598 completePlayerMessage": "",
+    "6afeb4d9dac3c158fcfc2598 successMessageText": "[PH] Fifty caliber diplomacy. Killa won't argue again.",
+    "6afeb4d9dac3c158fcfc2598 failMessageText": "",
+    "6afeb4dadac3c158fcfc259a": "Eliminate Killa with a Desert Eagle"
 }
