@@ -959,5 +959,13 @@
     "6afeb4ed45e216171112aef6 completePlayerMessage": "",
     "6afeb4ed45e216171112aef6 successMessageText": "[PH] Ten. Balance achieved, for now.",
     "6afeb4ed45e216171112aef6 failMessageText": "",
-    "6afeb4ed45e216171112aef8": "Eliminate PMCs with an M1A"
+    "6afeb4ed45e216171112aef8": "Eliminate PMCs with an M1A",
+    "6afeb4ef6c18a18d9022efba name": "Balance Needed - Part 2",
+    "6afeb4ef6c18a18d9022efba description": "[PH] Glukhar and his guards keep Reserve unbalanced. Fix that, with the M1A.",
+    "6afeb4ef6c18a18d9022efba acceptPlayerMessage": "",
+    "6afeb4ef6c18a18d9022efba declinePlayerMessage": "",
+    "6afeb4ef6c18a18d9022efba completePlayerMessage": "",
+    "6afeb4ef6c18a18d9022efba successMessageText": "[PH] Reserve is a little more balanced now.",
+    "6afeb4ef6c18a18d9022efba failMessageText": "",
+    "6afeb4ef6c18a18d9022efbc": "Eliminate Glukhar with an M1A"
 }
