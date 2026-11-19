@@ -89,5 +89,14 @@
     "6a134cf28c34ba4a387ccfc4 completePlayerMessage": "",
     "6a134cf28c34ba4a387ccfc4 successMessageText": "[PH] The data is beautiful. I will sell you my finest thermal optic now.",
     "6a134cf28c34ba4a387ccfc4 failMessageText": "",
-    "6afeb40dd169672825b03062": "Eliminate Scavs on Ground Zero with a T12W thermal reflex sight on your weapon"
+    "6afeb40dd169672825b03062": "Eliminate Scavs on Ground Zero with a T12W thermal reflex sight on your weapon",
+    "6a134ffc8c34ba4a387ccfdd name": "The Humane Society's After Us!",
+    "6a134ffc8c34ba4a387ccfdd description": "[PH] The Humane Society is after me! They say my experiments are 'unethical'. Ha! I need you to scout an escape route. Go from Ground Zero to Streets and get out. Quickly!",
+    "6a134ffc8c34ba4a387ccfdd acceptPlayerMessage": "",
+    "6a134ffc8c34ba4a387ccfdd declinePlayerMessage": "",
+    "6a134ffc8c34ba4a387ccfdd completePlayerMessage": "",
+    "6a134ffc8c34ba4a387ccfdd successMessageText": "[PH] An escape route! They will never catch me now. Have a drink, you look thirsty.",
+    "6a134ffc8c34ba4a387ccfdd failMessageText": "",
+    "6afeb40e318e51ecb6608590": "Transit from Ground Zero to Streets of Tarkov",
+    "6afeb40e318e51ecb6608597": "Survive and extract from Streets of Tarkov"
 }
