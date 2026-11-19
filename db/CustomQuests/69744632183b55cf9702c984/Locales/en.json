@@ -30,5 +30,17 @@
     "6afeb12d8a2bf95dc3c703aa successMessageText": "[PH] The route is surveyed. Commerce will flow. Ten-thousand-year plan, step one.",
     "6afeb12d8a2bf95dc3c703aa failMessageText": "",
     "6afeb12e8a2bf95dc3c703ac": "Mark the main road by the gas station on Shoreline",
-    "6afeb12e8a2bf95dc3c703ad": "Mark the train cars by the railway bridge on Shoreline"
+    "6afeb12e8a2bf95dc3c703ad": "Mark the train cars by the railway bridge on Shoreline",
+    "6afeb133df04bdf8630f0ccf name": "Silk Road - Part 2",
+    "6afeb133df04bdf8630f0ccf description": "[PH] The route is open, now we need goods on it. Medical goods. Leave a stimulant at five drop points on Shoreline: the south pier, the weather station, the village house, the gas station office and the bus station office. These are entirely legitimate pharmaceuticals.",
+    "6afeb133df04bdf8630f0ccf acceptPlayerMessage": "",
+    "6afeb133df04bdf8630f0ccf declinePlayerMessage": "",
+    "6afeb133df04bdf8630f0ccf completePlayerMessage": "",
+    "6afeb133df04bdf8630f0ccf successMessageText": "[PH] All five delivered. Our pharmaceutical exports have grown five hundred percent.",
+    "6afeb133df04bdf8630f0ccf failMessageText": "",
+    "6afeb133df04bdf8630f0cd1": "Leave a stimulant on the south pier on Shoreline",
+    "6afeb133df04bdf8630f0cd2": "Leave a stimulant at the weather station",
+    "6afeb133df04bdf8630f0cd3": "Leave a stimulant in the village house by the water",
+    "6afeb133df04bdf8630f0cd4": "Leave a stimulant in the gas station office",
+    "6afeb133df04bdf8630f0cd5": "Leave a stimulant in the bus station office"
 }

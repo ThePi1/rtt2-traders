@@ -48,5 +48,130 @@
             "Z": "5",
             "W": "0"
         }
+    },
+    {
+        "ZoneId": "X3_1",
+        "ZoneName": "X3_1",
+        "ZoneLocation": "Shoreline",
+        "ZoneType": "placeitem",
+        "FlareType": "",
+        "Position": {
+            "X": "-323",
+            "Y": "-63.315",
+            "Z": "548.6",
+            "W": "0"
+        },
+        "Rotation": {
+            "X": "0",
+            "Y": "0",
+            "Z": "0",
+            "W": "1"
+        },
+        "Scale": {
+            "X": "4",
+            "Y": "3",
+            "Z": "4",
+            "W": "0"
+        }
+    },
+    {
+        "ZoneId": "X3_2",
+        "ZoneName": "X3_2",
+        "ZoneLocation": "Shoreline",
+        "ZoneType": "placeitem",
+        "FlareType": "",
+        "Position": {
+            "X": "-471.9",
+            "Y": "-25.386",
+            "Z": "263.9",
+            "W": "0"
+        },
+        "Rotation": {
+            "X": "0",
+            "Y": "0",
+            "Z": "0",
+            "W": "1"
+        },
+        "Scale": {
+            "X": "4",
+            "Y": "3",
+            "Z": "4",
+            "W": "0"
+        }
+    },
+    {
+        "ZoneId": "X3_3",
+        "ZoneName": "X3_3",
+        "ZoneLocation": "Shoreline",
+        "ZoneType": "placeitem",
+        "FlareType": "",
+        "Position": {
+            "X": "318",
+            "Y": "-52.75",
+            "Z": "135.2",
+            "W": "0"
+        },
+        "Rotation": {
+            "X": "0",
+            "Y": "0",
+            "Z": "0",
+            "W": "1"
+        },
+        "Scale": {
+            "X": "4",
+            "Y": "3",
+            "Z": "4",
+            "W": "0"
+        }
+    },
+    {
+        "ZoneId": "X3_4",
+        "ZoneName": "X3_4",
+        "ZoneLocation": "Shoreline",
+        "ZoneType": "placeitem",
+        "FlareType": "",
+        "Position": {
+            "X": "-179.8",
+            "Y": "-54.1",
+            "Z": "379.6",
+            "W": "0"
+        },
+        "Rotation": {
+            "X": "0",
+            "Y": "0",
+            "Z": "0",
+            "W": "1"
+        },
+        "Scale": {
+            "X": "4",
+            "Y": "3",
+            "Z": "4",
+            "W": "0"
+        }
+    },
+    {
+        "ZoneId": "X3_5",
+        "ZoneName": "X3_5",
+        "ZoneLocation": "Shoreline",
+        "ZoneType": "placeitem",
+        "FlareType": "",
+        "Position": {
+            "X": "-123.4",
+            "Y": "-20.335",
+            "Z": "-22.4",
+            "W": "0"
+        },
+        "Rotation": {
+            "X": "0",
+            "Y": "0",
+            "Z": "0",
+            "W": "1"
+        },
+        "Scale": {
+            "X": "4",
+            "Y": "3",
+            "Z": "4",
+            "W": "0"
+        }
     }
 ]
