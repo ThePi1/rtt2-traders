@@ -2239,5 +2239,168 @@
         "successMessageText": "6afeaf89baacdcc253b108de successMessageText",
         "traderId": "69744632183b55cf9702c983",
         "type": "Elimination"
+    },
+    "6afeaf8a8816157535cee653": {
+        "QuestName": "King of Burgers",
+        "_id": "6afeaf8a8816157535cee653",
+        "acceptPlayerMessage": "6afeaf8a8816157535cee653 acceptPlayerMessage",
+        "acceptanceAndFinishingSource": "eft",
+        "arenaLocations": [],
+        "canShowNotificationsInGame": true,
+        "changeQuestMessageText": "6afeaf8a8816157535cee653 changeQuestMessageText",
+        "completePlayerMessage": "6afeaf8a8816157535cee653 completePlayerMessage",
+        "conditions": {
+            "AvailableForFinish": [
+                {
+                    "completeInSeconds": 0,
+                    "conditionType": "CounterCreator",
+                    "counter": {
+                        "conditions": [
+                            {
+                                "conditionType": "VisitPlace",
+                                "dynamicLocale": false,
+                                "id": "6afeaf8a8816157535cee657",
+                                "target": "P12_1",
+                                "value": 1
+                            }
+                        ],
+                        "id": "6afeaf8a8816157535cee656"
+                    },
+                    "doNotResetIfCounterCompleted": false,
+                    "dynamicLocale": false,
+                    "globalQuestCounterId": "",
+                    "id": "6afeaf8a8816157535cee655",
+                    "index": 0,
+                    "isNecessary": false,
+                    "isResetOnConditionFailed": false,
+                    "oneSessionOnly": false,
+                    "parentId": "",
+                    "type": "Exploration",
+                    "value": 1,
+                    "visibilityConditions": []
+                },
+                {
+                    "completeInSeconds": 0,
+                    "conditionType": "CounterCreator",
+                    "counter": {
+                        "conditions": [
+                            {
+                                "conditionType": "VisitPlace",
+                                "dynamicLocale": false,
+                                "id": "6afeaf8a8816157535cee65a",
+                                "target": "P12_2",
+                                "value": 1
+                            }
+                        ],
+                        "id": "6afeaf8a8816157535cee659"
+                    },
+                    "doNotResetIfCounterCompleted": false,
+                    "dynamicLocale": false,
+                    "globalQuestCounterId": "",
+                    "id": "6afeaf8a8816157535cee658",
+                    "index": 0,
+                    "isNecessary": false,
+                    "isResetOnConditionFailed": false,
+                    "oneSessionOnly": false,
+                    "parentId": "",
+                    "type": "Exploration",
+                    "value": 1,
+                    "visibilityConditions": []
+                }
+            ],
+            "AvailableForStart": [
+                {
+                    "availableAfter": 0,
+                    "conditionType": "Quest",
+                    "dispersion": 0,
+                    "dynamicLocale": false,
+                    "globalQuestCounterId": "",
+                    "id": "6afeaf8a8816157535cee654",
+                    "index": 0,
+                    "parentId": "",
+                    "status": [
+                        4
+                    ],
+                    "target": "6afeaf89baacdcc253b108de",
+                    "visibilityConditions": []
+                }
+            ],
+            "Fail": []
+        },
+        "declinePlayerMessage": "6afeaf8a8816157535cee653 declinePlayerMessage",
+        "description": "6afeaf8a8816157535cee653 description",
+        "failMessageText": "6afeaf8a8816157535cee653 failMessageText",
+        "gameModes": [],
+        "image": "/files/quest/icon/5ac4da0486f7744cc7701bdc.png",
+        "instantComplete": false,
+        "isKey": false,
+        "location": "5714dbc024597771384a510d",
+        "name": "6afeaf8a8816157535cee653 name",
+        "note": "6afeaf8a8816157535cee653 note",
+        "progressSource": "eft",
+        "rankingModes": [],
+        "restartable": false,
+        "rewards": {
+            "Fail": [],
+            "Started": [],
+            "Success": [
+                {
+                    "availableInGameEditions": [],
+                    "gameMode": [
+                        "regular",
+                        "pve"
+                    ],
+                    "id": "6afeaf8a8816157535cee65b",
+                    "isHidden": false,
+                    "type": "Experience",
+                    "unknown": false,
+                    "value": 10600
+                },
+                {
+                    "availableInGameEditions": [],
+                    "gameMode": [
+                        "regular",
+                        "pve"
+                    ],
+                    "id": "6afeaf8a8816157535cee65c",
+                    "isHidden": false,
+                    "target": "69744632183b55cf9702c983",
+                    "type": "TraderStanding",
+                    "unknown": false,
+                    "value": 0.2
+                },
+                {
+                    "availableInGameEditions": [],
+                    "findInRaid": false,
+                    "gameMode": [
+                        "regular",
+                        "pve"
+                    ],
+                    "id": "6afeaf8a8816157535cee65d",
+                    "isEncoded": false,
+                    "isHidden": false,
+                    "items": [
+                        {
+                            "_id": "6afeaf8b8816157535cee65e",
+                            "_tpl": "5449016a4bdc2d6f028b456f",
+                            "upd": {
+                                "StackObjectsCount": 85000
+                            }
+                        }
+                    ],
+                    "target": "6afeaf8b8816157535cee65e",
+                    "type": "Item",
+                    "unknown": false,
+                    "value": 85000
+                }
+            ]
+        },
+        "secretQuest": false,
+        "side": "pmc",
+        "startedMessageText": "6afeaf8a8816157535cee653 startedMessageText",
+        "status": 0,
+        "successMessageText": "6afeaf8a8816157535cee653 successMessageText",
+        "traderId": "69744632183b55cf9702c983",
+        "type": "Exploration"
     }
 }

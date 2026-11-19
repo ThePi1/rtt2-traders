@@ -115,5 +115,14 @@
     "6afeaf89baacdcc253b108de completePlayerMessage": "",
     "6afeaf89baacdcc253b108de successMessageText": "[PH] Eight. That's the shoe thieves dealt with. Fancy a pair?",
     "6afeaf89baacdcc253b108de failMessageText": "",
-    "6afeaf89baacdcc253b108e0": "Eliminate any target near the Adik shoe store on Interchange"
+    "6afeaf89baacdcc253b108e0": "Eliminate any target near the Adik shoe store on Interchange",
+    "6afeaf8a8816157535cee653 name": "King of Burgers",
+    "6afeaf8a8816157535cee653 description": "[PH] I'm told there's more than one burger joint in that mall. Is it true? Go and see. I need to know who's doing the better patty.",
+    "6afeaf8a8816157535cee653 acceptPlayerMessage": "",
+    "6afeaf8a8816157535cee653 declinePlayerMessage": "",
+    "6afeaf8a8816157535cee653 completePlayerMessage": "",
+    "6afeaf8a8816157535cee653 successMessageText": "[PH] Two of them? No wonder nobody comes for my sausage rolls.",
+    "6afeaf8a8816157535cee653 failMessageText": "",
+    "6afeaf8a8816157535cee655": "Visit the Burger Spot on the mall's second floor",
+    "6afeaf8a8816157535cee658": "Visit the burger houses on the west wing's second floor"
 }
