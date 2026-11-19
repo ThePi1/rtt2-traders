@@ -208,5 +208,16 @@
     "6afeb14b26031308ba2bac1d successMessageText": "[PH] The office is protected. Now I can receive visitors. Interesting visitors.",
     "6afeb14b26031308ba2bac1d failMessageText": "",
     "6afeb14b26031308ba2bac1f": "Find Bronze lion figurine in raid",
-    "6afeb14b26031308ba2bac20": "Hand over Bronze lion figurine"
+    "6afeb14b26031308ba2bac20": "Hand over Bronze lion figurine",
+    "6afeb14cfef9fd9b3cc6e709 name": "Tourist - Part 1",
+    "6afeb14cfef9fd9b3cc6e709 description": "[PH] The Party is sending a delegation of tourists. They would like to see the famous attractions of Customs, the ones behind locked doors. Visit the trailer park cabin, the new gas station storage, dorm 314 and the customs office. Take notes on the gift shops.",
+    "6afeb14cfef9fd9b3cc6e709 acceptPlayerMessage": "",
+    "6afeb14cfef9fd9b3cc6e709 declinePlayerMessage": "",
+    "6afeb14cfef9fd9b3cc6e709 completePlayerMessage": "",
+    "6afeb14cfef9fd9b3cc6e709 successMessageText": "[PH] A fine itinerary. The delegation will be impressed. Or robbed.",
+    "6afeb14cfef9fd9b3cc6e709 failMessageText": "",
+    "6afeb14dfef9fd9b3cc6e70b": "Visit the trailer park cabin on Customs",
+    "6afeb14dfef9fd9b3cc6e70e": "Visit the locked room at the new gas station",
+    "6afeb14dfef9fd9b3cc6e711": "Visit dorm room 314",
+    "6afeb14dfef9fd9b3cc6e714": "Visit the Customs office room"
 }

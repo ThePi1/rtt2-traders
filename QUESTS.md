@@ -361,7 +361,7 @@ New zones are in `db/CustomQuestZones/C1_C4_C6_C7_C8_C9.json`. The first four ar
 | X20 | Xiaoming | Chinatown | Visit all the restaurants on Streets of Tarkov, and mark their front doors |  |  | `6afeb14a0c36dcb8fefae761` | Needs check | Built: mark the front of 4 Streets restaurants with new zones `X20_1` (Beluga), `X20_2` (Brodion restopub), `X20_3` (Burger Spot at the Pinewood), `X20_4` (Burger Spot, Nizhnyaya Sadovaya). Marking means visiting, so there's no separate visit step |
 | X21 | Xiaoming | Gotcha, Gatcha | Plant 3 gas cans and 3 matches in the Game Dev room on streets, including one in the locked room. Survive and extract. |  |  |  | To build |  |
 | X22 | Xiaoming | Shishi | Turn in 2 FIR Lion statues |  | Leads to Chimera unlock somehow | `6afeb14b26031308ba2bac1d` | Built | Built: hand in 2 FIR Bronze lion figurines. Starts after X20 because X21 isn't built. The "leads to Chimera unlock" reward is left out: that's a story decision |
-| X23 | Xiaoming | Tourist - Part 1 | Visit multiple locked rooms on Customs (touring good loot spots): trailer park cabin, new gas locked room, dorms 314, customs office key |  |  |  | To build |  |
+| X23 | Xiaoming | Tourist - Part 1 | Visit multiple locked rooms on Customs (touring good loot spots): trailer park cabin, new gas locked room, dorms 314, customs office key |  |  | `6afeb14cfef9fd9b3cc6e709` | Built | Built: visit the existing zones `X23_1`-`X23_4` on Customs |
 | X24 | Xiaoming | Tourist - Part 2 | Visit multiple locked rooms on Shoreline: tape key, W222, E306, HEP Station  Key |  |  |  | To build |  |
 | X25 | Xiaoming | Tourist - Part 3 | Mark inside all Reserve marked rooms RBPKPM, rbbkmr,RBVOMR |  |  |  | To build |  |
 
