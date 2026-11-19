@@ -665,5 +665,152 @@
         "successMessageText": "6a1348ae8c34ba4a387ccf9f successMessageText",
         "traderId": "69744632183b55cf9702c987",
         "type": "Completion"
+    },
+    "6a13491a8c34ba4a387ccfa7": {
+        "QuestName": "Please Place the Sharpie - Part 3",
+        "_id": "6a13491a8c34ba4a387ccfa7",
+        "acceptPlayerMessage": "6a13491a8c34ba4a387ccfa7 acceptPlayerMessage",
+        "acceptanceAndFinishingSource": "eft",
+        "arenaLocations": [],
+        "canShowNotificationsInGame": true,
+        "changeQuestMessageText": "6a13491a8c34ba4a387ccfa7 changeQuestMessageText",
+        "completePlayerMessage": "6a13491a8c34ba4a387ccfa7 completePlayerMessage",
+        "conditions": {
+            "AvailableForFinish": [
+                {
+                    "conditionType": "PlaceBeacon",
+                    "dynamicLocale": false,
+                    "globalQuestCounterId": "",
+                    "id": "6afeb408b583c9a04dfc025a",
+                    "index": 0,
+                    "parentId": "",
+                    "plantTime": 20,
+                    "target": [
+                        "5991b51486f77447b112d44f"
+                    ],
+                    "value": 1,
+                    "visibilityConditions": [],
+                    "zoneId": "S4"
+                }
+            ],
+            "AvailableForStart": [
+                {
+                    "availableAfter": 0,
+                    "conditionType": "Quest",
+                    "dispersion": 0,
+                    "dynamicLocale": false,
+                    "globalQuestCounterId": "",
+                    "id": "6afeb408b583c9a04dfc0259",
+                    "index": 0,
+                    "parentId": "",
+                    "status": [
+                        4
+                    ],
+                    "target": "6a1348ae8c34ba4a387ccf9f",
+                    "visibilityConditions": []
+                }
+            ],
+            "Fail": []
+        },
+        "declinePlayerMessage": "6a13491a8c34ba4a387ccfa7 declinePlayerMessage",
+        "description": "6a13491a8c34ba4a387ccfa7 description",
+        "failMessageText": "6a13491a8c34ba4a387ccfa7 failMessageText",
+        "gameModes": [],
+        "image": "/files/quest/icon/5ac4d8f186f774422237860d.png",
+        "instantComplete": false,
+        "isKey": false,
+        "location": "5704e4dad2720bb55b8b4567",
+        "name": "6a13491a8c34ba4a387ccfa7 name",
+        "note": "6a13491a8c34ba4a387ccfa7 note",
+        "progressSource": "eft",
+        "rankingModes": [],
+        "restartable": false,
+        "rewards": {
+            "Fail": [],
+            "Started": [],
+            "Success": [
+                {
+                    "availableInGameEditions": [],
+                    "gameMode": [
+                        "regular",
+                        "pve"
+                    ],
+                    "id": "6afeb408b583c9a04dfc025b",
+                    "isHidden": false,
+                    "type": "Experience",
+                    "unknown": false,
+                    "value": 5800
+                },
+                {
+                    "availableInGameEditions": [],
+                    "gameMode": [
+                        "regular",
+                        "pve"
+                    ],
+                    "id": "6afeb408b583c9a04dfc025c",
+                    "isHidden": false,
+                    "target": "69744632183b55cf9702c987",
+                    "type": "TraderStanding",
+                    "unknown": false,
+                    "value": 0.2
+                },
+                {
+                    "availableInGameEditions": [],
+                    "findInRaid": false,
+                    "gameMode": [
+                        "regular",
+                        "pve"
+                    ],
+                    "id": "6afeb408b583c9a04dfc025d",
+                    "isEncoded": false,
+                    "isHidden": false,
+                    "items": [
+                        {
+                            "_id": "6afeb408b583c9a04dfc025e",
+                            "_tpl": "5449016a4bdc2d6f028b456f",
+                            "upd": {
+                                "StackObjectsCount": 45000
+                            }
+                        }
+                    ],
+                    "target": "6afeb408b583c9a04dfc025e",
+                    "type": "Item",
+                    "unknown": false,
+                    "value": 45000
+                },
+                {
+                    "availableInGameEditions": [],
+                    "findInRaid": true,
+                    "gameMode": [
+                        "regular",
+                        "pve"
+                    ],
+                    "id": "6afeb408b583c9a04dfc025f",
+                    "isEncoded": false,
+                    "isHidden": false,
+                    "items": [
+                        {
+                            "_id": "6afeb408b583c9a04dfc0260",
+                            "_tpl": "61714eec290d254f5e6b2ffc",
+                            "upd": {
+                                "SpawnedInSession": true,
+                                "StackObjectsCount": 1
+                            }
+                        }
+                    ],
+                    "target": "6afeb408b583c9a04dfc0260",
+                    "type": "Item",
+                    "unknown": false,
+                    "value": 1
+                }
+            ]
+        },
+        "secretQuest": false,
+        "side": "pmc",
+        "startedMessageText": "6a13491a8c34ba4a387ccfa7 startedMessageText",
+        "status": 0,
+        "successMessageText": "6a13491a8c34ba4a387ccfa7 successMessageText",
+        "traderId": "69744632183b55cf9702c987",
+        "type": "Completion"
     }
 }

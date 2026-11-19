@@ -47,5 +47,13 @@
     "6a1348ae8c34ba4a387ccf9f completePlayerMessage": "",
     "6a1348ae8c34ba4a387ccf9f successMessageText": "[PH] Marked! The plans proceed. Take some money, buy yourself something nice. Like a gas mask.",
     "6a1348ae8c34ba4a387ccf9f failMessageText": "",
-    "6afeb4074dfd09be8c755df8": "Mark the security station by the security armory in the Lab"
+    "6afeb4074dfd09be8c755df8": "Mark the security station by the security armory in the Lab",
+    "6a13491a8c34ba4a387ccfa7 name": "Please Place the Sharpie - Part 3",
+    "6a13491a8c34ba4a387ccfa7 description": "[PH] Someone is listening. Always listening! There is a post in the upper chalet on Lighthouse. Mark it so my friends can, ah, adjust the equipment.",
+    "6a13491a8c34ba4a387ccfa7 acceptPlayerMessage": "",
+    "6a13491a8c34ba4a387ccfa7 declinePlayerMessage": "",
+    "6a13491a8c34ba4a387ccfa7 completePlayerMessage": "",
+    "6a13491a8c34ba4a387ccfa7 successMessageText": "[PH] Now they listen to static. Ha! Take this scope, you will need to see far.",
+    "6a13491a8c34ba4a387ccfa7 failMessageText": "",
+    "6afeb408b583c9a04dfc025a": "Mark the listening post in the upper chalet on Lighthouse"
 }
