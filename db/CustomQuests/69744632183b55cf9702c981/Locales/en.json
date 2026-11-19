@@ -887,5 +887,13 @@
     "6afeb4e249c73f6e437e9220 completePlayerMessage": "",
     "6afeb4e249c73f6e437e9220 successMessageText": "[PH] Ten. It's a classic for a reason.",
     "6afeb4e249c73f6e437e9220 failMessageText": "",
-    "6afeb4e249c73f6e437e9222": "Eliminate PMCs with a Colt M4A1"
+    "6afeb4e249c73f6e437e9222": "Eliminate PMCs with a Colt M4A1",
+    "6afeb4e3794f298c02f1b0c6 name": "Gun - Part 2",
+    "6afeb4e3794f298c02f1b0c6 description": "[PH] No glass. No dots. Just the iron and your eye. Glukhar is waiting at Reserve.",
+    "6afeb4e3794f298c02f1b0c6 acceptPlayerMessage": "",
+    "6afeb4e3794f298c02f1b0c6 declinePlayerMessage": "",
+    "6afeb4e3794f298c02f1b0c6 completePlayerMessage": "",
+    "6afeb4e3794f298c02f1b0c6 successMessageText": "[PH] Irons only. Your grandfather would be proud. Probably.",
+    "6afeb4e3794f298c02f1b0c6 failMessageText": "",
+    "6afeb4e3794f298c02f1b0c8": "Eliminate Glukhar with an assault rifle on iron sights"
 }
