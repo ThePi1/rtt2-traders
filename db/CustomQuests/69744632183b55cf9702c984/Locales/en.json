@@ -92,5 +92,14 @@
     "6afeb13982735cde65f1a9dc completePlayerMessage": "",
     "6afeb13982735cde65f1a9dc successMessageText": "[PH] Test passed. The copy will be... almost as good.",
     "6afeb13982735cde65f1a9dc failMessageText": "",
-    "6afeb13982735cde65f1a9de": "Eliminate any target with headshots while wearing Killa's Maska-1SCh helmet, and survive the raid"
+    "6afeb13982735cde65f1a9de": "Eliminate any target with headshots while wearing Killa's Maska-1SCh helmet, and survive the raid",
+    "6afeb13a3774896637aeac6a name": "Transfer Student",
+    "6afeb13a3774896637aeac6a description": "[PH] You will be enrolled in an exchange program. Very prestigious. Reach Attention level five and Intellect level seven. There will be an exam. There is always an exam.",
+    "6afeb13a3774896637aeac6a acceptPlayerMessage": "",
+    "6afeb13a3774896637aeac6a declinePlayerMessage": "",
+    "6afeb13a3774896637aeac6a completePlayerMessage": "",
+    "6afeb13a3774896637aeac6a successMessageText": "[PH] Top marks. Your parents would be proud. I have informed them.",
+    "6afeb13a3774896637aeac6a failMessageText": "",
+    "6afeb13a3774896637aeac6c": "Reach level 5 of the Attention skill",
+    "6afeb13a3774896637aeac6d": "Reach level 7 of the Intellect skill"
 }

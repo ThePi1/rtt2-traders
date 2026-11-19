@@ -1712,5 +1712,136 @@
         "successMessageText": "6afeb13982735cde65f1a9dc successMessageText",
         "traderId": "69744632183b55cf9702c984",
         "type": "Elimination"
+    },
+    "6afeb13a3774896637aeac6a": {
+        "QuestName": "Transfer Student",
+        "_id": "6afeb13a3774896637aeac6a",
+        "acceptPlayerMessage": "6afeb13a3774896637aeac6a acceptPlayerMessage",
+        "acceptanceAndFinishingSource": "eft",
+        "arenaLocations": [],
+        "canShowNotificationsInGame": true,
+        "changeQuestMessageText": "6afeb13a3774896637aeac6a changeQuestMessageText",
+        "completePlayerMessage": "6afeb13a3774896637aeac6a completePlayerMessage",
+        "conditions": {
+            "AvailableForFinish": [
+                {
+                    "compareMethod": ">=",
+                    "conditionType": "Skill",
+                    "dynamicLocale": false,
+                    "globalQuestCounterId": "",
+                    "id": "6afeb13a3774896637aeac6c",
+                    "index": 0,
+                    "parentId": "",
+                    "target": "Attention",
+                    "value": 5,
+                    "visibilityConditions": []
+                },
+                {
+                    "compareMethod": ">=",
+                    "conditionType": "Skill",
+                    "dynamicLocale": false,
+                    "globalQuestCounterId": "",
+                    "id": "6afeb13a3774896637aeac6d",
+                    "index": 0,
+                    "parentId": "",
+                    "target": "Intellect",
+                    "value": 7,
+                    "visibilityConditions": []
+                }
+            ],
+            "AvailableForStart": [
+                {
+                    "availableAfter": 0,
+                    "conditionType": "Quest",
+                    "dispersion": 0,
+                    "dynamicLocale": false,
+                    "globalQuestCounterId": "",
+                    "id": "6afeb13a3774896637aeac6b",
+                    "index": 0,
+                    "parentId": "",
+                    "status": [
+                        4
+                    ],
+                    "target": "6afeb13982735cde65f1a9dc",
+                    "visibilityConditions": []
+                }
+            ],
+            "Fail": []
+        },
+        "declinePlayerMessage": "6afeb13a3774896637aeac6a declinePlayerMessage",
+        "description": "6afeb13a3774896637aeac6a description",
+        "failMessageText": "6afeb13a3774896637aeac6a failMessageText",
+        "gameModes": [],
+        "image": "/files/quest/icon/63ab1f1676588f3cf341c460.jpg",
+        "instantComplete": false,
+        "isKey": false,
+        "location": "any",
+        "name": "6afeb13a3774896637aeac6a name",
+        "note": "6afeb13a3774896637aeac6a note",
+        "progressSource": "eft",
+        "rankingModes": [],
+        "restartable": false,
+        "rewards": {
+            "Fail": [],
+            "Started": [],
+            "Success": [
+                {
+                    "availableInGameEditions": [],
+                    "gameMode": [
+                        "regular",
+                        "pve"
+                    ],
+                    "id": "6afeb13a3774896637aeac6e",
+                    "isHidden": false,
+                    "type": "Experience",
+                    "unknown": false,
+                    "value": 9400
+                },
+                {
+                    "availableInGameEditions": [],
+                    "gameMode": [
+                        "regular",
+                        "pve"
+                    ],
+                    "id": "6afeb13a3774896637aeac6f",
+                    "isHidden": false,
+                    "target": "69744632183b55cf9702c984",
+                    "type": "TraderStanding",
+                    "unknown": false,
+                    "value": 0.16
+                },
+                {
+                    "availableInGameEditions": [],
+                    "findInRaid": false,
+                    "gameMode": [
+                        "regular",
+                        "pve"
+                    ],
+                    "id": "6afeb13a3774896637aeac70",
+                    "isEncoded": false,
+                    "isHidden": false,
+                    "items": [
+                        {
+                            "_id": "6afeb13a3774896637aeac71",
+                            "_tpl": "5449016a4bdc2d6f028b456f",
+                            "upd": {
+                                "StackObjectsCount": 75000
+                            }
+                        }
+                    ],
+                    "target": "6afeb13a3774896637aeac71",
+                    "type": "Item",
+                    "unknown": false,
+                    "value": 75000
+                }
+            ]
+        },
+        "secretQuest": false,
+        "side": "pmc",
+        "startedMessageText": "6afeb13a3774896637aeac6a startedMessageText",
+        "status": 0,
+        "successMessageText": "6afeb13a3774896637aeac6a successMessageText",
+        "traderId": "69744632183b55cf9702c984",
+        "type": "Skill"
     }
 }
