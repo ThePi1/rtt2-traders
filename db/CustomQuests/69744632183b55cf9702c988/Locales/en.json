@@ -146,5 +146,14 @@
     "6afeb330ee909155fdd53269 successMessageText": "[PH] Blessed. Take these piercing rounds. They go through the unbelievers.",
     "6afeb330ee909155fdd53269 failMessageText": "",
     "6afeb330ee909155fdd5326b": "Find 7.62x54mm R SNB gzh ammo pack (20 pcs), 7.62x39mm PS gzh ammo pack (20 pcs), 7.62x54mm R BS ammo pack (20 pcs), 7.62x51mm M993 ammo pack (20 pcs), 7.62x39mm MAI AP ammo pack (20 pcs), 7.62x39mm FMJ ammo pack (20 pcs), 7.62x39mm PP gzh ammo pack (20 pcs), 7.62x39mm SP ammo pack (20 pcs), 7.62x39mm T-45M1 gzh ammo pack (20 pcs), 7.62x39mm US gzh ammo pack (20 pcs), 7.62x39mm BP gzh ammo pack (20 pcs), 7.62x39mm HP ammo pack (20 pcs), 7.62x54mm R SP BT gzh ammo pack (20 pcs), 7.62x54mm R FMJ ammo pack (20 pcs), 7.62x54mm R HP BT ammo pack (20 pcs), 7.62x25mm ТТ FMJ43 ammo pack (25 pcs), 7.62x25mm ТТ LRN ammo pack (25 pcs), 7.62x25mm ТТ LRNPC ammo pack (25 pcs), 7.62x25mm TT AKBS ammo pack (25 pcs), 7.62x25mm TT P gl ammo pack (25 pcs), 7.62x25mm TT Pst gzh ammo pack (25 pcs), 7.62x25mm TT PT gzh ammo pack (25 pcs), 7.62x51mm M61 ammo pack (20 pcs), 7.62x51mm M62 Tracer ammo pack (20 pcs), 7.62x51mm M80 ammo pack (20 pcs), 7.62x51mm Ultra Nosler ammo pack (20 pcs), 7.62x51mm BCP FMJ ammo pack (20 pcs), 7.62x51mm TCW SP ammo pack (20 pcs), 7.62x54mm R BT gzh ammo pack (20 pcs), 7.62x54mm R LPS gzh ammo pack (20 pcs), 7.62x54mm R PS gzh ammo pack (20 pcs), 7.62x54mm R T-46M gzh ammo pack (20 pcs) or 7.62x51mm M80A1 ammo pack (20 pcs) in raid",
-    "6afeb330ee909155fdd5326c": "Hand over 3 packs of 7.62 ammo, found in raid"
+    "6afeb330ee909155fdd5326c": "Hand over 3 packs of 7.62 ammo, found in raid",
+    "6afeb331ea2105fd5ee9ba17 name": "The Eye Requires Munitions - Part 3",
+    "6afeb331ea2105fd5ee9ba17 description": "[PH] The final verse. Three boxes of .338. The Eye sees very far and wants to reach as far as it sees.",
+    "6afeb331ea2105fd5ee9ba17 acceptPlayerMessage": "",
+    "6afeb331ea2105fd5ee9ba17 declinePlayerMessage": "",
+    "6afeb331ea2105fd5ee9ba17 completePlayerMessage": "",
+    "6afeb331ea2105fd5ee9ba17 successMessageText": "[PH] Now the family can speak across valleys. Take some for yourself.",
+    "6afeb331ea2105fd5ee9ba17 failMessageText": "",
+    "6afeb331ea2105fd5ee9ba19": "Find .338 Lapua Magnum AP ammo pack (20 pcs), .338 Lapua Magnum FMJ ammo pack (20 pcs), .338 Lapua Magnum TAC-X ammo pack (20 pcs) or .338 Lapua Magnum UCW ammo pack (20 pcs) in raid",
+    "6afeb331ea2105fd5ee9ba1a": "Hand over 3 packs of .338 Lapua Magnum ammo, found in raid"
 }
