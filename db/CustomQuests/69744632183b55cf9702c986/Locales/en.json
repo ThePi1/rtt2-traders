@@ -18,5 +18,13 @@
     "6afeaaf15d1fdb09ec4b2e0f": "Find 6-STEN-140-M military battery in raid",
     "6afeaaf15d1fdb09ec4b2e10": "Hand over 6-STEN-140-M military battery",
     "6afeaaf15d1fdb09ec4b2e11": "Find OFZ 30x165mm shell in raid",
-    "6afeaaf15d1fdb09ec4b2e12": "Hand over OFZ 30x165mm shell"
+    "6afeaaf15d1fdb09ec4b2e12": "Hand over OFZ 30x165mm shell",
+    "6afeaaf28d3229c33858b35c name": "500 Cigarettes",
+    "6afeaaf28d3229c33858b35c description": "[PH] I owe a guy on Streets. Long story, involves a range day and a very expensive optic. He takes payment in smokes. Drop twenty-five packs of Wilstons in the sauna at the Cardinal apartments, where he relaxes. Every pack, operator.",
+    "6afeaaf28d3229c33858b35c acceptPlayerMessage": "",
+    "6afeaaf28d3229c33858b35c declinePlayerMessage": "",
+    "6afeaaf28d3229c33858b35c completePlayerMessage": "",
+    "6afeaaf28d3229c33858b35c successMessageText": "[PH] Debt paid in full. That's twenty-five packs times twenty, so five hundred cigarettes. Do the math, it checks out.",
+    "6afeaaf28d3229c33858b35c failMessageText": "",
+    "6afeaaf28d3229c33858b35e": "Leave 25 packs of Wilston cigarettes in the sauna of the Cardinal apartments on Streets"
 }

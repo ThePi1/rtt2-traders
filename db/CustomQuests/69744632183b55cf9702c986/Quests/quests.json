@@ -323,5 +323,132 @@
         "successMessageText": "6afeaaf15d1fdb09ec4b2e0d successMessageText",
         "traderId": "69744632183b55cf9702c986",
         "type": "PickUp"
+    },
+    "6afeaaf28d3229c33858b35c": {
+        "QuestName": "500 Cigarettes",
+        "_id": "6afeaaf28d3229c33858b35c",
+        "acceptPlayerMessage": "6afeaaf28d3229c33858b35c acceptPlayerMessage",
+        "acceptanceAndFinishingSource": "eft",
+        "arenaLocations": [],
+        "canShowNotificationsInGame": true,
+        "changeQuestMessageText": "6afeaaf28d3229c33858b35c changeQuestMessageText",
+        "completePlayerMessage": "6afeaaf28d3229c33858b35c completePlayerMessage",
+        "conditions": {
+            "AvailableForFinish": [
+                {
+                    "conditionType": "LeaveItemAtLocation",
+                    "dogtagLevel": 0,
+                    "dynamicLocale": false,
+                    "globalQuestCounterId": "",
+                    "id": "6afeaaf28d3229c33858b35e",
+                    "index": 0,
+                    "isEncoded": false,
+                    "maxDurability": 100,
+                    "minDurability": 0,
+                    "onlyFoundInRaid": false,
+                    "parentId": "",
+                    "plantTime": 4,
+                    "target": [
+                        "573476f124597737e04bf328"
+                    ],
+                    "value": 25,
+                    "visibilityConditions": [],
+                    "zoneId": "A3"
+                }
+            ],
+            "AvailableForStart": [
+                {
+                    "availableAfter": 0,
+                    "conditionType": "Quest",
+                    "dispersion": 0,
+                    "dynamicLocale": false,
+                    "globalQuestCounterId": "",
+                    "id": "6afeaaf28d3229c33858b35d",
+                    "index": 0,
+                    "parentId": "",
+                    "status": [
+                        4
+                    ],
+                    "target": "6afeaa3204a15e3fbedf2f2f",
+                    "visibilityConditions": []
+                }
+            ],
+            "Fail": []
+        },
+        "declinePlayerMessage": "6afeaaf28d3229c33858b35c declinePlayerMessage",
+        "description": "6afeaaf28d3229c33858b35c description",
+        "failMessageText": "6afeaaf28d3229c33858b35c failMessageText",
+        "gameModes": [],
+        "image": "/files/quest/icon/5ac4db0986f77442000164dd.jpg",
+        "instantComplete": false,
+        "isKey": false,
+        "location": "5714dc692459777137212e12",
+        "name": "6afeaaf28d3229c33858b35c name",
+        "note": "6afeaaf28d3229c33858b35c note",
+        "progressSource": "eft",
+        "rankingModes": [],
+        "restartable": false,
+        "rewards": {
+            "Fail": [],
+            "Started": [],
+            "Success": [
+                {
+                    "availableInGameEditions": [],
+                    "gameMode": [
+                        "regular",
+                        "pve"
+                    ],
+                    "id": "6afeaaf28d3229c33858b35f",
+                    "isHidden": false,
+                    "type": "Experience",
+                    "unknown": false,
+                    "value": 5200
+                },
+                {
+                    "availableInGameEditions": [],
+                    "gameMode": [
+                        "regular",
+                        "pve"
+                    ],
+                    "id": "6afeaaf28d3229c33858b360",
+                    "isHidden": false,
+                    "target": "69744632183b55cf9702c986",
+                    "type": "TraderStanding",
+                    "unknown": false,
+                    "value": 0.14
+                },
+                {
+                    "availableInGameEditions": [],
+                    "findInRaid": false,
+                    "gameMode": [
+                        "regular",
+                        "pve"
+                    ],
+                    "id": "6afeaaf28d3229c33858b361",
+                    "isEncoded": false,
+                    "isHidden": false,
+                    "items": [
+                        {
+                            "_id": "6afeaaf28d3229c33858b362",
+                            "_tpl": "5449016a4bdc2d6f028b456f",
+                            "upd": {
+                                "StackObjectsCount": 40000
+                            }
+                        }
+                    ],
+                    "target": "6afeaaf28d3229c33858b362",
+                    "type": "Item",
+                    "unknown": false,
+                    "value": 40000
+                }
+            ]
+        },
+        "secretQuest": false,
+        "side": "pmc",
+        "startedMessageText": "6afeaaf28d3229c33858b35c startedMessageText",
+        "status": 0,
+        "successMessageText": "6afeaaf28d3229c33858b35c successMessageText",
+        "traderId": "69744632183b55cf9702c986",
+        "type": "Completion"
     }
 }
