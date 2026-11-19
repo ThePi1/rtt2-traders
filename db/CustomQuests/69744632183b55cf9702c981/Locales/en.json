@@ -794,5 +794,15 @@
     "69ff979dde23b7f4f68f23be acceptPlayerMessage": "",
     "69ff979dde23b7f4f68f23be declinePlayerMessage": "",
     "69ff979dde23b7f4f68f23be completePlayerMessage": "",
-    "69ff979dde23b7f4f68f23be failMessageText": ""
+    "69ff979dde23b7f4f68f23be failMessageText": "",
+    "6afeb4d643d1cd87c702de21 name": "Safe on Block - Part 2",
+    "6afeb4d643d1cd87c702de21 description": "[PH] You keep telling yourself a shotgun is a close-range tool. Prove yourself wrong. Left leg at fifty meters. Right leg at fifty. Torso at sixty-five. Your body can take it. Can theirs?",
+    "6afeb4d643d1cd87c702de21 acceptPlayerMessage": "",
+    "6afeb4d643d1cd87c702de21 declinePlayerMessage": "",
+    "6afeb4d643d1cd87c702de21 completePlayerMessage": "",
+    "6afeb4d643d1cd87c702de21 successMessageText": "[PH] Buckshot at range. Your immune system and your aim both got a little tougher.",
+    "6afeb4d643d1cd87c702de21 failMessageText": "",
+    "6afeb4d643d1cd87c702de23": "Hit a PMC in the left leg with a shotgun from over 50 meters",
+    "6afeb4d643d1cd87c702de26": "Hit a PMC in the right leg with a shotgun from over 50 meters",
+    "6afeb4d643d1cd87c702de29": "Hit a PMC in the torso with a shotgun from over 65 meters"
 }
