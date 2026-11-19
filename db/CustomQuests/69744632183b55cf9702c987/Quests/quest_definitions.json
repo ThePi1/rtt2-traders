@@ -3098,5 +3098,284 @@
         "successMessageText": "6a1355ee8c34ba4a387cd025 successMessageText",
         "traderId": "69744632183b55cf9702c987",
         "type": "Elimination"
+    },
+    "6a1356e48c34ba4a387cd02d": {
+        "QuestName": "Illuminate the Illuminati",
+        "_id": "6a1356e48c34ba4a387cd02d",
+        "acceptPlayerMessage": "6a1356e48c34ba4a387cd02d acceptPlayerMessage",
+        "acceptanceAndFinishingSource": "eft",
+        "arenaLocations": [],
+        "canShowNotificationsInGame": true,
+        "changeQuestMessageText": "6a1356e48c34ba4a387cd02d changeQuestMessageText",
+        "completePlayerMessage": "6a1356e48c34ba4a387cd02d completePlayerMessage",
+        "conditions": {
+            "AvailableForFinish": [
+                {
+                    "completeInSeconds": 0,
+                    "conditionType": "CounterCreator",
+                    "counter": {
+                        "conditions": [
+                            {
+                                "bodyPart": [],
+                                "compareMethod": ">=",
+                                "conditionType": "Kills",
+                                "daytime": {
+                                    "from": 0,
+                                    "to": 0
+                                },
+                                "distance": {
+                                    "compareMethod": ">=",
+                                    "value": 0
+                                },
+                                "dynamicLocale": false,
+                                "enemyEquipmentExclusive": [],
+                                "enemyEquipmentInclusive": [],
+                                "enemyHealthEffects": [],
+                                "id": "6afeb418772badf79a1f3ee8",
+                                "resetOnSessionEnd": false,
+                                "savageRole": [
+                                    "bossKnight"
+                                ],
+                                "target": "Savage",
+                                "value": 0,
+                                "weapon": [],
+                                "weaponCaliber": [],
+                                "weaponModsExclusive": [],
+                                "weaponModsInclusive": []
+                            }
+                        ],
+                        "id": "6afeb418772badf79a1f3ee7"
+                    },
+                    "doNotResetIfCounterCompleted": false,
+                    "dynamicLocale": false,
+                    "globalQuestCounterId": "",
+                    "id": "6afeb418772badf79a1f3ee6",
+                    "index": 0,
+                    "isNecessary": false,
+                    "isResetOnConditionFailed": false,
+                    "oneSessionOnly": false,
+                    "parentId": "",
+                    "type": "Elimination",
+                    "value": 1,
+                    "visibilityConditions": []
+                },
+                {
+                    "completeInSeconds": 0,
+                    "conditionType": "CounterCreator",
+                    "counter": {
+                        "conditions": [
+                            {
+                                "bodyPart": [],
+                                "compareMethod": ">=",
+                                "conditionType": "Kills",
+                                "daytime": {
+                                    "from": 0,
+                                    "to": 0
+                                },
+                                "distance": {
+                                    "compareMethod": ">=",
+                                    "value": 0
+                                },
+                                "dynamicLocale": false,
+                                "enemyEquipmentExclusive": [],
+                                "enemyEquipmentInclusive": [],
+                                "enemyHealthEffects": [],
+                                "id": "6afeb418772badf79a1f3eeb",
+                                "resetOnSessionEnd": false,
+                                "savageRole": [
+                                    "followerBigPipe"
+                                ],
+                                "target": "Savage",
+                                "value": 0,
+                                "weapon": [],
+                                "weaponCaliber": [],
+                                "weaponModsExclusive": [],
+                                "weaponModsInclusive": []
+                            }
+                        ],
+                        "id": "6afeb418772badf79a1f3eea"
+                    },
+                    "doNotResetIfCounterCompleted": false,
+                    "dynamicLocale": false,
+                    "globalQuestCounterId": "",
+                    "id": "6afeb418772badf79a1f3ee9",
+                    "index": 0,
+                    "isNecessary": false,
+                    "isResetOnConditionFailed": false,
+                    "oneSessionOnly": false,
+                    "parentId": "",
+                    "type": "Elimination",
+                    "value": 1,
+                    "visibilityConditions": []
+                },
+                {
+                    "completeInSeconds": 0,
+                    "conditionType": "CounterCreator",
+                    "counter": {
+                        "conditions": [
+                            {
+                                "bodyPart": [],
+                                "compareMethod": ">=",
+                                "conditionType": "Kills",
+                                "daytime": {
+                                    "from": 0,
+                                    "to": 0
+                                },
+                                "distance": {
+                                    "compareMethod": ">=",
+                                    "value": 0
+                                },
+                                "dynamicLocale": false,
+                                "enemyEquipmentExclusive": [],
+                                "enemyEquipmentInclusive": [],
+                                "enemyHealthEffects": [],
+                                "id": "6afeb418772badf79a1f3eee",
+                                "resetOnSessionEnd": false,
+                                "savageRole": [
+                                    "followerBirdEye"
+                                ],
+                                "target": "Savage",
+                                "value": 0,
+                                "weapon": [],
+                                "weaponCaliber": [],
+                                "weaponModsExclusive": [],
+                                "weaponModsInclusive": []
+                            }
+                        ],
+                        "id": "6afeb418772badf79a1f3eed"
+                    },
+                    "doNotResetIfCounterCompleted": false,
+                    "dynamicLocale": false,
+                    "globalQuestCounterId": "",
+                    "id": "6afeb418772badf79a1f3eec",
+                    "index": 0,
+                    "isNecessary": false,
+                    "isResetOnConditionFailed": false,
+                    "oneSessionOnly": false,
+                    "parentId": "",
+                    "type": "Elimination",
+                    "value": 1,
+                    "visibilityConditions": []
+                }
+            ],
+            "AvailableForStart": [
+                {
+                    "availableAfter": 0,
+                    "conditionType": "Quest",
+                    "dispersion": 0,
+                    "dynamicLocale": false,
+                    "globalQuestCounterId": "",
+                    "id": "6afeb418772badf79a1f3ee5",
+                    "index": 0,
+                    "parentId": "",
+                    "status": [
+                        4
+                    ],
+                    "target": "6a1351028c34ba4a387ccfec",
+                    "visibilityConditions": []
+                }
+            ],
+            "Fail": []
+        },
+        "declinePlayerMessage": "6a1356e48c34ba4a387cd02d declinePlayerMessage",
+        "description": "6a1356e48c34ba4a387cd02d description",
+        "failMessageText": "6a1356e48c34ba4a387cd02d failMessageText",
+        "gameModes": [],
+        "image": "/files/quest/icon/64a2c939d73e87e12400432b.jpg",
+        "instantComplete": false,
+        "isKey": false,
+        "location": "any",
+        "name": "6a1356e48c34ba4a387cd02d name",
+        "note": "6a1356e48c34ba4a387cd02d note",
+        "progressSource": "eft",
+        "rankingModes": [],
+        "restartable": false,
+        "rewards": {
+            "Fail": [],
+            "Started": [],
+            "Success": [
+                {
+                    "availableInGameEditions": [],
+                    "gameMode": [
+                        "regular",
+                        "pve"
+                    ],
+                    "id": "6afeb418772badf79a1f3eef",
+                    "isHidden": false,
+                    "type": "Experience",
+                    "unknown": false,
+                    "value": 13600
+                },
+                {
+                    "availableInGameEditions": [],
+                    "gameMode": [
+                        "regular",
+                        "pve"
+                    ],
+                    "id": "6afeb418772badf79a1f3ef0",
+                    "isHidden": false,
+                    "target": "69744632183b55cf9702c987",
+                    "type": "TraderStanding",
+                    "unknown": false,
+                    "value": 0.2
+                },
+                {
+                    "availableInGameEditions": [],
+                    "findInRaid": false,
+                    "gameMode": [
+                        "regular",
+                        "pve"
+                    ],
+                    "id": "6afeb418772badf79a1f3ef1",
+                    "isEncoded": false,
+                    "isHidden": false,
+                    "items": [
+                        {
+                            "_id": "6afeb418772badf79a1f3ef2",
+                            "_tpl": "5449016a4bdc2d6f028b456f",
+                            "upd": {
+                                "StackObjectsCount": 110000
+                            }
+                        }
+                    ],
+                    "target": "6afeb418772badf79a1f3ef2",
+                    "type": "Item",
+                    "unknown": false,
+                    "value": 110000
+                },
+                {
+                    "availableInGameEditions": [],
+                    "findInRaid": true,
+                    "gameMode": [
+                        "regular",
+                        "pve"
+                    ],
+                    "id": "6afeb418772badf79a1f3ef3",
+                    "isEncoded": false,
+                    "isHidden": false,
+                    "items": [
+                        {
+                            "_id": "6afeb418772badf79a1f3ef4",
+                            "_tpl": "69d44b9ec379dcfd2bf8de40",
+                            "upd": {
+                                "SpawnedInSession": true,
+                                "StackObjectsCount": 1
+                            }
+                        }
+                    ],
+                    "target": "6afeb418772badf79a1f3ef4",
+                    "type": "Item",
+                    "unknown": false,
+                    "value": 1
+                }
+            ]
+        },
+        "secretQuest": false,
+        "side": "pmc",
+        "startedMessageText": "6a1356e48c34ba4a387cd02d startedMessageText",
+        "status": 0,
+        "successMessageText": "6a1356e48c34ba4a387cd02d successMessageText",
+        "traderId": "69744632183b55cf9702c987",
+        "type": "Elimination"
     }
 }
