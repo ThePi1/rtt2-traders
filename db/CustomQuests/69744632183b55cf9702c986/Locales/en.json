@@ -52,5 +52,13 @@
     "6afeab5b8e5e78e85f08ab64 completePlayerMessage": "",
     "6afeab5b8e5e78e85f08ab64 successMessageText": "[PH] Clean and mean. Just say no, brother.",
     "6afeab5b8e5e78e85f08ab64 failMessageText": "",
-    "6afeab5b8e5e78e85f08ab66": "Eliminate Scavs while in pain and not on painkillers"
+    "6afeab5b8e5e78e85f08ab66": "Eliminate Scavs while in pain and not on painkillers",
+    "6afeab5c279977913a65a40b name": "Fraternizing with the Enemy",
+    "6afeab5c279977913a65a40b description": "[PH] Xiaoming's people have been sniffing around my supply lines. Two can play that game. Take this folder of totally real intel and leave it in the D2 power room on Reserve, where his guys check in. Let them chew on that.",
+    "6afeab5c279977913a65a40b acceptPlayerMessage": "",
+    "6afeab5c279977913a65a40b declinePlayerMessage": "",
+    "6afeab5c279977913a65a40b completePlayerMessage": "",
+    "6afeab5c279977913a65a40b successMessageText": "[PH] Hook, line and sinker. Psyops, baby.",
+    "6afeab5c279977913a65a40b failMessageText": "",
+    "6afeab5d279977913a65a40d": "Plant the false intel in the D2 power room on Reserve"
 }

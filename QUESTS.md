@@ -310,7 +310,7 @@ New zones are in `db/CustomQuestZones/C1_C4_C6_C7_C8_C9.json`. The first four ar
 | A4 | Atlas | Close Contact | 2 PMC kills <20meters on Customs |  |  | `6afeaaf3c51077a145c068c1` | Built | Built: 2 PMC kills within 20 m on Customs |
 | A5 | Atlas | Operation Benchmark | Mark 3 workbenches |  |  | `6afeab5a9e8e49793d89e912` | Needs check | Built: mark 3 workbenches with new zones `A5_1`, `A5_2` (Customs) and `A5_3` (Streets); unlocks after A3 and A4. Map and benches my choice |
 | A6 | Atlas | Civil War on Drugs | Some amount of kills with a status effect |  |  | `6afeab5b8e5e78e85f08ab64` | Built | Built: 8 Scav kills while in pain (no painkillers). The design only said "kills with a status effect"; pain fits the anti-drug joke |
-| A7 | Atlas | Fraternizing with the Enemy | Some combo quest with Xiaoming (X4-X6) - mark certain things "false intel" |  |  |  | To build |  |
+| A7 | Atlas | Fraternizing with the Enemy | Some combo quest with Xiaoming (X4-X6) - mark certain things "false intel" |  |  | `6afeab5c279977913a65a40b` | Built | Built: plant an Intelligence folder (the "false intel") at Xiaoming's D2 power room on Reserve, zone `X1`, which X1 also uses. The design wanted a combo with X4-X6; this is a simple stand-in. Check the design |
 | A8 | Atlas | English Opening - Part 1 | Find and turn in quest item hidden at railway bridge extract on Shoreline | A7 | XP, unlock A9 |  | To build |  |
 | A9 | Atlas | English Opening - Part 2 | Find and turn in quest items:  one at crash heli, one at USEC camp heli,on Lighthouse | A8 | XP, unlock A10 |  | To build |  |
 | A10 | Atlas | English Opening - Part 3 | Kill Tagilla, turn in FIR tagilla helm | A9 | XP, unlock Price |  | To build |  |

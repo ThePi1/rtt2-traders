@@ -966,5 +966,132 @@
         "successMessageText": "6afeab5b8e5e78e85f08ab64 successMessageText",
         "traderId": "69744632183b55cf9702c986",
         "type": "Elimination"
+    },
+    "6afeab5c279977913a65a40b": {
+        "QuestName": "Fraternizing with the Enemy",
+        "_id": "6afeab5c279977913a65a40b",
+        "acceptPlayerMessage": "6afeab5c279977913a65a40b acceptPlayerMessage",
+        "acceptanceAndFinishingSource": "eft",
+        "arenaLocations": [],
+        "canShowNotificationsInGame": true,
+        "changeQuestMessageText": "6afeab5c279977913a65a40b changeQuestMessageText",
+        "completePlayerMessage": "6afeab5c279977913a65a40b completePlayerMessage",
+        "conditions": {
+            "AvailableForFinish": [
+                {
+                    "conditionType": "LeaveItemAtLocation",
+                    "dogtagLevel": 0,
+                    "dynamicLocale": false,
+                    "globalQuestCounterId": "",
+                    "id": "6afeab5d279977913a65a40d",
+                    "index": 0,
+                    "isEncoded": false,
+                    "maxDurability": 100,
+                    "minDurability": 0,
+                    "onlyFoundInRaid": false,
+                    "parentId": "",
+                    "plantTime": 15,
+                    "target": [
+                        "5c12613b86f7743bbe2c3f76"
+                    ],
+                    "value": 1,
+                    "visibilityConditions": [],
+                    "zoneId": "X1"
+                }
+            ],
+            "AvailableForStart": [
+                {
+                    "availableAfter": 0,
+                    "conditionType": "Quest",
+                    "dispersion": 0,
+                    "dynamicLocale": false,
+                    "globalQuestCounterId": "",
+                    "id": "6afeab5d279977913a65a40c",
+                    "index": 0,
+                    "parentId": "",
+                    "status": [
+                        4
+                    ],
+                    "target": "6afeab5b8e5e78e85f08ab64",
+                    "visibilityConditions": []
+                }
+            ],
+            "Fail": []
+        },
+        "declinePlayerMessage": "6afeab5c279977913a65a40b declinePlayerMessage",
+        "description": "6afeab5c279977913a65a40b description",
+        "failMessageText": "6afeab5c279977913a65a40b failMessageText",
+        "gameModes": [],
+        "image": "/files/quest/icon/5d763d4886f774454e50d06d.png",
+        "instantComplete": false,
+        "isKey": false,
+        "location": "5704e5fad2720bc05b8b4567",
+        "name": "6afeab5c279977913a65a40b name",
+        "note": "6afeab5c279977913a65a40b note",
+        "progressSource": "eft",
+        "rankingModes": [],
+        "restartable": false,
+        "rewards": {
+            "Fail": [],
+            "Started": [],
+            "Success": [
+                {
+                    "availableInGameEditions": [],
+                    "gameMode": [
+                        "regular",
+                        "pve"
+                    ],
+                    "id": "6afeab5d279977913a65a40e",
+                    "isHidden": false,
+                    "type": "Experience",
+                    "unknown": false,
+                    "value": 7600
+                },
+                {
+                    "availableInGameEditions": [],
+                    "gameMode": [
+                        "regular",
+                        "pve"
+                    ],
+                    "id": "6afeab5d279977913a65a40f",
+                    "isHidden": false,
+                    "target": "69744632183b55cf9702c986",
+                    "type": "TraderStanding",
+                    "unknown": false,
+                    "value": 0.14
+                },
+                {
+                    "availableInGameEditions": [],
+                    "findInRaid": false,
+                    "gameMode": [
+                        "regular",
+                        "pve"
+                    ],
+                    "id": "6afeab5d279977913a65a410",
+                    "isEncoded": false,
+                    "isHidden": false,
+                    "items": [
+                        {
+                            "_id": "6afeab5d279977913a65a411",
+                            "_tpl": "5449016a4bdc2d6f028b456f",
+                            "upd": {
+                                "StackObjectsCount": 60000
+                            }
+                        }
+                    ],
+                    "target": "6afeab5d279977913a65a411",
+                    "type": "Item",
+                    "unknown": false,
+                    "value": 60000
+                }
+            ]
+        },
+        "secretQuest": false,
+        "side": "pmc",
+        "startedMessageText": "6afeab5c279977913a65a40b startedMessageText",
+        "status": 0,
+        "successMessageText": "6afeab5c279977913a65a40b successMessageText",
+        "traderId": "69744632183b55cf9702c986",
+        "type": "Completion"
     }
 }
