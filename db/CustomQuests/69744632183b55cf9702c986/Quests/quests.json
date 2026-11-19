@@ -1834,5 +1834,124 @@
         "successMessageText": "6afeac84d3cd2d70e7794577 successMessageText",
         "traderId": "69744632183b55cf9702c986",
         "type": "Completion"
+    },
+    "6afeac85ca77a07b0c58ff66": {
+        "QuestName": "Training Arc",
+        "_id": "6afeac85ca77a07b0c58ff66",
+        "acceptPlayerMessage": "6afeac85ca77a07b0c58ff66 acceptPlayerMessage",
+        "acceptanceAndFinishingSource": "eft",
+        "arenaLocations": [],
+        "canShowNotificationsInGame": true,
+        "changeQuestMessageText": "6afeac85ca77a07b0c58ff66 changeQuestMessageText",
+        "completePlayerMessage": "6afeac85ca77a07b0c58ff66 completePlayerMessage",
+        "conditions": {
+            "AvailableForFinish": [
+                {
+                    "compareMethod": ">=",
+                    "conditionType": "Skill",
+                    "dynamicLocale": false,
+                    "globalQuestCounterId": "",
+                    "id": "6afeac85ca77a07b0c58ff68",
+                    "index": 0,
+                    "parentId": "",
+                    "target": "Strength",
+                    "value": 10,
+                    "visibilityConditions": []
+                }
+            ],
+            "AvailableForStart": [
+                {
+                    "availableAfter": 0,
+                    "conditionType": "Quest",
+                    "dispersion": 0,
+                    "dynamicLocale": false,
+                    "globalQuestCounterId": "",
+                    "id": "6afeac85ca77a07b0c58ff67",
+                    "index": 0,
+                    "parentId": "",
+                    "status": [
+                        4
+                    ],
+                    "target": "6afeac84d3cd2d70e7794577",
+                    "visibilityConditions": []
+                }
+            ],
+            "Fail": []
+        },
+        "declinePlayerMessage": "6afeac85ca77a07b0c58ff66 declinePlayerMessage",
+        "description": "6afeac85ca77a07b0c58ff66 description",
+        "failMessageText": "6afeac85ca77a07b0c58ff66 failMessageText",
+        "gameModes": [],
+        "image": "/files/quest/icon/63ab1f1676588f3cf341c460.jpg",
+        "instantComplete": false,
+        "isKey": false,
+        "location": "any",
+        "name": "6afeac85ca77a07b0c58ff66 name",
+        "note": "6afeac85ca77a07b0c58ff66 note",
+        "progressSource": "eft",
+        "rankingModes": [],
+        "restartable": false,
+        "rewards": {
+            "Fail": [],
+            "Started": [],
+            "Success": [
+                {
+                    "availableInGameEditions": [],
+                    "gameMode": [
+                        "regular",
+                        "pve"
+                    ],
+                    "id": "6afeac85ca77a07b0c58ff69",
+                    "isHidden": false,
+                    "type": "Experience",
+                    "unknown": false,
+                    "value": 10600
+                },
+                {
+                    "availableInGameEditions": [],
+                    "gameMode": [
+                        "regular",
+                        "pve"
+                    ],
+                    "id": "6afeac85ca77a07b0c58ff6a",
+                    "isHidden": false,
+                    "target": "69744632183b55cf9702c986",
+                    "type": "TraderStanding",
+                    "unknown": false,
+                    "value": 0.14
+                },
+                {
+                    "availableInGameEditions": [],
+                    "findInRaid": false,
+                    "gameMode": [
+                        "regular",
+                        "pve"
+                    ],
+                    "id": "6afeac85ca77a07b0c58ff6b",
+                    "isEncoded": false,
+                    "isHidden": false,
+                    "items": [
+                        {
+                            "_id": "6afeac85ca77a07b0c58ff6c",
+                            "_tpl": "5449016a4bdc2d6f028b456f",
+                            "upd": {
+                                "StackObjectsCount": 85000
+                            }
+                        }
+                    ],
+                    "target": "6afeac85ca77a07b0c58ff6c",
+                    "type": "Item",
+                    "unknown": false,
+                    "value": 85000
+                }
+            ]
+        },
+        "secretQuest": false,
+        "side": "pmc",
+        "startedMessageText": "6afeac85ca77a07b0c58ff66 startedMessageText",
+        "status": 0,
+        "successMessageText": "6afeac85ca77a07b0c58ff66 successMessageText",
+        "traderId": "69744632183b55cf9702c986",
+        "type": "Skill"
     }
 }

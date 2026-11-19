@@ -100,5 +100,13 @@
     "6afeac84d3cd2d70e7794577 failMessageText": "",
     "6afeac84d3cd2d70e7794578": "Find the \"spaghetti corner\" in the Reserve food room",
     "6afeac84d3cd2d70e779457e": "Leave a canister of purified water in the spaghetti corner",
-    "6afeac84d3cd2d70e779457f": "Eliminate \"Spaghetti Joe\" (Glukhar)"
+    "6afeac84d3cd2d70e779457f": "Eliminate \"Spaghetti Joe\" (Glukhar)",
+    "6afeac85ca77a07b0c58ff66 name": "Training Arc",
+    "6afeac85ca77a07b0c58ff66 description": "[PH] Every hero gets a training arc. This is yours. Get your Strength to level ten. Carry heavy stuff, throw heavy stuff, sprint with heavy stuff. Gains don't come from the PX.",
+    "6afeac85ca77a07b0c58ff66 acceptPlayerMessage": "",
+    "6afeac85ca77a07b0c58ff66 declinePlayerMessage": "",
+    "6afeac85ca77a07b0c58ff66 completePlayerMessage": "",
+    "6afeac85ca77a07b0c58ff66 successMessageText": "[PH] Look at those traps. Training arc complete.",
+    "6afeac85ca77a07b0c58ff66 failMessageText": "",
+    "6afeac85ca77a07b0c58ff68": "Reach level 10 of the Strength skill"
 }
