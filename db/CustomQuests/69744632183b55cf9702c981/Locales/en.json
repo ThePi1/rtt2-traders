@@ -761,5 +761,9 @@
     "6a0946c8ff1eccc62be30e9b acceptPlayerMessage": "",
     "6a0946c8ff1eccc62be30e9b declinePlayerMessage": "",
     "6a0946c8ff1eccc62be30e9b completePlayerMessage": "",
-    "6a0946c8ff1eccc62be30e9b failMessageText": ""
+    "6a0946c8ff1eccc62be30e9b failMessageText": "",
+    "6aca86c4a26d5245cb76742a acceptPlayerMessage": "",
+    "6aca86c4a26d5245cb76742a declinePlayerMessage": "",
+    "6aca86c4a26d5245cb76742a completePlayerMessage": "",
+    "6aca86c4a26d5245cb76742a failMessageText": ""
 }

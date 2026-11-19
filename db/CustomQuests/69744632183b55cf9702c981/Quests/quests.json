@@ -21641,7 +21641,7 @@
             "AvailableForFinish": [
                 {
                     "compareMethod": ">=",
-                    "conditionType": "TraderStanding",
+                    "conditionType": "TraderLoyalty",
                     "dynamicLocale": false,
                     "globalQuestCounterId": "",
                     "id": "6aca8755a26d5245cb767433",
