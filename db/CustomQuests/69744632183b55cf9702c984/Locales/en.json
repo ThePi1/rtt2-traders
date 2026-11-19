@@ -143,5 +143,13 @@
     "6afeb13fc02ceecb190f670f successMessageText": "[PH] Filed. The evening meetings have been canceled.",
     "6afeb13fc02ceecb190f670f failMessageText": "",
     "6afeb13fc02ceecb190f6711": "Eliminate BEAR PMCs on Lighthouse between 19:00 and 24:00",
-    "6afeb13fc02ceecb190f6715": "Hand over 3 BEAR dogtags"
+    "6afeb13fc02ceecb190f6715": "Hand over 3 BEAR dogtags",
+    "6afeb14136d4b397d4079646 name": "Better Red Than Dead",
+    "6afeb14136d4b397d4079646 description": "[PH] There is a little Chinese food stand in the Klimov mall food court. The owner is a patriot and needs startup capital. Leave a Bitcoin there. Do not order the soup.",
+    "6afeb14136d4b397d4079646 acceptPlayerMessage": "",
+    "6afeb14136d4b397d4079646 declinePlayerMessage": "",
+    "6afeb14136d4b397d4079646 completePlayerMessage": "",
+    "6afeb14136d4b397d4079646 successMessageText": "[PH] The investment is made. The soup is still not recommended.",
+    "6afeb14136d4b397d4079646 failMessageText": "",
+    "6afeb14136d4b397d4079648": "Leave a Physical Bitcoin at the Chinese food stand in the Klimov mall food court on Streets"
 }

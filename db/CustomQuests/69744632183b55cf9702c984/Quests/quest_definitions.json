@@ -2666,5 +2666,132 @@
         "successMessageText": "6afeb13fc02ceecb190f670f successMessageText",
         "traderId": "69744632183b55cf9702c984",
         "type": "Elimination"
+    },
+    "6afeb14136d4b397d4079646": {
+        "QuestName": "Better Red Than Dead",
+        "_id": "6afeb14136d4b397d4079646",
+        "acceptPlayerMessage": "6afeb14136d4b397d4079646 acceptPlayerMessage",
+        "acceptanceAndFinishingSource": "eft",
+        "arenaLocations": [],
+        "canShowNotificationsInGame": true,
+        "changeQuestMessageText": "6afeb14136d4b397d4079646 changeQuestMessageText",
+        "completePlayerMessage": "6afeb14136d4b397d4079646 completePlayerMessage",
+        "conditions": {
+            "AvailableForFinish": [
+                {
+                    "conditionType": "LeaveItemAtLocation",
+                    "dogtagLevel": 0,
+                    "dynamicLocale": false,
+                    "globalQuestCounterId": "",
+                    "id": "6afeb14136d4b397d4079648",
+                    "index": 0,
+                    "isEncoded": false,
+                    "maxDurability": 100,
+                    "minDurability": 0,
+                    "onlyFoundInRaid": false,
+                    "parentId": "",
+                    "plantTime": 10,
+                    "target": [
+                        "59faff1d86f7746c51718c9c"
+                    ],
+                    "value": 1,
+                    "visibilityConditions": [],
+                    "zoneId": "X15"
+                }
+            ],
+            "AvailableForStart": [
+                {
+                    "availableAfter": 0,
+                    "conditionType": "Quest",
+                    "dispersion": 0,
+                    "dynamicLocale": false,
+                    "globalQuestCounterId": "",
+                    "id": "6afeb14136d4b397d4079647",
+                    "index": 0,
+                    "parentId": "",
+                    "status": [
+                        4
+                    ],
+                    "target": "6afeb13fc02ceecb190f670f",
+                    "visibilityConditions": []
+                }
+            ],
+            "Fail": []
+        },
+        "declinePlayerMessage": "6afeb14136d4b397d4079646 declinePlayerMessage",
+        "description": "6afeb14136d4b397d4079646 description",
+        "failMessageText": "6afeb14136d4b397d4079646 failMessageText",
+        "gameModes": [],
+        "image": "/files/quest/icon/594d241f86f7740d8246218d.png",
+        "instantComplete": false,
+        "isKey": false,
+        "location": "5714dc692459777137212e12",
+        "name": "6afeb14136d4b397d4079646 name",
+        "note": "6afeb14136d4b397d4079646 note",
+        "progressSource": "eft",
+        "rankingModes": [],
+        "restartable": false,
+        "rewards": {
+            "Fail": [],
+            "Started": [],
+            "Success": [
+                {
+                    "availableInGameEditions": [],
+                    "gameMode": [
+                        "regular",
+                        "pve"
+                    ],
+                    "id": "6afeb14136d4b397d4079649",
+                    "isHidden": false,
+                    "type": "Experience",
+                    "unknown": false,
+                    "value": 12400
+                },
+                {
+                    "availableInGameEditions": [],
+                    "gameMode": [
+                        "regular",
+                        "pve"
+                    ],
+                    "id": "6afeb14136d4b397d407964a",
+                    "isHidden": false,
+                    "target": "69744632183b55cf9702c984",
+                    "type": "TraderStanding",
+                    "unknown": false,
+                    "value": 0.16
+                },
+                {
+                    "availableInGameEditions": [],
+                    "findInRaid": false,
+                    "gameMode": [
+                        "regular",
+                        "pve"
+                    ],
+                    "id": "6afeb14136d4b397d407964b",
+                    "isEncoded": false,
+                    "isHidden": false,
+                    "items": [
+                        {
+                            "_id": "6afeb14136d4b397d407964c",
+                            "_tpl": "5449016a4bdc2d6f028b456f",
+                            "upd": {
+                                "StackObjectsCount": 100000
+                            }
+                        }
+                    ],
+                    "target": "6afeb14136d4b397d407964c",
+                    "type": "Item",
+                    "unknown": false,
+                    "value": 100000
+                }
+            ]
+        },
+        "secretQuest": false,
+        "side": "pmc",
+        "startedMessageText": "6afeb14136d4b397d4079646 startedMessageText",
+        "status": 0,
+        "successMessageText": "6afeb14136d4b397d4079646 successMessageText",
+        "traderId": "69744632183b55cf9702c984",
+        "type": "Completion"
     }
 }
