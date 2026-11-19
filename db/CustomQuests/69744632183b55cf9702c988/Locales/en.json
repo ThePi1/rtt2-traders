@@ -182,5 +182,13 @@
     "6afeb335ba41467030270a07 successMessageText": "[PH] The family is fed. The Eye blinks, slowly, in approval.",
     "6afeb335ba41467030270a07 failMessageText": "",
     "6afeb335ba41467030270a09": "Find Locked Case (Sacrifice) in raid",
-    "6afeb335ba41467030270a0a": "Hand over the Sacrifice case from the Reserve marked control room"
+    "6afeb335ba41467030270a0a": "Hand over the Sacrifice case from the Reserve marked control room",
+    "6afeb336c2c73fe5c7aa0b0e name": "Reap The Wicked",
+    "6afeb336c2c73fe5c7aa0b0e description": "[PH] The wicked think with their heads, so the Eye takes their heads. Twenty PMCs, struck in the head.",
+    "6afeb336c2c73fe5c7aa0b0e acceptPlayerMessage": "",
+    "6afeb336c2c73fe5c7aa0b0e declinePlayerMessage": "",
+    "6afeb336c2c73fe5c7aa0b0e completePlayerMessage": "",
+    "6afeb336c2c73fe5c7aa0b0e successMessageText": "[PH] Twenty wicked minds, emptied. Reaped.",
+    "6afeb336c2c73fe5c7aa0b0e failMessageText": "",
+    "6afeb336c2c73fe5c7aa0b10": "Eliminate PMCs with headshots"
 }

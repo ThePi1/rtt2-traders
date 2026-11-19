@@ -432,7 +432,7 @@ New zones are in `db/CustomQuestZones/C1_C4_C6_C7_C8_C9.json`. The first four ar
 | V14 | Voron | The Eye Requires Pickup - Part 2 | Pickup Sacrifice at woods sunken circle |  |  |  | To build |  |
 | V15 | Voron | The Eye Requires Pickup - Part 3 | Pickup Sacrifice at Lighthouse Marked room |  |  | `6afeb3347d7ffcad44de2494` | Built | Built: find and hand in the Locked Case (Sacrifice); its Lighthouse marked room spawn was already in place. Starts after V12 because V13 and V14 aren't built |
 | V16 | Voron | The Eye Requires Pickup - Part 4 | Pickup Sacrifice at Reserve Control room marked key |  |  | `6afeb335ba41467030270a07` | Built | Built: find and hand in the Locked Case (Sacrifice); its Reserve spawn was already in place |
-| V17 | Voron | Reap The Wicked | Kill 20 PMCs with headshots |  |  |  | To build |  |
+| V17 | Voron | Reap The Wicked | Kill 20 PMCs with headshots |  |  | `6afeb336c2c73fe5c7aa0b0e` | Built | Built: 20 PMC kills with headshots |
 | V18 | Voron | Reap The Unfortunate | Kill 50 Scavs with Headshots |  |  |  | To build |  |
 | V19 | Voron | Reap the Cursed | Kill tagilla and killa with headshots |  |  |  | To build |  |
 | V20 | Voron | One Final Delivery | Pickup the Box from ground zero dead scientist and plant on shoreline in same raid |  |  |  | To build |  |
