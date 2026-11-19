@@ -199,5 +199,14 @@
     "6afeb14a0c36dcb8fefae763": "Mark the front door of the Beluga restaurant on Streets",
     "6afeb14a0c36dcb8fefae764": "Mark the front door of the Brodion restopub",
     "6afeb14a0c36dcb8fefae765": "Mark the front door of the Burger Spot at the Pinewood Hotel",
-    "6afeb14a0c36dcb8fefae766": "Mark the front door of the Burger Spot on Nizhnyaya Sadovaya St"
+    "6afeb14a0c36dcb8fefae766": "Mark the front door of the Burger Spot on Nizhnyaya Sadovaya St",
+    "6afeb14b26031308ba2bac1d name": "Shishi",
+    "6afeb14b26031308ba2bac1d description": "[PH] Guardian lions protect every important doorway. My new office has none. Two bronze lions, found in raid. Without them, the feng shui is a disaster.",
+    "6afeb14b26031308ba2bac1d acceptPlayerMessage": "",
+    "6afeb14b26031308ba2bac1d declinePlayerMessage": "",
+    "6afeb14b26031308ba2bac1d completePlayerMessage": "",
+    "6afeb14b26031308ba2bac1d successMessageText": "[PH] The office is protected. Now I can receive visitors. Interesting visitors.",
+    "6afeb14b26031308ba2bac1d failMessageText": "",
+    "6afeb14b26031308ba2bac1f": "Find Bronze lion figurine in raid",
+    "6afeb14b26031308ba2bac20": "Hand over Bronze lion figurine"
 }
