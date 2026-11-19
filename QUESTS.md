@@ -406,7 +406,7 @@ New zones are in `db/CustomQuestZones/C1_C4_C6_C7_C8_C9.json`. The first four ar
 | N10 | Needle | Inject Me Scotty | Find and Turn in 3 CALOK |  |  | `6afeb23e0e3afc1378c882cd` | Built | Built: hand in 3 FIR CALOK-B |
 | N11 | Needle | It's Wrapping Time | Find and Turn in 2 Military Bandages |  |  | `6afeb23f6170d8e41c7b7376` | Built | Built: hand in 2 FIR Army bandages |
 | N12 | Needle | Poppin a Proppie | Find and Turn in 3 Propitol |  |  | `6afeb240ed141d1c7383a66e` | Built | Built: hand in 3 FIR Propital |
-| N13 | Needle | Much Needed Shipment | Find the box containing injectors cases |  |  |  | To build |  |
+| N13 | Needle | Much Needed Shipment | Find the box containing injectors cases |  |  | `6afeb242101f2b1cfb4f0f6f` | Needs check | Built: hand in 1 FIR Injector case (the base item). The sheet's custom "Injectors Case Shipment" item `69bb46282a87c0f36004a252` doesn't exist in Questitems.json |
 | N14 | Needle | Drug Buddies | Kill Reshala and 10 scavs in one raid |  |  |  | To build |  |
 | N15 | Needle | Soundcloud Soliloquy | Look for 50 Cent bibliography on Interchange room Toy/book store |  |  |  | To build |  |
 | N16 | Needle | This Cranker is Crazy | Kill 5 Scavs on the island near the washed up tanker on Shoreline |  |  |  | To build |  |

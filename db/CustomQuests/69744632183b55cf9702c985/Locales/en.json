@@ -110,5 +110,14 @@
     "6afeb240ed141d1c7383a66e successMessageText": "[PH] Three proppies. My customers are going to pop off.",
     "6afeb240ed141d1c7383a66e failMessageText": "",
     "6afeb241ed141d1c7383a670": "Find Propital regenerative stimulant injector in raid",
-    "6afeb241ed141d1c7383a671": "Hand over Propital regenerative stimulant injector"
+    "6afeb241ed141d1c7383a671": "Hand over Propital regenerative stimulant injector",
+    "6afeb242101f2b1cfb4f0f6f name": "Much Needed Shipment",
+    "6afeb242101f2b1cfb4f0f6f description": "[PH] My shipment of injector cases went missing. All I need is one box to restock. Find an injector case in raid and bring it to me. I'll fill it myself.",
+    "6afeb242101f2b1cfb4f0f6f acceptPlayerMessage": "",
+    "6afeb242101f2b1cfb4f0f6f declinePlayerMessage": "",
+    "6afeb242101f2b1cfb4f0f6f completePlayerMessage": "",
+    "6afeb242101f2b1cfb4f0f6f successMessageText": "[PH] That's the one. Business is back on.",
+    "6afeb242101f2b1cfb4f0f6f failMessageText": "",
+    "6afeb242101f2b1cfb4f0f71": "Find Injector case in raid",
+    "6afeb242101f2b1cfb4f0f72": "Hand over an Injector case, found in raid"
 }
