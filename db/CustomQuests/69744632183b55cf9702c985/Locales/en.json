@@ -32,5 +32,14 @@
     "6afeb238aefd9379c8e404c7 successMessageText": "[PH] Four shots of courage. My customers thank you.",
     "6afeb238aefd9379c8e404c7 failMessageText": "",
     "6afeb238aefd9379c8e404c9": "Find Adrenaline injector in raid",
-    "6afeb238aefd9379c8e404ca": "Hand over Adrenaline injector"
+    "6afeb238aefd9379c8e404ca": "Hand over Adrenaline injector",
+    "6afeb2395d14cdd6e4e24f65 name": "Blue Bloods",
+    "6afeb2395d14cdd6e4e24f65 description": "[PH] Perfotoran. Blue blood, they call it. Makes you feel royal. Two of them, found in raid, and don't drink it, it's not Gatorade.",
+    "6afeb2395d14cdd6e4e24f65 acceptPlayerMessage": "",
+    "6afeb2395d14cdd6e4e24f65 declinePlayerMessage": "",
+    "6afeb2395d14cdd6e4e24f65 completePlayerMessage": "",
+    "6afeb2395d14cdd6e4e24f65 successMessageText": "[PH] Two vials of the blue. You're practically nobility now.",
+    "6afeb2395d14cdd6e4e24f65 failMessageText": "",
+    "6afeb2395d14cdd6e4e24f67": "Find Perfotoran (Blue Blood) stimulant injector in raid",
+    "6afeb2395d14cdd6e4e24f68": "Hand over Perfotoran (Blue Blood) stimulant injector"
 }
