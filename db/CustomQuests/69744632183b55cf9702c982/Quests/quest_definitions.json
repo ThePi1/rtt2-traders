@@ -5556,23 +5556,27 @@
                 {
                     "availableInGameEditions": [],
                     "id": "6a0d2926d47f367b5bed54d0",
-                    "index": 0,
                     "type": "Experience",
                     "unknown": false,
-                    "value": 4000
+                    "value": 4000,
+                    "index": 0
                 },
                 {
                     "availableInGameEditions": [],
+                    "gameMode": [
+                        "regular",
+                        "pve"
+                    ],
                     "id": "6a0d2952d47f367b5bed54d6",
-                    "index": 0,
+                    "isHidden": false,
                     "items": [
                         {
-                            "_id": "6a0d2971d47f367b5bed54d7",
+                            "_id": "6afea93d54ebd5501d6dc2fa",
                             "_tpl": "601949593ae8f707c4608daa"
                         }
                     ],
                     "loyaltyLevel": 3,
-                    "target": "6a0d2971d47f367b5bed54d7",
+                    "target": "6afea93d54ebd5501d6dc2fa",
                     "traderId": "69744632183b55cf9702c982",
                     "type": "AssortmentUnlock",
                     "unknown": false
