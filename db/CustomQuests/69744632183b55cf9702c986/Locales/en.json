@@ -138,5 +138,13 @@
     "6afeac8722c256767814992b": "Survive and extract from The Lab",
     "6afeac8722c256767814992f": "Survive and extract from Lighthouse",
     "6afeac8722c2567678149933": "Survive and extract from Streets of Tarkov",
-    "6afeac8722c2567678149937": "Survive and extract from Ground Zero"
+    "6afeac8722c2567678149937": "Survive and extract from Ground Zero",
+    "6afeac88cb4d67ecd471d942 name": "5ive Se7en",
+    "6afeac88cb4d67ecd471d942 description": "[PH] The Five-seveN: twenty rounds, armor-piercing, and it looks sick on a thigh rig. People call it a meme gun. Prove them wrong. Twenty-five kills, anything that moves.",
+    "6afeac88cb4d67ecd471d942 acceptPlayerMessage": "",
+    "6afeac88cb4d67ecd471d942 declinePlayerMessage": "",
+    "6afeac88cb4d67ecd471d942 completePlayerMessage": "",
+    "6afeac88cb4d67ecd471d942 successMessageText": "[PH] Twenty-five confirmed. Meme gun my tactical rear end.",
+    "6afeac88cb4d67ecd471d942 failMessageText": "",
+    "6afeac88cb4d67ecd471d944": "Eliminate any target with an FN Five-seveN"
 }
