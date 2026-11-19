@@ -31,5 +31,13 @@
     "6a1346a78c34ba4a387ccf8f completePlayerMessage": "",
     "6a1346a78c34ba4a387ccf8f successMessageText": "[PH] Bonk bonk bonk! Wunderbar. Here, a little research grant.",
     "6a1346a78c34ba4a387ccf8f failMessageText": "",
-    "6afeb405ddda3b7dd8df62d0": "Eliminate the braindead scientists (Raiders) in the Lab"
+    "6afeb405ddda3b7dd8df62d0": "Eliminate the braindead scientists (Raiders) in the Lab",
+    "6a13478c8c34ba4a387ccf97 name": "Please Place the Sharpie - Part 1",
+    "6a13478c8c34ba4a387ccf97 description": "[PH] Somebody has been moving my barrels. The glowing ones. Mark them so I can find them again. Do not lick them.",
+    "6a13478c8c34ba4a387ccf97 acceptPlayerMessage": "",
+    "6a13478c8c34ba4a387ccf97 declinePlayerMessage": "",
+    "6a13478c8c34ba4a387ccf97 completePlayerMessage": "",
+    "6a13478c8c34ba4a387ccf97 successMessageText": "[PH] Found them! Here, two keycards. I made copies. Do not tell anyone.",
+    "6a13478c8c34ba4a387ccf97 failMessageText": "",
+    "6afeb406c6c8e124e87aa659": "Mark the radioactive barrels in the Lab"
 }
