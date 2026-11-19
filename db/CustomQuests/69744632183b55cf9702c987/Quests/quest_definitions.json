@@ -1175,5 +1175,197 @@
         "successMessageText": "6a134bde8c34ba4a387ccfb7 successMessageText",
         "traderId": "69744632183b55cf9702c987",
         "type": "PickUp"
+    },
+    "6a134dda8c34ba4a387ccfce": {
+        "QuestName": "Smooth Brains - Part 1",
+        "_id": "6a134dda8c34ba4a387ccfce",
+        "acceptPlayerMessage": "6a134dda8c34ba4a387ccfce acceptPlayerMessage",
+        "acceptanceAndFinishingSource": "eft",
+        "arenaLocations": [],
+        "canShowNotificationsInGame": true,
+        "changeQuestMessageText": "6a134dda8c34ba4a387ccfce changeQuestMessageText",
+        "completePlayerMessage": "6a134dda8c34ba4a387ccfce completePlayerMessage",
+        "conditions": {
+            "AvailableForFinish": [
+                {
+                    "completeInSeconds": 0,
+                    "conditionType": "CounterCreator",
+                    "counter": {
+                        "conditions": [
+                            {
+                                "bodyPart": [],
+                                "compareMethod": ">=",
+                                "conditionType": "Kills",
+                                "daytime": {
+                                    "from": 0,
+                                    "to": 0
+                                },
+                                "distance": {
+                                    "compareMethod": ">=",
+                                    "value": 0
+                                },
+                                "dynamicLocale": false,
+                                "enemyEquipmentExclusive": [],
+                                "enemyEquipmentInclusive": [],
+                                "enemyHealthEffects": [],
+                                "id": "6afeb40bd773e0ae2aa61096",
+                                "resetOnSessionEnd": false,
+                                "savageRole": [],
+                                "target": "Savage",
+                                "value": 0,
+                                "weapon": [],
+                                "weaponCaliber": [],
+                                "weaponModsExclusive": [],
+                                "weaponModsInclusive": [
+                                    [
+                                        "609bab8b455afd752b2e6138"
+                                    ]
+                                ]
+                            },
+                            {
+                                "conditionType": "Location",
+                                "dynamicLocale": false,
+                                "id": "6afeb40bd773e0ae2aa61097",
+                                "target": [
+                                    "Sandbox",
+                                    "Sandbox_high"
+                                ]
+                            }
+                        ],
+                        "id": "6afeb40bd773e0ae2aa61095"
+                    },
+                    "doNotResetIfCounterCompleted": false,
+                    "dynamicLocale": false,
+                    "globalQuestCounterId": "",
+                    "id": "6afeb40bd773e0ae2aa61094",
+                    "index": 0,
+                    "isNecessary": false,
+                    "isResetOnConditionFailed": false,
+                    "oneSessionOnly": false,
+                    "parentId": "",
+                    "type": "Elimination",
+                    "value": 5,
+                    "visibilityConditions": []
+                }
+            ],
+            "AvailableForStart": [
+                {
+                    "availableAfter": 0,
+                    "conditionType": "Quest",
+                    "dispersion": 0,
+                    "dynamicLocale": false,
+                    "globalQuestCounterId": "",
+                    "id": "6afeb40bd773e0ae2aa61093",
+                    "index": 0,
+                    "parentId": "",
+                    "status": [
+                        4
+                    ],
+                    "target": "6a1346a78c34ba4a387ccf8f",
+                    "visibilityConditions": []
+                }
+            ],
+            "Fail": []
+        },
+        "declinePlayerMessage": "6a134dda8c34ba4a387ccfce declinePlayerMessage",
+        "description": "6a134dda8c34ba4a387ccfce description",
+        "failMessageText": "6a134dda8c34ba4a387ccfce failMessageText",
+        "gameModes": [],
+        "image": "/files/quest/icon/64a2c8e0e4c3b3082302e5bd.jpg",
+        "instantComplete": false,
+        "isKey": false,
+        "location": "any",
+        "name": "6a134dda8c34ba4a387ccfce name",
+        "note": "6a134dda8c34ba4a387ccfce note",
+        "progressSource": "eft",
+        "rankingModes": [],
+        "restartable": false,
+        "rewards": {
+            "Fail": [],
+            "Started": [],
+            "Success": [
+                {
+                    "availableInGameEditions": [],
+                    "gameMode": [
+                        "regular",
+                        "pve"
+                    ],
+                    "id": "6afeb40bd773e0ae2aa61098",
+                    "isHidden": false,
+                    "type": "Experience",
+                    "unknown": false,
+                    "value": 7600
+                },
+                {
+                    "availableInGameEditions": [],
+                    "gameMode": [
+                        "regular",
+                        "pve"
+                    ],
+                    "id": "6afeb40bd773e0ae2aa61099",
+                    "isHidden": false,
+                    "target": "69744632183b55cf9702c987",
+                    "type": "TraderStanding",
+                    "unknown": false,
+                    "value": 0.2
+                },
+                {
+                    "availableInGameEditions": [],
+                    "findInRaid": false,
+                    "gameMode": [
+                        "regular",
+                        "pve"
+                    ],
+                    "id": "6afeb40bd773e0ae2aa6109a",
+                    "isEncoded": false,
+                    "isHidden": false,
+                    "items": [
+                        {
+                            "_id": "6afeb40bd773e0ae2aa6109b",
+                            "_tpl": "5449016a4bdc2d6f028b456f",
+                            "upd": {
+                                "StackObjectsCount": 60000
+                            }
+                        }
+                    ],
+                    "target": "6afeb40bd773e0ae2aa6109b",
+                    "type": "Item",
+                    "unknown": false,
+                    "value": 60000
+                },
+                {
+                    "availableInGameEditions": [],
+                    "findInRaid": true,
+                    "gameMode": [
+                        "regular",
+                        "pve"
+                    ],
+                    "id": "6afeb40bd773e0ae2aa6109c",
+                    "isEncoded": false,
+                    "isHidden": false,
+                    "items": [
+                        {
+                            "_id": "6afeb40bd773e0ae2aa6109d",
+                            "_tpl": "5d40407c86f774318526545a",
+                            "upd": {
+                                "SpawnedInSession": true,
+                                "StackObjectsCount": 2
+                            }
+                        }
+                    ],
+                    "target": "6afeb40bd773e0ae2aa6109d",
+                    "type": "Item",
+                    "unknown": false,
+                    "value": 2
+                }
+            ]
+        },
+        "secretQuest": false,
+        "side": "pmc",
+        "startedMessageText": "6a134dda8c34ba4a387ccfce startedMessageText",
+        "status": 0,
+        "successMessageText": "6a134dda8c34ba4a387ccfce successMessageText",
+        "traderId": "69744632183b55cf9702c987",
+        "type": "Elimination"
     }
 }

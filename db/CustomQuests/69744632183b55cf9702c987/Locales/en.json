@@ -73,5 +73,13 @@
     "6a134bde8c34ba4a387ccfb7 successMessageText": "[PH] The Boogie Bomb is ready! Take this graphics card, it was in the way.",
     "6a134bde8c34ba4a387ccfb7 failMessageText": "",
     "6afeb40a02872f1e028d6537": "Find Bottle of Fierce Hatchling moonshine in raid",
-    "6afeb40a02872f1e028d6538": "Hand over Bottle of Fierce Hatchling moonshine"
+    "6afeb40a02872f1e028d6538": "Hand over Bottle of Fierce Hatchling moonshine",
+    "6a134dda8c34ba4a387ccfce name": "Smooth Brains - Part 1",
+    "6a134dda8c34ba4a387ccfce description": "[PH] Scav brains are very smooth. No wrinkles. I want to see them warm. Use the Torrey Pines T12W thermal sight on Ground Zero and remove five Scavs. For the study.",
+    "6a134dda8c34ba4a387ccfce acceptPlayerMessage": "",
+    "6a134dda8c34ba4a387ccfce declinePlayerMessage": "",
+    "6a134dda8c34ba4a387ccfce completePlayerMessage": "",
+    "6a134dda8c34ba4a387ccfce successMessageText": "[PH] Smooth and warm, as predicted. Have some vodka, it helps with the smell.",
+    "6a134dda8c34ba4a387ccfce failMessageText": "",
+    "6afeb40bd773e0ae2aa61094": "Eliminate Scavs on Ground Zero with a T12W thermal reflex sight on your weapon"
 }
