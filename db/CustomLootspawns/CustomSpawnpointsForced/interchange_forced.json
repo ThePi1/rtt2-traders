@@ -1,8 +1,8 @@
 {
     "Interchange": [
         {
-        "locationId": "(23.14008 28.30471 -24.65541)",
-        "probability": 1.0,
+            "locationId": "(23.14008 28.30471 -24.65541)",
+            "probability": 1.0,
             "template": {
                 "Id": "P8_1 (Quest) [86663233-25bb-4e2a-a616-e67848115ac3]",
                 "IsContainer": false,
@@ -42,8 +42,8 @@
             ]
         },
         {
-        "locationId": "(23.14008 28.30471 -24.65541)",
-        "probability": 1.0,
+            "locationId": "(23.14008 28.30471 -24.65541)",
+            "probability": 1.0,
             "template": {
                 "Id": "P8_2 (Quest) [86663233-25bb-4e2a-a616-e67848115ac3]",
                 "IsContainer": false,
@@ -77,6 +77,47 @@
                 {
                     "composedKey": {
                         "key": "69b4ccf02212c2e699d6652d"
+                    },
+                    "relativeProbability": 1
+                }
+            ]
+        },
+        {
+            "locationId": "(17.06 36.5 -4.22)",
+            "probability": 1.0,
+            "template": {
+                "Id": "N15 Rap Journal (Quest) [c2327599-80b9-497d-bb37-d70cad339647]",
+                "IsContainer": false,
+                "useGravity": true,
+                "randomRotation": false,
+                "Position": {
+                    "X": 17.06,
+                    "Y": 36.5,
+                    "Z": -4.22
+                },
+                "Rotation": {
+                    "x": 0,
+                    "y": 0,
+                    "z": 0
+                },
+                "IsGroupPosition": false,
+                "GroupPositions": [],
+                "IsAlwaysSpawn": true,
+                "Root": "11844cc0e3e5ba62f4685cc8",
+                "Items": [
+                    {
+                        "_id": "11844cc0e3e5ba62f4685cc8",
+                        "_tpl": "69d2ca6e6c1d42de861b9745",
+                        "upd": {
+                            "StackObjectsCount": 1
+                        }
+                    }
+                ]
+            },
+            "itemDistribution": [
+                {
+                    "composedKey": {
+                        "key": "69d2ca6e6c1d42de861b9745"
                     },
                     "relativeProbability": 1
                 }

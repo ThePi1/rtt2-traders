@@ -128,5 +128,15 @@
     "6afeb2439f394137d8e78acf successMessageText": "[PH] Competition eliminated. The market is mine again.",
     "6afeb2439f394137d8e78acf failMessageText": "",
     "6afeb2439f394137d8e78ad1": "Eliminate Reshala on Customs",
-    "6afeb2439f394137d8e78ad5": "Eliminate 10 Scavs on Customs in one raid"
+    "6afeb2439f394137d8e78ad5": "Eliminate 10 Scavs on Customs in one raid",
+    "6afeb2449c22ac69eeab59c8 name": "Soundcloud Soliloquy",
+    "6afeb2449c22ac69eeab59c8 description": "[PH] I'm dropping a mixtape. Problem is, I lost my lyric book. I think it was at the book and toy store in the Interchange mall. It's got some heat in it, my guy. Fifty Cent levels of heat.",
+    "6afeb2449c22ac69eeab59c8 acceptPlayerMessage": "",
+    "6afeb2449c22ac69eeab59c8 declinePlayerMessage": "",
+    "6afeb2449c22ac69eeab59c8 completePlayerMessage": "",
+    "6afeb2449c22ac69eeab59c8 successMessageText": "[PH] My bars! Get ready, the Soundcloud is about to be on fire.",
+    "6afeb2449c22ac69eeab59c8 failMessageText": "",
+    "6afeb2449c22ac69eeab59c9": "Search the toy and book store in the Interchange mall",
+    "6afeb2449c22ac69eeab59cf": "Find the Rap Journal",
+    "6afeb2449c22ac69eeab59d0": "Hand over the Rap Journal"
 }
