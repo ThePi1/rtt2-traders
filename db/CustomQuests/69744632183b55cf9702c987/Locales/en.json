@@ -147,5 +147,13 @@
     "6afeb415c2377a139fe30274": "Find the Special Chemical in the operating room on Lighthouse",
     "6afeb415c2377a139fe30275": "Transit from Lighthouse to Shoreline",
     "6afeb415c2377a139fe3027e": "Eliminate a PMC on Shoreline and survive the raid",
-    "6afeb415c2377a139fe30283": "Hand over the Special Chemical"
+    "6afeb415c2377a139fe30283": "Hand over the Special Chemical",
+    "6a1355ac8c34ba4a387cd01f name": "Side Effects",
+    "6a1355ac8c34ba4a387cd01f description": "[PH] Mesa been havin' side effects from da treat! Big big side effects! Mesa need yousa to go bombad on ten PMC peoples. Ten! Den mesa feel more better, okeeday?",
+    "6a1355ac8c34ba4a387cd01f acceptPlayerMessage": "",
+    "6a1355ac8c34ba4a387cd01f declinePlayerMessage": "",
+    "6a1355ac8c34ba4a387cd01f completePlayerMessage": "",
+    "6a1355ac8c34ba4a387cd01f successMessageText": "[PH] Wesa all done! Mesa feel... ja, much better now. What was I saying?",
+    "6a1355ac8c34ba4a387cd01f failMessageText": "",
+    "6afeb416df9389e6b8129366": "Eliminate PMCs"
 }
