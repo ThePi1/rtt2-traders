@@ -303,6 +303,16 @@
       "_tpl": "657babc6f58ba5a6250107a2",
       "parentId": "6a05e75275949dd5a9bd76e5",
       "slotId": "helmet_ears"
+    },
+    {
+      "_id": "6afea93d54ebd5501d6dc2f9",
+      "_tpl": "601949593ae8f707c4608daa",
+      "upd": {
+        "StackObjectsCount": 9999999,
+        "UnlimitedCount": true
+      },
+      "parentId": "hideout",
+      "slotId": "hideout"
     }
   ],
   "barter_scheme": {
@@ -481,6 +491,14 @@
           "_tpl": "57347d7224597744596b4e72"
         }
       ]
+    ],
+    "6afea93d54ebd5501d6dc2f9": [
+      [
+        {
+          "count": 1150,
+          "_tpl": "5449016a4bdc2d6f028b456f"
+        }
+      ]
     ]
   },
   "loyal_level_items": {
@@ -505,6 +523,7 @@
     "6a05e6fd75949dd5a9bd76e4": 2,
     "6a05e75275949dd5a9bd76e5": 2,
     "6a05e7e075949dd5a9bd76e6": 1,
-    "6a05e85475949dd5a9bd76e7": 1
+    "6a05e85475949dd5a9bd76e7": 1,
+    "6afea93d54ebd5501d6dc2f9": 3
   }
 }

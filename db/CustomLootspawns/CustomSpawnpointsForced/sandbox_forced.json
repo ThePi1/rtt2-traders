@@ -25,7 +25,7 @@
                 "Items": [
                     {
                         "_id": "69afb6fbe28fc5bf40ec8c5d",
-                        "_tpl": "69afb77d9bd526e56c0c34d7",
+                        "_tpl": "69d2cd74c9543f516911c29d",
                         "upd": {
                             "StackObjectsCount": 1
                         }
@@ -35,7 +35,7 @@
             "itemDistribution": [
                 {
                     "composedKey": {
-                        "key": "69afb77d9bd526e56c0c34d7"
+                        "key": "69d2cd74c9543f516911c29d"
                     },
                     "relativeProbability": 1
                 }

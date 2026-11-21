@@ -1,17 +1,17 @@
- { 
-  "TarkovStreets": [
+ {
+  "Woods": [
         {
-        "locationId": "(60.76062 1.742749 -57.43116)",
+        "locationId": "(196.0 0.6 -7.2)",
         "probability": 1.0,
             "template": {
-                "Id": "Q15 (Quest) [86663233-25bb-4e2a-a616-e67848115ac3]",
+                "Id": "Q24 (Quest) [86663233-25bb-4e2a-a616-e67848115ac3]",
                 "IsContainer": false,
                 "useGravity": true,
                 "randomRotation": false,
                 "Position": {
-                    "X": 60.76062,
-                    "Y": 1.742749,
-                    "Z": -57.43116
+                    "X": 196.0,
+                    "Y": 0.6,
+                    "Z": -7.2
                 },
                 "Rotation": {
                     "x": 0,
@@ -21,11 +21,11 @@
                 "IsGroupPosition": false,
                 "GroupPositions": [],
                 "IsAlwaysSpawn": true,
-                "Root": "69d1f5f3cf1b62e7e16d45c5",
+                "Root": "6afe7e9e913f1a768d0e100e",
                 "Items": [
                     {
-                        "_id": "69d1f5f0bc2a5854ab7dffb7",
-                        "_tpl": "5938878586f7741b797c562f",
+                        "_id": "6afe7e9e913f1a768d0e100e",
+                        "_tpl": "69b4d1d5beca6d110b3d3dfb",
                         "upd": {
                             "StackObjectsCount": 1
                         }
@@ -35,48 +35,7 @@
             "itemDistribution": [
                 {
                     "composedKey": {
-                        "key": "5938878586f7741b797c562f"
-                    },
-                    "relativeProbability": 1
-                }
-            ]
-        },
-		{
-        "locationId": "(181.4131 3.021893 102.3974)",
-        "probability": 1.0,
-            "template": {
-                "Id": "Q18 (Quest) [86663233-25bb-4e2a-a616-e67848115ac3]",
-                "IsContainer": false,
-                "useGravity": true,
-                "randomRotation": false,
-                "Position": {
-                    "X": 181.4131,
-                    "Y": 3.021893,
-                    "Z": 102.3974
-                },
-                "Rotation": {
-                    "x": 0,
-                    "y": 0,
-                    "z": 0
-                },
-                "IsGroupPosition": false,
-                "GroupPositions": [],
-                "IsAlwaysSpawn": true,
-                "Root": "69d1f5f3cf1b62e7e16d45c5",
-                "Items": [
-                    {
-                        "_id": "69d1f5f0bc2a5854ab7dffb7",
-                        "_tpl": "5938878586f7741b797c562f",
-                        "upd": {
-                            "StackObjectsCount": 1
-                        }
-                    }
-                ]
-            },
-            "itemDistribution": [
-                {
-                    "composedKey": {
-                        "key": "5938878586f7741b797c562f"
+                        "key": "69b4d1d5beca6d110b3d3dfb"
                     },
                     "relativeProbability": 1
                 }

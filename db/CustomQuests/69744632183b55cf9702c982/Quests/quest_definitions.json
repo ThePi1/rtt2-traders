@@ -573,6 +573,18 @@
             "Success": [
                 {
                     "availableInGameEditions": [],
+                    "gameMode": [
+                        "regular",
+                        "pve"
+                    ],
+                    "id": "6afea8bdd7cf2b7654d9eb40",
+                    "isHidden": false,
+                    "type": "Experience",
+                    "unknown": false,
+                    "value": 4000
+                },
+                {
+                    "availableInGameEditions": [],
                     "id": "69cd7cb445b0c8b5f47878bc",
                     "target": "69744632183b55cf9702c983",
                     "type": "TraderUnlock",
@@ -751,7 +763,7 @@
                             "_id": "69cef6e497164d8a2abddcdc",
                             "_tpl": "569668774bdc2da2298b4568",
                             "upd": {
-                                "StackObjectsCount": "250"
+                                "StackObjectsCount": 250
                             }
                         }
                     ],
@@ -770,7 +782,7 @@
                             "_id": "69cef6eebccf1a0dd1179852",
                             "_tpl": "5696686a4bdc2da3298b456a",
                             "upd": {
-                                "StackObjectsCount": "250"
+                                "StackObjectsCount": 250
                             }
                         }
                     ],
@@ -1695,7 +1707,23 @@
                     "visibilityConditions": []
                 }
             ],
-            "AvailableForStart": [],
+            "AvailableForStart": [
+                {
+                    "availableAfter": 0,
+                    "conditionType": "Quest",
+                    "dispersion": 0,
+                    "dynamicLocale": false,
+                    "globalQuestCounterId": "",
+                    "id": "6afea8bb44c9dc55f77a40ef",
+                    "index": 0,
+                    "parentId": "",
+                    "status": [
+                        4
+                    ],
+                    "target": "69cd7b7345b0c8b5f47878ae",
+                    "visibilityConditions": []
+                }
+            ],
             "Fail": []
         },
         "declinePlayerMessage": "69cedc2dd2a219c316eb1c1e declinePlayerMessage",
@@ -1717,10 +1745,10 @@
                 {
                     "availableInGameEditions": [],
                     "id": "69cedcb6d2a219c316eb1c1f",
-                    "index": 0,
                     "type": "Experience",
                     "unknown": false,
-                    "value": 5000
+                    "value": 5000,
+                    "index": 0
                 }
             ]
         },
@@ -1921,7 +1949,23 @@
                     "visibilityConditions": []
                 }
             ],
-            "AvailableForStart": [],
+            "AvailableForStart": [
+                {
+                    "availableAfter": 0,
+                    "conditionType": "Quest",
+                    "dispersion": 0,
+                    "dynamicLocale": false,
+                    "globalQuestCounterId": "",
+                    "id": "6afea8bcc709840ebcba203a",
+                    "index": 0,
+                    "parentId": "",
+                    "status": [
+                        4
+                    ],
+                    "target": "69cd7b7345b0c8b5f47878ae",
+                    "visibilityConditions": []
+                }
+            ],
             "Fail": []
         },
         "declinePlayerMessage": "69cee1057c3c785e39999475 declinePlayerMessage",
@@ -1943,10 +1987,10 @@
                 {
                     "availableInGameEditions": [],
                     "id": "69cee1ec7c3c785e39999476",
-                    "index": 0,
                     "type": "Experience",
                     "unknown": false,
-                    "value": 10000
+                    "value": 10000,
+                    "index": 0
                 },
                 {
                     "availableInGameEditions": [],
@@ -2242,10 +2286,35 @@
                 {
                     "availableInGameEditions": [],
                     "id": "69f282527d8e3164fcee106b",
-                    "index": 0,
                     "type": "Experience",
                     "unknown": false,
-                    "value": 5000
+                    "value": 5000,
+                    "index": 0
+                },
+                {
+                    "availableInGameEditions": [],
+                    "findInRaid": true,
+                    "gameMode": [
+                        "regular",
+                        "pve"
+                    ],
+                    "id": "6afe8cdd71b28c16271a9500",
+                    "isEncoded": false,
+                    "isHidden": false,
+                    "items": [
+                        {
+                            "_id": "6afe8cdd71b28c16271a9501",
+                            "_tpl": "5c94bbff86f7747ee735c08f",
+                            "upd": {
+                                "SpawnedInSession": true,
+                                "StackObjectsCount": 1
+                            }
+                        }
+                    ],
+                    "target": "6afe8cdd71b28c16271a9501",
+                    "type": "Item",
+                    "unknown": false,
+                    "value": 1
                 }
             ]
         },
@@ -2339,49 +2408,45 @@
                 {
                     "availableInGameEditions": [],
                     "id": "69f2c5065154f1f35e108594",
-                    "index": 0,
                     "type": "Experience",
                     "unknown": false,
-                    "value": 6500
+                    "value": 6500,
+                    "index": 0
                 },
                 {
                     "availableInGameEditions": [],
                     "findInRaid": false,
                     "id": "69f2c50a5154f1f35e108595",
-                    "index": 0,
                     "items": [
                         {
                             "_id": "5449016a4bdc2d6f028b456f",
                             "_tpl": "5449016a4bdc2d6f028b456f",
                             "upd": {
-                                "StackObjectsCount": "100000"
+                                "StackObjectsCount": 100000
                             }
                         }
                     ],
                     "target": "5449016a4bdc2d6f028b456f",
                     "type": "Item",
                     "unknown": false,
-                    "value": 100000
+                    "value": 1,
+                    "index": 0
                 },
                 {
                     "availableInGameEditions": [],
                     "id": "69f6c8441d70b6891137b4b1",
-                    "index": 0,
                     "items": [
                         {
-                            "_id": "69b4d88a6b6e47c7c6093cc1",
-                            "_tpl": "69b4d88a6b6e47c7c6093cc1",
-                            "upd": {
-                                "StackObjectsCount": 200,
-                                "SpawnedInSession": true
-                            }
+                            "_id": "6afe8cde7453e6f021aaa8f8",
+                            "_tpl": "69b4d88a6b6e47c7c6093cc1"
                         }
                     ],
                     "loyaltyLevel": 1,
-                    "target": "69b4d88a6b6e47c7c6093cc1",
+                    "target": "6afe8cde7453e6f021aaa8f8",
                     "traderId": "69744632183b55cf9702c982",
                     "type": "AssortmentUnlock",
-                    "unknown": false
+                    "unknown": false,
+                    "index": 0
                 }
             ]
         },
@@ -2667,7 +2732,7 @@
                                 "conditionType": "VisitPlace",
                                 "dynamicLocale": false,
                                 "id": "6ac69c38c644648725d012a5",
-                                "target": "C1_2",
+                                "target": "C1_1",
                                 "value": 1
                             }
                         ],
@@ -2753,10 +2818,10 @@
                 {
                     "availableInGameEditions": [],
                     "id": "6a0a9ea6dbc8c9a772fad9bf",
-                    "index": 0,
                     "type": "Experience",
                     "unknown": false,
-                    "value": 1000
+                    "value": 1000,
+                    "index": 0
                 }
             ]
         },
@@ -2889,7 +2954,7 @@
                             "_id": "6a0a9fb0dbc8c9a772fad9cf",
                             "_tpl": "5449016a4bdc2d6f028b456f",
                             "upd": {
-                                "StackObjectsCount": "50000",
+                                "StackObjectsCount": 50000,
                                 "SpawnedInSession": true
                             }
                         }
@@ -3010,7 +3075,7 @@
                             "_id": "6a0aa072dbc8c9a772fad9d8",
                             "_tpl": "5449016a4bdc2d6f028b456f",
                             "upd": {
-                                "StackObjectsCount": "20000",
+                                "StackObjectsCount": 20000,
                                 "SpawnedInSession": true
                             }
                         }
@@ -3205,8 +3270,8 @@
                     "id": "6a0aa3dedbc8c9a772fad9eb",
                     "index": 0,
                     "isEncoded": false,
-                    "minDurability": 0,
                     "maxDurability": 100,
+                    "minDurability": 0,
                     "onlyFoundInRaid": false,
                     "parentId": "",
                     "plantTime": 10,
@@ -3215,7 +3280,7 @@
                     ],
                     "value": 1,
                     "visibilityConditions": [],
-                    "zoneId": "C4_1"
+                    "zoneId": "C4"
                 },
                 {
                     "conditionType": "LeaveItemAtLocation",
@@ -3225,8 +3290,8 @@
                     "id": "6a0aa3fcdbc8c9a772fad9ec",
                     "index": 0,
                     "isEncoded": false,
-                    "minDurability": 0,
                     "maxDurability": 100,
+                    "minDurability": 0,
                     "onlyFoundInRaid": false,
                     "parentId": "",
                     "plantTime": 10,
@@ -3276,16 +3341,15 @@
                 {
                     "availableInGameEditions": [],
                     "id": "6a0aa37fdbc8c9a772fad9e8",
-                    "index": 0,
                     "type": "Experience",
                     "unknown": false,
-                    "value": 1500
+                    "value": 1500,
+                    "index": 0
                 },
                 {
                     "availableInGameEditions": [],
                     "findInRaid": true,
                     "id": "6a0aa386dbc8c9a772fad9e9",
-                    "index": 0,
                     "items": [
                         {
                             "_id": "6a0aa3cbdbc8c9a772fad9ea",
@@ -3298,7 +3362,8 @@
                     "target": "6a0aa3cbdbc8c9a772fad9ea",
                     "type": "Item",
                     "unknown": true,
-                    "value": 1
+                    "value": 1,
+                    "index": 0
                 }
             ]
         },
@@ -3843,7 +3908,7 @@
                             "_id": "6a0ab32eee68f3757a5c8604",
                             "_tpl": "5c0d5e4486f77478390952fe",
                             "upd": {
-                                "StackObjectsCount": "60",
+                                "StackObjectsCount": 60,
                                 "SpawnedInSession": true
                             }
                         }
@@ -3863,7 +3928,7 @@
                             "_id": "6a0ab32eee68f3757a5c8604",
                             "_tpl": "5c0d5e4486f77478390952fe",
                             "upd": {
-                                "StackObjectsCount": "60",
+                                "StackObjectsCount": 60,
                                 "SpawnedInSession": true
                             }
                         },
@@ -3871,7 +3936,7 @@
                             "_id": "6a0ab33cee68f3757a5c8606",
                             "_tpl": "5c0d5e4486f77478390952fe",
                             "upd": {
-                                "StackObjectsCount": "60",
+                                "StackObjectsCount": 60,
                                 "SpawnedInSession": true
                             }
                         }
@@ -3910,7 +3975,7 @@
                                 "conditionType": "VisitPlace",
                                 "dynamicLocale": false,
                                 "id": "6a0ab473ee68f3757a5c8614",
-                                "target": "C9",
+                                "target": "C10",
                                 "value": 1
                             }
                         ],
@@ -3983,16 +4048,15 @@
                 {
                     "availableInGameEditions": [],
                     "id": "6a0ab3fcee68f3757a5c860c",
-                    "index": 0,
                     "type": "Experience",
                     "unknown": false,
-                    "value": 10000
+                    "value": 10000,
+                    "index": 0
                 },
                 {
                     "availableInGameEditions": [],
                     "findInRaid": true,
                     "id": "6a0ab402ee68f3757a5c860d",
-                    "index": 0,
                     "items": [
                         {
                             "_id": "6a0ab426ee68f3757a5c860e",
@@ -4005,13 +4069,13 @@
                     "target": "6a0ab426ee68f3757a5c860e",
                     "type": "Item",
                     "unknown": true,
-                    "value": 1
+                    "value": 1,
+                    "index": 0
                 },
                 {
                     "availableInGameEditions": [],
                     "findInRaid": true,
                     "id": "6a0ab431ee68f3757a5c860f",
-                    "index": 0,
                     "items": [
                         {
                             "_id": "6a0ab426ee68f3757a5c860e",
@@ -4031,7 +4095,8 @@
                     "target": "6a0ab426ee68f3757a5c860e",
                     "type": "Item",
                     "unknown": true,
-                    "value": 1
+                    "value": 2,
+                    "index": 0
                 }
             ]
         },
@@ -4113,7 +4178,9 @@
                     "id": "6a0d2244d47f367b5bed547e",
                     "index": 0,
                     "parentId": "",
-                    "status": [],
+                    "status": [
+                        4
+                    ],
                     "target": "6a0b9a8d16ab7c2dcc5587c0",
                     "visibilityConditions": []
                 }
@@ -4139,15 +4206,14 @@
                 {
                     "availableInGameEditions": [],
                     "id": "6a0d2206d47f367b5bed547b",
-                    "index": 0,
                     "type": "Experience",
                     "unknown": false,
-                    "value": 10000
+                    "value": 10000,
+                    "index": 0
                 },
                 {
                     "availableInGameEditions": [],
                     "id": "6a0d220bd47f367b5bed547c",
-                    "index": 0,
                     "items": [
                         {
                             "_id": "6a0d2241d47f367b5bed547d",
@@ -4158,12 +4224,12 @@
                     "target": "6a0d2241d47f367b5bed547d",
                     "traderId": "69744632183b55cf9702c981",
                     "type": "AssortmentUnlock",
-                    "unknown": false
+                    "unknown": false,
+                    "index": 0
                 },
                 {
                     "availableInGameEditions": [],
                     "id": "6a0d22a5d47f367b5bed5483",
-                    "index": 0,
                     "items": [
                         {
                             "_id": "6a0d22b2d47f367b5bed5484",
@@ -4174,12 +4240,12 @@
                     "target": "6a0d22b2d47f367b5bed5484",
                     "traderId": "69744632183b55cf9702c981",
                     "type": "AssortmentUnlock",
-                    "unknown": false
+                    "unknown": false,
+                    "index": 0
                 },
                 {
                     "availableInGameEditions": [],
                     "id": "6a0d22bed47f367b5bed5485",
-                    "index": 0,
                     "items": [
                         {
                             "_id": "6a0d22c2d47f367b5bed5486",
@@ -4190,12 +4256,12 @@
                     "target": "6a0d22c2d47f367b5bed5486",
                     "traderId": "69744632183b55cf9702c981",
                     "type": "AssortmentUnlock",
-                    "unknown": false
+                    "unknown": false,
+                    "index": 0
                 },
                 {
                     "availableInGameEditions": [],
                     "id": "6a0d22c9d47f367b5bed5487",
-                    "index": 0,
                     "items": [
                         {
                             "_id": "6a0d22d1d47f367b5bed5488",
@@ -4205,15 +4271,16 @@
                             }
                         }
                     ],
+                    "loyaltyLevel": 1,
                     "target": "6a0d22d1d47f367b5bed5488",
                     "traderId": "69744632183b55cf9702c981",
                     "type": "AssortmentUnlock",
-                    "unknown": false
+                    "unknown": false,
+                    "index": 0
                 },
                 {
                     "availableInGameEditions": [],
                     "id": "6a0d22dbd47f367b5bed5489",
-                    "index": 0,
                     "items": [
                         {
                             "_id": "6a0d22e7d47f367b5bed548a",
@@ -4224,7 +4291,8 @@
                     "target": "6a0d22e7d47f367b5bed548a",
                     "traderId": "69744632183b55cf9702c981",
                     "type": "AssortmentUnlock",
-                    "unknown": false
+                    "unknown": false,
+                    "index": 0
                 }
             ]
         },
@@ -4718,16 +4786,15 @@
                 {
                     "availableInGameEditions": [],
                     "id": "6a0d254cd47f367b5bed54a4",
-                    "index": 0,
                     "type": "Experience",
                     "unknown": false,
-                    "value": 1000
+                    "value": 1000,
+                    "index": 0
                 },
                 {
                     "availableInGameEditions": [],
                     "findInRaid": true,
                     "id": "6a0d2553d47f367b5bed54a5",
-                    "index": 0,
                     "items": [
                         {
                             "_id": "6a0d2566d47f367b5bed54a6",
@@ -4740,7 +4807,8 @@
                     "target": "6a0d2566d47f367b5bed54a6",
                     "type": "Item",
                     "unknown": false,
-                    "value": 1
+                    "value": 1,
+                    "index": 0
                 }
             ]
         },
@@ -4748,7 +4816,7 @@
         "side": "pmc",
         "startedMessageText": "6a0d2538d47f367b5bed54a3 startedMessageText",
         "successMessageText": "6a0d2538d47f367b5bed54a3 successMessageText",
-        "traderId": "54cb50c76803fa8b248b4571",
+        "traderId": "69744632183b55cf9702c982",
         "type": "PickUp"
     },
     "6a0d25a5d47f367b5bed54a9": {
@@ -5072,7 +5140,7 @@
                     "isResetOnConditionFailed": false,
                     "oneSessionOnly": false,
                     "parentId": "",
-                    "type": "Discover",
+                    "type": "Elimination",
                     "value": 1,
                     "visibilityConditions": []
                 }
@@ -5111,16 +5179,15 @@
                 {
                     "availableInGameEditions": [],
                     "id": "6a0d2790d47f367b5bed54b8",
-                    "index": 0,
                     "type": "Experience",
                     "unknown": false,
-                    "value": 3000
+                    "value": 3000,
+                    "index": 0
                 },
                 {
                     "availableInGameEditions": [],
                     "findInRaid": true,
                     "id": "6a0d2799d47f367b5bed54b9",
-                    "index": 0,
                     "items": [
                         {
                             "_id": "6a0d27aed47f367b5bed54ba",
@@ -5134,7 +5201,8 @@
                     "target": "6a0d27aed47f367b5bed54ba",
                     "type": "Item",
                     "unknown": false,
-                    "value": 1
+                    "value": 110000,
+                    "index": 0
                 }
             ]
         },
@@ -5203,7 +5271,7 @@
                     "isResetOnConditionFailed": false,
                     "oneSessionOnly": false,
                     "parentId": "",
-                    "type": "Discover",
+                    "type": "Elimination",
                     "value": 1,
                     "visibilityConditions": []
                 }
@@ -5246,16 +5314,15 @@
                 {
                     "availableInGameEditions": [],
                     "id": "6a0d2833d47f367b5bed54c0",
-                    "index": 0,
                     "type": "Experience",
                     "unknown": false,
-                    "value": 5000
+                    "value": 5000,
+                    "index": 0
                 },
                 {
                     "availableInGameEditions": [],
                     "findInRaid": true,
                     "id": "6a0d2839d47f367b5bed54c1",
-                    "index": 0,
                     "items": [
                         {
                             "_id": "6a0d2845d47f367b5bed54c2",
@@ -5269,7 +5336,8 @@
                     "target": "6a0d2845d47f367b5bed54c2",
                     "type": "Item",
                     "unknown": false,
-                    "value": 1
+                    "value": 110000,
+                    "index": 0
                 }
             ]
         },
@@ -5318,8 +5386,8 @@
                     "id": "6a0d28f1d47f367b5bed54cd",
                     "index": 0,
                     "isEncoded": false,
-                    "minDurability": 0,
                     "maxDurability": 100,
+                    "minDurability": 0,
                     "onlyFoundInRaid": true,
                     "parentId": "",
                     "target": [
@@ -5367,16 +5435,15 @@
                 {
                     "availableInGameEditions": [],
                     "id": "6a0d28a5d47f367b5bed54c8",
-                    "index": 0,
                     "type": "Experience",
                     "unknown": false,
-                    "value": 2000
+                    "value": 2000,
+                    "index": 0
                 },
                 {
                     "availableInGameEditions": [],
                     "findInRaid": true,
                     "id": "6a0d28b1d47f367b5bed54c9",
-                    "index": 0,
                     "items": [
                         {
                             "_id": "6a0d28bbd47f367b5bed54ca",
@@ -5390,7 +5457,8 @@
                     "target": "6a0d28bbd47f367b5bed54ca",
                     "type": "Item",
                     "unknown": false,
-                    "value": 1
+                    "value": 110000,
+                    "index": 0
                 }
             ]
         },
@@ -5398,7 +5466,7 @@
         "side": "pmc",
         "startedMessageText": "6a0d2895d47f367b5bed54c7 startedMessageText",
         "successMessageText": "6a0d2895d47f367b5bed54c7 successMessageText",
-        "traderId": "54cb50c76803fa8b248b4571",
+        "traderId": "69744632183b55cf9702c982",
         "type": "PickUp"
     },
     "6a0d28fcd47f367b5bed54ce": {
@@ -5488,23 +5556,27 @@
                 {
                     "availableInGameEditions": [],
                     "id": "6a0d2926d47f367b5bed54d0",
-                    "index": 0,
                     "type": "Experience",
                     "unknown": false,
-                    "value": 4000
+                    "value": 4000,
+                    "index": 0
                 },
                 {
                     "availableInGameEditions": [],
+                    "gameMode": [
+                        "regular",
+                        "pve"
+                    ],
                     "id": "6a0d2952d47f367b5bed54d6",
-                    "index": 0,
+                    "isHidden": false,
                     "items": [
                         {
-                            "_id": "6a0d2971d47f367b5bed54d7",
+                            "_id": "6afea93d54ebd5501d6dc2fa",
                             "_tpl": "601949593ae8f707c4608daa"
                         }
                     ],
                     "loyaltyLevel": 3,
-                    "target": "6a0d2971d47f367b5bed54d7",
+                    "target": "6afea93d54ebd5501d6dc2fa",
                     "traderId": "69744632183b55cf9702c982",
                     "type": "AssortmentUnlock",
                     "unknown": false
@@ -5556,8 +5628,8 @@
                     "id": "6a08bcacba598c93d9c09fd4",
                     "index": 0,
                     "isEncoded": false,
-                    "minDurability": 0,
                     "maxDurability": 100,
+                    "minDurability": 0,
                     "onlyFoundInRaid": false,
                     "parentId": "",
                     "target": [
@@ -5605,22 +5677,21 @@
                 {
                     "availableInGameEditions": [],
                     "id": "6a08bc5dba598c93d9c09fcd",
-                    "index": 0,
                     "type": "Experience",
                     "unknown": false,
-                    "value": 10000
+                    "value": 10000,
+                    "index": 0
                 },
                 {
                     "availableInGameEditions": [],
                     "findInRaid": true,
                     "id": "6a08bc62ba598c93d9c09fce",
-                    "index": 0,
                     "items": [
                         {
                             "_id": "6a08bc68ba598c93d9c09fcf",
                             "_tpl": "59faff1d86f7746c51718c9c",
                             "upd": {
-                                "StackObjectsCount": "1",
+                                "StackObjectsCount": 1,
                                 "SpawnedInSession": true
                             }
                         }
@@ -5628,27 +5699,28 @@
                     "target": "6a08bc68ba598c93d9c09fcf",
                     "type": "Item",
                     "unknown": true,
-                    "value": 1
+                    "value": 1,
+                    "index": 0
                 },
                 {
                     "availableInGameEditions": [],
                     "findInRaid": true,
                     "id": "6a08bc6fba598c93d9c09fd0",
-                    "index": 0,
                     "items": [
                         {
-                            "_id": "6a08bc68ba598c93d9c09fcf",
+                            "_id": "6afe7ee4e71be432a56002ba",
                             "_tpl": "59faff1d86f7746c51718c9c",
                             "upd": {
-                                "StackObjectsCount": "1",
+                                "StackObjectsCount": 1,
                                 "SpawnedInSession": true
                             }
                         }
                     ],
-                    "target": "6a08bc68ba598c93d9c09fcf",
+                    "target": "6afe7ee4e71be432a56002ba",
                     "type": "Item",
                     "unknown": true,
-                    "value": 1
+                    "value": 1,
+                    "index": 0
                 }
             ]
         },
