@@ -26,7 +26,6 @@ From the new quests (built 2026-11-19). Every new quest's description and succes
 
 - [ ] **Not built, waiting on you** (reasons in each row's Notes):
   - Skipped on purpose: L31 (repeats L32) and A29–A30 (need custom models).
-- [ ] **Chains that skip an unbuilt quest:** P17 starts after P15 (P16 not built). Re-point it when P16 is built.
 - [ ] **Design rewards left out:**
   - V12: Pyramid Head Funko. Skipped for now: needs a new model.
   - Left out on purpose: A10's Price unlock (Q8 already unlocks Price) and X22's Chimera unlock.
@@ -436,7 +435,7 @@ New zones are in `db/CustomQuestZones`, one file per map (`customs.json`, `stree
 | P14 | Price | Courtesy Call - Part 2 | Going to customs looking for a bowling alley (Fortress) | P13 | XP, P15 | `6afeaf8f7757bef5904f3c49` | Built | Built: visit the existing zone `P14` (Fortress, Customs) |
 | P15 | Price | Courtesy Call - Part 3 | Looking on interchange for a bowling ball in the mall | P14 | XP, P16 | `6afeaf907133ee697372bbf9` | Built | Built: visit the existing zone `P15` (Interchange mall). No bowling ball item exists, so this is a search-only step |
 | P16 | Price | Courtesy Call - Part 4 | One final other map (looking for bowling alley with some sort of twist) Find Bowling Ball? | P15 | Good XP and good item | `6b026f83e15e26da114c4e91` | Needs check | Built: find the new Bowling Ball quest item (spawns in the 2nd-floor lounge of the resort's east wing on Shoreline), kill 10 Scavs on Shoreline in one raid (the "ten pins", my twist), then hand in the ball. Rewards 1.5x the usual XP for its place in the chain and 2 Physical Bitcoins (the "good item", my pick) |
-| P17 | Price | Last Call | Plant 1 vodka, 1 Beer, 1 Whiskey in bar on streets | P15 |  | `6afeaf9133bb6de0ee92554e` | Needs check | Built: plant a vodka, a Pevko and a Dan Jackiel at new zone `P17` (bar of the Brodion restopub, Zmeiskiy 3). Starts after P15 because P16 isn't built |
+| P17 | Price | Last Call | Plant 1 vodka, 1 Beer, 1 Whiskey in bar on streets | P16 |  | `6afeaf9133bb6de0ee92554e` | Needs check | Built: plant a vodka, a Pevko and a Dan Jackiel at new zone `P17` (bar of the Brodion restopub, Zmeiskiy 3). |
 | P18 | Price | The Pie? It's Far Too Hot | First: find and hand in FIR: 1x piece of plexiglass, 1x IEA Mil-Optics KH/F 34mm one-piece magmount, and mark inside Dorms Marked/314 | P17 |  | `6afeaf921cf748b4f280276b` | Built | Built: hand in 1 FIR plexiglass and 1 FIR KH/F 34mm magmount, then mark inside dorm 314 (existing zone `P18`) |
 | P19 | Price | The Good Stuff | Find and Turn in 3 Moonshine | P18 |  | `6afeaf948ff3d3b964b1c9d8` | Built | Built: hand in 3 FIR Fierce Hatchling moonshine |
 | P20 | Price | Superman | Find and Turn in 5 Super Water | P19 |  | `6afeaf951086f357132cb2f2` | Built | Built: hand in 5 FIR canisters of purified water |
