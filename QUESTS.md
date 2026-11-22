@@ -116,7 +116,7 @@ New zones are in `db/CustomQuestZones`, one file per map (`customs.json`, `stree
   - `P13_2` (Sportmarket)
   - `P6` (street ATM)
   - `P17` (Brodion bar)
-  - `V20` (old wreck)
+  - `V20` (covered boat in the pier storage)
 - [ ] **New forced spawns:**
   - A8 Hidden Shipment at the Shoreline railway bridge
   - A28 Case For Atlas in the resort helicopter
@@ -487,7 +487,7 @@ New zones are in `db/CustomQuestZones`, one file per map (`customs.json`, `stree
 | V17 | Voron | Reap The Wicked | Kill 20 PMCs with headshots | V16 |  | `6afeb336c2c73fe5c7aa0b0e` | Built | Built: 20 PMC kills with headshots |
 | V18 | Voron | Reap The Unfortunate | Kill 50 Scavs with Headshots | V17 |  | `6afeb3370d0cd9dc6356567d` | Built | Built: 50 Scav kills with headshots |
 | V19 | Voron | Reap the Cursed | Kill tagilla and killa with headshots | V18 |  | `6afeb338d7f21a807d83dc9c` | Built | Built: kill Tagilla and Killa, each with a headshot |
-| V20 | Voron | One Final Delivery | Pickup the Box from ground zero dead scientist and plant on shoreline in same raid | V19 |  | `6afeb33a2352ca9802efd929` | Needs check | Built: find the Final Sacrifice on Ground Zero, then plant it at new zone `V20` (old wreck, Shoreline south shore). The Ground Zero spawn (at the dead scientist) used the Wrapped Package item; it now spawns the Final Sacrifice, as the sheet lists. "Same raid" can't be enforced: a transit chain runs GZ → Streets → Interchange → Customs → Shoreline, but the found item stays found across raids |
+| V20 | Voron | One Final Delivery | Pickup the Box from ground zero dead scientist and plant on shoreline in same raid | V19 |  | `6afeb33a2352ca9802efd929` | Needs check | Built: find the Final Sacrifice on Ground Zero, then plant it at new zone `V20` (covered boat in storage at the Shoreline pier). The Ground Zero spawn (at the dead scientist) used the Wrapped Package item; it now spawns the Final Sacrifice, as the sheet lists. "Same raid" can't be enforced: a transit chain runs GZ → Streets → Interchange → Customs → Shoreline, but the found item stays found across raids |
 
 ## Weiss (S)
 
