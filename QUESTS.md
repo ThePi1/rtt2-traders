@@ -104,7 +104,7 @@ New zones are in `db/CustomQuestZones`, one file per map (`customs.json`, `stree
   - `P9_2` (IDEA cafe)
   - `X15` (Klimov food court)
   - `X24_1` (W222), `X24_2` (E306), `X24_4` (east wing room 110, the blue-tape office)
-  - `X3_4` (gas station office)
+  - `X3_4` (gas station)
   - `N16` (island)
   - `N17` (cinema stage)
   - `S10_1` (sky-bridge)
@@ -393,7 +393,7 @@ New zones are in `db/CustomQuestZones`, one file per map (`customs.json`, `stree
 |---|---|---|---|---|---|---|---|---|
 | X1 | Xiaoming | Háo Jiǔ Bu Jiàn | Mark D2 power room on reserve, kill 3 raiders, extract via D2 (not all same raid) | Q12 |  | `6afeb12a489c2c15bdef16e4` | Built | Built: mark the D2 power room (existing zone `X1`, also used by A7), kill 3 Raiders on Reserve, extract via D2 (`EXFIL_Bunker_D2`). Starts when Q12 is done; Sheet: Trader level .16 each quest |
 | X2 | Xiaoming | Silk Road | Mark some stuff on the shoreline road, and train | X1 |  | `6afeb12d8a2bf95dc3c703aa` | Needs check | Built: mark new zones `X2_1` (barricaded intersection by the gas station) and `X2_2` (train cars by the railway bridge) on Shoreline. Spots my choice |
-| X3 | Xiaoming | Silk Road - Part 2 | Plant drug packages (stims) (Injector Cases?) at 5 locations around Shoreline | X2 |  | `6afeb133df04bdf8630f0ccf` | Needs check | Built: plant any stimulant at 5 new zones on Shoreline: `X3_1` south pier, `X3_2` weather station, `X3_3` village house, `X3_4` gas station office, `X3_5` bus station office (stims instead of Injector Cases, which are rare and pricey) |
+| X3 | Xiaoming | Silk Road - Part 2 | Plant drug packages (stims) (Injector Cases?) at 5 locations around Shoreline | X2 |  | `6afeb133df04bdf8630f0ccf` | Needs check | Built: plant any stimulant at 5 new zones on Shoreline: `X3_1` behind the tire pile on the pier, `X3_2` top floor of the weather station radar array, `X3_3` behind the village general store counter, `X3_4` gas station, `X3_5` bus station office (stims instead of Injector Cases, which are rare and pricey) |
 | X4 | Xiaoming | Better Without | Kill quest; ends up being Atlas's guys | X3 |  | `6afeb134f4a03ce7764de4bc` | Built | Built: kill 10 USEC PMCs anywhere (the "Atlas's guys" twist is in the text) |
 | X5 | Xiaoming | Better Without - Part 2 | Kill quest (similar but distinct) - certain map/faction | X4 |  | `6afeb13573c586a224470329` | Built | Built: kill 10 Rogues on Lighthouse (faction and map my choice) |
 | X6 | Xiaoming | Delay, Deny, Defend | Break into some healthcare building and somehow get back at Atlas | X5 |  | `6b025b1d71067db8be11b529` | Needs check | Built: find the new Faulty Gunpowder quest item (spawns on the desk in the Tarcone director's office, Customs), plant it at new zone `X6` (X-ray control room, 2nd floor of the Zmeisky 4a polyclinic on Streets; needs the X-ray room key), then survive and extract from Streets |
