@@ -41,6 +41,8 @@ Zone positions are the box centre in game coordinates (x, y, z). Sizes are width
 
 ### Zones to check in game
 
+All Customs, Factory and Woods zones were verified in game on 2026-11-22.
+
 - [ ] **`Q20_2` – Offering to the Eye, Shoreline church.** Moved from Woods (2026-11-21). Centre (255.5, -52.4, -106.5), 18 × 5 × 12, over the church main hall; floor at -53.9 m. Check that walking into the hall completes the step.
 From the audit (existing zones):
 
@@ -52,16 +54,16 @@ From the audit (existing zones):
 
 New zones are in the map files in `db/CustomQuestZones` (`woods.json`, `ground_zero.json` and so on). The first four are the least certain.
 
-- [ ] **`C7_1` – Loot Lord 2, Woods depot Biotoilets.** Centre (-706, 9.35, 98), 4 × 3 × 5. The game has no floor data here, so the height was guessed from the objects. Check that standing inside the toilets completes the step.
-- [ ] **`C7_2` – Loot Lord 2, Woods railway office (bunk beds).** Centre (-656, 9.1, 181.4), 9 × 3.5 × 16. Height guessed the same way as `C7_1`.
+- [x] **`C7_1` – Loot Lord 2, Woods depot Biotoilets.** Centre (-706, 9.35, 98), 4 × 3 × 5. The game has no floor data here, so the height was guessed from the objects. Check that standing inside the toilets completes the step. Verified in game 2026-11-22.
+- [x] **`C7_2` – Loot Lord 2, Woods Train Depot old house (bunk area).** Moved in game (2026-11-22): centre (-655.91, 8.60, 178.07), 5.8 × 2.5 × 9.1, turned 3.6°. Verified in game 2026-11-22.
 - [ ] **`C8` – Loot Lord 3, Lighthouse.** Centre (129, 10.922, -584.5), 9 × 4 × 12. Placed on the rocks past the minefield east of the Water Treatment Plant. Check that the spot matches the quest text and can see the machine guns.
-- [ ] **`C4_2` – Back To The Future, Customs dorm 206.** Centre (229.6, 3.91, 138.4), 2 × 2.5 × 2.4, turned 3.5°. This is a place-item zone in the hallway outside room 206 in the two-story dorm. It overlaps the game's own zone `huntsman_020`, so check that the place-item prompt still appears.
+- [x] **`C4_2` – Back To The Future, Customs dorm 206.** Centre (229.6, 3.91, 138.4), 2 × 2.5 × 2.4, turned 3.5°. This is a place-item zone in the hallway outside room 206 in the two-story dorm. It overlaps the game's own zone `huntsman_020`, so check that the place-item prompt still appears. Verified in game 2026-11-22.
 - [ ] **`C9` – The Gungeon, Reserve.** Shrunk to the gunsmithing workshop in the Black Bishop basement (2026-11-21): centre (-155.54, -8.067, -14.01), 16.5 × 2.9 × 8, turned 15.5°. It holds the repair-station workbenches, vises and toolboxes; the floor is at -9.45 m. Check that walking into the workshop completes the step and the corridor outside doesn't.
 - [ ] **`C6` – Loot Lord 1, Shoreline.** Centre (-628.01, -18.436, -236.04), 13.3 × 8.6 × 30, turned 17°. Placed in the Agrocomplex hangar with the toolboxes and welding machine (the sheet's "tool warehouse"). The other candidate is the pier warehouse.
 - [ ] **`C1_1` – Deja-Vu, Ground Zero.** Centre (-13, 31.471, 76), 16 × 4 × 30. Open-plan office on the TerraGroup building's second floor. Check it on both Ground Zero versions.
 - [ ] **`C1_2` – Deja-Vu, Ground Zero.** Centre (81.5, 15.734, 100.5), 8 × 4 × 17. Underground meat truck and the lane beside it. Check it on both versions.
-- [ ] **`C7_3` – Loot Lord 2, Woods cultist bunker.** Centre (-273, 8.94, -413), 17 × 3.5 × 15.
-- [ ] **`C4` – Back To The Future, director's door.** Not a new zone: the step now uses the existing `C4` outside the Tarcone director's office, instead of the missing `C4_1`.
+- [x] **`C7_3` – Loot Lord 2, Woods cultist bunker.** Centre (-273, 8.94, -413), 17 × 3.5 × 15. Verified in game 2026-11-22.
+- [x] **`C4` – Back To The Future, director's door.** Not a new zone: the step now uses the existing `C4` outside the Tarcone director's office, instead of the missing `C4_1`. Verified in game 2026-11-22.
 - [ ] **`C10` – Loot Lord 4, Labyrinth.** Not a new zone: the step pointed at `C9` and now uses the existing `C10`.
 
 ### Quest fixes to check in game
@@ -82,7 +84,7 @@ New zones are in the map files in `db/CustomQuestZones` (`woods.json`, `ground_z
 #### Committed in `aafd085`
 
 - [ ] **Q22 The Eye Looks Back and Q23 The Case:** each one only unlocks once the previous quest is turned in.
-- [ ] **Q23 The Case:** the statues can be placed at the Woods cultist circle (zone `F11`).
+- [x] **Q23 The Case:** the statues can be placed at the Woods cultist circle (zone `F11`). Verified in game 2026-11-22.
 - [ ] **Q24 My Prayers Are Answered:** Secure Folder 0052 spawns at the Woods cultist circle, at (196.0, 0.6, -7.2). It's the custom copy, so base-game quests don't take it.
 - [ ] **Q25 Daedalus' Curse:**
   - The quest gives 1 Labrys keycard.
