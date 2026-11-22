@@ -32,7 +32,6 @@ From the new quests (built 2026-11-19). Every new quest's description and succes
 - [ ] **Placeholders and readings to confirm:**
   - S1 and S16: "rogues" on Labs built as Raiders.
   - A7: check the design, since it may need a Xiaoming tie-in.
-  - C10, C12, C20: their "Unlocked by" still shows the design, which the quests don't follow. C10 needs C9 and Q25 (not C8), C12 starts after L27 (not C11), C20 after C10 (not C8).
 - [ ] **Prices I picked since your last review:** Atlas's 6 maps (A14, 10k-20k), Price's rigs (P10: 26k, 72k, 59k) and backpacks (P11: 19k, 56k, 59k), and the A21-A23 part offers (Glock drum 9k, Mosin Archangel chassis 21k, RPK-16 drum 36k). The Atlas and Price offers are at LL1.
 - [ ] **"Same raid" isn't enforced** where two steps are separate counters: P4, P6, N14, V20, A28. The game also can't require a transit's destination, only the map it starts from: A28, N7–N9, S9, S14.
 
@@ -329,7 +328,7 @@ New zones are in `db/CustomQuestZones`, one file per map (`customs.json`, `stree
 | C17 | Chimera | Bi-Lingual - Part 4 | Turn in Dorm Gaurd Desk Key | C16 | XP, SSA AP barter | `6a0d28fcd47f367b5bed54ce` | Audited | Fixed: the SSA AP unlock had no offer; added a cash offer at LL3 (`af19b7e`), now 3,500 RUB a round. |
 | C18 | Chimera | Born to Shit, Forced to Wipe | Find 3 TP | C1 | 1 Awl | `6a0d2538d47f367b5bed54a3` | Audited | Fixed: trader was Prapor, so it showed there; now Chimera (`8edb1f6`). |
 | C19 | Chimera | Family Jewels | Find 2 Nuts | C18 | 2 Bolts | `6a0d25a5d47f367b5bed54a9` | Audited |  |
-| C20 | Chimera | Green Gold | Find 4 RAM Sticks | C8 | 1 bitcoin | `6a0d25fbd47f367b5bed54b1` | Audited | Unlocks after Loot Lord 4, not C8 as designed. Left as built. |
+| C20 | Chimera | Green Gold | Find 4 RAM Sticks | C8 | 1 bitcoin | `6a0d25fbd47f367b5bed54b1` | Audited | Fixed: now unlocks after C8, as designed. |
 
 ## Fence (F)
 

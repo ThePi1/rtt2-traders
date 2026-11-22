@@ -5007,7 +5007,7 @@
                     "status": [
                         4
                     ],
-                    "target": "6a0ab38cee68f3757a5c860b",
+                    "target": "6a0ab234ee68f3757a5c85f7",
                     "visibilityConditions": []
                 }
             ],
@@ -5032,16 +5032,15 @@
                 {
                     "availableInGameEditions": [],
                     "id": "6a0d2615d47f367b5bed54b2",
-                    "index": 0,
                     "type": "Experience",
                     "unknown": false,
-                    "value": 4000
+                    "value": 4000,
+                    "index": 0
                 },
                 {
                     "availableInGameEditions": [],
                     "findInRaid": false,
                     "id": "6a0d261ad47f367b5bed54b3",
-                    "index": 0,
                     "items": [
                         {
                             "_id": "6a0d2625d47f367b5bed54b4",
@@ -5054,7 +5053,8 @@
                     "target": "6a0d2625d47f367b5bed54b4",
                     "type": "Item",
                     "unknown": false,
-                    "value": 1
+                    "value": 1,
+                    "index": 0
                 }
             ]
         },
