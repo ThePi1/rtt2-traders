@@ -1,8 +1,8 @@
- {
-  "Woods": [
+{
+    "Woods": [
         {
-        "locationId": "(196.0 0.6 -7.2)",
-        "probability": 1.0,
+            "locationId": "(196.0 0.6 -7.2)",
+            "probability": 1.0,
             "template": {
                 "Id": "Q24 (Quest) [86663233-25bb-4e2a-a616-e67848115ac3]",
                 "IsContainer": false,
@@ -36,6 +36,47 @@
                 {
                     "composedKey": {
                         "key": "69b4d1d5beca6d110b3d3dfb"
+                    },
+                    "relativeProbability": 1
+                }
+            ]
+        },
+        {
+            "locationId": "(-88.7 12.8 -717.6)",
+            "probability": 1.0,
+            "template": {
+                "Id": "V14 Sacrifice (Quest) [cb3d1c0d-563a-45c6-9167-5850085a53fe]",
+                "IsContainer": false,
+                "useGravity": true,
+                "randomRotation": false,
+                "Position": {
+                    "X": -88.7,
+                    "Y": 12.8,
+                    "Z": -717.6
+                },
+                "Rotation": {
+                    "x": 0,
+                    "y": 0,
+                    "z": 0
+                },
+                "IsGroupPosition": false,
+                "GroupPositions": [],
+                "IsAlwaysSpawn": true,
+                "Root": "d2a4dadd7e3b2528fc93000b",
+                "Items": [
+                    {
+                        "_id": "d2a4dadd7e3b2528fc93000b",
+                        "_tpl": "69d1f5c5d8786ae5cfe6c66d",
+                        "upd": {
+                            "StackObjectsCount": 1
+                        }
+                    }
+                ]
+            },
+            "itemDistribution": [
+                {
+                    "composedKey": {
+                        "key": "69d1f5c5d8786ae5cfe6c66d"
                     },
                     "relativeProbability": 1
                 }

@@ -225,5 +225,14 @@
     "6b025b3ac405e51775492a6d successMessageText": "[PH] The circle gave it up to you. The Eye noticed.",
     "6b025b3ac405e51775492a6d failMessageText": "",
     "6b025b3bc405e51775492a6f": "Find Locked Case (Sacrifice) in raid",
-    "6b025b3bc405e51775492a70": "Hand over the Sacrifice case from the cultist flat on Chekannaya 13"
+    "6b025b3bc405e51775492a70": "Hand over the Sacrifice case from the cultist flat on Chekannaya 13",
+    "6b025b3c20b162caa2a98ec3 name": "The Eye Requires Pickup - Part 2",
+    "6b025b3c20b162caa2a98ec3 description": "[PH] Where the village sank on Woods, the family drew a circle. Something was left in it for the Eye. Fetch it. Unopened, always.",
+    "6b025b3c20b162caa2a98ec3 acceptPlayerMessage": "",
+    "6b025b3c20b162caa2a98ec3 declinePlayerMessage": "",
+    "6b025b3c20b162caa2a98ec3 completePlayerMessage": "",
+    "6b025b3c20b162caa2a98ec3 successMessageText": "[PH] The sunken circle is empty now. As it should be.",
+    "6b025b3c20b162caa2a98ec3 failMessageText": "",
+    "6b025b3c20b162caa2a98ec5": "Find Locked Case (Sacrifice) in raid",
+    "6b025b3c20b162caa2a98ec6": "Hand over the Sacrifice case from the sunken village circle on Woods"
 }

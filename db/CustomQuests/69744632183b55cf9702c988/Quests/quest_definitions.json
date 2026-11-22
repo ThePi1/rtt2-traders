@@ -3958,5 +3958,149 @@
         "successMessageText": "6b025b3ac405e51775492a6d successMessageText",
         "traderId": "69744632183b55cf9702c988",
         "type": "PickUp"
+    },
+    "6b025b3c20b162caa2a98ec3": {
+        "QuestName": "The Eye Requires Pickup - Part 2",
+        "_id": "6b025b3c20b162caa2a98ec3",
+        "acceptPlayerMessage": "6b025b3c20b162caa2a98ec3 acceptPlayerMessage",
+        "acceptanceAndFinishingSource": "eft",
+        "arenaLocations": [],
+        "canShowNotificationsInGame": true,
+        "changeQuestMessageText": "6b025b3c20b162caa2a98ec3 changeQuestMessageText",
+        "completePlayerMessage": "6b025b3c20b162caa2a98ec3 completePlayerMessage",
+        "conditions": {
+            "AvailableForFinish": [
+                {
+                    "conditionType": "FindItem",
+                    "countInRaid": false,
+                    "dogtagLevel": 0,
+                    "dynamicLocale": false,
+                    "globalQuestCounterId": "",
+                    "id": "6b025b3c20b162caa2a98ec5",
+                    "index": 0,
+                    "isEncoded": false,
+                    "maxDurability": 100,
+                    "minDurability": 0,
+                    "onlyFoundInRaid": true,
+                    "parentId": "",
+                    "target": [
+                        "69d1f5c5d8786ae5cfe6c66d"
+                    ],
+                    "value": 1,
+                    "visibilityConditions": []
+                },
+                {
+                    "conditionType": "HandoverItem",
+                    "dogtagLevel": 0,
+                    "dynamicLocale": false,
+                    "globalQuestCounterId": "",
+                    "id": "6b025b3c20b162caa2a98ec6",
+                    "index": 0,
+                    "isEncoded": false,
+                    "maxDurability": 100,
+                    "minDurability": 0,
+                    "onlyFoundInRaid": true,
+                    "parentId": "",
+                    "target": [
+                        "69d1f5c5d8786ae5cfe6c66d"
+                    ],
+                    "value": 1,
+                    "visibilityConditions": []
+                }
+            ],
+            "AvailableForStart": [
+                {
+                    "availableAfter": 0,
+                    "conditionType": "Quest",
+                    "dispersion": 0,
+                    "dynamicLocale": false,
+                    "globalQuestCounterId": "",
+                    "id": "6b025b3c20b162caa2a98ec4",
+                    "index": 0,
+                    "parentId": "",
+                    "status": [
+                        4
+                    ],
+                    "target": "6b025b3ac405e51775492a6d",
+                    "visibilityConditions": []
+                }
+            ],
+            "Fail": []
+        },
+        "declinePlayerMessage": "6b025b3c20b162caa2a98ec3 declinePlayerMessage",
+        "description": "6b025b3c20b162caa2a98ec3 description",
+        "failMessageText": "6b025b3c20b162caa2a98ec3 failMessageText",
+        "gameModes": [],
+        "image": "/files/quest/icon/5d763d4886f774454e50d06d.png",
+        "instantComplete": false,
+        "isKey": false,
+        "location": "5704e3c2d2720bac5b8b4567",
+        "name": "6b025b3c20b162caa2a98ec3 name",
+        "note": "6b025b3c20b162caa2a98ec3 note",
+        "progressSource": "eft",
+        "rankingModes": [],
+        "restartable": false,
+        "rewards": {
+            "Fail": [],
+            "Started": [],
+            "Success": [
+                {
+                    "availableInGameEditions": [],
+                    "gameMode": [
+                        "regular",
+                        "pve"
+                    ],
+                    "id": "6b025b3c20b162caa2a98ec7",
+                    "isHidden": false,
+                    "type": "Experience",
+                    "unknown": false,
+                    "value": 11800
+                },
+                {
+                    "availableInGameEditions": [],
+                    "gameMode": [
+                        "regular",
+                        "pve"
+                    ],
+                    "id": "6b025b3c20b162caa2a98ec8",
+                    "isHidden": false,
+                    "target": "69744632183b55cf9702c988",
+                    "type": "TraderStanding",
+                    "unknown": false,
+                    "value": 0.2
+                },
+                {
+                    "availableInGameEditions": [],
+                    "findInRaid": false,
+                    "gameMode": [
+                        "regular",
+                        "pve"
+                    ],
+                    "id": "6b025b3c20b162caa2a98ec9",
+                    "isEncoded": false,
+                    "isHidden": false,
+                    "items": [
+                        {
+                            "_id": "6b025b3c20b162caa2a98eca",
+                            "_tpl": "5449016a4bdc2d6f028b456f",
+                            "upd": {
+                                "StackObjectsCount": 95000
+                            }
+                        }
+                    ],
+                    "target": "6b025b3c20b162caa2a98eca",
+                    "type": "Item",
+                    "unknown": false,
+                    "value": 95000
+                }
+            ]
+        },
+        "secretQuest": false,
+        "side": "pmc",
+        "startedMessageText": "6b025b3c20b162caa2a98ec3 startedMessageText",
+        "status": 0,
+        "successMessageText": "6b025b3c20b162caa2a98ec3 successMessageText",
+        "traderId": "69744632183b55cf9702c988",
+        "type": "PickUp"
     }
 }
