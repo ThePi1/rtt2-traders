@@ -1,8 +1,8 @@
 {
     "laboratory": [
         {
-        "locationId": "(-156.1365 1.303333 -321.686)",
-        "probability": 1.0,
+            "locationId": "(-156.1365 1.303333 -321.686)",
+            "probability": 1.0,
             "template": {
                 "Id": "S12 (Quest) [86663233-25bb-4e2a-a616-e67848115ac3]",
                 "IsContainer": false,
@@ -42,8 +42,8 @@
             ]
         },
         {
-        "locationId": "(-119.3885 1.345246 -445.2293)",
-        "probability": 1.0,
+            "locationId": "(-119.3885 1.345246 -445.2293)",
+            "probability": 1.0,
             "template": {
                 "Id": "S13 (Quest) [86663233-25bb-4e2a-a616-e67848115ac3]",
                 "IsContainer": false,
@@ -83,8 +83,8 @@
             ]
         },
         {
-        "locationId": "(-163.2313 5.328879 -342.352)",
-        "probability": 1.0,
+            "locationId": "(-163.2313 5.328879 -342.352)",
+            "probability": 1.0,
             "template": {
                 "Id": "S18 (Quest) [86663233-25bb-4e2a-a616-e67848115ac3]",
                 "IsContainer": false,
@@ -124,8 +124,8 @@
             ]
         },
         {
-        "locationId": "(-158.7773 5.328879 -375.1938)",
-        "probability": 1.0,
+            "locationId": "(-158.7773 5.328879 -375.1938)",
+            "probability": 1.0,
             "template": {
                 "Id": "Q19 (Quest) [86663233-25bb-4e2a-a616-e67848115ac3]",
                 "IsContainer": false,
@@ -159,6 +159,47 @@
                 {
                     "composedKey": {
                         "key": "69b4f0e63266da01f06b0749"
+                    },
+                    "relativeProbability": 1
+                }
+            ]
+        },
+        {
+            "locationId": "(-251.8 4.4 -325.0)",
+            "probability": 1.0,
+            "template": {
+                "Id": "A30 Lance of Longinus (Quest) [e367e166-e801-41a5-b149-ba446fa174a6]",
+                "IsContainer": false,
+                "useGravity": true,
+                "randomRotation": false,
+                "Position": {
+                    "X": -251.8,
+                    "Y": 4.4,
+                    "Z": -325.0
+                },
+                "Rotation": {
+                    "x": 0,
+                    "y": 0,
+                    "z": 0
+                },
+                "IsGroupPosition": false,
+                "GroupPositions": [],
+                "IsAlwaysSpawn": true,
+                "Root": "d86a85fb86d259e5d1f45a13",
+                "Items": [
+                    {
+                        "_id": "d86a85fb86d259e5d1f45a13",
+                        "_tpl": "7ed1a943815a71a6cbec2de3",
+                        "upd": {
+                            "StackObjectsCount": 1
+                        }
+                    }
+                ]
+            },
+            "itemDistribution": [
+                {
+                    "composedKey": {
+                        "key": "7ed1a943815a71a6cbec2de3"
                     },
                     "relativeProbability": 1
                 }

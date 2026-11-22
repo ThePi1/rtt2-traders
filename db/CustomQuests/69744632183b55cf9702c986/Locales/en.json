@@ -274,5 +274,14 @@
     "6b027129c923e850de1f3663 successMessageText": "[PH] She's home. Don't look at me like that.",
     "6b027129c923e850de1f3663 failMessageText": "",
     "6b027129c923e850de1f3665": "Find the Misato Bodypillow in the hookah lounge on Malevicha 5",
-    "6b027129c923e850de1f3666": "Hand over the Misato Bodypillow"
+    "6b027129c923e850de1f3666": "Hand over the Misato Bodypillow",
+    "6b02712f4a66d964fcc3170c name": "All Comes Tumbling Down",
+    "6b02712f4a66d964fcc3170c description": "[PH] Last job. TerraGroup kept something in the security arsenal at the Lab, behind the red keycard door. A lance. Long, red, very much not standard issue. Get it out before they work out what it does.",
+    "6b02712f4a66d964fcc3170c acceptPlayerMessage": "",
+    "6b02712f4a66d964fcc3170c declinePlayerMessage": "",
+    "6b02712f4a66d964fcc3170c completePlayerMessage": "",
+    "6b02712f4a66d964fcc3170c successMessageText": "[PH] The Lance of Longinus, in my hands. Third Impact can wait, operator. Thanks for everything.",
+    "6b02712f4a66d964fcc3170c failMessageText": "",
+    "6b02712f4a66d964fcc3170e": "Find the Lance of Longinus in the security arsenal at the Lab",
+    "6b02712f4a66d964fcc3170f": "Hand over the Lance of Longinus"
 }
