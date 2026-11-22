@@ -321,7 +321,7 @@ New zones are in `db/CustomQuestZones`, one file per map (`customs.json`, `stree
 | C9 | Chimera | The Gungeon | Black Pawn Bunker(Hideout and weaponcrates) | C3 |  | `6a0ab2daee68f3757a5c8601` | Needs check | Zone `C9` shrunk to the gunsmithing workshop under Black Bishop; description and step say so. See Check in game.; Unlock status: 5ee234c386f77447ee650e32 |
 | C10 | Chimera | Loot Lord - Part 4 | Get access to the locked loot room on labrynth and visit it | Q25 |  | `6a0ab38cee68f3757a5c860b` | Audited |  |
 | C11 | Chimera | Meet God? | Kill Zrachy | L21 | AK-50 unlock and ammo | `6a0d21c5d47f367b5bed547a` | Audited | Fixed: start condition had no quest status; now Apex Predator 4 completed. .50 BMG M21 unlock given LL1 (`1230d6e`). |
-| C12 | Chimera | Leg Up - Part 1 | Hand in any 2 FIR reflex/collimator sights (Legs tribute quest) | C11 | Legs Cosmetics | `6a0d22f0d47f367b5bed548b` | Audited | Unlocks after Hooligan Hunt 3, not C11 as designed. Left as built. |
+| C12 | Chimera | Leg Up - Part 1 | Hand in any 2 FIR reflex/collimator sights (Legs tribute quest) | C11 | Legs Cosmetics | `6a0d22f0d47f367b5bed548b` | Audited | Fixed: now unlocks after C11, as designed. |
 | C13 | Chimera | Leg Up - Part 2 | Hand in any 2 FIR 5.45 AKs | C12 | 1st Wave Custom guns | `6a0d2447d47f367b5bed5496` | Audited |  |
 | C14 | Chimera | Bi-Lingual - Part 1 | Kill PMC in legs with five seven quest where the text is Russian | LVL 20 | XP 110k Rouble | `6a0d274cd47f367b5bed54b7` | Audited |  |
 | C15 | Chimera | Bi-Lingual - Part 2 | Kill Tagilla with UMP 45 | C14 | XP 110k Rouble | `6a0d281bd47f367b5bed54bf` | Audited |  |
