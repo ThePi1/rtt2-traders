@@ -121,7 +121,7 @@ New zones are in `db/CustomQuestZones`, one file per map (`customs.json`, `stree
   - `P4_1` (Tarbank)
   - `P9_2` (IDEA cafe)
   - `X15` (Klimov food court)
-  - `X24_1` (W222), `X24_2` (E306), `X24_4` (resort admin office)
+  - `X24_1` (W222), `X24_2` (E306), `X24_4` (east wing room 110, the blue-tape office)
   - `X3_4` (gas station office)
   - `N16` (island)
   - `N17` (cinema stage)
@@ -429,7 +429,7 @@ New zones are in `db/CustomQuestZones`, one file per map (`customs.json`, `stree
 | X21 | Xiaoming | Gotcha, Gatcha | Plant 3 gas cans and 3 matches in the Game Dev room on streets, including one in the locked room. Survive and extract. |  |  | `6b025b261eba387b5050e092` | Needs check | Built: plant a fuel can (Expeditionary or Metal fuel tank) and Hunting matches at each of 3 new zones: `X21_1` (open-plan office), `X21_2` (kitchen), `X21_3` (lobby of the hookah lounge on Malevicha 5, the relaxation room), then survive Streets |
 | X22 | Xiaoming | Shishi | Turn in 2 FIR Lion statues |  | Leads to Chimera unlock somehow | `6afeb14b26031308ba2bac1d` | Built | Built: hand in 2 FIR Bronze lion figurines. The "leads to Chimera unlock" reward is left out: that's a story decision |
 | X23 | Xiaoming | Tourist - Part 1 | Visit multiple locked rooms on Customs (touring good loot spots): trailer park cabin, new gas locked room, dorms 314, customs office key |  |  | `6afeb14cfef9fd9b3cc6e709` | Built | Built: visit the existing zones `X23_1`-`X23_4` on Customs |
-| X24 | Xiaoming | Tourist - Part 2 | Visit multiple locked rooms on Shoreline: tape key, W222, E306, HEP Station  Key |  |  | `6afeb151cb463707e9aac116` | Needs check | Built: visit new zones on Shoreline: `X24_1` W222, `X24_2` E306, `X24_3` HEP station (the Hydro_electro room), `X24_4` resort admin office (the blue-tape key's office, my best match for "tape key") |
+| X24 | Xiaoming | Tourist - Part 2 | Visit multiple locked rooms on Shoreline: tape key, W222, E306, HEP Station  Key |  |  | `6afeb151cb463707e9aac116` | Needs check | Built: visit new zones on Shoreline: `X24_1` W222, `X24_2` E306, `X24_3` HEP station (the Hydro_electro room), `X24_4` east wing room 110 (opened by the Health Resort office key with a blue tape; the base game's `place_meh_sanitar_room` sits inside it) |
 | X25 | Xiaoming | Tourist - Part 3 | Mark inside all Reserve marked rooms RBPKPM, rbbkmr,RBVOMR |  |  | `6afeb15236c9c8c80ffb347e` | Built | Built: mark inside the 3 Reserve marked rooms (existing zones `X25_1`-`X25_3`) |
 
 ## Price (P)
