@@ -34,10 +34,8 @@ From the new quests (built 2026-11-19). Every new quest's description and succes
 - [ ] **Placeholders and readings to confirm:**
   - S1 and S16: "rogues" on Labs built as Raiders.
   - A7: check the design, since it may need a Xiaoming tie-in.
-- [ ] **Prices and numbers I picked:** XP and roubles on every new quest. Offers: Voron's cultist knife barter, M80A1, 7N40, 5.45 and 7.62 BP, .338 FMJ and AP; Weiss's REAP-IR (250k), ECHO1 (180k), T-7 (650k) and L.I.M.P. (180k); Atlas's 6 maps (A14, 10k-20k); Price's rigs (P10: 26k, 72k, 59k) and backpacks (P11: 19k, 56k, 59k); the Atlas and Price offers are at LL1.
+- [ ] **Prices I picked since your last review:** Atlas's 6 maps (A14, 10k-20k), Price's rigs (P10: 26k, 72k, 59k) and backpacks (P11: 19k, 56k, 59k), and the A21-A23 part offers (Glock drum 9k, Mosin Archangel chassis 21k, RPK-16 drum 36k). The Atlas and Price offers are at LL1.
 - [ ] **"Same raid" isn't enforced** where two steps are separate counters: P4, P6, N14, V20, A28. The game also can't require a transit's destination, only the map it starts from: A28, N7–N9, S9, S14.
-- [ ] **N7–N9 Marathon Dose:** the direct transits in the design don't exist. They now go GZ → Streets → Interchange, Interchange → Customs → Factory → Woods, and Woods → Lighthouse → Shoreline.
-- [ ] **Wrapped Package `69afb77d…`:** the Ground Zero spawn (labelled V20) used this item. It now spawns the Final Sacrifice (V20's item per the sheet), and the Wrapped Package spawns on Streets for X19.
 
 
 ## Check in game
@@ -487,7 +485,7 @@ New zones are in `db/CustomQuestZones`, one file per map (`customs.json`, `stree
 | V17 | Voron | Reap The Wicked | Kill 20 PMCs with headshots |  |  | `6afeb336c2c73fe5c7aa0b0e` | Built | Built: 20 PMC kills with headshots |
 | V18 | Voron | Reap The Unfortunate | Kill 50 Scavs with Headshots |  |  | `6afeb3370d0cd9dc6356567d` | Built | Built: 50 Scav kills with headshots |
 | V19 | Voron | Reap the Cursed | Kill tagilla and killa with headshots |  |  | `6afeb338d7f21a807d83dc9c` | Built | Built: kill Tagilla and Killa, each with a headshot |
-| V20 | Voron | One Final Delivery | Pickup the Box from ground zero dead scientist and plant on shoreline in same raid |  |  | `6afeb33a2352ca9802efd929` | Needs check | Built: find the Final Sacrifice on Ground Zero, then plant it at new zone `V20` (old wreck, Shoreline south shore). The Ground Zero spawn (at the dead scientist) used the Wrapped Package item; it now spawns the Final Sacrifice, as the sheet lists. "Same raid" isn't possible: no transit chain runs GZ to Shoreline in one raid |
+| V20 | Voron | One Final Delivery | Pickup the Box from ground zero dead scientist and plant on shoreline in same raid |  |  | `6afeb33a2352ca9802efd929` | Needs check | Built: find the Final Sacrifice on Ground Zero, then plant it at new zone `V20` (old wreck, Shoreline south shore). The Ground Zero spawn (at the dead scientist) used the Wrapped Package item; it now spawns the Final Sacrifice, as the sheet lists. "Same raid" can't be enforced: a transit chain runs GZ → Streets → Interchange → Customs → Shoreline, but the found item stays found across raids |
 
 ## Weiss (S)
 
