@@ -26396,72 +26396,7 @@
                     "isHidden": false,
                     "type": "Experience",
                     "unknown": false,
-                    "value": 100000
-                },
-                {
-                    "availableInGameEditions": [],
-                    "gameMode": [
-                        "regular",
-                        "pve"
-                    ],
-                    "id": "6afeb4f10d58e0df0c7b04ab",
-                    "isHidden": false,
-                    "target": "Strength",
-                    "type": "Skill",
-                    "unknown": false,
-                    "value": 2000
-                },
-                {
-                    "availableInGameEditions": [],
-                    "gameMode": [
-                        "regular",
-                        "pve"
-                    ],
-                    "id": "6afeb4f10d58e0df0c7b04ac",
-                    "isHidden": false,
-                    "target": "Endurance",
-                    "type": "Skill",
-                    "unknown": false,
-                    "value": 2000
-                },
-                {
-                    "availableInGameEditions": [],
-                    "gameMode": [
-                        "regular",
-                        "pve"
-                    ],
-                    "id": "6afeb4f10d58e0df0c7b04ad",
-                    "isHidden": false,
-                    "target": "Vitality",
-                    "type": "Skill",
-                    "unknown": false,
-                    "value": 2000
-                },
-                {
-                    "availableInGameEditions": [],
-                    "gameMode": [
-                        "regular",
-                        "pve"
-                    ],
-                    "id": "6afeb4f10d58e0df0c7b04ae",
-                    "isHidden": false,
-                    "target": "Health",
-                    "type": "Skill",
-                    "unknown": false,
-                    "value": 2000
-                },
-                {
-                    "availableInGameEditions": [],
-                    "gameMode": [
-                        "regular",
-                        "pve"
-                    ],
-                    "id": "6afeb4f10d58e0df0c7b04af",
-                    "isHidden": false,
-                    "target": "Perception",
-                    "type": "Skill",
-                    "unknown": false,
-                    "value": 2000
+                    "value": 400000
                 }
             ]
         },
