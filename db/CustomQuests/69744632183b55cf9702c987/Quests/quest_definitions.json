@@ -802,6 +802,57 @@
                     "type": "Item",
                     "unknown": false,
                     "value": 1
+                },
+                {
+                    "availableInGameEditions": [],
+                    "findInRaid": true,
+                    "gameMode": [
+                        "regular",
+                        "pve"
+                    ],
+                    "id": "6b0260fbc5f6baafa5fdb721",
+                    "isEncoded": false,
+                    "isHidden": false,
+                    "items": [
+                        {
+                            "_id": "6b0260fbc5f6baafa5fdb722",
+                            "_tpl": "5bfea6e90db834001b7347f3",
+                            "upd": {
+                                "Repairable": {
+                                    "Durability": 100,
+                                    "MaxDurability": 100
+                                }
+                            }
+                        },
+                        {
+                            "_id": "6b0260fbc5f6baafa5fdb723",
+                            "_tpl": "5bfea7ad0db834001c38f1ee",
+                            "parentId": "6b0260fbc5f6baafa5fdb722",
+                            "slotId": "mod_magazine"
+                        },
+                        {
+                            "_id": "6b0260fbc5f6baafa5fdb724",
+                            "_tpl": "5bfeb32b0db834001a6694d9",
+                            "parentId": "6b0260fbc5f6baafa5fdb722",
+                            "slotId": "mod_stock"
+                        },
+                        {
+                            "_id": "6b0260fbc5f6baafa5fdb725",
+                            "_tpl": "5bfebc320db8340019668d79",
+                            "parentId": "6b0260fbc5f6baafa5fdb722",
+                            "slotId": "mod_barrel"
+                        },
+                        {
+                            "_id": "6b0260fbc5f6baafa5fdb726",
+                            "_tpl": "5d270b3c8abbc3105335cfb8",
+                            "parentId": "6b0260fbc5f6baafa5fdb725",
+                            "slotId": "mod_muzzle"
+                        }
+                    ],
+                    "target": "6b0260fbc5f6baafa5fdb722",
+                    "type": "Item",
+                    "unknown": false,
+                    "value": 1
                 }
             ]
         },

@@ -1,0 +1,45 @@
+{
+    "bigmap": [
+        {
+            "locationId": "(-202.3 7.8 -102.1)",
+            "probability": 1.0,
+            "template": {
+                "Id": "X6 Faulty Gunpowder (Quest) [cdcc24d3-5142-49b3-86bd-6e703fdad568]",
+                "IsContainer": false,
+                "useGravity": true,
+                "randomRotation": false,
+                "Position": {
+                    "X": -202.3,
+                    "Y": 7.8,
+                    "Z": -102.1
+                },
+                "Rotation": {
+                    "x": 0,
+                    "y": 0,
+                    "z": 0
+                },
+                "IsGroupPosition": false,
+                "GroupPositions": [],
+                "IsAlwaysSpawn": true,
+                "Root": "9b27f2a697056b0fe8d1ff47",
+                "Items": [
+                    {
+                        "_id": "9b27f2a697056b0fe8d1ff47",
+                        "_tpl": "6b025ad0d88a2ca09c553824",
+                        "upd": {
+                            "StackObjectsCount": 1
+                        }
+                    }
+                ]
+            },
+            "itemDistribution": [
+                {
+                    "composedKey": {
+                        "key": "6b025ad0d88a2ca09c553824"
+                    },
+                    "relativeProbability": 1
+                }
+            ]
+        }
+    ]
+}

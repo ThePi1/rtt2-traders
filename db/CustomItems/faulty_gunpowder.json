@@ -1,0 +1,25 @@
+{
+    "6b025ad0d88a2ca09c553824": {
+        "itemTplToClone": "590c5a7286f7747884343aea",
+        "parentId": "5448ecbe4bdc2d60728b4568",
+        "handbookParentId": "QUEST",
+        "overrideProperties": {
+            "ExaminedByDefault": true,
+            "BackgroundColor": "yellow",
+            "Weight": 1,
+            "Height": 2,
+            "Width": 1,
+            "StackMaxSize": 1,
+            "QuestItem": true
+        },
+        "locales": {
+            "en": {
+                "name": "Faulty Gunpowder",
+                "shortName": "Faulty GP",
+                "description": "A container of gunpowder from a bad batch. The label is official, the contents are not. Do not keep it near anything you care about."
+            }
+        },
+        "fleaPriceRoubles": 10000,
+        "handbookPriceRoubles": 10000
+    }
+}

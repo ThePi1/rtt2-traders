@@ -122,6 +122,88 @@
                     "relativeProbability": 1
                 }
             ]
+        },
+        {
+            "locationId": "(188.7 0.1 226.3)",
+            "probability": 1.0,
+            "template": {
+                "Id": "V13 Sacrifice (Quest) [271ca539-eef4-438a-abe5-dad34a86d37c]",
+                "IsContainer": false,
+                "useGravity": true,
+                "randomRotation": false,
+                "Position": {
+                    "X": 188.7,
+                    "Y": 0.1,
+                    "Z": 226.3
+                },
+                "Rotation": {
+                    "x": 0,
+                    "y": 0,
+                    "z": 0
+                },
+                "IsGroupPosition": false,
+                "GroupPositions": [],
+                "IsAlwaysSpawn": true,
+                "Root": "6c5a10f22a342320297aa778",
+                "Items": [
+                    {
+                        "_id": "6c5a10f22a342320297aa778",
+                        "_tpl": "69d1f5c5d8786ae5cfe6c66d",
+                        "upd": {
+                            "StackObjectsCount": 1
+                        }
+                    }
+                ]
+            },
+            "itemDistribution": [
+                {
+                    "composedKey": {
+                        "key": "69d1f5c5d8786ae5cfe6c66d"
+                    },
+                    "relativeProbability": 1
+                }
+            ]
+        },
+        {
+            "locationId": "(-211.76 3.5 297.29)",
+            "probability": 1.0,
+            "template": {
+                "Id": "A29 Misato Bodypillow (Quest) [c60af287-cacf-45bf-a608-21b9794047d6]",
+                "IsContainer": false,
+                "useGravity": true,
+                "randomRotation": false,
+                "Position": {
+                    "X": -211.76,
+                    "Y": 3.5,
+                    "Z": 297.29
+                },
+                "Rotation": {
+                    "x": 0,
+                    "y": 0,
+                    "z": 0
+                },
+                "IsGroupPosition": false,
+                "GroupPositions": [],
+                "IsAlwaysSpawn": true,
+                "Root": "d2e1f82a7248cdaede6d9966",
+                "Items": [
+                    {
+                        "_id": "d2e1f82a7248cdaede6d9966",
+                        "_tpl": "e8990a57a89c3744b68fd377",
+                        "upd": {
+                            "StackObjectsCount": 1
+                        }
+                    }
+                ]
+            },
+            "itemDistribution": [
+                {
+                    "composedKey": {
+                        "key": "e8990a57a89c3744b68fd377"
+                    },
+                    "relativeProbability": 1
+                }
+            ]
         }
     ]
 }

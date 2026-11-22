@@ -1,0 +1,25 @@
+{
+    "7ed1a943815a71a6cbec2de3": {
+        "itemTplToClone": "679b9d6390622daf9708da76",
+        "parentId": "5448ecbe4bdc2d60728b4568",
+        "handbookParentId": "QUEST",
+        "overrideProperties": {
+            "ExaminedByDefault": true,
+            "BackgroundColor": "yellow",
+            "Weight": 3.0,
+            "Width": 1,
+            "Height": 4,
+            "StackMaxSize": 1,
+            "QuestItem": true
+        },
+        "locales": {
+            "en": {
+                "name": "Lance of Longinus",
+                "shortName": "Lance",
+                "description": "A long, twisted red spear with a forked tip, wrapped in TerraGroup storage tags. It should not exist, and it is very heavy for its size."
+            }
+        },
+        "fleaPriceRoubles": 10000,
+        "handbookPriceRoubles": 10000
+    }
+}

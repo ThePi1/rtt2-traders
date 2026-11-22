@@ -1,0 +1,25 @@
+{
+    "e8990a57a89c3744b68fd377": {
+        "itemTplToClone": "59e3658a86f7741776641ac4",
+        "parentId": "5448ecbe4bdc2d60728b4568",
+        "handbookParentId": "QUEST",
+        "overrideProperties": {
+            "ExaminedByDefault": true,
+            "BackgroundColor": "yellow",
+            "Weight": 1.2,
+            "Width": 1,
+            "Height": 3,
+            "StackMaxSize": 1,
+            "QuestItem": true
+        },
+        "locales": {
+            "en": {
+                "name": "Misato Bodypillow",
+                "shortName": "Misato",
+                "description": "A long body pillow printed with a purple-haired woman in a red jacket. Limited edition, apparently. Someone left it in the hookah lounge."
+            }
+        },
+        "fleaPriceRoubles": 10000,
+        "handbookPriceRoubles": 10000
+    }
+}

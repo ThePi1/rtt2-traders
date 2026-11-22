@@ -3,6 +3,7 @@ using SPTarkov.DI.Annotations;
 using SPTarkov.Server.Core.DI;
 using SPTarkov.Server.Core.Extensions;
 using SPTarkov.Server.Core.Helpers.Server;
+using SPTarkov.Server.Core.Models.Common;
 using SPTarkov.Server.Core.Models.Eft.Common.Tables;
 using SPTarkov.Server.Core.Models.Enums;
 using SPTarkov.Server.Core.Models.Spt.Config;
@@ -179,6 +180,7 @@ public class rtt2trader(
         await wttCommon.CustomItemServiceExtended.CreateCustomItems(assembly);
         await wttCommon.CustomLootspawnService.CreateCustomLootSpawns(assembly);
         await wttCommon.CustomQuestZoneService.CreateCustomQuestZones(assembly);
+        await wttCommon.CustomHideoutRecipeService.CreateHideoutRecipes(assembly);
         // await wttCommon.CustomAssortSchemeService.CreateCustomAssortSchemes(assembly);
         
         addPlate(); //adds custom plate to vests
@@ -352,7 +354,12 @@ public class rtt2trader(
         priest.BotInventory.Equipment.TryGetValue(EquipmentSlots.TacticalVest,out var rig);
         rig.AddOrUpdate("5e4abc1f86f774069619fbaa",999999);//add vest
         
-        priest.BotInventory.Items.Pockets.Add("679b9819a2f2dd4da9023512",15000); //Add Labrys Keycard to loot pool pockets
+        // Guarantee the Labrys keycard (Q25 Daedalus' Curse): make it the only item in Priest's special loot pool
+        // and always roll exactly 1 special item. Special loot is placed before all other loot, so there is always room.
+        priest.BotInventory.Items.SpecialLoot ??= new Dictionary<MongoId, double>();
+        priest.BotInventory.Items.SpecialLoot.Clear();
+        priest.BotInventory.Items.SpecialLoot["679b9819a2f2dd4da9023512"] = 1;
+        priest.BotGeneration.Items.SpecialItems.Weights = new Dictionary<double, double> { { 0, 0 }, { 1, 1 } };
     }
 
     private void editRagman(string modPath)
