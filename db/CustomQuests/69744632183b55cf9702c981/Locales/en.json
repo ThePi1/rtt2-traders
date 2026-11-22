@@ -993,5 +993,18 @@
     "6afeb4f10d58e0df0c7b049e": "Eliminate Kollontay",
     "6afeb4f10d58e0df0c7b04a1": "Eliminate Knight",
     "6afeb4f10d58e0df0c7b04a4": "Eliminate Zryachiy",
-    "6afeb4f10d58e0df0c7b04a7": "Eliminate Partisan"
+    "6afeb4f10d58e0df0c7b04a7": "Eliminate Partisan",
+    "6b025b39e5a6f34252d3f827 name": "Safe on Block - Part 1",
+    "6b025b39e5a6f34252d3f827 description": "[PH] Somebody in the game studio on Zmeisky Alley 6 built every red computer in that office around one machine nobody is allowed to touch. Mark all six of them. If something in there is spreading, I want to know which box it lives in.",
+    "6b025b39e5a6f34252d3f827 acceptPlayerMessage": "",
+    "6b025b39e5a6f34252d3f827 declinePlayerMessage": "",
+    "6b025b39e5a6f34252d3f827 completePlayerMessage": "",
+    "6b025b39e5a6f34252d3f827 successMessageText": "[PH] Six red boxes, six markers. Something in there was making people sick. Now we'll find out what.",
+    "6b025b39e5a6f34252d3f827 failMessageText": "",
+    "6b025b39e5a6f34252d3f829": "Mark the red computer by the server rack of the Zmeisky 6 game studio",
+    "6b025b39e5a6f34252d3f82a": "Mark the red computer near the entrance of the Zmeisky 6 game studio",
+    "6b025b39e5a6f34252d3f82b": "Mark the red computer in the west row of the open-plan office of the Zmeisky 6 game studio",
+    "6b025b39e5a6f34252d3f82c": "Mark the red computer in the east row of the open-plan office of the Zmeisky 6 game studio",
+    "6b025b39e5a6f34252d3f82d": "Mark the red computer at the window desk of the open-plan office of the Zmeisky 6 game studio",
+    "6b025b39e5a6f34252d3f82e": "Mark the red computer in the director's office of the Zmeisky 6 game studio"
 }
