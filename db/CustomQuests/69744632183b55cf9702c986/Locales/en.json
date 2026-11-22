@@ -257,5 +257,13 @@
     "6b0262b35a80baad6c24abb0 completePlayerMessage": "",
     "6b0262b35a80baad6c24abb0 successMessageText": "[PH] Grandpa has never looked better. He still can't run, but he looks better.",
     "6b0262b35a80baad6c24abb0 failMessageText": "",
-    "6b0262b35a80baad6c24abb2": "Build a Mosin in the Archangel chassis with a suppressor, a flashlight and a laser, weighing at least 7 kg"
+    "6b0262b35a80baad6c24abb2": "Build a Mosin in the Archangel chassis with a suppressor, a flashlight and a laser, weighing at least 7 kg",
+    "6b0262b57ea2ad1950912ecd name": "Awkward Assembly - Part 3",
+    "6b0262b57ea2ad1950912ecd description": "[PH] Last one. Take an AK-74 and give it the RPK-16 drum, all ninety-five rounds of it. Add a rifle scope and a suppressor. It should be too heavy to aim, so keep the ergonomics at twenty or under. Technically it's a sniper rifle now. Technically.",
+    "6b0262b57ea2ad1950912ecd acceptPlayerMessage": "",
+    "6b0262b57ea2ad1950912ecd declinePlayerMessage": "",
+    "6b0262b57ea2ad1950912ecd completePlayerMessage": "",
+    "6b0262b57ea2ad1950912ecd successMessageText": "[PH] The Gravity Well. Nobody can lift it, nobody can aim it, and I love it.",
+    "6b0262b57ea2ad1950912ecd failMessageText": "",
+    "6b0262b57ea2ad1950912ecf": "Build an AK-74 with the RPK-16 95-round drum, a rifle scope and a suppressor, with ergonomics of 20 or less"
 }
