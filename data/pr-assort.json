@@ -1,5 +1,125 @@
 {
-  "items" : [],
-  "barter_scheme" : {},
-  "loyal_level_items": {}
+  "items": [
+    {
+      "_id": "6b0260f843837a263b96e842",
+      "_tpl": "5f5f41f56760b4138443b352",
+      "upd": {
+        "StackObjectsCount": 9999999,
+        "UnlimitedCount": true
+      },
+      "parentId": "hideout",
+      "slotId": "hideout"
+    },
+    {
+      "_id": "6b0260f843837a263b96e84c",
+      "_tpl": "639343fce101f4caa40a4ef3",
+      "parentId": "hideout",
+      "slotId": "hideout",
+      "upd": {
+        "UnlimitedCount": true,
+        "StackObjectsCount": 9999999
+      }
+    },
+    {
+      "_id": "6b0260f843837a263b96e84d",
+      "_tpl": "6573101e292ecadbfa09b389",
+      "parentId": "6b0260f843837a263b96e84c",
+      "slotId": "Soft_armor_front"
+    },
+    {
+      "_id": "6b0260f843837a263b96e84e",
+      "_tpl": "6573102b292ecadbfa09b38d",
+      "parentId": "6b0260f843837a263b96e84c",
+      "slotId": "Soft_armor_back"
+    },
+    {
+      "_id": "6b0260f843837a263b96e84f",
+      "_tpl": "65731038292ecadbfa09b391",
+      "parentId": "6b0260f843837a263b96e84c",
+      "slotId": "Soft_armor_left"
+    },
+    {
+      "_id": "6b0260f843837a263b96e850",
+      "_tpl": "65731045f31d5be00e08a75a",
+      "parentId": "6b0260f843837a263b96e84c",
+      "slotId": "soft_armor_right"
+    },
+    {
+      "_id": "6b0260f843837a263b96e851",
+      "_tpl": "656fad8c498d1b7e3e071da0",
+      "parentId": "6b0260f843837a263b96e84c",
+      "slotId": "Front_plate"
+    },
+    {
+      "_id": "6b0260f843837a263b96e852",
+      "_tpl": "656fad8c498d1b7e3e071da0",
+      "parentId": "6b0260f843837a263b96e84c",
+      "slotId": "Back_plate"
+    },
+    {
+      "_id": "6b0260f843837a263b96e860",
+      "_tpl": "5c0e446786f7742013381639",
+      "parentId": "hideout",
+      "slotId": "hideout",
+      "upd": {
+        "UnlimitedCount": true,
+        "StackObjectsCount": 9999999
+      }
+    },
+    {
+      "_id": "6b0260f843837a263b96e861",
+      "_tpl": "657087577f6d4590ac0d2109",
+      "parentId": "6b0260f843837a263b96e860",
+      "slotId": "Soft_armor_front"
+    },
+    {
+      "_id": "6b0260f843837a263b96e862",
+      "_tpl": "6570880f4a747dbb63005ee5",
+      "parentId": "6b0260f843837a263b96e860",
+      "slotId": "Soft_armor_back"
+    },
+    {
+      "_id": "6b0260f843837a263b96e863",
+      "_tpl": "65708afe4a747dbb63005eee",
+      "parentId": "6b0260f843837a263b96e860",
+      "slotId": "Collar"
+    },
+    {
+      "_id": "6b0260f843837a263b96e864",
+      "_tpl": "65708b4c4a747dbb63005ef3",
+      "parentId": "6b0260f843837a263b96e860",
+      "slotId": "Groin"
+    }
+  ],
+  "barter_scheme": {
+    "6b0260f843837a263b96e842": [
+      [
+        {
+          "count": 26000,
+          "_tpl": "5449016a4bdc2d6f028b456f"
+        }
+      ]
+    ],
+    "6b0260f843837a263b96e84c": [
+      [
+        {
+          "count": 72000,
+          "_tpl": "5449016a4bdc2d6f028b456f"
+        }
+      ]
+    ],
+    "6b0260f843837a263b96e860": [
+      [
+        {
+          "count": 59000,
+          "_tpl": "5449016a4bdc2d6f028b456f"
+        }
+      ]
+    ]
+  },
+  "loyal_level_items": {
+    "6b0260f843837a263b96e842": 1,
+    "6b0260f843837a263b96e84c": 1,
+    "6b0260f843837a263b96e860": 1
+  }
 }
