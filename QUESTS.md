@@ -124,7 +124,7 @@ New zones are in `db/CustomQuestZones`, one file per map (`customs.json`, `stree
 - [ ] **Overlapping place zones:** the game remembers only the last one you walked into.
   - `P18` and `V2` sit together in dorm 314, inside Jaeger's `huntsman_020`.
   - `P10_2` (now a positive scale; it was -29 × -9 × -14) overlaps Ragman's `place_merch_020_1`.
-  - `P9_3` was moved to the kitchen by the Customs garages to stay clear of `huntsman_020`.
+  - `P9_3` was moved to the metal table in the Customs garages to stay clear of `huntsman_020`.
 - [ ] **Conditions no base quest uses:**
   - N1 and N2 (UseItem counters)
   - L44 (10 minutes dehydrated and exhausted)
@@ -427,7 +427,7 @@ New zones are in `db/CustomQuestZones`, one file per map (`customs.json`, `stree
 | P6 | Price | New Money | Plant bitcoin on A streets ATM, survive and extract same raid | P5 |  | `6afeaf811df12fad34fa7faa` | Needs check | Built: plant a Physical Bitcoin at new zone `P6` (street ATM outside the Pinewood Hotel), then survive and extract on Streets |
 | P7 | Price | In Another Life | Kill 20 PMCs | P6 |  | `6afeaf82f98010fd7f8a2add` | Built | Built: kill 20 PMCs anywhere |
 | P8 | Price | Check Please | Pick up 2 packages on Interchange tables Kiba Outer and Kiba Inner. Found 3 FIR Iskra, 3 some beverage, 1 other beverage. | P7 |  | `6afeaf8392e87e3a862e3c5a` | Built | Built: hand in the 2 Packages on Interchange (forced spawns at the Kiba tables were already in place), 3 FIR Iskra, 3 FIR Ice Green tea and 1 FIR Pevko beer (the two beverages are my pick) |
-| P9 | Price | Table for Two | Plant iskra/wine/vodka on tables in certain maps | P8 |  | `6afeaf86b4ce126563a95994` | Needs check | Built: plant wine at new zone `P9_1` (Beluga VIP room, Streets), an Iskra at `P9_2` (IDEA cafe, Interchange), vodka at `P9_3` (kitchen by the garages, Customs; the dorms are all inside a Jaeger plant zone). Maps and tables my choice |
+| P9 | Price | Table for Two | Plant iskra/wine/vodka on tables in certain maps | P8 |  | `6afeaf86b4ce126563a95994` | Needs check | Built: plant wine at new zone `P9_1` (Beluga VIP room, Streets), an Iskra at `P9_2` (IDEA cafe, Interchange), vodka at `P9_3` (metal table in the Customs garages; the dorms are all inside a Jaeger plant zone). Maps and tables my choice |
 | P10 | Price | Vlone Vever | Plant rigs in certain interchange store Avokado, Dino Clothes | P9 | unlock rig/gear sell | `6afeaf8746258ee20b284c22` | Needs check | Built: plant any chest rig at the existing zones `P10_1` (Avokado) and `P10_2` (Dino Clothes, whose negative scale was made positive). Unlocks Price LL1 offers for 3 mid-tier rigs: Direct Action Thunderbolt chest rig (26k RUB), Shellback Tactical Banshee plate carrier with its standard plates (72k) and 6B5-15 Uley armored rig (59k), my prices |
 | P11 | Price | Louis and Clarks | Get kills near Adiik Shoe Store | P10 | unlock backpack sell | `6afeaf89baacdcc253b108de` | Built | Built: 8 kills of any kind inside the existing kill zone `P11` (Adik). Unlocks Price LL1 offers for 3 backpacks: Flyye MBSS (19k RUB), Oakley Mechanism (56k) and Eberlestock F5 Switchblade (59k), my prices |
 | P12 | Price | King of Burgers | Visit All burger spot locations in the game (Interchange) | P11 |  | `6afeaf8a8816157535cee653` | Needs check | Built: visit the existing zone `P12_1` (Burger Spot) and new zone `P12_2` (the west wing burger houses), the only two I found on Interchange |
