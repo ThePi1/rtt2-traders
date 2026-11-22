@@ -4002,21 +4002,6 @@
                     "dispersion": 0,
                     "dynamicLocale": false,
                     "globalQuestCounterId": "",
-                    "id": "6a0ab442ee68f3757a5c8611",
-                    "index": 0,
-                    "parentId": "",
-                    "status": [
-                        4
-                    ],
-                    "target": "6a0ab2daee68f3757a5c8601",
-                    "visibilityConditions": []
-                },
-                {
-                    "availableAfter": 0,
-                    "conditionType": "Quest",
-                    "dispersion": 0,
-                    "dynamicLocale": false,
-                    "globalQuestCounterId": "",
                     "id": "6a0ab44fee68f3757a5c8612",
                     "index": 0,
                     "parentId": "",
