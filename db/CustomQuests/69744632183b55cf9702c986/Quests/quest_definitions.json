@@ -3539,6 +3539,46 @@
                     "type": "Item",
                     "unknown": false,
                     "value": 115000
+                },
+                {
+                    "availableInGameEditions": [],
+                    "gameMode": [
+                        "regular",
+                        "pve"
+                    ],
+                    "id": "6b0260f7d97439c255af88dc",
+                    "isHidden": false,
+                    "items": [
+                        {
+                            "_id": "6b0260f7d97439c255af88db",
+                            "_tpl": "5d2da1e948f035477b1ce2ba"
+                        }
+                    ],
+                    "loyaltyLevel": 1,
+                    "target": "6b0260f7d97439c255af88db",
+                    "traderId": "69744632183b55cf9702c986",
+                    "type": "AssortmentUnlock",
+                    "unknown": false
+                },
+                {
+                    "availableInGameEditions": [],
+                    "gameMode": [
+                        "regular",
+                        "pve"
+                    ],
+                    "id": "6b0260f7d97439c255af88e0",
+                    "isHidden": false,
+                    "items": [
+                        {
+                            "_id": "6b0260f7d97439c255af88df",
+                            "_tpl": "5a32aa8bc4a2826c6e06d737"
+                        }
+                    ],
+                    "loyaltyLevel": 1,
+                    "target": "6b0260f7d97439c255af88df",
+                    "traderId": "69744632183b55cf9702c986",
+                    "type": "AssortmentUnlock",
+                    "unknown": false
                 }
             ]
         },
