@@ -127,31 +127,6 @@
         "Salvage": null
     },
     {
-        "ZoneId": "Q20_2",
-        "ZoneName": "Q20_2",
-        "ZoneLocation": "Woods",
-        "ZoneType": "visit",
-        "FlareType": "",
-        "Position": {
-            "X": "-80.69524",
-            "Y": "11.99251",
-            "Z": "-720.6926",
-            "W": "0"
-        },
-        "Rotation": {
-            "X": "0",
-            "Y": "0",
-            "Z": "0",
-            "W": "1"
-        },
-        "Scale": {
-            "X": "21",
-            "Y": "11",
-            "Z": "31",
-            "W": "0"
-        }
-    },
-    {
         "ZoneId": "Q23",
         "ZoneName": "Q23",
         "ZoneLocation": "Woods",

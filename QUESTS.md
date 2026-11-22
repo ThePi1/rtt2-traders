@@ -16,7 +16,6 @@ Quest ids are the quest's `_id` in `db/CustomQuests/<trader>/Quests`. Unlocked-b
 
 ### Text to fix
 
-- [ ] **Q20 Offering to the Eye:** a step says "church on Shoreline"; it should say Woods.
 - [ ] **Bird Hunting:** the text says Lighthouse, but the drive spawns on Reserve.
 - [ ] **The Gungeon:** says Black Bishop, which matches where `C9` is now. Only change it if the zone moves to Black Pawn.
 - [ ] **Healthy nor Wealthy nor Wise 1:** the description still says "(Not implemented yet, please skip)".
@@ -81,6 +80,7 @@ Zone positions are the box centre in game coordinates (x, y, z). Sizes are width
 
 ### Zones to check in game
 
+- [ ] **`Q20_2` – Offering to the Eye, Shoreline church.** Moved from Woods (2026-11-21). Centre (255.5, -52.4, -106.5), 18 × 5 × 12, over the church main hall; floor at -53.9 m. Check that walking into the hall completes the step.
 From the audit (existing zones):
 
 - [ ] **`L94_1`, `L94_2`, `L94_3` – Faster Dayo 2, Reserve.** Now wired to the steps in order: red guard tower top floor, Black Knight rooftop post, White Bishop rooftop mortar. Check each zone is at the spot its step names. They sit at (118.4, 0.6, -86.2), (11.8, 0.1, -15.7) and (-74.0, 0.7, -29.7).
@@ -320,7 +320,7 @@ New zones are in `db/CustomQuestZones`, one file per map (`customs.json`, `stree
 | Q17 | Weiss | My Paradise | 6 PMC kills under effect of Obdolbos 1 stim | Q16 | 4000 XP, Trimidol | `69f2c9c8baa27486f24e1267` | Audited |  |
 | Q18 | Weiss | My Cherry | Find Red Ledx near X-Ray room streets | Q17 | 6500 XP, Electrtical components x4 | `69f2cb5f01fd39ae97fc0277` | Audited |  |
 | Q19 | Xiaoming | My Muse | Find box of Chinese Peptides in labs chem lab near dome. | Q18 | 7500 XP, 300k roubles | `69f2cc7ed59fdbab1391cce5` | Audited |  |
-| Q20 | Chimera | Offering to the Eye | Check cultist activity: Woods sunken village, Shoreline cultist Church. Turn in 4 FIR Raven statues | Q19 | 5600 XP, Cultist Knife,Voron Unlock | `69f2ce6bd57bec8bb79b77e1` | Flagged | Step text says the church is on Shoreline; it should say Woods. |
+| Q20 | Chimera | Offering to the Eye | Check cultist activity: Woods sunken village, Shoreline cultist Church. Turn in 4 FIR Raven statues | Q19 | 5600 XP, Cultist Knife,Voron Unlock | `69f2ce6bd57bec8bb79b77e1` | Needs check | Fixed: zone `Q20_2` sat on Woods next to `Q20_1`, so both visit steps finished in one spot. Moved it to the Shoreline church to match the design and step text. See Check in game. |
 | Q21 | Voron | An Eye Cannot Speak | Stash 2 Intelligence in shoreline resort cultist room. | Q20 | 6900 XP, Cultist Funko | `69f2d088179e524ac52d63b0` | Needs check | Zone `Q21` may be too high to reach. See Check in game. |
 | Q22 | Voron | The Eye Looks Back | Retrieve Briefcase in the Reserve Bunker Command Offices | Lvl 25 and Q21 | Xp, FLIR Thermal | `6a04b54fee995153b15a3e70` | Audited |  |
 | Q23 | Voron | The Case | Plant Golden Rooster, Lion, Cat, Horse, at woods cultist circle by checkpoint | Q22 | Xp, Key to Labrynth first door. | `6a04b6d9ee995153b15a3e7b` | Audited |  |
