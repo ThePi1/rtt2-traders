@@ -20,7 +20,6 @@ Nothing open.
 
 ### Open design questions
 
-- [ ] **Q25 Daedalus' Curse:** Priest doesn't always drop the keycard. `priestLoot()` in `Plugin.cs` only adds it to his pocket loot pool (weight 15,000 out of about 184,000), so it rolls on each pocket item, about a 1 in 8 chance per Priest. Suggested fix: put it in his `SpecialLoot` pool and set his `specialItems` count to always 1. Special items are placed before any other loot, so there's always room.
 - [ ] **To do – Q28 Refusal and Q29 Acceptance:** make the Demon Stim and Angel Stim items, then add them as these quests' rewards. Also listed under [Custom quest items](#custom-quest-items).
 
 From the new quests (built 2026-11-19). Every new quest's description and success text is my [PH] text.
@@ -91,6 +90,7 @@ New zones are in the map files in `db/CustomQuestZones` (`woods.json`, `ground_z
 
 ### Quest fixes to check in game
 
+- [ ] **Q25 Daedalus' Curse:** Priest should now always carry the Labrys keycard. `priestLoot()` makes it his only special-loot item and always rolls 1 special item, which is placed before his other loot. Kill a few Priests and check each drops one.
 #### Committed in `3bcf9ab`
 
 - [ ] **Hooligan Hunt 1:** kills count on Customs only.
@@ -311,7 +311,7 @@ New zones are in `db/CustomQuestZones`, one file per map (`customs.json`, `stree
 | Q22 | Voron | The Eye Looks Back | Retrieve Briefcase in the Reserve Bunker Command Offices | Lvl 25 and Q21 | Xp, FLIR Thermal | `6a04b54fee995153b15a3e70` | Audited |  |
 | Q23 | Voron | The Case | Plant Golden Rooster, Lion, Cat, Horse, at woods cultist circle by checkpoint | Q22 | Xp, Key to Labrynth first door. | `6a04b6d9ee995153b15a3e7b` | Audited |  |
 | Q24 | Voron | My Prayers Are Answered | Retrieve secure folder at woods cultist circle by checkpoint | Q23 |  | `6a07ab1f8ff25d06e48d31e3` | Audited | Sheet: in but broken/half state |
-| Q25 | Voron | Daedalus' Curse | Hunt down Priest and retrieve a Keycard for Labyrinth, Find and Turn in Keycard (EDIT PRIEST LOOT) Guaranteed Spawn | Q24 | XP, Labrynth keycard itself and barters with Voron | `6a07ab808ff25d06e48d31e8` | Audited |  |
+| Q25 | Voron | Daedalus' Curse | Hunt down Priest and retrieve a Keycard for Labyrinth, Find and Turn in Keycard (EDIT PRIEST LOOT) Guaranteed Spawn | Q24 | XP, Labrynth keycard itself and barters with Voron | `6a07ab808ff25d06e48d31e8` | Needs check | Fixed: Priest now always carries the Labrys keycard (special loot in `Plugin.cs`), as the sheet asks. See Check in game. |
 | Q26 | Chimera | Into The Maze | Find Photo Album in main research room | Q25 | Xp, 2 Bitcoins | `6a08bc51ba598c93d9c09fcc` | Audited |  |
 | Q27 | Storyteller | Purgatory | Survive and Extract any map | Q26 | XP | `6a08be635562066cb549e1bc` | Audited |  |
 | Q28 | Storyteller | Refusal | Kill 20 PMC | Q27 | XP, Demon Stim | `6a08bea35562066cb549e1c1` | Audited | Sheet: 28/29 must fail if other is completed |
