@@ -25,10 +25,9 @@ Nothing open.
 From the new quests (built 2026-11-19). Every new quest's description and success text is my [PH] text.
 
 - [ ] **Not built, waiting on you** (reasons in each row's Notes):
-  - A21–A23 (the "absurd" gun builds): pick or adjust one of my three suggestions.
   - P16: needs a bowling ball item and the "twist". Suggested base item: a Christmas tree ornament (glossy ball, 1×1).
   - Skipped on purpose: L31 (repeats L32) and A29–A30 (need custom models).
-- [ ] **Chains that skip an unbuilt quest:** A24 starts after A20 (A21–A23 not built) and P17 after P15 (P16 not built). Re-point them when those are built.
+- [ ] **Chains that skip an unbuilt quest:** P17 starts after P15 (P16 not built). Re-point it when P16 is built.
 - [ ] **Design rewards left out:**
   - V2: encoder and DSP craft. Possible with a custom hideout recipe (WTT loads `db/CustomHideoutRecipes`); waiting on your go-ahead.
   - V12: Pyramid Head Funko. Skipped for now: needs a new model.
@@ -381,7 +380,7 @@ New zones are in `db/CustomQuestZones`, one file per map (`customs.json`, `stree
 | A21 | Atlas | Awkward Assembly - Part 1 | Gun builder quest, but with absurd (not hard just funny) requirements |  | Some assort unlock | `6b0262b2749cb622193b2ffc` | Needs check | Built: hand in a Glock 17 with a 50+ round magazine and at least one stock, suppressor, tactical device and compact reflex sight; unlocks a Glock SGM 50-round drum offer at Atlas LL1 (9k RUB, my price). The idea's foregrip and 4x scope can't fit a Glock, so a suppressor, tactical device and compact red dot stand in |
 | A22 | Atlas | Awkward Assembly - Part 2 | Gun builder quest, but with absurd (not hard just funny) requirements |  | Some assort unlock | `6b0262b35a80baad6c24abb0` | Needs check | Built: hand in an infantry Mosin with the ProMag Archangel OPFOR chassis, a suppressor, a flashlight and a tactical device (the laser), weighing 7 kg or more (about 8 kg is the most a build reaches, so 7 kg needs a big scope and the long barrel); unlocks a Mosin Archangel chassis offer at Atlas LL1 (21k RUB, my price). No foregrip fits a Mosin, so it's left out |
 | A23 | Atlas | Awkward Assembly - Part 3 | Gun builder quest, but with absurd (not hard just funny) requirements |  | Some assort unlock | `6b0262b57ea2ad1950912ecd` | Needs check | Built: hand in an AK-74 with the RPK-16 95-round drum, a rifle scope (the Scope category: variable riflescopes, not prism or reflex sights) and a suppressor, ergonomics 20 or less; unlocks an RPK-16 95-round drum offer at Atlas LL1 (36k RUB, my price). The AK-74 has no barrel slot, so the idea's "longest barrel" is left out |
-| A24 | Atlas | Light Reading | Hand in 3 FIR books. Then, mark 3 good reading spots on Streets (zone TBD). |  |  | `6afead9c40832f9c22c4b3e9` | Needs check | Built: hand in any 3 FIR books, then visit 3 reading spots on Streets: new zones `A24_1` (Pinewood Hotel lobby sofas), `A24_2` (School No. 30), `A24_3` (Razvedchikov 7 apartment). Starts after A20 because A21-A23 are not built |
+| A24 | Atlas | Light Reading | Hand in 3 FIR books. Then, mark 3 good reading spots on Streets (zone TBD). |  |  | `6afead9c40832f9c22c4b3e9` | Needs check | Built: hand in any 3 FIR books, then visit 3 reading spots on Streets: new zones `A24_1` (Pinewood Hotel lobby sofas), `A24_2` (School No. 30), `A24_3` (Razvedchikov 7 apartment) |
 | A25 | Atlas | Packet Loss | 10 headshots with DMR from >100m |  |  | `6afeada403382817c436d262` | Built | Built: 10 headshot kills with a marksman rifle from 100 m or more. Registered under the Marksman category so modded DMRs count |
 | A26 | Atlas | Hitscan - Part 1 | 5 kills with snipers >100m |  |  | `6afeada548b82fcfce03670d` | Built | Built: 5 kills with a bolt-action rifle from 100 m or more. Registered under the Sniper category so modded bolt guns count |
 | A27 | Atlas | Hitscan - Part 2 | 5 kills with snipers >250m |  |  | `6afeada6119f6aae527fe2f7` | Built | Built: 5 kills with a bolt-action rifle from 250 m or more. Registered under the Sniper category so modded bolt guns count |
