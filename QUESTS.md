@@ -30,26 +30,13 @@ From the new quests (built 2026-11-19). Every new quest's description and succes
   - Skipped on purpose: L31 (repeats L32) and A29–A30 (need custom models).
 - [ ] **Chains that skip an unbuilt quest:** A24 starts after A20 (A21–A23 not built) and P17 after P15 (P16 not built). Re-point them when those are built.
 - [ ] **Design rewards left out:**
-  - A10: unlock Price (Q8 already unlocks Price)
-  - A14: unlock all maps
-  - A17, A18: assort unlocks (no offer chosen)
-  - P10, P11: rig and backpack sell unlocks (what a trader buys isn't quest-locked)
-  - X22: Chimera unlock
-  - V2: encoder and DSP craft
-  - V12: Pyramid Head Funko (no such item)
-  - S4: "M754" (no such item)
-  - S20 and S21: flea bans. L.I.M.P. has `CanSellOnRagfair: true` in `experimental_lightweight_limp.json`.
+  - V2: encoder and DSP craft. Possible with a custom hideout recipe (WTT loads `db/CustomHideoutRecipes`); waiting on your go-ahead.
+  - V12: Pyramid Head Funko. Skipped for now: needs a new model.
+  - Left out on purpose: A10's Price unlock (Q8 already unlocks Price) and X22's Chimera unlock.
 - [ ] **Placeholders and readings to confirm:**
-  - L120 reward: 100k XP and skill points; the design says "has to be really good".
-  - L108: "M4C9" read as the Colt M4A1.
-  - L117 and L118: "M14" read as the Springfield M1A.
   - S1 and S16: "rogues" on Labs built as Raiders.
-  - S11: laundry detergent built as Ox bleach.
-  - X24: the "tape key" room built as the resort admin office.
-  - N13: built with the base Injector case, because the custom `69bb4628…` item doesn't exist.
-  - A17 and A18: Holosun and Trijicon SRS-02 stand in for the anime sights.
   - A7: check the design, since it may need a Xiaoming tie-in.
-- [ ] **Prices and numbers I picked:** XP and roubles on every new quest. Offers: Voron's cultist knife barter, M80A1, 7N40, 5.45 and 7.62 BP, .338 FMJ and AP; Weiss's REAP-IR (250k), ECHO1 (180k), T-7 (650k) and L.I.M.P. (180k).
+- [ ] **Prices and numbers I picked:** XP and roubles on every new quest. Offers: Voron's cultist knife barter, M80A1, 7N40, 5.45 and 7.62 BP, .338 FMJ and AP; Weiss's REAP-IR (250k), ECHO1 (180k), T-7 (650k) and L.I.M.P. (180k); Atlas's 6 maps (A14, 10k-20k); Price's rigs (P10: 26k, 72k, 59k) and backpacks (P11: 19k, 56k, 59k); the Atlas and Price offers are at LL1.
 - [ ] **"Same raid" isn't enforced** where two steps are separate counters: P4, P6, N14, V20, A28. The game also can't require a transit's destination, only the map it starts from: A28, N7–N9, S9, S14.
 - [ ] **N7–N9 Marathon Dose:** the direct transits in the design don't exist. They now go GZ → Streets → Interchange, Interchange → Customs → Factory → Woods, and Woods → Lighthouse → Shoreline.
 - [ ] **Wrapped Package `69afb77d…`:** the Ground Zero spawn (labelled V20) used this item. It now spawns the Final Sacrifice (V20's item per the sheet), and the Wrapped Package spawns on Streets for X19.
@@ -274,7 +261,7 @@ New zones are in `db/CustomQuestZones`, one file per map (`customs.json`, `stree
 | L105 | Storyteller | P-Chan - Part 1 | Kill 10 PMC in legs with SMG | L32 | SMG | `6afeb4de41c9d4034ae92cf7` | Built | Built: 10 PMC kills with SMGs, killing shot to a leg |
 | L106 | Storyteller | P-Chan - Part 2 | Kill 10 Raiders in legs with SMG | L105 | SMG | `6afeb4e04de1af94186b7bb2` | Built | Built: 10 Raider kills with SMGs, killing shot to a leg |
 | L107 | Storyteller | P-Chan - Part 3 | Kill 2 Rogues with SMGs | L106 | SMG | `6afeb4e1b5c5f0dc44687b65` | Built | Built: 2 Rogue kills with SMGs Skill reward 2,700, matching the other Part 3s (1,000 + 1,500 + 2,700 reaches Elite). |
-| L108 | Storyteller | Gun - Part 1 | Kill 10 PMCs with M4C9 | L32 | Assault | `6afeb4e249c73f6e437e9220` | Needs check | Built: 10 PMC kills with the Colt M4A1. The design's "M4C9" matches no item; I read it as the M4A1 |
+| L108 | Storyteller | Gun - Part 1 | Kill 10 PMCs with M4C9 | L32 | Assault | `6afeb4e249c73f6e437e9220` | Built | Built: 10 PMC kills with the Colt M4A1. The design's "M4C9" is the M4A1 (confirmed) |
 | L109 | Storyteller | Gun - Part 2 | Kill Glukhar with iron sighted ARs | L108 | Assault | `6afeb4e3794f298c02f1b0c6` | Built | Built: kill Glukhar with an assault rifle or carbine that has no optic or red dot (every scope and sight is excluded) |
 | L110 | Storyteller | Gun - Part 3 | Kill Priest with ARs | L109 | Assault | `6afeb4e599cc3b4498e62f1d` | Built | Built: kill a cultist Priest with an assault rifle or carbine Skill reward 2,700, matching the other Part 3s (1,000 + 1,500 + 2,700 reaches Elite). |
 | L111 | Storyteller | Such Shoot, Many Pellet - Part 1 | Kill 5 Rouges with KS-23 | L32 | Shotgun | `6afeb4e62ef19923c668ff38` | Built | Built: 5 Rogue kills with the KS-23M |
@@ -380,7 +367,7 @@ New zones are in `db/CustomQuestZones`, one file per map (`customs.json`, `stree
 | A7 | Atlas | Fraternizing with the Enemy | Some combo quest with Xiaoming (X4-X6) - mark certain things "false intel" |  |  | `6afeab5c279977913a65a40b` | Built | Built: plant an Intelligence folder (the "false intel") at Xiaoming's D2 power room on Reserve, zone `X1`, which X1 also uses. The design wanted a combo with X4-X6; this is a simple stand-in. Check the design |
 | A8 | Atlas | English Opening - Part 1 | Find and turn in quest item hidden at railway bridge extract on Shoreline | A7 | XP, unlock A9 | `6afeaba6250382525a4cbe0c` | Needs check | Built: find and hand in Atlas' Hidden Shipment, which now spawns at the railway bridge extract on Shoreline (new forced spawn, `shoreline_forced.json`) |
 | A9 | Atlas | English Opening - Part 2 | Find and turn in quest items:  one at crash heli, one at USEC camp heli,on Lighthouse | A8 | XP, unlock A10 | `6afeaba7eefdf24932868cba` | Built | Built: find and hand in Secure Folder Case and Secure Folder Case 2 on Lighthouse (their spawns were already in `lighthouse_forced.json`) |
-| A10 | Atlas | English Opening - Part 3 | Kill Tagilla, turn in FIR tagilla helm | A9 | XP, unlock Price | `6afeaba8a529a1a8f7e54840` | Built | Built: kill Tagilla and hand in a FIR Tagilla welding mask. The design's reward "unlock Price" was left out: Q8 already unlocks Price |
+| A10 | Atlas | English Opening - Part 3 | Kill Tagilla, turn in FIR tagilla helm | A9 | XP, unlock Price | `6afeaba8a529a1a8f7e54840` | Built | Built: kill Tagilla and hand in a FIR Tagilla welding mask. The design's reward "unlock Price" is left out on purpose: Q8 already unlocks Price |
 | A11 | Atlas | Paramilitary Pasta | Find the "spaghetti corner" - in the reserve food room. Plant a superwater. Then also kill "Spaghetti Joe" aka Gluhkar |  |  | `6afeac84d3cd2d70e7794577` | Needs check | Built: visit the existing zone `A11`, then leave a superwater (Canister with purified water) at new zone `A11_2` inside it, and kill Glukhar |
 | A12 | Atlas | Training Arc | Level strength to 10 |  |  | `6afeac85ca77a07b0c58ff66` | Built | Built: reach Strength level 10 |
 | A13 | Atlas | Filler Episode | Finding different figurines: 1x Tagilla, Killa, Reshala |  |  | `6afeac863a8863df58c72b03` | Built | Built: hand in 1 FIR Tagilla, Killa and Reshala figurine each |
@@ -427,7 +414,7 @@ New zones are in `db/CustomQuestZones`, one file per map (`customs.json`, `stree
 | X19 | Xiaoming | Glory to CCP - Part 2 | Locate the place of work of Xiaoming's friend on Streets, find the package, survive and extract, turn in |  |  | `6afeb1468cdb28cc9fa9b95c` | Needs check | Built: visit new zone `X19` (Transtechexport offices), find the Wrapped Package (new forced spawn there in `TarkovStreets_forced.json`), extract, hand it in |
 | X20 | Xiaoming | Chinatown | Visit all the restaurants on Streets of Tarkov, and mark their front doors |  |  | `6afeb14a0c36dcb8fefae761` | Needs check | Built: mark the front of 4 Streets restaurants with new zones `X20_1` (Beluga), `X20_2` (Brodion restopub), `X20_3` (Burger Spot at the Pinewood), `X20_4` (Burger Spot, Nizhnyaya Sadovaya). Marking means visiting, so there's no separate visit step |
 | X21 | Xiaoming | Gotcha, Gatcha | Plant 3 gas cans and 3 matches in the Game Dev room on streets, including one in the locked room. Survive and extract. |  |  | `6b025b261eba387b5050e092` | Needs check | Built: plant a fuel can (Expeditionary or Metal fuel tank) and Hunting matches at each of 3 new zones: `X21_1` (open-plan office), `X21_2` (kitchen), `X21_3` (lobby of the hookah lounge on Malevicha 5, the relaxation room), then survive Streets |
-| X22 | Xiaoming | Shishi | Turn in 2 FIR Lion statues |  | Leads to Chimera unlock somehow | `6afeb14b26031308ba2bac1d` | Built | Built: hand in 2 FIR Bronze lion figurines. The "leads to Chimera unlock" reward is left out: that's a story decision |
+| X22 | Xiaoming | Shishi | Turn in 2 FIR Lion statues |  | Leads to Chimera unlock somehow | `6afeb14b26031308ba2bac1d` | Built | Built: hand in 2 FIR Bronze lion figurines. The "leads to Chimera unlock" reward is left out on purpose |
 | X23 | Xiaoming | Tourist - Part 1 | Visit multiple locked rooms on Customs (touring good loot spots): trailer park cabin, new gas locked room, dorms 314, customs office key |  |  | `6afeb14cfef9fd9b3cc6e709` | Built | Built: visit the existing zones `X23_1`-`X23_4` on Customs |
 | X24 | Xiaoming | Tourist - Part 2 | Visit multiple locked rooms on Shoreline: tape key, W222, E306, HEP Station  Key |  |  | `6afeb151cb463707e9aac116` | Needs check | Built: visit new zones on Shoreline: `X24_1` W222, `X24_2` E306, `X24_3` HEP station (the Hydro_electro room), `X24_4` east wing room 110 (opened by the Health Resort office key with a blue tape; the base game's `place_meh_sanitar_room` sits inside it) |
 | X25 | Xiaoming | Tourist - Part 3 | Mark inside all Reserve marked rooms RBPKPM, rbbkmr,RBVOMR |  |  | `6afeb15236c9c8c80ffb347e` | Built | Built: mark inside the 3 Reserve marked rooms (existing zones `X25_1`-`X25_3`) |
@@ -494,7 +481,7 @@ New zones are in `db/CustomQuestZones`, one file per map (`customs.json`, `stree
 | V9 | Voron | The Eye Requires Munitions - Part 1 | Find and turn in 3 boxes of 5.45 |  | XP, 7n40 barter | `6afeb32f8824b9ad3f4ee3f7` | Built | Built: hand in 3 FIR 5.45x39 ammo packs (any kind); unlocks a 5.45x39 7N40 offer at Voron LL2 (650 RUB each, 150 per restock) |
 | V10 | Voron | The Eye Requires Munitions - Part 2 | find and turn in 3 boxes 7.62 |  | XP, 5.45 and 7.62 BP barter | `6afeb330ee909155fdd53269` | Built | Built: hand in 3 FIR 7.62 ammo packs (x39, x51 or x54R); unlocks 5.45x39 BP (750 RUB) and 7.62x39 BP (850 RUB) offers at Voron LL3, 150 per restock |
 | V11 | Voron | The Eye Requires Munitions - Part 3 | Find and turn in 3 boxes of .338 |  | XP, .338 barters | `6afeb331ea2105fd5ee9ba17` | Built | Built: hand in 3 FIR .338 ammo packs; unlocks .338 FMJ (1600 RUB) and .338 AP (4500 RUB) offers at Voron LL4, 40 per restock |
-| V12 | Voron | The Eye Never Forgets | Hunt down a rouge Priest and 2 Cultists |  | XP, Pyramid Head Funko | `6afeb332bfd2980faf94bee2` | Built | Built: kill a cultist Priest and 2 cultist warriors anywhere. The Pyramid Head Funko reward is left out: no such item exists |
+| V12 | Voron | The Eye Never Forgets | Hunt down a rouge Priest and 2 Cultists |  | XP, Pyramid Head Funko | `6afeb332bfd2980faf94bee2` | Built | Built: kill a cultist Priest and 2 cultist warriors anywhere. The Pyramid Head Funko reward is skipped for now: it needs a new model |
 | V13 | Voron | The Eye Requires Pickup - Part 1 | Pickup Sacrifice at Check 13 Marked room |  |  | `6b025b3ac405e51775492a6d` | Needs check | Built: find and hand in the Locked Case (Sacrifice); new spawn in the candle circle of the ground-floor cultist flat on Chekannaya 13 (Streets) |
 | V14 | Voron | The Eye Requires Pickup - Part 2 | Pickup Sacrifice at woods sunken circle |  |  | `6b025b3c20b162caa2a98ec3` | Needs check | Built: find and hand in the Locked Case (Sacrifice); new spawn at the cultist circle in the sunken village on Woods (the same spot as `Q20_1`). My reading of "sunken circle"; it also needs a Sacrifice spawn there |
 | V15 | Voron | The Eye Requires Pickup - Part 3 | Pickup Sacrifice at Lighthouse Marked room |  |  | `6afeb3347d7ffcad44de2494` | Built | Built: find and hand in the Locked Case (Sacrifice); its Lighthouse marked room spawn was already in place. |
