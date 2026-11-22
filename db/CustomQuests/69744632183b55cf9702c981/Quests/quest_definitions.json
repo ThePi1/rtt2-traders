@@ -18920,6 +18920,34 @@
                     "type": "Discover",
                     "value": 1,
                     "visibilityConditions": []
+                },
+                {
+                    "completeInSeconds": 0,
+                    "conditionType": "CounterCreator",
+                    "counter": {
+                        "conditions": [
+                            {
+                                "conditionType": "VisitPlace",
+                                "dynamicLocale": false,
+                                "id": "6b027bac22eaaf1843988455",
+                                "target": "L54_10",
+                                "value": 1
+                            }
+                        ],
+                        "id": "6b027bac22eaaf1843988454"
+                    },
+                    "doNotResetIfCounterCompleted": false,
+                    "dynamicLocale": false,
+                    "globalQuestCounterId": "",
+                    "id": "6b027bac22eaaf1843988453",
+                    "index": 0,
+                    "isNecessary": false,
+                    "isResetOnConditionFailed": false,
+                    "oneSessionOnly": false,
+                    "parentId": "",
+                    "type": "Discover",
+                    "value": 1,
+                    "visibilityConditions": []
                 }
             ],
             "AvailableForStart": [
