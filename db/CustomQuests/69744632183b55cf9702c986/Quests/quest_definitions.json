@@ -5594,5 +5594,149 @@
         "successMessageText": "6b0262b57ea2ad1950912ecd successMessageText",
         "traderId": "69744632183b55cf9702c986",
         "type": "WeaponAssembly"
+    },
+    "6b027129c923e850de1f3663": {
+        "QuestName": "God's Child, Herself",
+        "_id": "6b027129c923e850de1f3663",
+        "acceptPlayerMessage": "6b027129c923e850de1f3663 acceptPlayerMessage",
+        "acceptanceAndFinishingSource": "eft",
+        "arenaLocations": [],
+        "canShowNotificationsInGame": true,
+        "changeQuestMessageText": "6b027129c923e850de1f3663 changeQuestMessageText",
+        "completePlayerMessage": "6b027129c923e850de1f3663 completePlayerMessage",
+        "conditions": {
+            "AvailableForFinish": [
+                {
+                    "conditionType": "FindItem",
+                    "countInRaid": false,
+                    "dogtagLevel": 0,
+                    "dynamicLocale": false,
+                    "globalQuestCounterId": "",
+                    "id": "6b027129c923e850de1f3665",
+                    "index": 0,
+                    "isEncoded": false,
+                    "maxDurability": 100,
+                    "minDurability": 0,
+                    "onlyFoundInRaid": true,
+                    "parentId": "",
+                    "target": [
+                        "e8990a57a89c3744b68fd377"
+                    ],
+                    "value": 1,
+                    "visibilityConditions": []
+                },
+                {
+                    "conditionType": "HandoverItem",
+                    "dogtagLevel": 0,
+                    "dynamicLocale": false,
+                    "globalQuestCounterId": "",
+                    "id": "6b027129c923e850de1f3666",
+                    "index": 0,
+                    "isEncoded": false,
+                    "maxDurability": 100,
+                    "minDurability": 0,
+                    "onlyFoundInRaid": true,
+                    "parentId": "",
+                    "target": [
+                        "e8990a57a89c3744b68fd377"
+                    ],
+                    "value": 1,
+                    "visibilityConditions": []
+                }
+            ],
+            "AvailableForStart": [
+                {
+                    "availableAfter": 0,
+                    "conditionType": "Quest",
+                    "dispersion": 0,
+                    "dynamicLocale": false,
+                    "globalQuestCounterId": "",
+                    "id": "6b027129c923e850de1f3664",
+                    "index": 0,
+                    "parentId": "",
+                    "status": [
+                        4
+                    ],
+                    "target": "6afeadae24543451782f7b1a",
+                    "visibilityConditions": []
+                }
+            ],
+            "Fail": []
+        },
+        "declinePlayerMessage": "6b027129c923e850de1f3663 declinePlayerMessage",
+        "description": "6b027129c923e850de1f3663 description",
+        "failMessageText": "6b027129c923e850de1f3663 failMessageText",
+        "gameModes": [],
+        "image": "/files/quest/icon/59ca2e4186f77445e4732b22.jpg",
+        "instantComplete": false,
+        "isKey": false,
+        "location": "5714dc692459777137212e12",
+        "name": "6b027129c923e850de1f3663 name",
+        "note": "6b027129c923e850de1f3663 note",
+        "progressSource": "eft",
+        "rankingModes": [],
+        "restartable": false,
+        "rewards": {
+            "Fail": [],
+            "Started": [],
+            "Success": [
+                {
+                    "availableInGameEditions": [],
+                    "gameMode": [
+                        "regular",
+                        "pve"
+                    ],
+                    "id": "6b027129c923e850de1f3667",
+                    "isHidden": false,
+                    "type": "Experience",
+                    "unknown": false,
+                    "value": 20800
+                },
+                {
+                    "availableInGameEditions": [],
+                    "gameMode": [
+                        "regular",
+                        "pve"
+                    ],
+                    "id": "6b027129c923e850de1f3668",
+                    "isHidden": false,
+                    "target": "69744632183b55cf9702c986",
+                    "type": "TraderStanding",
+                    "unknown": false,
+                    "value": 0.14
+                },
+                {
+                    "availableInGameEditions": [],
+                    "findInRaid": false,
+                    "gameMode": [
+                        "regular",
+                        "pve"
+                    ],
+                    "id": "6b027129c923e850de1f3669",
+                    "isEncoded": false,
+                    "isHidden": false,
+                    "items": [
+                        {
+                            "_id": "6b027129c923e850de1f366a",
+                            "_tpl": "5449016a4bdc2d6f028b456f",
+                            "upd": {
+                                "StackObjectsCount": 170000
+                            }
+                        }
+                    ],
+                    "target": "6b027129c923e850de1f366a",
+                    "type": "Item",
+                    "unknown": false,
+                    "value": 170000
+                }
+            ]
+        },
+        "secretQuest": false,
+        "side": "pmc",
+        "startedMessageText": "6b027129c923e850de1f3663 startedMessageText",
+        "status": 0,
+        "successMessageText": "6b027129c923e850de1f3663 successMessageText",
+        "traderId": "69744632183b55cf9702c986",
+        "type": "PickUp"
     }
 }

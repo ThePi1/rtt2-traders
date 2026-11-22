@@ -136,6 +136,7 @@ New zones are in `db/CustomQuestZones`, one file per map (`customs.json`, `stree
 
 - [ ] **X6 Delay, Deny, Defend:** the new Faulty Gunpowder spawns on the desk next to the safe in the Tarcone director's office (Customs, `bigmap_forced.json`). Plant zone `X6` is the X-ray control room on the 2nd floor of the Zmeisky 4a polyclinic (Streets), next to the fluorograph. Check the item spawns, can be carried to Streets, and the plant prompt shows in the control room.
 - [ ] **P16 Courtesy Call - Part 4:** the new Bowling Ball spawns at (-271.5, -0.5, -98.0), the middle of the 2nd-floor lounge in the resort's east wing (`shoreline_forced.json`). It drops onto the floor (about -0.84); check it lands in the room and can be picked up.
+- [ ] **A29 God's Child, Herself:** the Misato Bodypillow spawns at (-211.76, 3.5, 297.29), the middle of the hookah lounge's main room on Malevicha 5 (inside the game's `Hookah_quest` zone, floor 3.22). It drops onto the floor; check it lands in the room and can be picked up.
 - [ ] **X21 Gotcha, Gatcha:** zones `X21_1` (open-plan office) and `X21_2` (kitchen) in the Zmeisky 6 game studio, and `X21_3` in the lobby of the hookah lounge on Malevicha 5 (the relaxation room), between the base game's `Hookah_quest` zone and the street entrance. Check `X21_3` covers the lobby floor.
 - [ ] **A3 500 Cigarettes:** zone `A3` moved from the Cardinal sauna to the safe by the hookah lounge (ground floor of Malevicha 5, at -204.6, 289.6). Check it is the right safe and the zone reaches it.
 - [ ] **L42 Safe on Block 1:** six marker zones `L42_1`–`L42_6`, one on each red MSI Aegis PC in the Zmeisky 6 office (`L42_6` is in the director's office). Check each marker prompt appears at its PC.
@@ -379,7 +380,7 @@ New zones are in `db/CustomQuestZones`, one file per map (`customs.json`, `stree
 | A26 | Atlas | Hitscan - Part 1 | 5 kills with snipers >100m | A25 |  | `6afeada548b82fcfce03670d` | Built | Built: 5 kills with a bolt-action rifle from 100 m or more. Registered under the Sniper category so modded bolt guns count |
 | A27 | Atlas | Hitscan - Part 2 | 5 kills with snipers >250m | A26 |  | `6afeada6119f6aae527fe2f7` | Built | Built: 5 kills with a bolt-action rifle from 250 m or more. Registered under the Sniper category so modded bolt guns count |
 | A28 | Atlas | Meet Your Maker | Visit the 3 water treatment roofs on (First,Second,Third) Lighthouse, then transit to Shoreline, find a package in the Heli at resort, and extract via Vehicle extract | A27 |  | `6afeadae24543451782f7b1a` | Needs check | Built: visit the existing roof zones `A28_1`-`A28_3` on Lighthouse, transit from Lighthouse (any transit counts: the game can't require the Shoreline one), find the Case For Atlas at the resort helicopter (new forced spawn in `shoreline_forced.json`), extract via the Shoreline vehicle extract, hand in the case |
-| A29 | Atlas | God's Child, Herself | Retrieve Misato Bodypillow in the Relax Lounge |  |  |  | Skipped | Skipped for now: the item (Misato body pillow / Lance of Longinus) needs a custom model and bundle. The Relax Lounge is the hookah lounge on Malevicha 5, Streets (same place as `X21_3` and `A3`). |
+| A29 | Atlas | God's Child, Herself | Retrieve Misato Bodypillow in the Relax Lounge | A28 |  | `6b027129c923e850de1f3663` | Needs check | Built: find the new Misato Bodypillow quest item (placeholder: a Cat figurine clone, 1x3) in the hookah lounge on Malevicha 5, Streets, and hand it in. Needs a custom model (see the to-do in Open design questions) |
 | A30 | Atlas | All Comes Tumbling Down | Retrieve Lance of Longinus from the Red labs room |  |  |  | Skipped | Skipped for now: the item (Misato body pillow / Lance of Longinus) needs a custom model and bundle. |
 
 ## Xiaoming (X)
@@ -535,7 +536,7 @@ New zones are in `db/CustomQuestZones`, one file per map (`customs.json`, `stree
 |  | `69b4cb785480e8f6a36b20bc` | A9_1 | yes |
 | Item In Heli | `69b4d5c725998b5696dcaf77` | A28 | yes |
 | Spear of Longinus |  | A30 | no |
-| Misato Bodypillow Relax |  | A29 | no |
+| Misato Bodypillow | `e8990a57a89c3744b68fd377` | A29 | yes (placeholder model) |
 | QuestPackage Control Room | `69b4cdc223d83be3907d58d5` | X10 | yes |
 | Questpackage Streets | `69afb77d9bd526e56c0c34d7` | X20 | yes |
 | Drive At Heli Lighthouse | `69b4cd55c28d7079a2e4372e` | C3 | yes |

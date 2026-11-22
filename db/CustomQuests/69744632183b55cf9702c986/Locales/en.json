@@ -265,5 +265,14 @@
     "6b0262b57ea2ad1950912ecd completePlayerMessage": "",
     "6b0262b57ea2ad1950912ecd successMessageText": "[PH] The Gravity Well. Nobody can lift it, nobody can aim it, and I love it.",
     "6b0262b57ea2ad1950912ecd failMessageText": "",
-    "6b0262b57ea2ad1950912ecf": "Build an AK-74 with the RPK-16 95-round drum, a rifle scope and a suppressor, with ergonomics of 20 or less"
+    "6b0262b57ea2ad1950912ecf": "Build an AK-74 with the RPK-16 95-round drum, a rifle scope and a suppressor, with ergonomics of 20 or less",
+    "6b027129c923e850de1f3663 name": "God's Child, Herself",
+    "6b027129c923e850de1f3663 description": "[PH] There's a body pillow in the hookah lounge on Malevicha 5, the relax lounge. Misato. Limited edition. Somebody left her there and I can't sleep knowing that. Bring her home, operator. Gently.",
+    "6b027129c923e850de1f3663 acceptPlayerMessage": "",
+    "6b027129c923e850de1f3663 declinePlayerMessage": "",
+    "6b027129c923e850de1f3663 completePlayerMessage": "",
+    "6b027129c923e850de1f3663 successMessageText": "[PH] She's home. Don't look at me like that.",
+    "6b027129c923e850de1f3663 failMessageText": "",
+    "6b027129c923e850de1f3665": "Find the Misato Bodypillow in the hookah lounge on Malevicha 5",
+    "6b027129c923e850de1f3666": "Hand over the Misato Bodypillow"
 }
