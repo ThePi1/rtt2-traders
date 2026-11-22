@@ -848,5 +848,80 @@
             "Z": "4.5",
             "W": "0"
         }
+    },
+    {
+        "ZoneId": "X21_1",
+        "ZoneName": "X21_1",
+        "ZoneLocation": "TarkovStreets",
+        "ZoneType": "placeitem",
+        "FlareType": "",
+        "Position": {
+            "X": "165.4",
+            "Y": "1.503",
+            "Z": "154.6",
+            "W": "0"
+        },
+        "Rotation": {
+            "X": "0",
+            "Y": "0.212178",
+            "Z": "0",
+            "W": "0.977231"
+        },
+        "Scale": {
+            "X": "2.5",
+            "Y": "2",
+            "Z": "2.5",
+            "W": "0"
+        }
+    },
+    {
+        "ZoneId": "X21_2",
+        "ZoneName": "X21_2",
+        "ZoneLocation": "TarkovStreets",
+        "ZoneType": "placeitem",
+        "FlareType": "",
+        "Position": {
+            "X": "151.8",
+            "Y": "1.503",
+            "Z": "136.4",
+            "W": "0"
+        },
+        "Rotation": {
+            "X": "0",
+            "Y": "0.212178",
+            "Z": "0",
+            "W": "0.977231"
+        },
+        "Scale": {
+            "X": "2.5",
+            "Y": "2",
+            "Z": "2.5",
+            "W": "0"
+        }
+    },
+    {
+        "ZoneId": "X21_3",
+        "ZoneName": "X21_3",
+        "ZoneLocation": "TarkovStreets",
+        "ZoneType": "placeitem",
+        "FlareType": "",
+        "Position": {
+            "X": "165.6",
+            "Y": "1.503",
+            "Z": "167.2",
+            "W": "0"
+        },
+        "Rotation": {
+            "X": "0",
+            "Y": "0.212178",
+            "Z": "0",
+            "W": "0.977231"
+        },
+        "Scale": {
+            "X": "3",
+            "Y": "2",
+            "Z": "3",
+            "W": "0"
+        }
     }
 ]

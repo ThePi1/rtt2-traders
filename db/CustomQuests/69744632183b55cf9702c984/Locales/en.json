@@ -250,5 +250,19 @@
     "6b025b1d71067db8be11b529 failMessageText": "",
     "6b025b1d71067db8be11b52a": "Find the faulty gunpowder in the Tarcone director's office on Customs",
     "6b025b1d71067db8be11b52e": "Plant the faulty gunpowder in the X-ray control room of the Streets polyclinic",
-    "6b025b1d71067db8be11b52f": "Survive and extract from Streets of Tarkov"
+    "6b025b1d71067db8be11b52f": "Survive and extract from Streets of Tarkov",
+    "6b025b261eba387b5050e092 name": "Gotcha, Gatcha",
+    "6b025b261eba387b5050e092 description": "[PH] There is a game studio on Zmeisky Alley 6. Their gacha game copies ours, banner for banner. Leave them a fuel can and a box of matches in three places: the open office, the kitchen, and the relaxation room they keep locked. What they do with it is their business.",
+    "6b025b261eba387b5050e092 acceptPlayerMessage": "",
+    "6b025b261eba387b5050e092 declinePlayerMessage": "",
+    "6b025b261eba387b5050e092 completePlayerMessage": "",
+    "6b025b261eba387b5050e092 successMessageText": "[PH] A pity. Their servers were so expensive.",
+    "6b025b261eba387b5050e092 failMessageText": "",
+    "6b025b271eba387b5050e094": "Plant a fuel can in the open-plan office of the game studio on Zmeisky Alley 6",
+    "6b025b271eba387b5050e095": "Plant a box of matches in the open-plan office of the game studio on Zmeisky Alley 6",
+    "6b025b271eba387b5050e096": "Plant a fuel can in the game studio kitchen",
+    "6b025b271eba387b5050e097": "Plant a box of matches in the game studio kitchen",
+    "6b025b271eba387b5050e098": "Plant a fuel can in the game studio's locked relaxation room",
+    "6b025b271eba387b5050e099": "Plant a box of matches in the game studio's locked relaxation room",
+    "6b025b271eba387b5050e09a": "Survive and extract from Streets of Tarkov"
 }
