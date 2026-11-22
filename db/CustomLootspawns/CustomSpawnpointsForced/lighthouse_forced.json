@@ -1,8 +1,8 @@
 {
     "Lighthouse": [
         {
-        "locationId": "(-129.0987 21.82914 301.3419)",
-        "probability": 1.0,
+            "locationId": "(-129.0987 21.82914 301.3419)",
+            "probability": 1.0,
             "template": {
                 "Id": "A9_1 (Quest) [86663233-25bb-4e2a-a616-e67848115ac3]",
                 "IsContainer": false,
@@ -42,8 +42,8 @@
             ]
         },
         {
-        "locationId": "(-91.59564 1.210995 -556.3647)",
-        "probability": 1.0,
+            "locationId": "(-91.59564 1.210995 -556.3647)",
+            "probability": 1.0,
             "template": {
                 "Id": "A9_2 (Quest) [86663233-25bb-4e2a-a616-e67848115ac3]",
                 "IsContainer": false,
@@ -83,8 +83,8 @@
             ]
         },
         {
-        "locationId": "(328.0925 6.012279 485.1049)",
-        "probability": 1.0,
+            "locationId": "(328.0925 6.012279 485.1049)",
+            "probability": 1.0,
             "template": {
                 "Id": "V15 (Quest) [86663233-25bb-4e2a-a616-e67848115ac3]",
                 "IsContainer": false,
@@ -124,8 +124,8 @@
             ]
         },
         {
-        "locationId": "(32.7819 6.167136 -639.7807)",
-        "probability": 1.0,
+            "locationId": "(32.7819 6.167136 -639.7807)",
+            "probability": 1.0,
             "template": {
                 "Id": "S14 (Quest) [86663233-25bb-4e2a-a616-e67848115ac3]",
                 "IsContainer": false,
