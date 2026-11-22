@@ -21,11 +21,12 @@ Nothing open.
 ### Open design questions
 
 - [ ] **To do – Q28 Refusal and Q29 Acceptance:** make the Demon Stim and Angel Stim items, then add them as these quests' rewards. Also listed under [Custom quest items](#custom-quest-items).
+- [ ] **To do – custom models for A29 and A30:** the Misato Bodypillow (`e8990a57a89c3744b68fd377`, A29) is a Cat figurine clone and the Lance of Longinus (`7ed1a943815a71a6cbec2de3`, A30) is a Pointy guy figurine clone. Make their models and bundles, then point each item at its bundle in `db/CustomItems/misato_bodypillow.json` and `lance_of_longinus.json`.
 
 From the new quests (built 2026-11-19). Every new quest's description and success text is my [PH] text.
 
 - [ ] **Not built, waiting on you** (reasons in each row's Notes):
-  - Skipped on purpose: L31 (repeats L32) and A29–A30 (need custom models).
+  - Skipped on purpose: L31 (repeats L32).
 - [ ] **Design rewards left out:**
   - V12: Pyramid Head Funko. Skipped for now: needs a new model.
   - Left out on purpose: A10's Price unlock (Q8 already unlocks Price) and X22's Chimera unlock.
