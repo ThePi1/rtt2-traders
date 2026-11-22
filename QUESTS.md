@@ -42,15 +42,16 @@ Zone positions are the box centre in game coordinates (x, y, z). Sizes are width
 ### Zones to check in game
 
 All Customs, Factory and Woods zones were verified in game on 2026-11-22.
+All Shoreline and Interchange zones were verified in game on 2026-11-22.
 
-- [ ] **`Q20_2` – Offering to the Eye, Shoreline church.** Moved from Woods (2026-11-21). Centre (255.5, -52.4, -106.5), 18 × 5 × 12, over the church main hall; floor at -53.9 m. Check that walking into the hall completes the step.
+- [x] **`Q20_2` – Offering to the Eye, Shoreline church.** Moved from Woods (2026-11-21). Centre (255.5, -52.4, -106.5), 18 × 5 × 12, over the church main hall; floor at -53.9 m. Check that walking into the hall completes the step. Verified in game 2026-11-22.
 From the audit (existing zones):
 
 - [ ] **`L94_1`, `L94_2`, `L94_3` – Faster Dayo 2, Reserve.** Now wired to the steps in order: red guard tower top floor, Black Knight rooftop post, White Bishop rooftop mortar. Check each zone is at the spot its step names. They sit at (118.4, 0.6, -86.2), (11.8, 0.1, -15.7) and (-74.0, 0.7, -29.7).
 - [ ] **`L92` – Gun Nut 3, Reserve.** Now wired to the repair kit placement; at (103.3, -5.9, 49.9) by the repair base. Check it's in the RB-ST room.
-- [ ] **`Q21` – An Eye Cannot Speak, Shoreline resort.** The box spans 1.5–2.5 m high, and the nearest floor the game maps is at -3.7 m. Fine if it's on an upper floor bots never walk; otherwise you can't reach it.
+- [x] **`Q21` – An Eye Cannot Speak, Shoreline resort.** The box spans 1.5–2.5 m high, and the nearest floor the game maps is at -3.7 m. Fine if it's on an upper floor bots never walk; otherwise you can't reach it. Verified in game 2026-11-22.
 - [ ] **`z_q10_gzbench` – Load-Bearing Citizen 1, Ground Zero.** The box spans 30.4–31.4 m, and the nearest mapped floor is 23.4 m. Same as `Q21`.
-- [ ] **`F11_2` – Sacramentum, Shoreline.** Renamed from `F5_2`, its only change. Check the rooster can still be placed.
+- [x] **`F11_2` – Sacramentum, Shoreline.** Renamed from `F5_2`, its only change. Check the rooster can still be placed. Verified in game 2026-11-22.
 
 New zones are in the map files in `db/CustomQuestZones` (`woods.json`, `ground_zero.json` and so on). The first four are the least certain.
 
@@ -59,7 +60,7 @@ New zones are in the map files in `db/CustomQuestZones` (`woods.json`, `ground_z
 - [ ] **`C8` – Loot Lord 3, Lighthouse.** Centre (129, 10.922, -584.5), 9 × 4 × 12. Placed on the rocks past the minefield east of the Water Treatment Plant. Check that the spot matches the quest text and can see the machine guns.
 - [x] **`C4_2` – Back To The Future, Customs dorm 206.** Centre (229.6, 3.91, 138.4), 2 × 2.5 × 2.4, turned 3.5°. This is a place-item zone in the hallway outside room 206 in the two-story dorm. It overlaps the game's own zone `huntsman_020`, so check that the place-item prompt still appears. Verified in game 2026-11-22.
 - [ ] **`C9` – The Gungeon, Reserve.** Shrunk to the gunsmithing workshop in the Black Bishop basement (2026-11-21): centre (-155.54, -8.067, -14.01), 16.5 × 2.9 × 8, turned 15.5°. It holds the repair-station workbenches, vises and toolboxes; the floor is at -9.45 m. Check that walking into the workshop completes the step and the corridor outside doesn't.
-- [ ] **`C6` – Loot Lord 1, Shoreline.** Centre (-628.01, -18.436, -236.04), 13.3 × 8.6 × 30, turned 17°. Placed in the Agrocomplex hangar with the toolboxes and welding machine (the sheet's "tool warehouse"). The other candidate is the pier warehouse.
+- [x] **`C6` – Loot Lord 1, Shoreline.** Centre (-628.01, -18.436, -236.04), 13.3 × 8.6 × 30, turned 17°. Placed in the Agrocomplex hangar with the toolboxes and welding machine (the sheet's "tool warehouse"). The other candidate is the pier warehouse. Verified in game 2026-11-22.
 - [ ] **`C1_1` – Deja-Vu, Ground Zero.** Centre (-13, 31.471, 76), 16 × 4 × 30. Open-plan office on the TerraGroup building's second floor. Check it on both Ground Zero versions.
 - [ ] **`C1_2` – Deja-Vu, Ground Zero.** Centre (81.5, 15.734, 100.5), 8 × 4 × 17. Underground meat truck and the lane beside it. Check it on both versions.
 - [x] **`C7_3` – Loot Lord 2, Woods cultist bunker.** Centre (-273, 8.94, -413), 17 × 3.5 × 15. Verified in game 2026-11-22.
@@ -101,22 +102,22 @@ New zones are in `db/CustomQuestZones`, one file per map (`customs.json`, `stree
 - [ ] **Heights I set by hand**, because the game's floor map only had another storey there:
   - `A24_3` (Razvedchikov 7 apartment)
   - `P4_1` (Tarbank)
-  - `P9_2` (IDEA cafe)
+  - `P9_2` (IDEA cafe) – verified 2026-11-22
   - `X15` (Klimov food court)
-  - `X24_1` (W222), `X24_2` (E306), `X24_4` (east wing room 110, the blue-tape office)
-  - `X3_4` (gas station)
-  - `N16` (island)
+  - `X24_1` (W222), `X24_2` (E306), `X24_4` (east wing room 110, the blue-tape office) – verified 2026-11-22
+  - `X3_4` (gas station) – verified 2026-11-22
+  - `N16` (island) – verified 2026-11-22
   - `N17` (cinema stage)
   - `S10_1` (sky-bridge)
 - [ ] **No floor mapped at all; check that they're reachable:**
-  - `A20_1` and `A20_2` (crashed drones)
-  - `X2_2` (train)
+  - `A20_1` and `A20_2` (crashed drones) – verified 2026-11-22
+  - `X2_2` (train) – verified 2026-11-22
   - `X19` (Transtechexport)
   - `X20_4` (Sadovaya Burger Spot)
   - `P13_2` (Sportmarket)
   - `P6` (street ATM)
   - `P17` (Brodion bar)
-  - `V20` (covered boat in the pier storage)
+  - `V20` (covered boat in the pier storage) – verified 2026-11-22
 - [ ] **New forced spawns:**
   - A8 Hidden Shipment at the Shoreline railway bridge
   - A28 Case For Atlas in the resort helicopter
