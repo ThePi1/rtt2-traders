@@ -1,0 +1,27 @@
+{
+    "69b4d3bf669a409073138bb1": {
+        "itemTplToClone": "5d357d6b86f7745b606e3508",
+        "parentId": "5448ecbe4bdc2d60728b4568",
+        "handbookParentId": "QUEST",
+        "overrideProperties": {
+            "ExaminedByDefault": true,
+            "Foldable": false,
+            "BackgroundColor": "yellow",
+            "Weight": 0.2,
+            "Height": 1,
+            "Width": 2,
+            "StackMaxSize": 1,
+            "RarityPvE": "Not_exist",
+            "QuestItem": true
+        },
+        "locales": {
+            "en": {
+                "name": "My Photo Album",
+                "shortName": "My Photo Album",
+                "description": "This can't be right... I never scrapbooked. I am no middle class housewife. These pictures though are almost all me. My... memories? The last page is covered in blood..."
+            }
+        },
+        "fleaPriceRoubles": 9039,
+        "handbookPriceRoubles": 11346
+    }
+}

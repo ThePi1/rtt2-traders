@@ -1,0 +1,27 @@
+{
+    "69b4cdc223d83be3907d58d5": {
+        "itemTplToClone": "5ac620eb86f7743a8e6e0da0",
+        "parentId": "5448ecbe4bdc2d60728b4568",
+        "handbookParentId": "QUEST",
+        "overrideProperties": {
+            "ExaminedByDefault": true,
+            "Foldable": false,
+            "BackgroundColor": "yellow",
+            "Weight": 2,
+            "Height": 1,
+            "Width": 2,
+            "StackMaxSize": 1,
+            "RarityPvE": "Not_exist",
+            "QuestItem": true
+        },
+        "locales": {
+            "en": {
+                "name": "Wrapped Package",
+                "shortName": "Wrapped Package",
+                "description": "A box taped up from head to toe in duct tape."
+            }
+        },
+        "fleaPriceRoubles": 9039,
+        "handbookPriceRoubles": 11346
+    }
+}

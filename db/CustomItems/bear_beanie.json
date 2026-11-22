@@ -1,0 +1,23 @@
+{
+    "67e343112c5ed0143e3c74eb": {
+        "itemTplToClone": "5b40e61f5acfc4001a599bec",
+        "parentId": "5a341c4086f77401f2541505",
+        "handbookParentId": "5b47574386f77428ca22b330",
+        "overrideProperties": {
+            "Prefab": {
+                "path": "bear_beanie.bundle",
+                "rcid": ""
+            }
+        },
+        "locales": {
+            "en": {
+                "name": "BEAR Beanie",
+                "shortName": "BEAR Beanie",
+                "description": "Beanie designed for BEAR PMCs"
+            }
+        },
+        "fleaPriceRoubles": 3000,
+        "handbookPriceRoubles": 3000,
+        "addtoBots": true
+    }
+}

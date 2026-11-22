@@ -1,0 +1,25 @@
+{
+    "69b4eeaf8e3cf3d70d820d11": {
+        "itemTplToClone": "5af04e0a86f7743a532b79e2",
+        "parentId": "5448ecbe4bdc2d60728b4568",
+        "handbookParentId": "QUEST",
+        "overrideProperties": {
+            "ExaminedByDefault": true,
+            "BackgroundColor": "yellow",
+            "Weight": 5,
+            "Height": 1,
+            "Width": 2,
+            "StackMaxSize": 1,
+            "QuestItem": true
+        },
+        "locales": {
+            "en": {
+                "name": "Gyroscope #1",
+                "shortName": "Gyroscope #1",
+                "description": "A gyro-thingy."
+            }
+        },
+        "fleaPriceRoubles": 9039,
+        "handbookPriceRoubles": 11346
+    }
+}

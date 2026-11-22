@@ -1,0 +1,27 @@
+{
+    "69d2e75da92020043e7c085a": {
+        "itemTplToClone": "591092ef86f7747bb8703422",
+        "parentId": "5448ecbe4bdc2d60728b4568",
+        "handbookParentId": "QUEST",
+        "overrideProperties": {
+            "ExaminedByDefault": true,
+            "Foldable": false,
+            "BackgroundColor": "yellow",
+            "Weight": 0.2,
+            "Height": 1,
+            "Width": 2,
+            "StackMaxSize": 1,
+            "RarityPvE": "Not_exist",
+            "QuestItem": true
+        },
+        "locales": {
+            "en": {
+                "name": "Secure Folder Case 2",
+                "shortName": "Secure Case 2",
+                "description": "A folder case that requires a key to open."
+            }
+        },
+        "fleaPriceRoubles": 9039,
+        "handbookPriceRoubles": 11346
+    }
+}

@@ -1,0 +1,25 @@
+{
+    "69d2ca6e6c1d42de861b9745": {
+        "itemTplToClone": "64f07f7726cfa02c506f8ac0",
+        "parentId": "5448ecbe4bdc2d60728b4568",
+        "handbookParentId": "QUEST",
+        "overrideProperties": {
+            "ExaminedByDefault": true,
+            "BackgroundColor": "yellow",
+            "Weight": 1,
+            "Height": 1,
+            "Width": 2,
+            "StackMaxSize": 1,
+            "QuestItem": true
+        },
+        "locales": {
+            "en": {
+                "name": "Rap Journal",
+                "shortName": "Rap Journal",
+                "description": "A journal filled to the brim with slick verses... Yo."
+            }
+        },
+        "fleaPriceRoubles": 9039,
+        "handbookPriceRoubles": 11346
+    }
+}

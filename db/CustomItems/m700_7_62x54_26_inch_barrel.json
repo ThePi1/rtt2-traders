@@ -1,0 +1,18 @@
+{
+    "69aee71dc974ebdbb08bb852": {
+        "itemTplToClone": "5bfebc250db834001a6694e1",
+        "parentId": "555ef6e44bdc2de9068b457e",
+        "handbookParentId": "5b5f75c686f774094242f19f",
+        "overrideProperties": {},
+        "locales": {
+            "en": {
+                "name": "M700 7.62x54 26 inch barrel",
+                "shortName": "M700 26 Inch",
+                "description": "A 26 inch (660mm) barrel for the Remington Model 700 sniper rifle chambered in 7.62x54 ammo."
+            }
+        },
+        "fleaPriceRoubles": 20000,
+        "handbookPriceRoubles": 20000,
+        "addtoBots": false
+    }
+}

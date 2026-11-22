@@ -1,0 +1,18 @@
+{
+    "69aee736a0c4af2d48adaf61": {
+        "itemTplToClone": "5d2702e88abbc31ed91efc44",
+        "parentId": "555ef6e44bdc2de9068b457e",
+        "handbookParentId": "5b5f75c686f774094242f19f",
+        "overrideProperties": {},
+        "locales": {
+            "en": {
+                "name": "M700 7.62x51 26 inch stainless steel barrel",
+                "shortName": "M700 Steel 26 Inch",
+                "description": "A 26 inch (660mm) stainless steel barrel for Remington Model 700 sniper rifle chambered in 7.62x54 ammo."
+            }
+        },
+        "fleaPriceRoubles": 25000,
+        "handbookPriceRoubles": 25000,
+        "addtoBots": false
+    }
+}

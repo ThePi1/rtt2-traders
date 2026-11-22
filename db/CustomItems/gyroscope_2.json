@@ -1,0 +1,25 @@
+{
+    "69b4eef739f0077489484909": {
+        "itemTplToClone": "5b4c72fb86f7745cef1cffc5",
+        "parentId": "5448ecbe4bdc2d60728b4568",
+        "handbookParentId": "QUEST",
+        "overrideProperties": {
+            "ExaminedByDefault": true,
+            "BackgroundColor": "yellow",
+            "Weight": 5,
+            "Height": 1,
+            "Width": 2,
+            "StackMaxSize": 1,
+            "QuestItem": true
+        },
+        "locales": {
+            "en": {
+                "name": "Gyroscope #2",
+                "shortName": "Gyroscope #2",
+                "description": "A gyro-thingy. Nuhmber too. This thing looks no different than the last. Weiss is just insane I guess."
+            }
+        },
+        "fleaPriceRoubles": 9039,
+        "handbookPriceRoubles": 11346
+    }
+}

@@ -1,0 +1,27 @@
+{
+    "69b4d15ea9ee50f56157c0cd": {
+        "itemTplToClone": "666879d498b97e3a8f09f1ae",
+        "parentId": "5448ecbe4bdc2d60728b4568",
+        "handbookParentId": "QUEST",
+        "overrideProperties": {
+            "ExaminedByDefault": true,
+            "Foldable": false,
+            "BackgroundColor": "yellow",
+            "Weight": 1,
+            "Height": 1,
+            "Width": 2,
+            "StackMaxSize": 1,
+            "RarityPvE": "Not_exist",
+            "QuestItem": true
+        },
+        "locales": {
+            "en": {
+                "name": "Modified LEDX Skin Transilluminator",
+                "shortName": "Red LEDX",
+                "description": "You can argue endlessly that different factories of the same company provide comparable quality, but at the critical moment, everyone chooses the original... perhaps TerraGroup had special arrangements with the American factory to supply a newer model of LEDX."
+            }
+        },
+        "fleaPriceRoubles": 9039,
+        "handbookPriceRoubles": 11346
+    }
+}

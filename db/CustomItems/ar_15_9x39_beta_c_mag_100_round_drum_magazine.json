@@ -1,0 +1,44 @@
+{
+    "69b2f21c043c2dd95a6a1e34": {
+        "itemTplToClone": "6761765f1f08ed5e8800b7a6",
+        "parentId": "5448bc234bdc2d3c308b4569",
+        "handbookParentId": "5b5f754a86f774094242f19b",
+        "overrideProperties": {
+            "BackgroundColor": "yellow",
+            "CanSellOnRagfair": true,
+            "Cartridges": [
+                {
+                    "_name": "cartridges",
+                    "_id": "69b2f21feb0ac703f13c6ba5",
+                    "_parent": "55802d5f4bdc2dac148b458e",
+                    "_max_count": 100,
+                    "_props": {
+                        "filters": [
+                            {
+                                "Filter": [
+                                    "5c0d688c86f77413ae3407b2",
+                                    "61962d879bb3d20b0946d385",
+                                    "57a0dfb82459774d3078b56c",
+                                    "57a0e5022459774d1673f889",
+                                    "5c0d668f86f7747ccb7f13b2",
+                                    "6576f96220d53a5b8f3e395e"
+                                ]
+                            }
+                        ]
+                    },
+                    "_proto": "5748538b2459770af276a261"
+                }
+            ]
+        },
+        "locales": {
+            "en": {
+                "name": "AR-15 9x39 Beta C-Mag 100-round drum magazine",
+                "shortName": "9x39 Beta C-Mag",
+                "description": "A converted 9x39 Beta C-Mag Magazine to hold 9x39 rounds"
+            }
+        },
+        "fleaPriceRoubles": 5000,
+        "handbookPriceRoubles": 5000,
+        "addtoBots": false
+    }
+}

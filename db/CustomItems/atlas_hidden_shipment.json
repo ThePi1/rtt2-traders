@@ -1,0 +1,25 @@
+{
+    "69d2caf8c956d3a46db2e20e": {
+        "itemTplToClone": "5910922b86f7747d96753483",
+        "parentId": "5448ecbe4bdc2d60728b4568",
+        "handbookParentId": "QUEST",
+        "overrideProperties": {
+            "ExaminedByDefault": true,
+            "BackgroundColor": "yellow",
+            "Weight": 2,
+            "Height": 1,
+            "Width": 2,
+            "StackMaxSize": 1,
+            "QuestItem": true
+        },
+        "locales": {
+            "en": {
+                "name": "Atlas' Hidden Shipment",
+                "shortName": "Atlas' Hidden Shipment",
+                "description": "Atlas' Hidden Shipment, thats all she wrote."
+            }
+        },
+        "fleaPriceRoubles": 9039,
+        "handbookPriceRoubles": 11346
+    }
+}

@@ -1,0 +1,43 @@
+{
+    "69485dd1d0f1bdfb9a031113": {
+        "itemTplToClone": "5d1340cad7ad1a0b0b249869",
+        "parentId": "5448bc234bdc2d3c308b4569",
+        "handbookParentId": "5b5f754a86f774094242f19b",
+        "overrideProperties": {
+            "BackgroundColor": "yellow",
+            "Cartridges": [
+                {
+                    "_name": "cartridges",
+                    "_id": "5aaa5dfee5b5b000140293d5",
+                    "_parent": "5aaa5dfee5b5b000140293d3",
+                    "_max_count": 30,
+                    "_props": {
+                        "filters": [
+                            {
+                                "Filter": [
+                                    "5c0d688c86f77413ae3407b2",
+                                    "61962d879bb3d20b0946d385",
+                                    "57a0dfb82459774d3078b56c",
+                                    "57a0e5022459774d1673f889",
+                                    "5c0d668f86f7747ccb7f13b2",
+                                    "6576f96220d53a5b8f3e395e"
+                                ]
+                            }
+                        ]
+                    },
+                    "_proto": "5748538b2459770af276a261"
+                }
+            ]
+        },
+        "locales": {
+            "en": {
+                "name": "M4C9 9x39 PMag Conversion (FDE)",
+                "shortName": "9x39 PMag",
+                "description": "A converted 5.56 PMag to hold 9x39 rounds"
+            }
+        },
+        "fleaPriceRoubles": 5000,
+        "handbookPriceRoubles": 5000,
+        "addtoBots": false
+    }
+}

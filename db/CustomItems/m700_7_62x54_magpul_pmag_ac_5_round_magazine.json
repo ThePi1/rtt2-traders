@@ -1,0 +1,46 @@
+{
+    "69aee367532796ab9d09a515": {
+        "itemTplToClone": "5ce69cbad7f00c00b61c5098",
+        "parentId": "5448bc234bdc2d3c308b4569",
+        "handbookParentId": "5b5f754a86f774094242f19b",
+        "overrideProperties": {
+            "BackgroundColor": "yellow",
+            "Cartridges": [
+                {
+                    "_name": "cartridges",
+                    "_id": "5aaa5dfee5b5b000140293d5",
+                    "_parent": "5d25a7b88abbc3054f3e60bc",
+                    "_max_count": 5,
+                    "_props": {
+                        "filters": [
+                            {
+                                "Filter": [
+                                    "5e023d34e8a400319a28ed44",
+                                    "5e023d48186a883be655e551",
+                                    "5e023cf8186a883be655e54f",
+                                    "59e77a2386f7742ee578960a",
+                                    "5887431f2459777e1612938f",
+                                    "560d61e84bdc2da74d8b4571",
+                                    "64b8f7c241772715af0f9c3d",
+                                    "64b8f7968532cf95ee0a0dbf",
+                                    "64b8f7b5389d7ffd620ccba2"
+                                ]
+                            }
+                        ]
+                    },
+                    "_proto": "5748538b2459770af276a261"
+                }
+            ]
+        },
+        "locales": {
+            "en": {
+                "name": "M700 7.62x54 Magpul PMAG AC 5-round magazine",
+                "shortName": "7.62x54 PMAG 5R",
+                "description": "M700 PMAG converted to hold 7.62x54 5-Round"
+            }
+        },
+        "fleaPriceRoubles": 3000,
+        "handbookPriceRoubles": 3000,
+        "addtoBots": false
+    }
+}

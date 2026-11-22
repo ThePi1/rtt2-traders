@@ -1,0 +1,25 @@
+{
+    "69d2cd74c9543f516911c29d": {
+        "itemTplToClone": "5910922b86f7747d96753483",
+        "parentId": "5448ecbe4bdc2d60728b4568",
+        "handbookParentId": "QUEST",
+        "overrideProperties": {
+            "ExaminedByDefault": true,
+            "BackgroundColor": "yellow",
+            "Weight": 7,
+            "Height": 1,
+            "Width": 2,
+            "StackMaxSize": 1,
+            "QuestItem": true
+        },
+        "locales": {
+            "en": {
+                "name": "Final Sacrifice",
+                "shortName": "Final Sacrifice",
+                "description": "The Final Sacrifice Voron wants me to carry. Whatever is in this case is special."
+            }
+        },
+        "fleaPriceRoubles": 9039,
+        "handbookPriceRoubles": 11346
+    }
+}

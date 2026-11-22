@@ -1,0 +1,25 @@
+{
+    "69b4f0e63266da01f06b0749": {
+        "itemTplToClone": "5910922b86f7747d96753483",
+        "parentId": "5448ecbe4bdc2d60728b4568",
+        "handbookParentId": "QUEST",
+        "overrideProperties": {
+            "ExaminedByDefault": true,
+            "BackgroundColor": "yellow",
+            "Weight": 3,
+            "Height": 1,
+            "Width": 2,
+            "StackMaxSize": 1,
+            "QuestItem": true
+        },
+        "locales": {
+            "en": {
+                "name": "Box of Chinese Peptides",
+                "shortName": "Box of Chinese Peptides",
+                "description": "Case of SM10 Peptides. 'For research use only.'"
+            }
+        },
+        "fleaPriceRoubles": 9039,
+        "handbookPriceRoubles": 11346
+    }
+}

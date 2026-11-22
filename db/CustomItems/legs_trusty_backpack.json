@@ -1,0 +1,23 @@
+{
+    "679d31db3d176182a2adfd86": {
+        "itemTplToClone": "66b5f247af44ca0014063c02",
+        "parentId": "5448e53e4bdc2d60728b4567",
+        "handbookParentId": "5b5f6f6c86f774093f2ecf0b",
+        "overrideProperties": {
+            "Prefab": {
+                "path": "leather_backpack.bundle",
+                "rcid": ""
+            }
+        },
+        "locales": {
+            "en": {
+                "name": "Legs' Trusty Backpack",
+                "shortName": "Leather Backpack",
+                "description": "A old leather backpack. Was used by legs often before the contract wars."
+            }
+        },
+        "fleaPriceRoubles": 20000,
+        "handbookPriceRoubles": 20000,
+        "addtoBots": false
+    }
+}

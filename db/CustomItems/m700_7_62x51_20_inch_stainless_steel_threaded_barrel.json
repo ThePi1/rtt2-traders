@@ -1,0 +1,18 @@
+{
+    "69aee706f98823d5d9e77510": {
+        "itemTplToClone": "5d2703038abbc3105103d94c",
+        "parentId": "555ef6e44bdc2de9068b457e",
+        "handbookParentId": "5b5f75c686f774094242f19f",
+        "overrideProperties": {},
+        "locales": {
+            "en": {
+                "name": "M700 7.62x51 20 inch stainless steel threaded barrel",
+                "shortName": "M700 Steel 20 Inch",
+                "description": "A 20 inch (508mm) stainless steel threaded barrel for the Remington Model 700 sniper rifle chambered in 7.62x54 ammo."
+            }
+        },
+        "fleaPriceRoubles": 23000,
+        "handbookPriceRoubles": 23000,
+        "addtoBots": false
+    }
+}

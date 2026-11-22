@@ -1,0 +1,39 @@
+{
+    "69436a98627437674fea7173": {
+        "itemTplToClone": "57c44dd02459772d2e0ae249",
+        "parentId": "550aa4cd4bdc2dd8348b456c",
+        "handbookParentId": "5b5f731a86f774093e6cb4f9",
+        "overrideProperties": {
+            "Slots": [
+                {
+                    "_name": "mod_mount_000",
+                    "_id": "58246acc24597753c0717aa2",
+                    "_parent": "57c44dd02459772d2e0ae249",
+                    "_props": {
+                        "filters": [
+                            {
+                                "Filter": [
+                                    "57a3459f245977764a01f703"
+                                ],
+                                "Shift": 0
+                            }
+                        ]
+                    },
+                    "_required": false,
+                    "_mergeSlotWithChildren": false,
+                    "_proto": "55d30c4c4bdc2db4468b457e"
+                }
+            ]
+        },
+        "locales": {
+            "en": {
+                "name": "M4A1 C9 10.3' Barrel",
+                "shortName": "C9 10.3",
+                "description": "Barrel for the custom made M4A1 C9 from Legs."
+            }
+        },
+        "fleaPriceRoubles": 15000,
+        "handbookPriceRoubles": 15000,
+        "addtoBots": false
+    }
+}

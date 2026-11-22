@@ -58,7 +58,7 @@ From the new quests (built 2026-11-19). Every new quest's description and succes
   - V2: encoder and DSP craft
   - V12: Pyramid Head Funko (no such item)
   - S4: "M754" (no such item)
-  - S20 and S21: flea bans. L.I.M.P. has `CanSellOnRagfair: true` in `CultPlate.json`.
+  - S20 and S21: flea bans. L.I.M.P. has `CanSellOnRagfair: true` in `experimental_lightweight_limp.json`.
 - [ ] **Placeholders and readings to confirm:**
   - L120 reward: 100k XP and skill points; the design says "has to be really good".
   - L108: "M4C9" read as the Colt M4A1.
@@ -89,7 +89,7 @@ From the audit (existing zones):
 - [ ] **`z_q10_gzbench` – Load-Bearing Citizen 1, Ground Zero.** The box spans 30.4–31.4 m, and the nearest mapped floor is 23.4 m. Same as `Q21`.
 - [ ] **`F11_2` – Sacramentum, Shoreline.** Renamed from `F5_2`, its only change. Check the rooster can still be placed.
 
-New zones are in `db/CustomQuestZones/C1_C4_C6_C7_C8_C9.json`. The first four are the least certain.
+New zones are in the map files in `db/CustomQuestZones` (`woods.json`, `ground_zero.json` and so on). The first four are the least certain.
 
 - [ ] **`C7_1` – Loot Lord 2, Woods depot Biotoilets.** Centre (-706, 9.35, 98), 4 × 3 × 5. The game has no floor data here, so the height was guessed from the objects. Check that standing inside the toilets completes the step.
 - [ ] **`C7_2` – Loot Lord 2, Woods railway office (bunk beds).** Centre (-656, 9.1, 181.4), 9 × 3.5 × 16. Height guessed the same way as `C7_1`.
@@ -132,7 +132,7 @@ New zones are in `db/CustomQuestZones/C1_C4_C6_C7_C8_C9.json`. The first four ar
 
 ### New quests to check in game (built 2026-11-19)
 
-New zones are in one file per trader: `atlas.json`, `price.json`, `xiaoming.json`, `needle.json`, `voron.json` and `weiss.json` in `db/CustomQuestZones`. Every row marked **Needs check** names its zones. These are the least certain:
+New zones are in `db/CustomQuestZones`, one file per map (`customs.json`, `streets.json` and so on). Every row marked **Needs check** names its zones. These are the least certain:
 
 - [ ] **Heights I set by hand**, because the game's floor map only had another storey there:
   - `A24_3` (Razvedchikov 7 apartment)
@@ -482,7 +482,7 @@ New zones are in one file per trader: `atlas.json`, `price.json`, `xiaoming.json
 | N10 | Needle | Inject Me Scotty | Find and Turn in 3 CALOK |  |  | `6afeb23e0e3afc1378c882cd` | Built | Built: hand in 3 FIR CALOK-B |
 | N11 | Needle | It's Wrapping Time | Find and Turn in 2 Military Bandages |  |  | `6afeb23f6170d8e41c7b7376` | Built | Built: hand in 2 FIR Army bandages |
 | N12 | Needle | Poppin a Proppie | Find and Turn in 3 Propitol |  |  | `6afeb240ed141d1c7383a66e` | Built | Built: hand in 3 FIR Propital |
-| N13 | Needle | Much Needed Shipment | Find the box containing injectors cases |  |  | `6afeb242101f2b1cfb4f0f6f` | Needs check | Built: hand in 1 FIR Injector case (the base item). The sheet's custom "Injectors Case Shipment" item `69bb46282a87c0f36004a252` doesn't exist in Questitems.json |
+| N13 | Needle | Much Needed Shipment | Find the box containing injectors cases |  |  | `6afeb242101f2b1cfb4f0f6f` | Needs check | Built: hand in 1 FIR Injector case (the base item). The sheet's custom "Injectors Case Shipment" item `69bb46282a87c0f36004a252` doesn't exist in `db/CustomItems` |
 | N14 | Needle | Drug Buddies | Kill Reshala and 10 scavs in one raid |  |  | `6afeb2439f394137d8e78acf` | Built | Built: kill Reshala on Customs, and 10 Scavs on Customs in one raid. The game can't tie the two counters to the same raid, so only the Scav count is per raid |
 | N15 | Needle | Soundcloud Soliloquy | Look for 50 Cent bibliography on Interchange room Toy/book store |  |  | `6afeb2449c22ac69eeab59c8` | Needs check | Built: visit the existing zone `N15` (toy/book store), find and hand in the Rap Journal, which now has a forced spawn in that store (`interchange_forced.json`) |
 | N16 | Needle | This Cranker is Crazy | Kill 5 Scavs on the island near the washed up tanker on Shoreline |  |  | `6afeb2464da4ce9f9566d21a` | Needs check | Built: kill 5 Scavs inside new zone `N16` (the island and the stranded ship on Shoreline) |
@@ -537,7 +537,7 @@ New zones are in one file per trader: `atlas.json`, `price.json`, `xiaoming.json
 | S18 | Weiss | Brains Over Brawn | Go to labs and find documents Labs Manager Room | S13 | XP, 2 Labs Cards | `6a1357468c34ba4a387cd035` | Built | Built: find and hand in the TerraGroup shipment report (its manager's office spawn was already in place); rewards 2 Labs keycards; Sheet: NO LOCALES |
 | S19 | Weiss | Brawn Over Brains | Kill 1 enemy will baton melee weapon | S18 | XP, Taiga melee(Hidden Reward) | `6a1359dd8c34ba4a387cd03e` | Built | Built: kill 1 enemy with the PR-Taran baton; hidden reward: a UVSR Taiga-1 machete; Sheet: NO LOCALES |
 | S20 | Weiss | My Masterpiece | Get 10 kills with REAPIR scope | S19 | Xp, Thermal Goggles with assort unlock (Flea Ban?) | `6a135a8c8c34ba4a387cd048` | Built | Built: 10 kills with a REAP-IR fitted; rewards T-7 thermal goggles and unlocks a T-7 offer at Weiss LL4 (650k RUB, my price). The design's "flea ban" isn't done: it's an item property, your call; Sheet: NO LOCALES |
-| S21 | Weiss | Ultimate Body | Turn in damaged Cult Plates | S20 | Xp, 2 Custom Armor Plates(Assort Unlock with Flea Ban) | `6a135b598c34ba4a387cd050` | Built | Built: hand in 2 Cult Termite plates at 60% condition or less; rewards 2 L.I.M.P. plates and unlocks a L.I.M.P. offer at Weiss LL4 (180k RUB, my price). The "flea ban" isn't done (L.I.M.P. has CanSellOnRagfair true in CultPlate.json); Sheet: NO LOCALES |
+| S21 | Weiss | Ultimate Body | Turn in damaged Cult Plates | S20 | Xp, 2 Custom Armor Plates(Assort Unlock with Flea Ban) | `6a135b598c34ba4a387cd050` | Built | Built: hand in 2 Cult Termite plates at 60% condition or less; rewards 2 L.I.M.P. plates and unlocks a L.I.M.P. offer at Weiss LL4 (180k RUB, my price). The "flea ban" isn't done (L.I.M.P. has CanSellOnRagfair true in experimental_lightweight_limp.json); Sheet: NO LOCALES |
 
 ## In the repo but not in the sheet
 

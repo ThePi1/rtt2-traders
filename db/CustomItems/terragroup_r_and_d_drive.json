@@ -1,0 +1,27 @@
+{
+    "69b4d0c58cef59c5c553c4be": {
+        "itemTplToClone": "6575a6ca8778e96ded05a802",
+        "parentId": "5448ecbe4bdc2d60728b4568",
+        "handbookParentId": "QUEST",
+        "overrideProperties": {
+            "ExaminedByDefault": true,
+            "Foldable": false,
+            "BackgroundColor": "yellow",
+            "Weight": 1,
+            "Height": 1,
+            "Width": 2,
+            "StackMaxSize": 1,
+            "RarityPvE": "Not_exist",
+            "QuestItem": true
+        },
+        "locales": {
+            "en": {
+                "name": "Terragroup R&D Drive",
+                "shortName": "Terragroup R&D Drive",
+                "description": "A scientist's hard drive. May have R&D secrets."
+            }
+        },
+        "fleaPriceRoubles": 9039,
+        "handbookPriceRoubles": 11346
+    }
+}

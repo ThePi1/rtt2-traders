@@ -1,0 +1,43 @@
+{
+    "69b2ee46777f25ea2d45101a": {
+        "itemTplToClone": "5c6d42cb2e2216000e69d7d1",
+        "parentId": "5448bc234bdc2d3c308b4569",
+        "handbookParentId": "5b5f754a86f774094242f19b",
+        "overrideProperties": {
+            "BackgroundColor": "yellow",
+            "Cartridges": [
+                {
+                    "_name": "cartridges",
+                    "_id": "69b2ee023bb9de8f56a1c5e2",
+                    "_parent": "55802d5f4bdc2dac148b458e",
+                    "_max_count": 30,
+                    "_props": {
+                        "filters": [
+                            {
+                                "Filter": [
+                                    "5c0d688c86f77413ae3407b2",
+                                    "61962d879bb3d20b0946d385",
+                                    "57a0dfb82459774d3078b56c",
+                                    "57a0e5022459774d1673f889",
+                                    "5c0d668f86f7747ccb7f13b2",
+                                    "6576f96220d53a5b8f3e395e"
+                                ]
+                            }
+                        ]
+                    },
+                    "_proto": "5748538b2459770af276a261"
+                }
+            ]
+        },
+        "locales": {
+            "en": {
+                "name": "AR-15 9x39 HK 30 STANAG polymer 30-round magazine",
+                "shortName": "9x39 HK 30",
+                "description": "A converted 5.56 HK 30 Magazine to hold 9x39 rounds"
+            }
+        },
+        "fleaPriceRoubles": 5000,
+        "handbookPriceRoubles": 5000,
+        "addtoBots": false
+    }
+}

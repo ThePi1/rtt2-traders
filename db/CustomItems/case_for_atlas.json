@@ -1,0 +1,27 @@
+{
+    "69b4d5c725998b5696dcaf77": {
+        "itemTplToClone": "67499b3eeca8acb2d2061636",
+        "parentId": "5448ecbe4bdc2d60728b4568",
+        "handbookParentId": "QUEST",
+        "overrideProperties": {
+            "ExaminedByDefault": true,
+            "Foldable": false,
+            "BackgroundColor": "yellow",
+            "Weight": 8,
+            "Height": 1,
+            "Width": 2,
+            "StackMaxSize": 1,
+            "RarityPvE": "Not_exist",
+            "QuestItem": true
+        },
+        "locales": {
+            "en": {
+                "name": "Case For Atlas",
+                "shortName": "Case For Atlas",
+                "description": "A weapon case, sounds like a bunch of rattling junk if you ask me, but that weirdo wants whatever is inside."
+            }
+        },
+        "fleaPriceRoubles": 9039,
+        "handbookPriceRoubles": 11346
+    }
+}

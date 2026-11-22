@@ -1,0 +1,27 @@
+{
+    "69b4d1d5beca6d110b3d3dfb": {
+        "itemTplToClone": "5938878586f7741b797c562f",
+        "parentId": "5448ecbe4bdc2d60728b4568",
+        "handbookParentId": "QUEST",
+        "overrideProperties": {
+            "ExaminedByDefault": true,
+            "Foldable": false,
+            "BackgroundColor": "yellow",
+            "Weight": 0.2,
+            "Height": 1,
+            "Width": 2,
+            "StackMaxSize": 1,
+            "RarityPvE": "Not_exist",
+            "QuestItem": true
+        },
+        "locales": {
+            "en": {
+                "name": "Secure Folder 0052",
+                "shortName": "Secure Folder 0052",
+                "description": "A folder case that requires a key to open."
+            }
+        },
+        "fleaPriceRoubles": 9039,
+        "handbookPriceRoubles": 11346
+    }
+}

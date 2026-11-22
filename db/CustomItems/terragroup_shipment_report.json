@@ -1,0 +1,25 @@
+{
+    "69b4f058d7f63d42ceed6c9b": {
+        "itemTplToClone": "675f7acc4076a741a3061566",
+        "parentId": "5448ecbe4bdc2d60728b4568",
+        "handbookParentId": "QUEST",
+        "overrideProperties": {
+            "ExaminedByDefault": true,
+            "BackgroundColor": "yellow",
+            "Weight": 0.2,
+            "Height": 1,
+            "Width": 2,
+            "StackMaxSize": 1,
+            "QuestItem": true
+        },
+        "locales": {
+            "en": {
+                "name": "TerraGroup shipment report",
+                "shortName": "TerraGroup shipment report",
+                "description": "A stack of documents with data on TerraGroup shipments. Contains reports on completed and planned shipments."
+            }
+        },
+        "fleaPriceRoubles": 9039,
+        "handbookPriceRoubles": 11346
+    }
+}

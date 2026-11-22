@@ -1,0 +1,23 @@
+{
+    "6765d79148caecc924f38301": {
+        "itemTplToClone": "5b40e61f5acfc4001a599bec",
+        "parentId": "5a341c4086f77401f2541505",
+        "handbookParentId": "5b47574386f77428ca22b330",
+        "overrideProperties": {
+            "Prefab": {
+                "path": "bear_hat.bundle",
+                "rcid": ""
+            }
+        },
+        "locales": {
+            "en": {
+                "name": "BEAR 5-Panel",
+                "shortName": "BEAR Hat",
+                "description": "5 Panel hat designed for BEAR PMCs"
+            }
+        },
+        "fleaPriceRoubles": 3000,
+        "handbookPriceRoubles": 3000,
+        "addtoBots": true
+    }
+}

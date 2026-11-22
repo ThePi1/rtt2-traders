@@ -1,0 +1,25 @@
+{
+    "69b4efd4696fcee5c85250a4": {
+        "itemTplToClone": "593a87af86f774122f54a951",
+        "parentId": "5448ecbe4bdc2d60728b4568",
+        "handbookParentId": "QUEST",
+        "overrideProperties": {
+            "ExaminedByDefault": true,
+            "BackgroundColor": "yellow",
+            "Weight": 0.2,
+            "Height": 1,
+            "Width": 2,
+            "StackMaxSize": 1,
+            "QuestItem": true
+        },
+        "locales": {
+            "en": {
+                "name": "Special Chemical",
+                "shortName": "Special Chemical",
+                "description": "Chemical Weiss is looking for. I don't know why he wants me to kill a guy on Shoreline but I guess it's work."
+            }
+        },
+        "fleaPriceRoubles": 9039,
+        "handbookPriceRoubles": 11346
+    }
+}

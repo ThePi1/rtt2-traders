@@ -1,0 +1,27 @@
+{
+    "69b4cd55c28d7079a2e4372e": {
+        "itemTplToClone": "590c621186f774138d11ea29",
+        "parentId": "5448ecbe4bdc2d60728b4568",
+        "handbookParentId": "QUEST",
+        "overrideProperties": {
+            "ExaminedByDefault": true,
+            "Foldable": false,
+            "BackgroundColor": "yellow",
+            "Weight": 0.2,
+            "Height": 1,
+            "Width": 2,
+            "StackMaxSize": 1,
+            "RarityPvE": "Not_exist",
+            "QuestItem": true
+        },
+        "locales": {
+            "en": {
+                "name": "Secure Flash Drive",
+                "shortName": "Secure Flash Drive",
+                "description": "Flash Drive found at the crashed helicopter on lighthouse."
+            }
+        },
+        "fleaPriceRoubles": 9039,
+        "handbookPriceRoubles": 11346
+    }
+}

@@ -1,0 +1,23 @@
+{
+    "679de71c3b47fe7f7537f7ff": {
+        "itemTplToClone": "5b40e61f5acfc4001a599bec",
+        "parentId": "5a341c4086f77401f2541505",
+        "handbookParentId": "5b47574386f77428ca22b330",
+        "overrideProperties": {
+            "Prefab": {
+                "path": "usec_hat.bundle",
+                "rcid": ""
+            }
+        },
+        "locales": {
+            "en": {
+                "name": "USEC 5-Panel",
+                "shortName": "USEC Hat",
+                "description": "5 Panel hat designed for USEC PMCs"
+            }
+        },
+        "fleaPriceRoubles": 3000,
+        "handbookPriceRoubles": 3000,
+        "addtoBots": true
+    }
+}
