@@ -25,14 +25,10 @@ Nothing open.
 From the new quests (built 2026-11-19). Every new quest's description and success text is my [PH] text.
 
 - [ ] **Not built, waiting on you** (reasons in each row's Notes):
-  - A21–A23 (the "absurd" gun builds)
-  - P16 (no bowling ball item)
-  - X6 (too open)
-  - X21 and L42 (no game dev room found on Streets)
-  - V13 and V14 (locations unclear)
-  - L31 (same task as L32)
-  - A29–A30 are Skipped: their items don't exist.
-- [ ] **Chains that skip an unbuilt quest:** these start after an earlier quest until the missing one exists. A24 starts after A20, P17 after P15, X7 after X5, X22 after X20, V15 after V12, L43 after L32. Re-point them when the missing quests are built.
+  - A21–A23 (the "absurd" gun builds): pick or adjust one of my three suggestions.
+  - P16: needs a bowling ball item and the "twist". Suggested base item: a Christmas tree ornament (glossy ball, 1×1).
+  - Skipped on purpose: L31 (repeats L32) and A29–A30 (need custom models).
+- [ ] **Chains that skip an unbuilt quest:** A24 starts after A20 (A21–A23 not built) and P17 after P15 (P16 not built). Re-point them when those are built.
 - [ ] **Design rewards left out:**
   - A10: unlock Price (Q8 already unlocks Price)
   - A14: unlock all maps
@@ -157,6 +153,14 @@ New zones are in `db/CustomQuestZones`, one file per map (`customs.json`, `stree
 - [ ] **Plants:** each plant takes one whole item or stack and counts 1. A20 now asks for one stack of dollars per drone, P4 for one stack per building, V2 for 2 separate GPUs.
 
 
+### New quests to check in game (built 2026-11-21)
+
+- [ ] **X6 Delay, Deny, Defend:** the new Faulty Gunpowder spawns on the desk next to the safe in the Tarcone director's office (Customs, `bigmap_forced.json`). Plant zone `X6` is the X-ray control room on the 2nd floor of the Zmeisky 4a polyclinic (Streets), next to the fluorograph. Check the item spawns, can be carried to Streets, and the plant prompt shows in the control room.
+- [ ] **X21 Gotcha, Gatcha:** zones `X21_1` (open-plan office), `X21_2` (kitchen) and `X21_3` (relaxation room) in the Zmeisky 6 game studio. I read "the locked room" as the relaxation room, since Streets has a "Relaxation room key" for a city office; check it really is the locked one.
+- [ ] **L42 Safe on Block 1:** six marker zones `L42_1`–`L42_6`, one on each red MSI Aegis PC in the Zmeisky 6 office (`L42_6` is in the director's office). Check each marker prompt appears at its PC.
+- [ ] **V13 Pickup 1:** new Sacrifice case spawn in the candle circle of the ground-floor cultist flat on Chekannaya 13 (Streets, at 188.7, 0.1, 226.3).
+- [ ] **V14 Pickup 2:** new Sacrifice case spawn at the cult circle in the Woods sunken village (-88.7, 12.8, -717.6), my reading of "sunken circle". Check it lands on the ground.
+
 ## Storyteller side lines (L)
 
 | ID | Trader | Quest | Tasks | Unlocked by | Reward | Quest id | Status | Notes |
@@ -192,7 +196,7 @@ New zones are in `db/CustomQuestZones`, one file per map (`customs.json`, `stree
 | L28 | Storyteller | I'm Hungry | Handover 3 FIR noodes and 3 FIR Iskra | L29 | XP, Holodilnick bag | `6a0bb873255fe4bc50f2584a` | Audited | Apex Predator - Part 2 |
 | L29 | Storyteller | Ammo Lover | Handover 8 boxes FIR ammo | L30 | XP | `6a0bb9e8255fe4bc50f25853` | Audited | Dialed In - Part 3 |
 | L30 | Storyteller | Back To Basics | Kill 4 PMCs, 4 Scav with a pistol on Shoreline | L22 |  | `6a0bbb85255fe4bc50f2585a` | Audited | Rest In Pieces |
-| L31 | Storyteller | Broad Consensus | Reach rep 2 with all new traders (minus Storyteller) | Q19 |  |  | Flagged | Not built: as written it's the same task as L32 Domain Expansion (level 2 with all modded traders). Did you mean standing, or a different level?; Bullet Hose |
+| L31 | Storyteller | Broad Consensus | Reach rep 2 with all new traders (minus Storyteller) | Q19 |  |  | Skipped | Skipped: intentional, it repeats L32 Domain Expansion by design.; Bullet Hose |
 | L32 | Storyteller | Domain Expansion | Reach lv2 rep with all modded traders | Q14 | Unlock all below pt.1 quests, 10k XP | `69f94677a49a5754e709dbae` | Audited | Sheet said "not working": it needs LL2 with Atlas, Needle and Price, who had no quests to raise standing. Reachable once their quests are built.; Sheet: not working |
 | L33 | Storyteller | Live, Laugh, Love - Part 1 | Turn in FIR: 2x Air Filter, 3x GPU, 5x Hose, 5x ES Lamp | L32 | Hideout Management levels | `69f94739a49a5754e709dbb8` | Audited |  |
 | L34 | Storyteller | Live, Laugh, Love - Part 2 | Turn in FIR: 2x AESA, 7x Screws, 7x Bolt, 1x Intelligence Folder, 2x Iskra | L33 | Hideout Management levels | `69f94af1a49a5754e709dbbe` | Audited | Fixed: asks for 2 Iskra (was 1), found in raid (`a2cf888`). |
@@ -203,8 +207,8 @@ New zones are in `db/CustomQuestZones`, one file per map (`customs.json`, `stree
 | L39 | Storyteller | Running on Empty - Part 1 | Kill 10 PMCs under the effects of stimulants | L32 | Metabolism levels | `69f9feebe53cfbf3b12f0784` | Audited |  |
 | L40 | Storyteller | Running on Empty - Part 2 | Turn in FIR: 10x Iskra, 10x Water | L39 | Metabolism levels | `69fa0399e53cfbf3b12f078a` | Audited |  |
 | L41 | Storyteller | Running on Empty - Part 3 | Kill 4 PMCs with while wearing PACA and a pompon hat, while light bleeding | L40 | Metabolism levels | `69fa050ce53cfbf3b12f078e` | Audited |  |
-| L42 | Storyteller | Safe on Block - Part 1 | Mark all the red computers in the game dev room on Streets | L32 | Immunity levels | `6b025b39e5a6f34252d3f827` | Needs check | Built: mark the 6 red MSI Aegis computers in the Zmeisky 6 game studio office on Streets with new zones `L42_1`-`L42_6` (one per PC; `L42_6` is in the director's office). Immunity 1,000; Not built: no game dev room on Streets that I could find (same as X21). L43 starts after Domain Expansion until this exists |
-| L43 | Storyteller | Safe on Block - Part 2 | Shoot: 1 PMC in the left leg with a shotgun >50m, 1PMC in the right leg with a shotgun >50m, 1PMC in the torso with a shotgun >65m | L42 | Immunity levels | `6afeb4d643d1cd87c702de21` | Built | Built: shotgun hits on PMCs: left leg at 50 m+, right leg at 50 m+, torso (chest or stomach) at 65 m+ (hits, not kills, as the design says "shoot"). Starts after Domain Expansion because L42 isn't built |
+| L42 | Storyteller | Safe on Block - Part 1 | Mark all the red computers in the game dev room on Streets | L32 | Immunity levels | `6b025b39e5a6f34252d3f827` | Needs check | Built: mark the 6 red MSI Aegis computers in the Zmeisky 6 game studio office on Streets with new zones `L42_1`-`L42_6` (one per PC; `L42_6` is in the director's office). Immunity 1,000 |
+| L43 | Storyteller | Safe on Block - Part 2 | Shoot: 1 PMC in the left leg with a shotgun >50m, 1PMC in the right leg with a shotgun >50m, 1PMC in the torso with a shotgun >65m | L42 | Immunity levels | `6afeb4d643d1cd87c702de21` | Built | Built: shotgun hits on PMCs: left leg at 50 m+, right leg at 50 m+, torso (chest or stomach) at 65 m+ (hits, not kills, as the design says "shoot"). |
 | L44 | Storyteller | Safe on Block - Part 3 | Survive with no food and no water for 10 minutes, then survive and extract | L43 | Immunity levels | `6afeb4d7d1605edd10f081e0` | Needs check | Built: a 10-minute HealthEffect counter with both Dehydration and Exhaustion on the stomach, then survive and extract. The HealthEffect timing is my best reading of the client; check it in game Skill reward 2,700, matching the other Part 3s (1,000 + 1,500 + 2,700 reaches Elite). |
 | L45 | Storyteller | Dodge Caravan - Part 1 | Get 3 Scav kills with dehydration | L32 | Endurance levels | `69ff8a544a655e862e8149ce` | Audited |  |
 | L46 | Storyteller | Dodge Caravan - Part 2 | Kill 10 PMCs using AUG 10-round mag | L45 | Endurance levels | `6a0ce468de041c7f96100a7e` | Audited | Fixed: rewarded Mag Drills; now Endurance like the rest of the line (`ca26ad1`). |
@@ -394,8 +398,8 @@ New zones are in `db/CustomQuestZones`, one file per map (`customs.json`, `stree
 | A26 | Atlas | Hitscan - Part 1 | 5 kills with snipers >100m |  |  | `6afeada548b82fcfce03670d` | Built | Built: 5 kills with a bolt-action rifle from 100 m or more. Registered under the Sniper category so modded bolt guns count |
 | A27 | Atlas | Hitscan - Part 2 | 5 kills with snipers >250m |  |  | `6afeada6119f6aae527fe2f7` | Built | Built: 5 kills with a bolt-action rifle from 250 m or more. Registered under the Sniper category so modded bolt guns count |
 | A28 | Atlas | Meet Your Maker | Visit the 3 water treatment roofs on (First,Second,Third) Lighthouse, then transit to Shoreline, find a package in the Heli at resort, and extract via Vehicle extract |  |  | `6afeadae24543451782f7b1a` | Needs check | Built: visit the existing roof zones `A28_1`-`A28_3` on Lighthouse, transit from Lighthouse (any transit counts: the game can't require the Shoreline one), find the Case For Atlas at the resort helicopter (new forced spawn in `shoreline_forced.json`), extract via the Shoreline vehicle extract, hand in the case |
-| A29 | Atlas | God's Child, Herself | Retrieve Misato Bodypillow in the Relax Lounge |  |  |  | Skipped | Skipped: the item (Misato body pillow / Lance of Longinus) doesn't exist yet; make it under Custom quest items and I can build the quest |
-| A30 | Atlas | All Comes Tumbling Down | Retrieve Lance of Longinus from the Red labs room |  |  |  | Skipped | Skipped: the item (Misato body pillow / Lance of Longinus) doesn't exist yet; make it under Custom quest items and I can build the quest |
+| A29 | Atlas | God's Child, Herself | Retrieve Misato Bodypillow in the Relax Lounge |  |  |  | Skipped | Skipped for now: the item (Misato body pillow / Lance of Longinus) needs a custom model and bundle. |
+| A30 | Atlas | All Comes Tumbling Down | Retrieve Lance of Longinus from the Red labs room |  |  |  | Skipped | Skipped for now: the item (Misato body pillow / Lance of Longinus) needs a custom model and bundle. |
 
 ## Xiaoming (X)
 
@@ -406,8 +410,8 @@ New zones are in `db/CustomQuestZones`, one file per map (`customs.json`, `stree
 | X3 | Xiaoming | Silk Road - Part 2 | Plant drug packages (stims) (Injector Cases?) at 5 locations around Shoreline |  |  | `6afeb133df04bdf8630f0ccf` | Needs check | Built: plant any stimulant at 5 new zones on Shoreline: `X3_1` south pier, `X3_2` weather station, `X3_3` village house, `X3_4` gas station office, `X3_5` bus station office (stims instead of Injector Cases, which are rare and pricey) |
 | X4 | Xiaoming | Better Without | Kill quest; ends up being Atlas's guys |  |  | `6afeb134f4a03ce7764de4bc` | Built | Built: kill 10 USEC PMCs anywhere (the "Atlas's guys" twist is in the text) |
 | X5 | Xiaoming | Better Without - Part 2 | Kill quest (similar but distinct) - certain map/faction |  |  | `6afeb13573c586a224470329` | Built | Built: kill 10 Rogues on Lighthouse (faction and map my choice) |
-| X6 | Xiaoming | Delay, Deny, Defend | Break into some healthcare building and somehow get back at Atlas |  |  | `6b025b1d71067db8be11b529` | Needs check | Built: find the new Faulty Gunpowder quest item (spawns on the desk in the Tarcone director's office, Customs), plant it at new zone `X6` (X-ray control room, 2nd floor of the Zmeisky 4a polyclinic on Streets; needs the X-ray room key), then survive and extract from Streets; Not built: too open to build as written (which healthcare building, and how to "get back at Atlas"). Tell me the building and the action. X7 starts after X5 until this exists |
-| X7 | Xiaoming | Eastern Medicine | Find some med things |  |  | `6afeb137d0c21ba797f7842d` | Built | Built: hand in 3 FIR Golden Star balm and 2 FIR Analgin. Starts after X5 because X6 isn't built |
+| X6 | Xiaoming | Delay, Deny, Defend | Break into some healthcare building and somehow get back at Atlas |  |  | `6b025b1d71067db8be11b529` | Needs check | Built: find the new Faulty Gunpowder quest item (spawns on the desk in the Tarcone director's office, Customs), plant it at new zone `X6` (X-ray control room, 2nd floor of the Zmeisky 4a polyclinic on Streets; needs the X-ray room key), then survive and extract from Streets |
+| X7 | Xiaoming | Eastern Medicine | Find some med things |  |  | `6afeb137d0c21ba797f7842d` | Built | Built: hand in 3 FIR Golden Star balm and 2 FIR Analgin. |
 | X8 | Xiaoming | Jade Idol | Whatever the living high not a crime part 2 items are, turn in FIR |  |  | `6afeb138974a4842a8a976d1` | Built | Built: hand in the items of Ragman's Living High is Not a Crime - Part 2: 3 antique teapots, 2 antique vases, 1 Axel parrot, 2 Raven figurines, all FIR |
 | X9 | Xiaoming | Concussion Tested | Get headshot while wearing a Killa helm, survive and extract same raid |  |  | `6afeb13982735cde65f1a9dc` | Needs check | Built: 5 headshot kills while wearing the Killa Edition Maska-1SCh, counted only on raids you survive. Reworded from "get headshot": there's no condition for being shot |
 | X10 | Xiaoming | Transfer Student | Reach lv5 attention, lv7 intellect |  |  | `6afeb13a3774896637aeac6a` | Built | Built: Attention 5 and Intellect 7 |
@@ -421,8 +425,8 @@ New zones are in `db/CustomQuestZones`, one file per map (`customs.json`, `stree
 | X18 | Xiaoming | Glory to CCP - Part 1 | Locate the location of Xiaoming's friend on Streets, survive and extract |  |  | `6afeb145ae8bee9710397df9` | Needs check | Built: visit new zone `X18` (an apartment in Chekannaya 15), then survive and extract on Streets |
 | X19 | Xiaoming | Glory to CCP - Part 2 | Locate the place of work of Xiaoming's friend on Streets, find the package, survive and extract, turn in |  |  | `6afeb1468cdb28cc9fa9b95c` | Needs check | Built: visit new zone `X19` (Transtechexport offices), find the Wrapped Package (new forced spawn there in `TarkovStreets_forced.json`), extract, hand it in |
 | X20 | Xiaoming | Chinatown | Visit all the restaurants on Streets of Tarkov, and mark their front doors |  |  | `6afeb14a0c36dcb8fefae761` | Needs check | Built: mark the front of 4 Streets restaurants with new zones `X20_1` (Beluga), `X20_2` (Brodion restopub), `X20_3` (Burger Spot at the Pinewood), `X20_4` (Burger Spot, Nizhnyaya Sadovaya). Marking means visiting, so there's no separate visit step |
-| X21 | Xiaoming | Gotcha, Gatcha | Plant 3 gas cans and 3 matches in the Game Dev room on streets, including one in the locked room. Survive and extract. |  |  | `6b025b261eba387b5050e092` | Needs check | Built: plant a fuel can (Expeditionary or Metal fuel tank) and Hunting matches at each of 3 new zones in the Zmeisky 6 game studio office: `X21_1` (open-plan office), `X21_2` (kitchen), `X21_3` (relaxation room; my reading of the locked room, opened by the Relaxation room key), then survive Streets; Not built: I couldn't find a game dev room on Streets (no matching object or area names). Point me at the building and I'll place the zones. X22 starts after X20 until this exists |
-| X22 | Xiaoming | Shishi | Turn in 2 FIR Lion statues |  | Leads to Chimera unlock somehow | `6afeb14b26031308ba2bac1d` | Built | Built: hand in 2 FIR Bronze lion figurines. Starts after X20 because X21 isn't built. The "leads to Chimera unlock" reward is left out: that's a story decision |
+| X21 | Xiaoming | Gotcha, Gatcha | Plant 3 gas cans and 3 matches in the Game Dev room on streets, including one in the locked room. Survive and extract. |  |  | `6b025b261eba387b5050e092` | Needs check | Built: plant a fuel can (Expeditionary or Metal fuel tank) and Hunting matches at each of 3 new zones in the Zmeisky 6 game studio office: `X21_1` (open-plan office), `X21_2` (kitchen), `X21_3` (relaxation room; my reading of the locked room, opened by the Relaxation room key), then survive Streets |
+| X22 | Xiaoming | Shishi | Turn in 2 FIR Lion statues |  | Leads to Chimera unlock somehow | `6afeb14b26031308ba2bac1d` | Built | Built: hand in 2 FIR Bronze lion figurines. The "leads to Chimera unlock" reward is left out: that's a story decision |
 | X23 | Xiaoming | Tourist - Part 1 | Visit multiple locked rooms on Customs (touring good loot spots): trailer park cabin, new gas locked room, dorms 314, customs office key |  |  | `6afeb14cfef9fd9b3cc6e709` | Built | Built: visit the existing zones `X23_1`-`X23_4` on Customs |
 | X24 | Xiaoming | Tourist - Part 2 | Visit multiple locked rooms on Shoreline: tape key, W222, E306, HEP Station  Key |  |  | `6afeb151cb463707e9aac116` | Needs check | Built: visit new zones on Shoreline: `X24_1` W222, `X24_2` E306, `X24_3` HEP station (the Hydro_electro room), `X24_4` resort admin office (the blue-tape key's office, my best match for "tape key") |
 | X25 | Xiaoming | Tourist - Part 3 | Mark inside all Reserve marked rooms RBPKPM, rbbkmr,RBVOMR |  |  | `6afeb15236c9c8c80ffb347e` | Built | Built: mark inside the 3 Reserve marked rooms (existing zones `X25_1`-`X25_3`) |
@@ -490,9 +494,9 @@ New zones are in `db/CustomQuestZones`, one file per map (`customs.json`, `stree
 | V10 | Voron | The Eye Requires Munitions - Part 2 | find and turn in 3 boxes 7.62 |  | XP, 5.45 and 7.62 BP barter | `6afeb330ee909155fdd53269` | Built | Built: hand in 3 FIR 7.62 ammo packs (x39, x51 or x54R); unlocks 5.45x39 BP (750 RUB) and 7.62x39 BP (850 RUB) offers at Voron LL3, 150 per restock |
 | V11 | Voron | The Eye Requires Munitions - Part 3 | Find and turn in 3 boxes of .338 |  | XP, .338 barters | `6afeb331ea2105fd5ee9ba17` | Built | Built: hand in 3 FIR .338 ammo packs; unlocks .338 FMJ (1600 RUB) and .338 AP (4500 RUB) offers at Voron LL4, 40 per restock |
 | V12 | Voron | The Eye Never Forgets | Hunt down a rouge Priest and 2 Cultists |  | XP, Pyramid Head Funko | `6afeb332bfd2980faf94bee2` | Built | Built: kill a cultist Priest and 2 cultist warriors anywhere. The Pyramid Head Funko reward is left out: no such item exists |
-| V13 | Voron | The Eye Requires Pickup - Part 1 | Pickup Sacrifice at Check 13 Marked room |  |  | `6b025b3ac405e51775492a6d` | Needs check | Built: find and hand in the Locked Case (Sacrifice); new spawn in the candle circle of the ground-floor cultist flat on Chekannaya 13 (Streets); Not built: I can't place "Check 13 marked room" (no marked room by that name). Tell me the map and room, and whether it needs a new Sacrifice spawn. V15 starts after V12 until V13-V14 exist |
-| V14 | Voron | The Eye Requires Pickup - Part 2 | Pickup Sacrifice at woods sunken circle |  |  | `6b025b3c20b162caa2a98ec3` | Needs check | Built: find and hand in the Locked Case (Sacrifice); new spawn at the cultist circle in the sunken village on Woods (the same spot as `Q20_1`). My reading of "sunken circle"; Not built: I can't place the Woods "sunken circle" (V4 already uses the bunker circle). Tell me where it is; it also needs a Sacrifice spawn there |
-| V15 | Voron | The Eye Requires Pickup - Part 3 | Pickup Sacrifice at Lighthouse Marked room |  |  | `6afeb3347d7ffcad44de2494` | Built | Built: find and hand in the Locked Case (Sacrifice); its Lighthouse marked room spawn was already in place. Starts after V12 because V13 and V14 aren't built |
+| V13 | Voron | The Eye Requires Pickup - Part 1 | Pickup Sacrifice at Check 13 Marked room |  |  | `6b025b3ac405e51775492a6d` | Needs check | Built: find and hand in the Locked Case (Sacrifice); new spawn in the candle circle of the ground-floor cultist flat on Chekannaya 13 (Streets) |
+| V14 | Voron | The Eye Requires Pickup - Part 2 | Pickup Sacrifice at woods sunken circle |  |  | `6b025b3c20b162caa2a98ec3` | Needs check | Built: find and hand in the Locked Case (Sacrifice); new spawn at the cultist circle in the sunken village on Woods (the same spot as `Q20_1`). My reading of "sunken circle"; it also needs a Sacrifice spawn there |
+| V15 | Voron | The Eye Requires Pickup - Part 3 | Pickup Sacrifice at Lighthouse Marked room |  |  | `6afeb3347d7ffcad44de2494` | Built | Built: find and hand in the Locked Case (Sacrifice); its Lighthouse marked room spawn was already in place. |
 | V16 | Voron | The Eye Requires Pickup - Part 4 | Pickup Sacrifice at Reserve Control room marked key |  |  | `6afeb335ba41467030270a07` | Built | Built: find and hand in the Locked Case (Sacrifice); its Reserve spawn was already in place |
 | V17 | Voron | Reap The Wicked | Kill 20 PMCs with headshots |  |  | `6afeb336c2c73fe5c7aa0b0e` | Built | Built: 20 PMC kills with headshots |
 | V18 | Voron | Reap The Unfortunate | Kill 50 Scavs with Headshots |  |  | `6afeb3370d0cd9dc6356567d` | Built | Built: 50 Scav kills with headshots |
@@ -565,3 +569,4 @@ New zones are in `db/CustomQuestZones`, one file per map (`customs.json`, `stree
 | Final Sacrifice | `69d2cd74c9543f516911c29d` | V20 | yes |
 | Injectors Case Shipment | `69bb46282a87c0f36004a252` | N13 | no |
 | Find Rap Sheet | `69d2ca6e6c1d42de861b9745` | N15 | yes |
+| Faulty Gunpowder | `6b025ad0d88a2ca09c553824` | X6 | yes |
