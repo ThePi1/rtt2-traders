@@ -32,8 +32,6 @@ From the new quests (built 2026-11-19). Every new quest's description and succes
 - [ ] **Placeholders and readings to confirm:**
   - S1 and S16: "rogues" on Labs built as Raiders.
   - A7: check the design, since it may need a Xiaoming tie-in.
-- [ ] **Prices I picked since your last review:** Atlas's 6 maps (A14, 10k-20k), Price's rigs (P10: 26k, 72k, 59k) and backpacks (P11: 19k, 56k, 59k), and the A21-A23 part offers (Glock drum 9k, Mosin Archangel chassis 21k, RPK-16 drum 36k). The Atlas and Price offers are at LL1.
-- [ ] **"Same raid" isn't enforced** where two steps are separate counters: P4, P6, N14, V20, A28. The game also can't require a transit's destination, only the map it starts from: A28, N7–N9, S9, S14.
 
 
 ## Check in game
@@ -318,7 +316,7 @@ New zones are in `db/CustomQuestZones`, one file per map (`customs.json`, `stree
 | C7 | Chimera | Loot Lord - Part 2 | Train Depot Location (Bunks/PortaPotty) and Hidden Bunker Cultist Circle | C6 |  | `6a0ab08eee68f3757a5c85ec` | Audited |  |
 | C8 | Chimera | Loot Lord - Part 3 | Rogue Hunt/ Sniper Hill spot | C7 |  | `6a0ab234ee68f3757a5c85f7` | Audited |  |
 | C9 | Chimera | The Gungeon | Black Pawn Bunker(Hideout and weaponcrates) | C3 |  | `6a0ab2daee68f3757a5c8601` | Needs check | Zone `C9` shrunk to the gunsmithing workshop under Black Bishop; description and step say so. See Check in game.; Unlock status: 5ee234c386f77447ee650e32 |
-| C10 | Chimera | Loot Lord - Part 4 | Get access to the locked loot room on labrynth and visit it | Q25 |  | `6a0ab38cee68f3757a5c860b` | Audited |  |
+| C10 | Chimera | Loot Lord - Part 4 | Get access to the locked loot room on labrynth and visit it | Q25 |  | `6a0ab38cee68f3757a5c860b` | Audited | Fixed: now unlocks after Q25 only, as designed. |
 | C11 | Chimera | Meet God? | Kill Zrachy | L21 | AK-50 unlock and ammo | `6a0d21c5d47f367b5bed547a` | Audited | Fixed: start condition had no quest status; now Apex Predator 4 completed. .50 BMG M21 unlock given LL1 (`1230d6e`). |
 | C12 | Chimera | Leg Up - Part 1 | Hand in any 2 FIR reflex/collimator sights (Legs tribute quest) | C11 | Legs Cosmetics | `6a0d22f0d47f367b5bed548b` | Audited | Fixed: now unlocks after C11, as designed. |
 | C13 | Chimera | Leg Up - Part 2 | Hand in any 2 FIR 5.45 AKs | C12 | 1st Wave Custom guns | `6a0d2447d47f367b5bed5496` | Audited |  |
