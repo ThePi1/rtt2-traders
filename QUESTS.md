@@ -16,15 +16,7 @@ Quest ids are the quest's `_id` in `db/CustomQuests/<trader>/Quests`. Unlocked-b
 
 ### Text to fix
 
-- [ ] **Bird Hunting:** the text says Lighthouse, but the drive spawns on Reserve.
-- [ ] **The Gungeon:** says Black Bishop, which matches where `C9` is now. Only change it if the zone moves to Black Pawn.
-- [ ] **Healthy nor Wealthy nor Wise 1:** the description still says "(Not implemented yet, please skip)".
-- [ ] **L94 Faster Dayo 2:** all three step texts still end "(wip, skip)". The steps work now.
-- [ ] **L92 Gun Nut 3:** the step text says "the [blank] room on RB-ST (wip, please skip)". The step works now (zone `L92`).
-- [ ] **L97 The Auto Price 2:** the step text says "Reach lv. with Price"; it needs loyalty level 3.
-- [ ] **L80 Under the Knife 3:** the quest's name (`6a14f2e1…`) says "Part 2"; there are two Part 2s. It should say Part 3.
-- [ ] **L72 Ok Boomer 1:** I wrote the two new step texts ("Find a bandage in raid", "Hand over a found in raid bandage"). Reword if you like.
-- [ ] **L99 Twenty-Five Types of Ammo 1:** description and success text are my [PH] text.
+Nothing open.
 
 ### Open design questions
 
@@ -95,7 +87,7 @@ New zones are in the map files in `db/CustomQuestZones` (`woods.json`, `ground_z
 - [ ] **`C7_2` – Loot Lord 2, Woods railway office (bunk beds).** Centre (-656, 9.1, 181.4), 9 × 3.5 × 16. Height guessed the same way as `C7_1`.
 - [ ] **`C8` – Loot Lord 3, Lighthouse.** Centre (129, 10.922, -584.5), 9 × 4 × 12. Placed on the rocks past the minefield east of the Water Treatment Plant. Check that the spot matches the quest text and can see the machine guns.
 - [ ] **`C4_2` – Back To The Future, Customs dorm 206.** Centre (229.6, 3.91, 138.4), 2 × 2.5 × 2.4, turned 3.5°. This is a place-item zone in the hallway outside room 206 in the two-story dorm. It overlaps the game's own zone `huntsman_020`, so check that the place-item prompt still appears.
-- [ ] **`C9` – The Gungeon, Reserve.** Centre (-148.53, -8.067, -10.25), 49.9 × 2.9 × 16.9, turned 15.5°. Placed in Black Bishop's basement, where the bunker comes out, to follow the quest text. The sheet says Black Pawn; if it should be Black Pawn, the zone has to move.
+- [ ] **`C9` – The Gungeon, Reserve.** Shrunk to the gunsmithing workshop in the Black Bishop basement (2026-11-21): centre (-155.54, -8.067, -14.01), 16.5 × 2.9 × 8, turned 15.5°. It holds the repair-station workbenches, vises and toolboxes; the floor is at -9.45 m. Check that walking into the workshop completes the step and the corridor outside doesn't.
 - [ ] **`C6` – Loot Lord 1, Shoreline.** Centre (-628.01, -18.436, -236.04), 13.3 × 8.6 × 30, turned 17°. Placed in the Agrocomplex hangar with the toolboxes and welding machine (the sheet's "tool warehouse"). The other candidate is the pier warehouse.
 - [ ] **`C1_1` – Deja-Vu, Ground Zero.** Centre (-13, 31.471, 76), 16 × 4 × 30. Open-plan office on the TerraGroup building's second floor. Check it on both Ground Zero versions.
 - [ ] **`C1_2` – Deja-Vu, Ground Zero.** Centre (81.5, 15.734, 100.5), 8 × 4 × 17. Underground meat truck and the lane beside it. Check it on both versions.
@@ -229,7 +221,7 @@ New zones are in `db/CustomQuestZones`, one file per map (`customs.json`, `stree
 | L51 | Storyteller | Flat Life Regen - Part 1 | Kill 10 Scavs while affected by light bleed | L32 | Vitality levels | `69ff946a30c5fd97a1313db6` | Audited |  |
 | L52 | Storyteller | Flat Life Regen - Part 2 | Kill Killa while affected with heavy bleed | L51 | Vitality levels | `69ff951930c5fd97a1313dbd` | Audited | Fixed: kill target was empty, so Killa never counted; heavy bleed now counts on the right leg too (`505592c`). |
 | L53 | Storyteller | Flat Life Regen - Part 3 | Heavy bleed for 10 minutes, survive and extract | L52 | Vitality levels | `69ff959630c5fd97a1313dc4` | Audited |  |
-| L54 | Storyteller | Healthy nor Wealthy nor Wise - Part 1 | Enter all 10 prime-numbered rooms on 3story Dorms (101 103 107 109 113 211 223 307 311 313) in order | L32 | Health, Intellect levels | `6ac6e56ba4ca66184b6db879` | Audited |  |
+| L54 | Storyteller | Healthy nor Wealthy nor Wise - Part 1 | Enter all 10 prime-numbered rooms on 3story Dorms (101 103 107 109 113 211 223 307 311 313) in order | L32 | Health, Intellect levels | `6ac6e56ba4ca66184b6db879` | Audited | Description filled in ([PH] after the first line). |
 | L55 | Storyteller | Healthy nor Wealthy nor Wise - Part 2 | Turn in 10x FIR pineapple juice | L54 | Health, Intellect levels | `6ac6e7e3a4ca66184b6db89b` | Audited | Design says 10 juice; built with 8. Left as built. |
 | L56 | Storyteller | Healthy nor Wealthy nor Wise - Part 3 | Kill 6 PMC on Ground Zero between 12:00 AM and 1 AM | L55 | Health, Intellect levels | `6ac6e88ba4ca66184b6db8bf` | Audited |  |
 | L57 | Storyteller | Vipassana - Part 1 | Find and Turn in FIR 1x pack Green Tracer 9mm | L32 | Perception, Attention levels | `69fa0ce3c23dface5a239261` | Audited |  |
@@ -247,7 +239,7 @@ New zones are in `db/CustomQuestZones`, one file per map (`customs.json`, `stree
 | L69 | Storyteller | As Sly as a Fox - Part 1 | Sell 5 whiskey to Price | L32 | Charisma levels | `6ac6ec80a4ca66184b6db8c8` | Audited |  |
 | L70 | Storyteller | As Sly as a Fox - Part 2 | Sell 20 stims to Needle | L69 | Charisma levels | `6ac6ec81a4ca66184b6db8c9` | Audited |  |
 | L71 | Storyteller | As Sly as a Fox - Part 3 | Sell 5 AESA to Weiss | L70 | Charisma levels | `6ac6ec82a4ca66184b6db8ca` | Audited |  |
-| L72 | Storyteller | OK Boomer - Part 1 | Turn in 1 FIR bandage | L32 | Memory Levels | `6ac6fa6ebaae3403037837eb` | Audited | Fixed: had no steps, so it completed on accept; now hands in 1 found-in-raid Army or Aseptic bandage (`837f539`). |
+| L72 | Storyteller | OK Boomer - Part 1 | Turn in 1 FIR bandage | L32 | Memory Levels | `6ac6fa6ebaae3403037837eb` | Audited | Fixed: had no steps, so it completed on accept; now hands in 1 found-in-raid Army or Aseptic bandage (`837f539`). Step texts: "Find bandage in raid", "Hand over bandage". |
 | L73 | Storyteller | OK Boomer - Part 2 | Turn in 20 RUB | L72 | Memory Levels | `6ac6fa91baae3403037837ed` | Audited |  |
 | L74 | Storyteller | OK Boomer - Part 3 | Kill 1 PMC | L73 | Memory Levels | `6ac6fdebbaae3403037837f6` | Audited |  |
 | L75 | Storyteller | Mashed Potatoes - Part 1 | Find and Turn in 2 Police Batons,2 Cultist Knives FIR | L32 | Melee levels | `69ffd548ec2ed50f6bc01802` | Audited |  |
@@ -255,7 +247,7 @@ New zones are in `db/CustomQuestZones`, one file per map (`customs.json`, `stree
 | L77 | Storyteller | Mashed Potatoes - Part 3 | Find and Turn in 2 Taiga FIR | L76 | Melee levels | `69ffdb20ec2ed50f6bc0180e` | Audited |  |
 | L78 | Storyteller | Under the Knife - Part 1 | Turn in FIR 7x Esmarch, 5x CMS, 4x SRV | L32 | Surgery levels | `6a14ee45b636566917f0c0fd` | Audited |  |
 | L79 | Storyteller | Under the Knife - Part 2 | Turn in FIR 4x of each stim | L78 | Surgery levels | `6a14f097b636566917f0c107` | Audited | Fixed: Meldonin hand-in is found in raid (`a2cf888`). |
-| L80 | Storyteller | Under the Knife - Part 3 | Get a kill with the blicky | L79 | Surgery levels | `6a14f2e1b636566917f0c134` | Flagged | Built as a second "Under the Knife - Part 2"; its name should say Part 3. See Flags. |
+| L80 | Storyteller | Under the Knife - Part 3 | Get a kill with the blicky | L79 | Surgery levels | `6a14f2e1b636566917f0c134` | Audited | Fixed: was named a second "Under the Knife - Part 2"; now "Part 3". |
 | L81 | Storyteller | Makita, Nikita - Part 1 | Kill 50 PMC | L32 | Aim Drills levels | `69ffcd72305570df33796f24` | Audited |  |
 | L82 | Storyteller | Makita, Nikita - Part 2 | Kill 100 PMC | L81 | Aim Drills levels | `69ffcdb6305570df33796f2a` | Audited |  |
 | L83 | Storyteller | Makita, Nikita - Part 3 | Kill 200 PMC | L82 | Aim Drills levels | `69ffcdf4305570df33796f30` | Audited | Design says 200 kills; built with 150. Left as built. |
@@ -267,12 +259,12 @@ New zones are in `db/CustomQuestZones`, one file per map (`customs.json`, `stree
 | L89 | Storyteller | Fully Vested - Part 3 | Turn in <75% Killa Vest | L88 | light vest, heavy vest levels | `6a14f8223de7c9e706e258c7` | Audited |  |
 | L90 | Storyteller | Gun Nut - Part 1 | Turn in 1 FIR repair kit | L32 | Weapon Maintenence levels | `69ffcfb3ce2c12d1a7ec880d` | Audited |  |
 | L91 | Storyteller | Gun Nut - Part 2 | Turn in 2 FIR repair kit | L90 | Weapon Maintenence levels | `69ffd2bbce2c12d1a7ec8813` | Audited |  |
-| L92 | Storyteller | Gun Nut - Part 3 | Plant a FIR repair kit on reserve (RB-ST), survive and extract | L91 | Weapon Maintenence levels | `6aca8031a26d5245cb767407` | Needs check | Fixed: placement had no zone; now uses `L92` (`d2c7bba`). Step text still says "(wip, please skip)". |
+| L92 | Storyteller | Gun Nut - Part 3 | Plant a FIR repair kit on reserve (RB-ST), survive and extract | L91 | Weapon Maintenence levels | `6aca8031a26d5245cb767407` | Needs check | Fixed: placement had no zone; now uses `L92` (`d2c7bba`). Step text now names the locked RB-ST room of the vehicle repair center. |
 | L93 | Storyteller | Faster Dayo - Part 1 | Kill 5 PMCs with any 10-round mag in the same raid | L32 | Recoil control | `6aca8288a26d5245cb767413` | Audited | Fixed: listed magazines as weapons, so nothing counted; now 5 PMC kills in one raid with any 10-round magazine fitted (`50c77a1`). |
-| L94 | Storyteller | Faster Dayo - Part 2 | Plant 3 stanag 60 round at different spots around reserve Top FLoor Red Gaurd Tower, Black Knight Rooftop Post,White Bishop Rooftop Mortar Position | L93 | Recoil control | `6aca8300a26d5245cb767416` | Needs check | Fixed: the three placements had no zone; now `L94_1`-`L94_3` in step order (`fc2e35a`). Step text still says "(wip, skip)". |
+| L94 | Storyteller | Faster Dayo - Part 2 | Plant 3 stanag 60 round at different spots around reserve Top FLoor Red Gaurd Tower, Black Knight Rooftop Post,White Bishop Rooftop Mortar Position | L93 | Recoil control | `6aca8300a26d5245cb767416` | Needs check | Fixed: the three placements had no zone; now `L94_1`-`L94_3` in step order (`fc2e35a`). Removed "(wip, skip)" from the step texts. |
 | L95 | Storyteller | Faster Dayo - Part 3 | Turn in 20x FIR 60-rounder AK mag (the ice cream cones one) | L94 | Recoil control | `6aca830da26d5245cb767419` | Audited | Typed Completion (`fc2e35a`). |
 | L96 | Storyteller | The Auto Price - Part 1 | Get 5 headshot Scav kills on Woods with the M700 | L32 | Bolt action rifle levels | `6aca868aa26d5245cb767427` | Audited |  |
-| L97 | Storyteller | The Auto Price - Part 2 | Reach lv3 rep with Price | L96 | Bolt action rifle levels | `6aca86c4a26d5245cb76742a` | Flagged | Fixed: asked for standing 3.0; now loyalty level 3 (`73da404`). Step text says "Reach lv. with Price". |
+| L97 | Storyteller | The Auto Price - Part 2 | Reach lv3 rep with Price | L96 | Bolt action rifle levels | `6aca86c4a26d5245cb76742a` | Audited | Fixed: asked for standing 3.0; now loyalty level 3 (`73da404`). The step text "Reach lv. with Price" is as intended. |
 | L98 | Storyteller | The Auto Price - Part 3 | Get 4 headshot kills on raiders on Reserve with the AMX | L97 | Bolt action rifle levels | `6aca86cfa26d5245cb76742d` | Audited |  |
 | L99 | Storyteller | Twenty Five Types of Ammo - Part 1 | Kill 10 PMCs on Interchange with pistols | L32 | Pistol levels | `6aca8948a26d5245cb767438` | Audited | Built: was an empty shell. 10 PMC pistol kills on Interchange, Pistol skill, [PH] text (`8de90da`). |
 | L100 | Storyteller | Twenty Five Types of Ammo - Part 2 | Kill all 3 Goons with Pistols | L99 | Pistol levels | `6afeb4d8c6a5128fce27c30d` | Built | Built: kill Knight, Big Pipe and Birdeye with pistols. Named with a hyphen to match Part 1 |
@@ -338,13 +330,13 @@ New zones are in `db/CustomQuestZones`, one file per map (`customs.json`, `stree
 |---|---|---|---|---|---|---|---|---|
 | C1 | Chimera | Deja-Vu | Scout locations in ground-zero. Terragroup Office, and Meat truck | Q3 | Chimera Initial ,c18 | `6a0a9e0bdbc8c9a772fad9be` | Audited | Sheet: Trader level .2 each quest; Unlock status: (complete) |
 | C2 | Chimera | Brothers in Arms | Kill 3 Rogues on Lighthouse | C1 | XP, 100k RUB | `6a0a9f56dbc8c9a772fad9cc` | Audited | Design says 100k RUB; built with 50k. Left as built. |
-| C3 | Chimera | Bird Hunting | Find Diary in helicopter reserver between dorms | C2 |  | `6a0aa03adbc8c9a772fad9d5` | Flagged | Text says Lighthouse, but the drive spawns on Reserve. |
+| C3 | Chimera | Bird Hunting | Find Diary in helicopter reserver between dorms | C2 |  | `6a0aa03adbc8c9a772fad9d5` | Audited | Fixed: description and step said Lighthouse; the drive spawns on Reserve, so both now say Reserve. |
 | C4 | Chimera | Back to the Future | Plant a tarkone directors key outside of the locked door on Customs, plant a water room key outside of the dorms water room | C1 |  | `6a0aa34edbc8c9a772fad9e7` | Audited |  |
 | C5 | Chimera | Currency Of War | F/T in 1 120 BP and 1 120 BT | C1 |  | `6a0aa18cdbc8c9a772fad9de` | Audited |  |
 | C6 | Chimera | Loot Lord - Part 1 | Tool werehouse shoreline | C1 |  | `6a0aaf43ee68f3757a5c85e2` | Audited | Unlock status: (complete) |
 | C7 | Chimera | Loot Lord - Part 2 | Train Depot Location (Bunks/PortaPotty) and Hidden Bunker Cultist Circle | C6 |  | `6a0ab08eee68f3757a5c85ec` | Audited |  |
 | C8 | Chimera | Loot Lord - Part 3 | Rogue Hunt/ Sniper Hill spot | C7 |  | `6a0ab234ee68f3757a5c85f7` | Audited |  |
-| C9 | Chimera | The Gungeon | Black Pawn Bunker(Hideout and weaponcrates) | C3 |  | `6a0ab2daee68f3757a5c8601` | Audited | Unlock status: 5ee234c386f77447ee650e32 |
+| C9 | Chimera | The Gungeon | Black Pawn Bunker(Hideout and weaponcrates) | C3 |  | `6a0ab2daee68f3757a5c8601` | Needs check | Zone `C9` shrunk to the gunsmithing workshop under Black Bishop; description and step say so. See Check in game.; Unlock status: 5ee234c386f77447ee650e32 |
 | C10 | Chimera | Loot Lord - Part 4 | Get access to the locked loot room on labrynth and visit it | Q25 |  | `6a0ab38cee68f3757a5c860b` | Audited |  |
 | C11 | Chimera | Meet God? | Kill Zrachy | L21 | AK-50 unlock and ammo | `6a0d21c5d47f367b5bed547a` | Audited | Fixed: start condition had no quest status; now Apex Predator 4 completed. .50 BMG M21 unlock given LL1 (`1230d6e`). |
 | C12 | Chimera | Leg Up - Part 1 | Hand in any 2 FIR reflex/collimator sights (Legs tribute quest) | C11 | Legs Cosmetics | `6a0d22f0d47f367b5bed548b` | Audited | Unlocks after Hooligan Hunt 3, not C11 as designed. Left as built. |
