@@ -241,5 +241,13 @@
     "6afeadae24543451782f7b1e": "Take the transit from Lighthouse to Shoreline",
     "6afeadae24543451782f7b1f": "Find the Case For Atlas in the helicopter at the Shoreline resort",
     "6afeadae24543451782f7b20": "Extract from Shoreline with the vehicle extract",
-    "6afeadae24543451782f7b3e": "Hand over the case"
+    "6afeadae24543451782f7b3e": "Hand over the case",
+    "6b0262b2749cb622193b2ffc name": "Awkward Assembly - Part 1",
+    "6b0262b2749cb622193b2ffc description": "[PH] I want a pistol that is bigger than a submachine gun. Not better. Bigger. Take a Glock 17 and give it a fifty-round drum, a stock, a suppressor, a light and a red dot. Call it the Pocket Rocket. Bring it to me when it no longer fits in a holster.",
+    "6b0262b2749cb622193b2ffc acceptPlayerMessage": "",
+    "6b0262b2749cb622193b2ffc declinePlayerMessage": "",
+    "6b0262b2749cb622193b2ffc completePlayerMessage": "",
+    "6b0262b2749cb622193b2ffc successMessageText": "[PH] Beautiful. It's a pistol the way a bus is a car.",
+    "6b0262b2749cb622193b2ffc failMessageText": "",
+    "6b0262b2749cb622193b2ffe": "Build a Glock 17 with a 50-round drum, a stock, a suppressor, a tactical device and a red dot"
 }
