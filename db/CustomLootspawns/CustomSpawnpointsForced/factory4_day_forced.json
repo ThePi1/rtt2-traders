@@ -9,9 +9,9 @@
                 "useGravity": false,
                 "randomRotation": false,
                 "Position": {
-                    "X": 12.73149,
-                    "Y": 1.813608,
-                    "Z": 38.12542
+                    "x": 12.73149,
+                    "y": 1.813608,
+                    "z": 38.12542
                 },
                 "Rotation": {
                     "x": 0,

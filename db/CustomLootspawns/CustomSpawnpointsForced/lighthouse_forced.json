@@ -9,9 +9,9 @@
                 "useGravity": true,
                 "randomRotation": false,
                 "Position": {
-                    "X": -129.0987,
-                    "Y": 21.82914,
-                    "Z": 301.3419
+                    "x": -129.0987,
+                    "y": 21.82914,
+                    "z": 301.3419
                 },
                 "Rotation": {
                     "x": 0,
@@ -50,9 +50,9 @@
                 "useGravity": true,
                 "randomRotation": false,
                 "Position": {
-                    "X": -91.59564,
-                    "Y": 1.210995,
-                    "Z": -556.3647
+                    "x": -91.59564,
+                    "y": 1.210995,
+                    "z": -556.3647
                 },
                 "Rotation": {
                     "x": 0,
@@ -91,9 +91,9 @@
                 "useGravity": true,
                 "randomRotation": false,
                 "Position": {
-                    "X": 328.0925,
-                    "Y": 6.012279,
-                    "Z": 485.1049
+                    "x": 328.0925,
+                    "y": 6.012279,
+                    "z": 485.1049
                 },
                 "Rotation": {
                     "x": 0,
@@ -132,9 +132,9 @@
                 "useGravity": true,
                 "randomRotation": false,
                 "Position": {
-                    "X": 32.7819,
-                    "Y": 6.167136,
-                    "Z": -639.7807
+                    "x": 32.7819,
+                    "y": 6.167136,
+                    "z": -639.7807
                 },
                 "Rotation": {
                     "x": 0,
