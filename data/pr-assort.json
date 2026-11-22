@@ -89,6 +89,36 @@
       "_tpl": "65708b4c4a747dbb63005ef3",
       "parentId": "6b0260f843837a263b96e860",
       "slotId": "Groin"
+    },
+    {
+      "_id": "6b0260f9e297dd7d15b9ef7e",
+      "_tpl": "544a5cde4bdc2d39388b456b",
+      "upd": {
+        "StackObjectsCount": 9999999,
+        "UnlimitedCount": true
+      },
+      "parentId": "hideout",
+      "slotId": "hideout"
+    },
+    {
+      "_id": "6b0260f9e297dd7d15b9ef82",
+      "_tpl": "5d5d940f86f7742797262046",
+      "upd": {
+        "StackObjectsCount": 9999999,
+        "UnlimitedCount": true
+      },
+      "parentId": "hideout",
+      "slotId": "hideout"
+    },
+    {
+      "_id": "6b0260f9e297dd7d15b9ef86",
+      "_tpl": "5f5e45cc5021ce62144be7aa",
+      "upd": {
+        "StackObjectsCount": 9999999,
+        "UnlimitedCount": true
+      },
+      "parentId": "hideout",
+      "slotId": "hideout"
     }
   ],
   "barter_scheme": {
@@ -115,11 +145,38 @@
           "_tpl": "5449016a4bdc2d6f028b456f"
         }
       ]
+    ],
+    "6b0260f9e297dd7d15b9ef7e": [
+      [
+        {
+          "count": 19000,
+          "_tpl": "5449016a4bdc2d6f028b456f"
+        }
+      ]
+    ],
+    "6b0260f9e297dd7d15b9ef82": [
+      [
+        {
+          "count": 56000,
+          "_tpl": "5449016a4bdc2d6f028b456f"
+        }
+      ]
+    ],
+    "6b0260f9e297dd7d15b9ef86": [
+      [
+        {
+          "count": 59000,
+          "_tpl": "5449016a4bdc2d6f028b456f"
+        }
+      ]
     ]
   },
   "loyal_level_items": {
     "6b0260f843837a263b96e842": 1,
     "6b0260f843837a263b96e84c": 1,
-    "6b0260f843837a263b96e860": 1
+    "6b0260f843837a263b96e860": 1,
+    "6b0260f9e297dd7d15b9ef7e": 1,
+    "6b0260f9e297dd7d15b9ef82": 1,
+    "6b0260f9e297dd7d15b9ef86": 1
   }
 }
