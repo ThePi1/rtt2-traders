@@ -4454,5 +4454,195 @@
         "successMessageText": "6afeb15236c9c8c80ffb347e successMessageText",
         "traderId": "69744632183b55cf9702c984",
         "type": "Completion"
+    },
+    "6b025b1d71067db8be11b529": {
+        "QuestName": "Delay, Deny, Defend",
+        "_id": "6b025b1d71067db8be11b529",
+        "acceptPlayerMessage": "6b025b1d71067db8be11b529 acceptPlayerMessage",
+        "acceptanceAndFinishingSource": "eft",
+        "arenaLocations": [],
+        "canShowNotificationsInGame": true,
+        "changeQuestMessageText": "6b025b1d71067db8be11b529 changeQuestMessageText",
+        "completePlayerMessage": "6b025b1d71067db8be11b529 completePlayerMessage",
+        "conditions": {
+            "AvailableForFinish": [
+                {
+                    "conditionType": "FindItem",
+                    "countInRaid": false,
+                    "dogtagLevel": 0,
+                    "dynamicLocale": false,
+                    "globalQuestCounterId": "",
+                    "id": "6b025b1d71067db8be11b52a",
+                    "index": 0,
+                    "isEncoded": false,
+                    "maxDurability": 100,
+                    "minDurability": 0,
+                    "onlyFoundInRaid": true,
+                    "parentId": "",
+                    "target": [
+                        "6b025ad0d88a2ca09c553824"
+                    ],
+                    "value": 1,
+                    "visibilityConditions": []
+                },
+                {
+                    "conditionType": "LeaveItemAtLocation",
+                    "dogtagLevel": 0,
+                    "dynamicLocale": false,
+                    "globalQuestCounterId": "",
+                    "id": "6b025b1d71067db8be11b52e",
+                    "index": 0,
+                    "isEncoded": false,
+                    "maxDurability": 100,
+                    "minDurability": 0,
+                    "onlyFoundInRaid": false,
+                    "parentId": "",
+                    "plantTime": 10,
+                    "target": [
+                        "6b025ad0d88a2ca09c553824"
+                    ],
+                    "value": 1,
+                    "visibilityConditions": [
+                        {
+                            "conditionType": "CompleteCondition",
+                            "id": "6b025b1d71067db8be11b52b",
+                            "target": "6b025b1d71067db8be11b52a"
+                        }
+                    ],
+                    "zoneId": "X6"
+                },
+                {
+                    "completeInSeconds": 0,
+                    "conditionType": "CounterCreator",
+                    "counter": {
+                        "conditions": [
+                            {
+                                "conditionType": "ExitStatus",
+                                "dynamicLocale": false,
+                                "id": "6b025b1d71067db8be11b531",
+                                "status": [
+                                    "Survived",
+                                    "Transit"
+                                ]
+                            },
+                            {
+                                "conditionType": "Location",
+                                "dynamicLocale": false,
+                                "id": "6b025b1d71067db8be11b532",
+                                "target": [
+                                    "TarkovStreets"
+                                ]
+                            }
+                        ],
+                        "id": "6b025b1d71067db8be11b530"
+                    },
+                    "doNotResetIfCounterCompleted": false,
+                    "dynamicLocale": false,
+                    "globalQuestCounterId": "",
+                    "id": "6b025b1d71067db8be11b52f",
+                    "index": 0,
+                    "isNecessary": false,
+                    "isResetOnConditionFailed": false,
+                    "oneSessionOnly": false,
+                    "parentId": "",
+                    "type": "Completion",
+                    "value": 1,
+                    "visibilityConditions": []
+                }
+            ],
+            "AvailableForStart": [
+                {
+                    "availableAfter": 0,
+                    "conditionType": "Quest",
+                    "dispersion": 0,
+                    "dynamicLocale": false,
+                    "globalQuestCounterId": "",
+                    "id": "6b025b1d71067db8be11b52c",
+                    "index": 0,
+                    "parentId": "",
+                    "status": [
+                        4
+                    ],
+                    "target": "6afeb13573c586a224470329",
+                    "visibilityConditions": []
+                }
+            ],
+            "Fail": []
+        },
+        "declinePlayerMessage": "6b025b1d71067db8be11b529 declinePlayerMessage",
+        "description": "6b025b1d71067db8be11b529 description",
+        "failMessageText": "6b025b1d71067db8be11b529 failMessageText",
+        "gameModes": [],
+        "image": "/files/quest/icon/5d763d4886f774454e50d06d.png",
+        "instantComplete": false,
+        "isKey": false,
+        "location": "any",
+        "name": "6b025b1d71067db8be11b529 name",
+        "note": "6b025b1d71067db8be11b529 note",
+        "progressSource": "eft",
+        "rankingModes": [],
+        "restartable": false,
+        "rewards": {
+            "Fail": [],
+            "Started": [],
+            "Success": [
+                {
+                    "availableInGameEditions": [],
+                    "gameMode": [
+                        "regular",
+                        "pve"
+                    ],
+                    "id": "6b025b1d71067db8be11b533",
+                    "isHidden": false,
+                    "type": "Experience",
+                    "unknown": false,
+                    "value": 7000
+                },
+                {
+                    "availableInGameEditions": [],
+                    "gameMode": [
+                        "regular",
+                        "pve"
+                    ],
+                    "id": "6b025b1d71067db8be11b534",
+                    "isHidden": false,
+                    "target": "69744632183b55cf9702c984",
+                    "type": "TraderStanding",
+                    "unknown": false,
+                    "value": 0.16
+                },
+                {
+                    "availableInGameEditions": [],
+                    "findInRaid": false,
+                    "gameMode": [
+                        "regular",
+                        "pve"
+                    ],
+                    "id": "6b025b1d71067db8be11b535",
+                    "isEncoded": false,
+                    "isHidden": false,
+                    "items": [
+                        {
+                            "_id": "6b025b1d71067db8be11b536",
+                            "_tpl": "5449016a4bdc2d6f028b456f",
+                            "upd": {
+                                "StackObjectsCount": 55000
+                            }
+                        }
+                    ],
+                    "target": "6b025b1d71067db8be11b536",
+                    "type": "Item",
+                    "unknown": false,
+                    "value": 55000
+                }
+            ]
+        },
+        "secretQuest": false,
+        "side": "pmc",
+        "startedMessageText": "6b025b1d71067db8be11b529 startedMessageText",
+        "status": 0,
+        "successMessageText": "6b025b1d71067db8be11b529 successMessageText",
+        "traderId": "69744632183b55cf9702c984",
+        "type": "Completion"
     }
 }

@@ -240,5 +240,15 @@
     "6afeb15236c9c8c80ffb347e failMessageText": "",
     "6afeb15236c9c8c80ffb3480": "Mark inside the RB-PKPM marked room on Reserve",
     "6afeb15236c9c8c80ffb3481": "Mark inside the RB-BK marked room",
-    "6afeb15236c9c8c80ffb3482": "Mark inside the RB-VO marked room"
+    "6afeb15236c9c8c80ffb3482": "Mark inside the RB-VO marked room",
+    "6b025b1d71067db8be11b529 name": "Delay, Deny, Defend",
+    "6b025b1d71067db8be11b529 description": "[PH] Atlas buys his medical supplies from the polyclinic on Streets. Imported, he says. Quality, he says. A batch of bad gunpowder is waiting in the Tarcone director's office on Customs. Take it, break into the X-ray control room, and leave it there. When his next shipment goes up in smoke, nobody will look east.",
+    "6b025b1d71067db8be11b529 acceptPlayerMessage": "",
+    "6b025b1d71067db8be11b529 declinePlayerMessage": "",
+    "6b025b1d71067db8be11b529 completePlayerMessage": "",
+    "6b025b1d71067db8be11b529 successMessageText": "[PH] An unfortunate accident. Very sad. The Party sends its condolences.",
+    "6b025b1d71067db8be11b529 failMessageText": "",
+    "6b025b1d71067db8be11b52a": "Find the faulty gunpowder in the Tarcone director's office on Customs",
+    "6b025b1d71067db8be11b52e": "Plant the faulty gunpowder in the X-ray control room of the Streets polyclinic",
+    "6b025b1d71067db8be11b52f": "Survive and extract from Streets of Tarkov"
 }
