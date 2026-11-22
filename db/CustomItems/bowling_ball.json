@@ -1,0 +1,25 @@
+{
+    "197e9de8b31ba47ef2b7b6a1": {
+        "itemTplToClone": "5df8a6a186f77412640e2e80",
+        "parentId": "5448ecbe4bdc2d60728b4568",
+        "handbookParentId": "QUEST",
+        "overrideProperties": {
+            "ExaminedByDefault": true,
+            "BackgroundColor": "yellow",
+            "Weight": 6.8,
+            "Height": 1,
+            "Width": 1,
+            "StackMaxSize": 1,
+            "QuestItem": true
+        },
+        "locales": {
+            "en": {
+                "name": "Bowling Ball",
+                "shortName": "Ball",
+                "description": "A heavy, glossy bowling ball with three finger holes and a name scratched off the side. Nobody remembers where it came from. Somebody's cousin wants it very badly."
+            }
+        },
+        "fleaPriceRoubles": 10000,
+        "handbookPriceRoubles": 10000
+    }
+}

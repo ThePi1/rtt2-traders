@@ -190,5 +190,15 @@
     "6afeaf951086f357132cb2f2 successMessageText": "[PH] Now that's a proper cuppa. Cheers, lad.",
     "6afeaf951086f357132cb2f2 failMessageText": "",
     "6afeaf951086f357132cb2f4": "Find Canister with purified water in raid",
-    "6afeaf951086f357132cb2f5": "Hand over Canister with purified water"
+    "6afeaf951086f357132cb2f5": "Hand over Canister with purified water",
+    "6b026f83e15e26da114c4e91 name": "Courtesy Call - Part 4",
+    "6b026f83e15e26da114c4e91 description": "[PH] There is no bowling alley in Tarkov. I've accepted it. My cousin hasn't. So we build our own. Somebody left a bowling ball in the lounge of the health resort on Shoreline. Find it, then go knock down ten pins. Ten Scavs, one raid, one strike. Bring me the ball and I'll tell him we bowled.",
+    "6b026f83e15e26da114c4e91 acceptPlayerMessage": "",
+    "6b026f83e15e26da114c4e91 declinePlayerMessage": "",
+    "6b026f83e15e26da114c4e91 completePlayerMessage": "",
+    "6b026f83e15e26da114c4e91 successMessageText": "[PH] A strike! He's finally stopped ringing. Here, you've earned this.",
+    "6b026f83e15e26da114c4e91 failMessageText": "",
+    "6b026f84e15e26da114c4e93": "Find the bowling ball in the lounge of the Shoreline health resort",
+    "6b026f84e15e26da114c4e94": "Knock down ten pins: eliminate 10 Scavs on Shoreline in one raid",
+    "6b026f84e15e26da114c4e98": "Hand over the bowling ball"
 }

@@ -25,7 +25,6 @@ Nothing open.
 From the new quests (built 2026-11-19). Every new quest's description and success text is my [PH] text.
 
 - [ ] **Not built, waiting on you** (reasons in each row's Notes):
-  - P16: needs a bowling ball item and the "twist". Suggested base item: a Christmas tree ornament (glossy ball, 1×1).
   - Skipped on purpose: L31 (repeats L32) and A29–A30 (need custom models).
 - [ ] **Chains that skip an unbuilt quest:** P17 starts after P15 (P16 not built). Re-point it when P16 is built.
 - [ ] **Design rewards left out:**
@@ -140,6 +139,7 @@ New zones are in `db/CustomQuestZones`, one file per map (`customs.json`, `stree
 ### New quests to check in game (built 2026-11-21)
 
 - [ ] **X6 Delay, Deny, Defend:** the new Faulty Gunpowder spawns on the desk next to the safe in the Tarcone director's office (Customs, `bigmap_forced.json`). Plant zone `X6` is the X-ray control room on the 2nd floor of the Zmeisky 4a polyclinic (Streets), next to the fluorograph. Check the item spawns, can be carried to Streets, and the plant prompt shows in the control room.
+- [ ] **P16 Courtesy Call - Part 4:** the new Bowling Ball spawns at (-271.5, -0.5, -98.0), the middle of the 2nd-floor lounge in the resort's east wing (`shoreline_forced.json`). It drops onto the floor (about -0.84); check it lands in the room and can be picked up.
 - [ ] **X21 Gotcha, Gatcha:** zones `X21_1` (open-plan office) and `X21_2` (kitchen) in the Zmeisky 6 game studio, and `X21_3` in the lobby of the hookah lounge on Malevicha 5 (the relaxation room), between the base game's `Hookah_quest` zone and the street entrance. Check `X21_3` covers the lobby floor.
 - [ ] **A3 500 Cigarettes:** zone `A3` moved from the Cardinal sauna to the safe by the hookah lounge (ground floor of Malevicha 5, at -204.6, 289.6). Check it is the right safe and the zone reaches it.
 - [ ] **L42 Safe on Block 1:** six marker zones `L42_1`–`L42_6`, one on each red MSI Aegis PC in the Zmeisky 6 office (`L42_6` is in the director's office). Check each marker prompt appears at its PC.
@@ -435,7 +435,7 @@ New zones are in `db/CustomQuestZones`, one file per map (`customs.json`, `stree
 | P13 | Price | Courtesy Call - Part 1 | Going around streets looking for a bowling alley (gta4 callback) | P12 | XP, P14 | `6afeaf8d32d5bcdb98c8c596` | Needs check | Built: visit new zones `P13_1` (Cinema), `P13_2` (Sportmarket), `P13_3` (Klimov mall) on Streets |
 | P14 | Price | Courtesy Call - Part 2 | Going to customs looking for a bowling alley (Fortress) | P13 | XP, P15 | `6afeaf8f7757bef5904f3c49` | Built | Built: visit the existing zone `P14` (Fortress, Customs) |
 | P15 | Price | Courtesy Call - Part 3 | Looking on interchange for a bowling ball in the mall | P14 | XP, P16 | `6afeaf907133ee697372bbf9` | Built | Built: visit the existing zone `P15` (Interchange mall). No bowling ball item exists, so this is a search-only step |
-| P16 | Price | Courtesy Call - Part 4 | One final other map (looking for bowling alley with some sort of twist) Find Bowling Ball? |  | Good XP and good item |  | Flagged | Not built: needs a bowling ball (no such item exists; add one under Custom quest items) and the "twist" decided. P17 starts after P15 until this exists |
+| P16 | Price | Courtesy Call - Part 4 | One final other map (looking for bowling alley with some sort of twist) Find Bowling Ball? | P15 | Good XP and good item | `6b026f83e15e26da114c4e91` | Needs check | Built: find the new Bowling Ball quest item (spawns in the 2nd-floor lounge of the resort's east wing on Shoreline), kill 10 Scavs on Shoreline in one raid (the "ten pins", my twist), then hand in the ball. Rewards 1.5x the usual XP for its place in the chain and 2 Physical Bitcoins (the "good item", my pick) |
 | P17 | Price | Last Call | Plant 1 vodka, 1 Beer, 1 Whiskey in bar on streets | P15 |  | `6afeaf9133bb6de0ee92554e` | Needs check | Built: plant a vodka, a Pevko and a Dan Jackiel at new zone `P17` (bar of the Brodion restopub, Zmeiskiy 3). Starts after P15 because P16 isn't built |
 | P18 | Price | The Pie? It's Far Too Hot | First: find and hand in FIR: 1x piece of plexiglass, 1x IEA Mil-Optics KH/F 34mm one-piece magmount, and mark inside Dorms Marked/314 | P17 |  | `6afeaf921cf748b4f280276b` | Built | Built: hand in 1 FIR plexiglass and 1 FIR KH/F 34mm magmount, then mark inside dorm 314 (existing zone `P18`) |
 | P19 | Price | The Good Stuff | Find and Turn in 3 Moonshine | P18 |  | `6afeaf948ff3d3b964b1c9d8` | Built | Built: hand in 3 FIR Fierce Hatchling moonshine |
@@ -555,3 +555,4 @@ New zones are in `db/CustomQuestZones`, one file per map (`customs.json`, `stree
 | Injectors Case Shipment | `69bb46282a87c0f36004a252` | N13 | no |
 | Find Rap Sheet | `69d2ca6e6c1d42de861b9745` | N15 | yes |
 | Faulty Gunpowder | `6b025ad0d88a2ca09c553824` | X6 | yes |
+| Bowling Ball | `197e9de8b31ba47ef2b7b6a1` | P16 | yes |

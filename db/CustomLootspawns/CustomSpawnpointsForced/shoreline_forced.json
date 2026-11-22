@@ -81,6 +81,47 @@
                     "relativeProbability": 1
                 }
             ]
+        },
+        {
+            "locationId": "(-271.5 -0.5 -98.0)",
+            "probability": 1.0,
+            "template": {
+                "Id": "P16 Bowling Ball (Quest) [0838ca45-6b31-4d10-a9f8-50ff3a779a0b]",
+                "IsContainer": false,
+                "useGravity": true,
+                "randomRotation": false,
+                "Position": {
+                    "X": -271.5,
+                    "Y": -0.5,
+                    "Z": -98.0
+                },
+                "Rotation": {
+                    "x": 0,
+                    "y": 0,
+                    "z": 0
+                },
+                "IsGroupPosition": false,
+                "GroupPositions": [],
+                "IsAlwaysSpawn": true,
+                "Root": "39cfc9254e06d905472c71e0",
+                "Items": [
+                    {
+                        "_id": "39cfc9254e06d905472c71e0",
+                        "_tpl": "197e9de8b31ba47ef2b7b6a1",
+                        "upd": {
+                            "StackObjectsCount": 1
+                        }
+                    }
+                ]
+            },
+            "itemDistribution": [
+                {
+                    "composedKey": {
+                        "key": "197e9de8b31ba47ef2b7b6a1"
+                    },
+                    "relativeProbability": 1
+                }
+            ]
         }
     ]
 }
