@@ -216,5 +216,14 @@
     "6afeb33a2352ca9802efd929 successMessageText": "[PH] It is done. The Eye closes, for now. Rest.",
     "6afeb33a2352ca9802efd929 failMessageText": "",
     "6afeb33a2352ca9802efd92a": "Find the Final Sacrifice on the dead scientist on Ground Zero",
-    "6afeb33a2352ca9802efd92e": "Leave the Final Sacrifice at the old wreck on the south shore of Shoreline"
+    "6afeb33a2352ca9802efd92e": "Leave the Final Sacrifice at the old wreck on the south shore of Shoreline",
+    "6b025b3ac405e51775492a6d name": "The Eye Requires Pickup - Part 1",
+    "6b025b3ac405e51775492a6d description": "[PH] The family keeps a flat on Chekannaya 13, on Streets. Candles on the floor, the Eye on the walls. An offering waits in the circle. Bring the case to me. Unopened.",
+    "6b025b3ac405e51775492a6d acceptPlayerMessage": "",
+    "6b025b3ac405e51775492a6d declinePlayerMessage": "",
+    "6b025b3ac405e51775492a6d completePlayerMessage": "",
+    "6b025b3ac405e51775492a6d successMessageText": "[PH] The circle gave it up to you. The Eye noticed.",
+    "6b025b3ac405e51775492a6d failMessageText": "",
+    "6b025b3bc405e51775492a6f": "Find Locked Case (Sacrifice) in raid",
+    "6b025b3bc405e51775492a70": "Hand over the Sacrifice case from the cultist flat on Chekannaya 13"
 }
