@@ -180,6 +180,7 @@ public class rtt2trader(
         await wttCommon.CustomItemServiceExtended.CreateCustomItems(assembly);
         await wttCommon.CustomLootspawnService.CreateCustomLootSpawns(assembly);
         await wttCommon.CustomQuestZoneService.CreateCustomQuestZones(assembly);
+        await wttCommon.CustomHideoutRecipeService.CreateHideoutRecipes(assembly);
         // await wttCommon.CustomAssortSchemeService.CreateCustomAssortSchemes(assembly);
         
         addPlate(); //adds custom plate to vests

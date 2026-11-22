@@ -29,7 +29,6 @@ From the new quests (built 2026-11-19). Every new quest's description and succes
   - Skipped on purpose: L31 (repeats L32) and A29–A30 (need custom models).
 - [ ] **Chains that skip an unbuilt quest:** P17 starts after P15 (P16 not built). Re-point it when P16 is built.
 - [ ] **Design rewards left out:**
-  - V2: encoder and DSP craft. Possible with a custom hideout recipe (WTT loads `db/CustomHideoutRecipes`); waiting on your go-ahead.
   - V12: Pyramid Head Funko. Skipped for now: needs a new model.
   - Left out on purpose: A10's Price unlock (Q8 already unlocks Price) and X22's Chimera unlock.
 - [ ] **Placeholders and readings to confirm:**
@@ -470,7 +469,7 @@ New zones are in `db/CustomQuestZones`, one file per map (`customs.json`, `stree
 | ID | Trader | Quest | Tasks | Unlocked by | Reward | Quest id | Status | Notes |
 |---|---|---|---|---|---|---|---|---|
 | V1 | Voron | Welcome to the Family - Part 1 | Kill 20 PMCs between 2200-600 |  | XP, Cultist Knife Barter | `6afeb323c44ae2aae78f9530` | Built | Built: 20 PMC kills between 22:00 and 06:00; unlocks a Cultist knife barter at Voron LL1 (1 moonshine + 1 Raven figurine, my pick). Starts when Q20 is done; Sheet: trd lvl .2 |
-| V2 | Voron | Welcome to the Family - Part 2 | Plant 2 GPUS Dorms Marked |  | XP, 10 Power Supplies,Lighthouse Encoder, Hideout Craft to encode DSP | `6afeb3258349e093f30637a2` | Built | Built: plant 2 graphics cards (2 plants) at the existing zone `V2` (dorm 314); rewards 10 Power supply units. The design's encoder and "hideout craft to encode the DSP" rewards are left out: they need a craft that doesn't exist; Unlock status: XP, DSP, Radio Frequency thing, and hideout craft |
+| V2 | Voron | Welcome to the Family - Part 2 | Plant 2 GPUS Dorms Marked |  | XP, 10 Power Supplies,Lighthouse Encoder, Hideout Craft to encode DSP | `6afeb3258349e093f30637a2` | Needs check | Built: plant 2 graphics cards (2 plants) at the existing zone `V2` (dorm 314); rewards 10 Power supply units, a Digital secure DSP radio transmitter, and unlocks a craft to encode it: a copy of the base game's Intelligence Center level 2 DSP craft (DSP + electronic components, Secure Flash drive V3 and screwdriver as tools, 12 h) in `db/CustomHideoutRecipes/dsp_radio_transmitter.json`, locked behind V2. Check in game that the craft appears after V2; Unlock status: XP, DSP, Radio Frequency thing, and hideout craft |
 | V3 | Voron | Welcome to the Family - Part 3 | Visit the Lighthouse and talk to lightkeeper |  | XP, 1 GPU, | `6afeb326a715d788320efccd` | Built | Built: visit the existing zone `V3` (Lightkeeper's island); rewards 1 Graphics card; Unlock status: XP, |
 | V4 | Voron | Welcome to the Family - Part 4 | plant 1 bitcoin on woods bunker circle |  | XP, Digital secure DSP radio transmitter TEST THIS | `6afeb327486ca79d3ba87bd3` | Needs check | Built: plant a Physical Bitcoin at the existing zone `V4` (Woods bunker circle); rewards a Digital secure DSP radio transmitter (the design says to test this one) |
 | V5 | Voron | Welcome to the Family - Part 5 | Plant 1 Yellow Card, 1 injectors case on lighthouse marked room |  | XP | `6afeb3283c1a437f7c92d6ef` | Built | Built: plant a Labs yellow keycard and an Injector case at the existing zone `V5` (Lighthouse marked room) |

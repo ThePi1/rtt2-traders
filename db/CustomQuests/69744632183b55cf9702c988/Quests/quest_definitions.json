@@ -996,6 +996,55 @@
                     "type": "Item",
                     "unknown": false,
                     "value": 10
+                },
+                {
+                    "availableInGameEditions": [],
+                    "findInRaid": true,
+                    "gameMode": [
+                        "regular",
+                        "pve"
+                    ],
+                    "id": "6b0263f440f527edac32194e",
+                    "isEncoded": false,
+                    "isHidden": false,
+                    "items": [
+                        {
+                            "_id": "6b0263f440f527edac32194f",
+                            "_tpl": "62e910aaf957f2915e0a5e36",
+                            "upd": {
+                                "SpawnedInSession": true,
+                                "StackObjectsCount": 1
+                            }
+                        }
+                    ],
+                    "target": "6b0263f440f527edac32194f",
+                    "type": "Item",
+                    "unknown": false,
+                    "value": 1
+                },
+                {
+                    "availableInGameEditions": [],
+                    "gameMode": [
+                        "regular",
+                        "pve"
+                    ],
+                    "id": "6b0263f440f527edac321950",
+                    "isHidden": false,
+                    "items": [
+                        {
+                            "_id": "6b0263f440f527edac321951",
+                            "_tpl": "62e910aaf957f2915e0a5e36",
+                            "upd": {
+                                "SpawnedInSession": true,
+                                "StackObjectsCount": 1
+                            }
+                        }
+                    ],
+                    "loyaltyLevel": 2,
+                    "target": "6b0263f440f527edac321951",
+                    "traderId": 11,
+                    "type": "ProductionScheme",
+                    "unknown": false
                 }
             ]
         },
