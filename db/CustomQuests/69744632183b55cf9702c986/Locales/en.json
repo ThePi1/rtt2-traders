@@ -249,5 +249,13 @@
     "6b0262b2749cb622193b2ffc completePlayerMessage": "",
     "6b0262b2749cb622193b2ffc successMessageText": "[PH] Beautiful. It's a pistol the way a bus is a car.",
     "6b0262b2749cb622193b2ffc failMessageText": "",
-    "6b0262b2749cb622193b2ffe": "Build a Glock 17 with a 50-round drum, a stock, a suppressor, a tactical device and a red dot"
+    "6b0262b2749cb622193b2ffe": "Build a Glock 17 with a 50-round drum, a stock, a suppressor, a tactical device and a red dot",
+    "6b0262b35a80baad6c24abb0 name": "Awkward Assembly - Part 2",
+    "6b0262b35a80baad6c24abb0 description": "[PH] The Mosin is a hundred and thirty years old. Time it got a midlife crisis. Put an infantry Mosin in the Archangel chassis, screw on a suppressor, hang a flashlight and a laser off it, and keep adding until it weighs seven kilos. Grandpa goes tactical.",
+    "6b0262b35a80baad6c24abb0 acceptPlayerMessage": "",
+    "6b0262b35a80baad6c24abb0 declinePlayerMessage": "",
+    "6b0262b35a80baad6c24abb0 completePlayerMessage": "",
+    "6b0262b35a80baad6c24abb0 successMessageText": "[PH] Grandpa has never looked better. He still can't run, but he looks better.",
+    "6b0262b35a80baad6c24abb0 failMessageText": "",
+    "6b0262b35a80baad6c24abb2": "Build a Mosin in the Archangel chassis with a suppressor, a flashlight and a laser, weighing at least 7 kg"
 }

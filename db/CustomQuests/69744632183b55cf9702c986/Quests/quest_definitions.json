@@ -5211,5 +5211,197 @@
         "successMessageText": "6b0262b2749cb622193b2ffc successMessageText",
         "traderId": "69744632183b55cf9702c986",
         "type": "WeaponAssembly"
+    },
+    "6b0262b35a80baad6c24abb0": {
+        "QuestName": "Awkward Assembly - Part 2",
+        "_id": "6b0262b35a80baad6c24abb0",
+        "acceptPlayerMessage": "6b0262b35a80baad6c24abb0 acceptPlayerMessage",
+        "acceptanceAndFinishingSource": "eft",
+        "arenaLocations": [],
+        "canShowNotificationsInGame": true,
+        "changeQuestMessageText": "6b0262b35a80baad6c24abb0 changeQuestMessageText",
+        "completePlayerMessage": "6b0262b35a80baad6c24abb0 completePlayerMessage",
+        "conditions": {
+            "AvailableForFinish": [
+                {
+                    "baseAccuracy": {
+                        "compareMethod": ">=",
+                        "value": 0
+                    },
+                    "conditionType": "WeaponAssembly",
+                    "containsItems": [
+                        "5bae13bad4351e00320204af"
+                    ],
+                    "durability": {
+                        "compareMethod": ">=",
+                        "value": 0
+                    },
+                    "dynamicLocale": false,
+                    "effectiveDistance": {
+                        "compareMethod": ">=",
+                        "value": 0
+                    },
+                    "emptyTacticalSlot": {
+                        "compareMethod": ">=",
+                        "value": 0
+                    },
+                    "ergonomics": {
+                        "compareMethod": ">=",
+                        "value": -200
+                    },
+                    "globalQuestCounterId": "",
+                    "hasItemFromCategory": [
+                        "550aa4cd4bdc2dd8348b456c",
+                        "55818b084bdc2d5b648b4571",
+                        "55818b164bdc2ddc698b456c"
+                    ],
+                    "height": {
+                        "compareMethod": ">=",
+                        "value": 0
+                    },
+                    "id": "6b0262b35a80baad6c24abb2",
+                    "index": 0,
+                    "magazineCapacity": {
+                        "compareMethod": ">=",
+                        "value": 0
+                    },
+                    "muzzleVelocity": {
+                        "compareMethod": ">=",
+                        "value": 0
+                    },
+                    "parentId": "",
+                    "recoil": {
+                        "compareMethod": ">=",
+                        "value": 0
+                    },
+                    "target": [
+                        "5bfd297f0db834001a669119"
+                    ],
+                    "value": 1,
+                    "visibilityConditions": [],
+                    "weight": {
+                        "compareMethod": ">=",
+                        "value": 7
+                    },
+                    "width": {
+                        "compareMethod": ">=",
+                        "value": 0
+                    }
+                }
+            ],
+            "AvailableForStart": [
+                {
+                    "availableAfter": 0,
+                    "conditionType": "Quest",
+                    "dispersion": 0,
+                    "dynamicLocale": false,
+                    "globalQuestCounterId": "",
+                    "id": "6b0262b35a80baad6c24abb1",
+                    "index": 0,
+                    "parentId": "",
+                    "status": [
+                        4
+                    ],
+                    "target": "6b0262b2749cb622193b2ffc",
+                    "visibilityConditions": []
+                }
+            ],
+            "Fail": []
+        },
+        "declinePlayerMessage": "6b0262b35a80baad6c24abb0 declinePlayerMessage",
+        "description": "6b0262b35a80baad6c24abb0 description",
+        "failMessageText": "6b0262b35a80baad6c24abb0 failMessageText",
+        "gameModes": [],
+        "image": "/files/quest/icon/5b4785f586f77470315db7ed.png",
+        "instantComplete": false,
+        "isKey": false,
+        "location": "any",
+        "name": "6b0262b35a80baad6c24abb0 name",
+        "note": "6b0262b35a80baad6c24abb0 note",
+        "progressSource": "eft",
+        "rankingModes": [],
+        "restartable": false,
+        "rewards": {
+            "Fail": [],
+            "Started": [],
+            "Success": [
+                {
+                    "availableInGameEditions": [],
+                    "gameMode": [
+                        "regular",
+                        "pve"
+                    ],
+                    "id": "6b0262b35a80baad6c24abb3",
+                    "isHidden": false,
+                    "type": "Experience",
+                    "unknown": false,
+                    "value": 16600
+                },
+                {
+                    "availableInGameEditions": [],
+                    "gameMode": [
+                        "regular",
+                        "pve"
+                    ],
+                    "id": "6b0262b35a80baad6c24abb4",
+                    "isHidden": false,
+                    "target": "69744632183b55cf9702c986",
+                    "type": "TraderStanding",
+                    "unknown": false,
+                    "value": 0.14
+                },
+                {
+                    "availableInGameEditions": [],
+                    "findInRaid": false,
+                    "gameMode": [
+                        "regular",
+                        "pve"
+                    ],
+                    "id": "6b0262b35a80baad6c24abb5",
+                    "isEncoded": false,
+                    "isHidden": false,
+                    "items": [
+                        {
+                            "_id": "6b0262b35a80baad6c24abb6",
+                            "_tpl": "5449016a4bdc2d6f028b456f",
+                            "upd": {
+                                "StackObjectsCount": 135000
+                            }
+                        }
+                    ],
+                    "target": "6b0262b35a80baad6c24abb6",
+                    "type": "Item",
+                    "unknown": false,
+                    "value": 135000
+                },
+                {
+                    "availableInGameEditions": [],
+                    "gameMode": [
+                        "regular",
+                        "pve"
+                    ],
+                    "id": "6b0262b35a80baad6c24abba",
+                    "isHidden": false,
+                    "items": [
+                        {
+                            "_id": "6b0262b35a80baad6c24abb9",
+                            "_tpl": "5bae13bad4351e00320204af"
+                        }
+                    ],
+                    "loyaltyLevel": 1,
+                    "target": "6b0262b35a80baad6c24abb9",
+                    "traderId": "69744632183b55cf9702c986",
+                    "type": "AssortmentUnlock",
+                    "unknown": false
+                }
+            ]
+        },
+        "secretQuest": false,
+        "side": "pmc",
+        "startedMessageText": "6b0262b35a80baad6c24abb0 startedMessageText",
+        "status": 0,
+        "successMessageText": "6b0262b35a80baad6c24abb0 successMessageText",
+        "traderId": "69744632183b55cf9702c986",
+        "type": "WeaponAssembly"
     }
 }
