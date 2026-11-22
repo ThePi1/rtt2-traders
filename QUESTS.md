@@ -20,14 +20,8 @@ Nothing open.
 
 ### Open design questions
 
-- [ ] **"MCC" (L35 Live, Laugh, Love 3; L59 Vipassana 3; S5):** built as Advanced current converter. If MCC means another item, say which.
-- [ ] **C17 Bi-Lingual 4:** the design says an SSA AP *barter*; I added a cash offer (1,150 RUB a round, LL3) so the unlock shows something. Give me the barter if you want one.
-- [ ] **Counts and rewards that differ from the design** (left as built, in case you tuned them): weapon-line XP is about half the sheet's (L2–L17); Advantage of Range 3 has 15 kills (design 20); Makita, Nikita 3 has 150 (200); Healthy nor Wealthy nor Wise 2 has 8 juice (10); Vipassana 3 has 2 tracer packs (10); Q9 gives 250 USD and EUR (500 each); C2 gives 50k (100k); Maxwell's Demon gives 0.6 Fence standing (0.3); White Whale gives 0.95 (0.65); Leg Up 1 unlocks after Hooligan Hunt 3 (design C11); Green Gold after Loot Lord 4 (design C8).
-
-- [ ] **Q25 Daedalus' Curse:** Priest doesn't always drop the keycard. `Plugin.cs` raises its weight in his pockets but doesn't guarantee it, while the sheet asks for a guaranteed spawn.
-- [ ] **Q28 Refusal and Q29 Acceptance:** the Demon Stim and Angel Stim rewards don't exist as items yet.
-- [ ] **Q30 Thank You For Playing:** the 1,000 XP is a placeholder.
-- [ ] **Before opening a PR:** merge `origin/main` into this branch. Main has `Plugin.cs` and README changes this branch doesn't have.
+- [ ] **Q25 Daedalus' Curse:** Priest doesn't always drop the keycard. `priestLoot()` in `Plugin.cs` only adds it to his pocket loot pool (weight 15,000 out of about 184,000), so it rolls on each pocket item, about a 1 in 8 chance per Priest. Suggested fix: put it in his `SpecialLoot` pool and set his `specialItems` count to always 1. Special items are placed before any other loot, so there's always room.
+- [ ] **To do – Q28 Refusal and Q29 Acceptance:** make the Demon Stim and Angel Stim items, then add them as these quests' rewards. Also listed under [Custom quest items](#custom-quest-items).
 
 From the new quests (built 2026-11-19). Every new quest's description and success text is my [PH] text.
 
@@ -202,7 +196,7 @@ New zones are in `db/CustomQuestZones`, one file per map (`customs.json`, `stree
 | L32 | Storyteller | Domain Expansion | Reach lv2 rep with all modded traders | Q14 | Unlock all below pt.1 quests, 10k XP | `69f94677a49a5754e709dbae` | Audited | Sheet said "not working": it needs LL2 with Atlas, Needle and Price, who had no quests to raise standing. Reachable once their quests are built.; Sheet: not working |
 | L33 | Storyteller | Live, Laugh, Love - Part 1 | Turn in FIR: 2x Air Filter, 3x GPU, 5x Hose, 5x ES Lamp | L32 | Hideout Management levels | `69f94739a49a5754e709dbb8` | Audited |  |
 | L34 | Storyteller | Live, Laugh, Love - Part 2 | Turn in FIR: 2x AESA, 7x Screws, 7x Bolt, 1x Intelligence Folder, 2x Iskra | L33 | Hideout Management levels | `69f94af1a49a5754e709dbbe` | Audited | Fixed: asks for 2 Iskra (was 1), found in raid (`a2cf888`). |
-| L35 | Storyteller | Live, Laugh, Love - Part 3 | Turn in FIR: 1x Vertex, 2x Blue Intelligence, 1x MCC, 4x Toolset, 2x LEDX | L34 | Hideout Management levels (max out) | `69f94bf2a49a5754e709dbc5` | Flagged | "MCC" was built as Advanced current converter. See Flags. |
+| L35 | Storyteller | Live, Laugh, Love - Part 3 | Turn in FIR: 1x Vertex, 2x Blue Intelligence, 1x MCC, 4x Toolset, 2x LEDX | L34 | Hideout Management levels (max out) | `69f94bf2a49a5754e709dbc5` | Audited | "MCC" is the Advanced current converter, as intended. |
 | L36 | Storyteller | Molecular Assembly - Part 1 | Reach lv2 in each skill: LMG, HMG, Shotguns, Revolvers | L32 | Crafting levels | `69f94ec628f89593eb3bee78` | Audited | Sheet: get rid of hmg |
 | L37 | Storyteller | Molecular Assembly - Part 2 | Turn in FIR: 4x Tetriz, 1x BTC, 10x M67 grenade, 5x Weapon Parts, 1x Tank Battery, 3x KEK, 2x Car Battery | L36 | Crafting levels | `69f94f6a28f89593eb3bee7e` | Audited | Fixed: weapon parts find step is found in raid, like the hand-in (`a2cf888`). |
 | L38 | Storyteller | Molecular Assembly - Part 3 | Turn in FIR (yes, really): 1m RUB, 100k USD, 100k EUR | L37 | Crafting levels | `69f9502f28f89593eb3bee89` | Audited |  |
@@ -211,7 +205,7 @@ New zones are in `db/CustomQuestZones`, one file per map (`customs.json`, `stree
 | L41 | Storyteller | Running on Empty - Part 3 | Kill 4 PMCs with while wearing PACA and a pompon hat, while light bleeding | L40 | Metabolism levels | `69fa050ce53cfbf3b12f078e` | Audited |  |
 | L42 | Storyteller | Safe on Block - Part 1 | Mark all the red computers in the game dev room on Streets | L32 | Immunity levels |  | Flagged | Not built: no game dev room on Streets that I could find (same as X21). L43 starts after Domain Expansion until this exists |
 | L43 | Storyteller | Safe on Block - Part 2 | Shoot: 1 PMC in the left leg with a shotgun >50m, 1PMC in the right leg with a shotgun >50m, 1PMC in the torso with a shotgun >65m | L42 | Immunity levels | `6afeb4d643d1cd87c702de21` | Built | Built: shotgun hits on PMCs: left leg at 50 m+, right leg at 50 m+, torso (chest or stomach) at 65 m+ (hits, not kills, as the design says "shoot"). Starts after Domain Expansion because L42 isn't built |
-| L44 | Storyteller | Safe on Block - Part 3 | Survive with no food and no water for 10 minutes, then survive and extract | L43 | Immunity levels | `6afeb4d7d1605edd10f081e0` | Needs check | Built: a 10-minute HealthEffect counter with both Dehydration and Exhaustion on the stomach, then survive and extract. The HealthEffect timing is my best reading of the client; check it in game |
+| L44 | Storyteller | Safe on Block - Part 3 | Survive with no food and no water for 10 minutes, then survive and extract | L43 | Immunity levels | `6afeb4d7d1605edd10f081e0` | Needs check | Built: a 10-minute HealthEffect counter with both Dehydration and Exhaustion on the stomach, then survive and extract. The HealthEffect timing is my best reading of the client; check it in game Skill reward 2,700, matching the other Part 3s (1,000 + 1,500 + 2,700 reaches Elite). |
 | L45 | Storyteller | Dodge Caravan - Part 1 | Get 3 Scav kills with dehydration | L32 | Endurance levels | `69ff8a544a655e862e8149ce` | Audited |  |
 | L46 | Storyteller | Dodge Caravan - Part 2 | Kill 10 PMCs using AUG 10-round mag | L45 | Endurance levels | `6a0ce468de041c7f96100a7e` | Audited | Fixed: rewarded Mag Drills; now Endurance like the rest of the line (`ca26ad1`). |
 | L47 | Storyteller | Dodge Caravan - Part 3 | Use every flare extract in the game | L46 | Endurance levels | `6a093c1fe8af905ce4402881` | Audited |  |
@@ -226,7 +220,7 @@ New zones are in `db/CustomQuestZones`, one file per map (`customs.json`, `stree
 | L56 | Storyteller | Healthy nor Wealthy nor Wise - Part 3 | Kill 6 PMC on Ground Zero between 12:00 AM and 1 AM | L55 | Health, Intellect levels | `6ac6e88ba4ca66184b6db8bf` | Audited |  |
 | L57 | Storyteller | Vipassana - Part 1 | Find and Turn in FIR 1x pack Green Tracer 9mm | L32 | Perception, Attention levels | `69fa0ce3c23dface5a239261` | Audited |  |
 | L58 | Storyteller | Vipassana - Part 2 | Turn in 20M RUB | L57 | Perception, Attention levels | `69fa298dc23dface5a239266` | Audited |  |
-| L59 | Storyteller | Vipassana - Part 3 | Turn in FIR 10 BTC, 5x LEDX, 5x Blue Folder, 5x MCC, 10x pack 9x19 Green Tracer | L58 | Perception, Attention levels | `69fa2a1fc23dface5a23926a` | Flagged | Design says 10 packs of green tracer; built with 2. "MCC" built as Advanced current converter. See Flags. |
+| L59 | Storyteller | Vipassana - Part 3 | Turn in FIR 10 BTC, 5x LEDX, 5x Blue Folder, 5x MCC, 10x pack 9x19 Green Tracer | L58 | Perception, Attention levels | `69fa2a1fc23dface5a23926a` | Audited | Design says 10 packs of green tracer; built with 2, as intended. "MCC" is the Advanced current converter. |
 | L60 | Storyteller | A Fart in the Wind - Part 1 | Kill Sanitar at night | L32 | Covert movement levels | `69ff9c2905b2e8932302412c` | Audited | Fixed: kill target was empty, so no kill counted (`505592c`). |
 | L61 | Storyteller | A Fart in the Wind - Part 2 | Kill 4 rogues on Lighthouse at night | L60 | Covert movement levels | `69ffa22805b2e89323024132` | Audited | Fixed: kill target was empty, so no kill counted (`505592c`). |
 | L62 | Storyteller | A Fart in the Wind - Part 3 | Kill Killa at night | L61 | Covert movement levels | `69ffcc7f05b2e89323024139` | Audited | Fixed: kill target was empty, so no kill counted (`505592c`). |
@@ -268,25 +262,25 @@ New zones are in `db/CustomQuestZones`, one file per map (`customs.json`, `stree
 | L98 | Storyteller | The Auto Price - Part 3 | Get 4 headshot kills on raiders on Reserve with the AMX | L97 | Bolt action rifle levels | `6aca86cfa26d5245cb76742d` | Audited |  |
 | L99 | Storyteller | Twenty Five Types of Ammo - Part 1 | Kill 10 PMCs on Interchange with pistols | L32 | Pistol levels | `6aca8948a26d5245cb767438` | Audited | Built: was an empty shell. 10 PMC pistol kills on Interchange, Pistol skill, [PH] text (`8de90da`). |
 | L100 | Storyteller | Twenty Five Types of Ammo - Part 2 | Kill all 3 Goons with Pistols | L99 | Pistol levels | `6afeb4d8c6a5128fce27c30d` | Built | Built: kill Knight, Big Pipe and Birdeye with pistols. Named with a hyphen to match Part 1 |
-| L101 | Storyteller | Twenty Five Types of Ammo - Part 3 | Kill Killa with Deagle | L100 | Pistol levels | `6afeb4d9dac3c158fcfc2598` | Built | Built: kill Killa with any Desert Eagle |
+| L101 | Storyteller | Twenty Five Types of Ammo - Part 3 | Kill Killa with Deagle | L100 | Pistol levels | `6afeb4d9dac3c158fcfc2598` | Built | Built: kill Killa with any Desert Eagle Skill reward 2,700, matching the other Part 3s (1,000 + 1,500 + 2,700 reaches Elite). |
 | L102 | Storyteller | Revolving Door - Part 1 | Kill 10 PMCs on Woods with Revolvers | L32 | Revolver levels | `6afeb4db6f9edbb7b51df476` | Built | Built: 10 PMC kills on Woods with revolvers |
 | L103 | Storyteller | Revolving Door - Part 2 | Kill 5 raiders with Revolvers | L102 | Revolver levels | `6afeb4dc6346e675182cf535` | Built | Built: 5 Raider kills with revolvers |
-| L104 | Storyteller | Revolving Door - Part 3 | Kill Tagilla with Revolvers | L103 | Revolver levels | `6afeb4ddf2a4eee380ba3fd5` | Built | Built: kill Tagilla with a revolver |
+| L104 | Storyteller | Revolving Door - Part 3 | Kill Tagilla with Revolvers | L103 | Revolver levels | `6afeb4ddf2a4eee380ba3fd5` | Built | Built: kill Tagilla with a revolver Skill reward 2,700, matching the other Part 3s (1,000 + 1,500 + 2,700 reaches Elite). |
 | L105 | Storyteller | P-Chan - Part 1 | Kill 10 PMC in legs with SMG | L32 | SMG | `6afeb4de41c9d4034ae92cf7` | Built | Built: 10 PMC kills with SMGs, killing shot to a leg |
 | L106 | Storyteller | P-Chan - Part 2 | Kill 10 Raiders in legs with SMG | L105 | SMG | `6afeb4e04de1af94186b7bb2` | Built | Built: 10 Raider kills with SMGs, killing shot to a leg |
-| L107 | Storyteller | P-Chan - Part 3 | Kill 2 Rogues with SMGs | L106 | SMG | `6afeb4e1b5c5f0dc44687b65` | Built | Built: 2 Rogue kills with SMGs |
+| L107 | Storyteller | P-Chan - Part 3 | Kill 2 Rogues with SMGs | L106 | SMG | `6afeb4e1b5c5f0dc44687b65` | Built | Built: 2 Rogue kills with SMGs Skill reward 2,700, matching the other Part 3s (1,000 + 1,500 + 2,700 reaches Elite). |
 | L108 | Storyteller | Gun - Part 1 | Kill 10 PMCs with M4C9 | L32 | Assault | `6afeb4e249c73f6e437e9220` | Needs check | Built: 10 PMC kills with the Colt M4A1. The design's "M4C9" matches no item; I read it as the M4A1 |
 | L109 | Storyteller | Gun - Part 2 | Kill Glukhar with iron sighted ARs | L108 | Assault | `6afeb4e3794f298c02f1b0c6` | Built | Built: kill Glukhar with an assault rifle or carbine that has no optic or red dot (every scope and sight is excluded) |
-| L110 | Storyteller | Gun - Part 3 | Kill Priest with ARs | L109 | Assault | `6afeb4e599cc3b4498e62f1d` | Built | Built: kill a cultist Priest with an assault rifle or carbine |
+| L110 | Storyteller | Gun - Part 3 | Kill Priest with ARs | L109 | Assault | `6afeb4e599cc3b4498e62f1d` | Built | Built: kill a cultist Priest with an assault rifle or carbine Skill reward 2,700, matching the other Part 3s (1,000 + 1,500 + 2,700 reaches Elite). |
 | L111 | Storyteller | Such Shoot, Many Pellet - Part 1 | Kill 5 Rouges with KS-23 | L32 | Shotgun | `6afeb4e62ef19923c668ff38` | Built | Built: 5 Rogue kills with the KS-23M |
 | L112 | Storyteller | Such Shoot, Many Pellet - Part 2 | Kill 10 PMCs with Sawed off Double Barrel | L111 | Shotgun | `6afeb4e7381b33967fbfc0ab` | Built | Built: 10 PMC kills with the MP-43 sawed-off |
-| L113 | Storyteller | Such Shoot, Many Pellet - Part 3 | Kill Shturmann with a Shotgun | L112 | Shotgun | `6afeb4e8a4a7cd859530f896` | Built | Built: kill Shturman with a shotgun |
+| L113 | Storyteller | Such Shoot, Many Pellet - Part 3 | Kill Shturmann with a Shotgun | L112 | Shotgun | `6afeb4e8a4a7cd859530f896` | Built | Built: kill Shturman with a shotgun Skill reward 2,700, matching the other Part 3s (1,000 + 1,500 + 2,700 reaches Elite). |
 | L114 | Storyteller | Tech Tips - Part 1 | Kill 10 Scavs with LMGs | L32 | LMG | `6afeb4eac3c31838f731b249` | Built | Built: 10 Scav kills with LMGs |
 | L115 | Storyteller | Tech Tips - Part 2 | Kill 20 Scavs with LMGs | L114 | LMG | `6afeb4eb2a3eeab74ef5e56f` | Built | Built: 20 Scav kills with LMGs |
-| L116 | Storyteller | Tech Tips - Part 3 | Kill 10 PMCs with LMGS NO armor | L115 | LMG | `6afeb4ecbe174ca47841d147` | Built | Built: 10 PMC kills with LMGs while wearing no body armor or armored rig (each is excluded) |
+| L116 | Storyteller | Tech Tips - Part 3 | Kill 10 PMCs with LMGS NO armor | L115 | LMG | `6afeb4ecbe174ca47841d147` | Built | Built: 10 PMC kills with LMGs while wearing no body armor or armored rig (each is excluded) Skill reward 2,700, matching the other Part 3s (1,000 + 1,500 + 2,700 reaches Elite). |
 | L117 | Storyteller | Balance Needed - Part 1 | Kill 10 PMCs with M14 | L32 | DMR | `6afeb4ed45e216171112aef6` | Built | Built: 10 PMC kills with the Springfield M1A (the design's "M14"; the M1A is the only one in the game) |
 | L118 | Storyteller | Balance Needed - Part 2 | Kill Glukhar with M14 | L117 | DMR | `6afeb4ef6c18a18d9022efba` | Built | Built: kill Glukhar with the M1A |
-| L119 | Storyteller | Balance Needed - Part 3 | Kill Schturmann with AK50 | L118 | DMR | `6afeb4f0ffaa31f11d47dba9` | Built | Built: kill Shturman with the AK-50 |
+| L119 | Storyteller | Balance Needed - Part 3 | Kill Schturmann with AK50 | L118 | DMR | `6afeb4f0ffaa31f11d47dba9` | Built | Built: kill Shturman with the AK-50 Skill reward 2,700, matching the other Part 3s (1,000 + 1,500 + 2,700 reaches Elite). |
 | L120 | Storyteller | Ace's Legacy | Kill all bosses, transiting in between |  | Has to be really good | `6afeb4f10d58e0df0c7b0487` | Flagged | Built: kill all 11 bosses (Reshala, Killa, Shturman, Glukhar, Sanitar, Tagilla, Kaban, Kollontay, Knight, Zryachiy, Partisan). "Transiting in between" can't be required. Reward is 100k XP and 5 skill boosts as a placeholder: the design says "has to be really good", so pick it |
 
 ## Main story (Q)
@@ -322,7 +316,7 @@ New zones are in `db/CustomQuestZones`, one file per map (`customs.json`, `stree
 | Q27 | Storyteller | Purgatory | Survive and Extract any map | Q26 | XP | `6a08be635562066cb549e1bc` | Audited |  |
 | Q28 | Storyteller | Refusal | Kill 20 PMC | Q27 | XP, Demon Stim | `6a08bea35562066cb549e1c1` | Audited | Sheet: 28/29 must fail if other is completed |
 | Q29 | Storyteller | Acceptance | Turn in 100 Items | Q28 | XP, Angel Stim | `6a08bf145562066cb549e1c7` | Audited |  |
-| Q30 | Storyteller | Thank You For Playing | Turn in 1 RUB | Q28/27 | XP, 1 Bitcoin | `6a08bfb85562066cb549e1cb` | Audited |  |
+| Q30 | Storyteller | Thank You For Playing | Turn in 1 RUB | Q28/27 | XP, 1 Bitcoin | `6a08bfb85562066cb549e1cb` | Audited | Reward: 100,000 XP. |
 
 ## Chimera (C)
 
@@ -344,7 +338,7 @@ New zones are in `db/CustomQuestZones`, one file per map (`customs.json`, `stree
 | C14 | Chimera | Bi-Lingual - Part 1 | Kill PMC in legs with five seven quest where the text is Russian | LVL 20 | XP 110k Rouble | `6a0d274cd47f367b5bed54b7` | Audited |  |
 | C15 | Chimera | Bi-Lingual - Part 2 | Kill Tagilla with UMP 45 | C14 | XP 110k Rouble | `6a0d281bd47f367b5bed54bf` | Audited |  |
 | C16 | Chimera | Bi-Lingual - Part 3 | Turn in military Checkpoint key | C15 | XP 110k rouble | `6a0d2895d47f367b5bed54c7` | Audited | Fixed: trader was Prapor, so it showed there; now Chimera (`8edb1f6`). |
-| C17 | Chimera | Bi-Lingual - Part 4 | Turn in Dorm Gaurd Desk Key | C16 | XP, SSA AP barter | `6a0d28fcd47f367b5bed54ce` | Flagged | Fixed: the SSA AP unlock had no offer; added one at 1,150 RUB, LL3 (`af19b7e`). Design says a barter. See Flags. |
+| C17 | Chimera | Bi-Lingual - Part 4 | Turn in Dorm Gaurd Desk Key | C16 | XP, SSA AP barter | `6a0d28fcd47f367b5bed54ce` | Audited | Fixed: the SSA AP unlock had no offer; added a cash offer at LL3 (`af19b7e`), now 3,500 RUB a round. |
 | C18 | Chimera | Born to Shit, Forced to Wipe | Find 3 TP | C1 | 1 Awl | `6a0d2538d47f367b5bed54a3` | Audited | Fixed: trader was Prapor, so it showed there; now Chimera (`8edb1f6`). |
 | C19 | Chimera | Family Jewels | Find 2 Nuts | C18 | 2 Bolts | `6a0d25a5d47f367b5bed54a9` | Audited |  |
 | C20 | Chimera | Green Gold | Find 4 RAM Sticks | C8 | 1 bitcoin | `6a0d25fbd47f367b5bed54b1` | Audited | Unlocks after Loot Lord 4, not C8 as designed. Left as built. |

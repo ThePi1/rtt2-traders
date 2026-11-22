@@ -4670,7 +4670,7 @@
                     "isHidden": false,
                     "type": "Experience",
                     "unknown": false,
-                    "value": 1000
+                    "value": 100000
                 },
                 {
                     "availableInGameEditions": [],
@@ -22447,7 +22447,7 @@
                     "target": "Immunity",
                     "type": "Skill",
                     "unknown": false,
-                    "value": 2000
+                    "value": 2700
                 }
             ]
         },
@@ -22873,7 +22873,7 @@
                     "target": "Pistol",
                     "type": "Skill",
                     "unknown": false,
-                    "value": 2000
+                    "value": 2700
                 }
             ]
         },
@@ -23258,7 +23258,7 @@
                     "target": "Revolver",
                     "type": "Skill",
                     "unknown": false,
-                    "value": 2000
+                    "value": 2700
                 }
             ]
         },
@@ -23691,7 +23691,7 @@
                     "target": "SMG",
                     "type": "Skill",
                     "unknown": false,
-                    "value": 2000
+                    "value": 2700
                 }
             ]
         },
@@ -24440,7 +24440,7 @@
                     "target": "Assault",
                     "type": "Skill",
                     "unknown": false,
-                    "value": 2000
+                    "value": 2700
                 }
             ]
         },
@@ -24818,7 +24818,7 @@
                     "target": "Shotgun",
                     "type": "Skill",
                     "unknown": false,
-                    "value": 2000
+                    "value": 2700
                 }
             ]
         },
@@ -25421,7 +25421,7 @@
                     "target": "LMG",
                     "type": "Skill",
                     "unknown": false,
-                    "value": 2000
+                    "value": 2700
                 }
             ]
         },
@@ -25785,7 +25785,7 @@
                     "target": "DMR",
                     "type": "Skill",
                     "unknown": false,
-                    "value": 2000
+                    "value": 2700
                 }
             ]
         },
