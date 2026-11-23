@@ -1701,14 +1701,18 @@
             ],
             "AvailableForStart": [
                 {
-                    "compareMethod": ">=",
-                    "conditionType": "Level",
+                    "availableAfter": 0,
+                    "conditionType": "Quest",
+                    "dispersion": 0,
                     "dynamicLocale": false,
                     "globalQuestCounterId": "",
-                    "id": "6afeb40e318e51ecb6608592",
+                    "id": "21c7623d0a82361070b536c6",
                     "index": 0,
                     "parentId": "",
-                    "value": 30,
+                    "status": [
+                        4
+                    ],
+                    "target": "6a134bde8c34ba4a387ccfb7",
                     "visibilityConditions": []
                 }
             ],
