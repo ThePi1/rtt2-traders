@@ -29,7 +29,7 @@ public record ModMetadata : IModMetadata
     public string ModGuid { get; init; } = "com.rtt2traderteam.rtt2traders";
     public string Name { get; init; } = "RTT2 Traders";
     public string Author { get; init; } = "RTT 2 Trader Team";
-    public SemanticVersioning.Version Version { get; init; } = new("1.0.0");
+    public SemanticVersioning.Version Version { get; init; } = new("1.8.0");
     public Range SptVersion { get; init; } = new("~4.1.6");
     public string License { get; init; } = "MIT";
     public bool HasPrepatcher { get; init; } = false;
