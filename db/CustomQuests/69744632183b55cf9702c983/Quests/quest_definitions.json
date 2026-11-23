@@ -2692,7 +2692,7 @@
                     "status": [
                         4
                     ],
-                    "target": "6afeaf8a8816157535cee653",
+                    "target": "6afeaf8392e87e3a862e3c5a",
                     "visibilityConditions": []
                 }
             ],
@@ -3131,6 +3131,21 @@
                         4
                     ],
                     "target": "6b026f83e15e26da114c4e91",
+                    "visibilityConditions": []
+                },
+                {
+                    "availableAfter": 0,
+                    "conditionType": "Quest",
+                    "dispersion": 0,
+                    "dynamicLocale": false,
+                    "globalQuestCounterId": "",
+                    "id": "10225ed4a8aa397e19ca4829",
+                    "index": 0,
+                    "parentId": "",
+                    "status": [
+                        4
+                    ],
+                    "target": "6afeaf8a8816157535cee653",
                     "visibilityConditions": []
                 }
             ],

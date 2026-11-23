@@ -178,6 +178,96 @@
                     ],
                     "target": "69f2d088179e524ac52d63b0",
                     "visibilityConditions": []
+                },
+                {
+                    "availableAfter": 0,
+                    "conditionType": "Quest",
+                    "dispersion": 0,
+                    "dynamicLocale": false,
+                    "globalQuestCounterId": "",
+                    "id": "14e66a0f54b7a808102a2456",
+                    "index": 0,
+                    "parentId": "",
+                    "status": [
+                        4
+                    ],
+                    "target": "69d2ba09925d6e3592c00dd2",
+                    "visibilityConditions": []
+                },
+                {
+                    "availableAfter": 0,
+                    "conditionType": "Quest",
+                    "dispersion": 0,
+                    "dynamicLocale": false,
+                    "globalQuestCounterId": "",
+                    "id": "b2e800710700dfb0bea5c793",
+                    "index": 0,
+                    "parentId": "",
+                    "status": [
+                        4
+                    ],
+                    "target": "6b026f83e15e26da114c4e91",
+                    "visibilityConditions": []
+                },
+                {
+                    "availableAfter": 0,
+                    "conditionType": "Quest",
+                    "dispersion": 0,
+                    "dynamicLocale": false,
+                    "globalQuestCounterId": "",
+                    "id": "3d4a472648b4a9f688cea221",
+                    "index": 0,
+                    "parentId": "",
+                    "status": [
+                        4
+                    ],
+                    "target": "6b0262b57ea2ad1950912ecd",
+                    "visibilityConditions": []
+                },
+                {
+                    "availableAfter": 0,
+                    "conditionType": "Quest",
+                    "dispersion": 0,
+                    "dynamicLocale": false,
+                    "globalQuestCounterId": "",
+                    "id": "043c513a72853fd3145b2db6",
+                    "index": 0,
+                    "parentId": "",
+                    "status": [
+                        4
+                    ],
+                    "target": "6afeb1468cdb28cc9fa9b95c",
+                    "visibilityConditions": []
+                },
+                {
+                    "availableAfter": 0,
+                    "conditionType": "Quest",
+                    "dispersion": 0,
+                    "dynamicLocale": false,
+                    "globalQuestCounterId": "",
+                    "id": "cecfc1b30747c9dd0f2e1a11",
+                    "index": 0,
+                    "parentId": "",
+                    "status": [
+                        4
+                    ],
+                    "target": "6afeb242101f2b1cfb4f0f6f",
+                    "visibilityConditions": []
+                },
+                {
+                    "availableAfter": 0,
+                    "conditionType": "Quest",
+                    "dispersion": 0,
+                    "dynamicLocale": false,
+                    "globalQuestCounterId": "",
+                    "id": "b7aedc4f180a4b5c2ddcad02",
+                    "index": 0,
+                    "parentId": "",
+                    "status": [
+                        4
+                    ],
+                    "target": "6a0b9a8d16ab7c2dcc5587c0",
+                    "visibilityConditions": []
                 }
             ],
             "Fail": []
@@ -222,7 +312,7 @@
                     "id": "6a04b57eee995153b15a3e74",
                     "type": "Experience",
                     "unknown": false,
-                    "value": 2000,
+                    "value": 8000,
                     "index": 1
                 }
             ]
@@ -483,7 +573,7 @@
                     "id": "6a07ab308ff25d06e48d31e4",
                     "type": "Experience",
                     "unknown": false,
-                    "value": 1000,
+                    "value": 8000,
                     "index": 0
                 }
             ]
@@ -608,6 +698,21 @@
                     ],
                     "target": "6a07ab1f8ff25d06e48d31e3",
                     "visibilityConditions": []
+                },
+                {
+                    "availableAfter": 0,
+                    "conditionType": "Quest",
+                    "dispersion": 0,
+                    "dynamicLocale": false,
+                    "globalQuestCounterId": "",
+                    "id": "c93e8d236b1d2dad26e99c6d",
+                    "index": 0,
+                    "parentId": "",
+                    "status": [
+                        4
+                    ],
+                    "target": "6afeb332bfd2980faf94bee2",
+                    "visibilityConditions": []
                 }
             ],
             "Fail": []
@@ -633,7 +738,7 @@
                     "id": "6a07aba88ff25d06e48d31e9",
                     "type": "Experience",
                     "unknown": false,
-                    "value": 1000,
+                    "value": 40000,
                     "index": 0
                 },
                 {
@@ -3265,6 +3370,21 @@
                     ],
                     "target": "6afeb335ba41467030270a07",
                     "visibilityConditions": []
+                },
+                {
+                    "availableAfter": 0,
+                    "conditionType": "Quest",
+                    "dispersion": 0,
+                    "dynamicLocale": false,
+                    "globalQuestCounterId": "",
+                    "id": "252ea5872cd7adcd007428d3",
+                    "index": 0,
+                    "parentId": "",
+                    "status": [
+                        4
+                    ],
+                    "target": "6afeb332bfd2980faf94bee2",
+                    "visibilityConditions": []
                 }
             ],
             "Fail": []
@@ -3926,7 +4046,7 @@
                     "status": [
                         4
                     ],
-                    "target": "6afeb332bfd2980faf94bee2",
+                    "target": "6afeb329a6457b3b32f01cc1",
                     "visibilityConditions": []
                 }
             ],
