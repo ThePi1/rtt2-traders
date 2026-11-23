@@ -9,9 +9,9 @@
                 "useGravity": true,
                 "randomRotation": false,
                 "Position": {
-                    "X": -156.1365,
-                    "Y": 1.303333,
-                    "Z": -321.686
+                    "x": -156.1365,
+                    "y": 1.303333,
+                    "z": -321.686
                 },
                 "Rotation": {
                     "x": 0,
@@ -50,9 +50,9 @@
                 "useGravity": true,
                 "randomRotation": false,
                 "Position": {
-                    "X": -119.3885,
-                    "Y": 1.345246,
-                    "Z": -445.2293
+                    "x": -119.3885,
+                    "y": 1.345246,
+                    "z": -445.2293
                 },
                 "Rotation": {
                     "x": 0,
@@ -91,9 +91,9 @@
                 "useGravity": true,
                 "randomRotation": false,
                 "Position": {
-                    "X": -163.2313,
-                    "Y": 5.328879,
-                    "Z": -342.352
+                    "x": -163.2313,
+                    "y": 5.328879,
+                    "z": -342.352
                 },
                 "Rotation": {
                     "x": 0,
@@ -132,9 +132,9 @@
                 "useGravity": true,
                 "randomRotation": false,
                 "Position": {
-                    "X": -158.7773,
-                    "Y": 1.550891,
-                    "Z": -375.1938
+                    "x": -158.7773,
+                    "y": 1.550891,
+                    "z": -375.1938
                 },
                 "Rotation": {
                     "x": 0,
@@ -173,9 +173,9 @@
                 "useGravity": true,
                 "randomRotation": false,
                 "Position": {
-                    "X": -251.8,
-                    "Y": 4.4,
-                    "Z": -325.0
+                    "x": -251.8,
+                    "y": 4.4,
+                    "z": -325.0
                 },
                 "Rotation": {
                     "x": 0,

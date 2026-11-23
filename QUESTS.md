@@ -42,15 +42,16 @@ Zone positions are the box centre in game coordinates (x, y, z). Sizes are width
 ### Zones to check in game
 
 All Customs, Factory and Woods zones were verified in game on 2026-11-22.
+All Shoreline and Interchange zones were verified in game on 2026-11-22.
 
-- [ ] **`Q20_2` – Offering to the Eye, Shoreline church.** Moved from Woods (2026-11-21). Centre (255.5, -52.4, -106.5), 18 × 5 × 12, over the church main hall; floor at -53.9 m. Check that walking into the hall completes the step.
+- [x] **`Q20_2` – Offering to the Eye, Shoreline church.** Moved from Woods (2026-11-21). Centre (255.5, -52.4, -106.5), 18 × 5 × 12, over the church main hall; floor at -53.9 m. Check that walking into the hall completes the step. Verified in game 2026-11-22.
 From the audit (existing zones):
 
 - [ ] **`L94_1`, `L94_2`, `L94_3` – Faster Dayo 2, Reserve.** Now wired to the steps in order: red guard tower top floor, Black Knight rooftop post, White Bishop rooftop mortar. Check each zone is at the spot its step names. They sit at (118.4, 0.6, -86.2), (11.8, 0.1, -15.7) and (-74.0, 0.7, -29.7).
 - [ ] **`L92` – Gun Nut 3, Reserve.** Now wired to the repair kit placement; at (103.3, -5.9, 49.9) by the repair base. Check it's in the RB-ST room.
-- [ ] **`Q21` – An Eye Cannot Speak, Shoreline resort.** The box spans 1.5–2.5 m high, and the nearest floor the game maps is at -3.7 m. Fine if it's on an upper floor bots never walk; otherwise you can't reach it.
+- [x] **`Q21` – An Eye Cannot Speak, Shoreline resort.** The box spans 1.5–2.5 m high, and the nearest floor the game maps is at -3.7 m. Fine if it's on an upper floor bots never walk; otherwise you can't reach it. Verified in game 2026-11-22.
 - [ ] **`z_q10_gzbench` – Load-Bearing Citizen 1, Ground Zero.** The box spans 30.4–31.4 m, and the nearest mapped floor is 23.4 m. Same as `Q21`.
-- [ ] **`F11_2` – Sacramentum, Shoreline.** Renamed from `F5_2`, its only change. Check the rooster can still be placed.
+- [x] **`F11_2` – Sacramentum, Shoreline.** Renamed from `F5_2`, its only change. Check the rooster can still be placed. Verified in game 2026-11-22.
 
 New zones are in the map files in `db/CustomQuestZones` (`woods.json`, `ground_zero.json` and so on). The first four are the least certain.
 
@@ -59,7 +60,7 @@ New zones are in the map files in `db/CustomQuestZones` (`woods.json`, `ground_z
 - [ ] **`C8` – Loot Lord 3, Lighthouse.** Centre (129, 10.922, -584.5), 9 × 4 × 12. Placed on the rocks past the minefield east of the Water Treatment Plant. Check that the spot matches the quest text and can see the machine guns.
 - [x] **`C4_2` – Back To The Future, Customs dorm 206.** Centre (229.6, 3.91, 138.4), 2 × 2.5 × 2.4, turned 3.5°. This is a place-item zone in the hallway outside room 206 in the two-story dorm. It overlaps the game's own zone `huntsman_020`, so check that the place-item prompt still appears. Verified in game 2026-11-22.
 - [ ] **`C9` – The Gungeon, Reserve.** Shrunk to the gunsmithing workshop in the Black Bishop basement (2026-11-21): centre (-155.54, -8.067, -14.01), 16.5 × 2.9 × 8, turned 15.5°. It holds the repair-station workbenches, vises and toolboxes; the floor is at -9.45 m. Check that walking into the workshop completes the step and the corridor outside doesn't.
-- [ ] **`C6` – Loot Lord 1, Shoreline.** Centre (-628.01, -18.436, -236.04), 13.3 × 8.6 × 30, turned 17°. Placed in the Agrocomplex hangar with the toolboxes and welding machine (the sheet's "tool warehouse"). The other candidate is the pier warehouse.
+- [x] **`C6` – Loot Lord 1, Shoreline.** Centre (-628.01, -18.436, -236.04), 13.3 × 8.6 × 30, turned 17°. Placed in the Agrocomplex hangar with the toolboxes and welding machine (the sheet's "tool warehouse"). The other candidate is the pier warehouse. Verified in game 2026-11-22.
 - [ ] **`C1_1` – Deja-Vu, Ground Zero.** Centre (-13, 31.471, 76), 16 × 4 × 30. Open-plan office on the TerraGroup building's second floor. Check it on both Ground Zero versions.
 - [ ] **`C1_2` – Deja-Vu, Ground Zero.** Centre (81.5, 15.734, 100.5), 8 × 4 × 17. Underground meat truck and the lane beside it. Check it on both versions.
 - [x] **`C7_3` – Loot Lord 2, Woods cultist bunker.** Centre (-273, 8.94, -413), 17 × 3.5 × 15. Verified in game 2026-11-22.
@@ -99,24 +100,24 @@ New zones are in the map files in `db/CustomQuestZones` (`woods.json`, `ground_z
 New zones are in `db/CustomQuestZones`, one file per map (`customs.json`, `streets.json` and so on). Every row marked **Needs check** names its zones. These are the least certain:
 
 - [ ] **Heights I set by hand**, because the game's floor map only had another storey there:
-  - `A24_3` (Razvedchikov 7 apartment)
+  - `A24_3` (Concordia apartment 8 armchair)
   - `P4_1` (Tarbank)
-  - `P9_2` (IDEA cafe)
+  - `P9_2` (IDEA cafe) – verified 2026-11-22
   - `X15` (Klimov food court)
-  - `X24_1` (W222), `X24_2` (E306), `X24_4` (east wing room 110, the blue-tape office)
-  - `X3_4` (gas station office)
-  - `N16` (island)
+  - `X24_1` (W222), `X24_2` (E306), `X24_4` (east wing room 110, the blue-tape office) – verified 2026-11-22
+  - `X3_4` (gas station) – verified 2026-11-22
+  - `N16` (island) – verified 2026-11-22
   - `N17` (cinema stage)
   - `S10_1` (sky-bridge)
 - [ ] **No floor mapped at all; check that they're reachable:**
-  - `A20_1` and `A20_2` (crashed drones)
-  - `X2_2` (train)
+  - `A20_1` and `A20_2` (crashed drones) – verified 2026-11-22
+  - `X2_2` (train) – verified 2026-11-22
   - `X19` (Transtechexport)
   - `X20_4` (Sadovaya Burger Spot)
   - `P13_2` (Sportmarket)
   - `P6` (street ATM)
   - `P17` (Brodion bar)
-  - `V20` (old wreck)
+  - `V20` (covered boat in the pier storage) – verified 2026-11-22
 - [ ] **New forced spawns:**
   - A8 Hidden Shipment at the Shoreline railway bridge
   - A28 Case For Atlas in the resort helicopter
@@ -360,7 +361,7 @@ New zones are in `db/CustomQuestZones`, one file per map (`customs.json`, `stree
 | A2 | Atlas | Deregulated Material | Handover 2x FIR military battery, 3x FIR OFZ shell | Q11 | XP, unlock A4 | `6afeaaf15d1fdb09ec4b2e0d` | Built | Built: hand in 2 FIR tank batteries and 3 FIR OFZ shells. Unlocks with Atlas (Q11), not L31 (see A1); Unlock status: complete (initial Atlas) |
 | A3 | Atlas | 500 Cigarettes | Drop 25 pack winstons at near-relax safe on Streets; Plant time 4s each | A1 |  | `6afeaaf28d3229c33858b35c` | Needs check | Built: leave 25 Wilston packs (4 s each) at new zone `A3`, the safe by the hookah lounge (the relaxation room) on Malevicha 5, Streets |
 | A4 | Atlas | Close Contact | 2 PMC kills <20meters on Customs | A2 |  | `6afeaaf3c51077a145c068c1` | Built | Built: 2 PMC kills within 20 m on Customs |
-| A5 | Atlas | Operation Benchmark | Mark 3 workbenches | A3, A4 |  | `6afeab5a9e8e49793d89e912` | Needs check | Built: mark 3 workbenches with new zones `A5_1`, `A5_2` (Customs; the upstairs bench by the fuel tanks, floor 6.7) and `A5_3` (Streets); unlocks after A3 and A4. Map and benches my choice |
+| A5 | Atlas | Operation Benchmark | Mark 3 workbenches | A3, A4 |  | `6afeab5a9e8e49793d89e912` | Needs check | Built: mark 3 workbenches with new zones `A5_1`, `A5_2` (Customs; the upstairs bench by the fuel tanks, floor 6.7) and `A5_3` (Streets; the bench near the old factory conveyor belt); unlocks after A3 and A4. Map and benches my choice |
 | A6 | Atlas | Civil War on Drugs | Some amount of kills with a status effect | A5 |  | `6afeab5b8e5e78e85f08ab64` | Built | Built: 8 Scav kills while in pain (no painkillers). The design only said "kills with a status effect"; pain fits the anti-drug joke |
 | A7 | Atlas | Fraternizing with the Enemy | Some combo quest with Xiaoming (X4-X6) - mark certain things "false intel" | A6 |  | `6afeab5c279977913a65a40b` | Built | Built: plant an Intelligence folder (the "false intel") at Xiaoming's D2 power room on Reserve, zone `X1`, which X1 also uses. The design wanted a combo with X4-X6; this is a simple stand-in. Check the design |
 | A8 | Atlas | English Opening - Part 1 | Find and turn in quest item hidden at railway bridge extract on Shoreline | A7 | XP, unlock A9 | `6afeaba6250382525a4cbe0c` | Needs check | Built: find and hand in Atlas' Hidden Shipment, which now spawns at the railway bridge extract on Shoreline (new forced spawn, `shoreline_forced.json`) |
@@ -379,7 +380,7 @@ New zones are in `db/CustomQuestZones`, one file per map (`customs.json`, `stree
 | A21 | Atlas | Awkward Assembly - Part 1 | Gun builder quest, but with absurd (not hard just funny) requirements | A20 | Some assort unlock | `6b0262b2749cb622193b2ffc` | Needs check | Built: hand in a Glock 17 with a 50+ round magazine and at least one stock, suppressor, tactical device and compact reflex sight; unlocks a Glock SGM 50-round drum offer at Atlas LL1 (9k RUB, my price). The idea's foregrip and 4x scope can't fit a Glock, so a suppressor, tactical device and compact red dot stand in |
 | A22 | Atlas | Awkward Assembly - Part 2 | Gun builder quest, but with absurd (not hard just funny) requirements | A21 | Some assort unlock | `6b0262b35a80baad6c24abb0` | Needs check | Built: hand in an infantry Mosin with the ProMag Archangel OPFOR chassis, a suppressor, a flashlight and a tactical device (the laser), weighing 7 kg or more (about 8 kg is the most a build reaches, so 7 kg needs a big scope and the long barrel); unlocks a Mosin Archangel chassis offer at Atlas LL1 (21k RUB, my price). No foregrip fits a Mosin, so it's left out |
 | A23 | Atlas | Awkward Assembly - Part 3 | Gun builder quest, but with absurd (not hard just funny) requirements | A22 | Some assort unlock | `6b0262b57ea2ad1950912ecd` | Needs check | Built: hand in an AK-74 with the RPK-16 95-round drum, a rifle scope (the Scope category: variable riflescopes, not prism or reflex sights) and a suppressor, ergonomics 20 or less; unlocks an RPK-16 95-round drum offer at Atlas LL1 (36k RUB, my price). The AK-74 has no barrel slot, so the idea's "longest barrel" is left out |
-| A24 | Atlas | Light Reading | Hand in 3 FIR books. Then, mark 3 good reading spots on Streets (zone TBD). | A23 |  | `6afead9c40832f9c22c4b3e9` | Needs check | Built: hand in any 3 FIR books, then visit 3 reading spots on Streets: new zones `A24_1` (Pinewood Hotel lobby sofas), `A24_2` (School No. 30), `A24_3` (Razvedchikov 7 apartment) |
+| A24 | Atlas | Light Reading | Hand in 3 FIR books. Then, mark 3 good reading spots on Streets (zone TBD). | A23 |  | `6afead9c40832f9c22c4b3e9` | Needs check | Built: hand in any 3 FIR books, then visit 3 reading spots on Streets: new zones `A24_1` (Pinewood Hotel lobby sofas), `A24_2` (School No. 30), `A24_3` (armchair in Concordia apartment 8, overlooking the basketball court) |
 | A25 | Atlas | Packet Loss | 10 headshots with DMR from >100m | A24 |  | `6afeada403382817c436d262` | Built | Built: 10 headshot kills with a marksman rifle from 100 m or more. Registered under the Marksman category so modded DMRs count |
 | A26 | Atlas | Hitscan - Part 1 | 5 kills with snipers >100m | A25 |  | `6afeada548b82fcfce03670d` | Built | Built: 5 kills with a bolt-action rifle from 100 m or more. Registered under the Sniper category so modded bolt guns count |
 | A27 | Atlas | Hitscan - Part 2 | 5 kills with snipers >250m | A26 |  | `6afeada6119f6aae527fe2f7` | Built | Built: 5 kills with a bolt-action rifle from 250 m or more. Registered under the Sniper category so modded bolt guns count |
@@ -392,8 +393,8 @@ New zones are in `db/CustomQuestZones`, one file per map (`customs.json`, `stree
 | ID | Trader | Quest | Tasks | Unlocked by | Reward | Quest id | Status | Notes |
 |---|---|---|---|---|---|---|---|---|
 | X1 | Xiaoming | Háo Jiǔ Bu Jiàn | Mark D2 power room on reserve, kill 3 raiders, extract via D2 (not all same raid) | Q12 |  | `6afeb12a489c2c15bdef16e4` | Built | Built: mark the D2 power room (existing zone `X1`, also used by A7), kill 3 Raiders on Reserve, extract via D2 (`EXFIL_Bunker_D2`). Starts when Q12 is done; Sheet: Trader level .16 each quest |
-| X2 | Xiaoming | Silk Road | Mark some stuff on the shoreline road, and train | X1 |  | `6afeb12d8a2bf95dc3c703aa` | Needs check | Built: mark new zones `X2_1` (main road by the gas station) and `X2_2` (train cars by the railway bridge) on Shoreline. Spots my choice |
-| X3 | Xiaoming | Silk Road - Part 2 | Plant drug packages (stims) (Injector Cases?) at 5 locations around Shoreline | X2 |  | `6afeb133df04bdf8630f0ccf` | Needs check | Built: plant any stimulant at 5 new zones on Shoreline: `X3_1` south pier, `X3_2` weather station, `X3_3` village house, `X3_4` gas station office, `X3_5` bus station office (stims instead of Injector Cases, which are rare and pricey) |
+| X2 | Xiaoming | Silk Road | Mark some stuff on the shoreline road, and train | X1 |  | `6afeb12d8a2bf95dc3c703aa` | Needs check | Built: mark new zones `X2_1` (barricaded intersection by the gas station) and `X2_2` (train cars by the railway bridge) on Shoreline. Spots my choice |
+| X3 | Xiaoming | Silk Road - Part 2 | Plant drug packages (stims) (Injector Cases?) at 5 locations around Shoreline | X2 |  | `6afeb133df04bdf8630f0ccf` | Needs check | Built: plant any stimulant at 5 new zones on Shoreline: `X3_1` behind the tire pile on the pier, `X3_2` top floor of the weather station radar array, `X3_3` behind the village general store counter, `X3_4` gas station, `X3_5` bus station office (stims instead of Injector Cases, which are rare and pricey) |
 | X4 | Xiaoming | Better Without | Kill quest; ends up being Atlas's guys | X3 |  | `6afeb134f4a03ce7764de4bc` | Built | Built: kill 10 USEC PMCs anywhere (the "Atlas's guys" twist is in the text) |
 | X5 | Xiaoming | Better Without - Part 2 | Kill quest (similar but distinct) - certain map/faction | X4 |  | `6afeb13573c586a224470329` | Built | Built: kill 10 Rogues on Lighthouse (faction and map my choice) |
 | X6 | Xiaoming | Delay, Deny, Defend | Break into some healthcare building and somehow get back at Atlas | X5 |  | `6b025b1d71067db8be11b529` | Needs check | Built: find the new Faulty Gunpowder quest item (spawns on the desk in the Tarcone director's office, Customs), plant it at new zone `X6` (X-ray control room, 2nd floor of the Zmeisky 4a polyclinic on Streets; needs the X-ray room key), then survive and extract from Streets |
@@ -424,12 +425,12 @@ New zones are in `db/CustomQuestZones`, one file per map (`customs.json`, `stree
 | P1 | Price | Stocking Up | Find 1 FIR Vodka, 1 FIR Whisky | Q8 |  | `6afeaf7915530ff37817d47a` | Built | Built: hand in 1 FIR vodka (either Tarkovskaya) and 1 FIR Dan Jackiel whiskey. Starts when Q8 (which unlocks Price) is done; Sheet: Tradr Level .2 each quest |
 | P2 | Price | Bad For You, Good For Me | Find 4 each type cigarette FIR | P1 |  | `6afeaf7a33a7614fcee60d8a` | Built | Built: hand in 4 FIR packs of each of the 4 cigarette brands |
 | P3 | Price | Fish and Croutons | Turn in 3 Spratz and 3 Croutons | P2 |  | `6afeaf7b5d9bf914aedf59e7` | Built | Built: hand in 3 cans of sprats and 3 packs of rye croutons (either kind), not FIR (the design says "turn in") |
-| P4 | Price | Priced In | Plant USD in the financial buildings (both) and the housing building, survive and extract same raid | P3 |  | `6afeaf7e14cddbc37e5b808e` | Needs check | Built: plant a stack of dollars at new zones `P4_1` (Tarbank, Primorskiy 52), `P4_2` (financial office, Nikitskaya 10), `P4_3` (Cardinal), then survive and extract on Streets. "Same raid" isn't enforced: the game keeps plants across raids |
+| P4 | Price | Priced In | Plant USD in the financial buildings (both) and the housing building, survive and extract same raid | P3 |  | `6afeaf7e14cddbc37e5b808e` | Needs check | Built: plant a stack of dollars at new zones `P4_1` (Tarbank, Primorskiy 52), `P4_2` (financial office, Nikitskaya 10), `P4_3` (Cardinal apartment complex grocery store), then survive and extract on Streets. "Same raid" isn't enforced: the game keeps plants across raids |
 | P5 | Price | Priced Out | Mark 1,5,9,13 IDEA cash registers on Interchange then kill 5 scavs in same session | P4 |  | `6afeaf7f2f64c84788159743` | Built | Built: mark the 4 IDEA registers (existing zones `P5_1`-`P5_4`), then kill 5 Scavs on Interchange |
 | P6 | Price | New Money | Plant bitcoin on A streets ATM, survive and extract same raid | P5 |  | `6afeaf811df12fad34fa7faa` | Needs check | Built: plant a Physical Bitcoin at new zone `P6` (street ATM outside the Pinewood Hotel), then survive and extract on Streets |
 | P7 | Price | In Another Life | Kill 20 PMCs | P6 |  | `6afeaf82f98010fd7f8a2add` | Built | Built: kill 20 PMCs anywhere |
 | P8 | Price | Check Please | Pick up 2 packages on Interchange tables Kiba Outer and Kiba Inner. Found 3 FIR Iskra, 3 some beverage, 1 other beverage. | P7 |  | `6afeaf8392e87e3a862e3c5a` | Built | Built: hand in the 2 Packages on Interchange (forced spawns at the Kiba tables were already in place), 3 FIR Iskra, 3 FIR Ice Green tea and 1 FIR Pevko beer (the two beverages are my pick) |
-| P9 | Price | Table for Two | Plant iskra/wine/vodka on tables in certain maps | P8 |  | `6afeaf86b4ce126563a95994` | Needs check | Built: plant wine at new zone `P9_1` (Beluga VIP room, Streets), an Iskra at `P9_2` (IDEA cafe, Interchange), vodka at `P9_3` (metal table in the Customs garages; the dorms are all inside a Jaeger plant zone). Maps and tables my choice |
+| P9 | Price | Table for Two | Plant iskra/wine/vodka on tables in certain maps | P8 |  | `6afeaf86b4ce126563a95994` | Needs check | Built: plant wine at new zone `P9_1` (Beluga VIP room, Streets), an Iskra at `P9_2` (middle tables in the IDEA cafe, Interchange), vodka at `P9_3` (metal table in the Customs garages; the dorms are all inside a Jaeger plant zone). Maps and tables my choice |
 | P10 | Price | Vlone Vever | Plant rigs in certain interchange store Avokado, Dino Clothes | P9 | unlock rig/gear sell | `6afeaf8746258ee20b284c22` | Needs check | Built: plant any chest rig at the existing zones `P10_1` (Avokado) and `P10_2` (Dino Clothes, whose negative scale was made positive). Unlocks Price LL1 offers for 3 mid-tier rigs: Direct Action Thunderbolt chest rig (26k RUB), Shellback Tactical Banshee plate carrier with its standard plates (72k) and 6B5-15 Uley armored rig (59k), my prices |
 | P11 | Price | Louis and Clarks | Get kills near Adiik Shoe Store | P10 | unlock backpack sell | `6afeaf89baacdcc253b108de` | Built | Built: 8 kills of any kind inside the existing kill zone `P11` (Adik). Unlocks Price LL1 offers for 3 backpacks: Flyye MBSS (19k RUB), Oakley Mechanism (56k) and Eberlestock F5 Switchblade (59k), my prices |
 | P12 | Price | King of Burgers | Visit All burger spot locations in the game (Interchange) | P11 |  | `6afeaf8a8816157535cee653` | Needs check | Built: visit the existing zone `P12_1` (Burger Spot) and new zone `P12_2` (the west wing burger houses), the only two I found on Interchange |
@@ -474,7 +475,7 @@ New zones are in `db/CustomQuestZones`, one file per map (`customs.json`, `stree
 | V4 | Voron | Welcome to the Family - Part 4 | plant 1 bitcoin on woods bunker circle | V3 | XP, Digital secure DSP radio transmitter TEST THIS | `6afeb327486ca79d3ba87bd3` | Needs check | Built: plant a Physical Bitcoin at the existing zone `V4` (Woods bunker circle); rewards a Digital secure DSP radio transmitter (the design says to test this one) |
 | V5 | Voron | Welcome to the Family - Part 5 | Plant 1 Yellow Card, 1 injectors case on lighthouse marked room | V4 | XP | `6afeb3283c1a437f7c92d6ef` | Built | Built: plant a Labs yellow keycard and an Injector case at the existing zone `V5` (Lighthouse marked room) |
 | V6 | Voron | Welcome to the Family - Part 6 | Kill 1 PMC with cultist Knife | V5 | XP, M80A1 barter | `6afeb329a6457b3b32f01cc1` | Built | Built: kill 1 PMC with the Cultist knife; unlocks a 7.62x51 M80A1 offer at Voron LL2 (900 RUB each, 120 per restock, my numbers) |
-| V7 | Voron | The Eye Requires Meat | Visit 3 meat-related places on different mapos | V6 |  | `6afeb32db4cf3d8c29043e19` | Needs check | Built: visit new zones `V7_1` (Reserve kitchen meat locker), `V7_2` (pig carcasses in the scav town, Woods), `V7_3` (resort cold storage, Shoreline) |
+| V7 | Voron | The Eye Requires Meat | Visit 3 meat-related places on different mapos | V6 |  | `6afeb32db4cf3d8c29043e19` | Needs check | Built: visit new zones `V7_1` (Black Bishop kitchen meat locker, Reserve), `V7_2` (pig carcasses in the scav town, Woods), `V7_3` (resort cold storage, Shoreline) |
 | V8 | Voron | The Eye Requires Bliss | find and turn in 10 painkillers | V7 |  | `6afeb32ea08f5705cab4abc8` | Built | Built: hand in 10 FIR Analgin painkillers |
 | V9 | Voron | The Eye Requires Munitions - Part 1 | Find and turn in 3 boxes of 5.45 | V8 | XP, 7n40 barter | `6afeb32f8824b9ad3f4ee3f7` | Built | Built: hand in 3 FIR 5.45x39 ammo packs (any kind); unlocks a 5.45x39 7N40 offer at Voron LL2 (650 RUB each, 150 per restock) |
 | V10 | Voron | The Eye Requires Munitions - Part 2 | find and turn in 3 boxes 7.62 | V9 | XP, 5.45 and 7.62 BP barter | `6afeb330ee909155fdd53269` | Built | Built: hand in 3 FIR 7.62 ammo packs (x39, x51 or x54R); unlocks 5.45x39 BP (750 RUB) and 7.62x39 BP (850 RUB) offers at Voron LL3, 150 per restock |
@@ -487,7 +488,7 @@ New zones are in `db/CustomQuestZones`, one file per map (`customs.json`, `stree
 | V17 | Voron | Reap The Wicked | Kill 20 PMCs with headshots | V16 |  | `6afeb336c2c73fe5c7aa0b0e` | Built | Built: 20 PMC kills with headshots |
 | V18 | Voron | Reap The Unfortunate | Kill 50 Scavs with Headshots | V17 |  | `6afeb3370d0cd9dc6356567d` | Built | Built: 50 Scav kills with headshots |
 | V19 | Voron | Reap the Cursed | Kill tagilla and killa with headshots | V18 |  | `6afeb338d7f21a807d83dc9c` | Built | Built: kill Tagilla and Killa, each with a headshot |
-| V20 | Voron | One Final Delivery | Pickup the Box from ground zero dead scientist and plant on shoreline in same raid | V19 |  | `6afeb33a2352ca9802efd929` | Needs check | Built: find the Final Sacrifice on Ground Zero, then plant it at new zone `V20` (old wreck, Shoreline south shore). The Ground Zero spawn (at the dead scientist) used the Wrapped Package item; it now spawns the Final Sacrifice, as the sheet lists. "Same raid" can't be enforced: a transit chain runs GZ → Streets → Interchange → Customs → Shoreline, but the found item stays found across raids |
+| V20 | Voron | One Final Delivery | Pickup the Box from ground zero dead scientist and plant on shoreline in same raid | V19 |  | `6afeb33a2352ca9802efd929` | Needs check | Built: find the Final Sacrifice on Ground Zero, then plant it at new zone `V20` (covered boat in storage at the Shoreline pier). The Ground Zero spawn (at the dead scientist) used the Wrapped Package item; it now spawns the Final Sacrifice, as the sheet lists. "Same raid" can't be enforced: a transit chain runs GZ → Streets → Interchange → Customs → Shoreline, but the found item stays found across raids |
 
 ## Weiss (S)
 

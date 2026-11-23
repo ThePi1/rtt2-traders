@@ -9,14 +9,14 @@
                 "useGravity": false,
                 "randomRotation": false,
                 "Position": {
-                    "X": -10.52513,
-                    "Y": 0.9491997,
-                    "Z": 22.6304
+                    "x": -10.52513,
+                    "y": 0.9491997,
+                    "z": 22.6304
                 },
                 "Rotation": {
-                    "X": 0.005347237,
-                    "Y": 0.04447673,
-                    "Z": 0.002382409
+                    "x": 0.005347237,
+                    "y": 0.04447673,
+                    "z": 0.002382409
                 },
                 "IsGroupPosition": false,
                 "GroupPositions": [],

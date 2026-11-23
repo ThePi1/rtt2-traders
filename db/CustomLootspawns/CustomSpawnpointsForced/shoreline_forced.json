@@ -9,9 +9,9 @@
                 "useGravity": true,
                 "randomRotation": false,
                 "Position": {
-                    "X": -1029.3,
-                    "Y": -60.0,
-                    "Z": 307.6
+                    "x": -1029.3,
+                    "y": -60.0,
+                    "z": 307.6
                 },
                 "Rotation": {
                     "x": 0,
@@ -50,9 +50,9 @@
                 "useGravity": true,
                 "randomRotation": false,
                 "Position": {
-                    "X": -251.8,
-                    "Y": -4.0,
-                    "Z": -51.9
+                    "x": -251.8,
+                    "y": -4.0,
+                    "z": -51.9
                 },
                 "Rotation": {
                     "x": 0,
@@ -91,9 +91,9 @@
                 "useGravity": true,
                 "randomRotation": false,
                 "Position": {
-                    "X": -271.5,
-                    "Y": -0.5,
-                    "Z": -98.0
+                    "x": -271.5,
+                    "y": -0.5,
+                    "z": -98.0
                 },
                 "Rotation": {
                     "x": 0,

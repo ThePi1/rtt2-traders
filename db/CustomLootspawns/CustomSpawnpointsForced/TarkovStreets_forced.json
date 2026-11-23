@@ -9,9 +9,9 @@
                 "useGravity": true,
                 "randomRotation": false,
                 "Position": {
-                    "X": 60.76062,
-                    "Y": 1.742749,
-                    "Z": -57.43116
+                    "x": 60.76062,
+                    "y": 1.742749,
+                    "z": -57.43116
                 },
                 "Rotation": {
                     "x": 0,
@@ -50,9 +50,9 @@
                 "useGravity": true,
                 "randomRotation": false,
                 "Position": {
-                    "X": 181.4131,
-                    "Y": 3.021893,
-                    "Z": 102.3974
+                    "x": 181.5863,
+                    "y": 3.0219,
+                    "z": 102.3823
                 },
                 "Rotation": {
                     "x": 0,
@@ -91,9 +91,9 @@
                 "useGravity": true,
                 "randomRotation": false,
                 "Position": {
-                    "X": -34.5,
-                    "Y": 7.4,
-                    "Z": -115.5
+                    "x": -34.5,
+                    "y": 7.4,
+                    "z": -115.5
                 },
                 "Rotation": {
                     "x": 0,
@@ -132,9 +132,9 @@
                 "useGravity": true,
                 "randomRotation": false,
                 "Position": {
-                    "X": 188.7,
-                    "Y": 0.1,
-                    "Z": 226.3
+                    "x": 188.7,
+                    "y": 0.1,
+                    "z": 226.3
                 },
                 "Rotation": {
                     "x": 0,
@@ -173,9 +173,9 @@
                 "useGravity": true,
                 "randomRotation": false,
                 "Position": {
-                    "X": -211.76,
-                    "Y": 3.5,
-                    "Z": 297.29
+                    "x": -211.76,
+                    "y": 4.0592,
+                    "z": 297.29
                 },
                 "Rotation": {
                     "x": 0,
