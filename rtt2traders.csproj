@@ -10,7 +10,7 @@
     <Nullable>disable</Nullable>
     <Authors>RTT2 devs</Authors>
     <Copyright></Copyright>
-    <AssemblyVersion>1.7.0</AssemblyVersion>
+    <AssemblyVersion>1.8.0</AssemblyVersion>
     <FileVersion>$(AssemblyVersion)</FileVersion>
     <Configurations>Debug;Release;Package</Configurations>
     <Version>$(AssemblyVersion)</Version>
