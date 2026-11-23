@@ -50,9 +50,9 @@
                 "useGravity": true,
                 "randomRotation": false,
                 "Position": {
-                    "x": 181.4131,
-                    "y": 3.021893,
-                    "z": 102.3974
+                    "x": 181.5863,
+                    "y": 3.0219,
+                    "z": 102.3823
                 },
                 "Rotation": {
                     "x": 0,
@@ -174,7 +174,7 @@
                 "randomRotation": false,
                 "Position": {
                     "x": -211.76,
-                    "y": 3.5,
+                    "y": 4.0592,
                     "z": 297.29
                 },
                 "Rotation": {
