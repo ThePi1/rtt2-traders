@@ -1202,6 +1202,21 @@
                     ],
                     "target": "6b025b1d71067db8be11b529",
                     "visibilityConditions": []
+                },
+                {
+                    "availableAfter": 0,
+                    "conditionType": "Quest",
+                    "dispersion": 0,
+                    "dynamicLocale": false,
+                    "globalQuestCounterId": "",
+                    "id": "876cf657233c1da27a7dd99a",
+                    "index": 0,
+                    "parentId": "",
+                    "status": [
+                        4
+                    ],
+                    "target": "6afeb23a85305c13a0bd3eea",
+                    "visibilityConditions": []
                 }
             ],
             "Fail": []
@@ -2880,7 +2895,7 @@
                     "status": [
                         4
                     ],
-                    "target": "6afeb14136d4b397d4079646",
+                    "target": "6afeb13a3774896637aeac6a",
                     "visibilityConditions": []
                 }
             ],
@@ -3641,6 +3656,21 @@
                     ],
                     "target": "6afeb1468cdb28cc9fa9b95c",
                     "visibilityConditions": []
+                },
+                {
+                    "availableAfter": 0,
+                    "conditionType": "Quest",
+                    "dispersion": 0,
+                    "dynamicLocale": false,
+                    "globalQuestCounterId": "",
+                    "id": "d128b0d7549f472c688d81bc",
+                    "index": 0,
+                    "parentId": "",
+                    "status": [
+                        4
+                    ],
+                    "target": "6afeb14136d4b397d4079646",
+                    "visibilityConditions": []
                 }
             ],
             "Fail": []
@@ -4002,7 +4032,7 @@
                     "status": [
                         4
                     ],
-                    "target": "6afeb14b26031308ba2bac1d",
+                    "target": "6afeb14a0c36dcb8fefae761",
                     "visibilityConditions": []
                 }
             ],
@@ -4374,6 +4404,21 @@
                         4
                     ],
                     "target": "6afeb151cb463707e9aac116",
+                    "visibilityConditions": []
+                },
+                {
+                    "availableAfter": 0,
+                    "conditionType": "Quest",
+                    "dispersion": 0,
+                    "dynamicLocale": false,
+                    "globalQuestCounterId": "",
+                    "id": "1887ee4a7e932ed197ceda63",
+                    "index": 0,
+                    "parentId": "",
+                    "status": [
+                        4
+                    ],
+                    "target": "6afeb14b26031308ba2bac1d",
                     "visibilityConditions": []
                 }
             ],

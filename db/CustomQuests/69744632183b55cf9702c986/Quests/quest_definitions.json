@@ -2581,6 +2581,21 @@
                     ],
                     "target": "6afeac863a8863df58c72b03",
                     "visibilityConditions": []
+                },
+                {
+                    "availableAfter": 0,
+                    "conditionType": "Quest",
+                    "dispersion": 0,
+                    "dynamicLocale": false,
+                    "globalQuestCounterId": "",
+                    "id": "4fddd975e4ea8409238b0157",
+                    "index": 0,
+                    "parentId": "",
+                    "status": [
+                        4
+                    ],
+                    "target": "69f27eed7d8e3164fcee106a",
+                    "visibilityConditions": []
                 }
             ],
             "Fail": []
@@ -3652,7 +3667,7 @@
                     "status": [
                         4
                     ],
-                    "target": "6afeac8b3b75d5799d2a8891",
+                    "target": "6afeac8722c2567678149911",
                     "visibilityConditions": []
                 }
             ],
@@ -4079,7 +4094,7 @@
                     "status": [
                         4
                     ],
-                    "target": "6b0262b57ea2ad1950912ecd",
+                    "target": "6afead0e1fb1863eb6a1b86e",
                     "visibilityConditions": []
                 }
             ],
@@ -4941,6 +4956,21 @@
                     ],
                     "target": "6afeada6119f6aae527fe2f7",
                     "visibilityConditions": []
+                },
+                {
+                    "availableAfter": 0,
+                    "conditionType": "Quest",
+                    "dispersion": 0,
+                    "dynamicLocale": false,
+                    "globalQuestCounterId": "",
+                    "id": "3219c8dbd20138886bcf1ff2",
+                    "index": 0,
+                    "parentId": "",
+                    "status": [
+                        4
+                    ],
+                    "target": "6b0262b57ea2ad1950912ecd",
+                    "visibilityConditions": []
                 }
             ],
             "Fail": []
@@ -5110,7 +5140,7 @@
                     "status": [
                         4
                     ],
-                    "target": "6afead0e1fb1863eb6a1b86e",
+                    "target": "6afeac8b3b75d5799d2a8891",
                     "visibilityConditions": []
                 }
             ],
