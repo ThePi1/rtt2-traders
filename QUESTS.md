@@ -350,7 +350,7 @@ From quest XP alone, players reach about level 18, 26, 33 and 40 by the end of A
 | Q9 | Chimera | Time to Get Settled | Find FIR 2 nuts, 2 bolts, toolset | Q6 | 2500XP, 500 USD, 500 EUR | `69ce8e2896b54ce3c6d1fa2d` | Audited | Design says 500 USD and 500 EUR; built with 250 each. Left as built. |
 | Q10 | Chimera | Load-Bearing Citizen - Part 1 | Find and turn in FIR 2 weapons parts, 3 handguard, 2 grip, Find ground zero weapon bench, machine gun overwatching construction site | Q6 | 5000 XP | `69cedc2dd2a219c316eb1c1e` | Needs check | Fixed: had no start condition; unlocks after Q6 (`8869a47`). Zone `z_q10_gzbench` may be too high to reach. See Check in game. |
 | Q11 | Chimera | Load-Bearing Citizen - Part 2 | Hand over: 2 ADAR fir, 1 M4 fir | Q10 | 4500 XP, unlock Atlas | `69cedf01e4cc2cc2742682e2` | Audited |  |
-| Q12 | Chimera | Long Time, No See | Find and Turn in 1 Intel Folder | Q6 | 10000 XP, Unlock Xiaoming | `69cee1057c3c785e39999475` | Audited | Fixed: had no start condition; unlocks after Q6 (`8869a47`). |
+| Q12 | Chimera | Long Time, No See | Find and Turn in 1 Intel Folder | Q6 | 10000 XP, Unlock Xiaoming | `69cee1057c3c785e39999475` | Audited | Fixed: had no start condition; unlocks after Q6 (`8869a47`).; Icon: pointed at a custom image the mod never had, so it now uses vanilla's Friend From the West icon. |
 | Q13 | Chimera | Timmy or Stimmy? | Find and Turn in 3 morphine | Q6 | 4800 XP, Unlock Needle | `69cee334142467411393bf91` | Audited |  |
 | Q14 | Chimera | The Laboratory | Transit from Customs to Factory, Transit from Factory to Labs, Survive and Extract from Labs | LVL15, Q6, F4, P5, A5, X6, N3 | 5000 XP, Labs Card | `69f27eed7d8e3164fcee106a` | Audited | Finale arc: XP raised from 5,000 to 10,000. |
 | Q15 | Chimera | Big Brained | Find Documents regarding labs personnel. Streets terragroup office | Q14 | 6500 XP, 100k RUB | `69f2c4dc5154f1f35e108593` | Audited | Sheet: item spawn is a little glitchy |
@@ -368,7 +368,7 @@ From quest XP alone, players reach about level 18, 26, 33 and 40 by the end of A
 | Q27 | Storyteller | Purgatory | Survive and Extract any map | Q26 | XP | `6a08be635562066cb549e1bc` | Audited | Finale arc: XP raised from 1,000 to 10,000. |
 | Q28 | Storyteller | Refusal | Kill 20 PMC | Q27 | XP, Demon Stim | `6a08bea35562066cb549e1c1` | Audited | Sheet: 28/29 must fail if other is completed |
 | Q29 | Storyteller | Acceptance | Turn in 100 Items | Q27 | XP, Angel Stim | `6a08bf145562066cb549e1c7` | Audited |  |
-| Q30 | Storyteller | Thank You For Playing | Turn in 1 RUB | Q28 (completed or failed), Q29 (completed or failed) | XP, 1 Bitcoin | `6a08bfb85562066cb549e1cb` | Audited | Reward: 100,000 XP. |
+| Q30 | Storyteller | Thank You For Playing | Turn in 1 RUB | Q28 (completed or failed), Q29 (completed or failed) | XP, 1 Bitcoin | `6a08bfb85562066cb549e1cb` | Audited | Reward: 100,000 XP.; Icon: pointed at a custom image the mod never had, so it now uses vanilla's The Price of Independence icon. |
 
 ## Chimera (C)
 
@@ -412,7 +412,7 @@ From quest XP alone, players reach about level 18, 26, 33 and 40 by the end of A
 | F11 | Fence | Sacramentum | Plant 1 M4 on Woods cultist site 1, plant rooster in Shoreline cultist church | F10, Q20 | 6000 XP, .10 Fence Rep | `69d2b9049e4d407d16211b15` | Needs check | Fixed: its Shoreline zone shared the id `F5_2` with Prison Corridor's Streets zone; renamed `F11_2` (`04b4949`). |
 | F12 | Fence | White Whale | Kill Kollantay | F11 | 12000 XP, .65 Fence Rep | `69d2ba09925d6e3592c00dd2` | Audited | Standing 0.95, design 0.65. Left as built. |
 | F13 | Fence | Neronian Debasement | Give Fence 2000 USD, 2000 Euro, 1M RUB | F12, P6 | 6500 XP, .40 Fence Rep | `69d2bbd26b10b0f1eed6a2ab` | Audited |  |
-| F14 | Fence | The Crying of Lot 49 | Plant intelligence in the potted plant in Streets Financial locked room (financial institution locked office key) (F14_1), and the Streets real estate locked room (real estate agency office room key) (F14_2). Kill Reshala. Next, mark 4 different grafitti: Big skelly (F4_3), Outside of Mechanics (F14_4), Big Kitty (F14_5), Big Panda (F14_6) in customs, survive and extract. Then, in different raid, plant a gold chain at ambulance in backyard of Sanitars House in Shoreline (F14_7). Kill Sanitar. | F13 | 15000 XP, 2 Fence Rep | `69d2bd9aae6b63b659469685` | Audited |  |
+| F14 | Fence | The Crying of Lot 49 | Plant intelligence in the potted plant in Streets Financial locked room (financial institution locked office key) (F14_1), and the Streets real estate locked room (real estate agency office room key) (F14_2). Kill Reshala. Next, mark 4 different grafitti: Big skelly (F4_3), Outside of Mechanics (F14_4), Big Kitty (F14_5), Big Panda (F14_6) in customs, survive and extract. Then, in different raid, plant a gold chain at ambulance in backyard of Sanitars House in Shoreline (F14_7). Kill Sanitar. | F13 | 15000 XP, 2 Fence Rep | `69d2bd9aae6b63b659469685` | Audited | Icon: pointed at a custom image the mod never had, so it now uses vanilla's Big Sale icon. |
 
 ## Atlas (A)
 
