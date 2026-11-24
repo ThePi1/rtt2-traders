@@ -1,6 +1,17 @@
-# Trader assorts (draft)
+# Trader assorts
 
-The proposed stock for every RTT2 trader, for review. Nothing here is in the mod yet. Once you've reviewed it, a script turns this file into `data/*-assort.json`, the quest assorts and the `AssortmentUnlock` rewards.
+The stock of every RTT2 trader. This file is the source: `tools/build_assorts.py` turns it into `data/*-assort.json`, the quest assorts in `db/CustomQuests/*/QuestAssort` and the quests' `AssortmentUnlock` rewards. To change a trader's stock, edit a row here and run the script again:
+
+```
+python tools/build_assorts.py
+```
+
+Add `--check` to see what would change without writing anything.
+- **What the script reads from each row:** LL, Cost, Limit and Unlock. A Cost written as an amount (`1,234 ₽`, `0.80 $`, `1,866 €`) is used as it is. A barter Cost is copied from the vanilla offer.
+- **Parts:** each gun's and armour's parts come from its vanilla offer (the Offer column).
+- **Unlocks:** an Unlock starting with a quest row (A5, Q16 ...) locks the item behind that quest.
+- **Current stock:** rows marked "current RTT2 stock" are left as they are.
+- **Re-running:** everything the script writes has an id starting with `a55027`, and each run replaces the last run's output.
 
 **How the draft was made.** Each item is taken from vanilla SPT 4.1.6's traders (Prapor, Therapist, Skier, Peacekeeper, Mechanic, Ragman and Jaeger), at its lowest vanilla loyalty level. It keeps vanilla's price and buy limit. A set of rules then gives it one home trader (below). Ref's Arena stock is left out. Guns the Storyteller unlocks through the L lines, and items an RTT2 trader already sells, aren't repeated.
 
@@ -13,6 +24,7 @@ The proposed stock for every RTT2 trader, for review. Nothing here is in the mod
 
 ## Changes that ship with this batch
 
+- [x] **Assorts:** built into the mod with `tools/build_assorts.py`.
 - [x] **Rep and loyalty:** done. Quest standing, the LL template (level 15/25/35, standing 1/2/3), Atlas in dollars, Weiss in euros, and Xiaoming selling both currencies are all in the mod. See [Trader loyalty](QUESTS.md#trader-loyalty) in QUESTS.md for when each trader reaches each LL.
 - [ ] **Voron's quest ammo:** V6 gives M80A1 (pen 60) at LL2. Vanilla never sells it. Move it to LL3 or LL4.
 

@@ -171,6 +171,26 @@
                     "type": "Item",
                     "unknown": false,
                     "value": 30000
+                },
+                {
+                    "availableInGameEditions": [],
+                    "gameMode": [
+                        "regular",
+                        "pve"
+                    ],
+                    "id": "a55027b7fb04afe5bbf2eec9",
+                    "isHidden": false,
+                    "items": [
+                        {
+                            "_id": "a55027d679e9c99d82dcd9de",
+                            "_tpl": "635267f063651329f75a4ee8"
+                        }
+                    ],
+                    "loyaltyLevel": 1,
+                    "target": "a55027d679e9c99d82dcd9de",
+                    "traderId": "69744632183b55cf9702c983",
+                    "type": "AssortmentUnlock",
+                    "unknown": false
                 }
             ]
         },
@@ -426,6 +446,26 @@
                     "type": "Item",
                     "unknown": false,
                     "value": 35000
+                },
+                {
+                    "availableInGameEditions": [],
+                    "gameMode": [
+                        "regular",
+                        "pve"
+                    ],
+                    "id": "a5502779c66d6c7953e9d6fa",
+                    "isHidden": false,
+                    "items": [
+                        {
+                            "_id": "a55027025903e13fc1c4126d",
+                            "_tpl": "590c661e86f7741e566b646a"
+                        }
+                    ],
+                    "loyaltyLevel": 1,
+                    "target": "a55027025903e13fc1c4126d",
+                    "traderId": "69744632183b55cf9702c983",
+                    "type": "AssortmentUnlock",
+                    "unknown": false
                 }
             ]
         },
@@ -570,6 +610,38 @@
                     "type": "Item",
                     "unknown": false,
                     "value": 40000
+                },
+                {
+                    "availableInGameEditions": [],
+                    "gameMode": [
+                        "regular",
+                        "pve"
+                    ],
+                    "id": "a55027fd94518b341e2dc3bd",
+                    "isHidden": false,
+                    "items": [
+                        {
+                            "_id": "a5502742323dd9306cf4a0a4",
+                            "_tpl": "64be79e2bf8412471d0d9bcc"
+                        },
+                        {
+                            "_id": "a55027aad7f05926aece62ac",
+                            "_tpl": "6570495b45d573133d0d6adb",
+                            "parentId": "a5502742323dd9306cf4a0a4",
+                            "slotId": "Soft_armor_front"
+                        },
+                        {
+                            "_id": "a550277a2c759337b6abe1d0",
+                            "_tpl": "657049d23425b19bbc0502f0",
+                            "parentId": "a5502742323dd9306cf4a0a4",
+                            "slotId": "Soft_armor_back"
+                        }
+                    ],
+                    "loyaltyLevel": 1,
+                    "target": "a5502742323dd9306cf4a0a4",
+                    "traderId": "69744632183b55cf9702c983",
+                    "type": "AssortmentUnlock",
+                    "unknown": false
                 }
             ]
         },
@@ -791,6 +863,44 @@
                     "type": "Item",
                     "unknown": false,
                     "value": 45000
+                },
+                {
+                    "availableInGameEditions": [],
+                    "gameMode": [
+                        "regular",
+                        "pve"
+                    ],
+                    "id": "a55027f9371029b723b49cde",
+                    "isHidden": false,
+                    "items": [
+                        {
+                            "_id": "a55027ca7becbaa3191e13cc",
+                            "_tpl": "5aa7d193e5b5b000171d063f"
+                        },
+                        {
+                            "_id": "a55027272a48cc000c180b65",
+                            "_tpl": "657bb70486c7f9ef7a009936",
+                            "parentId": "a55027ca7becbaa3191e13cc",
+                            "slotId": "Helmet_top"
+                        },
+                        {
+                            "_id": "a550279a3e5d5480d0fec8df",
+                            "_tpl": "657bb79ba1c61ee0c303631a",
+                            "parentId": "a55027ca7becbaa3191e13cc",
+                            "slotId": "Helmet_back"
+                        },
+                        {
+                            "_id": "a5502705790a69ef76bc7915",
+                            "_tpl": "657bb7d7b30eca9763051176",
+                            "parentId": "a55027ca7becbaa3191e13cc",
+                            "slotId": "Helmet_ears"
+                        }
+                    ],
+                    "loyaltyLevel": 1,
+                    "target": "a55027ca7becbaa3191e13cc",
+                    "traderId": "69744632183b55cf9702c983",
+                    "type": "AssortmentUnlock",
+                    "unknown": false
                 }
             ]
         },
@@ -1034,6 +1144,26 @@
                     "type": "Item",
                     "unknown": false,
                     "value": 50000
+                },
+                {
+                    "availableInGameEditions": [],
+                    "gameMode": [
+                        "regular",
+                        "pve"
+                    ],
+                    "id": "a55027dd2553ee67c11c9c19",
+                    "isHidden": false,
+                    "items": [
+                        {
+                            "_id": "a5502787db4a5fc1d47acf10",
+                            "_tpl": "666b11055a706400b717cfa5"
+                        }
+                    ],
+                    "loyaltyLevel": 1,
+                    "target": "a5502787db4a5fc1d47acf10",
+                    "traderId": "69744632183b55cf9702c983",
+                    "type": "AssortmentUnlock",
+                    "unknown": false
                 }
             ]
         },
@@ -1205,6 +1335,106 @@
                     "type": "Item",
                     "unknown": false,
                     "value": 55000
+                },
+                {
+                    "availableInGameEditions": [],
+                    "gameMode": [
+                        "regular",
+                        "pve"
+                    ],
+                    "id": "a5502747e9dacff853b63a04",
+                    "isHidden": false,
+                    "items": [
+                        {
+                            "_id": "a550275ef51fc1e4998ccd2c",
+                            "_tpl": "64abd93857958b4249003418"
+                        },
+                        {
+                            "_id": "a550275251bc54d0a87e4ede",
+                            "_tpl": "6570f30b0921c914bf07964c",
+                            "parentId": "a550275ef51fc1e4998ccd2c",
+                            "slotId": "Soft_armor_front"
+                        },
+                        {
+                            "_id": "a55027f1e2b39b80298418b7",
+                            "_tpl": "6570f35cd67d0309980a7acb",
+                            "parentId": "a550275ef51fc1e4998ccd2c",
+                            "slotId": "Soft_armor_back"
+                        },
+                        {
+                            "_id": "a55027de2bd1ca2099fbd82b",
+                            "_tpl": "6570f3890b4ae5847f060dad",
+                            "parentId": "a550275ef51fc1e4998ccd2c",
+                            "slotId": "Soft_armor_left"
+                        },
+                        {
+                            "_id": "a5502730c7dcd4afa5a5e3c0",
+                            "_tpl": "6570f3bb0b4ae5847f060db2",
+                            "parentId": "a550275ef51fc1e4998ccd2c",
+                            "slotId": "soft_armor_right"
+                        },
+                        {
+                            "_id": "a55027259cf028285a7d9a7a",
+                            "_tpl": "656fb0bd7c2d57afe200c0dc",
+                            "parentId": "a550275ef51fc1e4998ccd2c",
+                            "slotId": "Front_plate"
+                        },
+                        {
+                            "_id": "a55027061be0f47b58f02955",
+                            "_tpl": "656fb0bd7c2d57afe200c0dc",
+                            "parentId": "a550275ef51fc1e4998ccd2c",
+                            "slotId": "Back_plate"
+                        }
+                    ],
+                    "loyaltyLevel": 2,
+                    "target": "a550275ef51fc1e4998ccd2c",
+                    "traderId": "69744632183b55cf9702c983",
+                    "type": "AssortmentUnlock",
+                    "unknown": false
+                },
+                {
+                    "availableInGameEditions": [],
+                    "gameMode": [
+                        "regular",
+                        "pve"
+                    ],
+                    "id": "a55027c100184820a86bec96",
+                    "isHidden": false,
+                    "items": [
+                        {
+                            "_id": "a55027c453606dc13338ca90",
+                            "_tpl": "5d5d646386f7742797261fd9"
+                        },
+                        {
+                            "_id": "a550275861ade41c5dfe2bef",
+                            "_tpl": "65764e1e2bc38ef78e076489",
+                            "parentId": "a55027c453606dc13338ca90",
+                            "slotId": "Soft_armor_front"
+                        },
+                        {
+                            "_id": "a55027d84f3c3db2814d9bc7",
+                            "_tpl": "65764fae2bc38ef78e07648d",
+                            "parentId": "a55027c453606dc13338ca90",
+                            "slotId": "Soft_armor_back"
+                        },
+                        {
+                            "_id": "a550270d820b19e67c1d63bf",
+                            "_tpl": "6576504b526e320fbe035783",
+                            "parentId": "a55027c453606dc13338ca90",
+                            "slotId": "Groin"
+                        },
+                        {
+                            "_id": "a550276d57b412dceb40a6e9",
+                            "_tpl": "6576500f526e320fbe03577f",
+                            "parentId": "a55027c453606dc13338ca90",
+                            "slotId": "Groin_back"
+                        }
+                    ],
+                    "loyaltyLevel": 2,
+                    "target": "a55027c453606dc13338ca90",
+                    "traderId": "69744632183b55cf9702c983",
+                    "type": "AssortmentUnlock",
+                    "unknown": false
                 }
             ]
         },
@@ -1359,6 +1589,82 @@
                     "type": "Item",
                     "unknown": false,
                     "value": 60000
+                },
+                {
+                    "availableInGameEditions": [],
+                    "gameMode": [
+                        "regular",
+                        "pve"
+                    ],
+                    "id": "a55027ff7c1f79ac886482ba",
+                    "isHidden": false,
+                    "items": [
+                        {
+                            "_id": "a550272733413c3aa6f4c11a",
+                            "_tpl": "5d5e7d28a4b936645d161203"
+                        },
+                        {
+                            "_id": "a550271bfa4a0a12921c7475",
+                            "_tpl": "657f8a8d7db258e5600fe33d",
+                            "parentId": "a550272733413c3aa6f4c11a",
+                            "slotId": "Helmet_top"
+                        },
+                        {
+                            "_id": "a550278b208f5866d3efe66c",
+                            "_tpl": "657f8b05f4c82973640b2348",
+                            "parentId": "a550272733413c3aa6f4c11a",
+                            "slotId": "Helmet_back"
+                        }
+                    ],
+                    "loyaltyLevel": 2,
+                    "target": "a550272733413c3aa6f4c11a",
+                    "traderId": "69744632183b55cf9702c983",
+                    "type": "AssortmentUnlock",
+                    "unknown": false
+                },
+                {
+                    "availableInGameEditions": [],
+                    "gameMode": [
+                        "regular",
+                        "pve"
+                    ],
+                    "id": "a550271a9484afc471dddee3",
+                    "isHidden": false,
+                    "items": [
+                        {
+                            "_id": "a55027d45ca52aee541c3690",
+                            "_tpl": "5c0e3eb886f7742015526062"
+                        },
+                        {
+                            "_id": "a55027876104480c5b08362b",
+                            "_tpl": "65764a4cd8537eb26a0355ee",
+                            "parentId": "a55027d45ca52aee541c3690",
+                            "slotId": "Soft_armor_front"
+                        },
+                        {
+                            "_id": "a5502784faf9188433f0b09a",
+                            "_tpl": "65764bc22bc38ef78e076485",
+                            "parentId": "a55027d45ca52aee541c3690",
+                            "slotId": "Soft_armor_back"
+                        },
+                        {
+                            "_id": "a5502728b8e9cd9979c604b8",
+                            "_tpl": "65764c39526e320fbe035777",
+                            "parentId": "a55027d45ca52aee541c3690",
+                            "slotId": "Collar"
+                        },
+                        {
+                            "_id": "a55027cabfe25eb475aea3f1",
+                            "_tpl": "65764c6b526e320fbe03577b",
+                            "parentId": "a55027d45ca52aee541c3690",
+                            "slotId": "Groin"
+                        }
+                    ],
+                    "loyaltyLevel": 2,
+                    "target": "a55027d45ca52aee541c3690",
+                    "traderId": "69744632183b55cf9702c983",
+                    "type": "AssortmentUnlock",
+                    "unknown": false
                 }
             ]
         },
@@ -1614,6 +1920,76 @@
                     "type": "Item",
                     "unknown": false,
                     "value": 65000
+                },
+                {
+                    "availableInGameEditions": [],
+                    "gameMode": [
+                        "regular",
+                        "pve"
+                    ],
+                    "id": "a550277c3812a493beb3f9b3",
+                    "isHidden": false,
+                    "items": [
+                        {
+                            "_id": "a5502748c585d2c97c76e9aa",
+                            "_tpl": "66bdc28a0b603c26902b2011"
+                        },
+                        {
+                            "_id": "a55027f0af4c816bea66a8f5",
+                            "_tpl": "66bdc2ea8cbd597c9c2f9360",
+                            "parentId": "a5502748c585d2c97c76e9aa",
+                            "slotId": "Helmet_top"
+                        },
+                        {
+                            "_id": "a55027271d84db5580fc4e14",
+                            "_tpl": "66bdc2e25f17154509115d1e",
+                            "parentId": "a5502748c585d2c97c76e9aa",
+                            "slotId": "Helmet_back"
+                        },
+                        {
+                            "_id": "a55027385a4023751f971441",
+                            "_tpl": "66bdc2d051aa8c345646d03f",
+                            "parentId": "a5502748c585d2c97c76e9aa",
+                            "slotId": "helmet_eyes"
+                        },
+                        {
+                            "_id": "a55027a614956e0be5188d95",
+                            "_tpl": "66bdc2d9408f1e66eb4fd957",
+                            "parentId": "a5502748c585d2c97c76e9aa",
+                            "slotId": "helmet_jaw"
+                        },
+                        {
+                            "_id": "a550274e3f45e9685bfe2bcc",
+                            "_tpl": "66bdc2c90b603c26902b2018",
+                            "parentId": "a5502748c585d2c97c76e9aa",
+                            "slotId": "Helmet_ears"
+                        }
+                    ],
+                    "loyaltyLevel": 2,
+                    "target": "a5502748c585d2c97c76e9aa",
+                    "traderId": "69744632183b55cf9702c983",
+                    "type": "AssortmentUnlock",
+                    "unknown": false
+                },
+                {
+                    "availableInGameEditions": [],
+                    "gameMode": [
+                        "regular",
+                        "pve"
+                    ],
+                    "id": "a550279eecf6d0b32ead705f",
+                    "isHidden": false,
+                    "items": [
+                        {
+                            "_id": "a5502790c6f4c87e08bd5558",
+                            "_tpl": "5bbde409d4351e003562b036"
+                        }
+                    ],
+                    "loyaltyLevel": 2,
+                    "target": "a5502790c6f4c87e08bd5558",
+                    "traderId": "69744632183b55cf9702c983",
+                    "type": "AssortmentUnlock",
+                    "unknown": false
                 }
             ]
         },
@@ -1782,6 +2158,94 @@
                     "type": "Item",
                     "unknown": false,
                     "value": 70000
+                },
+                {
+                    "availableInGameEditions": [],
+                    "gameMode": [
+                        "regular",
+                        "pve"
+                    ],
+                    "id": "a550277cad53a411e611b7f1",
+                    "isHidden": false,
+                    "items": [
+                        {
+                            "_id": "a5502794d4717bc6e77b9c5e",
+                            "_tpl": "609e8540d5c319764c2bc2e9"
+                        },
+                        {
+                            "_id": "a550276523fe94b303a99e98",
+                            "_tpl": "6572e5221b5bc1185508c24f",
+                            "parentId": "a5502794d4717bc6e77b9c5e",
+                            "slotId": "Soft_armor_front"
+                        },
+                        {
+                            "_id": "a55027abff6cbcd0f0efe630",
+                            "_tpl": "6572e52f73c0eabb700109a0",
+                            "parentId": "a5502794d4717bc6e77b9c5e",
+                            "slotId": "Soft_armor_back"
+                        },
+                        {
+                            "_id": "a550272b25b6b84960e33d95",
+                            "_tpl": "6572e53c73c0eabb700109a4",
+                            "parentId": "a5502794d4717bc6e77b9c5e",
+                            "slotId": "Soft_armor_left"
+                        },
+                        {
+                            "_id": "a5502761fa780919563fe400",
+                            "_tpl": "6572e54873c0eabb700109a8",
+                            "parentId": "a5502794d4717bc6e77b9c5e",
+                            "slotId": "soft_armor_right"
+                        },
+                        {
+                            "_id": "a5502795686960e781eb968f",
+                            "_tpl": "656f9fa0498d1b7e3e071d98",
+                            "parentId": "a5502794d4717bc6e77b9c5e",
+                            "slotId": "Front_plate"
+                        },
+                        {
+                            "_id": "a55027e9fa6906b0f7569afb",
+                            "_tpl": "656f9fa0498d1b7e3e071d98",
+                            "parentId": "a5502794d4717bc6e77b9c5e",
+                            "slotId": "Back_plate"
+                        }
+                    ],
+                    "loyaltyLevel": 2,
+                    "target": "a5502794d4717bc6e77b9c5e",
+                    "traderId": "69744632183b55cf9702c983",
+                    "type": "AssortmentUnlock",
+                    "unknown": false
+                },
+                {
+                    "availableInGameEditions": [],
+                    "gameMode": [
+                        "regular",
+                        "pve"
+                    ],
+                    "id": "a550270ab0c6e5a88d5739c8",
+                    "isHidden": false,
+                    "items": [
+                        {
+                            "_id": "a55027591b1d2581d274bce7",
+                            "_tpl": "5f60b34a41e30a4ab12a6947"
+                        },
+                        {
+                            "_id": "a55027762b504919e83b1009",
+                            "_tpl": "657bbad7a1c61ee0c3036323",
+                            "parentId": "a55027591b1d2581d274bce7",
+                            "slotId": "Helmet_top"
+                        },
+                        {
+                            "_id": "a5502715d2a5003bf8b8c228",
+                            "_tpl": "657bbb31b30eca9763051183",
+                            "parentId": "a55027591b1d2581d274bce7",
+                            "slotId": "Helmet_back"
+                        }
+                    ],
+                    "loyaltyLevel": 2,
+                    "target": "a55027591b1d2581d274bce7",
+                    "traderId": "69744632183b55cf9702c983",
+                    "type": "AssortmentUnlock",
+                    "unknown": false
                 }
             ]
         },
@@ -2179,6 +2643,46 @@
                     "traderId": "69744632183b55cf9702c983",
                     "type": "AssortmentUnlock",
                     "unknown": false
+                },
+                {
+                    "availableInGameEditions": [],
+                    "gameMode": [
+                        "regular",
+                        "pve"
+                    ],
+                    "id": "a5502791e430c9a96a4f6883",
+                    "isHidden": false,
+                    "items": [
+                        {
+                            "_id": "a55027e158cd27f685c64960",
+                            "_tpl": "66d98233302686954b0c6f81"
+                        }
+                    ],
+                    "loyaltyLevel": 2,
+                    "target": "a55027e158cd27f685c64960",
+                    "traderId": "69744632183b55cf9702c983",
+                    "type": "AssortmentUnlock",
+                    "unknown": false
+                },
+                {
+                    "availableInGameEditions": [],
+                    "gameMode": [
+                        "regular",
+                        "pve"
+                    ],
+                    "id": "a55027ba74f60990ba665274",
+                    "isHidden": false,
+                    "items": [
+                        {
+                            "_id": "a55027e375e70429bd6b2a22",
+                            "_tpl": "6038d614d10cbf667352dd44"
+                        }
+                    ],
+                    "loyaltyLevel": 2,
+                    "target": "a55027e375e70429bd6b2a22",
+                    "traderId": "69744632183b55cf9702c983",
+                    "type": "AssortmentUnlock",
+                    "unknown": false
                 }
             ]
         },
@@ -2409,6 +2913,26 @@
                     "traderId": "69744632183b55cf9702c983",
                     "type": "AssortmentUnlock",
                     "unknown": false
+                },
+                {
+                    "availableInGameEditions": [],
+                    "gameMode": [
+                        "regular",
+                        "pve"
+                    ],
+                    "id": "a5502721116d07406376c986",
+                    "isHidden": false,
+                    "items": [
+                        {
+                            "_id": "a55027f09e5c99bce8c13198",
+                            "_tpl": "656fa25e94b480b8a500c0e0"
+                        }
+                    ],
+                    "loyaltyLevel": 3,
+                    "target": "a55027f09e5c99bce8c13198",
+                    "traderId": "69744632183b55cf9702c983",
+                    "type": "AssortmentUnlock",
+                    "unknown": false
                 }
             ]
         },
@@ -2572,6 +3096,26 @@
                     "type": "Item",
                     "unknown": false,
                     "value": 85000
+                },
+                {
+                    "availableInGameEditions": [],
+                    "gameMode": [
+                        "regular",
+                        "pve"
+                    ],
+                    "id": "a55027aecf5fb8de01e18f46",
+                    "isHidden": false,
+                    "items": [
+                        {
+                            "_id": "a55027dce91dec3c12a02844",
+                            "_tpl": "5e85a9f4add9fe03027d9bf1"
+                        }
+                    ],
+                    "loyaltyLevel": 3,
+                    "target": "a55027dce91dec3c12a02844",
+                    "traderId": "69744632183b55cf9702c983",
+                    "type": "AssortmentUnlock",
+                    "unknown": false
                 }
             ]
         },
@@ -2763,6 +3307,80 @@
                     "type": "Item",
                     "unknown": false,
                     "value": 90000
+                },
+                {
+                    "availableInGameEditions": [],
+                    "gameMode": [
+                        "regular",
+                        "pve"
+                    ],
+                    "id": "a5502791b62ea1921a921f99",
+                    "isHidden": false,
+                    "items": [
+                        {
+                            "_id": "a55027a2f4c4bed8dd8ae10f",
+                            "_tpl": "60a3c70cde5f453f634816a3"
+                        },
+                        {
+                            "_id": "a55027ad3036e16ba625a423",
+                            "_tpl": "6570fae34c65ab77a6015146",
+                            "parentId": "a55027a2f4c4bed8dd8ae10f",
+                            "slotId": "Soft_armor_front"
+                        },
+                        {
+                            "_id": "a55027aae309e2cbca2ba5d3",
+                            "_tpl": "6570fa1f4c65ab77a601512f",
+                            "parentId": "a55027a2f4c4bed8dd8ae10f",
+                            "slotId": "Soft_armor_back"
+                        },
+                        {
+                            "_id": "a55027969f9072ca2eab9375",
+                            "_tpl": "6570fb22584a51c23e03251f",
+                            "parentId": "a55027a2f4c4bed8dd8ae10f",
+                            "slotId": "Soft_armor_left"
+                        },
+                        {
+                            "_id": "a55027f474da1654dd6b84de",
+                            "_tpl": "6570fb6ad3eefd23430f8c7c",
+                            "parentId": "a55027a2f4c4bed8dd8ae10f",
+                            "slotId": "soft_armor_right"
+                        },
+                        {
+                            "_id": "a550278a1011970b3f596f38",
+                            "_tpl": "6570fb8f4c65ab77a601514d",
+                            "parentId": "a55027a2f4c4bed8dd8ae10f",
+                            "slotId": "Collar"
+                        },
+                        {
+                            "_id": "a550279b7b670166141d7280",
+                            "_tpl": "6570fbdd74d84423df065f60",
+                            "parentId": "a55027a2f4c4bed8dd8ae10f",
+                            "slotId": "Shoulder_l"
+                        },
+                        {
+                            "_id": "a5502707b524e25b2f55188b",
+                            "_tpl": "6570fc41d3eefd23430f8c83",
+                            "parentId": "a55027a2f4c4bed8dd8ae10f",
+                            "slotId": "Shoulder_r"
+                        },
+                        {
+                            "_id": "a55027abaa0e9f877f27a007",
+                            "_tpl": "656fb21fa0dce000a2020f7c",
+                            "parentId": "a55027a2f4c4bed8dd8ae10f",
+                            "slotId": "Front_plate"
+                        },
+                        {
+                            "_id": "a5502764941bdb04e96b375a",
+                            "_tpl": "656fb21fa0dce000a2020f7c",
+                            "parentId": "a55027a2f4c4bed8dd8ae10f",
+                            "slotId": "Back_plate"
+                        }
+                    ],
+                    "loyaltyLevel": 3,
+                    "target": "a55027a2f4c4bed8dd8ae10f",
+                    "traderId": "69744632183b55cf9702c983",
+                    "type": "AssortmentUnlock",
+                    "unknown": false
                 }
             ]
         },
@@ -2898,6 +3516,26 @@
                     "type": "Item",
                     "unknown": false,
                     "value": 95000
+                },
+                {
+                    "availableInGameEditions": [],
+                    "gameMode": [
+                        "regular",
+                        "pve"
+                    ],
+                    "id": "a55027baa29371584a9ed276",
+                    "isHidden": false,
+                    "items": [
+                        {
+                            "_id": "a55027a9095ff215d96ead98",
+                            "_tpl": "545cdae64bdc2d39198b4568"
+                        }
+                    ],
+                    "loyaltyLevel": 3,
+                    "target": "a55027a9095ff215d96ead98",
+                    "traderId": "69744632183b55cf9702c983",
+                    "type": "AssortmentUnlock",
+                    "unknown": false
                 }
             ]
         },
@@ -3033,6 +3671,26 @@
                     "type": "Item",
                     "unknown": false,
                     "value": 100000
+                },
+                {
+                    "availableInGameEditions": [],
+                    "gameMode": [
+                        "regular",
+                        "pve"
+                    ],
+                    "id": "a55027a1009c70fea68fe39a",
+                    "isHidden": false,
+                    "items": [
+                        {
+                            "_id": "a550273ccada4bcba8ab9d4c",
+                            "_tpl": "66b5f22b78bbc0200425f904"
+                        }
+                    ],
+                    "loyaltyLevel": 3,
+                    "target": "a550273ccada4bcba8ab9d4c",
+                    "traderId": "69744632183b55cf9702c983",
+                    "type": "AssortmentUnlock",
+                    "unknown": false
                 }
             ]
         },
@@ -3216,6 +3874,58 @@
                     "type": "Item",
                     "unknown": false,
                     "value": 110000
+                },
+                {
+                    "availableInGameEditions": [],
+                    "gameMode": [
+                        "regular",
+                        "pve"
+                    ],
+                    "id": "a55027b37c93e4526270b3b1",
+                    "isHidden": false,
+                    "items": [
+                        {
+                            "_id": "a55027b1f3c54cd0472c4d99",
+                            "_tpl": "5c0e774286f77468413cc5b2"
+                        }
+                    ],
+                    "loyaltyLevel": 4,
+                    "target": "a55027b1f3c54cd0472c4d99",
+                    "traderId": "69744632183b55cf9702c983",
+                    "type": "AssortmentUnlock",
+                    "unknown": false
+                },
+                {
+                    "availableInGameEditions": [],
+                    "gameMode": [
+                        "regular",
+                        "pve"
+                    ],
+                    "id": "a55027cbc0a7ce6d336faa02",
+                    "isHidden": false,
+                    "items": [
+                        {
+                            "_id": "a5502772e08ceabd8baf77f2",
+                            "_tpl": "5c17a7ed2e2216152142459c"
+                        },
+                        {
+                            "_id": "a55027fc89cfd0ca6e807478",
+                            "_tpl": "657f9897f4c82973640b235e",
+                            "parentId": "a5502772e08ceabd8baf77f2",
+                            "slotId": "Helmet_top"
+                        },
+                        {
+                            "_id": "a550274d10209a538359646d",
+                            "_tpl": "657f98fbada5fadd1f07a585",
+                            "parentId": "a5502772e08ceabd8baf77f2",
+                            "slotId": "Helmet_back"
+                        }
+                    ],
+                    "loyaltyLevel": 4,
+                    "target": "a5502772e08ceabd8baf77f2",
+                    "traderId": "69744632183b55cf9702c983",
+                    "type": "AssortmentUnlock",
+                    "unknown": false
                 }
             ]
         },
@@ -3423,6 +4133,88 @@
                     "type": "Item",
                     "unknown": false,
                     "value": 115000
+                },
+                {
+                    "availableInGameEditions": [],
+                    "gameMode": [
+                        "regular",
+                        "pve"
+                    ],
+                    "id": "a55027967b1ccc59003cfe12",
+                    "isHidden": false,
+                    "items": [
+                        {
+                            "_id": "a55027f8e453026f6429e341",
+                            "_tpl": "5b4329f05acfc47a86086aa1"
+                        },
+                        {
+                            "_id": "a55027b43ffac633027599de",
+                            "_tpl": "65711b07a330b8c9060f7b01",
+                            "parentId": "a55027f8e453026f6429e341",
+                            "slotId": "Helmet_top"
+                        },
+                        {
+                            "_id": "a55027e7f5b3648dcf83983a",
+                            "_tpl": "65711b489eb8c145180dbb9d",
+                            "parentId": "a55027f8e453026f6429e341",
+                            "slotId": "Helmet_back"
+                        },
+                        {
+                            "_id": "a55027586cabc2a50b4ededa",
+                            "_tpl": "65711b9b65daf6aa960c9b1b",
+                            "parentId": "a55027f8e453026f6429e341",
+                            "slotId": "helmet_eyes"
+                        },
+                        {
+                            "_id": "a55027290086058fd2d324fa",
+                            "_tpl": "65711bc79eb8c145180dbba1",
+                            "parentId": "a55027f8e453026f6429e341",
+                            "slotId": "helmet_jaw"
+                        },
+                        {
+                            "_id": "a55027426a992bd62c01e791",
+                            "_tpl": "65711b706d197c216005b31c",
+                            "parentId": "a55027f8e453026f6429e341",
+                            "slotId": "Helmet_ears"
+                        }
+                    ],
+                    "loyaltyLevel": 4,
+                    "target": "a55027f8e453026f6429e341",
+                    "traderId": "69744632183b55cf9702c983",
+                    "type": "AssortmentUnlock",
+                    "unknown": false
+                },
+                {
+                    "availableInGameEditions": [],
+                    "gameMode": [
+                        "regular",
+                        "pve"
+                    ],
+                    "id": "a5502783427fd4e3b6f3caed",
+                    "isHidden": false,
+                    "items": [
+                        {
+                            "_id": "a55027e86f294c337eeab74e",
+                            "_tpl": "5ac8d6885acfc400180ae7b0"
+                        },
+                        {
+                            "_id": "a550276b02eb12add81e4ebd",
+                            "_tpl": "657f8ec5f4c82973640b234c",
+                            "parentId": "a55027e86f294c337eeab74e",
+                            "slotId": "Helmet_top"
+                        },
+                        {
+                            "_id": "a55027d7870fa067c723b874",
+                            "_tpl": "657f8f10f4c82973640b2350",
+                            "parentId": "a55027e86f294c337eeab74e",
+                            "slotId": "Helmet_back"
+                        }
+                    ],
+                    "loyaltyLevel": 4,
+                    "target": "a55027e86f294c337eeab74e",
+                    "traderId": "69744632183b55cf9702c983",
+                    "type": "AssortmentUnlock",
+                    "unknown": false
                 }
             ]
         },
@@ -3567,6 +4359,64 @@
                     "type": "Item",
                     "unknown": false,
                     "value": 120000
+                },
+                {
+                    "availableInGameEditions": [],
+                    "gameMode": [
+                        "regular",
+                        "pve"
+                    ],
+                    "id": "a5502767a3e93b4148f8251f",
+                    "isHidden": false,
+                    "items": [
+                        {
+                            "_id": "a55027db276ce54e89adbc33",
+                            "_tpl": "5b40e2bc5acfc40016388216"
+                        },
+                        {
+                            "_id": "a550273fb7faeb10c3544626",
+                            "_tpl": "657112234269e9a568089eac",
+                            "parentId": "a55027db276ce54e89adbc33",
+                            "slotId": "Helmet_top"
+                        },
+                        {
+                            "_id": "a5502735d90ae9052480369a",
+                            "_tpl": "657112a4818110db4600aa66",
+                            "parentId": "a55027db276ce54e89adbc33",
+                            "slotId": "Helmet_back"
+                        },
+                        {
+                            "_id": "a550274f85050947722efcba",
+                            "_tpl": "657112ce22996eaf110881fb",
+                            "parentId": "a55027db276ce54e89adbc33",
+                            "slotId": "Helmet_ears"
+                        }
+                    ],
+                    "loyaltyLevel": 4,
+                    "target": "a55027db276ce54e89adbc33",
+                    "traderId": "69744632183b55cf9702c983",
+                    "type": "AssortmentUnlock",
+                    "unknown": false
+                },
+                {
+                    "availableInGameEditions": [],
+                    "gameMode": [
+                        "regular",
+                        "pve"
+                    ],
+                    "id": "a55027df1b8e9f6fb4992b9d",
+                    "isHidden": false,
+                    "items": [
+                        {
+                            "_id": "a55027c11777e5876b77af59",
+                            "_tpl": "5a16b7e1fcdbcb00165aa6c9"
+                        }
+                    ],
+                    "loyaltyLevel": 4,
+                    "target": "a55027c11777e5876b77af59",
+                    "traderId": "69744632183b55cf9702c983",
+                    "type": "AssortmentUnlock",
+                    "unknown": false
                 }
             ]
         },
@@ -3711,6 +4561,82 @@
                     "type": "Item",
                     "unknown": false,
                     "value": 125000
+                },
+                {
+                    "availableInGameEditions": [],
+                    "gameMode": [
+                        "regular",
+                        "pve"
+                    ],
+                    "id": "a55027d8b5569bd8a3f8c48b",
+                    "isHidden": false,
+                    "items": [
+                        {
+                            "_id": "a550277fd4ceaafddb916afa",
+                            "_tpl": "5c0e655586f774045612eeb2"
+                        },
+                        {
+                            "_id": "a550271196b21b80ba97a2ae",
+                            "_tpl": "6570e025615f54368b04fcb0",
+                            "parentId": "a550277fd4ceaafddb916afa",
+                            "slotId": "Soft_armor_front"
+                        },
+                        {
+                            "_id": "a55027f0861baefb2d035ff4",
+                            "_tpl": "6570e0610b57c03ec90b96ef",
+                            "parentId": "a550277fd4ceaafddb916afa",
+                            "slotId": "Soft_armor_back"
+                        },
+                        {
+                            "_id": "a55027496e8f4373a0066a22",
+                            "_tpl": "656fad8c498d1b7e3e071da0",
+                            "parentId": "a550277fd4ceaafddb916afa",
+                            "slotId": "Front_plate"
+                        },
+                        {
+                            "_id": "a550273ec41e2263ab6ac902",
+                            "_tpl": "656fad8c498d1b7e3e071da0",
+                            "parentId": "a550277fd4ceaafddb916afa",
+                            "slotId": "Back_plate"
+                        }
+                    ],
+                    "loyaltyLevel": 4,
+                    "target": "a550277fd4ceaafddb916afa",
+                    "traderId": "69744632183b55cf9702c983",
+                    "type": "AssortmentUnlock",
+                    "unknown": false
+                },
+                {
+                    "availableInGameEditions": [],
+                    "gameMode": [
+                        "regular",
+                        "pve"
+                    ],
+                    "id": "a550273f82295ffcc5ed148e",
+                    "isHidden": false,
+                    "items": [
+                        {
+                            "_id": "a55027b60e6630dc8c01cd63",
+                            "_tpl": "5e00c1ad86f774747333222c"
+                        },
+                        {
+                            "_id": "a5502758c511581c195fac1e",
+                            "_tpl": "6551fec55d0cf82e51014288",
+                            "parentId": "a55027b60e6630dc8c01cd63",
+                            "slotId": "helmet_top"
+                        },
+                        {
+                            "_id": "a55027d95947f84e7c3a1e82",
+                            "_tpl": "655200ba0ef76cf7be09d528",
+                            "parentId": "a55027b60e6630dc8c01cd63",
+                            "slotId": "helmet_back"
+                        }
+                    ],
+                    "loyaltyLevel": 4,
+                    "target": "a55027b60e6630dc8c01cd63",
+                    "traderId": "69744632183b55cf9702c983",
+                    "type": "AssortmentUnlock",
+                    "unknown": false
                 }
             ]
         },
@@ -3935,6 +4861,114 @@
                     "type": "Item",
                     "unknown": false,
                     "value": 2
+                },
+                {
+                    "availableInGameEditions": [],
+                    "gameMode": [
+                        "regular",
+                        "pve"
+                    ],
+                    "id": "a55027e816b2b92dd01d73ff",
+                    "isHidden": false,
+                    "items": [
+                        {
+                            "_id": "a550275e1ef6a91664f62391",
+                            "_tpl": "5c0e51be86f774598e797894"
+                        },
+                        {
+                            "_id": "a550275bdda794ed00c28f7a",
+                            "_tpl": "654a8b0b0337d53f9102c2ae",
+                            "parentId": "a550275e1ef6a91664f62391",
+                            "slotId": "Soft_armor_front"
+                        },
+                        {
+                            "_id": "a55027ec2aa8d0f22df2dee1",
+                            "_tpl": "654a8976f414fcea4004d78b",
+                            "parentId": "a550275e1ef6a91664f62391",
+                            "slotId": "Soft_armor_back"
+                        },
+                        {
+                            "_id": "a550275a01e45e08399f9ae4",
+                            "_tpl": "654a8b3df414fcea4004d78f",
+                            "parentId": "a550275e1ef6a91664f62391",
+                            "slotId": "Soft_armor_left"
+                        },
+                        {
+                            "_id": "a55027ca1970f2e552101b73",
+                            "_tpl": "654a8b80f414fcea4004d797",
+                            "parentId": "a550275e1ef6a91664f62391",
+                            "slotId": "soft_armor_right"
+                        },
+                        {
+                            "_id": "a55027cc6dd1f0c5fd011c53",
+                            "_tpl": "654a8ae00337d53f9102c2aa",
+                            "parentId": "a550275e1ef6a91664f62391",
+                            "slotId": "Collar"
+                        },
+                        {
+                            "_id": "a55027fc02cae98d7575d0e8",
+                            "_tpl": "654a8bc5f414fcea4004d79b",
+                            "parentId": "a550275e1ef6a91664f62391",
+                            "slotId": "Groin"
+                        },
+                        {
+                            "_id": "a5502712307e0544a9f95a53",
+                            "_tpl": "656f603f94b480b8a500c0d6",
+                            "parentId": "a550275e1ef6a91664f62391",
+                            "slotId": "Front_plate"
+                        },
+                        {
+                            "_id": "a55027bb2754821ab0affdc5",
+                            "_tpl": "656efd66034e8e01c407f35c",
+                            "parentId": "a550275e1ef6a91664f62391",
+                            "slotId": "Back_plate"
+                        }
+                    ],
+                    "loyaltyLevel": 2,
+                    "target": "a550275e1ef6a91664f62391",
+                    "traderId": "69744632183b55cf9702c983",
+                    "type": "AssortmentUnlock",
+                    "unknown": false
+                },
+                {
+                    "availableInGameEditions": [],
+                    "gameMode": [
+                        "regular",
+                        "pve"
+                    ],
+                    "id": "a55027713110339d5525d536",
+                    "isHidden": false,
+                    "items": [
+                        {
+                            "_id": "a5502781f5a498b242ae9ff7",
+                            "_tpl": "5df8a4d786f77412672a1e3b"
+                        }
+                    ],
+                    "loyaltyLevel": 4,
+                    "target": "a5502781f5a498b242ae9ff7",
+                    "traderId": "69744632183b55cf9702c983",
+                    "type": "AssortmentUnlock",
+                    "unknown": false
+                },
+                {
+                    "availableInGameEditions": [],
+                    "gameMode": [
+                        "regular",
+                        "pve"
+                    ],
+                    "id": "a550275eb072466475d906fe",
+                    "isHidden": false,
+                    "items": [
+                        {
+                            "_id": "a55027d9074f2e12f6211dfe",
+                            "_tpl": "5bae13ded4351e44f824bf38"
+                        }
+                    ],
+                    "loyaltyLevel": 4,
+                    "target": "a55027d9074f2e12f6211dfe",
+                    "traderId": "69744632183b55cf9702c983",
+                    "type": "AssortmentUnlock",
+                    "unknown": false
                 }
             ]
         },

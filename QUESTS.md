@@ -207,6 +207,8 @@ Atlas trades in dollars and Weiss in euros. Xiaoming sells both currencies at LL
 
 From quest XP alone, players reach about level 18, 26, 33 and 40 by the end of Acts I–IV. **L32 Domain Expansion** needs LL2 with every trader except Voron, so it finishes around the middle of Act II.
 
+**Trader stock.** What each trader sells, and which quests unlock what, is in [ASSORTS.md](ASSORTS.md). `tools/build_assorts.py` writes it into the assorts, quest assorts and `AssortmentUnlock` rewards, so a quest's Reward column here doesn't list those unlocks.
+
 ## Storyteller side lines (L)
 
 | ID | Trader | Quest | Tasks | Unlocked by | Reward | Quest id | Status | Notes |
