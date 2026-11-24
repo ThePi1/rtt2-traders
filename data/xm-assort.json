@@ -1,5 +1,46 @@
 {
-    "items": [],
-    "barter_scheme": {},
-    "loyal_level_items": {}
+    "items": [
+        {
+            "_id": "6b1e5c0a0b0c4d5e6f708192",
+            "_tpl": "5696686a4bdc2da3298b456a",
+            "parentId": "hideout",
+            "slotId": "hideout",
+            "upd": {
+                "UnlimitedCount": true,
+                "StackObjectsCount": 9999999
+            }
+        },
+        {
+            "_id": "6b1e5c0a0b0c4d5e6f708193",
+            "_tpl": "569668774bdc2da2298b4568",
+            "parentId": "hideout",
+            "slotId": "hideout",
+            "upd": {
+                "UnlimitedCount": true,
+                "StackObjectsCount": 9999999
+            }
+        }
+    ],
+    "barter_scheme": {
+        "6b1e5c0a0b0c4d5e6f708192": [
+            [
+                {
+                    "count": 136,
+                    "_tpl": "5449016a4bdc2d6f028b456f"
+                }
+            ]
+        ],
+        "6b1e5c0a0b0c4d5e6f708193": [
+            [
+                {
+                    "count": 158,
+                    "_tpl": "5449016a4bdc2d6f028b456f"
+                }
+            ]
+        ]
+    },
+    "loyal_level_items": {
+        "6b1e5c0a0b0c4d5e6f708192": 1,
+        "6b1e5c0a0b0c4d5e6f708193": 1
+    }
 }

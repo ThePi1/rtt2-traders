@@ -776,6 +776,19 @@
                     "type": "AssortmentUnlock",
                     "unknown": true,
                     "index": 0
+                },
+                {
+                    "availableInGameEditions": [],
+                    "gameMode": [
+                        "regular",
+                        "pve"
+                    ],
+                    "id": "8cf8e2857a87279f42d14765",
+                    "isHidden": false,
+                    "target": "69744632183b55cf9702c982",
+                    "type": "TraderStanding",
+                    "unknown": false,
+                    "value": 1.0
                 }
             ]
         },

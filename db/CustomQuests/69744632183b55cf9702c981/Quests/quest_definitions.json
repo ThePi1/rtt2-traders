@@ -6190,18 +6190,6 @@
                     "conditionType": "TraderLoyalty",
                     "dynamicLocale": false,
                     "globalQuestCounterId": "",
-                    "id": "69f946bea49a5754e709dbb5",
-                    "index": 0,
-                    "parentId": "",
-                    "target": "69744632183b55cf9702c988",
-                    "value": 2,
-                    "visibilityConditions": []
-                },
-                {
-                    "compareMethod": ">=",
-                    "conditionType": "TraderLoyalty",
-                    "dynamicLocale": false,
-                    "globalQuestCounterId": "",
                     "id": "69f946cea49a5754e709dbb6",
                     "index": 0,
                     "parentId": "",

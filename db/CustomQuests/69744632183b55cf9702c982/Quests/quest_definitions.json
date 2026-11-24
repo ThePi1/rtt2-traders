@@ -90,6 +90,19 @@
                     "type": "Experience",
                     "unknown": false,
                     "value": 2000
+                },
+                {
+                    "availableInGameEditions": [],
+                    "gameMode": [
+                        "regular",
+                        "pve"
+                    ],
+                    "id": "8c353d9b925133036a5cf439",
+                    "isHidden": false,
+                    "target": "69744632183b55cf9702c982",
+                    "type": "TraderStanding",
+                    "unknown": false,
+                    "value": 0.05
                 }
             ]
         },
@@ -209,6 +222,19 @@
                     "type": "Experience",
                     "unknown": false,
                     "value": 2500
+                },
+                {
+                    "availableInGameEditions": [],
+                    "gameMode": [
+                        "regular",
+                        "pve"
+                    ],
+                    "id": "ef54929d519686533127c914",
+                    "isHidden": false,
+                    "target": "69744632183b55cf9702c982",
+                    "type": "TraderStanding",
+                    "unknown": false,
+                    "value": 0.05
                 }
             ]
         },
@@ -325,6 +351,19 @@
                     "type": "Item",
                     "unknown": false,
                     "value": 65000
+                },
+                {
+                    "availableInGameEditions": [],
+                    "gameMode": [
+                        "regular",
+                        "pve"
+                    ],
+                    "id": "ae078f13ddaeec8fef432403",
+                    "isHidden": false,
+                    "target": "69744632183b55cf9702c982",
+                    "type": "TraderStanding",
+                    "unknown": false,
+                    "value": 0.05
                 }
             ]
         },
@@ -436,6 +475,19 @@
                     "type": "Experience",
                     "unknown": false,
                     "value": 2500
+                },
+                {
+                    "availableInGameEditions": [],
+                    "gameMode": [
+                        "regular",
+                        "pve"
+                    ],
+                    "id": "3e6297c317faba9ce276edee",
+                    "isHidden": false,
+                    "target": "69744632183b55cf9702c982",
+                    "type": "TraderStanding",
+                    "unknown": false,
+                    "value": 0.05
                 }
             ]
         },
@@ -589,6 +641,19 @@
                     "target": "69744632183b55cf9702c983",
                     "type": "TraderUnlock",
                     "unknown": false
+                },
+                {
+                    "availableInGameEditions": [],
+                    "gameMode": [
+                        "regular",
+                        "pve"
+                    ],
+                    "id": "942aed8a6981cb4a58c9ae52",
+                    "isHidden": false,
+                    "target": "69744632183b55cf9702c982",
+                    "type": "TraderStanding",
+                    "unknown": false,
+                    "value": 0.05
                 }
             ]
         },
@@ -790,6 +855,19 @@
                     "type": "Item",
                     "unknown": false,
                     "value": 250
+                },
+                {
+                    "availableInGameEditions": [],
+                    "gameMode": [
+                        "regular",
+                        "pve"
+                    ],
+                    "id": "42956b1ac94bde08b0b54033",
+                    "isHidden": false,
+                    "target": "69744632183b55cf9702c982",
+                    "type": "TraderStanding",
+                    "unknown": false,
+                    "value": 0.05
                 }
             ]
         },
@@ -1749,6 +1827,19 @@
                     "unknown": false,
                     "value": 5000,
                     "index": 0
+                },
+                {
+                    "availableInGameEditions": [],
+                    "gameMode": [
+                        "regular",
+                        "pve"
+                    ],
+                    "id": "1b8ce6c8f914ffb7bc433e41",
+                    "isHidden": false,
+                    "target": "69744632183b55cf9702c982",
+                    "type": "TraderStanding",
+                    "unknown": false,
+                    "value": 0.05
                 }
             ]
         },
@@ -1894,6 +1985,19 @@
                     "target": "69744632183b55cf9702c986",
                     "type": "TraderUnlock",
                     "unknown": false
+                },
+                {
+                    "availableInGameEditions": [],
+                    "gameMode": [
+                        "regular",
+                        "pve"
+                    ],
+                    "id": "1c262e4df7b7267e47ffbc27",
+                    "isHidden": false,
+                    "target": "69744632183b55cf9702c982",
+                    "type": "TraderStanding",
+                    "unknown": false,
+                    "value": 0.05
                 }
             ]
         },
@@ -1998,6 +2102,19 @@
                     "target": "69744632183b55cf9702c984",
                     "type": "TraderUnlock",
                     "unknown": false
+                },
+                {
+                    "availableInGameEditions": [],
+                    "gameMode": [
+                        "regular",
+                        "pve"
+                    ],
+                    "id": "173d49ee6d5f53bb8e9e3fa8",
+                    "isHidden": false,
+                    "target": "69744632183b55cf9702c982",
+                    "type": "TraderStanding",
+                    "unknown": false,
+                    "value": 0.05
                 }
             ]
         },
@@ -2102,6 +2219,19 @@
                     "target": "69744632183b55cf9702c985",
                     "type": "TraderUnlock",
                     "unknown": false
+                },
+                {
+                    "availableInGameEditions": [],
+                    "gameMode": [
+                        "regular",
+                        "pve"
+                    ],
+                    "id": "a9c50c46514d4fdcba6f6f6e",
+                    "isHidden": false,
+                    "target": "69744632183b55cf9702c982",
+                    "type": "TraderStanding",
+                    "unknown": false,
+                    "value": 0.05
                 }
             ]
         },
@@ -2390,6 +2520,19 @@
                     "type": "Item",
                     "unknown": false,
                     "value": 1
+                },
+                {
+                    "availableInGameEditions": [],
+                    "gameMode": [
+                        "regular",
+                        "pve"
+                    ],
+                    "id": "84ef4d0569252b1d923d0e0c",
+                    "isHidden": false,
+                    "target": "69744632183b55cf9702c982",
+                    "type": "TraderStanding",
+                    "unknown": false,
+                    "value": 0.05
                 }
             ]
         },
@@ -2522,6 +2665,19 @@
                     "type": "AssortmentUnlock",
                     "unknown": false,
                     "index": 0
+                },
+                {
+                    "availableInGameEditions": [],
+                    "gameMode": [
+                        "regular",
+                        "pve"
+                    ],
+                    "id": "7941a47291a9b5e6bc902131",
+                    "isHidden": false,
+                    "target": "69744632183b55cf9702c982",
+                    "type": "TraderStanding",
+                    "unknown": false,
+                    "value": 0.05
                 }
             ]
         },
@@ -2613,6 +2769,19 @@
                     "target": "69744632183b55cf9702c987",
                     "type": "TraderUnlock",
                     "unknown": false
+                },
+                {
+                    "availableInGameEditions": [],
+                    "gameMode": [
+                        "regular",
+                        "pve"
+                    ],
+                    "id": "41a3cf0df70e5f2e9be1b409",
+                    "isHidden": false,
+                    "target": "69744632183b55cf9702c982",
+                    "type": "TraderStanding",
+                    "unknown": false,
+                    "value": 0.5
                 }
             ]
         },
@@ -2777,6 +2946,19 @@
                     "type": "Item",
                     "unknown": false,
                     "value": 1
+                },
+                {
+                    "availableInGameEditions": [],
+                    "gameMode": [
+                        "regular",
+                        "pve"
+                    ],
+                    "id": "362d678cf9ec276bd9e81ee6",
+                    "isHidden": false,
+                    "target": "69744632183b55cf9702c982",
+                    "type": "TraderStanding",
+                    "unknown": false,
+                    "value": 1.0
                 }
             ]
         },
@@ -2897,6 +3079,19 @@
                     "unknown": false,
                     "value": 1000,
                     "index": 0
+                },
+                {
+                    "availableInGameEditions": [],
+                    "gameMode": [
+                        "regular",
+                        "pve"
+                    ],
+                    "id": "8780844f5a6e51c4fa37968b",
+                    "isHidden": false,
+                    "target": "69744632183b55cf9702c982",
+                    "type": "TraderStanding",
+                    "unknown": false,
+                    "value": 0.05
                 }
             ]
         },
@@ -3038,6 +3233,19 @@
                     "type": "Item",
                     "unknown": false,
                     "value": 50000
+                },
+                {
+                    "availableInGameEditions": [],
+                    "gameMode": [
+                        "regular",
+                        "pve"
+                    ],
+                    "id": "bf9508216ff2d143b5217d1c",
+                    "isHidden": false,
+                    "target": "69744632183b55cf9702c982",
+                    "type": "TraderStanding",
+                    "unknown": false,
+                    "value": 0.05
                 }
             ]
         },
@@ -3159,6 +3367,19 @@
                     "type": "Item",
                     "unknown": false,
                     "value": 20000
+                },
+                {
+                    "availableInGameEditions": [],
+                    "gameMode": [
+                        "regular",
+                        "pve"
+                    ],
+                    "id": "e38b405ba0a147282e4aeea8",
+                    "isHidden": false,
+                    "target": "69744632183b55cf9702c982",
+                    "type": "TraderStanding",
+                    "unknown": false,
+                    "value": 0.05
                 }
             ]
         },
@@ -3316,6 +3537,19 @@
                     "type": "Item",
                     "unknown": false,
                     "value": 1
+                },
+                {
+                    "availableInGameEditions": [],
+                    "gameMode": [
+                        "regular",
+                        "pve"
+                    ],
+                    "id": "fb386f7d9d913e5020984a82",
+                    "isHidden": false,
+                    "target": "69744632183b55cf9702c982",
+                    "type": "TraderStanding",
+                    "unknown": false,
+                    "value": 0.05
                 }
             ]
         },
@@ -3439,6 +3673,19 @@
                     "unknown": true,
                     "value": 1,
                     "index": 0
+                },
+                {
+                    "availableInGameEditions": [],
+                    "gameMode": [
+                        "regular",
+                        "pve"
+                    ],
+                    "id": "4678a1798ef0c37a583fcbf0",
+                    "isHidden": false,
+                    "target": "69744632183b55cf9702c982",
+                    "type": "TraderStanding",
+                    "unknown": false,
+                    "value": 0.05
                 }
             ]
         },
@@ -3576,6 +3823,19 @@
                     "type": "Item",
                     "unknown": false,
                     "value": 1
+                },
+                {
+                    "availableInGameEditions": [],
+                    "gameMode": [
+                        "regular",
+                        "pve"
+                    ],
+                    "id": "9288d7d4979b60a38c1a2d9a",
+                    "isHidden": false,
+                    "target": "69744632183b55cf9702c982",
+                    "type": "TraderStanding",
+                    "unknown": false,
+                    "value": 0.05
                 }
             ]
         },
@@ -3743,6 +4003,19 @@
                     "type": "Item",
                     "unknown": true,
                     "value": 1
+                },
+                {
+                    "availableInGameEditions": [],
+                    "gameMode": [
+                        "regular",
+                        "pve"
+                    ],
+                    "id": "5fc5163b0f20345e9cac2f22",
+                    "isHidden": false,
+                    "target": "69744632183b55cf9702c982",
+                    "type": "TraderStanding",
+                    "unknown": false,
+                    "value": 0.05
                 }
             ]
         },
@@ -3880,6 +4153,19 @@
                     "type": "Item",
                     "unknown": false,
                     "value": 1
+                },
+                {
+                    "availableInGameEditions": [],
+                    "gameMode": [
+                        "regular",
+                        "pve"
+                    ],
+                    "id": "9c24cd59da77f7c20734a5b7",
+                    "isHidden": false,
+                    "target": "69744632183b55cf9702c982",
+                    "type": "TraderStanding",
+                    "unknown": false,
+                    "value": 0.05
                 }
             ]
         },
@@ -4020,6 +4306,19 @@
                     "type": "Item",
                     "unknown": false,
                     "value": 60
+                },
+                {
+                    "availableInGameEditions": [],
+                    "gameMode": [
+                        "regular",
+                        "pve"
+                    ],
+                    "id": "033be324029bb82db37cc9ba",
+                    "isHidden": false,
+                    "target": "69744632183b55cf9702c982",
+                    "type": "TraderStanding",
+                    "unknown": false,
+                    "value": 0.05
                 }
             ]
         },
@@ -4157,6 +4456,19 @@
                     "unknown": true,
                     "value": 2,
                     "index": 0
+                },
+                {
+                    "availableInGameEditions": [],
+                    "gameMode": [
+                        "regular",
+                        "pve"
+                    ],
+                    "id": "b8d02ac0abb58b447762c941",
+                    "isHidden": false,
+                    "target": "69744632183b55cf9702c982",
+                    "type": "TraderStanding",
+                    "unknown": false,
+                    "value": 0.25
                 }
             ]
         },
@@ -4353,6 +4665,19 @@
                     "type": "AssortmentUnlock",
                     "unknown": false,
                     "index": 0
+                },
+                {
+                    "availableInGameEditions": [],
+                    "gameMode": [
+                        "regular",
+                        "pve"
+                    ],
+                    "id": "99e1ac35071bcab3eef1a86a",
+                    "isHidden": false,
+                    "target": "69744632183b55cf9702c982",
+                    "type": "TraderStanding",
+                    "unknown": false,
+                    "value": 0.05
                 }
             ]
         },
@@ -4566,6 +4891,19 @@
                     "type": "AssortmentUnlock",
                     "unknown": false,
                     "index": 0
+                },
+                {
+                    "availableInGameEditions": [],
+                    "gameMode": [
+                        "regular",
+                        "pve"
+                    ],
+                    "id": "83353a38937332b2077b0156",
+                    "isHidden": false,
+                    "target": "69744632183b55cf9702c982",
+                    "type": "TraderStanding",
+                    "unknown": false,
+                    "value": 0.05
                 }
             ]
         },
@@ -4749,6 +5087,19 @@
                     "traderId": "69744632183b55cf9702c981",
                     "type": "AssortmentUnlock",
                     "unknown": false
+                },
+                {
+                    "availableInGameEditions": [],
+                    "gameMode": [
+                        "regular",
+                        "pve"
+                    ],
+                    "id": "d37319f200f62cb86a177cd8",
+                    "isHidden": false,
+                    "target": "69744632183b55cf9702c982",
+                    "type": "TraderStanding",
+                    "unknown": false,
+                    "value": 0.05
                 }
             ]
         },
@@ -4869,6 +5220,19 @@
                     "unknown": false,
                     "value": 1,
                     "index": 0
+                },
+                {
+                    "availableInGameEditions": [],
+                    "gameMode": [
+                        "regular",
+                        "pve"
+                    ],
+                    "id": "c427f039075396fb46aecd0b",
+                    "isHidden": false,
+                    "target": "69744632183b55cf9702c982",
+                    "type": "TraderStanding",
+                    "unknown": false,
+                    "value": 0.05
                 }
             ]
         },
@@ -5010,6 +5374,19 @@
                     "type": "Item",
                     "unknown": false,
                     "value": 1
+                },
+                {
+                    "availableInGameEditions": [],
+                    "gameMode": [
+                        "regular",
+                        "pve"
+                    ],
+                    "id": "481fd48ab744a75db60d2a40",
+                    "isHidden": false,
+                    "target": "69744632183b55cf9702c982",
+                    "type": "TraderStanding",
+                    "unknown": false,
+                    "value": 0.05
                 }
             ]
         },
@@ -5130,6 +5507,19 @@
                     "unknown": false,
                     "value": 1,
                     "index": 0
+                },
+                {
+                    "availableInGameEditions": [],
+                    "gameMode": [
+                        "regular",
+                        "pve"
+                    ],
+                    "id": "fdbc9b530039a7e9325c5a2e",
+                    "isHidden": false,
+                    "target": "69744632183b55cf9702c982",
+                    "type": "TraderStanding",
+                    "unknown": false,
+                    "value": 0.05
                 }
             ]
         },
@@ -5278,6 +5668,19 @@
                     "unknown": false,
                     "value": 110000,
                     "index": 0
+                },
+                {
+                    "availableInGameEditions": [],
+                    "gameMode": [
+                        "regular",
+                        "pve"
+                    ],
+                    "id": "a840c517f570554cbb246fd0",
+                    "isHidden": false,
+                    "target": "69744632183b55cf9702c982",
+                    "type": "TraderStanding",
+                    "unknown": false,
+                    "value": 0.05
                 }
             ]
         },
@@ -5413,6 +5816,19 @@
                     "unknown": false,
                     "value": 110000,
                     "index": 0
+                },
+                {
+                    "availableInGameEditions": [],
+                    "gameMode": [
+                        "regular",
+                        "pve"
+                    ],
+                    "id": "c1e372be86a2152fb0012d91",
+                    "isHidden": false,
+                    "target": "69744632183b55cf9702c982",
+                    "type": "TraderStanding",
+                    "unknown": false,
+                    "value": 0.05
                 }
             ]
         },
@@ -5534,6 +5950,19 @@
                     "unknown": false,
                     "value": 110000,
                     "index": 0
+                },
+                {
+                    "availableInGameEditions": [],
+                    "gameMode": [
+                        "regular",
+                        "pve"
+                    ],
+                    "id": "5110ba26ca705550d1a82233",
+                    "isHidden": false,
+                    "target": "69744632183b55cf9702c982",
+                    "type": "TraderStanding",
+                    "unknown": false,
+                    "value": 0.05
                 }
             ]
         },
@@ -5655,6 +6084,19 @@
                     "traderId": "69744632183b55cf9702c982",
                     "type": "AssortmentUnlock",
                     "unknown": false
+                },
+                {
+                    "availableInGameEditions": [],
+                    "gameMode": [
+                        "regular",
+                        "pve"
+                    ],
+                    "id": "fdc10d23ff9b64a9613d9e2b",
+                    "isHidden": false,
+                    "target": "69744632183b55cf9702c982",
+                    "type": "TraderStanding",
+                    "unknown": false,
+                    "value": 0.05
                 }
             ]
         },
@@ -5916,6 +6358,19 @@
                     "unknown": true,
                     "value": 1,
                     "index": 0
+                },
+                {
+                    "availableInGameEditions": [],
+                    "gameMode": [
+                        "regular",
+                        "pve"
+                    ],
+                    "id": "66e8fa4e8f45ca2264d288d1",
+                    "isHidden": false,
+                    "target": "69744632183b55cf9702c982",
+                    "type": "TraderStanding",
+                    "unknown": false,
+                    "value": 0.5
                 }
             ]
         },

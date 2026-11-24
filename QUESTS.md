@@ -169,6 +169,44 @@ The story (Q) is split into four acts. Each act ends in a finale arc, and the fi
 
 **Domain Expansion in waves.** L33–L57 open with L32 as before. L60–L84 also need Q20, and L87–L117 also need Q25. L120 Ace's Legacy needs Q30, so it's post-game.
 
+## Trader loyalty
+
+Every RTT2 trader uses the same loyalty levels:
+
+| LL | Level | Standing | Sales (RUB traders) | Atlas (USD) | Weiss (EUR) |
+| --- | --- | --- | --- | --- | --- |
+| 2 | 15 | 1.0 | 150,000 | 1,250 | 1,100 |
+| 3 | 25 | 2.0 | 500,000 | 4,150 | 3,750 |
+| 4 | 35 | 3.0 | 1,000,000 | 8,250 | 7,500 |
+
+Atlas trades in dollars and Weiss in euros. Xiaoming sells both currencies at LL1, at 136 ₽ per dollar and 158 ₽ per euro.
+
+**Standing from quests.** Only a trader's own quests give that trader standing. The exception is Chimera, whose story standing comes from the act finales. "Story" quests are those Q30 needs through the act gates. Each trader's story quests add up to about 4.0, so a player reaches LL4 with about 70–88% of them done. Side quests add a buffer on top.
+
+| Trader | Per story quest | Per side quest | Story total | With side quests |
+| --- | --- | --- | --- | --- |
+| Chimera | Q4–Q15 (except Q9) +0.05; Q16 +0.5; Q20 +1.0; Q25 +1.0; Q26 +0.5; C10 +0.25 | Q9 and the other C quests +0.05 | 3.80 | 4.80 |
+| Xiaoming | +0.16 | — | 4.00 | 4.00 |
+| Atlas | +0.14 | — | 4.20 | 4.20 |
+| Price | +0.20 | — | 4.00 | 4.00 |
+| Needle | +0.27 | N1, N2 +0.15 | 4.05 | 4.35 |
+| Weiss | +0.33 | S2–S4, S7, S8, S14–S17 +0.10 | 3.96 | 4.86 |
+| Voron | +0.20 | — | 4.00 | 4.00 |
+
+**When each LL arrives** (story quests only; the level requirement can hold it back further):
+
+| Trader | LL2 | LL3 | LL4 |
+| --- | --- | --- | --- |
+| Chimera | Q16 (end of Act I) | Q20 (end of Act II) | Q25 (end of Act III) |
+| Price | P5 (Act I) | P10 (Act II) | P15 (Act III) |
+| Xiaoming | X7 (Act II) | X16 (Act III) | X15 (Act IV) |
+| Atlas | A8 (Act II) | A15 (Act III) | A19 (Act IV) |
+| Needle | N6 (Act II) | N10 (Act III) | N14 (Act IV) |
+| Weiss | S9 (Act II) | S12 (Act IV; Act II with side quests) | S19 (Act IV) |
+| Voron | V5 (Act III) | V10 (Act III) | V15 (Act IV) |
+
+From quest XP alone, players reach about level 18, 26, 33 and 40 by the end of Acts I–IV. **L32 Domain Expansion** needs LL2 with every trader except Voron, so it finishes around the middle of Act II.
+
 ## Storyteller side lines (L)
 
 | ID | Trader | Quest | Tasks | Unlocked by | Reward | Quest id | Status | Notes |
@@ -205,7 +243,7 @@ The story (Q) is split into four acts. Each act ends in a finale arc, and the fi
 | L29 | Storyteller | Ammo Lover | Handover 8 boxes FIR ammo | L27 | XP | `6a0bb9e8255fe4bc50f25853` | Audited | Dialed In - Part 3 |
 | L30 | Storyteller | Back To Basics | Kill 4 PMCs, 4 Scav with a pistol on Shoreline | L1 |  | `6a0bbb85255fe4bc50f2585a` | Audited | Rest In Pieces |
 | L31 | Storyteller | Broad Consensus | Reach rep 2 with all new traders (minus Storyteller) | Q19 |  |  | Skipped | Skipped: intentional, it repeats L32 Domain Expansion by design.; Bullet Hose |
-| L32 | Storyteller | Domain Expansion | Reach lv2 rep with all modded traders | Q14 | Unlock all below pt.1 quests, 10k XP | `69f94677a49a5754e709dbae` | Audited | Sheet said "not working": it needs LL2 with Atlas, Needle and Price, who had no quests to raise standing. Reachable once their quests are built.; Sheet: not working |
+| L32 | Storyteller | Domain Expansion | Reach lv2 rep with all modded traders | Q14 | Unlock all below pt.1 quests, 10k XP | `69f94677a49a5754e709dbae` | Audited | Sheet said "not working": it needs LL2 with Atlas, Needle and Price, who had no quests to raise standing. Reachable once their quests are built.; Sheet: not working; Now needs LL2 with Chimera, Price, Atlas, Xiaoming, Needle and Weiss. The Voron condition was removed, since he only opens after Q20. Expected to finish mid Act II: see [Trader loyalty](#trader-loyalty). |
 | L33 | Storyteller | Live, Laugh, Love - Part 1 | Turn in FIR: 2x Air Filter, 3x GPU, 5x Hose, 5x ES Lamp | L32 | Hideout Management levels | `69f94739a49a5754e709dbb8` | Audited |  |
 | L34 | Storyteller | Live, Laugh, Love - Part 2 | Turn in FIR: 2x AESA, 7x Screws, 7x Bolt, 1x Intelligence Folder, 2x Iskra | L33 | Hideout Management levels | `69f94af1a49a5754e709dbbe` | Audited | Fixed: asks for 2 Iskra (was 1), found in raid (`a2cf888`). |
 | L35 | Storyteller | Live, Laugh, Love - Part 3 | Turn in FIR: 1x Vertex, 2x Blue Intelligence, 1x MCC, 4x Toolset, 2x LEDX | L34 | Hideout Management levels (max out) | `69f94bf2a49a5754e709dbc5` | Audited | "MCC" is the Advanced current converter, as intended. |

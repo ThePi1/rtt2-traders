@@ -57,7 +57,7 @@
         "exchange_price_coef": 0,
         "heal_price_coef": 0,
         "insurance_price_coef": "11",
-        "minLevel": 20,
+        "minLevel": 15,
         "minSalesSum": 150000,
         "minStanding": 1,
         "repair_price_coef": 180
@@ -77,7 +77,7 @@
         "exchange_price_coef": 0,
         "heal_price_coef": 0,
         "insurance_price_coef": "13",
-        "minLevel": 30,
+        "minLevel": 35,
         "minSalesSum": 1000000,
         "minStanding": 3,
         "repair_price_coef": 195
